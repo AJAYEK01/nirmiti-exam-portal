@@ -1,345 +1,356 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
 import Link from "next/link";
 import {
   Clock,
   HelpCircle,
   Award,
-  AlertTriangle,
-  CheckCircle2,
-  ChevronRight,
+  GraduationCap,
   ShieldCheck,
-  Zap,
-  Shuffle,
-  Eye,
-  PlusCircle,
+  Building2,
+  Phone,
+  BookOpen,
+  ArrowRight,
+  User,
+  Sparkles,
+  LayoutDashboard,
   FileCheck,
 } from "lucide-react";
-
-interface Exam {
-  id: string;
-  title: string;
-  description: string;
-  category: string;
-  durationMinutes: number;
-  totalMarks: number;
-  passingMarks: number;
-  positiveMarks: number;
-  negativeMarks: number;
-  shuffleQuestions: boolean;
-  _count: {
-    questions: number;
-    attempts: number;
-  };
-  attempts?: {
-    id: string;
-    score: number;
-    totalMarks: number;
-    isPassed: boolean;
-    submittedAt: string | null;
-  }[];
-}
+import { POPULAR_SCHOOLS } from "@/lib/schools-data";
 
 export default function HomePage() {
-  const [exams, setExams] = useState<Exam[]>([]);
-  const [loading, setLoading] = useState(true);
+  const router = useRouter();
+
+  // Registration form state
+  const [name, setName] = useState("");
+  const [selectedSchool, setSelectedSchool] = useState("");
+  const [customSchool, setCustomSchool] = useState("");
+  const [className, setClassName] = useState("Class 10");
+  const [medium, setMedium] = useState<"ENGLISH" | "MALAYALAM">("ENGLISH");
+  const [parentMobile, setParentMobile] = useState("");
+
+  const [error, setError] = useState("");
+  const [loading, setLoading] = useState(false);
   const [user, setUser] = useState<any>(null);
 
-  const loadData = async () => {
+  useEffect(() => {
+    fetch("/api/auth/me")
+      .then((r) => r.json())
+      .then((d) => setUser(d.user))
+      .catch(() => {});
+  }, []);
+
+  const handleStartExam = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setError("");
+
+    if (!name.trim()) {
+      setError("Please enter your full name.");
+      return;
+    }
+
+    const finalSchool =
+      selectedSchool === "OTHER"
+        ? customSchool.trim()
+        : selectedSchool.trim();
+
+    if (!finalSchool) {
+      setError("Please select or enter your school name.");
+      return;
+    }
+
+    if (!parentMobile || !/^[6-9]\d{9}$/.test(parentMobile.trim())) {
+      setError("Please enter a valid 10-digit parent mobile number (starts with 6, 7, 8, or 9).");
+      return;
+    }
+
+    setLoading(true);
+
     try {
-      const [authRes, examsRes] = await Promise.all([
-        fetch("/api/auth/me"),
-        fetch("/api/exams"),
-      ]);
+      const res = await fetch("/api/auth/register-candidate", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: name.trim(),
+          schoolName: finalSchool,
+          className,
+          medium,
+          parentMobile: parentMobile.trim(),
+        }),
+      });
 
-      const authData = await authRes.json();
-      setUser(authData.user);
-
-      const examsData = await examsRes.json();
-      if (examsData.exams) {
-        setExams(examsData.exams);
+      const data = await res.json();
+      if (!res.ok) {
+        setError(data.error || "Failed to initiate exam registration.");
+        setLoading(false);
+        return;
       }
+
+      // Route directly to exam taking screen
+      router.push(`/exams/${data.examId}/take`);
     } catch (err) {
       console.error(err);
-    } finally {
+      setError("An unexpected error occurred. Please try again.");
       setLoading(false);
     }
   };
 
-  useEffect(() => {
-    loadData();
-  }, []);
-
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-10">
-      {/* Hero Banner */}
-      <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-blue-900 via-indigo-900 to-slate-900 text-white p-8 md:p-12 shadow-xl border border-blue-800/40">
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8 md:py-12 space-y-10">
+      {/* Top Hero Banner */}
+      <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-blue-900 via-indigo-950 to-slate-950 text-white p-6 sm:p-10 shadow-2xl border border-blue-800/40">
         <div className="relative z-10 max-w-3xl space-y-4">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/20 text-blue-200 border border-blue-400/30 text-xs font-semibold backdrop-blur-sm">
-            <Zap className="w-3.5 h-3.5 text-amber-400" />
-            Standardized Objective Testing Engine
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-500/20 text-blue-200 border border-blue-400/30 text-xs font-bold backdrop-blur-sm">
+            <Sparkles className="w-3.5 h-3.5 text-amber-400" />
+            Official Online Talent Assessment 2026
           </div>
 
-          <h1 className="text-3xl md:text-5xl font-black tracking-tight leading-tight">
-            Conduct High-Stakes Objective Exams with Absolute Integrity
+          <h1 className="text-2xl sm:text-4xl md:text-5xl font-black tracking-tight leading-tight">
+            Online Objective Examination
           </h1>
 
-          <p className="text-slate-300 text-base md:text-lg max-w-2xl font-normal">
-            Real-time countdown timer, multi-state question palette, custom negative marking, anti-cheat tab monitoring, and instant automated evaluation.
+          <p className="text-slate-300 text-sm sm:text-base max-w-2xl font-normal leading-relaxed">
+            Test your knowledge with <b>25 randomly selected questions</b> from our 1,000-question repository. Total duration: <b>8 minutes</b>. Top 2 students from each school advance to the finals!
           </p>
 
-          <div className="flex flex-wrap items-center gap-4 pt-2">
-            {user?.role === "ADMIN" ? (
+          {user?.role === "ADMIN" && (
+            <div className="pt-2">
               <Link
                 href="/admin"
-                className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-blue-500 hover:bg-blue-600 text-white font-semibold text-sm transition shadow-lg shadow-blue-500/25"
+                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-black text-xs transition shadow-lg shadow-amber-500/20"
               >
-                <PlusCircle className="w-4 h-4" />
-                Open Examiner Portal
+                <LayoutDashboard className="w-4 h-4" />
+                Examiner Portal (View School Toppers)
               </Link>
-            ) : (
-              <a
-                href="#exams-list"
-                className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-blue-500 hover:bg-blue-600 text-white font-semibold text-sm transition shadow-lg shadow-blue-500/25"
-              >
-                <FileCheck className="w-4 h-4" />
-                Browse Available Exams
-              </a>
-            )}
-
-            <div className="flex items-center gap-4 text-xs text-slate-300">
-              <span className="flex items-center gap-1">
-                <ShieldCheck className="w-4 h-4 text-emerald-400" /> Tab-switch detection
-              </span>
-              <span className="flex items-center gap-1">
-                <Shuffle className="w-4 h-4 text-cyan-400" /> Question shuffling
-              </span>
             </div>
-          </div>
-        </div>
-
-        {/* Decorative ambient background */}
-        <div className="absolute -top-24 -right-24 w-96 h-96 bg-blue-500/20 rounded-full blur-3xl pointer-events-none" />
-        <div className="absolute -bottom-24 -left-24 w-96 h-96 bg-indigo-500/20 rounded-full blur-3xl pointer-events-none" />
-      </div>
-
-      {/* Feature Highlights Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-        <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm flex items-start gap-3">
-          <div className="p-2.5 rounded-xl bg-blue-50 text-blue-600">
-            <Clock className="w-5 h-5" />
-          </div>
-          <div>
-            <h4 className="text-sm font-bold text-slate-900">Synchronized Timer</h4>
-            <p className="text-xs text-slate-500 mt-1">
-              Live countdown with auto-submission when time runs out.
-            </p>
-          </div>
-        </div>
-
-        <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm flex items-start gap-3">
-          <div className="p-2.5 rounded-xl bg-amber-50 text-amber-600">
-            <AlertTriangle className="w-5 h-5" />
-          </div>
-          <div>
-            <h4 className="text-sm font-bold text-slate-900">Negative Marking</h4>
-            <p className="text-xs text-slate-500 mt-1">
-              Configurable penalty deductions for incorrect guesses.
-            </p>
-          </div>
-        </div>
-
-        <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm flex items-start gap-3">
-          <div className="p-2.5 rounded-xl bg-purple-50 text-purple-600">
-            <HelpCircle className="w-5 h-5" />
-          </div>
-          <div>
-            <h4 className="text-sm font-bold text-slate-900">Question Palette</h4>
-            <p className="text-xs text-slate-500 mt-1">
-              Categorizes answered, review, and unattempted questions.
-            </p>
-          </div>
-        </div>
-
-        <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm flex items-start gap-3">
-          <div className="p-2.5 rounded-xl bg-emerald-50 text-emerald-600">
-            <Award className="w-5 h-5" />
-          </div>
-          <div>
-            <h4 className="text-sm font-bold text-slate-900">Instant Scorecard</h4>
-            <p className="text-xs text-slate-500 mt-1">
-              Detailed answers and step-by-step solutions immediately.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      {/* Available Exams Section */}
-      <section id="exams-list" className="space-y-6">
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-          <div>
-            <h2 className="text-2xl font-black text-slate-900 tracking-tight">
-              Active Examinations
-            </h2>
-            <p className="text-sm text-slate-500">
-              Select an assessment below to begin your proctored online test.
-            </p>
-          </div>
-
-          {user?.role === "ADMIN" && (
-            <Link
-              href="/admin"
-              className="inline-flex items-center gap-1.5 text-sm font-bold text-blue-600 hover:text-blue-800 bg-blue-50 px-4 py-2 rounded-xl border border-blue-200 transition"
-            >
-              <PlusCircle className="w-4 h-4" /> Create New Exam
-            </Link>
           )}
         </div>
 
-        {loading ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[1, 2, 3].map((n) => (
-              <div
-                key={n}
-                className="h-64 rounded-2xl bg-slate-200/70 animate-pulse border border-slate-200"
-              />
-            ))}
-          </div>
-        ) : exams.length === 0 ? (
-          <div className="bg-white rounded-2xl border border-slate-200 p-12 text-center max-w-lg mx-auto space-y-4">
-            <div className="w-12 h-12 rounded-full bg-blue-50 text-blue-600 flex items-center justify-center mx-auto">
-              <FileCheck className="w-6 h-6" />
+        {/* Ambient glow */}
+        <div className="absolute -top-24 -right-24 w-96 h-96 bg-blue-500/20 rounded-full blur-3xl pointer-events-none" />
+      </div>
+
+      {/* Grid: Instructions vs Registration Card */}
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+        {/* Left Column: Exam Rules & Details (5 cols) */}
+        <div className="lg:col-span-5 space-y-6">
+          <div className="bg-white rounded-3xl border border-slate-200 p-6 sm:p-7 shadow-xs space-y-5">
+            <h3 className="text-lg font-black text-slate-900 flex items-center gap-2">
+              <ShieldCheck className="w-5 h-5 text-blue-600" />
+              Examination Rules
+            </h3>
+
+            <div className="space-y-4 text-xs sm:text-sm text-slate-600">
+              <div className="flex items-start gap-3 p-3 rounded-2xl bg-blue-50/60 border border-blue-100">
+                <Clock className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                <div>
+                  <strong className="text-slate-900 block font-bold">Strict 8 Minutes Duration</strong>
+                  <span>The live countdown begins immediately upon entering the test. At 00:00, the test will automatically close and submit.</span>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-3 p-3 rounded-2xl bg-indigo-50/60 border border-indigo-100">
+                <HelpCircle className="w-5 h-5 text-indigo-600 flex-shrink-0 mt-0.5" />
+                <div>
+                  <strong className="text-slate-900 block font-bold">25 Randomized Questions</strong>
+                  <span>Each candidate receives 25 questions dynamically chosen from the 1,000-question bank with randomized option orders.</span>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-3 p-3 rounded-2xl bg-emerald-50/60 border border-emerald-100">
+                <Award className="w-5 h-5 text-emerald-600 flex-shrink-0 mt-0.5" />
+                <div>
+                  <strong className="text-slate-900 block font-bold">Top 2 per School Selection</strong>
+                  <span>Finalists are selected from each school based on <b>highest score achieved in the least completion time</b>.</span>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-3 p-3 rounded-2xl bg-amber-50/60 border border-amber-100">
+                <Phone className="w-5 h-5 text-amber-600 flex-shrink-0 mt-0.5" />
+                <div>
+                  <strong className="text-slate-900 block font-bold">Parent Mobile Number Required</strong>
+                  <span>A valid 10-digit mobile number is mandatory to identify your submission and notify selected toppers.</span>
+                </div>
+              </div>
             </div>
-            <h3 className="text-lg font-bold text-slate-800">No Exams Published Yet</h3>
-            <p className="text-sm text-slate-500">
-              There are no examinations available at the moment. Switch to the Admin portal to create and publish exams.
-            </p>
-            {user?.role === "ADMIN" && (
-              <Link
-                href="/admin"
-                className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-blue-600 text-white text-sm font-semibold hover:bg-blue-700"
-              >
-                Go to Examiner Portal
-              </Link>
-            )}
           </div>
-        ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {exams.map((exam) => {
-              const lastAttempt = exam.attempts && exam.attempts[0];
-              const isSubmitted = lastAttempt && lastAttempt.submittedAt;
+        </div>
 
-              return (
-                <div
-                  key={exam.id}
-                  className="bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition-all flex flex-col justify-between overflow-hidden group"
+        {/* Right Column: Candidate Entry Form (7 cols) */}
+        <div className="lg:col-span-7">
+          <div className="bg-white rounded-3xl border border-slate-200 p-6 sm:p-8 shadow-sm space-y-6">
+            <div className="space-y-1">
+              <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
+                Candidate Registration
+              </h2>
+              <p className="text-xs text-slate-500">
+                Please enter your academic details to launch your online exam session.
+              </p>
+            </div>
+
+            {error && (
+              <div className="p-3.5 rounded-2xl bg-rose-50 border border-rose-200 text-rose-700 text-xs font-semibold">
+                {error}
+              </div>
+            )}
+
+            <form onSubmit={handleStartExam} className="space-y-4">
+              {/* Full Name */}
+              <div className="space-y-1">
+                <label className="text-xs font-bold text-slate-700 flex items-center gap-1.5">
+                  <User className="w-3.5 h-3.5 text-blue-600" />
+                  Candidate Full Name *
+                </label>
+                <input
+                  type="text"
+                  required
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                  placeholder="e.g. Rahul S. Kumar"
+                  className="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-slate-50 focus:bg-white transition"
+                />
+              </div>
+
+              {/* School Name Dropdown */}
+              <div className="space-y-1">
+                <label className="text-xs font-bold text-slate-700 flex items-center gap-1.5">
+                  <Building2 className="w-3.5 h-3.5 text-blue-600" />
+                  School Name *
+                </label>
+                <select
+                  required
+                  value={selectedSchool}
+                  onChange={(e) => setSelectedSchool(e.target.value)}
+                  className="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-slate-50 focus:bg-white transition"
                 >
-                  <div className="p-6 space-y-4">
-                    {/* Top Row: Category & Badges */}
-                    <div className="flex items-center justify-between gap-2">
-                      <span className="text-xs font-semibold px-2.5 py-1 rounded-full bg-slate-100 text-slate-700 border border-slate-200">
-                        {exam.category}
-                      </span>
-                      {exam.negativeMarks > 0 && (
-                        <span className="text-[11px] font-bold px-2 py-0.5 rounded-full bg-rose-50 text-rose-700 border border-rose-200 flex items-center gap-1">
-                          <AlertTriangle className="w-3 h-3" />
-                          -{exam.negativeMarks} Neg.
-                        </span>
-                      )}
-                    </div>
+                  <option value="">-- Select Your School --</option>
+                  {POPULAR_SCHOOLS.map((school, i) => (
+                    <option key={i} value={school}>
+                      {school}
+                    </option>
+                  ))}
+                  <option value="OTHER">✍️ Other / School Not Listed Above (Type Below)</option>
+                </select>
 
-                    {/* Title & Desc */}
-                    <div>
-                      <h3 className="text-lg font-bold text-slate-900 group-hover:text-blue-600 transition">
-                        {exam.title}
-                      </h3>
-                      <p className="text-xs text-slate-500 mt-1 line-clamp-2 leading-relaxed">
-                        {exam.description || "Comprehensive objective examination with timer and analytics."}
-                      </p>
-                    </div>
-
-                    {/* Key Metrics */}
-                    <div className="grid grid-cols-3 gap-2 py-3 border-y border-slate-100 text-center">
-                      <div className="space-y-0.5">
-                        <span className="text-[10px] uppercase font-bold text-slate-400">Questions</span>
-                        <p className="text-sm font-bold text-slate-800">
-                          {exam._count.questions}
-                        </p>
-                      </div>
-                      <div className="space-y-0.5 border-x border-slate-100">
-                        <span className="text-[10px] uppercase font-bold text-slate-400">Duration</span>
-                        <p className="text-sm font-bold text-slate-800">
-                          {exam.durationMinutes}m
-                        </p>
-                      </div>
-                      <div className="space-y-0.5">
-                        <span className="text-[10px] uppercase font-bold text-slate-400">Total Marks</span>
-                        <p className="text-sm font-bold text-slate-800">
-                          {exam.totalMarks}
-                        </p>
-                      </div>
-                    </div>
-
-                    {/* Scoring Breakdown */}
-                    <div className="text-xs text-slate-600 flex items-center justify-between bg-slate-50 px-3 py-2 rounded-xl">
-                      <span>Correct: <b className="text-emerald-700">+{exam.positiveMarks}</b></span>
-                      <span>Pass: <b className="text-slate-800">{exam.passingMarks} pts</b></span>
-                    </div>
-
-                    {/* Previous Result Banner if completed */}
-                    {isSubmitted && (
-                      <div
-                        className={`text-xs p-3 rounded-xl border flex items-center justify-between ${
-                          lastAttempt.isPassed
-                            ? "bg-emerald-50 border-emerald-200 text-emerald-900"
-                            : "bg-rose-50 border-rose-200 text-rose-900"
-                        }`}
-                      >
-                        <div className="flex items-center gap-1.5 font-medium">
-                          <CheckCircle2
-                            className={`w-4 h-4 ${
-                              lastAttempt.isPassed ? "text-emerald-600" : "text-rose-600"
-                            }`}
-                          />
-                          <span>
-                            Last Score: <b>{lastAttempt.score}/{lastAttempt.totalMarks}</b>
-                          </span>
-                        </div>
-                        <span className="font-bold text-[10px] uppercase px-1.5 py-0.5 rounded bg-white/70">
-                          {lastAttempt.isPassed ? "Passed" : "Failed"}
-                        </span>
-                      </div>
-                    )}
+                {/* Custom School Input if "OTHER" selected */}
+                {selectedSchool === "OTHER" && (
+                  <div className="pt-2 animate-in fade-in">
+                    <input
+                      type="text"
+                      required
+                      value={customSchool}
+                      onChange={(e) => setCustomSchool(e.target.value)}
+                      placeholder="Type Full Official Name of Your School here..."
+                      className="w-full px-4 py-2.5 rounded-xl border-2 border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-600 text-sm bg-white"
+                    />
                   </div>
+                )}
+              </div>
 
-                  {/* Actions Bottom Bar */}
-                  <div className="p-4 bg-slate-50 border-t border-slate-100 flex items-center gap-2">
-                    <Link
-                      href={`/exams/${exam.id}/take`}
-                      className="flex-1 inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold text-xs py-2.5 px-4 rounded-xl shadow-xs transition"
+              {/* Class & Medium in 2 columns */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {/* Class / Standard */}
+                <div className="space-y-1">
+                  <label className="text-xs font-bold text-slate-700 flex items-center gap-1.5">
+                    <GraduationCap className="w-3.5 h-3.5 text-blue-600" />
+                    Class / Standard *
+                  </label>
+                  <select
+                    value={className}
+                    onChange={(e) => setClassName(e.target.value)}
+                    className="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-slate-50 focus:bg-white transition"
+                  >
+                    <option value="Class 7">Class 7</option>
+                    <option value="Class 8">Class 8</option>
+                    <option value="Class 9">Class 9</option>
+                    <option value="Class 10">Class 10</option>
+                    <option value="Class 11">Class 11</option>
+                    <option value="Class 12">Class 12</option>
+                  </select>
+                </div>
+
+                {/* Medium of Exam */}
+                <div className="space-y-1">
+                  <label className="text-xs font-bold text-slate-700 flex items-center gap-1.5">
+                    <BookOpen className="w-3.5 h-3.5 text-blue-600" />
+                    Medium of Exam *
+                  </label>
+                  <div className="grid grid-cols-2 gap-2 pt-0.5">
+                    <button
+                      type="button"
+                      onClick={() => setMedium("ENGLISH")}
+                      className={`py-2 px-3 rounded-xl border text-xs font-bold transition ${
+                        medium === "ENGLISH"
+                          ? "bg-blue-600 text-white border-blue-600 shadow-xs"
+                          : "bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100"
+                      }`}
                     >
-                      {isSubmitted ? "Retake Examination" : "Start Examination"}
-                      <ChevronRight className="w-3.5 h-3.5" />
-                    </Link>
-
-                    {isSubmitted && (
-                      <Link
-                        href={`/results/${lastAttempt.id}`}
-                        className="inline-flex items-center justify-center gap-1.5 bg-white hover:bg-slate-100 text-slate-700 border border-slate-200 font-semibold text-xs py-2.5 px-3 rounded-xl transition"
-                        title="View detailed scorecard and answers"
-                      >
-                        <Eye className="w-3.5 h-3.5 text-blue-600" />
-                        Review
-                      </Link>
-                    )}
+                      English
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => setMedium("MALAYALAM")}
+                      className={`py-2 px-3 rounded-xl border text-xs font-bold transition ${
+                        medium === "MALAYALAM"
+                          ? "bg-blue-600 text-white border-blue-600 shadow-xs"
+                          : "bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100"
+                      }`}
+                    >
+                      മലയാളം
+                    </button>
                   </div>
                 </div>
-              );
-            })}
+              </div>
+
+              {/* Parent Mobile Number */}
+              <div className="space-y-1">
+                <div className="flex items-center justify-between">
+                  <label className="text-xs font-bold text-slate-700 flex items-center gap-1.5">
+                    <Phone className="w-3.5 h-3.5 text-blue-600" />
+                    Parent Mobile Number *
+                  </label>
+                  <span className="text-[11px] font-semibold text-slate-400">
+                    Must be exactly 10 digits
+                  </span>
+                </div>
+                <div className="relative">
+                  <span className="absolute left-3.5 top-2.5 text-xs font-bold text-slate-400">
+                    +91
+                  </span>
+                  <input
+                    type="tel"
+                    required
+                    maxLength={10}
+                    value={parentMobile}
+                    onChange={(e) => setParentMobile(e.target.value.replace(/\D/g, ""))}
+                    placeholder="9876543210"
+                    className="w-full pl-12 pr-4 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-slate-50 focus:bg-white font-mono tracking-wider transition"
+                  />
+                </div>
+                {parentMobile && parentMobile.length !== 10 && (
+                  <p className="text-[11px] text-amber-600 font-medium">
+                    Entered {parentMobile.length} of 10 digits
+                  </p>
+                )}
+              </div>
+
+              {/* CTA Submit Button */}
+              <div className="pt-2">
+                <button
+                  type="submit"
+                  disabled={loading}
+                  className="w-full inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm sm:text-base py-3.5 px-6 rounded-2xl shadow-lg shadow-blue-600/25 transition disabled:opacity-50"
+                >
+                  {loading ? "Preparing 25 Questions..." : "Begin 8-Minute Examination"}
+                  <ArrowRight className="w-4 h-4" />
+                </button>
+              </div>
+            </form>
           </div>
-        )}
-      </section>
+        </div>
+      </div>
     </div>
   );
 }

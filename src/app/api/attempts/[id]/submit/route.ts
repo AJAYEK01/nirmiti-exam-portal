@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/db";
-import { evaluateExam } from "@/lib/exam-engine";
 
 export async function POST(
   req: NextRequest,
@@ -13,11 +12,7 @@ export async function POST(
     const attempt = await prisma.attempt.findUnique({
       where: { id: params.id },
       include: {
-        exam: {
-          include: {
-            questions: true,
-          },
-        },
+        exam: true,
         answers: true,
       },
     });
@@ -32,87 +27,131 @@ export async function POST(
         alreadySubmitted: true,
         attemptId: attempt.id,
         score: attempt.score,
+        timeTakenSeconds: attempt.timeTakenSeconds,
         isPassed: attempt.isPassed,
       });
     }
 
-    // Merge answers from body if provided, otherwise use saved in db
-    const finalAnswersMap = new Map<string, { selectedOption: number | null; isMarkedReview: boolean }>();
-    
-    // First from DB
+    // Parse optionsOrderMap if present: questionId -> [shuffled original indexes]
+    let optionsOrderMap: Record<string, number[]> = {};
+    if (attempt.optionsOrderMap) {
+      try {
+        optionsOrderMap = JSON.parse(attempt.optionsOrderMap);
+      } catch (e) {
+        console.error("Failed to parse optionsOrderMap", e);
+      }
+    }
+
+    // Merge answers from body with saved database answers
+    const answersMap = new Map<string, { selectedOption: number | null; isMarkedReview: boolean }>();
     attempt.answers.forEach((a) => {
-      finalAnswersMap.set(a.questionId, {
+      answersMap.set(a.questionId, {
         selectedOption: a.selectedOption,
         isMarkedReview: a.isMarkedReview,
       });
     });
 
-    // Override or add from request body if any
     if (Array.isArray(answers)) {
       answers.forEach((a: any) => {
-        finalAnswersMap.set(a.questionId, {
+        answersMap.set(a.questionId, {
           selectedOption: a.selectedOption !== undefined ? a.selectedOption : null,
           isMarkedReview: Boolean(a.isMarkedReview),
         });
       });
     }
 
-    const candidateAnswers = Array.from(finalAnswersMap.entries()).map(
-      ([questionId, val]) => ({
-        questionId,
-        selectedOption: val.selectedOption,
-        isMarkedReview: val.isMarkedReview,
-      })
-    );
+    // Load question definitions
+    let questionIds: string[] = [];
+    if (attempt.selectedQuestionIds) {
+      try {
+        questionIds = JSON.parse(attempt.selectedQuestionIds);
+      } catch {}
+    }
 
-    const questionsForGrading = attempt.exam.questions.map((q) => ({
-      id: q.id,
-      correctAnswer: q.correctAnswer,
-      marks: q.marks,
-      negativeMarks: q.negativeMarks,
-    }));
+    if (questionIds.length === 0) {
+      questionIds = Array.from(answersMap.keys());
+    }
 
-    const result = evaluateExam(questionsForGrading, candidateAnswers, {
-      defaultPositiveMarks: attempt.exam.positiveMarks,
-      defaultNegativeMarks: attempt.exam.negativeMarks,
-      passingMarks: attempt.exam.passingMarks,
-      totalMarks: attempt.exam.totalMarks,
+    const questionRecords = await prisma.question.findMany({
+      where: { id: { in: questionIds } },
     });
 
-    // Update answer records in database
-    for (const graded of result.gradedAnswers) {
-      await prisma.answerRecord.upsert({
-        where: {
-          attemptId_questionId: {
-            attemptId: attempt.id,
-            questionId: graded.questionId,
-          },
-        },
-        create: {
-          attemptId: attempt.id,
-          questionId: graded.questionId,
-          selectedOption: graded.selectedOption,
-          isMarkedReview: graded.isMarkedReview,
-          isCorrect: graded.isCorrect,
-          marksAwarded: graded.marksAwarded,
-        },
-        update: {
-          selectedOption: graded.selectedOption,
-          isMarkedReview: graded.isMarkedReview,
-          isCorrect: graded.isCorrect,
-          marksAwarded: graded.marksAwarded,
-        },
+    let score = 0;
+    let correctCount = 0;
+    let incorrectCount = 0;
+    let unattemptedCount = 0;
+
+    const gradedRecords: any[] = [];
+
+    for (const q of questionRecords) {
+      const ans = answersMap.get(q.id);
+      const chosenShuffledIndex = ans?.selectedOption;
+      const isMarkedReview = Boolean(ans?.isMarkedReview);
+
+      let isCorrect = false;
+      let marksAwarded = 0;
+
+      if (chosenShuffledIndex === null || chosenShuffledIndex === undefined) {
+        unattemptedCount++;
+      } else {
+        // Map chosen shuffled index to original option index
+        const orderPermutation = optionsOrderMap[q.id];
+        const originalIndex = orderPermutation ? orderPermutation[chosenShuffledIndex] : chosenShuffledIndex;
+
+        if (originalIndex === q.correctAnswer) {
+          isCorrect = true;
+          correctCount++;
+          marksAwarded = 1.0;
+          score += 1.0;
+        } else {
+          incorrectCount++;
+          marksAwarded = 0.0;
+        }
+      }
+
+      gradedRecords.push({
+        attemptId: attempt.id,
+        questionId: q.id,
+        selectedOption: chosenShuffledIndex,
+        isMarkedReview,
+        isCorrect,
+        marksAwarded,
       });
     }
 
-    // Finalize attempt
+    // Upsert answer records in DB
+    for (const rec of gradedRecords) {
+      await prisma.answerRecord.upsert({
+        where: {
+          attemptId_questionId: {
+            attemptId: rec.attemptId,
+            questionId: rec.questionId,
+          },
+        },
+        create: rec,
+        update: rec,
+      });
+    }
+
+    const now = new Date();
+    const timeTakenSeconds = Math.max(
+      1,
+      Math.min(
+        (attempt.exam.durationMinutes || 8) * 60,
+        Math.floor((now.getTime() - new Date(attempt.startedAt).getTime()) / 1000)
+      )
+    );
+
+    const isPassed = score >= (attempt.exam.passingMarks || 10);
+
     const updatedAttempt = await prisma.attempt.update({
       where: { id: attempt.id },
       data: {
-        score: result.score,
-        totalMarks: result.totalMarks,
-        isPassed: result.isPassed,
-        submittedAt: new Date(),
+        score,
+        totalMarks: 25,
+        isPassed,
+        timeTakenSeconds,
+        submittedAt: now,
         cheatWarnings:
           cheatWarnings !== undefined
             ? Number(cheatWarnings)
@@ -124,12 +163,13 @@ export async function POST(
       success: true,
       attemptId: updatedAttempt.id,
       score: updatedAttempt.score,
-      totalMarks: updatedAttempt.totalMarks,
+      totalMarks: 25,
       isPassed: updatedAttempt.isPassed,
-      correctCount: result.correctCount,
-      incorrectCount: result.incorrectCount,
-      unattemptedCount: result.unattemptedCount,
-      percentage: result.percentage,
+      timeTakenSeconds,
+      correctCount,
+      incorrectCount,
+      unattemptedCount,
+      percentage: Math.round((score / 25) * 100),
     });
   } catch (error) {
     console.error("Submit exam error:", error);

@@ -9,18 +9,16 @@ export async function GET(
     const attempt = await prisma.attempt.findUnique({
       where: { id: params.id },
       include: {
-        exam: {
-          include: {
-            questions: {
-              orderBy: { orderIndex: "asc" },
-            },
-          },
-        },
+        exam: true,
         answers: true,
         user: {
           select: {
             name: true,
             email: true,
+            schoolName: true,
+            className: true,
+            medium: true,
+            parentMobile: true,
           },
         },
       },
@@ -30,6 +28,37 @@ export async function GET(
       return NextResponse.json({ error: "Attempt not found" }, { status: 404 });
     }
 
+    // Determine the specific questions taken for this attempt (25 questions)
+    let questionIds: string[] = [];
+    if (attempt.selectedQuestionIds) {
+      try {
+        questionIds = JSON.parse(attempt.selectedQuestionIds);
+      } catch {}
+    }
+
+    let questions = [];
+    if (questionIds.length > 0) {
+      const qRecords = await prisma.question.findMany({
+        where: { id: { in: questionIds } },
+      });
+      const qMap = new Map(qRecords.map((q) => [q.id, q]));
+      questions = questionIds.map((id) => qMap.get(id)).filter(Boolean) as typeof qRecords;
+    } else {
+      questions = await prisma.question.findMany({
+        where: { examId: attempt.examId },
+        take: 25,
+        orderBy: { orderIndex: "asc" },
+      });
+    }
+
+    // Parse optionsOrderMap if present
+    let optionsOrderMap: Record<string, number[]> = {};
+    if (attempt.optionsOrderMap) {
+      try {
+        optionsOrderMap = JSON.parse(attempt.optionsOrderMap);
+      } catch {}
+    }
+
     const answerMap = new Map<string, any>();
     attempt.answers.forEach((ans) => answerMap.set(ans.questionId, ans));
 
@@ -37,21 +66,28 @@ export async function GET(
     let incorrectCount = 0;
     let unattemptedCount = 0;
 
-    const questionsReview = attempt.exam.questions.map((q) => {
+    const questionsReview = questions.map((q, idx) => {
       const userAns = answerMap.get(q.id);
-      const selected = userAns?.selectedOption ?? null;
-      let parsedOptions: string[] = [];
+      const chosenShuffledIndex = userAns?.selectedOption ?? null;
+      let rawOptions: string[] = [];
       try {
-        parsedOptions = JSON.parse(q.options);
+        rawOptions = JSON.parse(q.options);
       } catch {
-        parsedOptions = [];
+        rawOptions = [];
       }
 
+      // Reconstruct shuffled options as shown to the candidate
+      const orderPermutation = optionsOrderMap[q.id] || [0, 1, 2, 3];
+      const displayedOptions = orderPermutation.map((origIdx) => rawOptions[origIdx] ?? "");
+
+      // Identify which displayed option index was the correct one
+      const correctShuffledIndex = orderPermutation.indexOf(q.correctAnswer);
+
       let status: "correct" | "incorrect" | "unattempted" = "unattempted";
-      if (selected === null || selected === undefined) {
+      if (chosenShuffledIndex === null || chosenShuffledIndex === undefined) {
         unattemptedCount++;
         status = "unattempted";
-      } else if (selected === q.correctAnswer) {
+      } else if (chosenShuffledIndex === correctShuffledIndex) {
         correctCount++;
         status = "correct";
       } else {
@@ -61,27 +97,29 @@ export async function GET(
 
       return {
         id: q.id,
-        orderIndex: q.orderIndex,
+        orderIndex: idx + 1,
         text: q.text,
-        options: parsedOptions,
-        correctAnswer: q.correctAnswer,
-        selectedOption: selected,
-        explanation: q.explanation || "No explanation provided.",
-        isCorrect: userAns?.isCorrect ?? (selected === q.correctAnswer),
-        marksAwarded: userAns?.marksAwarded ?? 0,
-        positiveMarks: q.marks ?? attempt.exam.positiveMarks,
-        negativeMarks: q.negativeMarks ?? attempt.exam.negativeMarks,
+        options: displayedOptions,
+        correctAnswer: correctShuffledIndex >= 0 ? correctShuffledIndex : q.correctAnswer,
+        selectedOption: chosenShuffledIndex,
+        explanation: q.explanation || "Official answer key verified.",
+        isCorrect: status === "correct",
+        marksAwarded: status === "correct" ? 1.0 : 0.0,
+        positiveMarks: 1.0,
+        negativeMarks: 0.0,
         status,
       };
     });
 
-    const timeTakenSeconds = attempt.submittedAt
-      ? Math.floor(
-          (new Date(attempt.submittedAt).getTime() -
-            new Date(attempt.startedAt).getTime()) /
-            1000
-        )
-      : 0;
+    const timeTakenSeconds =
+      attempt.timeTakenSeconds ||
+      (attempt.submittedAt
+        ? Math.floor(
+            (new Date(attempt.submittedAt).getTime() -
+              new Date(attempt.startedAt).getTime()) /
+              1000
+          )
+        : 0);
 
     const attemptedCount = correctCount + incorrectCount;
     const accuracy =
@@ -97,7 +135,7 @@ export async function GET(
         startedAt: attempt.startedAt,
         submittedAt: attempt.submittedAt,
         score: attempt.score,
-        totalMarks: attempt.totalMarks,
+        totalMarks: attempt.totalMarks || 25,
         isPassed: attempt.isPassed,
         cheatWarnings: attempt.cheatWarnings,
         timeTakenSeconds,
@@ -106,7 +144,7 @@ export async function GET(
         correctCount,
         incorrectCount,
         unattemptedCount,
-        totalQuestions: attempt.exam.questions.length,
+        totalQuestions: questions.length,
       },
       candidate: attempt.user,
       exam: {

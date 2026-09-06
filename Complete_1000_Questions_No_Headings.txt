@@ -1,0 +1,6999 @@
+Q. Which gas is taken in by green plants during the process of photosynthesis?
+A) Oxygen
+B) Carbon dioxide
+C) Nitrogen
+D) Hydrogen
+Answer: B) Carbon dioxide
+
+Q. Which part of the human body pumps blood throughout the organism?
+A) Lungs
+B) Brain
+C) Heart
+D) Stomach
+Answer: C) Heart
+
+Q. Which organ in plants prepares food using sunlight?
+A) Root
+B) Stem
+C) Leaf
+D) Flower
+Answer: C) Leaf
+
+Q. What is the process of water changing into water vapor upon heating called?
+A) Condensation
+B) Evaporation
+C) Freezing
+D) Sublimation
+Answer: B) Evaporation
+
+Q. Which object among the following is attracted by a magnet?
+A) Plastic ruler
+B) Iron nail
+C) Wooden block
+D) Glass marble
+Answer: B) Iron nail
+
+Q. Which animal is recognized as the Official State Animal of Kerala?
+A) Tiger
+B) Indian Elephant
+C) Lion-tailed Macaque
+D) Leopard
+Answer: B) Indian Elephant
+
+Q. What type of energy is possessed by moving water in a river?
+A) Potential Energy
+B) Kinetic Energy
+C) Chemical Energy
+D) Nuclear Energy
+Answer: B) Kinetic Energy
+
+Q. Which instrument is used to measure body temperature?
+A) Barometer
+B) Thermometer
+C) Speedometer
+D) Lactometer
+Answer: B) Thermometer
+
+Q. Which part of the seedling emerges first from a germinating seed?
+A) Plumule (Stem)
+B) Radicle (Root)
+C) Leaflet
+D) Cotyledon
+Answer: B) Radicle (Root)
+
+Q. What is the primary source of energy for all living organisms on Earth?
+A) Wind
+B) The Sun
+C) Electricity
+D) Coal
+Answer: B) The Sun
+
+Q. What is the SI unit of electric potential difference (Voltage)?
+A) Ampere
+B) Volt
+C) Ohm
+D) Watt
+Answer: B) Volt
+
+Q. What happens to the speed of light when it passes from air into glass?
+A) Increases
+B) Decreases
+C) Remains unchanged
+D) Becomes zero
+Answer: B) Decreases
+
+Q. Which simple machine consists of a rigid bar that pivots around a fixed point called a fulcrum?
+A) Pulley
+B) Wedge
+C) Lever
+D) Screw
+Answer: C) Lever
+
+Q. What type of magnetic pole interaction occurs between two like poles?
+A) Attraction
+B) Repulsion
+C) No force
+D) Neutralization
+Answer: B) Repulsion
+
+Q. What is the SI unit of work and energy?
+A) Newton
+B) Pascal
+C) Joule
+D) Watt
+Answer: C) Joule
+
+Q. Which mirror is capable of producing a virtual, erect, and magnified image of an object placed close to it?
+A) Convex Mirror
+B) Concave Mirror
+C) Plane Mirror
+D) Cylindrical Mirror
+Answer: B) Concave Mirror
+
+Q. In a series electrical circuit containing three identical bulbs, what happens to the total brightness if a fourth bulb is added in series?
+A) Increases
+B) Decreases
+C) Remains the same
+D) All bulbs blow out
+Answer: B) Decreases
+
+Q. Which law states that 'To every action, there is always an equal and opposite reaction'?
+A) Newton's First Law
+B) Newton's Second Law
+C) Newton's Third Law
+D) Law of Conservation of Energy
+Answer: C) Newton's Third Law
+
+Q. Sound waves cannot travel through which of the following?
+A) Water
+B) Steel
+C) Vacuum
+D) Air
+Answer: C) Vacuum
+
+Q. What is the rate of doing work defined as in physics?
+A) Energy
+B) Force
+C) Power
+D) Pressure
+Answer: C) Power
+
+Q. Which color among white light components undergoes the least deviation when passing through a triangular prism?
+A) Violet
+B) Blue
+C) Yellow
+D) Red
+Answer: D) Red
+
+Q. What is the phenomenon of image inversion where the right side appears left in a plane mirror?
+A) Lateral inversion
+B) Vertical inversion
+C) Refraction
+D) Dispersion
+Answer: A) Lateral inversion
+
+Q. What is the unit used to measure sound frequency?
+A) Decibel (dB)
+B) Hertz (Hz)
+C) Meter (m)
+D) Second (s)
+Answer: B) Hertz (Hz)
+
+Q. Which material acts as an electrical insulator?
+A) Aluminum wire
+B) Copper strip
+C) Rubber band
+D) Iron rod
+Answer: C) Rubber band
+
+Q. What physical quantity is measured by a vehicle's speedometer?
+A) Average speed
+B) Instantaneous speed
+C) Acceleration
+D) Total distance covered
+Answer: B) Instantaneous speed
+
+Q. What gas do animals take in during respiration?
+A) Carbon dioxide
+B) Oxygen
+C) Nitrogen
+D) Hydrogen
+Answer: B) Oxygen
+
+Q. Which part of a flower develops into a fruit after fertilization?
+A) Seed
+B) Petal
+C) Ovary
+D) Leaf
+Answer: C) Ovary
+
+Q. Which organ system in humans is responsible for breaking down food to supply nutrients?
+A) Respiratory System
+B) Digestive System
+C) Nervous System
+D) Circulatory System
+Answer: B) Digestive System
+
+Q. What state of matter has a fixed volume but no fixed shape, taking the shape of its container?
+A) Solid
+B) Liquid
+C) Gas
+D) Plasma
+Answer: B) Liquid
+
+Q. Which force causes a rolling ball on a floor to eventually slow down and stop?
+A) Gravitational force
+B) Magnetic force
+C) Frictional force
+D) Electrostatic force
+Answer: C) Frictional force
+
+Q. What is the Official State Bird of Kerala?
+A) Peacock
+B) Great Hornbill (Vezhambal)
+C) Indian Roller
+D) House Sparrow
+Answer: B) Great Hornbill (Vezhambal)
+
+Q. Which form of energy is stored inside food items and chemical batteries?
+A) Electrical Energy
+B) Chemical Energy
+C) Light Energy
+D) Mechanical Energy
+Answer: B) Chemical Energy
+
+Q. What process describes liquid water turning into ice when cooled to 0 C?
+A) Freezing
+B) Melting
+C) Condensation
+D) Evaporation
+Answer: A) Freezing
+
+Q. Which part of a plant grows downwards into the soil in response to gravity?
+A) Stem
+B) Flower
+C) Root
+D) Fruit
+Answer: C) Root
+
+Q. What is the SI unit of pressure?
+A) Newton
+B) Pascal (Pa)
+C) Joule
+D) Watt
+Answer: B) Pascal (Pa)
+
+Q. Which mirror forms an image that is always virtual, erect, and the exact same size as the object?
+A) Concave Mirror
+B) Convex Mirror
+C) Plane Mirror
+D) Parabolic Mirror
+Answer: C) Plane Mirror
+
+Q. What property of a body opposes any change in its state of rest or uniform motion?
+A) Velocity
+B) Inertia
+C) Acceleration
+D) Momentum
+Answer: B) Inertia
+
+Q. Sound waves travel fastest through which state of matter?
+A) Solid
+B) Liquid
+C) Gas
+D) Vacuum
+Answer: A) Solid
+
+Q. What is the rate of change of distance defined as?
+A) Velocity
+B) Acceleration
+C) Speed
+D) Displacement
+Answer: C) Speed
+
+Q. What color is formed at the top of a primary rainbow?
+A) Violet
+B) Blue
+C) Red
+D) Yellow
+Answer: C) Red
+
+Q. What is the maximum displacement of a vibrating particle from its mean position called?
+A) Frequency
+B) Wavelength
+C) Amplitude
+D) Time period
+Answer: C) Amplitude
+
+Q. What unit measures loudness or intensity of sound?
+A) Hertz (Hz)
+B) Decibel (dB)
+C) Meter (m)
+D) Newton (N)
+Answer: B) Decibel (dB)
+
+Q. What is the path traced by a freely falling body under gravity called?
+A) Linear Motion
+B) Circular Motion
+C) Oscillatory Motion
+D) Random Motion
+Answer: A) Linear Motion
+
+Q. Which property of light enables the formation of sharp shadows?
+A) Refraction
+B) Rectilinear propagation
+C) Dispersion
+D) Diffraction
+Answer: B) Rectilinear propagation
+
+Q. Which of the following state symbols of Kerala represents the State Tree?
+A) Teak
+B) Banyan Tree
+C) Coconut Tree
+D) Jackfruit Tree
+Answer: C) Coconut Tree
+
+Q. What type of energy is stored in a stretched rubber band?
+A) Kinetic Energy
+B) Chemical Energy
+C) Elastic Potential Energy
+D) Thermal Energy
+Answer: C) Elastic Potential Energy
+
+Q. Which force pulls dropped objects toward the center of the Earth?
+A) Magnetic Force
+B) Gravitational Force
+C) Electrostatic Force
+D) Nuclear Force
+Answer: B) Gravitational Force
+
+Q. Which gas dissolved in water is utilized by aquatic animals for respiration?
+A) Nitrogen
+B) Oxygen
+C) Carbon dioxide
+D) Hydrogen
+Answer: B) Oxygen
+
+Q. What happens to the volume of water when it freezes into ice?
+A) Decreases
+B) Increases
+C) Remains exactly the same
+D) Becomes zero
+Answer: B) Increases
+
+Q. Which instrument is used by doctors to listen to heartbeats and lung sounds?
+A) Thermometer
+B) Stethoscope
+C) Microscope
+D) Periscope
+Answer: B) Stethoscope
+
+Q. Which form of heat transfer does NOT require any material medium?
+A) Conduction
+B) Convection
+C) Radiation
+D) Evaporation
+Answer: C) Radiation
+
+Q. What is the process of conversion of water vapor into liquid water called?
+A) Evaporation
+B) Condensation
+C) Sublimation
+D) Transpiration
+Answer: B) Condensation
+
+Q. A speed-time graph with a straight horizontal line parallel to the time axis represents:
+A) Uniform acceleration
+B) Motion at rest
+C) Uniform speed
+D) Non-uniform speed
+Answer: C) Uniform speed
+
+Q. Which lens is thicker in the middle than at the edges?
+A) Concave Lens
+B) Convex Lens
+C) Plano-concave Lens
+D) Cylindrical Lens
+Answer: B) Convex Lens
+
+Q. Which method of heat transfer occurs mainly in liquids and gases due to density differences?
+A) Conduction
+B) Convection
+C) Radiation
+D) Refraction
+Answer: B) Convection
+
+Q. Which type of mirror is used as a rear-view mirror in motor vehicles because of its wide field of view?
+A) Concave Mirror
+B) Convex Mirror
+C) Plane Mirror
+D) Parabolic Mirror
+Answer: B) Convex Mirror
+
+Q. The bouncing back of light rays into the same medium after hitting a polished surface is called:
+A) Refraction
+B) Dispersion
+C) Reflection
+D) Total Internal Reflection
+Answer: C) Reflection
+
+Q. What is the approximate speed of light in a vacuum?
+A) 3 x 10^8 m/s
+B) 3 x 10^5 m/s
+C) 340 m/s
+D) 1.5 x 10^8 m/s
+Answer: A) 3 x 10^8 m/s
+
+Q. The pitch of a musical sound depends directly on which wave property?
+A) Amplitude
+B) Speed
+C) Frequency
+D) Wavelength
+Answer: C) Frequency
+
+Q. What is the SI unit of force?
+A) Pascal
+B) Watt
+C) Newton
+D) Joule
+Answer: C) Newton
+
+Q. The splitting of white light into its component seven colors when passing through a prism is known as:
+A) Scattering
+B) Interference
+C) Dispersion
+D) Diffraction
+Answer: C) Dispersion
+
+Q. What is the rate of change of velocity called in physics?
+A) Speed
+B) Acceleration
+C) Momentum
+D) Force
+Answer: B) Acceleration
+
+Q. The device used to measure atmospheric pressure is:
+A) Thermometer
+B) Barometer
+C) Hydrometer
+D) Lactometer
+Answer: B) Barometer
+
+Q. In which scale of temperature is Absolute Zero defined as 0?
+A) Celsius
+B) Fahrenheit
+C) Kelvin
+D) Reaumur
+Answer: C) Kelvin
+
+Q. The phenomenon responsible for the twinkling of stars in the night sky is:
+A) Total Internal Reflection
+B) Atmospheric Refraction
+C) Scattering of Light
+D) Interference
+Answer: B) Atmospheric Refraction
+
+Q. Weight of an object on the surface of the Earth depends on:
+A) Mass only
+B) Acceleration due to gravity only
+C) Both Mass and Acceleration due to gravity
+D) Volume of the object
+Answer: C) Both Mass and Acceleration due to gravity
+
+Q. The normal human audible sound frequency range is between:
+A) 20 Hz to 20,000 Hz
+B) Below 20 Hz only
+C) Above 20,000 Hz only
+D) 100 Hz to 5,000 Hz
+Answer: A) 20 Hz to 20,000 Hz
+
+Q. Upward buoyant force exerted by a fluid on an immersed object equals the weight of fluid displaced according to:
+A) Pascal's Principle
+B) Archimedes' Principle
+C) Bernoulli's Principle
+D) Hooke's Law
+Answer: B) Archimedes' Principle
+
+Q. The energy possessed by a body due to its position or elevated height is:
+A) Gravitational Potential Energy
+B) Kinetic Energy
+C) Thermal Energy
+D) Chemical Energy
+Answer: A) Gravitational Potential Energy
+
+Q. A school bus travels 60 metres in 10 seconds. What is its average speed?
+A) 5 m/s
+B) 6 m/s
+C) 10 m/s
+D) 60 m/s
+Answer: B) 6 m/s
+
+Q. A runner covers 100 m in 20 s. What is the runner's average speed?
+A) 2 m/s
+B) 4 m/s
+C) 5 m/s
+D) 10 m/s
+Answer: C) 5 m/s
+
+Q. Which quantity tells us how fast an object is moving regardless of direction?
+A) Mass
+B) Speed
+C) Temperature
+D) Density
+Answer: B) Speed
+
+Q. Why do vehicle tyres have tread patterns carved into them?
+A) To eliminate all friction
+B) To increase grip and friction with the road
+C) To reduce the tyre mass
+D) To produce static electricity
+Answer: B) To increase grip and friction with the road
+
+Q. Why does a metal spoon feel hotter than a wooden spoon when placed in hot soup?
+A) Metal conducts heat much faster than wood
+B) Wood produces coldness
+C) Metal has no internal atoms
+D) Wood absorbs all radiant heat instantly
+Answer: A) Metal conducts heat much faster than wood
+
+Q. Water droplets form on the outside of a chilled drinking glass mainly because of:
+A) Melting of glass
+B) Condensation of atmospheric water vapor
+C) Boiling of water
+D) Freezing of surrounding air
+Answer: B) Condensation of atmospheric water vapor
+
+Q. Which process helps wet laundry dry faster on a sunny and windy day?
+A) Evaporation
+B) Freezing
+C) Condensation
+D) Melting
+Answer: A) Evaporation
+
+Q. Why is light-coloured clothing preferred during peak summer?
+A) It absorbs all radiant heat
+B) It reflects most radiant heat
+C) It produces thermal energy
+D) It conducts heat into the skin
+Answer: B) It reflects most radiant heat
+
+Q. A straw partly immersed in water appears bent at the liquid surface due to:
+A) Reflection
+B) Refraction
+C) Evaporation
+D) Diffusion
+Answer: B) Refraction
+
+Q. Which color of visible light has the shortest wavelength?
+A) Red
+B) Yellow
+C) Green
+D) Violet
+Answer: D) Violet
+
+Q. Sound is produced when a physical medium or object:
+A) Vibrates
+B) Freezes
+C) Reflects light
+D) Becomes transparent
+Answer: A) Vibrates
+
+Q. Which sound wave frequency has the highest pitch?
+A) 100 Hz
+B) 200 Hz
+C) 500 Hz
+D) 1000 Hz
+Answer: D) 1000 Hz
+
+Q. A louder sound has a greater wave:
+A) Amplitude
+B) Frequency only
+C) Wavelength only
+D) Color
+Answer: A) Amplitude
+
+Q. What is the SI unit of length in the metric system?
+A) Kilogram
+B) Metre
+C) Second
+D) Newton
+Answer: B) Metre
+
+Q. The SI unit of time is:
+A) Minute
+B) Hour
+C) Second
+D) Day
+Answer: C) Second
+
+Q. An echo is heard when sound waves undergo:
+A) Reflection
+B) Refraction
+C) Conduction
+D) Dispersion
+Answer: A) Reflection
+
+Q. Which color has the longest wavelength in the visible light spectrum?
+A) Violet
+B) Blue
+C) Green
+D) Red
+Answer: D) Red
+
+Q. What optical phenomenon causes the rainbow after rain?
+A) Dispersion and internal reflection in raindrops
+B) Interference only
+C) Atmospheric absorption
+D) Diffraction only
+Answer: A) Dispersion and internal reflection in raindrops
+
+Q. What type of lens is used to correct Myopia (short-sightedness)?
+A) Convex Lens
+B) Concave Lens
+C) Bifocal Lens
+D) Cylindrical Lens
+Answer: B) Concave Lens
+
+Q. What is the optical power of a concave lens with a focal length of -0.25 m?
+A) -4 D
+B) +4 D
+C) -0.25 D
+D) -2 D
+Answer: A) -4 D
+
+Q. What is the focal length of a convex lens with an optical power of +2 D?
+A) +0.5 m (50 cm)
+B) +2 m
+C) +0.2 m
+D) +1 m
+Answer: A) +0.5 m (50 cm)
+
+Q. When light travels from an optically denser medium to a rarer medium at an angle greater than the critical angle, what occurs?
+A) Refraction
+B) Total Internal Reflection
+C) Dispersion
+D) Absorption
+Answer: B) Total Internal Reflection
+
+Q. Which color of light suffers the least scattering in the atmosphere and is used for danger signals?
+A) Violet
+B) Blue
+C) Red
+D) Yellow
+Answer: C) Red
+
+Q. The blue color of the clear daytime sky is primarily due to:
+A) Refraction of light
+B) Scattering of light (Rayleigh scattering)
+C) Total internal reflection
+D) Dispersion
+Answer: B) Scattering of light (Rayleigh scattering)
+
+Q. What vision defect occurs when a person cannot focus clearly on nearby objects?
+A) Myopia
+B) Hypermetropia
+C) Astigmatism
+D) Cataract
+Answer: B) Hypermetropia
+
+Q. What type of lens is used to correct Hypermetropia (long-sightedness)?
+A) Concave Lens
+B) Convex Lens
+C) Bifocal Lens
+D) Cylindrical Lens
+Answer: B) Convex Lens
+
+Q. When a ray of light passes obliquely from water to air, how does it bend?
+A) Towards the normal
+B) Away from the normal
+C) Undeviated
+D) Back at 90 degrees
+Answer: B) Away from the normal
+
+Q. What is the critical angle for a water-air interface if the refractive index of water is 1.33?
+A) 42 degrees
+B) 48.6 degrees
+C) 90 degrees
+D) 24.4 degrees
+Answer: B) 48.6 degrees
+
+Q. The speed of sound is generally greatest in which medium?
+A) Solids (Steel)
+B) Liquids (Water)
+C) Gases (Air)
+D) Vacuum
+Answer: A) Solids (Steel)
+
+Q. What happens to the resistance of a pure metallic conductor when its temperature is raised?
+A) Decreases
+B) Increases
+C) Remains constant
+D) Drops to zero
+Answer: B) Increases
+
+Q. In an incandescent lamp, why is thin coiled tungsten used as the filament?
+A) Tungsten has low resistance and low melting point
+B) Tungsten has high resistivity and extremely high melting point (3422 C)
+C) Tungsten is a liquid metal
+D) Tungsten reacts with glass to emit light
+Answer: B) Tungsten has high resistivity and extremely high melting point (3422 C)
+
+Q. What is the SI unit of electrical resistance?
+A) Ohm
+B) Volt
+C) Ampere
+D) Watt
+Answer: A) Ohm
+
+Q. Three resistors of 2, 3, and 6 ohms are connected in parallel. What is their equivalent resistance?
+A) 11 ohm
+B) 1 ohm
+C) 0.5 ohm
+D) 6 ohm
+Answer: B) 1 ohm
+
+Q. Two resistors of 6 ohm each are connected in parallel. What is their effective resistance?
+A) 12 ohm
+B) 3 ohm
+C) 6 ohm
+D) 1 ohm
+Answer: B) 3 ohm
+
+Q. Which electrical device works based on the principle of Self-Induction?
+A) Transformer
+B) Inductor / Choke Coil
+C) DC Generator
+D) Electric Motor
+Answer: B) Inductor / Choke Coil
+
+Q. Fleming's Right-Hand Rule is used to determine the direction of:
+A) Magnetic Force
+B) Induced Current in a moving conductor
+C) Electric Field
+D) Magnetic Dipole Moment
+Answer: B) Induced Current in a moving conductor
+
+Q. Fleming's Left-Hand Rule is used to determine the direction of:
+A) Induced current
+B) Magnetic field around a wire
+C) Force acting on a current-carrying conductor in a magnetic field
+D) Electric field intensity
+Answer: C) Force acting on a current-carrying conductor in a magnetic field
+
+Q. In Fleming's Left-Hand Rule, which finger represents the direction of the Magnetic Field?
+A) Thumb
+B) Forefinger (Index Finger)
+C) Middle Finger
+D) Ring Finger
+Answer: B) Forefinger (Index Finger)
+
+Q. In Fleming's Left-Hand Rule, which finger represents the direction of the Electric Current?
+A) Thumb
+B) Forefinger
+C) Middle Finger
+D) Little Finger
+Answer: C) Middle Finger
+
+Q. In Fleming's Left-Hand Rule, the Thumb points in the direction of:
+A) Motion / Force
+B) Magnetic Field
+C) Current
+D) Voltage
+Answer: A) Motion / Force
+
+Q. In an AC Generator, which component maintains continuous sliding electrical contact with rotating coils?
+A) Split-ring commutator
+B) Slip rings and graphite brushes
+C) Solenoid core
+D) Permanent magnet poles
+Answer: B) Slip rings and graphite brushes
+
+Q. In a DC Generator, what component replaces slip rings to convert generated AC into DC output?
+A) Split-ring commutator
+B) Transformer core
+C) Slip rings
+D) Field magnet
+Answer: A) Split-ring commutator
+
+Q. A transformer has 200 primary turns and 1000 secondary turns. If the input voltage is 220V AC, what is the secondary output voltage?
+A) 44 V
+B) 1100 V
+C) 2200 V
+D) 110 V
+Answer: B) 1100 V
+
+Q. What safety wire in domestic household circuits carries leakage current safely into the ground?
+A) Live Wire
+B) Neutral Wire
+C) Earth Wire
+D) Phase Wire
+Answer: C) Earth Wire
+
+Q. What is the Commercial Unit of Electrical Energy consumed in homes?
+A) Joule
+B) Kilowatt-hour (kWh) or 'Unit'
+C) Watt-second
+D) Volt-Ampere
+Answer: B) Kilowatt-hour (kWh) or 'Unit'
+
+Q. What is the power rating formula for an electrical appliance operating at voltage V and carrying current I?
+A) P = V * I
+B) P = V / I
+C) P = I^2 * V
+D) P = I^2 / R
+Answer: A) P = V * I
+
+Q. Which device converts electrical energy into mechanical energy using the magnetic motor principle?
+A) AC Generator
+B) Electric Motor
+C) Transformer
+D) Moving Coil Microphone
+Answer: B) Electric Motor
+
+Q. What is the standard RMS voltage supplied to domestic households in India?
+A) 110 V
+B) 230 V (or 220 V)
+C) 440 V
+D) 12 V
+Answer: B) 230 V (or 220 V)
+
+Q. What component in domestic distribution boards automatically cuts off electricity when an earth leakage occurs?
+A) MCB (Miniature Circuit Breaker)
+B) ELCB / RCCB (Earth Leakage Circuit Breaker)
+C) Watt-hour meter
+D) Step-up Transformer
+Answer: B) ELCB / RCCB (Earth Leakage Circuit Breaker)
+
+Q. What safety device automatically trips and cuts off power when circuit current exceeds safe overload limits?
+A) MCB (Miniature Circuit Breaker)
+B) Capacitor
+C) Transformer
+D) Galvanometer
+Answer: A) MCB (Miniature Circuit Breaker)
+
+Q. What is the mathematical expression for Ohm's Law?
+A) V = I / R
+B) V = I * R
+C) R = V * I
+D) I = V * R
+Answer: B) V = I * R
+
+Q. Which device transfers electrical energy from one AC circuit to another through Mutual Induction?
+A) DC Motor
+B) Transformer
+C) Generator
+D) Inductor
+Answer: B) Transformer
+
+Q. What rule determines the direction of magnetic field lines around a straight current-carrying conductor?
+A) Fleming's Left-Hand Rule
+B) Right-Hand Thumb Rule
+C) Fleming's Right-Hand Rule
+D) Ampere's Swimming Rule
+Answer: B) Right-Hand Thumb Rule
+
+Q. What material is commonly used as the magnetic core in transformers to minimize energy loss?
+A) Steel
+B) Soft Iron laminations
+C) Copper
+D) Aluminum
+Answer: B) Soft Iron laminations
+
+Q. A transformer has Np = 500 turns and Ns = 100 turns. What type of transformer is it?
+A) Step-up Transformer
+B) Step-down Transformer
+C) Auto Transformer
+D) Isolation Transformer
+Answer: B) Step-down Transformer
+
+Q. What is the potential difference between the Live wire and Neutral wire in standard Indian domestic supply?
+A) 110 V
+B) 230 V
+C) 440 V
+D) 0 V
+Answer: B) 230 V
+
+Q. What electrical unit is defined as 1 Joule per 1 Second?
+A) 1 Volt
+B) 1 Ampere
+C) 1 Watt
+D) 1 Ohm
+Answer: C) 1 Watt
+
+Q. What is the formula for electrical energy consumed (E) in terms of Power (P) and Time (t)?
+A) E = P / t
+B) E = P * t
+C) E = P^2 * t
+D) E = t / P
+Answer: B) E = P * t
+
+Q. What principle governs the working of a Moving Coil Loudspeaker?
+A) Electromagnetic Induction
+B) Motor Principle (Force on current in magnetic field)
+C) Mutual Induction
+D) Joule Heating
+Answer: B) Motor Principle (Force on current in magnetic field)
+
+Q. In domestic parallel wiring, what happens to the total equivalent resistance as more appliances are turned ON?
+A) Increases
+B) Decreases
+C) Remains constant
+D) Drops to zero instantly
+Answer: B) Decreases
+
+Q. What metal alloy is used for fuse wires due to its low melting point and appropriate resistivity?
+A) Pure Copper
+B) Alloy of Tin and Lead
+C) Nichrome
+D) Tungsten
+Answer: B) Alloy of Tin and Lead
+
+Q. What metal alloy is used for heating elements in appliances like electric irons and room heaters?
+A) Tungsten
+B) Nichrome (Nickel + Chromium)
+C) Copper
+D) Germanium
+Answer: B) Nichrome (Nickel + Chromium)
+
+Q. According to Joule's Law of Heating, what is the heat generated (H) in a resistor carrying current I?
+A) H = I * R * t
+B) H = I^2 * R * t
+C) H = (I^2 * t) / R
+D) H = V * I^2 * t
+Answer: B) H = I^2 * R * t
+
+Q. If the current flowing through a conductor is doubled while resistance and time remain constant, heat produced becomes:
+A) 2 times
+B) 4 times
+C) Half
+D) 8 times
+Answer: B) 4 times
+
+Q. Why is electric power transmitted over long grid distances at very high voltage?
+A) To increase line current
+B) To minimize power loss (I^2 * R) by reducing current
+C) To eliminate transformers
+D) To avoid using copper wires
+Answer: B) To minimize power loss (I^2 * R) by reducing current
+
+Q. How many Joules are equivalent to 1 kWh (Kilowatt-hour)?
+A) 3.6 x 10^5 J
+B) 3.6 x 10^6 J
+C) 1000 J
+D) 3600 J
+Answer: B) 3.6 x 10^6 J
+
+Q. What device converts mechanical energy into electrical energy using slip rings and brushes?
+A) AC Motor
+B) AC Generator
+C) Moving Coil Loudspeaker
+D) DC Motor
+Answer: B) AC Generator
+
+Q. In modern Indian electrical wiring codes, what is the standard insulation color for the Earth Wire?
+A) Red
+B) Black
+C) Green or Green with Yellow stripe
+D) Blue
+Answer: C) Green or Green with Yellow stripe
+
+Q. What is the frequency of standard AC power supplied to homes in India?
+A) 60 Hz
+B) 50 Hz
+C) 100 Hz
+D) 220 Hz
+Answer: B) 50 Hz
+
+Q. Which electronic component allows current to flow in only one direction?
+A) Resistor
+B) Diode
+C) Capacitor
+D) Transformer
+Answer: B) Diode
+
+Q. Under which bias condition does a light-emitting diode (LED) emit light?
+A) Reverse Bias
+B) Forward Bias
+C) Zero Bias
+D) High Negative Bias
+Answer: B) Forward Bias
+
+Q. Which electronic component stores electrical energy in an electrostatic field?
+A) Resistor
+B) Capacitor
+C) Inductor
+D) Potentiometer
+Answer: B) Capacitor
+
+Q. An LDR (Light Dependent Resistor) decreases its electrical resistance when:
+A) Light intensity increases
+B) Light intensity decreases
+C) Temperature drops
+D) Voltage increases
+Answer: A) Light intensity increases
+
+Q. A circuit component used to convert alternating current (AC) into direct current (DC) is called a:
+A) Amplifier
+B) Rectifier
+C) Oscillator
+D) Inverter
+Answer: B) Rectifier
+
+Q. A device that converts direct current (DC) into alternating current (AC) is called a:
+A) Rectifier
+B) Inverter
+C) Transformer
+D) Amplifier
+Answer: B) Inverter
+
+Q. What element is most widely used as the semiconductor material in microchips and solar cells?
+A) Copper
+B) Silicon
+C) Aluminium
+D) Iron
+Answer: B) Silicon
+
+Q. What happens to total circuit resistance when resistors are connected end-to-end in Series?
+A) Decreases
+B) Increases (R_total = R1 + R2 + ...)
+C) Remains same
+D) Becomes zero
+Answer: B) Increases (R_total = R1 + R2 + ...)
+
+Q. The magnetic field strength around a straight current-carrying wire increases if the:
+A) Current decreases
+B) Current increases
+C) Distance from wire increases
+D) Conductor is made thinner
+Answer: B) Current increases
+
+Q. The instrument used to detect the presence and direction of minute electric currents is a:
+A) Ammeter
+B) Voltmeter
+C) Galvanometer
+D) Multimeter
+Answer: C) Galvanometer
+
+Q. Which wire in single-phase domestic AC electricity delivers current from the powerhouse to the appliance?
+A) Neutral Wire
+B) Phase (Live) Wire
+C) Earth Wire
+D) Ground Wire
+Answer: B) Phase (Live) Wire
+
+Q. What is the voltage of the neutral wire with respect to Earth ground in a balanced power system?
+A) 230 V
+B) 110 V
+C) 0 V
+D) 440 V
+Answer: C) 0 V
+
+Q. What type of electric current is supplied by a dry chemical cell?
+A) Alternating Current (AC)
+B) Direct Current (DC)
+C) Pulsating AC
+D) Radio Frequency
+Answer: B) Direct Current (DC)
+
+Q. What electronic component acts as an amplifier or solid-state switch in computer processors?
+A) Resistor
+B) Transistor
+C) Capacitor
+D) Inductor
+Answer: B) Transistor
+
+Q. A variable resistor whose resistance can be adjusted manually with a rotary dial is a:
+A) Potentiometer / Rheostat
+B) Fixed Resistor
+C) Thermistor
+D) Varistor
+Answer: A) Potentiometer / Rheostat
+
+Q. Which semiconductor component changes its resistance inversely with temperature?
+A) Thermistor (NTC)
+B) Potentiometer
+C) Transformer
+D) Choke
+Answer: A) Thermistor (NTC)
+
+Q. Which component is placed in series with an LED to protect it from excessive current?
+A) Current-limiting Resistor
+B) Inductor
+C) Step-up Transformer
+D) Relay coil
+Answer: A) Current-limiting Resistor
+
+Q. An electrically operated switch used by low-voltage microcontrollers to control high-voltage loads is a:
+A) Relay Module
+B) Capacitor
+C) Potentiometer
+D) Zener Diode
+Answer: A) Relay Module
+
+Q. What type of diode maintains a constant breakdown voltage and is used for voltage regulation?
+A) LED
+B) Zener Diode
+C) Photodiode
+D) Varactor Diode
+Answer: B) Zener Diode
+
+Q. What happens in a series circuit if one bulb burns out or is removed?
+A) Other bulbs glow brighter
+B) The entire circuit is broken and all bulbs turn off
+C) Remaining bulbs are unaffected
+D) Bulbs flicker continuously
+Answer: B) The entire circuit is broken and all bulbs turn off
+
+Q. What happens in a parallel household circuit if one appliance is switched off?
+A) All other appliances turn off
+B) All other appliances continue to operate normally
+C) Voltage drops to zero
+D) Current doubles in the switch
+Answer: B) All other appliances continue to operate normally
+
+Q. Which property of a wire determines its electrical resistance?
+A) Length, cross-sectional area, material resistivity, and temperature
+B) Color of outer insulation only
+C) Brand name only
+D) Shape of the switch
+Answer: A) Length, cross-sectional area, material resistivity, and temperature
+
+Q. What is the SI unit of electric charge?
+A) Ampere
+B) Coulomb
+C) Volt
+D) Farad
+Answer: B) Coulomb
+
+Q. Electric current of 1 Ampere is equal to the flow of charge of:
+A) 1 Coulomb per 1 Second
+B) 1 Volt per 1 Second
+C) 1 Joule per 1 Second
+D) 1 Ohm per 1 Second
+Answer: A) 1 Coulomb per 1 Second
+
+Q. What is the SI unit of electrical capacitance?
+A) Henry
+B) Farad
+C) Ohm
+D) Tesla
+Answer: B) Farad
+
+Q. What is the SI unit of magnetic flux density?
+A) Tesla
+B) Weber
+C) Henry
+D) Lumen
+Answer: A) Tesla
+
+Q. What is the SI unit of magnetic flux?
+A) Tesla
+B) Weber
+C) Henry
+D) Gauss
+Answer: B) Weber
+
+Q. What is the SI unit of inductance?
+A) Farad
+B) Henry
+C) Weber
+D) Coulomb
+Answer: B) Henry
+
+Q. Which device converts sound waves into electrical signals using electromagnetic induction?
+A) Moving Coil Microphone
+B) Moving Coil Loudspeaker
+C) Electric Motor
+D) Incandescent Lamp
+Answer: A) Moving Coil Microphone
+
+Q. What is the fundamental law that states the induced electromotive force is proportional to the rate of change of magnetic flux?
+A) Faraday's Law of Electromagnetic Induction
+B) Ohm's Law
+C) Coulomb's Law
+D) Joule's Law
+Answer: A) Faraday's Law of Electromagnetic Induction
+
+Q. Which law gives the direction of an induced electromotive force opposing the change that causes it?
+A) Lenz's Law
+B) Ampere's Law
+C) Newton's Third Law
+D) Gauss's Law
+Answer: A) Lenz's Law
+
+Q. What core structure is used in transformers to reduce eddy current losses?
+A) Solid block of iron
+B) Thin laminated iron sheets insulated from each other
+C) Hollow plastic tube
+D) Solid copper rod
+Answer: B) Thin laminated iron sheets insulated from each other
+
+Q. What is the function of a Step-up transformer in a power substation?
+A) Increases voltage while decreasing current
+B) Decreases voltage while increasing current
+C) Converts AC into DC
+D) Stores electrical charge
+Answer: A) Increases voltage while decreasing current
+
+Q. What is the function of a Step-down transformer in a distribution pole?
+A) Reduces high transmission voltage to usable 230V domestic level
+B) Increases voltage for long transmission
+C) Measures total power consumption
+D) Acts as an earth leakage breaker
+Answer: A) Reduces high transmission voltage to usable 230V domestic level
+
+Q. What type of transformer winding has more turns in a step-down transformer?
+A) Primary winding has more turns than secondary
+B) Secondary winding has more turns than primary
+C) Both windings have identical turns
+D) Neither winding has turns
+Answer: A) Primary winding has more turns than secondary
+
+Q. In domestic electricity supply, what is the standard color code for the Neutral wire in newer installations?
+A) Black or Blue
+B) Red or Brown
+C) Green
+D) Yellow
+Answer: A) Black or Blue
+
+Q. In domestic electricity supply, what is the standard color code for the Phase (Live) wire?
+A) Red or Brown
+B) Green
+C) Black
+D) White
+Answer: A) Red or Brown
+
+Q. What is the function of a 3-pin plug's longer and thicker top pin?
+A) Earth connection for safety (first to connect, last to disconnect)
+B) Live line connection
+C) Neutral line connection
+D) To increase current flow
+Answer: A) Earth connection for safety (first to connect, last to disconnect)
+
+Q. Why are household electrical appliances always connected in parallel rather than series?
+A) Each appliance receives the full supply voltage and can be operated independently
+B) To increase total resistance
+C) To make all appliances stop if one fails
+D) To reduce current from the generator to zero
+Answer: A) Each appliance receives the full supply voltage and can be operated independently
+
+Q. What device measures the total electrical energy consumed by a household for billing?
+A) Wattmeter
+B) Energy meter (KWh meter)
+C) Voltmeter
+D) Galvanometer
+Answer: B) Energy meter (KWh meter)
+
+Q. What type of circuit fault occurs when a live wire comes into direct contact with a neutral wire?
+A) Short Circuit
+B) Open Circuit
+C) High Resistance Path
+D) Earthing fault
+Answer: A) Short Circuit
+
+Q. During a short circuit in a household wiring installation, what happens to circuit current?
+A) Decreases drastically
+B) Increases enormously to dangerous levels
+C) Remains unchanged
+D) Reverses direction every second
+Answer: B) Increases enormously to dangerous levels
+
+Q. What safety component consists of a thin alloy strip that melts and breaks the circuit during an overload?
+A) Fuse
+B) Capacitor
+C) Inductor
+D) Zener diode
+Answer: A) Fuse
+
+Q. What rating is specified on a domestic electric fuse cartridge (e.g., 5A, 15A)?
+A) Maximum safe current it can carry without melting
+B) Total voltage of the circuit
+C) Operating frequency
+D) Electrical resistance in Ohms
+Answer: A) Maximum safe current it can carry without melting
+
+Q. What type of appliance requires a 15 Ampere power socket rather than a standard 5 Ampere socket?
+A) Air conditioner, geyser, or electric iron
+B) LED night bulb
+C) Smartphone charger
+D) Quartz wall clock
+Answer: A) Air conditioner, geyser, or electric iron
+
+Q. What happens to an electromagnet when the electric current passing through its coil is switched OFF?
+A) Its magnetism disappears almost completely
+B) Its magnetism becomes permanently stronger
+C) It changes into a battery
+D) It starts rotating
+Answer: A) Its magnetism disappears almost completely
+
+Q. Which material is used to make strong permanent magnets?
+A) Alnico (Aluminium-Nickel-Cobalt alloy) or Neodymium
+B) Soft Iron
+C) Pure copper
+D) Pure lead
+Answer: A) Alnico (Aluminium-Nickel-Cobalt alloy) or Neodymium
+
+Q. Which material is best suited for the core of an electromagnet that must turn on and off rapidly?
+A) Soft Iron
+B) Hardened Steel
+C) Alnico
+D) Wood
+Answer: A) Soft Iron
+
+Q. What effect of electric current is utilized in an electric iron, toaster, and water heater?
+A) Heating effect of electric current (Joule heating)
+B) Magnetic effect
+C) Chemical effect
+D) Optical effect
+Answer: A) Heating effect of electric current (Joule heating)
+
+Q. What effect of electric current is utilized in electroplating and battery charging?
+A) Chemical effect of electric current (Electrolysis)
+B) Heating effect
+C) Mechanical effect
+D) Electromagnetic induction
+Answer: A) Chemical effect of electric current (Electrolysis)
+
+Q. What effect of electric current is utilized in electric fans and blender motors?
+A) Magnetic effect (Motor principle)
+B) Chemical effect
+C) Joule heating
+D) Electrochemical effect
+Answer: A) Magnetic effect (Motor principle)
+
+Q. Which property ensures that Nichrome is an ideal material for heating elements?
+A) High resistivity, high melting point, and resistance to oxidation when red hot
+B) Low resistivity and low melting point
+C) High malleability at freezing temperature
+D) Ability to conduct light waves
+Answer: A) High resistivity, high melting point, and resistance to oxidation when red hot
+
+Q. Why is inert argon or nitrogen gas filled inside an incandescent filament bulb?
+A) To prevent tungsten vaporization and oxidation at white-hot temperatures
+B) To produce sound
+C) To make the bulb heavier
+D) To increase electric current
+Answer: A) To prevent tungsten vaporization and oxidation at white-hot temperatures
+
+Q. Which lighting device is the most energy efficient for household lighting?
+A) Incandescent filament bulb
+B) CFL (Compact Fluorescent Lamp)
+C) LED (Light Emitting Diode) bulb
+D) Halogen lamp
+Answer: C) LED (Light Emitting Diode) bulb
+
+Q. What is the primary semiconductor component in an LED that produces light?
+A) p-n junction diode
+B) Electromagnet coil
+C) Tungsten filament
+D) Carbon brush
+Answer: A) p-n junction diode
+
+Q. What is the phenomenon where a light-sensitive diode produces an electric voltage when illuminated by light?
+A) Photovoltaic effect
+B) Joule effect
+C) Peltier effect
+D) Seebeck effect
+Answer: A) Photovoltaic effect
+
+Q. In an electronic circuit diagram, what does a zigzag line represent?
+A) Resistor
+B) Capacitor
+C) Switch
+D) Battery
+Answer: A) Resistor
+
+Q. In an electronic circuit diagram, what do two parallel plates of equal length represent?
+A) Capacitor
+B) Battery cell
+C) Resistor
+D) Diode
+Answer: A) Capacitor
+
+Q. In an electronic circuit diagram, what do two parallel plates with one longer and one shorter line represent?
+A) Direct current (DC) cell / Battery
+B) Capacitor
+C) Ground earth
+D) AC voltage source
+Answer: A) Direct current (DC) cell / Battery
+
+Q. What instrument can measure AC voltage, DC voltage, current, and resistance all in one device?
+A) Digital Multimeter (DMM)
+B) Galvanometer
+C) Oscilloscope only
+D) Speedometer
+Answer: A) Digital Multimeter (DMM)
+
+Q. What safety precaution should always be taken before replacing an electrical fuse or working on house wiring?
+A) Turn off the main power switch at the distribution board
+B) Turn on all room switches
+C) Touch the copper wire with bare hands
+D) Pour water on the circuit
+Answer: A) Turn off the main power switch at the distribution board
+
+Q. Why should electrical switches and appliances never be touched with wet hands?
+A) Water with dissolved salts conducts electricity, greatly increasing the risk of fatal electric shock
+B) Water damages the plastic surface color
+C) Water increases the electric bill
+D) Water causes bulbs to turn green
+Answer: A) Water with dissolved salts conducts electricity, greatly increasing the risk of fatal electric shock
+
+Q. Which hardware component is widely called the 'Brain of the Computer'?
+A) Hard Disk
+B) RAM
+C) Central Processing Unit (CPU)
+D) Power Supply Unit
+Answer: C) Central Processing Unit (CPU)
+
+Q. Which of the following computer devices is categorized as an Output Device?
+A) Keyboard
+B) Mouse
+C) Monitor
+D) Scanner
+Answer: C) Monitor
+
+Q. Which of the following devices is an Input Device?
+A) Monitor
+B) Printer
+C) Optical Mouse
+D) Speaker
+Answer: C) Optical Mouse
+
+Q. What type of device is a digital video projector used in smart classrooms?
+A) Input Device
+B) Output Device
+C) Storage Device
+D) Processing Device
+Answer: B) Output Device
+
+Q. Which device is used to record voice and acoustic sound into a computer system?
+A) Speaker
+B) Microphone
+C) Monitor
+D) Plotter
+Answer: B) Microphone
+
+Q. What type of device is a standard computer keyboard?
+A) Output Device
+B) Input Device
+C) Storage Device
+D) Cooling Device
+Answer: B) Input Device
+
+Q. Which computer component is used to produce hard copies of documents on paper?
+A) Printer
+B) Scanner
+C) Monitor
+D) Webcam
+Answer: A) Printer
+
+Q. What device captures physical photographs and paper documents to convert them into digital image files?
+A) Scanner
+B) Printer
+C) Speaker
+D) Projector
+Answer: A) Scanner
+
+Q. How many binary bits constitute one Byte of digital data?
+A) 4 Bits
+B) 8 Bits
+C) 16 Bits
+D) 32 Bits
+Answer: B) 8 Bits
+
+Q. What is a group of 4 binary bits called in computer science?
+A) Byte
+B) Nibble
+C) Word
+D) Block
+Answer: B) Nibble
+
+Q. What does RAM stand for in computer hardware specifications?
+A) Read Access Memory
+B) Random Access Memory
+C) Rapid Action Module
+D) Run Application Memory
+Answer: B) Random Access Memory
+
+Q. What does ROM stand for in computer systems?
+A) Read Only Memory
+B) Random Output Memory
+C) Rapid Operating Memory
+D) Remote Operating Machine
+Answer: A) Read Only Memory
+
+Q. Which type of computer memory is volatile and loses all stored data when the power is switched off?
+A) ROM
+B) RAM
+C) Hard Disk
+D) Flash USB drive
+Answer: B) RAM
+
+Q. Which memory retains its contents permanently even when the computer system is powered off?
+A) RAM
+B) ROM / Non-volatile Storage
+C) Cache L1
+D) Registers
+Answer: B) ROM / Non-volatile Storage
+
+Q. What type of computer storage uses semiconductor flash memory with no moving parts instead of spinning magnetic platters?
+A) Hard Disk Drive (HDD)
+B) Solid State Drive (SSD)
+C) Floppy Disk
+D) Magnetic Tape
+Answer: B) Solid State Drive (SSD)
+
+Q. What is the primary function of the computer's motherboard?
+A) Houses the main printed circuit board connecting CPU, memory, and peripheral components
+B) Supplies AC power directly from wall outlets
+C) Displays graphical video output
+D) Cools the room temperature
+Answer: A) Houses the main printed circuit board connecting CPU, memory, and peripheral components
+
+Q. What does CPU stand for in computer hardware?
+A) Central Processing Unit
+B) Control Power Unit
+C) Central Program Utility
+D) Computer Peripheral Unit
+Answer: A) Central Processing Unit
+
+Q. Which sub-unit of the CPU is responsible for carrying out arithmetic computations and logical comparisons?
+A) Control Unit (CU)
+B) Arithmetic Logic Unit (ALU)
+C) Registers
+D) L2 Cache
+Answer: B) Arithmetic Logic Unit (ALU)
+
+Q. Which sub-unit of the CPU directs the flow of signals and coordinates activities of other units?
+A) Control Unit (CU)
+B) Arithmetic Logic Unit (ALU)
+C) Graphics Processing Unit (GPU)
+D) Hard Drive Controller
+Answer: A) Control Unit (CU)
+
+Q. What high-speed volatile memory is situated directly on or adjacent to the CPU to speed up instruction execution?
+A) Cache Memory
+B) Hard Disk Drive
+C) CD-ROM
+D) Magnetic Tape
+Answer: A) Cache Memory
+
+Q. What port interface is most commonly used to connect flash pen drives, external mice, and keyboards to desktop PCs?
+A) HDMI Port
+B) VGA Port
+C) USB Port
+D) Ethernet RJ-45
+Answer: C) USB Port
+
+Q. What does USB stand for in computer connectivity?
+A) Universal Serial Bus
+B) Unified System Board
+C) Universal Storage Bank
+D) Unit Signal Broadcast
+Answer: A) Universal Serial Bus
+
+Q. Which display port interface transmits high-definition digital video and multi-channel audio through a single cable?
+A) VGA
+B) HDMI (High-Definition Multimedia Interface)
+C) Serial RS-232
+D) PS/2
+Answer: B) HDMI (High-Definition Multimedia Interface)
+
+Q. What older 15-pin analog video port was traditionally used to connect CRT and LCD monitors to PC towers?
+A) VGA Port
+B) HDMI Port
+C) USB-C
+D) DisplayPort
+Answer: A) VGA Port
+
+Q. What is the base of the binary number system used internally by digital computers?
+A) Base 2 (digits 0 and 1)
+B) Base 8 (digits 0-7)
+C) Base 10 (digits 0-9)
+D) Base 16 (hexadecimal)
+Answer: A) Base 2 (digits 0 and 1)
+
+Q. What is the decimal equivalent of the binary number 1010?
+A) 8
+B) 10
+C) 12
+D) 14
+Answer: B) 10
+
+Q. What is the binary representation of the decimal number 7?
+A) 100
+B) 110
+C) 111
+D) 1001
+Answer: C) 111
+
+Q. What is the binary representation of the decimal number 8?
+A) 1000
+B) 1111
+C) 0111
+D) 1010
+Answer: A) 1000
+
+Q. In digital logic, which logic gate outputs HIGH (1) only when ALL of its inputs are HIGH (1)?
+A) OR Gate
+B) AND Gate
+C) NOT Gate
+D) XOR Gate
+Answer: B) AND Gate
+
+Q. In digital logic, which logic gate outputs HIGH (1) if AT LEAST ONE of its inputs is HIGH (1)?
+A) AND Gate
+B) OR Gate
+C) NOT Gate
+D) NAND Gate
+Answer: B) OR Gate
+
+Q. Which single-input logic gate acts as an inverter by outputting the exact opposite logic state?
+A) AND Gate
+B) OR Gate
+C) NOT Gate
+D) NAND Gate
+Answer: C) NOT Gate
+
+Q. Which logic gate produces a LOW (0) output only when all of its inputs are HIGH (1)?
+A) AND Gate
+B) NAND Gate
+C) OR Gate
+D) NOR Gate
+Answer: B) NAND Gate
+
+Q. Which logic gate produces a HIGH (1) output only when its two inputs are different from each other?
+A) XOR (Exclusive OR) Gate
+B) AND Gate
+C) OR Gate
+D) XNOR Gate
+Answer: A) XOR (Exclusive OR) Gate
+
+Q. Which two logic gates are known as 'Universal Gates' because any boolean function can be created using them?
+A) AND and OR
+B) NAND and NOR
+C) NOT and XOR
+D) OR and NOT
+Answer: B) NAND and NOR
+
+Q. What logic level voltage typically represents logic HIGH (binary 1) in 5V TTL logic systems?
+A) 0 Volts
+B) 5 Volts
+C) -5 Volts
+D) 230 Volts
+Answer: B) 5 Volts
+
+Q. What logic level voltage typically represents logic LOW (binary 0) in 5V TTL systems?
+A) 0 Volts (Ground)
+B) 5 Volts
+C) 12 Volts
+D) -12 Volts
+Answer: A) 0 Volts (Ground)
+
+Q. What is the storage capacity equivalent of 1 Kilobyte (KB) in standard binary computing?
+A) 1000 Bytes
+B) 1024 Bytes
+C) 512 Bytes
+D) 2048 Bytes
+Answer: B) 1024 Bytes
+
+Q. How many Megabytes (MB) make 1 Gigabyte (GB) in standard binary computing?
+A) 100 MB
+B) 500 MB
+C) 1000 MB
+D) 1024 MB
+Answer: D) 1024 MB
+
+Q. How many Gigabytes (GB) make 1 Terabyte (TB)?
+A) 100 GB
+B) 512 GB
+C) 1024 GB
+D) 2048 GB
+Answer: C) 1024 GB
+
+Q. What device supplies regulated DC power to internal computer components from the mains AC socket?
+A) SMPS (Switched-Mode Power Supply)
+B) Inverter only
+C) Heat sink
+D) Graphic Card
+Answer: A) SMPS (Switched-Mode Power Supply)
+
+Q. What metallic component mounted on top of a processor absorbs and dissipates heat with the help of a fan?
+A) Heat Sink
+B) Hard Disk Drive
+C) Northbridge
+D) RAM Stick
+Answer: A) Heat Sink
+
+Q. What optical disc format typically holds approximately 700 Megabytes of digital data?
+A) CD (Compact Disc)
+B) DVD (Digital Versatile Disc)
+C) Blu-ray Disc
+D) Floppy Disk
+Answer: A) CD (Compact Disc)
+
+Q. What optical disc format typically holds approximately 4.7 Gigabytes of single-layer data?
+A) CD-ROM
+B) DVD-ROM
+C) Blu-ray Disc
+D) Zip Disk
+Answer: B) DVD-ROM
+
+Q. Which high-capacity optical disc format uses a blue-violet laser to store up to 25 GB on a single layer?
+A) Compact Disc
+B) DVD
+C) Blu-ray Disc
+D) LaserDisc
+Answer: C) Blu-ray Disc
+
+Q. What does BIOS stand for in computer boot architecture?
+A) Basic Input Output System
+B) Binary Integrated Operating System
+C) Base Instruction Order Set
+D) Boot Initialization Optical Server
+Answer: A) Basic Input Output System
+
+Q. Where is the system firmware (BIOS / UEFI) permanently stored on the motherboard?
+A) In volatile RAM
+B) In a non-volatile ROM / Flash memory chip
+C) On the SATA Hard Drive
+D) In the optical mouse
+Answer: B) In a non-volatile ROM / Flash memory chip
+
+Q. What firmware architecture has largely replaced legacy BIOS on modern computer motherboards?
+A) UEFI (Unified Extensible Firmware Interface)
+B) MS-DOS
+C) BASIC
+D) GRUB
+Answer: A) UEFI (Unified Extensible Firmware Interface)
+
+Q. What initial hardware self-test is executed by the BIOS when a computer is powered on?
+A) POST (Power-On Self-Test)
+B) Defragmentation
+C) System Restore
+D) Formatting
+Answer: A) POST (Power-On Self-Test)
+
+Q. Which expansion slot standard on modern motherboards connects graphics cards and NVMe SSDs at high bandwidth?
+A) PCIe (Peripheral Component Interconnect Express)
+B) ISA slot
+C) AGP 1X
+D) Parallel Port
+Answer: A) PCIe (Peripheral Component Interconnect Express)
+
+Q. What hardware component is responsible for accelerating 3D rendering and visual display processing?
+A) GPU (Graphics Processing Unit)
+B) NIC (Network Interface Card)
+C) Sound Card only
+D) Power Supply
+Answer: A) GPU (Graphics Processing Unit)
+
+Q. What port is used to plug in a wired twisted-pair Ethernet cable for Local Area Network connectivity?
+A) RJ-45 Port
+B) RJ-11 Port
+C) USB-A Port
+D) HDMI Port
+Answer: A) RJ-45 Port
+
+Q. What older modular connector was used for telephone landline connections?
+A) RJ-45
+B) RJ-11
+C) SATA
+D) VGA
+Answer: B) RJ-11
+
+Q. What bus interface connects internal internal Hard Drives and SATA SSDs to the motherboard?
+A) SATA (Serial ATA)
+B) IDE Ribbon
+C) SCSI
+D) Molex
+Answer: A) SATA (Serial ATA)
+
+Q. What modern SSD form factor mounts directly onto motherboard M.2 slots using PCIe NVMe protocol?
+A) M.2 NVMe SSD
+B) 3.5-inch IDE HDD
+C) Floppy Disk
+D) Compact Cassette
+Answer: A) M.2 NVMe SSD
+
+Q. Which computer peripheral is primarily used for digitizing hand-drawn artwork with a pressure-sensitive stylus?
+A) Graphics Tablet (Digitizer)
+B) Trackball
+C) Flatbed Plotter
+D) Barcode Reader
+Answer: A) Graphics Tablet (Digitizer)
+
+Q. What type of printer uses liquid ink sprayed through microscopic nozzles onto paper?
+A) Inkjet Printer
+B) Laser Printer
+C) Dot Matrix Printer
+D) Thermal Printer
+Answer: A) Inkjet Printer
+
+Q. What type of printer uses a toner powder cartridge and a heated fuser drum to bind text to paper?
+A) Laser Printer
+B) Inkjet Printer
+C) Dot Matrix Printer
+D) 3D Printer
+Answer: A) Laser Printer
+
+Q. Which older printer technology creates characters on carbon paper by striking inked ribbons with pins?
+A) Dot Matrix Printer
+B) Laser Printer
+C) Inkjet Printer
+D) Dye-sublimation Printer
+Answer: A) Dot Matrix Printer
+
+Q. What handheld input device reads vertical black and white stripes found on consumer product packaging?
+A) Barcode Reader / Scanner
+B) RFID Antennas
+C) OCR Wand
+D) Fingerprint Scanner
+Answer: A) Barcode Reader / Scanner
+
+Q. What input technology reads optical marks filled in with pencil or pen on multiple-choice answer sheets?
+A) OMR (Optical Mark Recognition)
+B) OCR (Optical Character Recognition)
+C) MICR
+D) Barcode
+Answer: A) OMR (Optical Mark Recognition)
+
+Q. What technology is used at the bottom of banking cheques to read magnetic ink account numbers?
+A) MICR (Magnetic Ink Character Recognition)
+B) OMR
+C) OCR
+D) RFID
+Answer: A) MICR (Magnetic Ink Character Recognition)
+
+Q. What technology converts scanned images of typed or printed text into editable digital machine text?
+A) OCR (Optical Character Recognition)
+B) OMR
+C) MICR
+D) Audio Synthesizer
+Answer: A) OCR (Optical Character Recognition)
+
+Q. What is the primary function of an Uninterruptible Power Supply (UPS) connected to a desktop PC?
+A) Provides continuous battery backup power during mains power failure to prevent sudden shutdowns
+B) Increases processor clock speed
+C) Doubles internet download bandwidth
+D) Filters computer audio noise
+Answer: A) Provides continuous battery backup power during mains power failure to prevent sudden shutdowns
+
+Q. What metric measures the clock speed of modern computer microprocessors?
+A) Gigahertz (GHz)
+B) Gigabytes (GB)
+C) Megabits per second (Mbps)
+D) Volts (V)
+Answer: A) Gigahertz (GHz)
+
+Q. What unit measures the display resolution of computer screens and camera images?
+A) Pixels (e.g., 1920 x 1080)
+B) Joules
+C) Watts
+D) Hertz
+Answer: A) Pixels (e.g., 1920 x 1080)
+
+Q. What metric defines the sharpness and density of images printed by a printer?
+A) DPI (Dots Per Inch)
+B) BPS (Bits Per Second)
+C) PPM (Pages Per Minute)
+D) RPM (Revolutions Per Minute)
+Answer: A) DPI (Dots Per Inch)
+
+Q. What metric measures the speed of printing in office printers?
+A) PPM (Pages Per Minute)
+B) DPI
+C) GHz
+D) FPS
+Answer: A) PPM (Pages Per Minute)
+
+Q. What does SSD stand for in modern storage terminology?
+A) Solid State Drive
+B) System Storage Disk
+C) Serial Silicon Device
+D) Single Sector Disk
+Answer: A) Solid State Drive
+
+Q. Why are SSDs much faster and more shock-resistant than traditional mechanical Hard Disk Drives (HDDs)?
+A) They have no spinning mechanical platters or moving read/write heads
+B) They use water cooling internally
+C) They operate using vacuum tubes
+D) They don't consume any electricity
+Answer: A) They have no spinning mechanical platters or moving read/write heads
+
+Q. What rotational speed in RPM is standard for desktop 3.5-inch mechanical hard drives?
+A) 7200 RPM
+B) 100 RPM
+C) 50,000 RPM
+D) 12 RPM
+Answer: A) 7200 RPM
+
+Q. What is the hexadecimal representation of the binary number 1111?
+A) F
+B) E
+C) A
+D) 15
+Answer: A) F
+
+Q. What is the hexadecimal representation of the decimal number 10?
+A) A
+B) B
+C) C
+D) F
+Answer: A) A
+
+Q. In the ASCII character encoding standard, how many bits were originally used to represent each character?
+A) 7 bits (expanded to 8 bits)
+B) 16 bits
+C) 32 bits
+D) 64 bits
+Answer: A) 7 bits (expanded to 8 bits)
+
+Q. What universal character encoding standard supports text and symbols from all written languages in the world?
+A) Unicode (UTF-8 / UTF-16)
+B) ASCII-7
+C) EBCDIC
+D) Morse Code
+Answer: A) Unicode (UTF-8 / UTF-16)
+
+Q. Which hardware register inside the CPU holds the memory address of the next instruction to be fetched and executed?
+A) Program Counter (PC)
+B) Accumulator
+C) Instruction Register
+D) Memory Buffer Register
+Answer: A) Program Counter (PC)
+
+Q. Which hardware register inside the CPU stores the results of intermediate arithmetic and logical calculations?
+A) Accumulator
+B) Program Counter
+C) Stack Pointer
+D) Status Flag
+Answer: A) Accumulator
+
+Q. What component synchronizes all internal operations and cycles of the central processing unit?
+A) System Clock (Quartz Crystal Oscillator)
+B) Power Cord
+C) Heatsink fan
+D) Hard drive spindle
+Answer: A) System Clock (Quartz Crystal Oscillator)
+
+Q. What bus inside a computer carries memory addresses specifying where data should be read from or written to?
+A) Address Bus
+B) Data Bus
+C) Control Bus
+D) Power Bus
+Answer: A) Address Bus
+
+Q. What bus inside a computer carries actual data values between the CPU, memory, and peripherals?
+A) Data Bus
+B) Address Bus
+C) Clock Line
+D) Ground Bus
+Answer: A) Data Bus
+
+Q. What is the directionality of the computer Address Bus in standard von Neumann architecture?
+A) Unidirectional (from CPU to memory/devices)
+B) Bidirectional
+C) Circular
+D) Alternating every cycle
+Answer: A) Unidirectional (from CPU to memory/devices)
+
+Q. What is the directionality of the computer Data Bus?
+A) Bidirectional (can transmit both to and from CPU)
+B) Unidirectional only
+C) Fixed to read-only
+D) Random
+Answer: A) Bidirectional (can transmit both to and from CPU)
+
+Q. What computer architecture stores both program instructions and user data in the same unified memory space?
+A) Von Neumann Architecture
+B) Harvard Architecture
+C) Turing Tape Architecture
+D) Mechanical Relational Machine
+Answer: A) Von Neumann Architecture
+
+Q. What computer architecture physically separates instruction storage and data storage memory into different buses?
+A) Harvard Architecture
+B) Von Neumann Architecture
+C) Analog Architecture
+D) Abacus Architecture
+Answer: A) Harvard Architecture
+
+Q. What is the fundamental execution cycle of any modern CPU?
+A) Fetch, Decode, Execute, Writeback
+B) Compile, Link, Run, Print
+C) Install, Update, Boot, Shutdown
+D) Format, Partition, Scan, Repair
+Answer: A) Fetch, Decode, Execute, Writeback
+
+Q. What happens during the 'Fetch' stage of the CPU instruction cycle?
+A) The next instruction is retrieved from memory location into the instruction register
+B) The instruction is performed by the ALU
+C) The output is written to the monitor
+D) The power supply voltage is measured
+Answer: A) The next instruction is retrieved from memory location into the instruction register
+
+Q. What happens during the 'Decode' stage of the CPU instruction cycle?
+A) The control unit interprets the opcode to determine required operations
+B) The CPU shuts down
+C) The hard disk is formatted
+D) The printer is initialized
+Answer: A) The control unit interprets the opcode to determine required operations
+
+Q. What is the term for running multiple processor cores on a single silicon chip to execute tasks simultaneously?
+A) Multi-core Processing (Dual-core, Quad-core, Octa-core)
+B) Virtual Memory Paging
+C) Overclocking
+D) Pipelining
+Answer: A) Multi-core Processing (Dual-core, Quad-core, Octa-core)
+
+Q. What technique overlaps different stages of instruction execution to increase CPU throughput?
+A) Instruction Pipelining
+B) Clock Throttling
+C) Thermal Throttling
+D) Defragmentation
+Answer: A) Instruction Pipelining
+
+Q. What is a small, low-capacity storage area inside the CPU that provides the fastest access to data?
+A) Registers
+B) RAM
+C) L3 Cache
+D) SSD
+Answer: A) Registers
+
+Q. What type of memory uses capacitive storage cells that must be periodically refreshed thousands of times per second?
+A) DRAM (Dynamic RAM)
+B) SRAM (Static RAM)
+C) ROM
+D) EEPROM
+Answer: A) DRAM (Dynamic RAM)
+
+Q. What type of memory uses flip-flops, does not require periodic refreshing, and is used for fast CPU cache?
+A) SRAM (Static RAM)
+B) DRAM
+C) NAND Flash
+D) Magnetic Core
+Answer: A) SRAM (Static RAM)
+
+Q. What does EEPROM stand for in semiconductor storage?
+A) Electrically Erasable Programmable Read-Only Memory
+B) Electronic Extended Program Read-Only Memory
+C) External Energy Protected Memory
+D) Embedded Efficient Processing Module
+Answer: A) Electrically Erasable Programmable Read-Only Memory
+
+Q. What type of non-volatile semiconductor memory is used in USB thumb drives and modern SSDs?
+A) NAND Flash Memory
+B) Dynamic RAM
+C) Static RAM
+D) Bipolar PROM
+Answer: A) NAND Flash Memory
+
+Q. What is the name of the memory management technique where the OS uses hard drive space as an extension of RAM?
+A) Virtual Memory (Swap space / Paging)
+B) Cache thrashing
+C) Overclocking
+D) RAID 0
+Answer: A) Virtual Memory (Swap space / Paging)
+
+Q. What happens when the operating system constantly moves data between RAM and swap file due to low physical memory?
+A) Thrashing
+B) Defragmenting
+C) Pipelining
+D) Overclocking
+Answer: A) Thrashing
+
+Q. What is the smallest unit of digital data processed by a computer?
+A) Bit (Binary Digit: 0 or 1)
+B) Byte
+C) Pixel
+D) Character
+Answer: A) Bit (Binary Digit: 0 or 1)
+
+Q. What binary logic gate can be built by connecting an AND gate to a NOT gate in series?
+A) NAND Gate
+B) NOR Gate
+C) XOR Gate
+D) Buffer Gate
+Answer: A) NAND Gate
+
+Q. What binary logic gate can be built by connecting an OR gate to a NOT gate in series?
+A) NOR Gate
+B) NAND Gate
+C) XNOR Gate
+D) AND Gate
+Answer: A) NOR Gate
+
+Q. What electronic circuit combines multiple logic gates to add two single binary bits producing a Sum and Carry?
+A) Half Adder
+B) Full Adder
+C) Multiplexer
+D) Flip-Flop
+Answer: A) Half Adder
+
+Q. What electronic circuit adds three binary bits (two operand bits plus one Carry In) producing Sum and Carry Out?
+A) Full Adder
+B) Half Adder
+C) Demultiplexer
+D) Counter
+Answer: A) Full Adder
+
+Q. What is the primary role of an Operating System in computer software?
+A) Manages hardware resources, file systems, processes, and provides an interface for users
+B) Only plays background music
+C) Only prints text documents
+D) Replaces CPU arithmetic circuits
+Answer: A) Manages hardware resources, file systems, processes, and provides an interface for users
+
+Q. Which of the following is a Free and Open-Source Operating System (FOSS)?
+A) GNU/Linux
+B) Microsoft Windows
+C) Apple macOS
+D) Apple iOS
+Answer: A) GNU/Linux
+
+Q. Which open-source operating system distribution is officially customized by KITE for Kerala State schools?
+A) KITE GNU/Linux (Ubuntu-based)
+B) Fedora Edu
+C) Debian Base
+D) Arch Linux
+Answer: A) KITE GNU/Linux (Ubuntu-based)
+
+Q. What central core program in an operating system acts as the bridge between software applications and hardware?
+A) Kernel
+B) Shell
+C) Compiler
+D) Browser
+Answer: A) Kernel
+
+Q. What command-line interface program interprets user text commands in a Linux terminal?
+A) Shell (e.g., Bash)
+B) Kernel
+C) BIOS
+D) Firmware
+Answer: A) Shell (e.g., Bash)
+
+Q. What application shortcut opens the Linux Terminal in Ubuntu and KITE GNU/Linux?
+A) Ctrl + Alt + T
+B) Ctrl + Shift + N
+C) Alt + F4
+D) Win + L
+Answer: A) Ctrl + Alt + T
+
+Q. Which command in Linux Terminal lists all files and folders in the current working directory?
+A) ls
+B) pwd
+C) cd
+D) cat
+Answer: A) ls
+
+Q. Which command in Linux Terminal prints the current working directory path on screen?
+A) pwd
+B) cd
+C) ls
+D) dir
+Answer: A) pwd
+
+Q. Which command in Linux Terminal is used to change the current directory?
+A) cd
+B) pwd
+C) mkdir
+D) rmdir
+Answer: A) cd
+
+Q. Which command in Linux Terminal creates a brand new folder/directory?
+A) mkdir
+B) cd
+C) touch
+D) rmdir
+Answer: A) mkdir
+
+Q. Which command in Linux Terminal removes/deletes an existing file permanently?
+A) rm
+B) del
+C) remove
+D) clear
+Answer: A) rm
+
+Q. Which command in Linux Terminal removes an empty directory?
+A) rmdir
+B) mkdir
+C) deldir
+D) erase
+Answer: A) rmdir
+
+Q. Which command in Linux Terminal creates an empty file or updates its timestamp?
+A) touch
+B) create
+C) new
+D) make
+Answer: A) touch
+
+Q. Which command in Linux Terminal displays the text content of a file directly in the terminal?
+A) cat
+B) echo
+C) show
+D) print
+Answer: A) cat
+
+Q. Which command in Linux Terminal copies files or directories from one location to another?
+A) cp
+B) mv
+C) copy
+D) dup
+Answer: A) cp
+
+Q. Which command in Linux Terminal moves or renames a file or folder?
+A) mv
+B) cp
+C) rename
+D) trans
+Answer: A) mv
+
+Q. Which command in Linux clears all previous text and commands from the terminal screen?
+A) clear
+B) cls
+C) clean
+D) reset
+Answer: A) clear
+
+Q. In KITE GNU/Linux, where are deleted files temporarily held before permanent emptying?
+A) Trash (Rubbish Bin)
+B) Home folder
+C) System settings
+D) Root partition
+Answer: A) Trash (Rubbish Bin)
+
+Q. In GNU/Linux directory structure, what symbol represents the root directory at the top of the hierarchy?
+A) / (Forward Slash)
+B) \ (Backslash)
+C) ~ (Tilde)
+D) . (Dot)
+Answer: A) / (Forward Slash)
+
+Q. In GNU/Linux, what symbol represents the current user's personal home directory?
+A) ~ (Tilde)
+B) / (Slash)
+C) # (Hash)
+D) $ (Dollar)
+Answer: A) ~ (Tilde)
+
+Q. What directory in Linux stores configuration files for system programs and services?
+A) /etc
+B) /bin
+C) /dev
+D) /home
+Answer: A) /etc
+
+Q. What directory in Linux stores essential executable binary commands available to all users?
+A) /bin
+B) /etc
+C) /tmp
+D) /opt
+Answer: A) /bin
+
+Q. What directory in Linux stores temporary files that are usually deleted upon system reboot?
+A) /tmp
+B) /var
+C) /usr
+D) /boot
+Answer: A) /tmp
+
+Q. What directory in Linux contains the Linux kernel image and files required to boot the system?
+A) /boot
+B) /home
+C) /etc
+D) /root
+Answer: A) /boot
+
+Q. What directory in Linux contains individual user personal documents, pictures, and desktop folders?
+A) /home
+B) /etc
+C) /bin
+D) /lib
+Answer: A) /home
+
+Q. What is the superuser administrative account called in GNU/Linux operating systems?
+A) root
+B) administrator
+C) master
+D) supervisor
+Answer: A) root
+
+Q. Which command prefixes an administrative command in Linux to execute with root privileges?
+A) sudo
+B) admin
+C) runas
+D) super
+Answer: A) sudo
+
+Q. What command in Ubuntu/Debian Linux updates the list of available software packages from repositories?
+A) sudo apt update
+B) sudo apt upgrade
+C) sudo apt install
+D) sudo apt remove
+Answer: A) sudo apt update
+
+Q. What command in Ubuntu/Debian Linux installs a new software package from repositories?
+A) sudo apt install <package_name>
+B) sudo apt get
+C) sudo run package
+D) install --now
+Answer: A) sudo apt install <package_name>
+
+Q. What command in Linux is used to view or change file permissions?
+A) chmod
+B) chown
+C) chgrp
+D) attrib
+Answer: A) chmod
+
+Q. What command in Linux is used to change the owner of a file or folder?
+A) chown
+B) chmod
+C) chgrp
+D) whoami
+Answer: A) chown
+
+Q. Which Linux terminal command displays the username of the currently active logged-in user?
+A) whoami
+B) id
+C) users
+D) hostname
+Answer: A) whoami
+
+Q. Which command displays the host name of the computer in Linux?
+A) hostname
+B) whoami
+C) sysinfo
+D) uname
+Answer: A) hostname
+
+Q. Which command in Linux displays operating system name and kernel version details?
+A) uname -a
+B) ver
+C) osinfo
+D) sysver
+Answer: A) uname -a
+
+Q. Which command displays the manual page and documentation for any Linux command?
+A) man <command>
+B) help <command>
+C) doc <command>
+D) info --all
+Answer: A) man <command>
+
+Q. Which command in Linux displays current active running processes?
+A) ps
+B) tasklist
+C) procs
+D) run
+Answer: A) ps
+
+Q. Which interactive command in Linux displays dynamic real-time information about running processes and CPU usage?
+A) top / htop
+B) ps -ef
+C) stat
+D) monitor
+Answer: A) top / htop
+
+Q. Which command in Linux terminates a running process using its Process ID (PID)?
+A) kill <PID>
+B) stop <PID>
+C) halt <PID>
+D) end <PID>
+Answer: A) kill <PID>
+
+Q. What shortcut key stops/cancels a running command process inside the Linux terminal?
+A) Ctrl + C
+B) Ctrl + Z
+C) Ctrl + D
+D) Ctrl + X
+Answer: A) Ctrl + C
+
+Q. What shortcut key suspends a running foreground process into the background in Linux terminal?
+A) Ctrl + Z
+B) Ctrl + C
+C) Ctrl + A
+D) Ctrl + S
+Answer: A) Ctrl + Z
+
+Q. Which command displays free and used disk space on all mounted filesystems in human-readable format?
+A) df -h
+B) du -sh
+C) free -m
+D) fdisk -l
+Answer: A) df -h
+
+Q. Which command estimates the file space usage of a directory and its subdirectories?
+A) du -sh
+B) df -h
+C) ls -l
+D) diskstat
+Answer: A) du -sh
+
+Q. Which command displays the total amount of free and used physical RAM and swap memory?
+A) free -m
+B) df -h
+C) top
+D) meminfo
+Answer: A) free -m
+
+Q. What symbol is used in Linux terminal to pipe the output of one command as input to another command?
+A) | (Vertical Pipe)
+B) > (Greater than)
+C) < (Less than)
+D) & (Ampersand)
+Answer: A) | (Vertical Pipe)
+
+Q. What symbol redirects standard output of a command to a file, overwriting existing contents?
+A) >
+B) >>
+C) <
+D) |
+Answer: A) >
+
+Q. What symbol redirects standard output of a command to a file, appending to existing contents?
+A) >>
+B) >
+C) <
+D) |
+Answer: A) >>
+
+Q. Which command in Linux searches for patterns of text inside files using regular expressions?
+A) grep
+B) find
+C) locate
+D) search
+Answer: A) grep
+
+Q. Which command in Linux searches the filesystem hierarchy for files matching specified criteria?
+A) find
+B) grep
+C) search
+D) scan
+Answer: A) find
+
+Q. Which command displays the first 10 lines of a text file in the terminal?
+A) head
+B) tail
+C) top
+D) first
+Answer: A) head
+
+Q. Which command displays the last 10 lines of a text file in the terminal?
+A) tail
+B) head
+C) bottom
+D) end
+Answer: A) tail
+
+Q. Which text editor designed for command-line use is installed by default in GNU/Linux?
+A) nano / vim
+B) Notepad
+C) WordPad
+D) TextEdit
+Answer: A) nano / vim
+
+Q. What key combination switches active application windows on the KITE GNU/Linux desktop?
+A) Alt + Tab
+B) Ctrl + Alt + T
+C) Shift + Esc
+D) Ctrl + Space
+Answer: A) Alt + Tab
+
+Q. What desktop environment is traditionally featured in KITE GNU/Linux (Ubuntu-based)?
+A) GNOME
+B) KDE Plasma
+C) XFCE
+D) LXDE
+Answer: A) GNOME
+
+Q. What application in GNU/Linux allows managing installed hardware drivers and proprietary modules?
+A) Additional Drivers
+B) Device Manager.exe
+C) BIOS Setup
+D) Regedit
+Answer: A) Additional Drivers
+
+Q. What native Linux filesystem is standard for disk partitions in modern distributions like Ubuntu?
+A) ext4
+B) NTFS
+C) FAT32
+D) exFAT
+Answer: A) ext4
+
+Q. What Windows filesystem is commonly supported as read-write on external flash drives and drives?
+A) NTFS / FAT32
+B) ext4
+C) APFS
+D) btrfs
+Answer: A) NTFS / FAT32
+
+Q. What command in Linux safely reboots the operating system?
+A) sudo reboot
+B) restart --now
+C) boot /r
+D) reload sys
+Answer: A) sudo reboot
+
+Q. What command in Linux powers off and shuts down the computer safely?
+A) sudo poweroff / shutdown -h now
+B) stop computer
+C) kill -9 os
+D) close system
+Answer: A) sudo poweroff / shutdown -h now
+
+Q. In GNU/Linux permissions, what do the three triplets 'rwx' represent?
+A) Read, Write, and Execute permissions
+B) Run, Wait, and Exit
+C) Root, Web, and XML
+D) Reset, Wipe, and eXtend
+Answer: A) Read, Write, and Execute permissions
+
+Q. In Linux file permissions, what numeric octal value corresponds to read (r), write (w), and execute (x)?
+A) 7 (4 + 2 + 1)
+B) 6
+C) 5
+D) 3
+Answer: A) 7 (4 + 2 + 1)
+
+Q. In Linux file permissions, what numeric octal value corresponds to read and write (rw-)?
+A) 6 (4 + 2)
+B) 7
+C) 5
+D) 4
+Answer: A) 6 (4 + 2)
+
+Q. In Linux file permissions, what numeric octal value corresponds to read-only (r--)?
+A) 4
+B) 2
+C) 1
+D) 0
+Answer: A) 4
+
+Q. What command gives read, write, and execute permissions to user, group, and others for a script?
+A) chmod 777 <script.sh>
+B) chmod 000 <script.sh>
+C) chown 777
+D) set perm 777
+Answer: A) chmod 777 <script.sh>
+
+Q. What command makes a shell script file executable by the owner?
+A) chmod +x <script.sh>
+B) chmod -x <script.sh>
+C) exec <script.sh>
+D) run <script.sh>
+Answer: A) chmod +x <script.sh>
+
+Q. What file extension is traditionally used for Linux bash shell script files?
+A) .sh
+B) .bat
+C) .exe
+D) .cmd
+Answer: A) .sh
+
+Q. What special characters at the very first line of a script tell the OS which interpreter to use (e.g., #!/bin/bash)?
+A) Shebang (#!)
+B) Comment tag (//)
+C) HTML doctype
+D) Docstring
+Answer: A) Shebang (#!)
+
+Q. Which terminal command shows network configuration, IP addresses, and MAC addresses in modern Linux?
+A) ip a / ifconfig
+B) ping
+C) netstat only
+D) traceroute
+Answer: A) ip a / ifconfig
+
+Q. Which utility sends ICMP echo packets to test network connectivity to another host?
+A) ping
+B) curl
+C) ssh
+D) ftp
+Answer: A) ping
+
+Q. Which secure command-line protocol is used to log into remote Linux servers securely over a network?
+A) SSH (Secure Shell)
+B) Telnet
+C) FTP
+D) HTTP
+Answer: A) SSH (Secure Shell)
+
+Q. What default port does the SSH service listen on for incoming connections?
+A) Port 22
+B) Port 80
+C) Port 443
+D) Port 21
+Answer: A) Port 22
+
+Q. What command line tool downloads files directly from web servers using HTTP, HTTPS, or FTP in Linux?
+A) wget / curl
+B) ping
+C) grep
+D) nano
+Answer: A) wget / curl
+
+Q. What archiving command is used to combine and compress multiple files into a .tar.gz archive in Linux?
+A) tar -czvf <archive.tar.gz> <folder>
+B) zip only
+C) gzip -d
+D) pack --all
+Answer: A) tar -czvf <archive.tar.gz> <folder>
+
+Q. What command extracts a compressed .tar.gz archive in Linux terminal?
+A) tar -xzvf <archive.tar.gz>
+B) tar -czvf
+C) uncompress
+D) open archive
+Answer: A) tar -xzvf <archive.tar.gz>
+
+Q. What command counts lines, words, and characters in a file in Linux?
+A) wc
+B) count
+C) num
+D) lines
+Answer: A) wc
+
+Q. What command in Linux sorts the lines of a text file alphabetically or numerically?
+A) sort
+B) order
+C) arrange
+D) group
+Answer: A) sort
+
+Q. What command in Linux removes consecutive duplicate lines from sorted output?
+A) uniq
+B) dedup
+C) distinct
+D) clean
+Answer: A) uniq
+
+Q. What command displays difference line-by-line between two text files in Linux?
+A) diff
+B) cmp
+C) compare
+D) match
+Answer: A) diff
+
+Q. Which command outputs the text arguments passed to it onto the screen?
+A) echo
+B) print
+C) display
+D) write
+Answer: A) echo
+
+Q. What is the variable in Linux that defines the list of directories searched for executable commands?
+A) PATH ($PATH)
+B) HOME
+C) USER
+D) SHELL
+Answer: A) PATH ($PATH)
+
+Q. What command displays the current date and time in Linux terminal?
+A) date
+B) time
+C) clock
+D) cal
+Answer: A) date
+
+Q. What command displays a simple monthly calendar in Linux terminal?
+A) cal
+B) date
+C) calendar
+D) month
+Answer: A) cal
+
+Q. Which command compares two files byte by byte to see if they are identical?
+A) cmp
+B) diff
+C) match
+D) equal
+Answer: A) cmp
+
+Q. What command creates an alias or shortcut for a lengthy terminal command in bash?
+A) alias
+B) shortcut
+C) macro
+D) link
+Answer: A) alias
+
+Q. What command displays the history of previously typed commands in the current shell session?
+A) history
+B) log
+C) past
+D) commands
+Answer: A) history
+
+Q. What keystroke auto-completes file names and command names in Linux bash terminal?
+A) Tab key
+B) Spacebar
+C) Enter key
+D) Esc key
+Answer: A) Tab key
+
+Q. What keystroke combination cleans the current input line from cursor to beginning in bash?
+A) Ctrl + U
+B) Ctrl + A
+C) Ctrl + E
+D) Ctrl + K
+Answer: A) Ctrl + U
+
+Q. What keystroke moves the cursor to the very beginning of the command line in bash?
+A) Ctrl + A
+B) Ctrl + E
+C) Ctrl + C
+D) Ctrl + L
+Answer: A) Ctrl + A
+
+Q. What keystroke moves the cursor to the end of the command line in bash?
+A) Ctrl + E
+B) Ctrl + A
+C) Ctrl + W
+D) Ctrl + Z
+Answer: A) Ctrl + E
+
+Q. What keystroke combination clears the terminal screen while keeping the prompt active?
+A) Ctrl + L
+B) Ctrl + C
+C) Ctrl + D
+D) Ctrl + Z
+Answer: A) Ctrl + L
+
+Q. What keystroke sends an End-Of-File (EOF) signal to exit a shell session?
+A) Ctrl + D
+B) Ctrl + C
+C) Ctrl + X
+D) Ctrl + Q
+Answer: A) Ctrl + D
+
+Q. Which open-source web browser is pre-installed as default in KITE GNU/Linux for school students?
+A) Mozilla Firefox
+B) Internet Explorer
+C) Safari
+D) Microsoft Edge
+Answer: A) Mozilla Firefox
+
+Q. Which package management tool provides a graphical user interface to install and remove apps in Ubuntu/KITE Linux?
+A) Synaptic Package Manager / Ubuntu Software
+B) Control Panel.exe
+C) App Store iOS
+D) Regedit
+Answer: A) Synaptic Package Manager / Ubuntu Software
+
+Q. What bootloader program in GNU/Linux allows users to select between multiple installed operating systems?
+A) GRUB (Grand Unified Bootloader)
+B) LILO
+C) NTLDR
+D) BIOS
+Answer: A) GRUB (Grand Unified Bootloader)
+
+Q. What partition type in Linux acts as virtual memory when RAM is fully exhausted?
+A) Swap partition
+B) Boot partition
+C) Home partition
+D) EFI system partition
+Answer: A) Swap partition
+
+Q. In GNU/Linux file naming, what does a dot (.) at the beginning of a filename signify (e.g., .bashrc)?
+A) It is a hidden file
+B) It is an executable binary
+C) It is corrupted
+D) It is a read-only document
+Answer: A) It is a hidden file
+
+Q. Which command in Linux reveals hidden files starting with a dot in directory listings?
+A) ls -a
+B) ls -l
+C) ls -h
+D) ls -s
+Answer: A) ls -a
+
+Q. Which Linux command creates a symbolic (soft) link pointing to another file or directory?
+A) ln -s <target> <link_name>
+B) link --create
+C) cp -l
+D) shortcut --make
+Answer: A) ln -s <target> <link_name>
+
+Q. What daemon service in Linux is responsible for scheduling automated periodic tasks using cron jobs?
+A) crond
+B) systemd-networkd
+C) sshd
+D) cupsd
+Answer: A) crond
+
+Q. What command edits the list of scheduled cron jobs for the current user in Linux?
+A) crontab -e
+B) cron --edit
+C) schedule --add
+D) taskmgr
+Answer: A) crontab -e
+
+Q. What system and service manager has become the default init system in modern Linux distributions including Ubuntu?
+A) systemd
+B) SysVinit
+C) Upstart
+D) OpenRC
+Answer: A) systemd
+
+Q. Which open-source office suite is standard in Kerala State schools curriculum under KITE?
+A) LibreOffice
+B) MS Office
+C) WPS Office
+D) Apple iWork
+Answer: A) LibreOffice
+
+Q. What native file extension denotes an editable word processing document saved in LibreOffice Writer?
+A) .odt
+B) .docx
+C) .pdf
+D) .txt
+Answer: A) .odt
+
+Q. What native file extension denotes a spreadsheet workbook saved in LibreOffice Calc?
+A) .ods
+B) .xlsx
+C) .csv
+D) .pdf
+Answer: A) .ods
+
+Q. What native file extension denotes a digital presentation created in LibreOffice Impress?
+A) .odp
+B) .pptx
+C) .avi
+D) .svg
+Answer: A) .odp
+
+Q. What native file extension denotes a relational database file created in LibreOffice Base?
+A) .odb
+B) .sql
+C) .dbf
+D) .dat
+Answer: A) .odb
+
+Q. What is the standard universal shortcut key to save a file in LibreOffice applications?
+A) Ctrl + S
+B) Ctrl + P
+C) Ctrl + O
+D) Ctrl + A
+Answer: A) Ctrl + S
+
+Q. What shortcut key is used to create a new blank document in LibreOffice?
+A) Ctrl + N
+B) Ctrl + B
+C) Ctrl + M
+D) Ctrl + E
+Answer: A) Ctrl + N
+
+Q. What shortcut key is used to open an existing saved file from the storage disk in LibreOffice?
+A) Ctrl + O
+B) Ctrl + P
+C) Ctrl + S
+D) Ctrl + F
+Answer: A) Ctrl + O
+
+Q. What shortcut key opens the print dialog in LibreOffice applications?
+A) Ctrl + P
+B) Ctrl + D
+C) Ctrl + Q
+D) Ctrl + R
+Answer: A) Ctrl + P
+
+Q. What shortcut key is used to select all contents inside an open document window?
+A) Ctrl + A
+B) Ctrl + S
+C) Ctrl + C
+D) Ctrl + V
+Answer: A) Ctrl + A
+
+Q. What shortcut key copies selected text or items to the system clipboard without removing them?
+A) Ctrl + C
+B) Ctrl + X
+C) Ctrl + V
+D) Ctrl + Z
+Answer: A) Ctrl + C
+
+Q. What shortcut key cuts selected text or items, moving them to the clipboard?
+A) Ctrl + X
+B) Ctrl + C
+C) Ctrl + V
+D) Ctrl + Y
+Answer: A) Ctrl + X
+
+Q. What shortcut key pastes copied or cut text from the clipboard into the document?
+A) Ctrl + V
+B) Ctrl + P
+C) Ctrl + C
+D) Ctrl + B
+Answer: A) Ctrl + V
+
+Q. What shortcut key undoes the most recent edit or action in LibreOffice?
+A) Ctrl + Z
+B) Ctrl + Y
+C) Ctrl + U
+D) Ctrl + R
+Answer: A) Ctrl + Z
+
+Q. What shortcut key redoes an action that was previously undone in LibreOffice?
+A) Ctrl + Y
+B) Ctrl + Z
+C) Ctrl + X
+D) Ctrl + Shift + Z
+Answer: A) Ctrl + Y
+
+Q. Which menu option in LibreOffice Writer is used to convert and export a document directly into a non-editable PDF?
+A) File -> Export As -> Export as PDF
+B) Edit -> Save as PDF
+C) Tools -> PDF Conversion
+D) Insert -> PDF
+Answer: A) File -> Export As -> Export as PDF
+
+Q. In LibreOffice Calc, what is the intersection of a column and a row called?
+A) Cell
+B) Table
+C) Block
+D) Grid
+Answer: A) Cell
+
+Q. In LibreOffice Calc, columns are labeled using:
+A) Letters (A, B, C...)
+B) Numbers (1, 2, 3...)
+C) Roman Numerals (I, II...)
+D) Symbols
+Answer: A) Letters (A, B, C...)
+
+Q. In LibreOffice Calc, rows are labeled using:
+A) Numbers (1, 2, 3...)
+B) Letters (A, B, C...)
+C) Symbols
+D) Colors
+Answer: A) Numbers (1, 2, 3...)
+
+Q. What is the cell address of the cell in the first column and first row of a spreadsheet?
+A) A1
+B) 1A
+C) R1C1
+D) Row1
+Answer: A) A1
+
+Q. In LibreOffice Calc, what character must precede every mathematical formula or calculation?
+A) = (Equal Sign)
+B) # (Hash)
+C) $ (Dollar)
+D) @ (At Sign)
+Answer: A) = (Equal Sign)
+
+Q. Which built-in function in LibreOffice Calc calculates the arithmetic total of numbers in a range of cells?
+A) SUM()
+B) TOTAL()
+C) ADD()
+D) COUNT()
+Answer: A) SUM()
+
+Q. Which function in LibreOffice Calc calculates the arithmetic mean of a range of numerical values?
+A) AVERAGE()
+B) MEAN()
+C) MEDIAN()
+D) SUM()
+Answer: A) AVERAGE()
+
+Q. Which function in LibreOffice Calc finds the largest numerical value in a range?
+A) MAX()
+B) LARGE()
+C) HIGH()
+D) TOP()
+Answer: A) MAX()
+
+Q. Which function in LibreOffice Calc finds the smallest numerical value in a range?
+A) MIN()
+B) LOW()
+C) BOTTOM()
+D) SMALL()
+Answer: A) MIN()
+
+Q. Which function in LibreOffice Calc counts the number of cells containing numbers in a given range?
+A) COUNT()
+B) COUNTA()
+C) SUM()
+D) TOTAL()
+Answer: A) COUNT()
+
+Q. What formula correctly calculates the sum of all cell values from A1 through A10 in Calc?
+A) =SUM(A1:A10)
+B) =ADD(A1..A10)
+C) =TOTAL(A1:A10)
+D) SUM A1 to A10
+Answer: A) =SUM(A1:A10)
+
+Q. What symbol is used in Calc formulas to perform multiplication?
+A) * (Asterisk)
+B) x (Letter x)
+C) ^ (Caret)
+D) %
+Answer: A) * (Asterisk)
+
+Q. What symbol is used in Calc formulas to perform division?
+A) / (Forward Slash)
+B) \ (Backslash)
+C) %
+D) ÷
+Answer: A) / (Forward Slash)
+
+Q. What symbol is used in Calc formulas for exponentiation (raising to a power)?
+A) ^ (Caret)
+B) **
+C) #
+D) &
+Answer: A) ^ (Caret)
+
+Q. In LibreOffice Calc, what symbol is used in cell references to make a row or column reference absolute (e.g., $A$1)?
+A) $ (Dollar Sign)
+B) #
+C) %
+D) &
+Answer: A) $ (Dollar Sign)
+
+Q. What is the small square at the bottom-right corner of an active cell used to copy formulas or series called?
+A) Fill Handle
+B) Cursor block
+C) Anchor Point
+D) Formula Marker
+Answer: A) Fill Handle
+
+Q. What visual tool in LibreOffice Calc represents tabular numerical data as bar graphs, pie charts, or line graphs?
+A) Chart Wizard
+B) Drawing Canvas
+C) Paint tool
+D) Mail Merge
+Answer: A) Chart Wizard
+
+Q. Which chart type in Calc is ideal for depicting proportions of a whole (percentage shares)?
+A) Pie Chart
+B) Line Graph
+C) Scatter Plot
+D) Radar Chart
+Answer: A) Pie Chart
+
+Q. Which chart type in Calc is best suited for showing changes or trends over time?
+A) Line Chart
+B) Pie Chart
+C) Donut Chart
+D) Bubble Chart
+Answer: A) Line Chart
+
+Q. What feature in LibreOffice Writer automatically creates letters or certificates for multiple recipients using a database?
+A) Mail Merge
+B) AutoFormat
+C) Spell Check
+D) Track Changes
+Answer: A) Mail Merge
+
+Q. What shortcut key triggers the Spellcheck and Grammar dialog in LibreOffice Writer?
+A) F7
+B) F1
+C) F5
+D) F12
+Answer: A) F7
+
+Q. What shortcut key opens the Find and Replace dialog box in LibreOffice applications?
+A) Ctrl + H
+B) Ctrl + F
+C) Ctrl + R
+D) Ctrl + G
+Answer: A) Ctrl + H
+
+Q. What shortcut key quickly formats selected text in Bold in LibreOffice Writer?
+A) Ctrl + B
+B) Ctrl + I
+C) Ctrl + U
+D) Ctrl + D
+Answer: A) Ctrl + B
+
+Q. What shortcut key quickly formats selected text in Italics in LibreOffice Writer?
+A) Ctrl + I
+B) Ctrl + B
+C) Ctrl + L
+D) Ctrl + T
+Answer: A) Ctrl + I
+
+Q. What shortcut key applies Underline to selected text in LibreOffice Writer?
+A) Ctrl + U
+B) Ctrl + B
+C) Ctrl + E
+D) Ctrl + J
+Answer: A) Ctrl + U
+
+Q. What shortcut key aligns the selected paragraph to the Center in LibreOffice Writer?
+A) Ctrl + E
+B) Ctrl + C
+C) Ctrl + M
+D) Ctrl + T
+Answer: A) Ctrl + E
+
+Q. What shortcut key Justifies the text alignment along both left and right margins in Writer?
+A) Ctrl + J
+B) Ctrl + L
+C) Ctrl + R
+D) Ctrl + F
+Answer: A) Ctrl + J
+
+Q. What feature in LibreOffice Writer displays page numbers, titles, and dates at the top of every page?
+A) Header
+B) Footer
+C) Footnote
+D) Endnote
+Answer: A) Header
+
+Q. What feature in LibreOffice Writer displays document information or citations at the very bottom of every page?
+A) Footer
+B) Header
+C) Watermark
+D) Sidebar
+Answer: A) Footer
+
+Q. In LibreOffice Impress, what is an individual page of a presentation called?
+A) Slide
+B) Sheet
+C) Document
+D) Frame
+Answer: A) Slide
+
+Q. Which function key starts the full-screen slide show presentation from the first slide in Impress?
+A) F5
+B) F1
+C) F7
+D) F11
+Answer: A) F5
+
+Q. Which key combination starts the slide show starting from the currently selected slide in Impress?
+A) Shift + F5
+B) Ctrl + F5
+C) Alt + F5
+D) F9
+Answer: A) Shift + F5
+
+Q. What key is pressed on the keyboard to exit an active full-screen slide show in Impress?
+A) Esc (Escape)
+B) Enter
+C) Spacebar
+D) Tab
+Answer: A) Esc (Escape)
+
+Q. What effect determines how a new slide appears on screen when replacing the previous slide during presentation?
+A) Slide Transition
+B) Custom Animation
+C) Font Effect
+D) Page Style
+Answer: A) Slide Transition
+
+Q. What feature in Impress applies movement or sound to individual text boxes or images on a slide?
+A) Custom Animation
+B) Slide Transition
+C) Master View
+D) Slide Sorter
+Answer: A) Custom Animation
+
+Q. What view in Impress displays thumbnail miniatures of all slides simultaneously to reorder them easily?
+A) Slide Sorter View
+B) Normal View
+C) Notes View
+D) Outline View
+Answer: A) Slide Sorter View
+
+Q. What template slide in Impress controls the universal background, logo, and fonts for all slides in the deck?
+A) Master Slide
+B) Cover Slide
+C) Slide 1
+D) Parent Layer
+Answer: A) Master Slide
+
+Q. In LibreOffice Writer, what table component runs horizontally across the page?
+A) Row
+B) Column
+C) Cell
+D) Border
+Answer: A) Row
+
+Q. In LibreOffice Writer, what table component runs vertically down the page?
+A) Column
+B) Row
+C) Grid
+D) Line
+Answer: A) Column
+
+Q. What action combines two or more selected cells into a single larger cell in LibreOffice Writer or Calc?
+A) Merge Cells
+B) Split Cells
+C) Group Cells
+D) Wrap Text
+Answer: A) Merge Cells
+
+Q. What action divides a single cell into multiple smaller rows or columns?
+A) Split Cells
+B) Merge Cells
+C) Unlink Cells
+D) Break Cell
+Answer: A) Split Cells
+
+Q. What formatting feature automatically wraps long text onto multiple lines within a single cell in Calc?
+A) Wrap Text
+B) Shrink to Fit
+C) Merge
+D) Rotate
+Answer: A) Wrap Text
+
+Q. What feature in Calc freezes specified top rows or leftmost columns so they remain visible while scrolling?
+A) Freeze Rows and Columns
+B) Lock Workspace
+C) Pin Cells
+D) Anchor View
+Answer: A) Freeze Rows and Columns
+
+Q. What feature in Calc displays only rows that satisfy specific criteria, hiding other rows temporarily?
+A) AutoFilter / Standard Filter
+B) Sort Ascending
+C) Conditional Format
+D) Consolidate
+Answer: A) AutoFilter / Standard Filter
+
+Q. What feature in Calc applies special background colors or fonts to cells based on their values?
+A) Conditional Formatting
+B) Cell Styling
+C) Format Painter
+D) Data Validation
+Answer: A) Conditional Formatting
+
+Q. What feature in Calc restricts the type or range of data that users can enter into a cell?
+A) Data Validation
+B) Conditional Format
+C) Protection only
+D) Filter
+Answer: A) Data Validation
+
+Q. What formula error in Calc appears when a formula attempts to divide a number by zero?
+A) #DIV/0!
+B) #VALUE!
+C) #NAME?
+D) ###
+Answer: A) #DIV/0!
+
+Q. What appears across a cell in Calc when the column width is too narrow to display the entire number?
+A) ### (Hash symbols)
+B) #VALUE!
+C) #ERROR
+D) ???
+Answer: A) ### (Hash symbols)
+
+Q. What formula error in Calc occurs when an invalid function name or unrecognized text is typed in a formula?
+A) #NAME?
+B) #REF!
+C) #DIV/0!
+D) #N/A
+Answer: A) #NAME?
+
+Q. What function in Calc evaluates a condition and returns one value if True, and another if False?
+A) IF()
+B) CHECK()
+C) TEST()
+D) WHEN()
+Answer: A) IF()
+
+Q. What function in Calc joins two or more text strings together into one continuous string?
+A) CONCATENATE()
+B) MERGE()
+C) UNION()
+D) JOIN()
+Answer: A) CONCATENATE()
+
+Q. What function in Calc returns the current system date?
+A) TODAY()
+B) NOW()
+C) DATE()
+D) DAY()
+Answer: A) TODAY()
+
+Q. What function in Calc returns the current system date along with the current time?
+A) NOW()
+B) TODAY()
+C) TIME()
+D) TIMESTAMP()
+Answer: A) NOW()
+
+Q. What shortcut key inserts a hard Page Break at the cursor position in LibreOffice Writer?
+A) Ctrl + Enter
+B) Shift + Enter
+C) Alt + Enter
+D) Ctrl + Shift + Enter
+Answer: A) Ctrl + Enter
+
+Q. What shortcut key inserts a soft Line Break without starting a new paragraph in Writer?
+A) Shift + Enter
+B) Ctrl + Enter
+C) Alt + Enter
+D) Tab
+Answer: A) Shift + Enter
+
+Q. What is the name of the tool in Writer that copies formatting from one piece of text to another?
+A) Clone Formatting (Format Paintbrush)
+B) Format Copier
+C) Style Replicator
+D) Style Duplicate
+Answer: A) Clone Formatting (Format Paintbrush)
+
+Q. In LibreOffice Writer, what feature allows tracking changes and annotations made by different reviewers?
+A) Track Changes
+B) Version Control
+C) Document Compare
+D) Comments only
+Answer: A) Track Changes
+
+Q. What is the primary view for managing and assigning Styles (Paragraph, Character, Page) in Writer?
+A) Styles Sidebar (F11)
+B) Navigator
+C) Property Inspector
+D) Gallery
+Answer: A) Styles Sidebar (F11)
+
+Q. What navigation tool in Writer provides an outline of all headings, tables, and images in a document?
+A) Navigator (F5)
+B) Sidebar Styles
+C) Status Bar
+D) Document Map
+Answer: A) Navigator (F5)
+
+Q. What is a primary key in a relational database like LibreOffice Base?
+A) A field that uniquely identifies each record in a database table
+B) A password to open the file
+C) The first column heading
+D) A foreign relationship link
+Answer: A) A field that uniquely identifies each record in a database table
+
+Q. What database object in LibreOffice Base is used to store data in structured rows and columns?
+A) Table
+B) Query
+C) Form
+D) Report
+Answer: A) Table
+
+Q. What database object in LibreOffice Base is used to extract specific data based on search criteria?
+A) Query
+B) Table
+C) Form
+D) Report
+Answer: A) Query
+
+Q. What database object in LibreOffice Base provides an intuitive user-friendly interface for entering data?
+A) Form
+B) Report
+C) Query
+D) Table
+Answer: A) Form
+
+Q. What database object in LibreOffice Base formats and organizes extracted data for professional printing?
+A) Report
+B) Form
+C) Query
+D) Macro
+Answer: A) Report
+
+Q. What standardized query language is used behind the scenes in LibreOffice Base to manage relational databases?
+A) SQL (Structured Query Language)
+B) HTML
+C) Python
+D) C++
+Answer: A) SQL (Structured Query Language)
+
+Q. What SQL command is used to retrieve data from one or more database tables?
+A) SELECT
+B) GET
+C) FIND
+D) OPEN
+Answer: A) SELECT
+
+Q. What SQL command is used to add new records into a database table?
+A) INSERT INTO
+B) ADD RECORD
+C) APPEND
+D) PUSH
+Answer: A) INSERT INTO
+
+Q. What SQL command is used to modify existing records in a database table?
+A) UPDATE
+B) MODIFY
+C) CHANGE
+D) SET
+Answer: A) UPDATE
+
+Q. What SQL command is used to delete records from a table in a database?
+A) DELETE FROM
+B) REMOVE
+C) DROP TABLE
+D) ERASE
+Answer: A) DELETE FROM
+
+Q. What SQL clause specifies the filtering criteria for rows to be selected?
+A) WHERE
+B) HAVING only
+C) FROM
+D) ORDER BY
+Answer: A) WHERE
+
+Q. What SQL clause sorts the retrieved results in ascending or descending order?
+A) ORDER BY
+B) GROUP BY
+C) SORT
+D) ARRANGE
+Answer: A) ORDER BY
+
+Q. In LibreOffice Writer, what orientation makes a page wider than it is tall?
+A) Landscape
+B) Portrait
+C) Vertical
+D) Square
+Answer: A) Landscape
+
+Q. In LibreOffice Writer, what default orientation makes a page taller than it is wide?
+A) Portrait
+B) Landscape
+C) Horizontal
+D) Banner
+Answer: A) Portrait
+
+Q. What standard paper size is most widely used for school documents and office printing (210 x 297 mm)?
+A) A4
+B) Letter
+C) Legal
+D) A3
+Answer: A) A4
+
+Q. What margin setting defines the blank space between the text content and the edge of the printed page?
+A) Page Margin
+B) Gutter
+C) Indentation
+D) Padding
+Answer: A) Page Margin
+
+Q. What extra margin space is added to the binding side of a book or report to allow for stitching?
+A) Gutter Margin
+B) Header Margin
+C) Indent
+D) Border
+Answer: A) Gutter Margin
+
+Q. What feature in Writer automatically indents the first line of a paragraph?
+A) First Line Indent
+B) Hanging Indent
+C) Tab Stop
+D) Right Margin
+Answer: A) First Line Indent
+
+Q. What formatting feature raises characters slightly above the baseline in smaller font (e.g., in x²)?
+A) Superscript
+B) Subscript
+C) Overline
+D) Small Caps
+Answer: A) Superscript
+
+Q. What formatting feature lowers characters slightly below the baseline in smaller font (e.g., in H₂O)?
+A) Subscript
+B) Superscript
+C) Underline
+D) Strikethrough
+Answer: A) Subscript
+
+Q. What shortcut key toggles Superscript on selected text in LibreOffice Writer?
+A) Ctrl + Shift + P
+B) Ctrl + Shift + B
+C) Ctrl + P
+D) Alt + S
+Answer: A) Ctrl + Shift + P
+
+Q. What shortcut key toggles Subscript on selected text in LibreOffice Writer?
+A) Ctrl + Shift + B
+B) Ctrl + Shift + P
+C) Ctrl + B
+D) Alt + B
+Answer: A) Ctrl + Shift + B
+
+Q. What tool in LibreOffice Writer creates an automated Table of Contents from document headings?
+A) Insert -> Table of Contents and Index
+B) Insert -> Bookmark
+C) Tools -> Outline
+D) View -> Navigator
+Answer: A) Insert -> Table of Contents and Index
+
+Q. What feature in Calc locks specific cells with passwords so that formulas cannot be accidentally edited?
+A) Protect Sheet
+B) Hide Formula
+C) Freeze Cell
+D) Data Lock
+Answer: A) Protect Sheet
+
+Q. What free, open-standard document format was developed by OASIS and is used natively by LibreOffice?
+A) OpenDocument Format (ODF)
+B) Office Open XML
+C) Rich Text Format
+D) PostScript
+Answer: A) OpenDocument Format (ODF)
+
+Q. Which popular drawing and painting software is designed for primary school students in KITE GNU/Linux?
+A) Tux Paint
+B) Inkscape
+C) GIMP
+D) Blender
+Answer: A) Tux Paint
+
+Q. In Tux Paint, which button undoes the last drawing action performed on the canvas?
+A) Undo
+B) Redo
+C) Eraser
+D) New
+Answer: A) Undo
+
+Q. What tool in Tux Paint draws decorative repeating patterns and photo stamps?
+A) Stamp Tool
+B) Magic Tool
+C) Text Tool
+D) Shapes Tool
+Answer: A) Stamp Tool
+
+Q. Which tool in Tux Paint provides special graphical effects like smudge, rainbow, and grass?
+A) Magic Tool
+B) Stamp Tool
+C) Paint Tool
+D) Lines Tool
+Answer: A) Magic Tool
+
+Q. What canvas feature in Tux Paint provides ready-made outlines and photo backgrounds for coloring?
+A) Open / Starter Images
+B) Magic Effect
+C) Stamp Tool
+D) Shapes Tool
+Answer: A) Open / Starter Images
+
+Q. Which open-source vector graphics editor software is taught in Kerala school ICT classes?
+A) Inkscape
+B) GIMP
+C) Audacity
+D) LibreOffice Calc
+Answer: A) Inkscape
+
+Q. What is the native standard vector graphics file extension produced by Inkscape?
+A) .svg (Scalable Vector Graphics)
+B) .png
+C) .jpeg
+D) .mp3
+Answer: A) .svg (Scalable Vector Graphics)
+
+Q. Why do vector graphic images retain crisp sharp quality without pixelation when scaled up to huge sizes?
+A) They are defined mathematically by geometric points, lines, and curves
+B) They use ultra-high resolution pixel grids
+C) They are compressed as audio waves
+D) They use invisible fonts
+Answer: A) They are defined mathematically by geometric points, lines, and curves
+
+Q. Which vector tool in Inkscape allows selecting and adjusting individual node points along a curved path?
+A) Edit Paths by Nodes Tool (F2)
+B) Select and Transform Tool (F1)
+C) Zoom Tool
+D) Rectangle Tool
+Answer: A) Edit Paths by Nodes Tool (F2)
+
+Q. Which tool in Inkscape is used to draw smooth Bezier curves and straight line segments?
+A) Bezier Pen Tool (Shift + F6)
+B) Calligraphy Tool
+C) Pencil Tool
+D) Eraser Tool
+Answer: A) Bezier Pen Tool (Shift + F6)
+
+Q. In Inkscape, which panel is used to change an object's interior color, outline thickness, and opacity?
+A) Object -> Fill and Stroke (Ctrl + Shift + F)
+B) Path Menu
+C) Layer Menu
+D) View Menu
+Answer: A) Object -> Fill and Stroke (Ctrl + Shift + F)
+
+Q. In Inkscape, what is the shortcut key to group multiple selected vector objects into a single unit?
+A) Ctrl + G
+B) Ctrl + U
+C) Ctrl + K
+D) Ctrl + J
+Answer: A) Ctrl + G
+
+Q. In Inkscape, what is the shortcut key to ungroup a previously grouped object?
+A) Ctrl + Shift + G (or Ctrl + U)
+B) Ctrl + G
+C) Ctrl + D
+D) Ctrl + A
+Answer: A) Ctrl + Shift + G (or Ctrl + U)
+
+Q. In Inkscape, what tool draws perfect circles, ellipses, and circular arcs?
+A) Create Circles, Ellipses, and Arcs Tool (F5)
+B) Rectangle Tool
+C) Polygon Tool
+D) Star Tool
+Answer: A) Create Circles, Ellipses, and Arcs Tool (F5)
+
+Q. In Inkscape, which boolean path operation combines two overlapping shapes into one single boundary silhouette?
+A) Path -> Union (Ctrl + +)
+B) Path -> Difference
+C) Path -> Intersection
+D) Path -> Exclusion
+Answer: A) Path -> Union (Ctrl + +)
+
+Q. In Inkscape, which boolean path operation cuts away the area of the top shape from the bottom shape?
+A) Path -> Difference (Ctrl + -)
+B) Path -> Union
+C) Path -> Combine
+D) Path -> Break Apart
+Answer: A) Path -> Difference (Ctrl + -)
+
+Q. What type of graphic editing application is GIMP in GNU/Linux?
+A) Raster (Bitmap) Graphics Image Editor
+B) Vector Drawing Editor
+C) Audio Sequencer
+D) Video Converter
+Answer: A) Raster (Bitmap) Graphics Image Editor
+
+Q. What does GIMP stand for in open-source creative software?
+A) GNU Image Manipulation Program
+B) General Internet Media Producer
+C) Graphic Interface Modeling Platform
+D) Global Image Maker Program
+Answer: A) GNU Image Manipulation Program
+
+Q. What native project file extension preserves all unmerged layers and channels in GIMP?
+A) .xcf
+B) .png
+C) .jpeg
+D) .psd
+Answer: A) .xcf
+
+Q. Which tool in GIMP allows selecting an irregularly shaped region freehand?
+A) Free Select (Lasso) Tool
+B) Rectangle Select
+C) Fuzzy Select
+D) Color Select
+Answer: A) Free Select (Lasso) Tool
+
+Q. Which tool in GIMP selects a contiguous region of a single color based on hue similarity?
+A) Fuzzy Select Tool (Magic Wand)
+B) Crop Tool
+C) Paintbrush
+D) Text Tool
+Answer: A) Fuzzy Select Tool (Magic Wand)
+
+Q. Which tool in GIMP clones or duplicates pixels from one source area of an image onto another area?
+A) Clone Tool / Healing Tool
+B) Bucket Fill
+C) Eraser Tool
+D) Smudge Tool
+Answer: A) Clone Tool / Healing Tool
+
+Q. What fundamental feature in 2D graphic design allows stacking elements transparently on top of each other?
+A) Layers
+B) Pixels
+C) Canvases
+D) Palettes
+Answer: A) Layers
+
+Q. Which tool in GIMP fills an enclosed selected region with a solid color or pattern?
+A) Bucket Fill Tool
+B) Pencil Tool
+C) Ink Tool
+D) Gradient Tool
+Answer: A) Bucket Fill Tool
+
+Q. Which tool in GIMP creates smooth color transitions from one hue to another across a layer?
+A) Gradient Tool
+B) Bucket Fill
+C) Color Picker
+D) Measure Tool
+Answer: A) Gradient Tool
+
+Q. Which tool in GIMP samples an exact color from any part of an image canvas?
+A) Color Picker Tool
+B) Eyedropper only
+C) Paintbrush
+D) Clone Tool
+Answer: A) Color Picker Tool
+
+Q. Which tool in GIMP removes unwanted outer borders and cuts an image to a smaller rectangular area?
+A) Crop Tool
+B) Scale Tool
+C) Shear Tool
+D) Perspective Tool
+Answer: A) Crop Tool
+
+Q. Which image format supports lossless compression and true alpha-channel transparency for web graphics?
+A) .png (Portable Network Graphics)
+B) .jpeg
+C) .bmp
+D) .tiff
+Answer: A) .png (Portable Network Graphics)
+
+Q. Which image format uses lossy compression and is standard for digital camera photographs?
+A) .jpeg / .jpg
+B) .png
+C) .gif
+D) .svg
+Answer: A) .jpeg / .jpg
+
+Q. Which image format supports simple multi-frame animations and up to 256 indexed colors?
+A) .gif (Graphics Interchange Format)
+B) .jpeg
+C) .bmp
+D) .raw
+Answer: A) .gif (Graphics Interchange Format)
+
+Q. Which open-source audio software is taught in Kerala schools for multi-track audio recording and editing?
+A) Audacity
+B) Kdenlive
+C) Blender
+D) VLC
+Answer: A) Audacity
+
+Q. What is the native project file extension used by Audacity for saving multi-track audio sessions?
+A) .aup3
+B) .mp3
+C) .wav
+D) .ogg
+Answer: A) .aup3
+
+Q. Which audio format stores uncompressed, high-fidelity pulse-code modulation (PCM) digital audio?
+A) .wav
+B) .mp3
+C) .aac
+D) .wma
+Answer: A) .wav
+
+Q. Which widely used audio format uses lossy psychoacoustic compression for compact music streaming?
+A) .mp3
+B) .wav
+C) .flac
+D) .aiff
+Answer: A) .mp3
+
+Q. In Audacity, which tool is used to click, drag, and highlight a specific duration of an audio waveform?
+A) Selection Tool (F1)
+B) Envelope Tool (F2)
+C) Time Shift Tool
+D) Zoom Tool
+Answer: A) Selection Tool (F1)
+
+Q. In Audacity, which tool allows creating volume control points to fade tracks in and out smoothly?
+A) Envelope Tool (F2)
+B) Selection Tool
+C) Draw Tool
+D) Multi Tool
+Answer: A) Envelope Tool (F2)
+
+Q. In Audacity, what effect is used to remove continuous background hisses, fan noise, or hums from a vocal recording?
+A) Noise Reduction
+B) Amplify
+C) Echo
+D) Pitch Shift
+Answer: A) Noise Reduction
+
+Q. In Audacity, what effect adjusts the maximum volume peak of an audio track to a standard uniform level?
+A) Normalize / Amplify
+B) Reverb
+C) Wahwah
+D) Invert
+Answer: A) Normalize / Amplify
+
+Q. In Audacity, which option converts a multi-track recording into a single shareable audio file like MP3 or WAV?
+A) File -> Export -> Export as MP3 / WAV
+B) File -> Save Project
+C) Edit -> Duplicate
+D) Tracks -> Mix Down
+Answer: A) File -> Export -> Export as MP3 / WAV
+
+Q. What hardware component inside a microphone converts acoustic pressure vibrations into electrical audio signals?
+A) Diaphragm and transducer
+B) Amplifier speaker
+C) Laser lens
+D) ADC inverter
+Answer: A) Diaphragm and transducer
+
+Q. What audio parameter measures the number of digital audio samples recorded per second (e.g., 44.1 kHz)?
+A) Sample Rate
+B) Bit Depth
+C) Channels
+D) Baud Rate
+Answer: A) Sample Rate
+
+Q. What is the standard CD-quality audio sampling rate?
+A) 44,100 Hz (44.1 kHz)
+B) 22,050 Hz
+C) 96,000 Hz
+D) 10,000 Hz
+Answer: A) 44,100 Hz (44.1 kHz)
+
+Q. How many audio channels are recorded in a standard stereo audio track?
+A) 2 Channels (Left and Right)
+B) 1 Channel (Mono)
+C) 5 Channels
+D) 8 Channels
+Answer: A) 2 Channels (Left and Right)
+
+Q. Which open-source 2D vector animation program is included in the Kerala High School IT curriculum?
+A) Synfig Studio
+B) Adobe Animate
+C) OpenShot
+D) Audacity
+Answer: A) Synfig Studio
+
+Q. What native project file extension is saved by Synfig Studio?
+A) .sfg / .sifz
+B) .blend
+C) .png
+D) .mp4
+Answer: A) .sfg / .sifz
+
+Q. In Synfig Studio, which tool is used to draw vector shapes with smooth curved boundaries and control handles?
+A) Spline Tool
+B) Circle Tool
+C) Transform Tool
+D) Smooth Move Tool
+Answer: A) Spline Tool
+
+Q. In Synfig Studio, what mode must be toggled ON (represented by a green/red running figure icon) to record animated movements?
+A) Animate Editing Mode
+B) Preview Mode
+C) Render Mode
+D) Normal Mode
+Answer: A) Animate Editing Mode
+
+Q. In Synfig Studio, what are the markers on the timeline that record an object's properties at specific frames called?
+A) Waypoints / Keyframes
+B) Sprites
+C) Nodes
+D) Ducks
+Answer: A) Waypoints / Keyframes
+
+Q. In Synfig Studio, what color control handle (duck) controls the position/origin of an object?
+A) Green duck
+B) Blue duck
+C) Yellow duck
+D) Red duck
+Answer: A) Green duck
+
+Q. In Synfig Studio, what color control handle (duck) controls the radius or scale transformation?
+A) Yellow / Orange duck
+B) Green duck
+C) Blue duck
+D) Red duck
+Answer: A) Yellow / Orange duck
+
+Q. In Synfig Studio, what color control handle (duck) controls the rotation angle of an object?
+A) Blue duck
+B) Green duck
+C) Yellow duck
+D) Magenta duck
+Answer: A) Blue duck
+
+Q. What process in computer animation automatically calculates intermediate frames between two keyframes?
+A) Tweening (Inbetweening)
+B) Rendering
+C) Rasterization
+D) Morphing
+Answer: A) Tweening (Inbetweening)
+
+Q. What command in Synfig Studio converts the animated project into a final video file or image sequence?
+A) File -> Render
+B) File -> Export As
+C) Edit -> Compile
+D) Tool -> Build
+Answer: A) File -> Render
+
+Q. Which open-source 3D computer graphics suite is taught in Little KITES advanced robotics and animation modules?
+A) Blender
+B) Synfig Studio
+C) GIMP
+D) Audacity
+Answer: A) Blender
+
+Q. What native project file extension is saved by Blender 3D software?
+A) .blend
+B) .b3d
+C) .obj
+D) .stl
+Answer: A) .blend
+
+Q. In Blender 3D, what key on the keyboard toggles between Object Mode and Edit Mode?
+A) Tab key
+B) Spacebar
+C) Esc
+D) Shift
+Answer: A) Tab key
+
+Q. In Blender 3D, which shortcut key is used to grab and move selected 3D objects?
+A) G (Grab / Move)
+B) R (Rotate)
+C) S (Scale)
+D) E (Extrude)
+Answer: A) G (Grab / Move)
+
+Q. In Blender 3D, which shortcut key is used to rotate selected 3D objects or vertices?
+A) R (Rotate)
+B) G (Grab)
+C) S (Scale)
+D) M (Move)
+Answer: A) R (Rotate)
+
+Q. In Blender 3D, which shortcut key is used to scale (resize) selected objects?
+A) S (Scale)
+B) G
+C) R
+D) Z
+Answer: A) S (Scale)
+
+Q. In Blender 3D Edit Mode, which shortcut key extrudes faces or vertices along normals?
+A) E (Extrude)
+B) X (Delete)
+C) F (Face)
+D) B (Bevel)
+Answer: A) E (Extrude)
+
+Q. What are the three coordinate axes in 3D modeling space, representing width, depth, and height?
+A) X (Red), Y (Green), and Z (Blue) axes
+B) A, B, and C axes
+C) Width, Breadth, and Length only
+D) Pitch, Roll, and Yaw only
+Answer: A) X (Red), Y (Green), and Z (Blue) axes
+
+Q. In Blender 3D, what coordinate axis represents the vertical height direction?
+A) Z-axis
+B) X-axis
+C) Y-axis
+D) W-axis
+Answer: A) Z-axis
+
+Q. In 3D modeling, what is the fundamental polygonal building block comprising vertices, edges, and faces called?
+A) Mesh
+B) Pixel
+C) Voxel
+D) Spline
+Answer: A) Mesh
+
+Q. In a 3D polygonal mesh, what is a single point in 3D coordinate space called?
+A) Vertex
+B) Edge
+C) Face
+D) Polygon
+Answer: A) Vertex
+
+Q. In a 3D mesh, what is the straight line segment connecting two vertices called?
+A) Edge
+B) Vertex
+C) Face
+D) Normal
+Answer: A) Edge
+
+Q. In a 3D mesh, what is the flat planar surface enclosed by three or more edges called?
+A) Face
+B) Edge
+C) Vertex
+D) Loop
+Answer: A) Face
+
+Q. In Blender, which display shading mode shows objects with full lighting, reflections, and material shaders?
+A) Rendered Mode
+B) Wireframe Mode
+C) Solid Mode
+D) UV Editing
+Answer: A) Rendered Mode
+
+Q. In Blender, which display mode displays only the connecting outlines and vertices of 3D objects?
+A) Wireframe Mode
+B) Rendered Mode
+C) Material Preview
+D) Texture Paint
+Answer: A) Wireframe Mode
+
+Q. What process computes final 2D pixel photorealistic images or video from a 3D virtual scene in Blender?
+A) Rendering (F12)
+B) Modeling
+C) Rigging
+D) Compositing
+Answer: A) Rendering (F12)
+
+Q. What rendering engine built into Blender produces ultra-fast real-time graphics using GPU shaders?
+A) Eevee
+B) Cycles
+C) Workbench
+D) Renderman
+Answer: A) Eevee
+
+Q. What physically-based path-tracing render engine in Blender produces photorealistic lighting and caustics?
+A) Cycles
+B) Eevee
+C) Workbench
+D) OpenGL
+Answer: A) Cycles
+
+Q. In 3D animation, what is the process of creating an internal bone skeleton to animate a character mesh called?
+A) Rigging
+B) Sculpting
+C) UV Unwrapping
+D) Texturing
+Answer: A) Rigging
+
+Q. What file format is the industry standard for 3D printing slicing software like Ultimaker Cura?
+A) .stl (Stereolithography)
+B) .blend
+C) .mp4
+D) .png
+Answer: A) .stl (Stereolithography)
+
+Q. Which open-source non-linear video editing software is included in Kerala school ICT labs?
+A) Kdenlive / OpenShot
+B) Audacity
+C) GIMP
+D) Tux Paint
+Answer: A) Kdenlive / OpenShot
+
+Q. In video editing, what workspace component displays video clips, audio tracks, and transitions along time?
+A) Timeline
+B) Canvas
+C) Layers palette
+D) Color picker
+Answer: A) Timeline
+
+Q. What is the standard video frame rate used for cinema film projection?
+A) 24 frames per second (fps)
+B) 60 fps
+C) 120 fps
+D) 10 fps
+Answer: A) 24 frames per second (fps)
+
+Q. What is the high-definition video resolution standard corresponding to 1080p?
+A) 1920 x 1080 pixels
+B) 1280 x 720 pixels
+C) 3840 x 2160 pixels
+D) 640 x 480 pixels
+Answer: A) 1920 x 1080 pixels
+
+Q. What is the ultra-high-definition resolution standard commonly known as 4K?
+A) 3840 x 2160 pixels
+B) 1920 x 1080 pixels
+C) 1280 x 720 pixels
+D) 800 x 600 pixels
+Answer: A) 3840 x 2160 pixels
+
+Q. In video production, what visual technique replaces a solid green or blue backdrop with a new digital background?
+A) Chroma Key (Green Screen)
+B) Motion Blur
+C) Color Grading
+D) Cross Dissolve
+Answer: A) Chroma Key (Green Screen)
+
+Q. Which video container format is standard for web video playback and distribution?
+A) .mp4 (MPEG-4)
+B) .wav
+C) .svg
+D) .odt
+Answer: A) .mp4 (MPEG-4)
+
+Q. What open-source multimedia player is pre-installed in KITE GNU/Linux for playing almost all audio/video formats?
+A) VLC Media Player
+B) Windows Media Player
+C) QuickTime
+D) Winamp
+Answer: A) VLC Media Player
+
+Q. In digital audio recording, what unwanted distortion occurs when the audio input signal exceeds maximum 0 dB level?
+A) Clipping / Peaking
+B) Reverberation
+C) Fade out
+D) Panning
+Answer: A) Clipping / Peaking
+
+Q. What audio processing tool cuts off frequencies below a designated cutoff threshold (e.g., eliminating wind rumble)?
+A) High-Pass Filter
+B) Low-Pass Filter
+C) Band-Stop Filter
+D) Amplifier
+Answer: A) High-Pass Filter
+
+Q. What audio processing tool cuts off high frequencies above a designated threshold to eliminate hiss?
+A) Low-Pass Filter
+B) High-Pass Filter
+C) Compressor
+D) Normalizer
+Answer: A) Low-Pass Filter
+
+Q. In digital typography, what type of font possesses small decorative strokes extending from letter ends (e.g., Times New Roman)?
+A) Serif font
+B) Sans-serif font
+C) Monospace font
+D) Display font
+Answer: A) Serif font
+
+Q. What type of font does NOT have decorative end strokes and is clean for digital screen reading (e.g., Arial)?
+A) Sans-serif font
+B) Serif font
+C) Cursive font
+D) Gothic font
+Answer: A) Sans-serif font
+
+Q. What type of font assigns equal horizontal width to every character and is standard for code editors?
+A) Monospaced font (e.g., Courier)
+B) Proportional font
+C) Serif font
+D) Script font
+Answer: A) Monospaced font (e.g., Courier)
+
+Q. In digital graphics, what primary additive color model is used for computer screens and displays?
+A) RGB (Red, Green, Blue)
+B) CMYK
+C) Grayscale
+D) Pantone
+Answer: A) RGB (Red, Green, Blue)
+
+Q. In commercial printing, what subtractive color model is used for ink mixing on white paper?
+A) CMYK (Cyan, Magenta, Yellow, Key/Black)
+B) RGB
+C) HSV
+D) YUV
+Answer: A) CMYK (Cyan, Magenta, Yellow, Key/Black)
+
+Q. What color is produced when Red, Green, and Blue light beams are combined at maximum intensity?
+A) White light
+B) Black
+C) Yellow
+D) Magenta
+Answer: A) White light
+
+Q. In hexadecimal color codes for the web (e.g., #FFFFFF), what color does #000000 represent?
+A) Black
+B) White
+C) Red
+D) Blue
+Answer: A) Black
+
+Q. In web design color codes, what color is represented by #FF0000?
+A) Pure Red
+B) Pure Green
+C) Pure Blue
+D) Yellow
+Answer: A) Pure Red
+
+Q. In web design color codes, what color is represented by #00FF00?
+A) Pure Green
+B) Pure Red
+C) Pure Blue
+D) Cyan
+Answer: A) Pure Green
+
+Q. In web design color codes, what color is represented by #0000FF?
+A) Pure Blue
+B) Pure Green
+C) Pure Red
+D) Magenta
+Answer: A) Pure Blue
+
+Q. What image compression technique reduces file size without discarding any pixel data?
+A) Lossless compression (e.g., PNG)
+B) Lossy compression (e.g., JPEG)
+C) Subsampling
+D) Posterization
+Answer: A) Lossless compression (e.g., PNG)
+
+Q. What image compression technique permanently discards imperceptible data to achieve tiny file sizes?
+A) Lossy compression
+B) Lossless compression
+C) Vectorization
+D) Encryption
+Answer: A) Lossy compression
+
+Q. What 2D drawing tool in Inkscape creates 3D box perspective boxes automatically?
+A) Create 3D Boxes Tool (Shift + F4)
+B) Rectangle Tool
+C) Spiral Tool
+D) Calligraphy Tool
+Answer: A) Create 3D Boxes Tool (Shift + F4)
+
+Q. What tool in Inkscape creates logarithmic spirals with adjustable turns?
+A) Create Spirals Tool (F6)
+B) Ellipse Tool
+C) Star Tool
+D) Pen Tool
+Answer: A) Create Spirals Tool (F6)
+
+Q. What tool in Inkscape allows drawing stars and regular polygons with customizable point counts?
+A) Create Stars and Polygons Tool (*)
+B) Rectangle Tool
+C) Pencil Tool
+D) Sculpt Tool
+Answer: A) Create Stars and Polygons Tool (*)
+
+Q. What export command in Inkscape converts a vector drawing into a raster PNG image?
+A) File -> Export PNG Image (Ctrl + Shift + E)
+B) File -> Save as PDF
+C) Object -> Rasterize
+D) Path -> Bitmap
+Answer: A) File -> Export PNG Image (Ctrl + Shift + E)
+
+Q. What microcontroller board is most widely used in Kerala school Little KITES robotics clubs?
+A) Arduino Uno
+B) Intel Core i7
+C) Nvidia Jetson
+D) AMD Ryzen
+Answer: A) Arduino Uno
+
+Q. What is the central 8-bit microcontroller chip present on an official Arduino Uno board?
+A) ATmega328P
+B) ARM Cortex-M4
+C) ESP8266
+D) PIC16F84
+Answer: A) ATmega328P
+
+Q. How many digital Input/Output pins are available on a standard Arduino Uno board (Pins 0 to 13)?
+A) 14 Digital I/O Pins
+B) 6 Pins
+C) 8 Pins
+D) 20 Pins
+Answer: A) 14 Digital I/O Pins
+
+Q. How many analog input pins are available on an Arduino Uno (A0 to A5)?
+A) 6 Analog Input Pins
+B) 14 Pins
+C) 2 Pins
+D) 10 Pins
+Answer: A) 6 Analog Input Pins
+
+Q. What is the standard USB operating voltage supplied to an Arduino Uno board?
+A) 5 Volts DC
+B) 12 Volts AC
+C) 3.3 Volts AC
+D) 230 Volts
+Answer: A) 5 Volts DC
+
+Q. What is the recommended external DC power input range for the DC barrel jack on an Arduino Uno?
+A) 7 to 12 Volts DC
+B) 1 to 3 Volts DC
+C) 50 to 100 Volts
+D) 220 Volts AC
+Answer: A) 7 to 12 Volts DC
+
+Q. In Arduino Uno, which digital pins are marked with a tilde (~) and can simulate analog output using PWM?
+A) Pins 3, 5, 6, 9, 10, and 11
+B) Pins 0 and 1 only
+C) Pins 2, 4, 7, 8, 12, 13
+D) Pins A0 to A5
+Answer: A) Pins 3, 5, 6, 9, 10, and 11
+
+Q. What does PWM stand for in electronic control?
+A) Pulse Width Modulation
+B) Power Wave Management
+C) Phase Wire Measurement
+D) Parallel Word Multiplexing
+Answer: A) Pulse Width Modulation
+
+Q. What range of integer values is accepted by analogWrite() for PWM output in Arduino (8-bit)?
+A) 0 to 255
+B) 0 to 1023
+C) 0 to 100
+D) -128 to 127
+Answer: A) 0 to 255
+
+Q. What range of integer values is returned by analogRead() on Arduino Uno 10-bit ADC pins?
+A) 0 to 1023
+B) 0 to 255
+C) 0 to 5
+D) 0 to 500
+Answer: A) 0 to 1023
+
+Q. Which Arduino function runs exactly once when the board powers up or is reset?
+A) void setup()
+B) void loop()
+C) void main()
+D) void start()
+Answer: A) void setup()
+
+Q. Which Arduino function executes continuously in an infinite loop after setup() completes?
+A) void loop()
+B) void setup()
+C) void run()
+D) void cycle()
+Answer: A) void loop()
+
+Q. Which Arduino statement configures a digital pin as either INPUT or OUTPUT?
+A) pinMode(pin, mode);
+B) digitalWrite(pin, mode);
+C) analogRead(pin);
+D) setPin(pin);
+Answer: A) pinMode(pin, mode);
+
+Q. Which Arduino statement sends a digital 5V (HIGH) or 0V (LOW) signal to a pin?
+A) digitalWrite(pin, value);
+B) digitalRead(pin);
+C) analogWrite(pin, value);
+D) pinWrite(pin);
+Answer: A) digitalWrite(pin, value);
+
+Q. Which Arduino statement reads the digital logic level (HIGH or LOW) from an input pin?
+A) digitalRead(pin);
+B) digitalWrite(pin);
+C) analogRead(pin);
+D) readPin(pin);
+Answer: A) digitalRead(pin);
+
+Q. Which Arduino statement pauses program execution for a specified duration in milliseconds?
+A) delay(ms);
+B) pause(ms);
+C) sleep(ms);
+D) wait(ms);
+Answer: A) delay(ms);
+
+Q. How many milliseconds correspond to a pause of 1 full second in delay(1000)?
+A) 1000 milliseconds
+B) 100 milliseconds
+C) 10 milliseconds
+D) 60 milliseconds
+Answer: A) 1000 milliseconds
+
+Q. Which Arduino statement initializes serial data communication at a baud rate like 9600?
+A) Serial.begin(9600);
+B) Serial.print(9600);
+C) Serial.open(9600);
+D) Baud.set(9600);
+Answer: A) Serial.begin(9600);
+
+Q. Which Arduino statement transmits human-readable text to the computer's Serial Monitor window?
+A) Serial.println(); / Serial.print();
+B) System.out.println();
+C) cout <<
+D) console.log();
+Answer: A) Serial.println(); / Serial.print();
+
+Q. Which built-in LED on an Arduino Uno board is connected internally to Digital Pin 13?
+A) LED 'L'
+B) LED 'ON'
+C) LED 'TX'
+D) LED 'RX'
+Answer: A) LED 'L'
+
+Q. Which pins on Arduino Uno are dedicated to hardware serial communication (UART)?
+A) Pin 0 (RX) and Pin 1 (TX)
+B) Pin 2 and Pin 3
+C) Pin 12 and Pin 13
+D) Pin A4 and Pin A5
+Answer: A) Pin 0 (RX) and Pin 1 (TX)
+
+Q. Which popular ultrasonic sensor module measures obstacle distance using sound wave echoes?
+A) HC-SR04
+B) DHT11
+C) MQ-2
+D) L298N
+Answer: A) HC-SR04
+
+Q. How many pins does an HC-SR04 ultrasonic sensor module have?
+A) 4 Pins (VCC, Trig, Echo, GND)
+B) 2 Pins
+C) 3 Pins
+D) 6 Pins
+Answer: A) 4 Pins (VCC, Trig, Echo, GND)
+
+Q. On an HC-SR04 ultrasonic sensor, which pin is pulsed to transmit the ultrasonic burst?
+A) Trig (Trigger) Pin
+B) Echo Pin
+C) VCC Pin
+D) GND Pin
+Answer: A) Trig (Trigger) Pin
+
+Q. On an HC-SR04 ultrasonic sensor, which pin outputs a HIGH pulse whose duration reflects round-trip echo time?
+A) Echo Pin
+B) Trig Pin
+C) GND Pin
+D) Analog Pin
+Answer: A) Echo Pin
+
+Q. What physics formula is used to calculate obstacle distance using ultrasonic echo travel time (t)?
+A) Distance = (Speed of Sound * Time) / 2
+B) Distance = Speed * Time
+C) Distance = Time / Speed
+D) Distance = Speed^2 * Time
+Answer: A) Distance = (Speed of Sound * Time) / 2
+
+Q. What type of sensor uses passive infrared emissions to detect human or animal movement in alarm systems?
+A) PIR (Passive Infrared) Sensor
+B) LDR Sensor
+C) Thermocouple
+D) Strain Gauge
+Answer: A) PIR (Passive Infrared) Sensor
+
+Q. What electronic sensor's electrical resistance decreases as ambient ambient light brightness increases?
+A) LDR (Light Dependent Resistor / Photoresistor)
+B) Thermistor
+C) Piezo buzzer
+D) Inductor
+Answer: A) LDR (Light Dependent Resistor / Photoresistor)
+
+Q. What sensor module measures ambient air temperature and relative humidity simultaneously?
+A) DHT11 / DHT22
+B) HC-SR04
+C) MQ-135
+D) ADXL345
+Answer: A) DHT11 / DHT22
+
+Q. Which sensor module is commonly used in robot line-following projects to detect black tracks on white surfaces?
+A) TCRT5000 / Infrared (IR) Proximity Sensor
+B) Ultrasonic Sensor
+C) Sound Sensor
+D) Tilt Sensor
+Answer: A) TCRT5000 / Infrared (IR) Proximity Sensor
+
+Q. What components make up a reflective infrared (IR) sensor pair on a line-follower robot?
+A) An IR LED (emitter) and a Photodiode (receiver)
+B) A speaker and microphone
+C) Two light bulbs
+D) A laser diode and solar panel
+Answer: A) An IR LED (emitter) and a Photodiode (receiver)
+
+Q. Why does a black line reflect significantly less infrared light back to a photodiode than a white floor?
+A) Black surfaces absorb most light radiation, while white surfaces reflect it
+B) Black surfaces emit radio waves
+C) White surfaces bend sound waves
+D) Black surfaces conduct electricity into air
+Answer: A) Black surfaces absorb most light radiation, while white surfaces reflect it
+
+Q. Which sensor detects flammable gases like LPG, propane, and methane in smart safety projects?
+A) MQ-2 Gas Sensor
+B) DHT11
+C) HC-SR04
+D) LDR
+Answer: A) MQ-2 Gas Sensor
+
+Q. Which sensor detects soil moisture content in automated plant watering systems?
+A) Soil Moisture Sensor
+B) Ultrasonic Sensor
+C) PIR Sensor
+D) Thermistor
+Answer: A) Soil Moisture Sensor
+
+Q. Which sensor detects water raindrops falling on its printed circuit grid?
+A) Raindrop Sensor Module
+B) LDR Sensor
+C) DHT22
+D) Buzzer
+Answer: A) Raindrop Sensor Module
+
+Q. What motor actuator allows precise control of angular shaft position (typically 0 to 180 degrees)?
+A) Servo Motor (e.g., SG90)
+B) Standard DC Toy Motor
+C) AC Induction Motor
+D) Solenoid coil
+Answer: A) Servo Motor (e.g., SG90)
+
+Q. What control signal is used to command the angular shaft position of a hobby servo motor?
+A) PWM pulse width (e.g., 1ms to 2ms pulses at 50 Hz)
+B) Continuous AC voltage
+C) FM radio signals
+D) Variable DC voltage from 0 to 230V
+Answer: A) PWM pulse width (e.g., 1ms to 2ms pulses at 50 Hz)
+
+Q. Which Arduino library provides easy functions like myServo.write(angle) to control servo motors?
+A) #include <Servo.h>
+B) #include <Wire.h>
+C) #include <SPI.h>
+D) #include <Math.h>
+Answer: A) #include <Servo.h>
+
+Q. Why cannot high-power DC gear motors be connected directly to an Arduino digital pin?
+A) Arduino pins can only supply up to ~20-40 mA, while motors draw hundreds of milliamperes
+B) Arduino operates on AC power
+C) Motors require optical light to turn
+D) Arduino has no ground terminal
+Answer: A) Arduino pins can only supply up to ~20-40 mA, while motors draw hundreds of milliamperes
+
+Q. What integrated circuit module is commonly used as a dual H-Bridge DC motor driver in robotics?
+A) L298N / L293D
+B) NE555
+C) LM7805
+D) ATmega328P
+Answer: A) L298N / L293D
+
+Q. What is the primary function of an H-Bridge circuit in robot motor control?
+A) Allows a DC motor to be driven in both forward and reverse directions by switching polarity
+B) Converts DC into AC
+C) Measures motor speed in RPM
+D) Generates audio sound
+Answer: A) Allows a DC motor to be driven in both forward and reverse directions by switching polarity
+
+Q. What component in a relay module allows low-voltage microcontroller logic to safely switch 230V AC mains appliances?
+A) Electromagnetic coil activating isolated mechanical contacts
+B) Variable resistor
+C) Ceramic capacitor
+D) Zener diode
+Answer: A) Electromagnetic coil activating isolated mechanical contacts
+
+Q. What is the purpose of an optocoupler (optolsolator) used on relay modules and motor boards?
+A) Provides electrical isolation using light to prevent high-voltage spikes from damaging the Arduino
+B) Generates bright light for the robot
+C) Measures battery temperature
+D) Stores program code
+Answer: A) Provides electrical isolation using light to prevent high-voltage spikes from damaging the Arduino
+
+Q. What small audio component produces beeps and buzz tones in alert and alarm projects?
+A) Piezoelectric Buzzer
+B) Potentiometer
+C) LDR
+D) Servo Motor
+Answer: A) Piezoelectric Buzzer
+
+Q. What is the difference between an Active Buzzer and a Passive Buzzer in electronics?
+A) Active buzzers have an internal oscillator and beep when powered with DC; passive buzzers need AC/PWM frequencies
+B) Active buzzers require no battery
+C) Passive buzzers are made of wood
+D) Active buzzers cannot make sound
+Answer: A) Active buzzers have an internal oscillator and beep when powered with DC; passive buzzers need AC/PWM frequencies
+
+Q. Which Arduino function generates a square wave of specified frequency on a pin to play musical notes on a buzzer?
+A) tone(pin, frequency);
+B) sound(pin);
+C) beep(pin);
+D) play(pin);
+Answer: A) tone(pin, frequency);
+
+Q. Which Arduino function stops tone generation on a pin?
+A) noTone(pin);
+B) stopSound(pin);
+C) mute(pin);
+D) endTone(pin);
+Answer: A) noTone(pin);
+
+Q. What prototyping board allows building solderless temporary electronic circuits with push-in wire jumpers?
+A) Breadboard
+B) Printed Circuit Board (PCB)
+C) Motherboard
+D) Chassis
+Answer: A) Breadboard
+
+Q. On a standard solderless breadboard, how are the terminal tie-point rows in the central working area connected?
+A) Connected horizontally across 5 pin columns
+B) Connected all together across the entire board
+C) Not connected at all
+D) Connected diagonally
+Answer: A) Connected horizontally across 5 pin columns
+
+Q. On a standard breadboard, how are the long power bus rails along the edges connected?
+A) Connected continuously along the vertical length of the board
+B) Connected only in groups of two
+C) Connected across the center divider
+D) Insulated internally
+Answer: A) Connected continuously along the vertical length of the board
+
+Q. What type of wire jumper has a metal pin on both ends for plugging into a breadboard?
+A) Male-to-Male Jumper Wire
+B) Female-to-Female Wire
+C) Male-to-Female Wire
+D) Alligator clip
+Answer: A) Male-to-Male Jumper Wire
+
+Q. What type of wire jumper has a female socket on one end and a male pin on the other for connecting sensor pins to Arduino?
+A) Male-to-Female Jumper Wire
+B) Male-to-Male Jumper Wire
+C) Coaxial cable
+D) Optical fiber
+Answer: A) Male-to-Female Jumper Wire
+
+Q. What popular open-source browser-based Autodesk simulator allows designing and simulating Arduino circuits online?
+A) Tinkercad Circuits
+B) Scratch
+C) GeoGebra
+D) Stellarium
+Answer: A) Tinkercad Circuits
+
+Q. What 3-terminal semiconductor IC is widely used to regulate an unregulated 9V-12V input down to stable 5V DC?
+A) LM7805 Voltage Regulator
+B) NE555 Timer
+C) L293D
+D) ATmega328P
+Answer: A) LM7805 Voltage Regulator
+
+Q. What famous 8-pin integrated circuit is used in multivibrator and timer pulse generator circuits?
+A) NE555 Timer IC
+B) LM7805
+C) Op-Amp 741
+D) ULN2003
+Answer: A) NE555 Timer IC
+
+Q. What low-power microcontroller board features built-in Wi-Fi and Bluetooth, making it a favorite for IoT projects?
+A) ESP32 / ESP8266
+B) Arduino Uno (standard)
+C) ATtiny85
+D) PIC16F877A
+Answer: A) ESP32 / ESP8266
+
+Q. What does IoT stand for in contemporary technology and smart devices?
+A) Internet of Things
+B) Integration of Tools
+C) Input of Technology
+D) Internal Optical Telecom
+Answer: A) Internet of Things
+
+Q. In an IoT smart irrigation system, what component initiates watering when dry soil is detected?
+A) Microcontroller triggers a relay switch to turn on a water pump
+B) Ultrasonic sensor plays sound
+C) Keyboard enters text
+D) Battery discharges completely
+Answer: A) Microcontroller triggers a relay switch to turn on a water pump
+
+Q. In an automatic night light circuit using Arduino and LDR, what condition turns the LED ON?
+A) When the analog reading from the LDR falls below a defined darkness threshold
+B) When ambient brightness exceeds maximum
+C) When room temperature rises
+D) When sound is detected
+Answer: A) When the analog reading from the LDR falls below a defined darkness threshold
+
+Q. In an obstacle-avoiding autonomous robot, what decision does the controller execute when distance < 15 cm?
+A) Stops motors, reverses briefly, and turns left or right to find a clear path
+B) Increases speed forward
+C) Deletes the program
+D) Disconnects the battery
+Answer: A) Stops motors, reverses briefly, and turns left or right to find a clear path
+
+Q. What type of motor moves in precise step increments and is used in 3D printers and CNC machines?
+A) Stepper Motor (e.g., NEMA 17, 28BYJ-48)
+B) Standard DC Toy Motor
+C) AC Induction Motor
+D) Shaded Pole Motor
+Answer: A) Stepper Motor (e.g., NEMA 17, 28BYJ-48)
+
+Q. Which driver board is commonly paired with the 28BYJ-48 stepper motor in starter kits?
+A) ULN2003 Stepper Driver Board
+B) L298N
+C) LM317
+D) ESP32
+Answer: A) ULN2003 Stepper Driver Board
+
+Q. What two-wire serial communication bus uses SDA (Serial Data) and SCL (Serial Clock) pins (A4 and A5 on Arduino)?
+A) I2C (Inter-Integrated Circuit)
+B) SPI
+C) UART
+D) Parallel Bus
+Answer: A) I2C (Inter-Integrated Circuit)
+
+Q. What popular alphanumeric display module uses I2C adapter backpack to show text using only 2 Arduino pins?
+A) 16x2 I2C LCD Display
+B) 7-Segment LED only
+C) CRT Monitor
+D) E-Ink Panel
+Answer: A) 16x2 I2C LCD Display
+
+Q. How many characters and lines can a standard 16x2 LCD display show at once?
+A) 16 characters per line across 2 lines (32 characters total)
+B) 16 lines of 2 characters
+C) 200 characters
+D) 64 characters
+Answer: A) 16 characters per line across 2 lines (32 characters total)
+
+Q. What sensor measures linear acceleration and tilt along 3 axes in wearable robotics and game controllers?
+A) 3-Axis Accelerometer (e.g., ADXL345 / MPU6050)
+B) Ultrasonic Sensor
+C) LDR
+D) Thermistor
+Answer: A) 3-Axis Accelerometer (e.g., ADXL345 / MPU6050)
+
+Q. What sensor measures angular velocity (rotational speed) in drones and stabilization gimbals?
+A) Gyroscope
+B) Barometer
+C) Thermometer
+D) Capacitor
+Answer: A) Gyroscope
+
+Q. Which integrated module combines a 3-axis accelerometer and a 3-axis gyroscope on a single chip?
+A) MPU-6050 (6-DOF IMU)
+B) HC-SR04
+C) DHT11
+D) L293D
+Answer: A) MPU-6050 (6-DOF IMU)
+
+Q. What wireless communication module enables Arduino to communicate with Android smartphones over serial Bluetooth?
+A) HC-05 / HC-06 Bluetooth Module
+B) NRF24L01
+C) ESP-01
+D) SIM800L
+Answer: A) HC-05 / HC-06 Bluetooth Module
+
+Q. What 2.4 GHz RF wireless transceiver module is popular for long-distance remote control between two microcontrollers?
+A) nRF24L01+
+B) HC-05
+C) PIR Sensor
+D) IR Diode
+Answer: A) nRF24L01+
+
+Q. What cellular module connects microcontrollers to GSM mobile networks to send SMS alerts and place calls?
+A) SIM800L / SIM900 GSM Module
+B) ESP8266
+C) HC-05
+D) L298N
+Answer: A) SIM800L / SIM900 GSM Module
+
+Q. What sensor detects sound wave intensity using a tiny electret microphone and LM393 comparator?
+A) Sound Detection Sensor Module
+B) Buzzer
+C) Speaker
+D) Ultrasonic Echo
+Answer: A) Sound Detection Sensor Module
+
+Q. What device measures atmospheric barometric pressure to calculate altitude above sea level in weather stations?
+A) BMP180 / BMP280 Barometric Pressure Sensor
+B) DHT11
+C) LDR
+D) MQ-2
+Answer: A) BMP180 / BMP280 Barometric Pressure Sensor
+
+Q. What sensor reads heart pulse rate through fingertip optical photoplethysmography (PPG)?
+A) Pulse / Heart Rate Sensor
+B) PIR Sensor
+C) HC-SR04
+D) Thermocouple
+Answer: A) Pulse / Heart Rate Sensor
+
+Q. What technology uses RFID cards and keyfobs for contactless school attendance and access doors?
+A) RFID (Radio Frequency Identification, e.g., RC522)
+B) Barcode scanning only
+C) Ultrasonic reflection
+D) Infrared remote
+Answer: A) RFID (Radio Frequency Identification, e.g., RC522)
+
+Q. What frequency is standard for common RC522 RFID reader tags?
+A) 13.56 MHz
+B) 2.4 GHz
+C) 50 Hz
+D) 100 kHz
+Answer: A) 13.56 MHz
+
+Q. What component is wired across an inductive motor or relay coil to suppress reverse voltage spikes (flyback)?
+A) Flyback / Freewheeling Diode (e.g., 1N4007)
+B) Light emitting diode
+C) Fixed resistor only
+D) Potentiometer
+Answer: A) Flyback / Freewheeling Diode (e.g., 1N4007)
+
+Q. What is the typical forward voltage drop across a standard Red LED?
+A) 1.8 to 2.2 Volts
+B) 5.0 Volts
+C) 12.0 Volts
+D) 0.1 Volts
+Answer: A) 1.8 to 2.2 Volts
+
+Q. What is the typical forward voltage drop across a standard Blue or White LED?
+A) 3.0 to 3.4 Volts
+B) 1.2 Volts
+C) 9.0 Volts
+D) 24 Volts
+Answer: A) 3.0 to 3.4 Volts
+
+Q. If an Arduino 5V pin powers an LED with 2V forward drop at 15 mA, what resistor is needed by Ohm's Law (R = (5-2)/0.015)?
+A) 200 Ohms (commonly 220 Ohms)
+B) 10,000 Ohms
+C) 1 Ohm
+D) 1,000,000 Ohms
+Answer: A) 200 Ohms (commonly 220 Ohms)
+
+Q. What pull-up configuration prevents an unconnected microcontroller input pin from floating between HIGH and LOW?
+A) Pull-Up / Pull-Down Resistor (or internal INPUT_PULLUP)
+B) Filter capacitor only
+C) Bypass diode
+D) Transformer
+Answer: A) Pull-Up / Pull-Down Resistor (or internal INPUT_PULLUP)
+
+Q. In Arduino, what mode in pinMode() enables the chip's internal 20k ohm pull-up resistor on a button pin?
+A) pinMode(pin, INPUT_PULLUP);
+B) pinMode(pin, PULLUP);
+C) pinMode(pin, HIGH);
+D) pinMode(pin, INTERNAL);
+Answer: A) pinMode(pin, INPUT_PULLUP);
+
+Q. When using INPUT_PULLUP on a pushbutton wired to ground, what value does digitalRead() return when pressed?
+A) LOW (0)
+B) HIGH (1)
+C) 512
+D) -1
+Answer: A) LOW (0)
+
+Q. What mechanical issue occurs when a button is pressed, generating rapid noisy spikes before settling?
+A) Contact Bouncing (requiring debouncing)
+B) Short circuiting
+C) Thermal drift
+D) Clipping
+Answer: A) Contact Bouncing (requiring debouncing)
+
+Q. How is switch contact bounce resolved in software?
+A) Debouncing logic (delaying reading by 20-50 ms to ensure stability)
+B) Replacing the CPU
+C) Increasing battery voltage
+D) Removing the button
+Answer: A) Debouncing logic (delaying reading by 20-50 ms to ensure stability)
+
+Q. What robotic steering mechanism steers by driving left and right wheels at different speeds or in opposite directions?
+A) Differential Drive Steering
+B) Ackermann Steering
+C) Rack and Pinion
+D) Worm Gear Drive
+Answer: A) Differential Drive Steering
+
+Q. How does a two-wheeled differential drive robot turn sharply to the right in place?
+A) Left wheel rotates forward while right wheel rotates in reverse
+B) Both wheels rotate forward at same speed
+C) Both wheels rotate in reverse
+D) Front wheel pivots mechanically
+Answer: A) Left wheel rotates forward while right wheel rotates in reverse
+
+Q. What sensor detects rotation and speed of motor wheels by counting slotted disk pulses?
+A) Optical Rotary Wheel Encoder
+B) PIR Sensor
+C) LDR Sensor
+D) Thermistor
+Answer: A) Optical Rotary Wheel Encoder
+
+Q. What is the name of the battery pack commonly used in school robotics containing two 3.7V rechargeable cells?
+A) 18650 Li-ion Battery Pack (7.4V)
+B) Lead-Acid Car Battery
+C) Button Coin Cell CR2032
+D) 9V Zinc-Carbon PP3
+Answer: A) 18650 Li-ion Battery Pack (7.4V)
+
+Q. Why are 18650 lithium-ion batteries preferred over standard 9V transistor batteries in mobile robotics?
+A) High current discharge capacity and rechargeable chemistry
+B) They produce AC power
+C) They are made of glass
+D) They never need charging
+Answer: A) High current discharge capacity and rechargeable chemistry
+
+Q. What safety board is integrated into lithium battery packs to prevent overcharging and short circuits?
+A) BMS (Battery Management System)
+B) SMPS
+C) BIOS
+D) Inverter
+Answer: A) BMS (Battery Management System)
+
+Q. What lightweight construction material is popular for laser-cut chassis bodies in Little KITES robotics?
+A) Acrylic sheet / MDF wood
+B) Cast Iron
+C) Lead plate
+D) Granite stone
+Answer: A) Acrylic sheet / MDF wood
+
+Q. What software tool provided in KITE GNU/Linux compiles and uploads sketches to Arduino Uno boards?
+A) Arduino IDE
+B) LibreOffice Writer
+C) Inkscape
+D) Audacity
+Answer: A) Arduino IDE
+
+Q. In Arduino IDE, what button verifies and checks sketch code for syntax errors without uploading?
+A) Verify (Checkmark icon)
+B) Upload (Right Arrow icon)
+C) New
+D) Serial Monitor
+Answer: A) Verify (Checkmark icon)
+
+Q. In Arduino IDE, what button compiles the sketch and transfers the binary machine code to the board?
+A) Upload (Right Arrow icon)
+B) Verify
+C) Save
+D) Open
+Answer: A) Upload (Right Arrow icon)
+
+Q. What file extension is used for Arduino sketch source code files?
+A) .ino
+B) .c
+C) .cpp
+D) .hex
+Answer: A) .ino
+
+Q. What compiled binary format is flashed onto the ATmega328P microcontroller flash memory?
+A) Intel .hex file
+B) .docx
+C) .mp3
+D) .png
+Answer: A) Intel .hex file
+
+Q. What communication protocol interface is used between the PC's USB port and Arduino's serial lines?
+A) USB-to-Serial Converter (e.g., ATmega16U2 or CH340)
+B) Bluetooth bridge
+C) HDMI cable
+D) Ethernet switch
+Answer: A) USB-to-Serial Converter (e.g., ATmega16U2 or CH340)
+
+Q. If an Arduino IDE shows 'Port Not Found' error, what is the most common reason?
+A) USB cable disconnected or appropriate USB-UART driver not installed
+B) Code has too many comments
+C) Screen brightness is too low
+D) LED 13 is burned out
+Answer: A) USB cable disconnected or appropriate USB-UART driver not installed
+
+Q. What annual state-level technical exhibition and camp is conducted by KITE for student robotics and ICT innovations?
+A) Little KITES State Camp & Tech Fest
+B) National Science Congress only
+C) IT Olympics
+D) CBSE Fair
+Answer: A) Little KITES State Camp & Tech Fest
+
+Q. What visual block-based programming language developed by MIT is widely taught in Little KITES?
+A) Scratch
+B) C++
+C) Java
+D) Assembly
+Answer: A) Scratch
+
+Q. In Scratch programming, what is the graphical character or actor on the screen called?
+A) Sprite
+B) Canvas
+C) Costume
+D) Stage
+Answer: A) Sprite
+
+Q. In Scratch, what is the background area called where sprites move and perform script actions?
+A) Stage
+B) Workspace
+C) Palette
+D) Script Area
+Answer: A) Stage
+
+Q. In Scratch, which block category is colored yellow and includes blocks like 'when green flag clicked'?
+A) Events blocks
+B) Motion blocks
+C) Looks blocks
+D) Sound blocks
+Answer: A) Events blocks
+
+Q. In Scratch, which block category is colored blue and controls sprite coordinates, steps, and angles?
+A) Motion blocks
+B) Sound blocks
+C) Operators blocks
+D) Variables blocks
+Answer: A) Motion blocks
+
+Q. In Scratch, which block category is colored purple and controls sprite speech bubbles, size, and costumes?
+A) Looks blocks
+B) Motion blocks
+C) Control blocks
+D) Sensing blocks
+Answer: A) Looks blocks
+
+Q. In Scratch, which block category is colored magenta/pink and controls musical notes and audio effects?
+A) Sound blocks
+B) Events blocks
+C) Control blocks
+D) Variables blocks
+Answer: A) Sound blocks
+
+Q. In Scratch, which block category is colored gold/amber and contains loops (repeat, forever) and if-conditions?
+A) Control blocks
+B) Motion blocks
+C) Looks blocks
+D) Operators blocks
+Answer: A) Control blocks
+
+Q. In Scratch, which block category is colored light blue and detects mouse clicks, key presses, and sprite collisions?
+A) Sensing blocks
+B) Motion blocks
+C) Sound blocks
+D) Events blocks
+Answer: A) Sensing blocks
+
+Q. In Scratch, which block category is colored green and handles mathematical operations (+, -, *, /) and logic?
+A) Operators blocks
+B) Variables blocks
+C) Motion blocks
+D) Looks blocks
+Answer: A) Operators blocks
+
+Q. In Scratch, which block category is colored orange and is used to create and store scores or game values?
+A) Variables blocks
+B) Operators blocks
+C) Control blocks
+D) Events blocks
+Answer: A) Variables blocks
+
+Q. In Scratch, which loop block executes the blocks contained inside it endlessly without stopping?
+A) forever
+B) repeat 10
+C) repeat until
+D) if then
+Answer: A) forever
+
+Q. In Scratch, which loop block repeats enclosed blocks a fixed designated number of times?
+A) repeat (10)
+B) forever
+C) repeat until
+D) wait 1 sec
+Answer: A) repeat (10)
+
+Q. In Scratch, which loop block repeats until a specific boolean condition becomes True?
+A) repeat until <condition>
+B) forever
+C) repeat 10
+D) if on edge, bounce
+Answer: A) repeat until <condition>
+
+Q. In Scratch, what shape are Event starter blocks with curved tops that cannot have blocks placed above them?
+A) Hat Blocks
+B) Stack Blocks
+C) Reporter Blocks
+D) Cap Blocks
+Answer: A) Hat Blocks
+
+Q. In Scratch, what shape are regular rectangular command blocks with notches on top and bumps on the bottom?
+A) Stack Blocks
+B) Hat Blocks
+C) Reporter Blocks
+D) Boolean Blocks
+Answer: A) Stack Blocks
+
+Q. In Scratch, what shape are blocks with rounded oval edges that return a numeric or text value?
+A) Reporter Blocks
+B) Hat Blocks
+C) Stack Blocks
+D) C-Blocks
+Answer: A) Reporter Blocks
+
+Q. In Scratch, what shape are hexagonal blocks that evaluate strictly to True or False?
+A) Boolean Blocks
+B) Reporter Blocks
+C) Hat Blocks
+D) Cap Blocks
+Answer: A) Boolean Blocks
+
+Q. In Scratch, what block terminates running scripts and has a flat bottom with no notch?
+A) stop [all / this script]
+B) forever
+C) start
+D) wait
+Answer: A) stop [all / this script]
+
+Q. In Scratch, what command alters a sprite's visual appearance by switching to its next graphic pose?
+A) next costume
+B) move 10 steps
+C) change x by 10
+D) say Hello
+Answer: A) next costume
+
+Q. In Scratch, what command moves a sprite along its current facing direction?
+A) move (10) steps
+B) turn right
+C) glide
+D) point in direction
+Answer: A) move (10) steps
+
+Q. In Scratch, what are the coordinates of the exact center of the Stage canvas?
+A) x: 0, y: 0
+B) x: 100, y: 100
+C) x: 240, y: 180
+D) x: -240, y: -180
+Answer: A) x: 0, y: 0
+
+Q. What is the total width and height of the standard Scratch stage in pixels?
+A) 480 pixels wide by 360 pixels high (x from -240 to +240, y from -180 to +180)
+B) 640 x 480
+C) 1920 x 1080
+D) 100 x 100
+Answer: A) 480 pixels wide by 360 pixels high (x from -240 to +240, y from -180 to +180)
+
+Q. In Scratch, what command prevents a sprite from walking off the visible screen edges?
+A) if on edge, bounce
+B) stop all
+C) hide
+D) set rotation style
+Answer: A) if on edge, bounce
+
+Q. In Scratch, what block allows one sprite to send an invisible trigger signal to other sprites?
+A) broadcast [message]
+B) say [message]
+C) think [message]
+D) ask [message]
+Answer: A) broadcast [message]
+
+Q. In Scratch, which event block triggers code when a broadcast message is received?
+A) when I receive [message]
+B) when green flag clicked
+C) when sprite clicked
+D) when backdrop switches
+Answer: A) when I receive [message]
+
+Q. In Scratch, which operator block generates a pseudo-random integer between two specified limits?
+A) pick random (1) to (10)
+B) round ()
+C) mod ()
+D) length of ()
+Answer: A) pick random (1) to (10)
+
+Q. In Scratch, which block asks the user a question via an on-screen text input box and waits for typing?
+A) ask [What's your name?] and wait
+B) say [text]
+C) think [text]
+D) read [text]
+Answer: A) ask [What's your name?] and wait
+
+Q. In Scratch, where is the user's typed response to an 'ask' block stored?
+A) in the built-in (answer) reporter block
+B) in the clipboard
+C) in a text file
+D) in costume 1
+Answer: A) in the built-in (answer) reporter block
+
+Q. In Scratch, what block extension allows drawing lines and patterns on the stage as a sprite moves?
+A) Pen Extension
+B) Video Sensing
+C) Text to Speech
+D) Music Extension
+Answer: A) Pen Extension
+
+Q. In computational thinking, what is a step-by-step sequence of unambiguous instructions to solve a problem called?
+A) Algorithm
+B) Hardware
+C) Database
+D) Operating System
+Answer: A) Algorithm
+
+Q. What is a graphical diagrammatic representation of an algorithm using standardized geometric shapes called?
+A) Flowchart
+B) Wireframe
+C) Circuit diagram
+D) Mind map
+Answer: A) Flowchart
+
+Q. In standard flowchart conventions, what geometric shape represents the Start or End (Terminal) of a process?
+A) Oval / Rounded Rectangle
+B) Rectangle
+C) Diamond / Rhombus
+D) Parallelogram
+Answer: A) Oval / Rounded Rectangle
+
+Q. In standard flowchart conventions, what geometric shape represents an Action, Operation, or Process step?
+A) Rectangle
+B) Oval
+C) Diamond
+D) Circle
+Answer: A) Rectangle
+
+Q. In standard flowchart conventions, what geometric shape represents Input from user or Output to screen?
+A) Parallelogram
+B) Rectangle
+C) Diamond
+D) Triangle
+Answer: A) Parallelogram
+
+Q. In standard flowchart conventions, what geometric shape represents a Decision or Conditional branching check?
+A) Diamond (Rhombus)
+B) Rectangle
+C) Oval
+D) Square
+Answer: A) Diamond (Rhombus)
+
+Q. In flowchart diagrams, what connecting element shows the direction of process execution flow?
+A) Flowline (Arrow)
+B) Dotted border
+C) Wavy line
+D) Double bar
+Answer: A) Flowline (Arrow)
+
+Q. In programming, what is a named storage location in computer memory that holds data that can change called?
+A) Variable
+B) Constant
+C) Function name
+D) Header
+Answer: A) Variable
+
+Q. What is a value in a program that cannot be modified during program execution called?
+A) Constant / Literal
+B) Variable
+C) Pointer
+D) Loop
+Answer: A) Constant / Literal
+
+Q. What computational concept refers to breaking a complex problem down into smaller, more manageable sub-problems?
+A) Decomposition
+B) Abstraction
+C) Pattern Recognition
+D) Iteration
+Answer: A) Decomposition
+
+Q. What computational concept involves filtering out unnecessary details to focus only on essential characteristics?
+A) Abstraction
+B) Decomposition
+C) Compilation
+D) Execution
+Answer: A) Abstraction
+
+Q. What computational concept involves identifying similarities, trends, and regularities across different problems?
+A) Pattern Recognition
+B) Abstraction
+C) Decomposition
+D) Sorting
+Answer: A) Pattern Recognition
+
+Q. In programming, what control structure allows executing certain statements only when a condition is met?
+A) Selection / Conditional (if-else)
+B) Sequence
+C) Recursion
+D) Declaration
+Answer: A) Selection / Conditional (if-else)
+
+Q. In programming, what control structure repeats a block of instructions multiple times?
+A) Iteration / Loop (for, while)
+B) Selection
+C) Branching
+D) Exception
+Answer: A) Iteration / Loop (for, while)
+
+Q. What is the term for executing instructions one after another in the exact linear order they are written?
+A) Sequential Execution
+B) Parallel Execution
+C) Looping
+D) Conditional Execution
+Answer: A) Sequential Execution
+
+Q. What type of programming error violates the grammatical rules of the programming language?
+A) Syntax Error
+B) Runtime Error
+C) Logical Error
+D) Semantic Error
+Answer: A) Syntax Error
+
+Q. What type of error causes a program to produce incorrect output even though the code runs without crashing?
+A) Logical Error
+B) Syntax Error
+C) Compilation Error
+D) Fatal Crash
+Answer: A) Logical Error
+
+Q. What type of error occurs while a program is running, such as attempting to divide by zero or access missing files?
+A) Runtime Error / Exception
+B) Syntax Error
+C) Style Warning
+D) Parsing Error
+Answer: A) Runtime Error / Exception
+
+Q. What is the process of locating, analyzing, and correcting errors (bugs) in code called?
+A) Debugging
+B) Compiling
+C) Assembling
+D) Overclocking
+Answer: A) Debugging
+
+Q. What is informal high-level description of a computer program written in plain human English called?
+A) Pseudocode
+B) Machine Code
+C) Binary
+D) Bytecode
+Answer: A) Pseudocode
+
+Q. In Scratch, how do you make a sprite say 'Hello!' for exactly 2 seconds?
+A) say [Hello!] for (2) secs
+B) say [Hello!]
+C) think [Hello!]
+D) print [Hello!]
+Answer: A) say [Hello!] for (2) secs
+
+Q. In Scratch, how do you make a sprite think with a cloud thought bubble instead of a speech bubble?
+A) think [Hmm...] for (2) secs
+B) say [Hmm...]
+C) whisper [Hmm...]
+D) show [Hmm...]
+Answer: A) think [Hmm...] for (2) secs
+
+Q. In Scratch, what command rotates a sprite 90 degrees to face toward the right?
+A) point in direction (90)
+B) point in direction (0)
+C) point in direction (180)
+D) point in direction (-90)
+Answer: A) point in direction (90)
+
+Q. In Scratch, what direction degree angle corresponds to pointing straight Up?
+A) 0 degrees
+B) 90 degrees
+C) 180 degrees
+D) -90 degrees
+Answer: A) 0 degrees
+
+Q. In Scratch, what direction degree angle corresponds to pointing straight Down?
+A) 180 degrees
+B) 0 degrees
+C) 90 degrees
+D) 270 degrees
+Answer: A) 180 degrees
+
+Q. In Scratch, what direction degree angle corresponds to pointing toward the Left?
+A) -90 degrees (or 270 degrees)
+B) 90 degrees
+C) 0 degrees
+D) 180 degrees
+Answer: A) -90 degrees (or 270 degrees)
+
+Q. In Scratch, what rotation style allows a sprite to face left and right without turning upside down?
+A) set rotation style [left-right]
+B) all around
+C) don't rotate
+D) flip 3D
+Answer: A) set rotation style [left-right]
+
+Q. In Scratch, what block smoothly moves a sprite to a coordinate (x, y) over a specified time duration?
+A) glide (1) secs to x: (x) y: (y)
+B) go to x: (x) y: (y)
+C) move steps
+D) change x by
+Answer: A) glide (1) secs to x: (x) y: (y)
+
+Q. In Scratch, what block makes a sprite follow the computer mouse cursor continuously?
+A) go to [mouse-pointer] inside a forever loop
+B) turn 15 degrees
+C) move 10 steps
+D) set x to mouse
+Answer: A) go to [mouse-pointer] inside a forever loop
+
+Q. In Scratch, which sensing block detects if a sprite is touching another designated sprite or color?
+A) touching [sprite/color]?
+B) distance to [sprite]
+C) mouse down?
+D) key pressed?
+Answer: A) touching [sprite/color]?
+
+Q. In Scratch, what block is used to set the initial value of a variable to 0 at game start?
+A) set [score] to (0)
+B) change [score] by (0)
+C) show variable
+D) hide variable
+Answer: A) set [score] to (0)
+
+Q. In Scratch, what block increases the value stored in a variable by 1 whenever an item is collected?
+A) change [score] by (1)
+B) set [score] to (1)
+C) score + 1
+D) add to score
+Answer: A) change [score] by (1)
+
+Q. In Scratch, which boolean operator block evaluates to True only when BOTH condition 1 AND condition 2 are True?
+A) <condition 1> and <condition 2>
+B) <condition 1> or <condition 2>
+C) not <condition>
+D) <condition 1> = <condition 2>
+Answer: A) <condition 1> and <condition 2>
+
+Q. In Scratch, which boolean operator evaluates to True if EITHER condition 1 OR condition 2 (or both) is True?
+A) <condition 1> or <condition 2>
+B) <condition 1> and <condition 2>
+C) not <condition>
+D) join () ()
+Answer: A) <condition 1> or <condition 2>
+
+Q. In Scratch, which operator inverts a boolean condition from True to False, or False to True?
+A) not <condition>
+B) and
+C) or
+D) mod
+Answer: A) not <condition>
+
+Q. In Scratch, which block calculates the remainder after dividing one number by another?
+A) () mod ()
+B) () / ()
+C) () * ()
+D) round ()
+Answer: A) () mod ()
+
+Q. In Scratch, which block joins two text strings into one combined string?
+A) join [apple] [banana]
+B) letter (1) of [apple]
+C) length of [apple]
+D) contains [] ?
+Answer: A) join [apple] [banana]
+
+Q. In Scratch, which block returns the number of characters in a string?
+A) length of [text]
+B) letter (1) of [text]
+C) join [text]
+D) mod
+Answer: A) length of [text]
+
+Q. In Scratch, which block checks if a text string contains a specific character or substring?
+A) [string] contains [char] ?
+B) join () ()
+C) letter () of ()
+D) item of list
+Answer: A) [string] contains [char] ?
+
+Q. In Scratch, what data structure can store an ordered list of multiple items (like inventory items or names)?
+A) List (Array)
+B) Variable only
+C) Costume
+D) Backdrop
+Answer: A) List (Array)
+
+Q. In Scratch, which block appends a new element to the end of a list?
+A) add [thing] to [list]
+B) delete (1) of [list]
+C) insert [thing] at (1) of [list]
+D) replace item (1)
+Answer: A) add [thing] to [list]
+
+Q. In Scratch, which block deletes all items from a list at once?
+A) delete all of [list]
+B) clear
+C) remove list
+D) reset
+Answer: A) delete all of [list]
+
+Q. In Scratch, what feature allows users to create custom reusable procedures with their own custom blocks?
+A) My Blocks (Make a Block)
+B) Extensions
+C) Variables
+D) Costumes
+Answer: A) My Blocks (Make a Block)
+
+Q. In programming, what is a self-contained block of code designed to perform a specific sub-task called?
+A) Function / Procedure / Subroutine
+B) Variable
+C) Loop
+D) Data type
+Answer: A) Function / Procedure / Subroutine
+
+Q. What values are passed into a function when it is called?
+A) Arguments / Parameters
+B) Return values
+C) Comments
+D) Registers
+Answer: A) Arguments / Parameters
+
+Q. What value is sent back by a function to the caller upon completion?
+A) Return Value
+B) Argument
+C) Variable name
+D) Loop counter
+Answer: A) Return Value
+
+Q. What is a function that calls itself directly or indirectly in its definition called?
+A) Recursive Function
+B) Iterative Function
+C) Lambda Function
+D) Void Function
+Answer: A) Recursive Function
+
+Q. What condition in a recursive function stops it from continuing infinitely?
+A) Base Case / Termination Condition
+B) Infinite Loop
+C) Stack Overflow
+D) Break clause
+Answer: A) Base Case / Termination Condition
+
+Q. What happens if a recursive function lacks a valid base case?
+A) Stack Overflow Error due to endless recursive calls
+B) Syntax error during compilation
+C) Program runs faster
+D) Memory is cleared
+Answer: A) Stack Overflow Error due to endless recursive calls
+
+Q. What is the scope of a variable declared inside a function that cannot be accessed outside it?
+A) Local Scope
+B) Global Scope
+C) Universal Scope
+D) Static Scope
+Answer: A) Local Scope
+
+Q. What is the scope of a variable declared outside all functions that can be accessed anywhere in the script?
+A) Global Scope
+B) Local Scope
+C) Block Scope
+D) Private Scope
+Answer: A) Global Scope
+
+Q. What data sorting algorithm repeatedly steps through the list, compares adjacent elements and swaps them if out of order?
+A) Bubble Sort
+B) Binary Search
+C) Linear Search
+D) Hash Table
+Answer: A) Bubble Sort
+
+Q. What search algorithm checks each element of a list sequentially from beginning to end?
+A) Linear Search (Sequential Search)
+B) Binary Search
+C) Hash Search
+D) Tree Search
+Answer: A) Linear Search (Sequential Search)
+
+Q. What efficient search algorithm divides a sorted array in half repeatedly to locate a target element?
+A) Binary Search
+B) Linear Search
+C) Bubble Sort
+D) Selection Sort
+Answer: A) Binary Search
+
+Q. What prerequisite condition MUST be met before applying Binary Search on a dataset?
+A) The dataset must already be sorted in order
+B) The dataset must contain only positive integers
+C) The dataset must have an odd number of items
+D) The dataset must be in text format
+Answer: A) The dataset must already be sorted in order
+
+Q. In computer science, what notation is used to classify algorithms according to how their run time grows with input size?
+A) Big O Notation (e.g., O(1), O(n), O(log n))
+B) ASCII Notation
+C) Boolean Notation
+D) Hex Notation
+Answer: A) Big O Notation (e.g., O(1), O(n), O(log n))
+
+Q. What is the time complexity of looking up an element in an array by its numeric index?
+A) O(1) - Constant Time
+B) O(n) - Linear Time
+C) O(n^2)
+D) O(log n)
+Answer: A) O(1) - Constant Time
+
+Q. What is the average time complexity of Linear Search on an unsorted list of n items?
+A) O(n)
+B) O(1)
+C) O(log n)
+D) O(n^2)
+Answer: A) O(n)
+
+Q. What is the time complexity of Binary Search on a sorted array of n elements?
+A) O(log n)
+B) O(n)
+C) O(1)
+D) O(n^2)
+Answer: A) O(log n)
+
+Q. What linear data structure follows the LIFO (Last In, First Out) principle?
+A) Stack
+B) Queue
+C) Array
+D) Linked List
+Answer: A) Stack
+
+Q. What operation adds a new element onto the top of a Stack?
+A) Push
+B) Pop
+C) Peek
+D) Enqueue
+Answer: A) Push
+
+Q. What operation removes the top element from a Stack?
+A) Pop
+B) Push
+C) Dequeue
+D) Poll
+Answer: A) Pop
+
+Q. What linear data structure follows the FIFO (First In, First Out) principle?
+A) Queue
+B) Stack
+C) Tree
+D) Graph
+Answer: A) Queue
+
+Q. What operation adds an element to the rear of a Queue?
+A) Enqueue
+B) Dequeue
+C) Push
+D) Pop
+Answer: A) Enqueue
+
+Q. What operation removes the front element from a Queue?
+A) Dequeue
+B) Enqueue
+C) Pop
+D) Peek
+Answer: A) Dequeue
+
+Q. What non-linear hierarchical data structure consists of nodes connected by edges, starting from a root node?
+A) Tree
+B) Array
+C) Stack
+D) Queue
+Answer: A) Tree
+
+Q. In a binary tree, what is the maximum number of children any node can have?
+A) 2 children (Left and Right)
+B) 1 child
+C) 3 children
+D) Unlimited
+Answer: A) 2 children (Left and Right)
+
+Q. What programming paradigm organizes software design around data, or objects, rather than functions and logic?
+A) Object-Oriented Programming (OOP)
+B) Functional Programming
+C) Procedural Programming
+D) Assembly Programming
+Answer: A) Object-Oriented Programming (OOP)
+
+Q. In OOP, what is the blueprint or template from which individual objects are created?
+A) Class
+B) Method
+C) Variable
+D) Package
+Answer: A) Class
+
+Q. What OOP concept allows a child class to inherit properties and methods from a parent class?
+A) Inheritance
+B) Encapsulation
+C) Polymorphism
+D) Abstraction
+Answer: A) Inheritance
+
+Q. Who created the Python programming language?
+A) Guido van Rossum
+B) Dennis Ritchie
+C) James Gosling
+D) Bjarne Stroustrup
+Answer: A) Guido van Rossum
+
+Q. In Python programming, which built-in function displays text output on the screen?
+A) print()
+B) display()
+C) echo()
+D) write()
+Answer: A) print()
+
+Q. Which symbol is used to write a single-line comment in Python?
+A) # (Hash)
+B) // (Double Slash)
+C) /* (Slash Star)
+D) <!-- -->
+Answer: A) # (Hash)
+
+Q. What is the correct file extension for Python script source files?
+A) .py
+B) .pyt
+C) .pt
+D) .python
+Answer: A) .py
+
+Q. What will be the output of the Python expression: print(3 ** 3)?
+A) 27
+B) 9
+C) 6
+D) 33
+Answer: A) 27
+
+Q. What will be the output of the Python expression: print(17 // 5)?
+A) 3
+B) 3.4
+C) 2
+D) 17/5
+Answer: A) 3
+
+Q. In Python, which arithmetic operator calculates the remainder of a division (Modulus)?
+A) % (Percent)
+B) /
+C) //
+D) **
+Answer: A) % (Percent)
+
+Q. What will be the output of print(10 % 3) in Python?
+A) 1
+B) 3
+C) 3.33
+D) 0
+Answer: A) 1
+
+Q. What is the data type of the variable assignment: x = 10 in Python?
+A) int (Integer)
+B) float
+C) str
+D) bool
+Answer: A) int (Integer)
+
+Q. What is the data type of the variable assignment: x = 10.5 in Python?
+A) float (Floating point)
+B) int
+C) str
+D) double
+Answer: A) float (Floating point)
+
+Q. What is the data type of the variable assignment: x = 'Hello' in Python?
+A) str (String)
+B) char
+C) text
+D) word
+Answer: A) str (String)
+
+Q. What is the data type of the variable assignment: x = True in Python?
+A) bool (Boolean)
+B) int
+C) str
+D) binary
+Answer: A) bool (Boolean)
+
+Q. What function in Python returns the data type of any object or variable?
+A) type()
+B) typeof()
+C) datatype()
+D) kind()
+Answer: A) type()
+
+Q. What will be the output of print(type(5.0)) in Python?
+A) <class 'float'>
+B) <class 'int'>
+C) <class 'double'>
+D) <class 'num'>
+Answer: A) <class 'float'>
+
+Q. What built-in function in Python reads user input from the console as a string?
+A) input()
+B) read()
+C) scan()
+D) get()
+Answer: A) input()
+
+Q. What function converts a numerical text string '25' into an integer number 25 in Python?
+A) int()
+B) str()
+C) float()
+D) num()
+Answer: A) int()
+
+Q. What function converts a number into a floating-point decimal number in Python?
+A) float()
+B) int()
+C) str()
+D) decimal()
+Answer: A) float()
+
+Q. What function converts any value into its string representation in Python?
+A) str()
+B) text()
+C) char()
+D) format()
+Answer: A) str()
+
+Q. What will be the output of print('10' + '20') in Python?
+A) 1020
+B) 30
+C) TypeError
+D) 10 20
+Answer: A) 1020
+
+Q. What will be the output of print('Kerala' + ' ' + 'KITES') in Python?
+A) Kerala KITES
+B) KeralaKITES
+C) Kerala+KITES
+D) SyntaxError
+Answer: A) Kerala KITES
+
+Q. What will be the output of print('Python' * 3) in Python?
+A) PythonPythonPython
+B) Python 3
+C) TypeError
+D) Python*3
+Answer: A) PythonPythonPython
+
+Q. What will be the output of print(len('KITES')) in Python?
+A) 5
+B) 4
+C) 6
+D) Error
+Answer: A) 5
+
+Q. What will be the output of print(len('Kerala')) in Python?
+A) 6
+B) 5
+C) 7
+D) 0
+Answer: A) 6
+
+Q. How are code blocks (like inside if-statements, loops, and functions) defined in Python?
+A) By consistent indentation (spaces / tabs)
+B) By curly braces { }
+C) By begin ... end keywords
+D) By semicolons ;
+Answer: A) By consistent indentation (spaces / tabs)
+
+Q. Which keyword in Python tests an alternative condition if the preceding if-condition was False?
+A) elif
+B) else if
+C) elseif
+D) then
+Answer: A) elif
+
+Q. Which keyword in Python executes a default block of code when all preceding if/elif conditions evaluate to False?
+A) else
+B) otherwise
+C) default
+D) finally
+Answer: A) else
+
+Q. Which comparison operator in Python checks if two values are equal?
+A) ==
+B) =
+C) ===
+D) equals
+Answer: A) ==
+
+Q. Which comparison operator in Python checks if two values are not equal?
+A) !=
+B) <>
+C) !==
+D) not
+Answer: A) !=
+
+Q. Which logical operator in Python returns True if BOTH boolean expressions are True?
+A) and
+B) &&
+C) AND
+D) &
+Answer: A) and
+
+Q. Which logical operator in Python returns True if AT LEAST ONE boolean expression is True?
+A) or
+B) ||
+C) OR
+D) |
+Answer: A) or
+
+Q. Which logical operator in Python inverts a boolean value from True to False, or False to True?
+A) not
+B) !
+C) ~
+D) invert
+Answer: A) not
+
+Q. Which keyword in Python initiates a loop that iterates over a sequence (such as a list, string, or range)?
+A) for
+B) foreach
+C) loop
+D) repeat
+Answer: A) for
+
+Q. Which keyword in Python initiates a loop that continues repeating as long as a condition remains True?
+A) while
+B) for
+C) do
+D) until
+Answer: A) while
+
+Q. What will be generated by the expression: list(range(5)) in Python?
+A) [0, 1, 2, 3, 4]
+B) [1, 2, 3, 4, 5]
+C) [0, 5]
+D) [1, 2, 3, 4]
+Answer: A) [0, 1, 2, 3, 4]
+
+Q. What will be generated by the expression: list(range(1, 6)) in Python?
+A) [1, 2, 3, 4, 5]
+B) [0, 1, 2, 3, 4, 5]
+C) [1, 6]
+D) [2, 3, 4, 5]
+Answer: A) [1, 2, 3, 4, 5]
+
+Q. What will be generated by the expression: list(range(0, 10, 2)) in Python?
+A) [0, 2, 4, 6, 8]
+B) [2, 4, 6, 8, 10]
+C) [0, 2, 4, 6, 8, 10]
+D) [0, 5, 10]
+Answer: A) [0, 2, 4, 6, 8]
+
+Q. Which statement in Python immediately terminates and exits out of the current loop?
+A) break
+B) continue
+C) pass
+D) exit
+Answer: A) break
+
+Q. Which statement in Python skips the remainder of the current loop iteration and moves to the next iteration?
+A) continue
+B) break
+C) pass
+D) skip
+Answer: A) continue
+
+Q. Which statement in Python is a null placeholder statement that does nothing when syntax requires a statement?
+A) pass
+B) null
+C) none
+D) void
+Answer: A) pass
+
+Q. Which keyword in Python is used to define a custom user-created function?
+A) def
+B) func
+C) function
+D) define
+Answer: A) def
+
+Q. Which keyword in Python is used inside a function to send a calculated result back to the caller?
+A) return
+B) send
+C) give
+D) output
+Answer: A) return
+
+Q. What data structure in Python is an ordered, mutable sequence defined with square brackets [ ]?
+A) List
+B) Tuple
+C) Dictionary
+D) Set
+Answer: A) List
+
+Q. What is the index of the very first element in a Python list (e.g., nums[?])?
+A) 0
+B) 1
+C) -1
+D) first
+Answer: A) 0
+
+Q. What index in Python accesses the very last element of a list using negative indexing?
+A) -1
+B) 0
+C) last
+D) -0
+Answer: A) -1
+
+Q. Which list method appends a new item to the end of an existing list in Python?
+A) append()
+B) add()
+C) insert()
+D) push()
+Answer: A) append()
+
+Q. Which list method removes and returns the last item from a list in Python?
+A) pop()
+B) remove()
+C) delete()
+D) discard()
+Answer: A) pop()
+
+Q. Which list method removes the first occurrence of a specific value from a list in Python?
+A) remove()
+B) pop()
+C) del()
+D) clear()
+Answer: A) remove()
+
+Q. Which list method sorts the elements of a list in-place in ascending order?
+A) sort()
+B) order()
+C) arrange()
+D) sorted()
+Answer: A) sort()
+
+Q. Which list method reverses the order of elements in a list in-place?
+A) reverse()
+B) invert()
+C) backward()
+D) flip()
+Answer: A) reverse()
+
+Q. What data structure in Python is an ordered, immutable sequence defined with parentheses ( )?
+A) Tuple
+B) List
+C) Dictionary
+D) Set
+Answer: A) Tuple
+
+Q. Why can elements of a Python tuple NOT be modified or reassigned after creation?
+A) Tuples are immutable
+B) Tuples use binary encoding
+C) Tuples are read-only files
+D) Tuples are stored on the hard drive
+Answer: A) Tuples are immutable
+
+Q. What data structure in Python stores unordered key-value pairs enclosed in curly braces { }?
+A) Dictionary
+B) List
+C) Tuple
+D) Array
+Answer: A) Dictionary
+
+Q. How do you access the value associated with key 'name' in dictionary student = {'name': 'Arun', 'age': 15}?
+A) student['name']
+B) student[0]
+C) student.name()
+D) student('name')
+Answer: A) student['name']
+
+Q. Which dictionary method returns a view of all keys in a Python dictionary?
+A) keys()
+B) values()
+C) items()
+D) get()
+Answer: A) keys()
+
+Q. Which dictionary method returns a view of all values in a Python dictionary?
+A) values()
+B) keys()
+C) items()
+D) elements()
+Answer: A) values()
+
+Q. Which dictionary method safely returns the value for a key without throwing a KeyError if the key is absent?
+A) get()
+B) find()
+C) lookup()
+D) search()
+Answer: A) get()
+
+Q. What data structure in Python is an unordered collection of unique elements with no duplicates?
+A) Set
+B) List
+C) Tuple
+D) Dictionary
+Answer: A) Set
+
+Q. Which set method adds a new element to a Python set?
+A) add()
+B) append()
+C) push()
+D) insert()
+Answer: A) add()
+
+Q. What is the result of set([1, 2, 2, 3, 3, 3]) in Python?
+A) {1, 2, 3}
+B) [1, 2, 3]
+C) {1, 2, 2, 3, 3, 3}
+D) (1, 2, 3)
+Answer: A) {1, 2, 3}
+
+Q. What special value in Python represents the absence of a value or a null value?
+A) None
+B) null
+C) nil
+D) undefined
+Answer: A) None
+
+Q. What string method converts all characters in a string to uppercase in Python?
+A) upper()
+B) uppercase()
+C) toUpper()
+D) capitalize()
+Answer: A) upper()
+
+Q. What string method converts all characters in a string to lowercase in Python?
+A) lower()
+B) lowercase()
+C) toLower()
+D) casefold()
+Answer: A) lower()
+
+Q. What string method removes leading and trailing whitespace from a string in Python?
+A) strip()
+B) trim()
+C) clean()
+D) slice()
+Answer: A) strip()
+
+Q. What string method splits a string into a list of words using a delimiter?
+A) split()
+B) slice()
+C) divide()
+D) break()
+Answer: A) split()
+
+Q. What string method joins a list of strings into a single string using a separator?
+A) join()
+B) concat()
+C) combine()
+D) merge()
+Answer: A) join()
+
+Q. What string method replaces occurrences of a substring with a new substring?
+A) replace()
+B) swap()
+C) sub()
+D) change()
+Answer: A) replace()
+
+Q. What string method checks if a string starts with a specified prefix?
+A) startswith()
+B) beginswith()
+C) prefix()
+D) isStart()
+Answer: A) startswith()
+
+Q. What string method checks if a string ends with a specified suffix?
+A) endswith()
+B) terminateswith()
+C) suffix()
+D) isEnd()
+Answer: A) endswith()
+
+Q. What built-in function in Python opens a file for reading or writing?
+A) open()
+B) file()
+C) read()
+D) load()
+Answer: A) open()
+
+Q. What mode argument in open('data.txt', 'r') opens a file for reading text?
+A) 'r'
+B) 'w'
+C) 'a'
+D) 'x'
+Answer: A) 'r'
+
+Q. What mode argument in open('data.txt', 'w') opens a file for writing, overwriting existing content?
+A) 'w'
+B) 'r'
+C) 'a'
+D) 'b'
+Answer: A) 'w'
+
+Q. What mode argument in open('data.txt', 'a') opens a file for appending new data to the end?
+A) 'a'
+B) 'w'
+C) 'r'
+D) 't'
+Answer: A) 'a'
+
+Q. What Python keyword ensures that a file is automatically closed after operations finish, even if errors occur?
+A) with (e.g., with open(...) as f:)
+B) close
+C) try
+D) finally
+Answer: A) with (e.g., with open(...) as f:)
+
+Q. What Python block structure is used for exception handling to catch and manage runtime errors safely?
+A) try ... except
+B) try ... catch
+C) if ... error
+D) catch ... throw
+Answer: A) try ... except
+
+Q. Which keyword in Python is used to manually trigger or raise an exception?
+A) raise
+B) throw
+C) error
+D) alert
+Answer: A) raise
+
+Q. Which built-in Python module provides mathematical functions like sqrt(), sin(), and pi?
+A) math
+B) numbers
+C) calc
+D) algebra
+Answer: A) math
+
+Q. Which built-in Python module provides functions for generating pseudo-random numbers?
+A) random
+B) rand
+C) chance
+D) dice
+Answer: A) random
+
+Q. Which function in Python's random module generates a random integer between a and b inclusive?
+A) random.randint(a, b)
+B) random.random()
+C) random.randrange()
+D) random.choice()
+Answer: A) random.randint(a, b)
+
+Q. Which built-in Python module provides functions to interact with the operating system and file paths?
+A) os
+B) sys
+C) platform
+D) terminal
+Answer: A) os
+
+Q. Which built-in Python module provides encoding and decoding of JSON data?
+A) json
+B) yaml
+C) xml
+D) pickle
+Answer: A) json
+
+Q. Which function in Python's json module converts a Python dictionary into a JSON formatted string?
+A) json.dumps()
+B) json.loads()
+C) json.encode()
+D) json.write()
+Answer: A) json.dumps()
+
+Q. Which function in Python's json module parses a JSON string into a native Python dictionary?
+A) json.loads()
+B) json.dumps()
+C) json.decode()
+D) json.parse()
+Answer: A) json.loads()
+
+Q. What concise Python syntax construct allows creating a new list from an existing sequence in a single line?
+A) List Comprehension (e.g., [x*2 for x in nums])
+B) Generator
+C) Lambda Map
+D) Inline Loop
+Answer: A) List Comprehension (e.g., [x*2 for x in nums])
+
+Q. What will be the output of: [x**2 for x in [1, 2, 3]] in Python?
+A) [1, 4, 9]
+B) [1, 2, 3]
+C) [2, 4, 6]
+D) [3, 6, 9]
+Answer: A) [1, 4, 9]
+
+Q. What is an anonymous, single-expression inline function in Python created with?
+A) lambda keyword
+B) def keyword
+C) inline keyword
+D) anon keyword
+Answer: A) lambda keyword
+
+Q. What built-in function in Python applies a function to all items in an iterable?
+A) map()
+B) filter()
+C) reduce()
+D) apply()
+Answer: A) map()
+
+Q. What built-in function in Python extracts elements from an iterable for which a function returns True?
+A) filter()
+B) map()
+C) select()
+D) find()
+Answer: A) filter()
+
+Q. What built-in function in Python pairs up elements from two or more iterables into tuples?
+A) zip()
+B) pair()
+C) combine()
+D) merge()
+Answer: A) zip()
+
+Q. What built-in function in Python adds a counter to an iterable and returns it as an enumerate object?
+A) enumerate()
+B) count()
+C) index()
+D) number()
+Answer: A) enumerate()
+
+Q. What keyword in Python is used to create a new class definition?
+A) class
+B) object
+C) struct
+D) type
+Answer: A) class
+
+Q. What special method in Python classes acts as the constructor initializer when a new instance is created?
+A) __init__()
+B) __new__()
+C) __main__()
+D) __create__()
+Answer: A) __init__()
+
+Q. What parameter must be explicitly defined as the first argument of every instance method in Python to refer to current instance?
+A) self
+B) this
+C) current
+D) me
+Answer: A) self
+
+Q. What built-in function returns the absolute positive value of a number in Python?
+A) abs()
+B) pos()
+C) fabs()
+D) magnitude()
+Answer: A) abs()
+
+Q. What built-in function rounds a floating-point number to a specified number of decimal places?
+A) round()
+B) floor()
+C) ceil()
+D) trunc()
+Answer: A) round()
+
+Q. What built-in function returns the largest item in an iterable in Python?
+A) max()
+B) large()
+C) high()
+D) greatest()
+Answer: A) max()
+
+Q. What built-in function returns the smallest item in an iterable in Python?
+A) min()
+B) small()
+C) low()
+D) least()
+Answer: A) min()
+
+Q. What built-in function calculates the sum of all numerical items in an iterable in Python?
+A) sum()
+B) total()
+C) add()
+D) accumulate()
+Answer: A) sum()
+
+Q. What will be the output of bool(0) in Python?
+A) False
+B) True
+C) 0
+D) None
+Answer: A) False
+
+Q. What will be the output of bool('') for an empty string in Python?
+A) False
+B) True
+C) Error
+D) None
+Answer: A) False
+
+Q. What will be the output of bool('Kerala') for a non-empty string in Python?
+A) True
+B) False
+C) Kerala
+D) 1
+Answer: A) True
+
+Q. What does 'WWW' stand for in Internet terminology?
+A) World Wide Web
+B) Wide World Web
+C) Wireless Web Works
+D) World Web Wireless
+Answer: A) World Wide Web
+
+Q. Who is recognized as the principal inventor of the World Wide Web in 1989?
+A) Tim Berners-Lee
+B) Bill Gates
+C) Steve Jobs
+D) Mark Zuckerberg
+Answer: A) Tim Berners-Lee
+
+Q. What does 'IP' stand for in computer networking?
+A) Internet Protocol
+B) Information Path
+C) Internal Program
+D) Integrated Processing
+Answer: A) Internet Protocol
+
+Q. What does 'URL' stand for in web navigation?
+A) Uniform Resource Locator
+B) Universal Resource Link
+C) Unified Registered Location
+D) User Request Link
+Answer: A) Uniform Resource Locator
+
+Q. What type of network connects computing devices within a single school room, lab, or building?
+A) LAN (Local Area Network)
+B) WAN (Wide Area Network)
+C) MAN (Metropolitan Area Network)
+D) PAN (Personal Area Network)
+Answer: A) LAN (Local Area Network)
+
+Q. What type of network connects computers across broad global geographic areas such as countries or continents?
+A) WAN (Wide Area Network)
+B) LAN
+C) CAN
+D) WLAN
+Answer: A) WAN (Wide Area Network)
+
+Q. What is the largest worldwide public network of interconnected computer networks?
+A) The Internet
+B) Ethernet
+C) Intranet
+D) Extranet
+Answer: A) The Internet
+
+Q. Which hardware device routes digital data packets between a home or school LAN and the external Internet?
+A) Router
+B) Switch only
+C) Repeater only
+D) Hub
+Answer: A) Router
+
+Q. Which network device connects multiple client computers within the same local wired network using MAC addresses?
+A) Network Switch
+B) Modem
+C) Gateway
+D) Sound Card
+Answer: A) Network Switch
+
+Q. Which device modulates digital computer signals into analog frequencies for transmission over telephone lines and demodulates incoming signals?
+A) Modem (Modulator-Demodulator)
+B) Router
+C) Switch
+D) Firewall
+Answer: A) Modem (Modulator-Demodulator)
+
+Q. What protocol is the standard foundation used for transferring hypertext webpages across the World Wide Web?
+A) HTTP (Hypertext Transfer Protocol)
+B) FTP
+C) SMTP
+D) POP3
+Answer: A) HTTP (Hypertext Transfer Protocol)
+
+Q. What protocol secures website communication using SSL/TLS encryption, indicated by a padlock icon in web browsers?
+A) HTTPS (Hypertext Transfer Protocol Secure)
+B) HTTP
+C) FTP
+D) Telnet
+Answer: A) HTTPS (Hypertext Transfer Protocol Secure)
+
+Q. What protocol is used to translate human-friendly domain names (like www.kerala.gov.in) into numeric IP addresses?
+A) DNS (Domain Name System)
+B) DHCP
+C) ARP
+D) ICMP
+Answer: A) DNS (Domain Name System)
+
+Q. What protocol automatically assigns dynamic IP addresses and network configurations to client devices joining a network?
+A) DHCP (Dynamic Host Configuration Protocol)
+B) DNS
+C) SNMP
+D) RIP
+Answer: A) DHCP (Dynamic Host Configuration Protocol)
+
+Q. What protocol is primarily used for sending outgoing email messages across the Internet?
+A) SMTP (Simple Mail Transfer Protocol)
+B) POP3
+C) IMAP
+D) HTTP
+Answer: A) SMTP (Simple Mail Transfer Protocol)
+
+Q. What protocol is used by email client software to retrieve and download incoming emails from a remote mail server?
+A) POP3 / IMAP
+B) SMTP
+C) DNS
+D) FTP
+Answer: A) POP3 / IMAP
+
+Q. What protocol is dedicated to uploading and downloading files between client computers and file servers?
+A) FTP (File Transfer Protocol)
+B) HTTP
+C) SSH
+D) SNMP
+Answer: A) FTP (File Transfer Protocol)
+
+Q. What short-range radio technology (operating at 2.4 GHz) wirelessly connects personal devices like wireless headphones and mice?
+A) Bluetooth
+B) Wi-Fi
+C) Infrared
+D) Li-Fi
+Answer: A) Bluetooth
+
+Q. What high-speed wireless technology uses LED light waves for data transmission instead of radio frequency waves?
+A) Li-Fi (Light Fidelity)
+B) Wi-Fi
+C) Bluetooth
+D) Zigbee
+Answer: A) Li-Fi (Light Fidelity)
+
+Q. What short-range wireless communication technology is used in contactless tap-and-pay smartcards and transit passes?
+A) NFC (Near Field Communication)
+B) Wi-Fi
+C) Satellite Radio
+D) Infrared
+Answer: A) NFC (Near Field Communication)
+
+Q. What security system monitors and controls incoming and outgoing network traffic based on predetermined security rules?
+A) Firewall
+B) Antivirus
+C) Inverter
+D) Cooler
+Answer: A) Firewall
+
+Q. What cybercrime involves tricking individuals into revealing confidential passwords, PINs, or bank details via fraudulent emails or fake websites?
+A) Phishing
+B) Hacking
+C) Spamming
+D) DDoS
+Answer: A) Phishing
+
+Q. What malicious software locks or encrypts a victim's files and demands ransom money to restore access?
+A) Ransomware
+B) Spyware
+C) Adware
+D) Worm
+Answer: A) Ransomware
+
+Q. What malicious software secretly monitors a user's keystrokes and computer activities to steal sensitive credentials?
+A) Spyware / Keylogger
+B) Firewall
+C) Antivirus
+D) BIOS
+Answer: A) Spyware / Keylogger
+
+Q. What malicious program disguises itself as legitimate software to trick users into installing it?
+A) Trojan Horse
+B) Firewall
+C) Cookie
+D) Patch
+Answer: A) Trojan Horse
+
+Q. What self-replicating malware spreads across computer networks without requiring human intervention or host files?
+A) Computer Worm
+B) Macro Virus
+C) Cookie
+D) Popup
+Answer: A) Computer Worm
+
+Q. What security measure adds a secondary verification step (like an SMS OTP or authenticator app code) alongside a password?
+A) 2FA (Two-Factor Authentication / MFA)
+B) Single Sign-On
+C) Captcha
+D) Firewall
+Answer: A) 2FA (Two-Factor Authentication / MFA)
+
+Q. What is the temporary secret numeric code sent to a verified mobile phone to authenticate an online transaction?
+A) OTP (One-Time Password)
+B) PIN
+C) CVV
+D) MAC
+Answer: A) OTP (One-Time Password)
+
+Q. What constitutes the trail of data, logs, and activity left behind by a person while browsing the Internet?
+A) Digital Footprint
+B) Digital Certificate
+C) Cache
+D) Cookie
+Answer: A) Digital Footprint
+
+Q. What automated test distinguishes between human users and automated bots on websites (e.g., selecting traffic lights)?
+A) CAPTCHA
+B) Firewall
+C) DNS Lookup
+D) Ping test
+Answer: A) CAPTCHA
+
+Q. What 2D matrix barcode is scanned with smartphone cameras to quickly open URLs and make UPI payments?
+A) QR Code (Quick Response Code)
+B) UPC Barcode
+C) Magnetic Stripe
+D) RFID tag
+Answer: A) QR Code (Quick Response Code)
+
+Q. What decentralized, distributed public ledger technology forms the basis of cryptocurrencies and smart contracts?
+A) Blockchain Technology
+B) Cloud Computing
+C) Quantum Computing
+D) Grid Computing
+Answer: A) Blockchain Technology
+
+Q. What technology delivers on-demand computing services (servers, storage, databases) over the Internet without local maintenance?
+A) Cloud Computing
+B) Local Hosting
+C) Edge Computing
+D) Floppy Storage
+Answer: A) Cloud Computing
+
+Q. What computing technology performs calculations using quantum mechanical phenomena like superposition and entanglement with qubits?
+A) Quantum Computing
+B) Supercomputing
+C) Optical Computing
+D) Analog Computing
+Answer: A) Quantum Computing
+
+Q. What generation of cellular mobile network technology provides ultra-fast multi-gigabit speeds and low latency?
+A) 5G (5th Generation)
+B) 3G
+C) 4G LTE
+D) GPRS
+Answer: A) 5G (5th Generation)
+
+Q. What satellite navigation system was developed independently by India's space research agency (ISRO)?
+A) NavIC (Navigation with Indian Constellation / IRNSS)
+B) GPS
+C) GLONASS
+D) Galileo
+Answer: A) NavIC (Navigation with Indian Constellation / IRNSS)
+
+Q. What Global Positioning System (GPS) was originally developed and operated by the United States?
+A) GPS (Global Positioning System)
+B) Galileo
+C) BeiDou
+D) NavIC
+Answer: A) GPS (Global Positioning System)
+
+Q. Who is widely celebrated as the founding father of Artificial Intelligence (AI)?
+A) John McCarthy
+B) Alan Turing
+C) Charles Babbage
+D) Ada Lovelace
+Answer: A) John McCarthy
+
+Q. What benchmark test proposed in 1950 evaluates whether a machine can exhibit intelligent behavior indistinguishable from a human?
+A) Turing Test
+B) McCarthy Test
+C) Babbage Benchmark
+D) Ada Evaluation
+Answer: A) Turing Test
+
+Q. What branch of AI enables computers to learn patterns directly from training data without being explicitly programmed?
+A) Machine Learning (ML)
+B) Deterministic Logic
+C) Symbolic Processing
+D) Hardware Assembly
+Answer: A) Machine Learning (ML)
+
+Q. What subfield of Machine Learning utilizes multi-layered artificial neural networks inspired by the human brain?
+A) Deep Learning
+B) Linear Regression
+C) Rule-based Systems
+D) Expert Systems
+Answer: A) Deep Learning
+
+Q. What type of AI can generate brand new content such as text, realistic photos, synthetic audio, and code?
+A) Generative AI (GenAI)
+B) Narrow AI only
+C) Discriminative AI only
+D) Static AI
+Answer: A) Generative AI (GenAI)
+
+Q. What underlying deep learning architecture powers modern Large Language Models (LLMs) like Gemini and ChatGPT?
+A) Transformer Architecture (Self-Attention)
+B) Decision Trees
+C) Markov Chains
+D) Genetic Algorithms
+Answer: A) Transformer Architecture (Self-Attention)
+
+Q. What is the input prompt or instruction provided by a human user to guide a Generative AI model called?
+A) Prompt (Prompt Engineering)
+B) Hyperparameter
+C) Epoch
+D) Weight
+Answer: A) Prompt (Prompt Engineering)
+
+Q. What human-like social robot developed by Hanson Robotics was granted honorary citizenship by Saudi Arabia in 2017?
+A) Sophia
+B) ASIMO
+C) Atlas
+D) Pepper
+Answer: A) Sophia
+
+Q. What branch of engineering involves designing mechanical structures, electronic hardware, sensors, and algorithms to build autonomous machines?
+A) Robotics & Automation
+B) Civil Engineering
+C) Chemical Engineering
+D) Mining Engineering
+Answer: A) Robotics & Automation
+
+Q. What robotic actuator converts electrical energy into linear back-and-forth pulling or pushing motion?
+A) Linear Solenoid / Actuator
+B) Rotary Motor
+C) Slip Ring
+D) Thermocouple
+Answer: A) Linear Solenoid / Actuator
+
+Q. What technology allows 3D printers in tinkering labs to fabricate physical solid objects layer-by-layer from CAD models?
+A) Additive Manufacturing (3D Printing / FDM)
+B) Subtractive Machining
+C) Die Casting
+D) Forging
+Answer: A) Additive Manufacturing (3D Printing / FDM)
+
+Q. What filament material derived from corn starch is the most eco-friendly and popular thermoplastic used in school 3D printers?
+A) PLA (Polylactic Acid)
+B) ABS
+C) Nylon
+D) PVC
+Answer: A) PLA (Polylactic Acid)
+
+Q. What software program slices a 3D digital model into G-code toolpath layers for a 3D printer?
+A) Slicer Software (e.g., Ultimaker Cura / PrusaSlicer)
+B) GIMP
+C) Audacity
+D) LibreOffice Writer
+Answer: A) Slicer Software (e.g., Ultimaker Cura / PrusaSlicer)
+
+Q. What was the name of India's first dedicated lunar orbiter mission launched by ISRO in October 2008?
+A) Chandrayaan-1
+B) Mangalyaan
+C) Astrosat
+D) INSAT-1A
+Answer: A) Chandrayaan-1
+
+Q. What major discovery was made by India's Moon Impact Probe (MIP) aboard Chandrayaan-1 in 2008?
+A) Presence of Water molecules (H2O / OH) on the Moon's surface
+B) Liquid oceans
+C) Atmospheric oxygen
+D) Fossil fuels
+Answer: A) Presence of Water molecules (H2O / OH) on the Moon's surface
+
+Q. What was India's historic Mars exploration orbiter mission launched by ISRO in 2013?
+A) Mangalyaan (Mars Orbiter Mission - MOM)
+B) Chandrayaan
+C) Aditya
+D) Shukrayaan
+Answer: A) Mangalyaan (Mars Orbiter Mission - MOM)
+
+Q. What historic lunar soft-landing mission was accomplished by ISRO on August 23, 2023?
+A) Chandrayaan-3
+B) Chandrayaan-1
+C) Apollo 11
+D) Artemis 1
+Answer: A) Chandrayaan-3
+
+Q. What was the name of the lander module that made the historic soft-landing in Chandrayaan-3?
+A) Vikram Lander
+B) Pragyan Rover
+C) Pushpak
+D) Dhruva
+Answer: A) Vikram Lander
+
+Q. What was the name of the 6-wheeled robotic rover deployed onto the Moon's surface by Chandrayaan-3?
+A) Pragyan Rover
+B) Vikram
+C) Aditya
+D) Sojourner
+Answer: A) Pragyan Rover
+
+Q. On which region of the Moon did Chandrayaan-3 achieve its historic landing, making India the first nation to land near it?
+A) Lunar South Pole
+B) Lunar North Pole
+C) Equator
+D) Sea of Tranquility
+Answer: A) Lunar South Pole
+
+Q. What is the official name given to the lunar landing site where Chandrayaan-3's Vikram lander touched down?
+A) Shiv Shakti Point
+B) Tiranga Point
+C) Jawahar Point
+D) Kalam Point
+Answer: A) Shiv Shakti Point
+
+Q. What heavy-lift rocket launcher placed Chandrayaan-3 into Earth orbit?
+A) LVM3-M4 (GSLV Mk III)
+B) PSLV-C11
+C) SSLV-D2
+D) GSLV-F10
+Answer: A) LVM3-M4 (GSLV Mk III)
+
+Q. What is India's dedicated solar observatory spacecraft launched by ISRO in 2023 to study the Sun?
+A) Aditya-L1
+B) AstroSat
+C) XPoSat
+D) Gaganyaan
+Answer: A) Aditya-L1
+
+Q. Around which gravitational Lagrange equilibrium point in space is the Aditya-L1 satellite placed?
+A) Sun-Earth L1 (Lagrange Point 1)
+B) L2 Point
+C) L5 Point
+D) Moon Orbit
+Answer: A) Sun-Earth L1 (Lagrange Point 1)
+
+Q. What is the name of ISRO's ambitious human spaceflight mission aiming to send Indian astronauts into Low Earth Orbit?
+A) Gaganyaan
+B) Samudrayaan
+C) Shukrayaan
+D) Chandrayaan
+Answer: A) Gaganyaan
+
+Q. What is the name of India's indigenous female humanoid robot developed by ISRO for unmanned Gaganyaan test flights?
+A) Vyommitra
+B) Sophia
+C) Mitra
+D) Pragyan
+Answer: A) Vyommitra
+
+Q. What is the name of India's first multi-wavelength space astronomy observatory satellite launched by ISRO in 2015?
+A) AstroSat
+B) Cartosat
+C) RISAT
+D) Oceansat
+Answer: A) AstroSat
+
+Q. Where is the Satish Dhawan Space Centre (SDSC SHAR), ISRO's primary rocket spaceport, located?
+A) Sriharikota, Andhra Pradesh
+B) Thumba, Kerala
+C) Bengaluru, Karnataka
+D) Chandipur, Odisha
+Answer: A) Sriharikota, Andhra Pradesh
+
+Q. Where was India's very first rocket launched from in November 1963 (Thumba Equatorial Rocket Launching Station)?
+A) Thiruvananthapuram (Thumba), Kerala
+B) Sriharikota
+C) Wheeler Island
+D) Ahmedabad
+Answer: A) Thiruvananthapuram (Thumba), Kerala
+
+Q. What research center in Thiruvananthapuram is the lead ISRO facility for launch vehicle design and rocket technology?
+A) Vikram Sarabhai Space Centre (VSSC)
+B) URSC
+C) SAC
+D) NRSC
+Answer: A) Vikram Sarabhai Space Centre (VSSC)
+
+Q. Who is revered as the Father of the Indian Space Programme?
+A) Dr. Vikram Sarabhai
+B) Dr. Homi J. Bhabha
+C) Dr. A.P.J. Abdul Kalam
+D) Sir C.V. Raman
+Answer: A) Dr. Vikram Sarabhai
+
+Q. Who was affectionately known as the 'Missile Man of India' and served as the 11th President of India?
+A) Dr. A.P.J. Abdul Kalam
+B) Dr. Vikram Sarabhai
+C) Satish Dhawan
+D) K. Sivan
+Answer: A) Dr. A.P.J. Abdul Kalam
+
+Q. What flagship artificial intelligence supercomputer was installed in Pune under the National Supercomputing Mission?
+A) PARAM Siddhi-AI
+B) Fugaku
+C) Frontier
+D) Summit
+Answer: A) PARAM Siddhi-AI
+
+Q. What was India's first indigenous supercomputer developed by C-DAC in Pune in 1991?
+A) PARAM 8000
+B) Pratyush
+C) Mihir
+D) Airavat
+Answer: A) PARAM 8000
+
+Q. What central government agency under Kerala General Education Department manages school IT infrastructure and Little KITES clubs?
+A) KITE (Kerala Infrastructure and Technology for Education)
+B) NCERT
+C) SCERT
+D) C-DIT
+Answer: A) KITE (Kerala Infrastructure and Technology for Education)
+
+Q. What was the earlier name of KITE before its restructuring in 2017?
+A) IT@School Project
+B) EDUSAT Mission
+C) Sarva Shiksha Abhiyan
+D) Victers Portal
+Answer: A) IT@School Project
+
+Q. What online digital educational resource repository portal was developed by KITE for Kerala syllabus curriculum?
+A) Samagra Portal
+B) DIKSHA
+C) SWAYAM
+D) ePathshala
+Answer: A) Samagra Portal
+
+Q. What educational television broadcast channel is operated by KITE for Kerala school education?
+A) KITE VICTERS
+B) Doordarshan National
+C) Gyan Darshan
+D) Kisan TV
+Answer: A) KITE VICTERS
+
+Q. Which Indian state was the first to implement complete Free and Open Source Software (FOSS) across all government school classrooms?
+A) Kerala
+B) Tamil Nadu
+C) Karnataka
+D) Maharashtra
+Answer: A) Kerala
+
+Q. What is the name of the student IT club initiative in Kerala schools training over 1 lakh students in coding and robotics?
+A) Little KITES
+B) Young Innovators
+C) Atal Tinkering Clubs
+D) Science Sparks
+Answer: A) Little KITES
+
+Q. What is the full form of KITE under Kerala's General Education Department?
+A) Kerala Infrastructure and Technology for Education
+B) Kerala Institute of Technology & Education
+C) Kerala Information & Telecom Enterprise
+D) Knowledge Integration & Technical Education
+Answer: A) Kerala Infrastructure and Technology for Education
+
+Q. What website address extension (top-level domain) designates official Indian government websites?
+A) .gov.in
+B) .com
+C) .org
+D) .net.in
+Answer: A) .gov.in
+
+Q. What website address extension designates academic institutions and universities in India?
+A) .ac.in / .edu.in
+B) .com
+C) .biz
+D) .info
+Answer: A) .ac.in / .edu.in
+
+Q. What does HTML stand for in website authoring?
+A) Hypertext Markup Language
+B) High Tech Multi Language
+C) Hyperlink Text Management List
+D) Home Tool Markup Language
+Answer: A) Hypertext Markup Language
+
+Q. What does CSS stand for in web page presentation styling?
+A) Cascading Style Sheets
+B) Computer Style System
+C) Creative Styling Script
+D) Content Sheet Structure
+Answer: A) Cascading Style Sheets
+
+Q. What scripting programming language runs inside web browsers to make web pages interactive and dynamic?
+A) JavaScript
+B) C
+C) Fortran
+D) Pascal
+Answer: A) JavaScript
+
+Q. In HTML, what tag defines the primary level-1 heading of a webpage?
+A) <h1>
+B) <head>
+C) <header>
+D) <p>
+Answer: A) <h1>
+
+Q. In HTML, what tag defines a clickable hyperlink to another web address?
+A) <a href='...'>
+B) <link>
+C) <url>
+D) <hyperlink>
+Answer: A) <a href='...'>
+
+Q. In HTML, what tag inserts an image onto a webpage?
+A) <img src='...'>
+B) <image>
+C) <picture>
+D) <photo>
+Answer: A) <img src='...'>
+
+Q. In HTML, what tag creates an unordered bulleted list?
+A) <ul>
+B) <ol>
+C) <li>
+D) <list>
+Answer: A) <ul>
+
+Q. In HTML, what tag creates an ordered numbered list?
+A) <ol>
+B) <ul>
+C) <nl>
+D) <num>
+Answer: A) <ol>
+
+Q. What is the term for harassment, defamation, or intimidation carried out against individuals using digital communication technologies?
+A) Cyberbullying
+B) Firewalling
+C) Spamming
+D) Pipelining
+Answer: A) Cyberbullying
+
+Q. What is unsolicited, bulk commercial messages sent over email or SMS commonly known as?
+A) Spam
+B) Phishing
+C) Cache
+D) Cookie
+Answer: A) Spam
+
+Q. What small text file is saved by web browsers to remember user login states, site preferences, and shopping cart items?
+A) HTTP Cookie
+B) Trojan
+C) Firewall Rule
+D) Keylogger
+Answer: A) HTTP Cookie
+
+Q. What is a recommended practice to construct a strong, secure account password?
+A) Combine uppercase letters, lowercase letters, numbers, and special symbols with 12+ characters
+B) Use simple words like 123456
+C) Use only your first name and birth year
+D) Use your phone number
+Answer: A) Combine uppercase letters, lowercase letters, numbers, and special symbols with 12+ characters
+
+Q. Why should login credentials and account passwords never be shared with strangers or typed on public unverified links?
+A) To prevent unauthorized account hijacking, identity theft, and financial fraud
+B) To increase internet speed
+C) To keep the screen clean
+D) To prevent computer overheating
+Answer: A) To prevent unauthorized account hijacking, identity theft, and financial fraud
+
+Q. What Indian legislation governs cyber law, electronic commerce, and digital crime prevention in India?
+A) Information Technology Act, 2000 (IT Act)
+B) Indian Penal Code only
+C) Copyright Act 1957 only
+D) Motor Vehicles Act
+Answer: A) Information Technology Act, 2000 (IT Act)
+
+Q. What is the toll-free national cybercrime helpline telephone number in India?
+A) 1930
+B) 100
+C) 108
+D) 911
+Answer: A) 1930
+
+Q. What official national portal in India is dedicated to reporting online financial frauds and cybercrimes?
+A) cybercrime.gov.in
+B) india.gov.in
+C) uidai.gov.in
+D) passportindia.gov.in
+Answer: A) cybercrime.gov.in
+
+Q. What is the safest action when receiving an unexpected link claiming lottery winnings from an unknown phone number?
+A) Ignore and delete the message without clicking any links or sharing details
+B) Click immediately and enter personal bank details
+C) Forward to all contact groups
+D) Call the sender and send an OTP
+Answer: A) Ignore and delete the message without clicking any links or sharing details
+
+Q. Why should system software updates and security patches be installed regularly on computers and smartphones?
+A) They fix known security vulnerabilities and protect against newly discovered malware attacks
+B) They change the hardware color
+C) They eliminate all cables
+D) They double the screen size
+Answer: A) They fix known security vulnerabilities and protect against newly discovered malware attacks
+
+Q. What is the process of creating an auxiliary duplicate copy of important files to recover from data loss or hardware failure called?
+A) Data Backup
+B) Data Deletion
+C) Overclocking
+D) Thrashing
+Answer: A) Data Backup
+
+Q. What type of software actively scans, detects, quarantines, and eliminates malicious viruses and trojans from a computer system?
+A) Antivirus / Anti-malware software
+B) Spreadsheet software
+C) Text editor
+D) Media player
+Answer: A) Antivirus / Anti-malware software

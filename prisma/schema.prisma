@@ -8,13 +8,17 @@ datasource db {
 }
 
 model User {
-  id        String    @id @default(uuid())
-  name      String
-  email     String    @unique
-  password  String
-  role      String    @default("STUDENT") // "STUDENT" | "ADMIN"
-  attempts  Attempt[]
-  createdAt DateTime  @default(now())
+  id           String    @id @default(uuid())
+  name         String
+  email        String    @unique
+  password     String
+  role         String    @default("STUDENT") // "STUDENT" | "ADMIN"
+  schoolName   String?
+  className    String?
+  medium       String?   @default("ENGLISH") // "ENGLISH" | "MALAYALAM"
+  parentMobile String?
+  attempts     Attempt[]
+  createdAt    DateTime  @default(now())
 }
 
 model Exam {
@@ -22,12 +26,12 @@ model Exam {
   title            String
   description      String?
   category         String     @default("General")
-  durationMinutes  Int        @default(30)
-  totalMarks       Float      @default(100)
-  passingMarks     Float      @default(40)
-  positiveMarks    Float      @default(2.0)
-  negativeMarks    Float      @default(0.5)
-  shuffleQuestions Boolean    @default(false)
+  durationMinutes  Int        @default(8)
+  totalMarks       Float      @default(25)
+  passingMarks     Float      @default(10)
+  positiveMarks    Float      @default(1.0)
+  negativeMarks    Float      @default(0.0)
+  shuffleQuestions Boolean    @default(true)
   isPublished      Boolean    @default(true)
   questions        Question[]
   attempts         Attempt[]
@@ -49,25 +53,28 @@ model Question {
 }
 
 model Attempt {
-  id            String         @id @default(uuid())
-  examId        String
-  userId        String
-  startedAt     DateTime       @default(now())
-  submittedAt   DateTime?
-  score         Float          @default(0)
-  totalMarks    Float          @default(0)
-  isPassed      Boolean        @default(false)
-  cheatWarnings Int            @default(0)
-  answers       AnswerRecord[]
-  exam          Exam           @relation(fields: [examId], references: [id], onDelete: Cascade)
-  user          User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+  id                  String         @id @default(uuid())
+  examId              String
+  userId              String
+  startedAt           DateTime       @default(now())
+  submittedAt         DateTime?
+  timeTakenSeconds    Int?
+  selectedQuestionIds String?        // JSON array of question IDs
+  optionsOrderMap     String?        // JSON mapping of questionId -> [shuffled index order]
+  score               Float          @default(0)
+  totalMarks          Float          @default(25)
+  isPassed            Boolean        @default(false)
+  cheatWarnings       Int            @default(0)
+  answers             AnswerRecord[]
+  exam                Exam           @relation(fields: [examId], references: [id], onDelete: Cascade)
+  user                User           @relation(fields: [userId], references: [id], onDelete: Cascade)
 }
 
 model AnswerRecord {
   id             String   @id @default(uuid())
   attemptId      String
   questionId     String
-  selectedOption Int?     // null if skipped/unanswered
+  selectedOption Int?     // index chosen from candidate's shuffled view
   isMarkedReview Boolean  @default(false)
   isCorrect      Boolean  @default(false)
   marksAwarded   Float    @default(0)
