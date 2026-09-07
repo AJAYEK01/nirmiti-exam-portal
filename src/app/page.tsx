@@ -18,10 +18,22 @@ import {
   Lock,
   CalendarClock,
   AlertCircle,
-  CheckCircle2,
+  Phone,
+  Mail,
+  FileText,
+  CheckCircle,
 } from "lucide-react";
 import { POPULAR_SCHOOLS } from "@/lib/schools-data";
-import { MicrochipGraphic, CircuitBoardBg, HardwareSensorIcon } from "@/components/HardwareGraphics";
+import {
+  MicrochipGraphic,
+  CircuitBoardBg,
+  HardwareSensorIcon,
+  HardwareRoboticsIcon,
+  TrophyIcon,
+  TargetIcon,
+  StageStepIcon,
+  PinIcon,
+} from "@/components/HardwareGraphics";
 import { getExamWindowInfo, EXAM_WINDOW } from "@/lib/exam-window";
 import { TRANSLATIONS } from "@/lib/translations";
 
@@ -175,17 +187,17 @@ export default function HomePage() {
               {t.hardwareTag}
             </div>
 
-            <div className="space-y-1">
-              <span className="text-amber-400 font-extrabold text-sm sm:text-base uppercase tracking-widest block">
-                NIRMITI 2026
-              </span>
+            <div className="space-y-2">
+              <p className="text-amber-300 font-bold text-xs sm:text-sm tracking-wide">
+                Usizo Solutions Private Limited in association with IEDC GCE Kannur &amp; Little KITEs presents
+              </p>
               <h1 className="text-2xl sm:text-4xl md:text-5xl font-black tracking-tight leading-tight">
-                {t.portalTitle}
+                നിർമിതി (NIRMITI) — ഹൈസ്കൂൾ ഹാർഡ്‌വെയർ ഹാക്കത്തോൺ
               </h1>
             </div>
 
-            <p className="text-slate-300 text-sm sm:text-base max-w-2xl font-normal leading-relaxed">
-              Test your knowledge with <b>25 randomly selected questions</b> from our 1,000-question repository. Total duration: <b>8 minutes</b>. Top 2 students from each school advance to the finals!
+            <p className="text-slate-200 text-sm sm:text-base max-w-2xl font-normal leading-relaxed">
+              ഹൈസ്കൂൾ വിദ്യാർത്ഥികളുടെ ശാസ്ത്ര-സാങ്കേതിക ആശയങ്ങളെ യഥാർത്ഥ പ്രോജക്റ്റുകളാക്കി മാറ്റാൻ ഇതാ ഒരു സുവർണ്ണാവസരം. ആദ്യ ഘട്ട ഓൺലൈൻ സ്ക്രീനിംഗ് പരീക്ഷയിൽ പങ്കെടുക്കൂ!
             </p>
 
             <div className="flex flex-wrap items-center gap-2 pt-1 text-xs">
@@ -210,7 +222,7 @@ export default function HomePage() {
                 className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 text-white font-bold text-xs transition shadow-lg shadow-emerald-500/25"
               >
                 <Sparkles className="w-4 h-4 text-amber-300" />
-                🧪 Try 25-Question Practice Demo Exam (English / മലയാളം)
+                Try 25-Question Practice Demo Exam (English / മലയാളം)
               </Link>
 
               {isAdmin ? (
@@ -496,6 +508,182 @@ export default function HomePage() {
           </div>
         </div>
       )}
+
+      {/* MALAYALAM EVENT DESCRIPTION & DETAILS SECTION (ZERO EMOJIS, PURE SVG) */}
+      <div className="bg-gradient-to-br from-slate-900 via-indigo-950 to-blue-950 text-white rounded-3xl p-6 sm:p-10 border border-blue-800/40 shadow-2xl relative overflow-hidden space-y-8">
+        <CircuitBoardBg className="absolute inset-0 w-full h-full opacity-20 pointer-events-none" />
+
+        {/* Section Intro */}
+        <div className="relative z-10 space-y-3">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-500/20 text-blue-200 border border-blue-400/30 text-xs font-bold backdrop-blur-sm">
+            <HardwareRoboticsIcon className="w-4 h-4 text-amber-400" />
+            ഹാക്കത്തോൺ വിവരങ്ങൾ (Event Overview)
+          </div>
+          <h2 className="text-xl sm:text-3xl font-black tracking-tight text-white">
+            നിങ്ങൾ ഒരു ഹൈസ്കൂൾ വിദ്യാർഥിയാണോ? എങ്കിൽ നിങ്ങൾക്ക് ഇതാ ഒരു അവസരം!
+          </h2>
+          <p className="text-slate-300 text-sm sm:text-base leading-relaxed max-w-4xl">
+            ഹൈസ്കൂൾ വിദ്യാർത്ഥികളുടെ ശാസ്ത്ര-സാങ്കേതിക ആശയങ്ങളെ യഥാർത്ഥ പ്രോജക്റ്റുകളാക്കി മാറ്റാൻ ഇതാ ഒരു സുവർണ്ണാവസരം. Usizo Solutions Private Limited in association with IEDC GCE Kannur &amp; Little KITEs presents <b>നിർമിതി (NIRMITI) — ഹൈസ്കൂൾ ഹാർഡ്‌വെയർ ഹാക്കത്തോൺ</b>.
+          </p>
+        </div>
+
+        {/* Key Highlights Grid */}
+        <div className="relative z-10 grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <div className="bg-white/5 backdrop-blur-sm border border-white/10 p-5 rounded-2xl space-y-2">
+            <div className="flex items-center gap-2 text-amber-400 font-bold text-sm">
+              <CheckCircle className="w-4 h-4 text-amber-400 flex-shrink-0" />
+              <span>ആർക്കൊക്കെ പങ്കെടുക്കാം?</span>
+            </div>
+            <p className="text-xs text-slate-300 leading-relaxed">
+              8, 9, 10 ക്ലാസുകളിൽ പഠിക്കുന്ന കണ്ണൂർ ജില്ലയിലെ ഏതൊരു ഹൈസ്കൂൾ വിദ്യാർത്ഥിക്കും പങ്കെടുക്കാം.
+            </p>
+          </div>
+
+          <div className="bg-white/5 backdrop-blur-sm border border-white/10 p-5 rounded-2xl space-y-2">
+            <div className="flex items-center gap-2 text-emerald-400 font-bold text-sm">
+              <CheckCircle className="w-4 h-4 text-emerald-400 flex-shrink-0" />
+              <span>രജിസ്ട്രേഷൻ ഫീസ്</span>
+            </div>
+            <p className="text-xs text-slate-300 leading-relaxed">
+              പൂർണ്ണമായും സൗജന്യം. വിദ്യാർത്ഥികൾക്ക് യാതൊരുവിധ ഫീസും നൽകേണ്ടതില്ല.
+            </p>
+          </div>
+
+          <div className="bg-white/5 backdrop-blur-sm border border-white/10 p-5 rounded-2xl space-y-2">
+            <div className="flex items-center gap-2 text-blue-400 font-bold text-sm">
+              <PinIcon className="w-4 h-4 text-blue-400 flex-shrink-0" />
+              <span>ഗ്രാൻഡ് ഫിനാലെ വേദി</span>
+            </div>
+            <p className="text-xs text-slate-300 leading-relaxed">
+              ഗവൺമെന്റ് എഞ്ചിനീയറിംഗ് കോളേജ്, കണ്ണൂർ (GCE Kannur Campus).
+            </p>
+          </div>
+        </div>
+
+        {/* Prizes Section */}
+        <div className="relative z-10 bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/15 space-y-4">
+          <div className="flex items-center gap-2.5">
+            <TrophyIcon className="w-6 h-6 text-amber-400 flex-shrink-0" />
+            <h3 className="text-lg font-black text-white">
+              സമ്മാനങ്ങൾ (Prizes &amp; Awards)
+            </h3>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 text-center">
+            <div className="bg-gradient-to-b from-amber-500/20 to-transparent p-4 rounded-xl border border-amber-400/30">
+              <span className="text-xs text-amber-300 font-bold uppercase tracking-wider block">ഒന്നാം സമ്മാനം</span>
+              <span className="text-2xl font-black text-white block mt-1">₹10,000</span>
+              <span className="text-[11px] text-amber-200 block">+ ട്രോഫി (Trophy)</span>
+            </div>
+            <div className="bg-gradient-to-b from-slate-400/20 to-transparent p-4 rounded-xl border border-slate-300/30">
+              <span className="text-xs text-slate-300 font-bold uppercase tracking-wider block">രണ്ടാം സമ്മാനം</span>
+              <span className="text-2xl font-black text-white block mt-1">₹7,000</span>
+              <span className="text-[11px] text-slate-200 block">+ ട്രോഫി (Trophy)</span>
+            </div>
+            <div className="bg-gradient-to-b from-amber-700/20 to-transparent p-4 rounded-xl border border-amber-600/30">
+              <span className="text-xs text-amber-400 font-bold uppercase tracking-wider block">മൂന്നാം സമ്മാനം</span>
+              <span className="text-2xl font-black text-white block mt-1">₹3,000</span>
+              <span className="text-[11px] text-amber-300 block">+ ട്രോഫി (Trophy)</span>
+            </div>
+          </div>
+          <p className="text-center text-xs text-blue-200 font-medium">
+            ഫൈനലിൽ പങ്കെടുക്കുന്ന എല്ലാ വിദ്യാർത്ഥികൾക്കും മെറിറ്റ് സർട്ടിഫിക്കറ്റുകൾ നൽകുന്നതാണ്.
+          </p>
+        </div>
+
+        {/* 3 Competition Stages */}
+        <div className="relative z-10 space-y-4">
+          <div className="flex items-center gap-2.5">
+            <TargetIcon className="w-5 h-5 text-indigo-400 flex-shrink-0" />
+            <h3 className="text-lg font-black text-white">
+              മത്സര ഘട്ടങ്ങൾ (Competition Stages)
+            </h3>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {/* Stage 1 */}
+            <div className="bg-blue-950/60 border border-blue-800/50 rounded-2xl p-5 space-y-3">
+              <div className="flex items-center justify-between">
+                <span className="text-xs font-bold uppercase tracking-wider text-blue-300">Stage 1</span>
+                <StageStepIcon step={1} className="w-7 h-7 text-blue-400" />
+              </div>
+              <h4 className="text-base font-black text-white">
+                ഓൺലൈൻ സ്ക്രീനിംഗ് (Online Screening)
+              </h4>
+              <p className="text-xs text-blue-200 font-semibold">
+                സെപ്റ്റംബർ 9 (September 9, 2026)
+              </p>
+              <ul className="text-xs text-slate-300 space-y-1.5 leading-relaxed">
+                <li>• 8 മിനിറ്റിൽ 25 ഒബ്ജക്റ്റീവ് ചോദ്യങ്ങൾ (MCQ).</li>
+                <li>• നെഗറ്റീവ് മാർക്കിംഗ് ഇല്ല.</li>
+                <li>• സ്കൂളിലെ IT ലാബ് വഴിയോ സ്വന്തം മൊബൈൽ ഫോൺ വഴിയോ പങ്കെടുക്കാം.</li>
+                <li>• ഓരോ സ്കൂളിൽ നിന്നും ഉയർന്ന സ്കോർ നേടുന്ന 2 വിദ്യാർത്ഥികൾ അടുത്ത ഘട്ടത്തിലേക്ക് യോഗ്യത നേടും.</li>
+              </ul>
+            </div>
+
+            {/* Stage 2 */}
+            <div className="bg-indigo-950/60 border border-indigo-800/50 rounded-2xl p-5 space-y-3">
+              <div className="flex items-center justify-between">
+                <span className="text-xs font-bold uppercase tracking-wider text-indigo-300">Stage 2</span>
+                <StageStepIcon step={2} className="w-7 h-7 text-indigo-400" />
+              </div>
+              <h4 className="text-base font-black text-white">
+                ഓൺലൈൻ കൺസെപ്റ്റ് പ്രസന്റേഷൻ
+              </h4>
+              <p className="text-xs text-indigo-200 font-semibold">
+                സെപ്റ്റംബർ 25 – 27 (September 25 – 27, 2026)
+              </p>
+              <ul className="text-xs text-slate-300 space-y-1.5 leading-relaxed">
+                <li>• ഒരു സ്കൂളിൽ നിന്ന് 2 പേർ അടങ്ങുന്ന ഒരു ടീം.</li>
+                <li>• ശാസ്ത്ര-സാങ്കേതിക പ്രോജക്റ്റ് ഐഡിയ 3 മിനിറ്റിനുള്ളിൽ Google Meet വഴി അവതരിപ്പിക്കുക.</li>
+                <li>• വിദഗ്ദ്ധ സമിതി വിലയിരുത്തി മികച്ച ടീമുകളെ ഗ്രാൻഡ് ഫിനാലെയിലേക്ക് തിരഞ്ഞെടുക്കും.</li>
+              </ul>
+            </div>
+
+            {/* Stage 3 */}
+            <div className="bg-purple-950/60 border border-purple-800/50 rounded-2xl p-5 space-y-3">
+              <div className="flex items-center justify-between">
+                <span className="text-xs font-bold uppercase tracking-wider text-purple-300">Stage 3</span>
+                <StageStepIcon step={3} className="w-7 h-7 text-purple-400" />
+              </div>
+              <h4 className="text-base font-black text-white">
+                ഗ്രാൻഡ് ഫിനാലെ (Grand Finale)
+              </h4>
+              <p className="text-xs text-purple-200 font-semibold">
+                ഒക്ടോബർ 10 (October 10, 2026)
+              </p>
+              <ul className="text-xs text-slate-300 space-y-1.5 leading-relaxed">
+                <li>• ഗവ. എഞ്ചിനീയറിംഗ് കോളേജ് കണ്ണൂർ ക്യാമ്പസിൽ വെച്ച് നേരിട്ട്.</li>
+                <li>• 6 മണിക്കൂർ ലൈവ് ഹാർഡ്‌വെയർ ഹാക്കത്തോൺ (Live Hardware Prototyping).</li>
+                <li>• ഹാർഡ്‌വെയർ ഘടകങ്ങൾ ഉപയോഗിച്ച് പ്രോട്ടോടൈപ്പ് നിർമ്മിക്കൽ.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        {/* Contact & Helpdesk */}
+        <div className="relative z-10 pt-4 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-300">
+          <div className="flex items-center gap-2">
+            <HardwareSensorIcon className="w-4 h-4 text-teal-400" />
+            <span>സംശയങ്ങൾക്ക് ഹെൽപ്‌ഡെസ്കുമായി ബന്ധപ്പെടുക:</span>
+          </div>
+          <div className="flex flex-wrap items-center gap-4">
+            <a
+              href="tel:+918592936392"
+              className="inline-flex items-center gap-1.5 text-blue-300 hover:text-white font-mono font-bold transition"
+            >
+              <Phone className="w-3.5 h-3.5 text-blue-400" />
+              +91 8592936392
+            </a>
+            <a
+              href="mailto:info@usizosolutions.in"
+              className="inline-flex items-center gap-1.5 text-blue-300 hover:text-white font-bold transition"
+            >
+              <Mail className="w-3.5 h-3.5 text-blue-400" />
+              info@usizosolutions.in
+            </a>
+          </div>
+        </div>
+      </div>
 
       {/* Footer with Admin Access Link */}
       <footer className="pt-8 border-t border-slate-200 text-center text-xs text-slate-400 space-y-2">

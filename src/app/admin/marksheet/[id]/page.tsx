@@ -310,8 +310,8 @@ export default function AdminMarksheetPage() {
             <div className="space-y-2">
               <div className="flex items-center justify-between text-xs font-bold">
                 <span className="text-slate-600">Performance: {percentage}%</span>
-                <span className={isPassed ? "text-emerald-700" : "text-rose-700"}>
-                  {isPassed ? "✅ Qualifying" : "❌ Below Qualifying"}
+                <span className={isPassed ? "text-emerald-700 font-bold" : "text-rose-700 font-bold"}>
+                  {isPassed ? "Qualifying" : "Below Qualifying"}
                 </span>
               </div>
               <div className="w-full h-3 bg-slate-200 rounded-full overflow-hidden">

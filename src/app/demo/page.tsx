@@ -22,6 +22,7 @@ import {
   BookOpen,
   Home,
   Check,
+  Globe,
 } from "lucide-react";
 import { DEMO_QUESTIONS, DemoQuestion } from "@/lib/demo-questions";
 import { MicrochipGraphic, CircuitBoardBg, HardwareSensorIcon } from "@/components/HardwareGraphics";
@@ -343,7 +344,8 @@ export default function DemoExamPage() {
                   onClick={() => setLang((prev) => (prev === "en" ? "ml" : "en"))}
                   className="px-3 py-1 rounded-xl border border-slate-300 text-xs font-bold bg-slate-50 hover:bg-slate-100"
                 >
-                  🌐 {lang === "en" ? "മലയാളത്തിൽ കാണുക" : "View in English"}
+                  <Globe className="w-3.5 h-3.5" />
+                  {lang === "en" ? "മലയാളത്തിൽ കാണുക" : "View in English"}
                 </button>
               </div>
 
@@ -371,9 +373,9 @@ export default function DemoExamPage() {
                         </p>
                         <span className="text-xs font-black">
                           {isCorrect ? (
-                            <span className="text-emerald-600">✓ Correct</span>
+                            <span className="text-emerald-600">Correct</span>
                           ) : (
-                            <span className="text-rose-600">✗</span>
+                            <span className="text-rose-600">Incorrect</span>
                           )}
                         </span>
                       </div>
@@ -445,9 +447,10 @@ export default function DemoExamPage() {
             <button
               type="button"
               onClick={() => setLang((prev) => (prev === "en" ? "ml" : "en"))}
-              className="px-2.5 py-1.5 rounded-xl border border-slate-200 text-xs font-bold bg-slate-50 hover:bg-slate-100 transition flex items-center gap-1 text-slate-700"
+              className="px-2.5 py-1.5 rounded-xl border border-slate-200 text-xs font-bold bg-slate-50 hover:bg-slate-100 transition flex items-center gap-1.5 text-slate-700"
             >
-              🌐 {lang === "en" ? "മലയാളം" : "English"}
+              <Globe className="w-3.5 h-3.5 text-blue-600" />
+              {lang === "en" ? "മലയാളം" : "English"}
             </button>
 
             {/* Timer */}

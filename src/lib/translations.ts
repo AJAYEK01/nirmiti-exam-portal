@@ -1,8 +1,8 @@
 export const TRANSLATIONS = {
   en: {
     // Top Bar & Hero
-    portalTitle: "NIRMITI 2026 — District Level Students Hardware Hackathon",
-    hardwareTag: "NIRMITI 2026 District Level Hardware Hackathon",
+    portalTitle: "നിർമിതി (NIRMITI) — ഹൈസ്കൂൾ ഹാർഡ്‌വെയർ ഹാക്കത്തോൺ",
+    hardwareTag: "നിർമിതി (NIRMITI) — ഹൈസ്കൂൾ ഹാർഡ്‌വെയർ ഹാക്കത്തോൺ",
     durationBadge: "Strict 8 Minutes Duration",
     questionsBadge: "25 Randomized Questions",
     autoSubmitBadge: "Synchronized Auto-Submit at 00:00",
@@ -14,7 +14,7 @@ export const TRANSLATIONS = {
     fullNamePlaceholder: "e.g. Rahul S. Kumar",
     schoolName: "School Name *",
     selectSchool: "-- Select Your School --",
-    otherSchoolOption: "✍️ Other / School Not Listed Above (Type Below)",
+    otherSchoolOption: "Other / School Not Listed Above (Type Below)",
     customSchoolPlaceholder: "Type Full Official Name of Your School here...",
     classGrade: "Class / Standard *",
     mediumLabel: "Medium of Exam *",
@@ -68,8 +68,8 @@ export const TRANSLATIONS = {
   },
   ml: {
     // Top Bar & Hero
-    portalTitle: "നിർമ്മിതി 2026 — ജില്ലാതല വിദ്യാർത്ഥി ഹാർഡ്‌വെയർ ഹാക്കത്തോൺ",
-    hardwareTag: "നിർമ്മിതി 2026 ജില്ലാതല ഹാർഡ്‌വെയർ ഹാക്കത്തോൺ",
+    portalTitle: "നിർമിതി (NIRMITI) — ഹൈസ്കൂൾ ഹാർഡ്‌വെയർ ഹാക്കത്തോൺ",
+    hardwareTag: "നിർമിതി (NIRMITI) — ഹൈസ്കൂൾ ഹാർഡ്‌വെയർ ഹാക്കത്തോൺ",
     durationBadge: "കൃത്യം 8 മിനിറ്റ് സമയം",
     questionsBadge: "25 ക്രമരഹിത ചോദ്യങ്ങൾ",
     autoSubmitBadge: "00:00-ൽ സ്വയം സമർപ്പിക്കപ്പെടുന്നു",
@@ -81,7 +81,7 @@ export const TRANSLATIONS = {
     fullNamePlaceholder: "ഉദാ: രാഹുൽ എസ്. കുമാർ",
     schoolName: "സ്കൂളിന്റെ പേര് *",
     selectSchool: "-- നിങ്ങളുടെ സ്കൂൾ തിരഞ്ഞെടുക്കുക --",
-    otherSchoolOption: "✍️ ലിസ്റ്റിൽ ഇല്ലെങ്കിൽ ഇവിടെ ടൈപ്പ് ചെയ്യുക (Other)",
+    otherSchoolOption: "ലിസ്റ്റിൽ ഇല്ലെങ്കിൽ ഇവിടെ ടൈപ്പ് ചെയ്യുക (Other)",
     customSchoolPlaceholder: "നിങ്ങളുടെ സ്കൂളിന്റെ പൂർണ്ണ നാമം ഇവിടെ രേഖപ്പെടുത്തുക...",
     classGrade: "പഠിക്കുന്ന ക്ലാസ്സ് *",
     mediumLabel: "പരീക്ഷാ മാധ്യമം *",

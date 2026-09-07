@@ -136,3 +136,89 @@ export function HardwareRoboticsIcon({ className = "w-5 h-5" }: { className?: st
     </svg>
   );
 }
+
+// Official Hackathon Trophy SVG Icon
+export function TrophyIcon({ className = "w-5 h-5" }: { className?: string }) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M6 9H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h2" />
+      <path d="M18 9h2a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-2" />
+      <path d="M4 5h16v4a7 7 0 0 1-7 7 7 7 0 0 1-7-7V5z" />
+      <path d="M12 16v4" />
+      <path d="M8 20h8" />
+    </svg>
+  );
+}
+
+// Target / Stage Icon
+export function TargetIcon({ className = "w-5 h-5" }: { className?: string }) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <circle cx="12" cy="12" r="10" />
+      <circle cx="12" cy="12" r="6" />
+      <circle cx="12" cy="12" r="2" />
+    </svg>
+  );
+}
+
+// Stage Step Badge Icon (1, 2, 3)
+export function StageStepIcon({ step, className = "w-7 h-7" }: { step: 1 | 2 | 3; className?: string }) {
+  return (
+    <svg
+      viewBox="0 0 32 32"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+    >
+      <circle cx="16" cy="16" r="15" fill="currentColor" fillOpacity="0.12" stroke="currentColor" strokeWidth="2" />
+      <text
+        x="16"
+        y="21"
+        textAnchor="middle"
+        fill="currentColor"
+        fontSize="15"
+        fontWeight="900"
+        fontFamily="sans-serif"
+      >
+        {step}
+      </text>
+    </svg>
+  );
+}
+
+// Pin / Location Point SVG Icon
+export function PinIcon({ className = "w-5 h-5" }: { className?: string }) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+      <circle cx="12" cy="10" r="3" />
+    </svg>
+  );
+}
