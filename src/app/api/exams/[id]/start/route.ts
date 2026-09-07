@@ -114,31 +114,29 @@ export async function POST(
         );
       }
 
-      // Segregate into Easy (Q1-500), Medium (Q501-900), and Challenging (Q901-1000)
-      const isChallenging = (q: { orderIndex: number }) => q.orderIndex >= 901 && q.orderIndex <= 1000;
-      const isEasy = (q: { orderIndex: number }) => q.orderIndex >= 1 && q.orderIndex <= 500;
-      const isMedium = (q: { orderIndex: number }) => q.orderIndex > 500 && q.orderIndex <= 900;
+      // Balanced 4-subject distribution (Grades 8-10 Syllabus):
+      // - Mathematics & Quantitative Aptitude: Q1 - Q240 (6 questions)
+      // - Logic & Analytical Reasoning: Q241 - Q360 (3 questions)
+      // - General Science (Physics/Chem/Bio): Q361 - Q680 (8 questions)
+      // - Computer Science & Digital Literacy: Q681 - Q1000 (8 questions)
+      const mathPool = allQuestions.filter((q) => q.orderIndex >= 1 && q.orderIndex <= 240);
+      const logicPool = allQuestions.filter((q) => q.orderIndex >= 241 && q.orderIndex <= 360);
+      const sciencePool = allQuestions.filter((q) => q.orderIndex >= 361 && q.orderIndex <= 680);
+      const csPool = allQuestions.filter((q) => q.orderIndex >= 681 && q.orderIndex <= 1000);
 
-      const challengingPool = allQuestions.filter(isChallenging);
-      const easyPool = allQuestions.filter(isEasy);
-      const mediumPool = allQuestions.filter(isMedium);
+      // Select exact quotas per student: 6 + 3 + 8 + 8 = 25 questions
+      const selectedMath = shuffleArray(mathPool).slice(0, 6);
+      const selectedLogic = shuffleArray(logicPool).slice(0, 3);
+      const selectedScience = shuffleArray(sciencePool).slice(0, 8);
+      const selectedCS = shuffleArray(csPool).slice(0, 8);
 
-      // Pick exactly 2 or 3 challenging questions (topper selectors, ~10% of 25)
-      const targetChallengingCount = Math.min(
-        challengingPool.length,
-        Math.random() < 0.5 ? 2 : 3
-      );
-      // Pick 12 or 13 easy questions (~50% of 25)
-      const targetEasyCount = targetChallengingCount === 2 ? 13 : 12;
-      // Pick 10 medium questions (~40% of 25)
-      const targetMediumCount = 25 - (targetChallengingCount + targetEasyCount);
-
-      const shuffledChallenging = shuffleArray(challengingPool).slice(0, targetChallengingCount);
-      const shuffledEasy = shuffleArray(easyPool).slice(0, targetEasyCount);
-      const shuffledMedium = shuffleArray(mediumPool).slice(0, targetMediumCount);
-
-      // Combine and shuffle the overall question order so questions appear in a natural flow
-      const selectedPool = shuffleArray([...shuffledChallenging, ...shuffledEasy, ...shuffledMedium]);
+      // Combine and shuffle the overall question order so students experience a balanced, mixed assessment
+      const selectedPool = shuffleArray([
+        ...selectedScience,
+        ...selectedCS,
+        ...selectedMath,
+        ...selectedLogic,
+      ]);
       selectedQuestionIds = selectedPool.map((q) => q.id);
 
       // Generate option shuffle mapping for each question: [0, 1, 2, 3] -> randomized order
