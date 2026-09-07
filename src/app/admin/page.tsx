@@ -23,6 +23,9 @@ import {
   Lock,
   Unlock,
   SlidersHorizontal,
+  Trash2,
+  RefreshCw,
+  Filter,
 } from "lucide-react";
 import { MicrochipGraphic, CircuitBoardBg, HardwareSensorIcon, HardwareRoboticsIcon } from "@/components/HardwareGraphics";
 
@@ -59,6 +62,8 @@ export default function AdminDashboardPage() {
   const [expandedSchool, setExpandedSchool] = useState<string | null>(null);
   const [portalWindow, setPortalWindow] = useState<any>(null);
   const [updatingPortal, setUpdatingPortal] = useState(false);
+  const [selectedSchoolFilter, setSelectedSchoolFilter] = useState<string>("ALL");
+  const [deletingAttemptId, setDeletingAttemptId] = useState<string | null>(null);
 
   const fetchPortalStatus = async () => {
     try {
@@ -101,6 +106,31 @@ export default function AdminDashboardPage() {
       console.error(err);
     } finally {
       setLoading(false);
+    }
+  };
+
+  const handleDeleteStudentEntry = async (attemptId: string, studentName: string) => {
+    const confirmed = window.confirm(
+      `Are you sure you want to permanently delete the examination entry for "${studentName}"?\n\nThis will remove their test score, timestamps, and answer records completely.`
+    );
+    if (!confirmed) return;
+
+    setDeletingAttemptId(attemptId);
+    try {
+      const res = await fetch(`/api/admin/entries/${attemptId}`, {
+        method: "DELETE",
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        alert(data.error || "Failed to delete student entry.");
+      } else {
+        await loadAdminData();
+      }
+    } catch (err) {
+      console.error(err);
+      alert("Error deleting student entry.");
+    } finally {
+      setDeletingAttemptId(null);
     }
   };
 
@@ -204,10 +234,15 @@ export default function AdminDashboardPage() {
     document.body.removeChild(link);
   };
 
-  const filteredSchools = schools.filter((s) =>
-    s.schoolName.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    s.allCandidates.some((c) => c.name.toLowerCase().includes(searchQuery.toLowerCase()))
-  );
+  const filteredSchools = schools.filter((s) => {
+    const matchesSchool =
+      selectedSchoolFilter === "ALL" || s.schoolName === selectedSchoolFilter;
+    const matchesSearch =
+      !searchQuery ||
+      s.schoolName.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      s.allCandidates.some((c) => c.name.toLowerCase().includes(searchQuery.toLowerCase()));
+    return matchesSchool && matchesSearch;
+  });
 
   const totalCandidates = schools.reduce((acc, curr) => acc + curr.totalCandidates, 0);
 
@@ -404,16 +439,37 @@ export default function AdminDashboardPage() {
           </button>
         </div>
 
-        {/* Search input */}
-        <div className="relative w-full sm:w-72">
-          <Search className="w-4 h-4 text-slate-400 absolute left-3 top-2.5" />
-          <input
-            type="text"
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            placeholder="Search school or student..."
-            className="w-full pl-9 pr-4 py-2 rounded-xl border border-slate-300 text-xs bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
-          />
+        {/* Filters: School Dropdown & Search Input */}
+        <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 w-full sm:w-auto">
+          {/* School Selector Dropdown */}
+          <div className="relative min-w-[220px]">
+            <Filter className="w-3.5 h-3.5 text-slate-400 absolute left-3 top-3 pointer-events-none" />
+            <select
+              value={selectedSchoolFilter}
+              onChange={(e) => setSelectedSchoolFilter(e.target.value)}
+              className="w-full pl-8 pr-8 py-2 rounded-xl border border-slate-300 text-xs bg-white font-medium focus:outline-none focus:ring-2 focus:ring-blue-500 appearance-none text-slate-700"
+            >
+              <option value="ALL">All Schools ({schools.length})</option>
+              {schools.map((s) => (
+                <option key={s.schoolName} value={s.schoolName}>
+                  {s.schoolName} ({s.totalCandidates})
+                </option>
+              ))}
+            </select>
+            <ChevronDown className="w-3.5 h-3.5 text-slate-400 absolute right-3 top-3 pointer-events-none" />
+          </div>
+
+          {/* Search input */}
+          <div className="relative w-full sm:w-64">
+            <Search className="w-4 h-4 text-slate-400 absolute left-3 top-2.5" />
+            <input
+              type="text"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              placeholder="Search candidate or school..."
+              className="w-full pl-9 pr-4 py-2 rounded-xl border border-slate-300 text-xs bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+            />
+          </div>
         </div>
       </div>
 
@@ -503,12 +559,26 @@ export default function AdminDashboardPage() {
                               </span>
                             </div>
 
-                            <Link
-                              href={`/admin/marksheet/${candidate.attemptId}`}
-                              className="text-[11px] font-bold text-blue-600 hover:underline flex items-center gap-0.5"
-                            >
-                              Print Marksheet <ArrowUpRight className="w-3 h-3" />
-                            </Link>
+                            <div className="flex items-center gap-2">
+                              <Link
+                                href={`/admin/marksheet/${candidate.attemptId}`}
+                                className="text-[11px] font-bold text-blue-600 hover:underline flex items-center gap-0.5"
+                              >
+                                Print Marksheet <ArrowUpRight className="w-3 h-3" />
+                              </Link>
+                              <button
+                                type="button"
+                                disabled={deletingAttemptId === candidate.attemptId}
+                                onClick={() =>
+                                  handleDeleteStudentEntry(candidate.attemptId, candidate.name)
+                                }
+                                className="text-[11px] font-bold text-rose-600 hover:text-rose-800 hover:bg-rose-50 px-2 py-1 rounded-md border border-rose-200 transition disabled:opacity-50 flex items-center gap-1"
+                                title="Delete Candidate Entry"
+                              >
+                                <Trash2 className="w-3 h-3" />
+                                Delete
+                              </button>
+                            </div>
                           </div>
 
                           <div className="pt-3 space-y-2">
@@ -595,12 +665,23 @@ export default function AdminDashboardPage() {
                                   {formatSeconds(c.timeTakenSeconds)}
                                 </td>
                                 <td className="p-2.5 text-right">
-                                  <Link
-                                    href={`/admin/marksheet/${c.attemptId}`}
-                                    className="text-blue-600 hover:underline font-bold"
-                                  >
-                                    Marksheet
-                                  </Link>
+                                  <div className="flex items-center justify-end gap-2">
+                                    <Link
+                                      href={`/admin/marksheet/${c.attemptId}`}
+                                      className="text-blue-600 hover:underline font-bold"
+                                    >
+                                      Marksheet
+                                    </Link>
+                                    <button
+                                      type="button"
+                                      disabled={deletingAttemptId === c.attemptId}
+                                      onClick={() => handleDeleteStudentEntry(c.attemptId, c.name)}
+                                      className="text-rose-600 hover:text-rose-800 p-1 rounded hover:bg-rose-50 transition disabled:opacity-50"
+                                      title="Delete Student Entry"
+                                    >
+                                      <Trash2 className="w-3.5 h-3.5" />
+                                    </button>
+                                  </div>
                                 </td>
                               </tr>
                             ))}
@@ -648,7 +729,13 @@ export default function AdminDashboardPage() {
               </thead>
               <tbody className="divide-y divide-slate-100">
                 {schools
+                  .filter((s) => selectedSchoolFilter === "ALL" || s.schoolName === selectedSchoolFilter)
                   .flatMap((s) => s.allCandidates)
+                  .filter((sub) =>
+                    !searchQuery ||
+                    sub.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                    sub.schoolName.toLowerCase().includes(searchQuery.toLowerCase())
+                  )
                   .map((sub) => (
                     <tr key={sub.attemptId} className="hover:bg-slate-50/80 transition">
                       <td className="p-4 font-bold text-slate-900">{sub.name}</td>
@@ -667,12 +754,23 @@ export default function AdminDashboardPage() {
                         {new Date(sub.submittedAt).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}
                       </td>
                       <td className="p-4 text-right">
-                        <Link
-                          href={`/admin/marksheet/${sub.attemptId}`}
-                          className="inline-flex items-center gap-1 text-xs font-bold text-blue-600 hover:text-blue-800 bg-blue-50 px-2.5 py-1.5 rounded-lg border border-blue-200"
-                        >
-                          Marksheet <ArrowUpRight className="w-3 h-3" />
-                        </Link>
+                        <div className="flex items-center justify-end gap-2">
+                          <Link
+                            href={`/admin/marksheet/${sub.attemptId}`}
+                            className="inline-flex items-center gap-1 text-xs font-bold text-blue-600 hover:text-blue-800 bg-blue-50 px-2.5 py-1.5 rounded-lg border border-blue-200"
+                          >
+                            Marksheet <ArrowUpRight className="w-3 h-3" />
+                          </Link>
+                          <button
+                            type="button"
+                            disabled={deletingAttemptId === sub.attemptId}
+                            onClick={() => handleDeleteStudentEntry(sub.attemptId, sub.name)}
+                            className="text-rose-600 hover:text-rose-800 p-1.5 rounded-lg hover:bg-rose-50 border border-rose-200 transition disabled:opacity-50"
+                            title="Delete Student Entry"
+                          >
+                            <Trash2 className="w-3.5 h-3.5" />
+                          </button>
+                        </div>
                       </td>
                     </tr>
                   ))}
