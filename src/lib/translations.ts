@@ -1,8 +1,8 @@
 export const TRANSLATIONS = {
   en: {
     // Top Bar & Hero
-    portalTitle: "State Level Online Talent Assessment 2026",
-    hardwareTag: "Hardware Hackathon & State Talent Assessment",
+    portalTitle: "NIRMITI 2026 — District Level Students Hardware Hackathon",
+    hardwareTag: "NIRMITI 2026 District Level Hardware Hackathon",
     durationBadge: "Strict 8 Minutes Duration",
     questionsBadge: "25 Randomized Questions",
     autoSubmitBadge: "Synchronized Auto-Submit at 00:00",
@@ -68,8 +68,8 @@ export const TRANSLATIONS = {
   },
   ml: {
     // Top Bar & Hero
-    portalTitle: "സംസ്ഥാനതല ഓൺലൈൻ ടാലൻ്റ് അസസ്സ്മെന്റ് 2026",
-    hardwareTag: "ഹാർഡ്‌വെയർ ഹാക്കത്തോൺ & സ്റ്റേറ്റ് ടാലന്റ് അസസ്സ്മെന്റ്",
+    portalTitle: "നിർമ്മിതി 2026 — ജില്ലാതല വിദ്യാർത്ഥി ഹാർഡ്‌വെയർ ഹാക്കത്തോൺ",
+    hardwareTag: "നിർമ്മിതി 2026 ജില്ലാതല ഹാർഡ്‌വെയർ ഹാക്കത്തോൺ",
     durationBadge: "കൃത്യം 8 മിനിറ്റ് സമയം",
     questionsBadge: "25 ക്രമരഹിത ചോദ്യങ്ങൾ",
     autoSubmitBadge: "00:00-ൽ സ്വയം സമർപ്പിക്കപ്പെടുന്നു",

@@ -26,7 +26,7 @@ export async function POST(req: NextRequest) {
     const { name, schoolName, className, medium, parentMobile } = await req.json();
 
     if (!name?.trim()) {
-      return NextResponse.json({ error: "Full name is required." }, { status: 400 });
+      return NextResponse.json({ error: "Candidate full name is required." }, { status: 400 });
     }
 
     if (!schoolName?.trim()) {
@@ -37,52 +37,26 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Class / Standard is required." }, { status: 400 });
     }
 
-    if (!parentMobile || !/^[6-9]\d{9}$/.test(parentMobile.trim())) {
-      return NextResponse.json(
-        { error: "Please enter a valid 10-digit parent mobile number (starting with 6-9)." },
-        { status: 400 }
-      );
-    }
+    const cleanMobile = parentMobile ? parentMobile.trim() : "";
+    const candidateSlug = name.toLowerCase().replace(/[^a-z0-9]/g, "").slice(0, 10);
+    const uniqueTag = `${Date.now()}_${Math.random().toString(36).substring(2, 6)}`;
+    const cleanEmail = cleanMobile
+      ? `student_${cleanMobile}@exam.portal`
+      : `candidate_${candidateSlug}_${uniqueTag}@exam.portal`;
 
-    const cleanMobile = parentMobile.trim();
-    const cleanEmail = `student_${cleanMobile}@exam.portal`;
-
-    // Find existing candidate by parent mobile or email, or create new
-    let user = await prisma.user.findFirst({
-      where: {
-        OR: [
-          { parentMobile: cleanMobile },
-          { email: cleanEmail },
-        ],
+    // Create user for this candidate attempt
+    const user = await prisma.user.create({
+      data: {
+        name: name.trim(),
+        email: cleanEmail,
+        password: "candidate-token-access",
+        role: "STUDENT",
+        schoolName: schoolName.trim(),
+        className: className.trim(),
+        medium: medium === "MALAYALAM" ? "MALAYALAM" : "ENGLISH",
+        parentMobile: cleanMobile || null,
       },
     });
-
-    if (user) {
-      // Update details
-      user = await prisma.user.update({
-        where: { id: user.id },
-        data: {
-          name: name.trim(),
-          schoolName: schoolName.trim(),
-          className: className.trim(),
-          medium: medium === "MALAYALAM" ? "MALAYALAM" : "ENGLISH",
-          parentMobile: cleanMobile,
-        },
-      });
-    } else {
-      user = await prisma.user.create({
-        data: {
-          name: name.trim(),
-          email: cleanEmail,
-          password: "candidate-token-access",
-          role: "STUDENT",
-          schoolName: schoolName.trim(),
-          className: className.trim(),
-          medium: medium === "MALAYALAM" ? "MALAYALAM" : "ENGLISH",
-          parentMobile: cleanMobile,
-        },
-      });
-    }
 
     // Find Master Exam
     let exam = await prisma.exam.findFirst({

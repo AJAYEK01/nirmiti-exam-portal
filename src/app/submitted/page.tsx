@@ -43,9 +43,9 @@ export default function ExamSubmittedPage() {
             <CheckCircle2 className="w-9 h-9" />
           </div>
 
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-200 text-xs font-bold">
-            <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" />
-            Response Verified & Securely Stored
+          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-50 text-blue-800 border border-blue-200 text-xs font-bold">
+            <ShieldCheck className="w-3.5 h-3.5 text-blue-600" />
+            NIRMITI 2026 — Verified &amp; Securely Stored
           </div>
 
           <h1 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
@@ -60,7 +60,7 @@ export default function ExamSubmittedPage() {
         <div className="p-5 rounded-2xl bg-amber-50/80 border border-amber-200/90 text-amber-950 space-y-2">
           <div className="flex items-center gap-2 font-bold text-xs sm:text-sm text-amber-900">
             <Lock className="w-4 h-4 text-amber-600 flex-shrink-0" />
-            <span>Strict Evaluation & Confidentiality Policy</span>
+            <span>Strict Evaluation &amp; Confidentiality Policy</span>
           </div>
           <p className="text-xs text-amber-900/90 leading-relaxed">
             In accordance with state examination rules, individual marks, scores, and answer keys are kept <b>strictly confidential</b> to guarantee complete competition fairness. <b>Scores and answers will not be displayed to candidates.</b>
@@ -94,16 +94,16 @@ export default function ExamSubmittedPage() {
             </div>
 
             <div>
-              <span className="text-slate-400 text-xs block font-medium">Class & Medium</span>
+              <span className="text-slate-400 text-xs block font-medium">Class &amp; Medium</span>
               <strong className="text-slate-900 font-bold">
                 {candidateData?.className || "Class 10"} ({candidateData?.medium || "ENGLISH"})
               </strong>
             </div>
 
             <div>
-              <span className="text-slate-400 text-xs block font-medium">Parent Contact Number</span>
+              <span className="text-slate-400 text-xs block font-medium">Candidate ID</span>
               <strong className="text-slate-900 font-bold font-mono">
-                {candidateData?.parentMobile ? `+91 ${candidateData.parentMobile}` : "Verified Mobile"}
+                {candidateData?.id ? candidateData.id.slice(0, 12).toUpperCase() : "VERIFIED"}
               </strong>
             </div>
 

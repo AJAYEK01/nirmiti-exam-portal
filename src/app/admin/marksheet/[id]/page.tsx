@@ -186,11 +186,14 @@ export default function AdminMarksheetPage() {
                   <Award className="w-5 h-5 text-amber-300" />
                 </div>
               </div>
+              <span className="text-amber-400 font-extrabold text-xs tracking-widest uppercase block">
+                NIRMITI 2026 — DISTRICT LEVEL STUDENTS HARDWARE HACKATHON
+              </span>
               <h1 className="text-xl sm:text-2xl font-black tracking-tight uppercase">
-                {exam.title}
+                Official Individual Performance Marksheet
               </h1>
               <p className="text-blue-200 text-xs font-semibold uppercase tracking-widest">
-                Official Individual Marksheet &amp; Performance Report
+                Evaluation &amp; Performance Audit Report
               </p>
               <div className="text-[11px] text-blue-300 font-mono">
                 Marksheet ID: {attempt.id.toUpperCase().slice(0, 16)}
@@ -235,8 +238,12 @@ export default function AdminMarksheetPage() {
               <div className="flex items-start gap-2.5">
                 <Phone className="w-4 h-4 text-blue-600 mt-0.5 flex-shrink-0" />
                 <div>
-                  <span className="text-[10px] text-slate-400 font-bold uppercase block">Parent Mobile</span>
-                  <span className="text-sm font-bold text-slate-900 font-mono">+91 {candidate.parentMobile}</span>
+                  <span className="text-[10px] text-slate-400 font-bold uppercase block">
+                    {candidate.parentMobile ? "Parent Mobile" : "Candidate Roll ID"}
+                  </span>
+                  <span className="text-sm font-bold text-slate-900 font-mono">
+                    {candidate.parentMobile ? `+91 ${candidate.parentMobile}` : attempt.id.slice(0, 10).toUpperCase()}
+                  </span>
                 </div>
               </div>
               <div className="flex items-start gap-2.5">

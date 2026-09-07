@@ -10,7 +10,6 @@ import {
   GraduationCap,
   ShieldCheck,
   Building2,
-  Phone,
   BookOpen,
   ArrowRight,
   User,
@@ -19,10 +18,10 @@ import {
   Lock,
   CalendarClock,
   AlertCircle,
-  FileCheck,
+  CheckCircle2,
 } from "lucide-react";
 import { POPULAR_SCHOOLS } from "@/lib/schools-data";
-import { MicrochipGraphic, CircuitBoardBg, HardwareSensorIcon, HardwareRoboticsIcon } from "@/components/HardwareGraphics";
+import { MicrochipGraphic, CircuitBoardBg, HardwareSensorIcon } from "@/components/HardwareGraphics";
 import { getExamWindowInfo, EXAM_WINDOW } from "@/lib/exam-window";
 import { TRANSLATIONS } from "@/lib/translations";
 
@@ -71,13 +70,12 @@ function CountdownTimer({ msUntilStart }: { msUntilStart: number }) {
 export default function HomePage() {
   const router = useRouter();
 
-  // Registration form state
+  // Registration form state (Name, School, Class, Medium)
   const [name, setName] = useState("");
   const [selectedSchool, setSelectedSchool] = useState("");
   const [customSchool, setCustomSchool] = useState("");
   const [className, setClassName] = useState("Class 10");
   const [medium, setMedium] = useState<"ENGLISH" | "MALAYALAM">("ENGLISH");
-  const [parentMobile, setParentMobile] = useState("");
 
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
@@ -134,15 +132,6 @@ export default function HomePage() {
       return;
     }
 
-    if (!parentMobile || !/^[6-9]\d{9}$/.test(parentMobile.trim())) {
-      setError(
-        medium === "MALAYALAM"
-          ? "സാധുവായ 10 അക്ക മൊബൈൽ നമ്പർ നൽകുക (6-9 ൽ ആരംഭിക്കുന്നത്)."
-          : "Please enter a valid 10-digit parent mobile number (starts with 6, 7, 8, or 9)."
-      );
-      return;
-    }
-
     setLoading(true);
 
     try {
@@ -154,7 +143,6 @@ export default function HomePage() {
           schoolName: finalSchool,
           className,
           medium,
-          parentMobile: parentMobile.trim(),
         }),
       });
 
@@ -187,9 +175,14 @@ export default function HomePage() {
               {t.hardwareTag}
             </div>
 
-            <h1 className="text-2xl sm:text-4xl md:text-5xl font-black tracking-tight leading-tight">
-              {t.portalTitle}
-            </h1>
+            <div className="space-y-1">
+              <span className="text-amber-400 font-extrabold text-sm sm:text-base uppercase tracking-widest block">
+                NIRMITI 2026
+              </span>
+              <h1 className="text-2xl sm:text-4xl md:text-5xl font-black tracking-tight leading-tight">
+                {t.portalTitle}
+              </h1>
+            </div>
 
             <p className="text-slate-300 text-sm sm:text-base max-w-2xl font-normal leading-relaxed">
               Test your knowledge with <b>25 randomly selected questions</b> from our 1,000-question repository. Total duration: <b>8 minutes</b>. Top 2 students from each school advance to the finals!
@@ -210,17 +203,34 @@ export default function HomePage() {
               </span>
             </div>
 
-            {isAdmin && (
-              <div className="pt-2">
+            {/* Direct Action Buttons: Demo Exam & Admin Portal */}
+            <div className="flex flex-wrap items-center gap-3 pt-3">
+              <Link
+                href="/demo"
+                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 text-white font-bold text-xs transition shadow-lg shadow-emerald-500/25"
+              >
+                <Sparkles className="w-4 h-4 text-amber-300" />
+                🧪 Try 25-Question Practice Demo Exam (English / മലയാളം)
+              </Link>
+
+              {isAdmin ? (
                 <Link
                   href="/admin"
                   className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-black text-xs transition shadow-lg shadow-amber-500/20"
                 >
                   <LayoutDashboard className="w-4 h-4" />
-                  Administrator Portal (View School Toppers &amp; Marksheets)
+                  Administrator Portal (View School Toppers)
                 </Link>
-              </div>
-            )}
+              ) : (
+                <Link
+                  href="/login"
+                  className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl bg-white/10 hover:bg-white/20 border border-white/20 text-white font-bold text-xs transition"
+                >
+                  <Lock className="w-3.5 h-3.5 text-blue-300" />
+                  Examiner / Admin Login
+                </Link>
+              )}
+            </div>
           </div>
 
           <div className="hidden md:block flex-shrink-0">
@@ -248,9 +258,15 @@ export default function HomePage() {
               </p>
             </div>
             <CountdownTimer msUntilStart={windowInfo.msUntilStart} />
-            <p className="text-xs text-slate-400">
-              Please return on September 9, 2026, at 10:00 AM IST to begin your 8-minute assessment.
-            </p>
+            <div className="pt-2">
+              <Link
+                href="/demo"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-2xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs sm:text-sm shadow-lg shadow-emerald-600/30 transition"
+              >
+                <Sparkles className="w-4 h-4 text-amber-300" />
+                Take Demo Practice Exam While Waiting
+              </Link>
+            </div>
           </div>
         </div>
       )}
@@ -265,7 +281,7 @@ export default function HomePage() {
             </div>
             <h2 className="text-2xl sm:text-3xl font-black">Examination Window Closed</h2>
             <p className="text-slate-300 text-sm max-w-lg mx-auto">
-              The State Level Online Talent Assessment 2026 examination window has concluded.
+              The NIRMITI 2026 examination window has concluded.
             </p>
             <p className="text-xs text-slate-400">
               All responses are safely locked. The Top 2 Finalists per school will be officially announced by the organizers.
@@ -327,18 +343,18 @@ export default function HomePage() {
                   </div>
                 </div>
 
-                <div className="flex items-start gap-3 p-3 rounded-2xl bg-rose-50/60 border border-rose-100">
-                  <Phone className="w-5 h-5 text-rose-600 flex-shrink-0 mt-0.5" />
+                <div className="flex items-start gap-3 p-3 rounded-2xl bg-teal-50/60 border border-teal-100">
+                  <Building2 className="w-5 h-5 text-teal-600 flex-shrink-0 mt-0.5" />
                   <div>
-                    <strong className="text-slate-900 block font-bold">10-Digit Mobile Required</strong>
-                    <span>Mandatory to link with candidate registration and notify winners.</span>
+                    <strong className="text-slate-900 block font-bold">Kannur District Schools</strong>
+                    <span>Open to all high school and higher secondary students representing institutions from Kannur District.</span>
                   </div>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* Right Column: Candidate Entry Form (7 cols) */}
+          {/* Right Column: Candidate Entry Form (7 cols) - NAME, SCHOOL, CLASS, MEDIUM ONLY */}
           <div className="lg:col-span-7">
             <div className="bg-white rounded-3xl border border-slate-200 p-6 sm:p-8 shadow-sm space-y-6">
               <div className="space-y-1">
@@ -373,7 +389,7 @@ export default function HomePage() {
                   />
                 </div>
 
-                {/* School Name Dropdown */}
+                {/* School Name Dropdown - 153 Kannur Schools */}
                 <div className="space-y-1">
                   <label className="text-xs font-bold text-slate-700 flex items-center gap-1.5">
                     <Building2 className="w-3.5 h-3.5 text-blue-600" />
@@ -385,7 +401,7 @@ export default function HomePage() {
                     onChange={(e) => setSelectedSchool(e.target.value)}
                     className="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-slate-50 focus:bg-white transition"
                   >
-                    <option value="">{t.selectSchool}</option>
+                    <option value="">-- Select Your School (Kannur District) --</option>
                     {POPULAR_SCHOOLS.map((school, i) => (
                       <option key={i} value={school}>
                         {school}
@@ -464,38 +480,6 @@ export default function HomePage() {
                   </div>
                 </div>
 
-                {/* Parent Mobile Number */}
-                <div className="space-y-1">
-                  <div className="flex items-center justify-between">
-                    <label className="text-xs font-bold text-slate-700 flex items-center gap-1.5">
-                      <Phone className="w-3.5 h-3.5 text-blue-600" />
-                      {t.parentMobile}
-                    </label>
-                    <span className="text-[11px] font-semibold text-slate-400">
-                      {t.parentMobileHint}
-                    </span>
-                  </div>
-                  <div className="relative">
-                    <span className="absolute left-3.5 top-2.5 text-xs font-bold text-slate-400">
-                      +91
-                    </span>
-                    <input
-                      type="tel"
-                      required
-                      maxLength={10}
-                      value={parentMobile}
-                      onChange={(e) => setParentMobile(e.target.value.replace(/\D/g, ""))}
-                      placeholder="9876543210"
-                      className="w-full pl-12 pr-4 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-slate-50 focus:bg-white font-mono tracking-wider transition"
-                    />
-                  </div>
-                  {parentMobile && parentMobile.length !== 10 && (
-                    <p className="text-[11px] text-amber-600 font-medium">
-                      Entered {parentMobile.length} of 10 digits
-                    </p>
-                  )}
-                </div>
-
                 {/* CTA Submit Button */}
                 <div className="pt-2">
                   <button
@@ -512,6 +496,19 @@ export default function HomePage() {
           </div>
         </div>
       )}
+
+      {/* Footer with Admin Access Link */}
+      <footer className="pt-8 border-t border-slate-200 text-center text-xs text-slate-400 space-y-2">
+        <p>
+          NIRMITI 2026 — DISTRICT LEVEL STUDENTS HARDWARE HACKATHON &nbsp;|&nbsp; Kannur District
+        </p>
+        <p>
+          Examiner / Administrator Access:{" "}
+          <Link href="/login" className="text-blue-600 hover:underline font-bold">
+            admin@exam.com (Sign In)
+          </Link>
+        </p>
+      </footer>
     </div>
   );
 }

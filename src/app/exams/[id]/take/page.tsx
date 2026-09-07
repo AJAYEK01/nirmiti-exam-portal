@@ -244,12 +244,46 @@ export default function TakeExamPage({ params }: { params: { id: string } }) {
       recordViolation(medium === "MALAYALAM" ? "വിൻഡോ ഫോക്കസ് നഷ്ടപ്പെട്ടു" : "Window lost focus");
     };
 
+    // Strict Anti-Malpractice: Disable right-click, copy, cut, paste, selection, and DevTools shortcuts
+    const blockSecurityEvent = (e: Event) => {
+      e.preventDefault();
+      return false;
+    };
+
+    const handleKeyDownSecurity = (e: KeyboardEvent) => {
+      const key = e.key ? e.key.toUpperCase() : "";
+      if (
+        key === "F12" ||
+        (e.ctrlKey && e.shiftKey && ["I", "J", "C"].includes(key)) ||
+        (e.ctrlKey && ["U", "C", "S", "P"].includes(key)) ||
+        (e.metaKey && ["U", "C", "S", "P"].includes(key))
+      ) {
+        e.preventDefault();
+        recordViolation(
+          medium === "MALAYALAM"
+            ? "അനധികൃത കീബോർഡ് പ്രവർത്തനം തടഞ്ഞു"
+            : "Unauthorized DevTools/Copy attempt blocked"
+        );
+        return false;
+      }
+    };
+
     window.addEventListener("blur", handleWindowBlur);
     document.addEventListener("visibilitychange", handleVisibilityChange);
+    document.addEventListener("contextmenu", blockSecurityEvent);
+    document.addEventListener("copy", blockSecurityEvent);
+    document.addEventListener("cut", blockSecurityEvent);
+    document.addEventListener("selectstart", blockSecurityEvent);
+    document.addEventListener("keydown", handleKeyDownSecurity);
 
     return () => {
       window.removeEventListener("blur", handleWindowBlur);
       document.removeEventListener("visibilitychange", handleVisibilityChange);
+      document.removeEventListener("contextmenu", blockSecurityEvent);
+      document.removeEventListener("copy", blockSecurityEvent);
+      document.removeEventListener("cut", blockSecurityEvent);
+      document.removeEventListener("selectstart", blockSecurityEvent);
+      document.removeEventListener("keydown", handleKeyDownSecurity);
     };
   }, [examStarted, handleFinalSubmit, medium, t]);
 
