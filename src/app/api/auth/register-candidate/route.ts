@@ -72,7 +72,17 @@ export async function POST(req: NextRequest) {
     const normInputRoll = normalize(trimmedRoll);
     const inputClassInfo = parseClassAndDiv(trimmedClass, division);
 
-    // Strict Malpractice Check: A student cannot enter the exam twice.
+    // Strict High School Eligibility Check (Classes 8, 9, 10 only)
+    if (!["8", "9", "10"].includes(inputClassInfo.standard)) {
+      return NextResponse.json(
+        {
+          error: isMalayalam
+            ? "ഈ പരീക്ഷ 8, 9, 10 ഹൈസ്കൂൾ വിദ്യാർത്ഥികൾക്ക് മാത്രമായി നിജപ്പെടുത്തിയിരിക്കുന്നു."
+            : "This competition is open strictly to High School students (Classes 8, 9, and 10 only). Higher secondary and other classes are not eligible.",
+        },
+        { status: 400 }
+      );
+    }
     // Query existing student candidates to verify identity by School + Class (8, 9, 10) + Division + Roll Number + Exact Name
     const existingCandidates = await prisma.user.findMany({
       where: {

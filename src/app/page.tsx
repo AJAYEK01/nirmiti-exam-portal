@@ -395,8 +395,8 @@ export default function HomePage() {
                 <div className="flex items-start gap-3 p-3 rounded-2xl bg-teal-50/60 border border-teal-100">
                   <Building2 className="w-5 h-5 text-teal-600 flex-shrink-0 mt-0.5" />
                   <div>
-                    <strong className="text-slate-900 block font-bold">Kannur District Schools</strong>
-                    <span>Open to all high school and higher secondary students representing institutions from Kannur District.</span>
+                    <strong className="text-slate-900 block font-bold">High School Students Only (Kannur District)</strong>
+                    <span>Open strictly to high school students (Classes 8, 9, and 10 only) representing institutions from Kannur District.</span>
                   </div>
                 </div>
               </div>
