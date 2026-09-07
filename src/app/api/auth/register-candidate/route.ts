@@ -23,7 +23,7 @@ export async function POST(req: NextRequest) {
       }
     }
 
-    const { name, schoolName, className, rollNumber, medium, parentMobile } = await req.json();
+    const { name, schoolName, className, division, rollNumber, medium, parentMobile } = await req.json();
 
     if (!name?.trim()) {
       return NextResponse.json({ error: "Candidate full name is required." }, { status: 400 });
@@ -51,13 +51,29 @@ export async function POST(req: NextRequest) {
     const normalize = (str: string) =>
       str.toLowerCase().replace(/[\s\.\-_,\(\)\[\]']/g, "");
 
+    // Helper to parse standard (8, 9, 10) and division (A, B, C...)
+    const parseClassAndDiv = (classStr: string, explicitDiv?: string) => {
+      const norm = normalize(classStr);
+      let standard = "";
+      if (norm.includes("10") || norm.includes("ten")) standard = "10";
+      else if (norm.includes("9") || norm.includes("nine")) standard = "9";
+      else if (norm.includes("8") || norm.includes("eight")) standard = "8";
+
+      let div = explicitDiv ? normalize(explicitDiv) : "";
+      if (!div) {
+        const match = classStr.match(/div\s*([a-z0-9]+)/i) || classStr.match(/-\s*([a-z0-9]+)$/i);
+        if (match) div = normalize(match[1]);
+      }
+      return { standard, div, norm };
+    };
+
     const normInputName = normalize(trimmedName);
     const normInputSchool = normalize(trimmedSchool);
     const normInputRoll = normalize(trimmedRoll);
-    const normInputClass = normalize(trimmedClass);
+    const inputClassInfo = parseClassAndDiv(trimmedClass, division);
 
     // Strict Malpractice Check: A student cannot enter the exam twice.
-    // Query existing student candidates to verify identity by School + Class + Roll Number + Exact Name
+    // Query existing student candidates to verify identity by School + Class (8, 9, 10) + Division + Roll Number + Exact Name
     const existingCandidates = await prisma.user.findMany({
       where: {
         role: "STUDENT",
@@ -73,7 +89,7 @@ export async function POST(req: NextRequest) {
       const candNormName = normalize(cand.name);
       const candNormSchool = normalize(cand.schoolName || "");
       const candNormRoll = normalize(cand.rollNumber || "");
-      const candNormClass = normalize(cand.className || "");
+      const candClassInfo = parseClassAndDiv(cand.className || "");
 
       // Match if school matches
       const schoolMatches =
@@ -83,20 +99,29 @@ export async function POST(req: NextRequest) {
 
       if (!schoolMatches) continue;
 
-      // Exact name match (prevents "yadhu" from blocking distinct students "yadhu a" or "yadhu a r")
-      const exactNameMatches = candNormName === normInputName;
-      // Exact roll number match within school class
-      const rollMatches = candNormRoll !== "" && normInputRoll !== "" && candNormRoll === normInputRoll;
-      // Class / Division match
-      const classMatches = candNormClass !== "" && normInputClass !== "" && candNormClass === normInputClass;
+      // CLASS (8, 9, or 10) CHECK:
+      // If candidates are in different classes (e.g. Class 8 vs Class 10), they are DIFFERENT students!
+      // In the same school, Class 8 Roll 5 and Class 10 Roll 5, or Class 8 Yadhu and Class 10 Yadhu,
+      // are completely different students. Do NOT block!
+      if (inputClassInfo.standard && candClassInfo.standard && inputClassInfo.standard !== candClassInfo.standard) {
+        continue;
+      }
 
-      // An attempt is identified as a duplicate submission if:
-      // 1. Same School + Same Class/Division + Same Roll Number (definitively same student)
-      // 2. Same School + Exact Same Full Name + Same Class/Division
-      // 3. Same School + Exact Same Full Name + Same Roll Number
+      // Exact name match
+      const exactNameMatches = candNormName === normInputName;
+      // Exact roll number match
+      const rollMatches = candNormRoll !== "" && normInputRoll !== "" && candNormRoll === normInputRoll;
+      // Division check: if both specify different divisions (e.g. Div A vs Div B), they are in different classrooms
+      const differentDivision =
+        inputClassInfo.div !== "" && candClassInfo.div !== "" && inputClassInfo.div !== candClassInfo.div;
+
+      // A candidate is considered a duplicate student ONLY within the same school and same grade (8, 9, or 10) if:
+      // 1. Same Standard + Same Division + Same Roll Number (definitively same student in that classroom)
+      // 2. Same Standard + Same Division + Exact Same Full Name
+      // 3. Same Standard + Exact Same Full Name + Same Roll Number
       const isDuplicateStudent =
-        (classMatches && rollMatches) ||
-        (exactNameMatches && classMatches) ||
+        (!differentDivision && rollMatches) ||
+        (!differentDivision && exactNameMatches) ||
         (exactNameMatches && rollMatches);
 
       if (isDuplicateStudent) {
