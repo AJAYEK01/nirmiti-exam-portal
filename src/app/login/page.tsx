@@ -43,35 +43,6 @@ export default function LoginPage() {
     }
   };
 
-  const handleQuickLogin = async (role: "ADMIN" | "STUDENT") => {
-    setError("");
-    setLoading(true);
-    try {
-      const res = await fetch("/api/auth/quick-login", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ role }),
-      });
-
-      const data = await res.json();
-      if (!res.ok) {
-        setError(data.error || "Quick login failed");
-        setLoading(false);
-        return;
-      }
-
-      if (data.user.role === "ADMIN") {
-        router.push("/admin");
-      } else {
-        router.push("/");
-      }
-      router.refresh();
-    } catch {
-      setError("Failed to sign in with quick credentials.");
-      setLoading(false);
-    }
-  };
-
   return (
     <div className="min-h-[85vh] flex items-center justify-center px-4 py-12">
       <div className="max-w-md w-full space-y-6">

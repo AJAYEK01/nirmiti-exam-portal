@@ -132,12 +132,20 @@ export default function AdminMarksheetPage() {
           <ShieldAlert className="w-12 h-12 text-rose-500 mx-auto" />
           <h2 className="text-lg font-black text-slate-900">Access Denied</h2>
           <p className="text-sm text-slate-600">{error}</p>
-          <Link
-            href="/admin"
-            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-slate-900 text-white text-sm font-bold"
-          >
-            <ArrowLeft className="w-4 h-4" /> Back to Admin
-          </Link>
+          <div className="flex items-center justify-center gap-3">
+            <Link
+              href="/login"
+              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-blue-600 text-white text-sm font-bold hover:bg-blue-700 transition"
+            >
+              Sign In as Examiner
+            </Link>
+            <Link
+              href="/"
+              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-slate-100 text-slate-700 text-sm font-bold hover:bg-slate-200 transition"
+            >
+              <ArrowLeft className="w-4 h-4" /> Exam Portal
+            </Link>
+          </div>
         </div>
       </div>
     );

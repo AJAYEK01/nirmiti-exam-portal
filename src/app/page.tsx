@@ -14,7 +14,6 @@ import {
   ArrowRight,
   User,
   Sparkles,
-  LayoutDashboard,
   Lock,
   CalendarClock,
   AlertCircle,
@@ -252,7 +251,7 @@ export default function HomePage() {
               </span>
             </div>
 
-            {/* Direct Action Buttons: Demo Exam & Admin Portal */}
+            {/* Direct Action Button: Demo Exam */}
             <div className="flex flex-wrap items-center gap-3 pt-3">
               <Link
                 href="/demo"
@@ -261,16 +260,6 @@ export default function HomePage() {
                 <Sparkles className="w-4 h-4 text-amber-300" />
                 Try 25-Question Practice Demo Exam (English / മലയാളം)
               </Link>
-
-              {isAdmin && (
-                <Link
-                  href="/admin"
-                  className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-black text-xs transition shadow-lg shadow-amber-500/20"
-                >
-                  <LayoutDashboard className="w-4 h-4" />
-                  Administrator Portal (View School Toppers)
-                </Link>
-              )}
             </div>
           </div>
 
@@ -336,15 +325,6 @@ export default function HomePage() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
           {/* Left Column: Exam Rules & Details (5 cols) */}
           <div className="lg:col-span-5 space-y-6">
-            {isAdmin && windowInfo.status !== "OPEN" && (
-              <div className="flex items-center gap-2 px-4 py-3 rounded-2xl bg-amber-50 border border-amber-200 text-amber-800 text-xs font-bold">
-                <AlertCircle className="w-4 h-4 text-amber-600 flex-shrink-0" />
-                <span>
-                  <b>Admin Bypass Active:</b> Testing allowed outside the scheduled window ({windowInfo.status}).
-                </span>
-              </div>
-            )}
-
             <div className="bg-white rounded-3xl border border-slate-200 p-6 sm:p-7 shadow-xs space-y-5">
               <h3 className="text-lg font-black text-slate-900 flex items-center gap-2">
                 <ShieldCheck className="w-5 h-5 text-blue-600" />

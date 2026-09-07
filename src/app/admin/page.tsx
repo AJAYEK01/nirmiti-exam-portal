@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 import Link from "next/link";
 import {
   LayoutDashboard,
@@ -26,6 +27,7 @@ import {
   Trash2,
   RefreshCw,
   Filter,
+  LogOut,
 } from "lucide-react";
 import { MicrochipGraphic, CircuitBoardBg, HardwareSensorIcon, HardwareRoboticsIcon } from "@/components/HardwareGraphics";
 
@@ -55,6 +57,8 @@ interface SchoolGroup {
 }
 
 export default function AdminDashboardPage() {
+  const router = useRouter();
+  const [authChecking, setAuthChecking] = useState(true);
   const [activeTab, setActiveTab] = useState<"toppers" | "submissions" | "questions">("toppers");
   const [schools, setSchools] = useState<SchoolGroup[]>([]);
   const [allFinalists, setAllFinalists] = useState<SchoolCandidate[]>([]);
@@ -146,10 +150,21 @@ export default function AdminDashboardPage() {
     }
   };
 
+  const handleAdminLogout = async () => {
+    try {
+      await fetch("/api/auth/logout", { method: "POST" });
+    } catch {}
+    router.replace("/login");
+  };
+
   const loadAdminData = async () => {
     setLoading(true);
     try {
       const res = await fetch("/api/admin/school-toppers");
+      if (res.status === 401 || res.status === 403) {
+        router.replace("/login?redirect=/admin");
+        return;
+      }
       const data = await res.json();
 
       if (data.schools) setSchools(data.schools);
@@ -187,8 +202,22 @@ export default function AdminDashboardPage() {
   };
 
   useEffect(() => {
-    loadAdminData();
-    fetchPortalStatus();
+    const checkAuthAndInit = async () => {
+      try {
+        const res = await fetch("/api/auth/me");
+        const data = await res.json();
+        if (!data.user || data.user.role !== "ADMIN") {
+          router.replace("/login?redirect=/admin");
+          return;
+        }
+        setAuthChecking(false);
+        loadAdminData();
+        fetchPortalStatus();
+      } catch {
+        router.replace("/login?redirect=/admin");
+      }
+    };
+    checkAuthAndInit();
   }, []);
 
   const formatSeconds = (sec: number) => {
@@ -300,6 +329,17 @@ export default function AdminDashboardPage() {
 
   const totalCandidates = schools.reduce((acc, curr) => acc + curr.totalCandidates, 0);
 
+  if (authChecking) {
+    return (
+      <div className="min-h-[70vh] flex items-center justify-center">
+        <div className="text-center space-y-3">
+          <div className="w-10 h-10 border-4 border-blue-600 border-t-transparent rounded-full animate-spin mx-auto" />
+          <p className="text-sm font-semibold text-slate-600">Verifying Examiner Credentials...</p>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-8">
       {/* Header Bar with Hardware Hackathon SVG Banner */}
@@ -335,6 +375,14 @@ export default function AdminDashboardPage() {
             >
               <Download className="w-4 h-4" />
               Export Top 2 per School (CSV)
+            </button>
+            <button
+              onClick={handleAdminLogout}
+              className="inline-flex items-center gap-2 bg-rose-600/80 hover:bg-rose-600 text-white text-xs sm:text-sm font-bold py-2.5 px-4 rounded-xl border border-rose-500/30 transition whitespace-nowrap"
+              title="Sign out of Examiner account to protect results on shared school laptops"
+            >
+              <LogOut className="w-4 h-4" />
+              Sign Out &amp; Lock
             </button>
           </div>
         </div>

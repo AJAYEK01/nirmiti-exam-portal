@@ -1,51 +1,20 @@
-import { NextRequest, NextResponse } from "next/server";
-import { prisma } from "@/lib/db";
-import { signToken } from "@/lib/auth";
+import { NextResponse } from "next/server";
 
-export async function POST(req: NextRequest) {
-  try {
-    const { role } = await req.json();
-    const targetEmail = role === "ADMIN" ? "admin@exam.com" : "student@exam.com";
+export async function POST() {
+  return NextResponse.json(
+    {
+      error:
+        "Quick login is permanently disabled for security. Please sign in using your official credentials.",
+    },
+    { status: 403 }
+  );
+}
 
-    const user = await prisma.user.findUnique({
-      where: { email: targetEmail },
-    });
-
-    if (!user) {
-      return NextResponse.json(
-        { error: `Default ${role} user not found. Please run seed script.` },
-        { status: 404 }
-      );
-    }
-
-    const userSession = {
-      id: user.id,
-      name: user.name,
-      email: user.email,
-      role: user.role as "STUDENT" | "ADMIN",
-    };
-
-    const token = signToken(userSession);
-
-    const response = NextResponse.json({
-      success: true,
-      user: userSession,
-    });
-
-    response.cookies.set("exam_token", token, {
-      httpOnly: true,
-      secure: process.env.NODE_ENV === "production",
-      sameSite: "lax",
-      maxAge: 7 * 24 * 60 * 60,
-      path: "/",
-    });
-
-    return response;
-  } catch (error) {
-    console.error("Quick login error:", error);
-    return NextResponse.json(
-      { error: "Quick login failed." },
-      { status: 500 }
-    );
-  }
+export async function GET() {
+  return NextResponse.json(
+    {
+      error: "Method not allowed.",
+    },
+    { status: 405 }
+  );
 }

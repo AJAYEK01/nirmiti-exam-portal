@@ -6,11 +6,9 @@ import { useRouter } from "next/navigation";
 import {
   GraduationCap,
   ShieldCheck,
-  User,
   LogOut,
   LayoutDashboard,
   FileText,
-  Sparkles,
 } from "lucide-react";
 
 export default function Navbar() {
@@ -42,33 +40,8 @@ export default function Navbar() {
   const handleLogout = async () => {
     await fetch("/api/auth/logout", { method: "POST" });
     setUser(null);
-    router.push("/");
+    router.push("/login");
     router.refresh();
-  };
-
-  const handleQuickLogin = async (role: "ADMIN" | "STUDENT") => {
-    setLoading(true);
-    try {
-      const res = await fetch("/api/auth/quick-login", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ role }),
-      });
-      if (res.ok) {
-        const data = await res.json();
-        setUser(data.user);
-        if (role === "ADMIN") {
-          router.push("/admin");
-        } else {
-          router.push("/");
-        }
-        router.refresh();
-      }
-    } catch (e) {
-      console.error(e);
-    } finally {
-      setLoading(false);
-    }
   };
 
   return (
@@ -99,7 +72,7 @@ export default function Navbar() {
             className="text-sm font-medium text-slate-600 hover:text-blue-600 flex items-center gap-1.5 transition"
           >
             <FileText className="w-4 h-4" />
-            Available Exams
+            Exam Portal
           </Link>
           {user?.role === "ADMIN" && (
             <Link
@@ -123,37 +96,17 @@ export default function Navbar() {
                   </p>
                   <p className="text-xs text-slate-500 flex items-center justify-end gap-1">
                     {user.role === "ADMIN" ? (
-                      <span className="inline-flex items-center text-amber-700 bg-amber-50 px-1.5 py-0.2 rounded text-[10px] font-bold border border-amber-200">
+                      <span className="inline-flex items-center text-amber-700 bg-amber-50 px-1.5 py-0.5 rounded text-[10px] font-bold border border-amber-200">
                         <ShieldCheck className="w-3 h-3 mr-0.5" /> ADMIN
                       </span>
                     ) : (
-                      <span className="inline-flex items-center text-emerald-700 bg-emerald-50 px-1.5 py-0.2 rounded text-[10px] font-bold border border-emerald-200">
+                      <span className="inline-flex items-center text-emerald-700 bg-emerald-50 px-1.5 py-0.5 rounded text-[10px] font-bold border border-emerald-200">
                         STUDENT
                       </span>
                     )}
                   </p>
                 </div>
               </div>
-
-              {user.role === "STUDENT" && (
-                <button
-                  onClick={() => handleQuickLogin("ADMIN")}
-                  className="hidden lg:inline-flex text-xs text-slate-600 hover:text-blue-600 bg-slate-100 hover:bg-slate-200 px-2.5 py-1.5 rounded-md font-medium transition"
-                  title="Switch to Admin Mode for full control"
-                >
-                  Switch to Admin
-                </button>
-              )}
-
-              {user.role === "ADMIN" && (
-                <button
-                  onClick={() => handleQuickLogin("STUDENT")}
-                  className="hidden lg:inline-flex text-xs text-slate-600 hover:text-blue-600 bg-slate-100 hover:bg-slate-200 px-2.5 py-1.5 rounded-md font-medium transition"
-                  title="Switch to Student Mode to take exams"
-                >
-                  Switch to Student
-                </button>
-              )}
 
               <button
                 onClick={handleLogout}
@@ -167,9 +120,9 @@ export default function Navbar() {
             <div className="flex items-center gap-2">
               <Link
                 href="/login"
-                className="text-sm font-semibold text-slate-700 hover:text-blue-600 px-3 py-2 rounded-lg hover:bg-slate-100 transition"
+                className="text-xs sm:text-sm font-semibold text-slate-700 hover:text-blue-600 px-3 py-2 rounded-lg hover:bg-slate-100 transition"
               >
-                Sign In
+                Examiner Login
               </Link>
             </div>
           ) : null}
