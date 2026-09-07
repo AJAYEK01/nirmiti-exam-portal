@@ -16,9 +16,57 @@ import {
   User,
   Sparkles,
   LayoutDashboard,
+  Lock,
+  CalendarClock,
+  AlertCircle,
   FileCheck,
 } from "lucide-react";
 import { POPULAR_SCHOOLS } from "@/lib/schools-data";
+import { MicrochipGraphic, CircuitBoardBg, HardwareSensorIcon, HardwareRoboticsIcon } from "@/components/HardwareGraphics";
+import { getExamWindowInfo, EXAM_WINDOW } from "@/lib/exam-window";
+import { TRANSLATIONS } from "@/lib/translations";
+
+// Live Countdown Timer component
+function CountdownTimer({ msUntilStart }: { msUntilStart: number }) {
+  const [remaining, setRemaining] = useState(msUntilStart);
+
+  useEffect(() => {
+    if (remaining <= 0) return;
+    const interval = setInterval(() => {
+      setRemaining((prev) => Math.max(0, prev - 1000));
+    }, 1000);
+    return () => clearInterval(interval);
+  }, [remaining]);
+
+  const totalSecs = Math.floor(remaining / 1000);
+  const days = Math.floor(totalSecs / 86400);
+  const hours = Math.floor((totalSecs % 86400) / 3600);
+  const mins = Math.floor((totalSecs % 3600) / 60);
+  const secs = totalSecs % 60;
+
+  const pad = (n: number) => n.toString().padStart(2, "0");
+
+  return (
+    <div className="flex items-center gap-3 justify-center flex-wrap">
+      {[
+        { label: "Days", value: days },
+        { label: "Hours", value: hours },
+        { label: "Mins", value: mins },
+        { label: "Secs", value: secs },
+      ].map(({ label, value }) => (
+        <div
+          key={label}
+          className="text-center bg-blue-900/60 backdrop-blur px-5 py-3 rounded-2xl border border-blue-500/30 min-w-[72px]"
+        >
+          <span className="text-3xl font-black text-white font-mono">{pad(value)}</span>
+          <span className="text-[10px] text-blue-300 font-bold block uppercase tracking-wider">
+            {label}
+          </span>
+        </div>
+      ))}
+    </div>
+  );
+}
 
 export default function HomePage() {
   const router = useRouter();
@@ -34,20 +82,32 @@ export default function HomePage() {
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
   const [user, setUser] = useState<any>(null);
+  const [windowInfo, setWindowInfo] = useState(getExamWindowInfo());
+
+  const t = medium === "MALAYALAM" ? TRANSLATIONS.ml : TRANSLATIONS.en;
 
   useEffect(() => {
     fetch("/api/auth/me")
       .then((r) => r.json())
       .then((d) => setUser(d.user))
       .catch(() => {});
+
+    // Check window status periodically
+    const interval = setInterval(() => {
+      setWindowInfo(getExamWindowInfo());
+    }, 15000);
+    return () => clearInterval(interval);
   }, []);
+
+  const isAdmin = user?.role === "ADMIN";
+  const canTakeExam = windowInfo.isOpen || isAdmin;
 
   const handleStartExam = async (e: React.FormEvent) => {
     e.preventDefault();
     setError("");
 
     if (!name.trim()) {
-      setError("Please enter your full name.");
+      setError(medium === "MALAYALAM" ? "പൂർണ്ണ നാമം നൽകുക." : "Please enter your full name.");
       return;
     }
 
@@ -57,12 +117,20 @@ export default function HomePage() {
         : selectedSchool.trim();
 
     if (!finalSchool) {
-      setError("Please select or enter your school name.");
+      setError(
+        medium === "MALAYALAM"
+          ? "സ്കൂളിന്റെ പേര് തിരഞ്ഞെടുക്കുകയോ രേഖപ്പെടുത്തുകയോ ചെയ്യുക."
+          : "Please select or enter your school name."
+      );
       return;
     }
 
     if (!parentMobile || !/^[6-9]\d{9}$/.test(parentMobile.trim())) {
-      setError("Please enter a valid 10-digit parent mobile number (starts with 6, 7, 8, or 9).");
+      setError(
+        medium === "MALAYALAM"
+          ? "സാധുവായ 10 അക്ക മൊബൈൽ നമ്പർ നൽകുക (6-9 ൽ ആരംഭിക്കുന്നത്)."
+          : "Please enter a valid 10-digit parent mobile number (starts with 6, 7, 8, or 9)."
+      );
       return;
     }
 
@@ -99,258 +167,342 @@ export default function HomePage() {
 
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8 md:py-12 space-y-10">
-      {/* Top Hero Banner */}
+      {/* Top Hero Banner with Hardware Hackathon Graphics */}
       <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-blue-900 via-indigo-950 to-slate-950 text-white p-6 sm:p-10 shadow-2xl border border-blue-800/40">
-        <div className="relative z-10 max-w-3xl space-y-4">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-500/20 text-blue-200 border border-blue-400/30 text-xs font-bold backdrop-blur-sm">
-            <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-            Official Online Talent Assessment 2026
+        <CircuitBoardBg className="absolute inset-0 w-full h-full opacity-40" />
+
+        <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+          <div className="max-w-3xl space-y-4">
+            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-500/20 text-blue-200 border border-blue-400/30 text-xs font-bold backdrop-blur-sm">
+              <Sparkles className="w-3.5 h-3.5 text-amber-400" />
+              {t.hardwareTag}
+            </div>
+
+            <h1 className="text-2xl sm:text-4xl md:text-5xl font-black tracking-tight leading-tight">
+              {t.portalTitle}
+            </h1>
+
+            <p className="text-slate-300 text-sm sm:text-base max-w-2xl font-normal leading-relaxed">
+              Test your knowledge with <b>25 randomly selected questions</b> from our 1,000-question repository. Total duration: <b>8 minutes</b>. Top 2 students from each school advance to the finals!
+            </p>
+
+            <div className="flex flex-wrap items-center gap-2 pt-1 text-xs">
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-blue-900/60 border border-blue-700/50 text-blue-200 font-semibold">
+                <Clock className="w-3.5 h-3.5 text-blue-400" />
+                {t.durationBadge}
+              </span>
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-indigo-900/60 border border-indigo-700/50 text-indigo-200 font-semibold">
+                <HelpCircle className="w-3.5 h-3.5 text-indigo-400" />
+                {t.questionsBadge}
+              </span>
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-emerald-900/60 border border-emerald-700/50 text-emerald-200 font-semibold">
+                <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
+                {t.autoSubmitBadge}
+              </span>
+            </div>
+
+            {isAdmin && (
+              <div className="pt-2">
+                <Link
+                  href="/admin"
+                  className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-black text-xs transition shadow-lg shadow-amber-500/20"
+                >
+                  <LayoutDashboard className="w-4 h-4" />
+                  Administrator Portal (View School Toppers &amp; Marksheets)
+                </Link>
+              </div>
+            )}
           </div>
 
-          <h1 className="text-2xl sm:text-4xl md:text-5xl font-black tracking-tight leading-tight">
-            Online Objective Examination
-          </h1>
-
-          <p className="text-slate-300 text-sm sm:text-base max-w-2xl font-normal leading-relaxed">
-            Test your knowledge with <b>25 randomly selected questions</b> from our 1,000-question repository. Total duration: <b>8 minutes</b>. Top 2 students from each school advance to the finals!
-          </p>
-
-          {user?.role === "ADMIN" && (
-            <div className="pt-2">
-              <Link
-                href="/admin"
-                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-black text-xs transition shadow-lg shadow-amber-500/20"
-              >
-                <LayoutDashboard className="w-4 h-4" />
-                Examiner Portal (View School Toppers)
-              </Link>
-            </div>
-          )}
+          <div className="hidden md:block flex-shrink-0">
+            <MicrochipGraphic className="w-28 h-28 opacity-85" />
+          </div>
         </div>
 
         {/* Ambient glow */}
         <div className="absolute -top-24 -right-24 w-96 h-96 bg-blue-500/20 rounded-full blur-3xl pointer-events-none" />
       </div>
 
-      {/* Grid: Instructions vs Registration Card */}
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-        {/* Left Column: Exam Rules & Details (5 cols) */}
-        <div className="lg:col-span-5 space-y-6">
-          <div className="bg-white rounded-3xl border border-slate-200 p-6 sm:p-7 shadow-xs space-y-5">
-            <h3 className="text-lg font-black text-slate-900 flex items-center gap-2">
-              <ShieldCheck className="w-5 h-5 text-blue-600" />
-              Examination Rules
-            </h3>
-
-            <div className="space-y-4 text-xs sm:text-sm text-slate-600">
-              <div className="flex items-start gap-3 p-3 rounded-2xl bg-blue-50/60 border border-blue-100">
-                <Clock className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
-                <div>
-                  <strong className="text-slate-900 block font-bold">Strict 8 Minutes Duration</strong>
-                  <span>The live countdown begins immediately upon entering the test. At 00:00, the test will automatically close and submit.</span>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-3 p-3 rounded-2xl bg-indigo-50/60 border border-indigo-100">
-                <HelpCircle className="w-5 h-5 text-indigo-600 flex-shrink-0 mt-0.5" />
-                <div>
-                  <strong className="text-slate-900 block font-bold">25 Randomized Questions</strong>
-                  <span>Each candidate receives 25 questions dynamically chosen from the 1,000-question bank with randomized option orders.</span>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-3 p-3 rounded-2xl bg-emerald-50/60 border border-emerald-100">
-                <Award className="w-5 h-5 text-emerald-600 flex-shrink-0 mt-0.5" />
-                <div>
-                  <strong className="text-slate-900 block font-bold">Top 2 per School Selection</strong>
-                  <span>Finalists are selected from each school based on <b>highest score achieved in the least completion time</b>.</span>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-3 p-3 rounded-2xl bg-amber-50/60 border border-amber-100">
-                <Phone className="w-5 h-5 text-amber-600 flex-shrink-0 mt-0.5" />
-                <div>
-                  <strong className="text-slate-900 block font-bold">Parent Mobile Number Required</strong>
-                  <span>A valid 10-digit mobile number is mandatory to identify your submission and notify selected toppers.</span>
-                </div>
-              </div>
+      {/* EXAM WINDOW: UPCOMING NOTICE */}
+      {windowInfo.status === "UPCOMING" && !isAdmin && (
+        <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-slate-900 to-indigo-950 text-white p-8 sm:p-12 text-center space-y-6 border border-indigo-800/40 shadow-2xl">
+          <CircuitBoardBg className="absolute inset-0 w-full h-full opacity-30" />
+          <div className="relative z-10 space-y-5">
+            <div className="w-16 h-16 rounded-3xl bg-blue-500/20 border border-blue-400/30 flex items-center justify-center mx-auto">
+              <CalendarClock className="w-8 h-8 text-blue-300" />
             </div>
-          </div>
-        </div>
-
-        {/* Right Column: Candidate Entry Form (7 cols) */}
-        <div className="lg:col-span-7">
-          <div className="bg-white rounded-3xl border border-slate-200 p-6 sm:p-8 shadow-sm space-y-6">
-            <div className="space-y-1">
-              <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
-                Candidate Registration
-              </h2>
-              <p className="text-xs text-slate-500">
-                Please enter your academic details to launch your online exam session.
+            <div>
+              <h2 className="text-2xl sm:text-3xl font-black mb-2">Examination Opens Soon!</h2>
+              <p className="text-blue-200 text-sm max-w-xl mx-auto">
+                The official examination portal will be accessible on{" "}
+                <b>September 9, 2026, from 10:00 AM to 10:00 PM IST</b> only.
               </p>
             </div>
+            <CountdownTimer msUntilStart={windowInfo.msUntilStart} />
+            <p className="text-xs text-slate-400">
+              Please return on September 9, 2026, at 10:00 AM IST to begin your 8-minute assessment.
+            </p>
+          </div>
+        </div>
+      )}
 
-            {error && (
-              <div className="p-3.5 rounded-2xl bg-rose-50 border border-rose-200 text-rose-700 text-xs font-semibold">
-                {error}
+      {/* EXAM WINDOW: CLOSED NOTICE */}
+      {windowInfo.status === "CLOSED" && !isAdmin && (
+        <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-slate-800 to-slate-900 text-white p-8 sm:p-12 text-center space-y-5 border border-slate-700 shadow-2xl">
+          <CircuitBoardBg className="absolute inset-0 w-full h-full opacity-20" />
+          <div className="relative z-10 space-y-4">
+            <div className="w-16 h-16 rounded-3xl bg-rose-500/20 border border-rose-400/30 flex items-center justify-center mx-auto">
+              <Lock className="w-8 h-8 text-rose-400" />
+            </div>
+            <h2 className="text-2xl sm:text-3xl font-black">Examination Window Closed</h2>
+            <p className="text-slate-300 text-sm max-w-lg mx-auto">
+              The State Level Online Talent Assessment 2026 examination window has concluded.
+            </p>
+            <p className="text-xs text-slate-400">
+              All responses are safely locked. The Top 2 Finalists per school will be officially announced by the organizers.
+            </p>
+          </div>
+        </div>
+      )}
+
+      {/* EXAM PORTAL ACTIVE OR ADMIN BYPASS */}
+      {canTakeExam && (
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+          {/* Left Column: Exam Rules & Details (5 cols) */}
+          <div className="lg:col-span-5 space-y-6">
+            {isAdmin && windowInfo.status !== "OPEN" && (
+              <div className="flex items-center gap-2 px-4 py-3 rounded-2xl bg-amber-50 border border-amber-200 text-amber-800 text-xs font-bold">
+                <AlertCircle className="w-4 h-4 text-amber-600 flex-shrink-0" />
+                <span>
+                  <b>Admin Bypass Active:</b> Testing allowed outside the scheduled window ({windowInfo.status}).
+                </span>
               </div>
             )}
 
-            <form onSubmit={handleStartExam} className="space-y-4">
-              {/* Full Name */}
-              <div className="space-y-1">
-                <label className="text-xs font-bold text-slate-700 flex items-center gap-1.5">
-                  <User className="w-3.5 h-3.5 text-blue-600" />
-                  Candidate Full Name *
-                </label>
-                <input
-                  type="text"
-                  required
-                  value={name}
-                  onChange={(e) => setName(e.target.value)}
-                  placeholder="e.g. Rahul S. Kumar"
-                  className="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-slate-50 focus:bg-white transition"
-                />
-              </div>
+            <div className="bg-white rounded-3xl border border-slate-200 p-6 sm:p-7 shadow-xs space-y-5">
+              <h3 className="text-lg font-black text-slate-900 flex items-center gap-2">
+                <ShieldCheck className="w-5 h-5 text-blue-600" />
+                {t.rulesTitle}
+              </h3>
 
-              {/* School Name Dropdown */}
-              <div className="space-y-1">
-                <label className="text-xs font-bold text-slate-700 flex items-center gap-1.5">
-                  <Building2 className="w-3.5 h-3.5 text-blue-600" />
-                  School Name *
-                </label>
-                <select
-                  required
-                  value={selectedSchool}
-                  onChange={(e) => setSelectedSchool(e.target.value)}
-                  className="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-slate-50 focus:bg-white transition"
-                >
-                  <option value="">-- Select Your School --</option>
-                  {POPULAR_SCHOOLS.map((school, i) => (
-                    <option key={i} value={school}>
-                      {school}
-                    </option>
-                  ))}
-                  <option value="OTHER">✍️ Other / School Not Listed Above (Type Below)</option>
-                </select>
-
-                {/* Custom School Input if "OTHER" selected */}
-                {selectedSchool === "OTHER" && (
-                  <div className="pt-2 animate-in fade-in">
-                    <input
-                      type="text"
-                      required
-                      value={customSchool}
-                      onChange={(e) => setCustomSchool(e.target.value)}
-                      placeholder="Type Full Official Name of Your School here..."
-                      className="w-full px-4 py-2.5 rounded-xl border-2 border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-600 text-sm bg-white"
-                    />
+              <div className="space-y-4 text-xs sm:text-sm text-slate-600">
+                <div className="flex items-start gap-3 p-3 rounded-2xl bg-blue-50/60 border border-blue-100">
+                  <Clock className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                  <div>
+                    <strong className="text-slate-900 block font-bold">{t.rule1Title}</strong>
+                    <span>{t.rule1Desc}</span>
                   </div>
-                )}
-              </div>
-
-              {/* Class & Medium in 2 columns */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {/* Class / Standard */}
-                <div className="space-y-1">
-                  <label className="text-xs font-bold text-slate-700 flex items-center gap-1.5">
-                    <GraduationCap className="w-3.5 h-3.5 text-blue-600" />
-                    Class / Standard *
-                  </label>
-                  <select
-                    value={className}
-                    onChange={(e) => setClassName(e.target.value)}
-                    className="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-slate-50 focus:bg-white transition"
-                  >
-                    <option value="Class 7">Class 7</option>
-                    <option value="Class 8">Class 8</option>
-                    <option value="Class 9">Class 9</option>
-                    <option value="Class 10">Class 10</option>
-                    <option value="Class 11">Class 11</option>
-                    <option value="Class 12">Class 12</option>
-                  </select>
                 </div>
 
-                {/* Medium of Exam */}
-                <div className="space-y-1">
-                  <label className="text-xs font-bold text-slate-700 flex items-center gap-1.5">
-                    <BookOpen className="w-3.5 h-3.5 text-blue-600" />
-                    Medium of Exam *
-                  </label>
-                  <div className="grid grid-cols-2 gap-2 pt-0.5">
-                    <button
-                      type="button"
-                      onClick={() => setMedium("ENGLISH")}
-                      className={`py-2 px-3 rounded-xl border text-xs font-bold transition ${
-                        medium === "ENGLISH"
-                          ? "bg-blue-600 text-white border-blue-600 shadow-xs"
-                          : "bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100"
-                      }`}
-                    >
-                      English
-                    </button>
-                    <button
-                      type="button"
-                      onClick={() => setMedium("MALAYALAM")}
-                      className={`py-2 px-3 rounded-xl border text-xs font-bold transition ${
-                        medium === "MALAYALAM"
-                          ? "bg-blue-600 text-white border-blue-600 shadow-xs"
-                          : "bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100"
-                      }`}
-                    >
-                      മലയാളം
-                    </button>
+                <div className="flex items-start gap-3 p-3 rounded-2xl bg-indigo-50/60 border border-indigo-100">
+                  <HelpCircle className="w-5 h-5 text-indigo-600 flex-shrink-0 mt-0.5" />
+                  <div>
+                    <strong className="text-slate-900 block font-bold">{t.rule2Title}</strong>
+                    <span>{t.rule2Desc}</span>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3 p-3 rounded-2xl bg-emerald-50/60 border border-emerald-100">
+                  <Award className="w-5 h-5 text-emerald-600 flex-shrink-0 mt-0.5" />
+                  <div>
+                    <strong className="text-slate-900 block font-bold">{t.rule3Title}</strong>
+                    <span>{t.rule3Desc}</span>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3 p-3 rounded-2xl bg-amber-50/60 border border-amber-100">
+                  <Lock className="w-5 h-5 text-amber-600 flex-shrink-0 mt-0.5" />
+                  <div>
+                    <strong className="text-slate-900 block font-bold">{t.rule4Title}</strong>
+                    <span>{t.rule4Desc}</span>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3 p-3 rounded-2xl bg-rose-50/60 border border-rose-100">
+                  <Phone className="w-5 h-5 text-rose-600 flex-shrink-0 mt-0.5" />
+                  <div>
+                    <strong className="text-slate-900 block font-bold">10-Digit Mobile Required</strong>
+                    <span>Mandatory to link with candidate registration and notify winners.</span>
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
 
-              {/* Parent Mobile Number */}
+          {/* Right Column: Candidate Entry Form (7 cols) */}
+          <div className="lg:col-span-7">
+            <div className="bg-white rounded-3xl border border-slate-200 p-6 sm:p-8 shadow-sm space-y-6">
               <div className="space-y-1">
-                <div className="flex items-center justify-between">
-                  <label className="text-xs font-bold text-slate-700 flex items-center gap-1.5">
-                    <Phone className="w-3.5 h-3.5 text-blue-600" />
-                    Parent Mobile Number *
-                  </label>
-                  <span className="text-[11px] font-semibold text-slate-400">
-                    Must be exactly 10 digits
-                  </span>
+                <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
+                  {t.regTitle}
+                </h2>
+                <p className="text-xs text-slate-500">
+                  {t.regSubtitle}
+                </p>
+              </div>
+
+              {error && (
+                <div className="p-3.5 rounded-2xl bg-rose-50 border border-rose-200 text-rose-700 text-xs font-semibold">
+                  {error}
                 </div>
-                <div className="relative">
-                  <span className="absolute left-3.5 top-2.5 text-xs font-bold text-slate-400">
-                    +91
-                  </span>
+              )}
+
+              <form onSubmit={handleStartExam} className="space-y-4">
+                {/* Full Name */}
+                <div className="space-y-1">
+                  <label className="text-xs font-bold text-slate-700 flex items-center gap-1.5">
+                    <User className="w-3.5 h-3.5 text-blue-600" />
+                    {t.fullName}
+                  </label>
                   <input
-                    type="tel"
+                    type="text"
                     required
-                    maxLength={10}
-                    value={parentMobile}
-                    onChange={(e) => setParentMobile(e.target.value.replace(/\D/g, ""))}
-                    placeholder="9876543210"
-                    className="w-full pl-12 pr-4 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-slate-50 focus:bg-white font-mono tracking-wider transition"
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
+                    placeholder={t.fullNamePlaceholder}
+                    className="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-slate-50 focus:bg-white transition"
                   />
                 </div>
-                {parentMobile && parentMobile.length !== 10 && (
-                  <p className="text-[11px] text-amber-600 font-medium">
-                    Entered {parentMobile.length} of 10 digits
-                  </p>
-                )}
-              </div>
 
-              {/* CTA Submit Button */}
-              <div className="pt-2">
-                <button
-                  type="submit"
-                  disabled={loading}
-                  className="w-full inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm sm:text-base py-3.5 px-6 rounded-2xl shadow-lg shadow-blue-600/25 transition disabled:opacity-50"
-                >
-                  {loading ? "Preparing 25 Questions..." : "Begin 8-Minute Examination"}
-                  <ArrowRight className="w-4 h-4" />
-                </button>
-              </div>
-            </form>
+                {/* School Name Dropdown */}
+                <div className="space-y-1">
+                  <label className="text-xs font-bold text-slate-700 flex items-center gap-1.5">
+                    <Building2 className="w-3.5 h-3.5 text-blue-600" />
+                    {t.schoolName}
+                  </label>
+                  <select
+                    required
+                    value={selectedSchool}
+                    onChange={(e) => setSelectedSchool(e.target.value)}
+                    className="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-slate-50 focus:bg-white transition"
+                  >
+                    <option value="">{t.selectSchool}</option>
+                    {POPULAR_SCHOOLS.map((school, i) => (
+                      <option key={i} value={school}>
+                        {school}
+                      </option>
+                    ))}
+                    <option value="OTHER">{t.otherSchoolOption}</option>
+                  </select>
+
+                  {/* Custom School Input if "OTHER" selected */}
+                  {selectedSchool === "OTHER" && (
+                    <div className="pt-2">
+                      <input
+                        type="text"
+                        required
+                        value={customSchool}
+                        onChange={(e) => setCustomSchool(e.target.value)}
+                        placeholder={t.customSchoolPlaceholder}
+                        className="w-full px-4 py-2.5 rounded-xl border-2 border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-600 text-sm bg-white"
+                      />
+                    </div>
+                  )}
+                </div>
+
+                {/* Class & Medium in 2 columns */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  {/* Class / Standard */}
+                  <div className="space-y-1">
+                    <label className="text-xs font-bold text-slate-700 flex items-center gap-1.5">
+                      <GraduationCap className="w-3.5 h-3.5 text-blue-600" />
+                      {t.classGrade}
+                    </label>
+                    <select
+                      value={className}
+                      onChange={(e) => setClassName(e.target.value)}
+                      className="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-slate-50 focus:bg-white transition"
+                    >
+                      <option value="Class 7">Class 7</option>
+                      <option value="Class 8">Class 8</option>
+                      <option value="Class 9">Class 9</option>
+                      <option value="Class 10">Class 10</option>
+                      <option value="Class 11">Class 11</option>
+                      <option value="Class 12">Class 12</option>
+                    </select>
+                  </div>
+
+                  {/* Medium of Exam */}
+                  <div className="space-y-1">
+                    <label className="text-xs font-bold text-slate-700 flex items-center gap-1.5">
+                      <BookOpen className="w-3.5 h-3.5 text-blue-600" />
+                      {t.mediumLabel}
+                    </label>
+                    <div className="grid grid-cols-2 gap-2 pt-0.5">
+                      <button
+                        type="button"
+                        onClick={() => setMedium("ENGLISH")}
+                        className={`py-2 px-3 rounded-xl border text-xs font-bold transition ${
+                          medium === "ENGLISH"
+                            ? "bg-blue-600 text-white border-blue-600 shadow-xs"
+                            : "bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100"
+                        }`}
+                      >
+                        {t.englishMedium}
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => setMedium("MALAYALAM")}
+                        className={`py-2 px-3 rounded-xl border text-xs font-bold transition ${
+                          medium === "MALAYALAM"
+                            ? "bg-blue-600 text-white border-blue-600 shadow-xs"
+                            : "bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100"
+                        }`}
+                      >
+                        {t.malayalamMedium}
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Parent Mobile Number */}
+                <div className="space-y-1">
+                  <div className="flex items-center justify-between">
+                    <label className="text-xs font-bold text-slate-700 flex items-center gap-1.5">
+                      <Phone className="w-3.5 h-3.5 text-blue-600" />
+                      {t.parentMobile}
+                    </label>
+                    <span className="text-[11px] font-semibold text-slate-400">
+                      {t.parentMobileHint}
+                    </span>
+                  </div>
+                  <div className="relative">
+                    <span className="absolute left-3.5 top-2.5 text-xs font-bold text-slate-400">
+                      +91
+                    </span>
+                    <input
+                      type="tel"
+                      required
+                      maxLength={10}
+                      value={parentMobile}
+                      onChange={(e) => setParentMobile(e.target.value.replace(/\D/g, ""))}
+                      placeholder="9876543210"
+                      className="w-full pl-12 pr-4 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-slate-50 focus:bg-white font-mono tracking-wider transition"
+                    />
+                  </div>
+                  {parentMobile && parentMobile.length !== 10 && (
+                    <p className="text-[11px] text-amber-600 font-medium">
+                      Entered {parentMobile.length} of 10 digits
+                    </p>
+                  )}
+                </div>
+
+                {/* CTA Submit Button */}
+                <div className="pt-2">
+                  <button
+                    type="submit"
+                    disabled={loading}
+                    className="w-full inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm sm:text-base py-3.5 px-6 rounded-2xl shadow-lg shadow-blue-600/25 transition disabled:opacity-50"
+                  >
+                    {loading ? t.preparingExam : t.startExamBtn}
+                    <ArrowRight className="w-4 h-4" />
+                  </button>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
-      </div>
+      )}
     </div>
   );
 }

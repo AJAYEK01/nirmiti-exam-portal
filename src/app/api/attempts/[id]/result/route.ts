@@ -1,11 +1,22 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/db";
+import { getSession } from "@/lib/auth";
 
 export async function GET(
   req: NextRequest,
   { params }: { params: { id: string } }
 ) {
   try {
+    const session = await getSession();
+    if (!session || session.role !== "ADMIN") {
+      return NextResponse.json(
+        {
+          error: "Strict Confidentiality: Detailed scorecards and answer keys are confidential and restricted to authorized administrators.",
+          confidential: true,
+        },
+        { status: 403 }
+      );
+    }
     const attempt = await prisma.attempt.findUnique({
       where: { id: params.id },
       include: {

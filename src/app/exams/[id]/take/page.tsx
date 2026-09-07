@@ -75,7 +75,7 @@ export default function TakeExamPage({ params }: { params: { id: string } }) {
 
       if (data.expired) {
         alert("The allocated duration for this attempt has expired.");
-        router.push(`/results/${data.attemptId}`);
+        router.push(`/submitted?attemptId=${data.attemptId}`);
         return;
       }
 
@@ -154,7 +154,7 @@ export default function TakeExamPage({ params }: { params: { id: string } }) {
         if (document.fullscreenElement) {
           document.exitFullscreen().catch(() => {});
         }
-        router.push(`/results/${data.attemptId}`);
+        router.push(`/submitted?attemptId=${data.attemptId}`);
       } else {
         alert("Submission failed. Retrying...");
         setSubmitting(false);

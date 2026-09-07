@@ -368,10 +368,10 @@ export default function AdminDashboardPage() {
                             </div>
 
                             <Link
-                              href={`/results/${candidate.attemptId}`}
+                              href={`/admin/marksheet/${candidate.attemptId}`}
                               className="text-[11px] font-bold text-blue-600 hover:underline flex items-center gap-0.5"
                             >
-                              Response Sheet <ArrowUpRight className="w-3 h-3" />
+                              Print Marksheet <ArrowUpRight className="w-3 h-3" />
                             </Link>
                           </div>
 
@@ -460,10 +460,10 @@ export default function AdminDashboardPage() {
                                 </td>
                                 <td className="p-2.5 text-right">
                                   <Link
-                                    href={`/results/${c.attemptId}`}
+                                    href={`/admin/marksheet/${c.attemptId}`}
                                     className="text-blue-600 hover:underline font-bold"
                                   >
-                                    Review
+                                    Marksheet
                                   </Link>
                                 </td>
                               </tr>
@@ -532,10 +532,10 @@ export default function AdminDashboardPage() {
                       </td>
                       <td className="p-4 text-right">
                         <Link
-                          href={`/results/${sub.attemptId}`}
+                          href={`/admin/marksheet/${sub.attemptId}`}
                           className="inline-flex items-center gap-1 text-xs font-bold text-blue-600 hover:text-blue-800 bg-blue-50 px-2.5 py-1.5 rounded-lg border border-blue-200"
                         >
-                          View <ArrowUpRight className="w-3 h-3" />
+                          Marksheet <ArrowUpRight className="w-3 h-3" />
                         </Link>
                       </td>
                     </tr>
