@@ -114,43 +114,31 @@ export async function POST(
         );
       }
 
-      // Identify challenging questions vs standard (easy/medium) questions
-      // Challenging: calculations, multi-step circuits, Ohm's law formulas, IC pinouts, advanced electronics
-      const isChallenging = (q: { text: string; orderIndex: number }) => {
-        const txt = q.text.toLowerCase();
-        return (
-          txt.includes("calculate") ||
-          txt.includes("ohm's law") ||
-          txt.includes("ohms law") ||
-          txt.includes("formula") ||
-          txt.includes("h-bridge") ||
-          txt.includes("esp32") ||
-          txt.includes("duty cycle") ||
-          txt.includes("impedance") ||
-          txt.includes("resistors in series") ||
-          txt.includes("resistors in parallel") ||
-          txt.includes("truth table") ||
-          txt.includes("microcontroller") ||
-          txt.includes("atmega") ||
-          (q.orderIndex >= 20 && q.orderIndex <= 25)
-        );
-      };
+      // Segregate into Easy (Q1-500), Medium (Q501-900), and Challenging (Q901-1000)
+      const isChallenging = (q: { orderIndex: number }) => q.orderIndex >= 901 && q.orderIndex <= 1000;
+      const isEasy = (q: { orderIndex: number }) => q.orderIndex >= 1 && q.orderIndex <= 500;
+      const isMedium = (q: { orderIndex: number }) => q.orderIndex > 500 && q.orderIndex <= 900;
 
       const challengingPool = allQuestions.filter(isChallenging);
-      const standardPool = allQuestions.filter((q) => !isChallenging(q));
+      const easyPool = allQuestions.filter(isEasy);
+      const mediumPool = allQuestions.filter(isMedium);
 
-      // Pick exactly 2 or 3 challenging questions (randomized between 2 and 3)
+      // Pick exactly 2 or 3 challenging questions (topper selectors, ~10% of 25)
       const targetChallengingCount = Math.min(
         challengingPool.length,
         Math.random() < 0.5 ? 2 : 3
       );
-      const targetStandardCount = 25 - targetChallengingCount;
+      // Pick 12 or 13 easy questions (~50% of 25)
+      const targetEasyCount = targetChallengingCount === 2 ? 13 : 12;
+      // Pick 10 medium questions (~40% of 25)
+      const targetMediumCount = 25 - (targetChallengingCount + targetEasyCount);
 
       const shuffledChallenging = shuffleArray(challengingPool).slice(0, targetChallengingCount);
-      const shuffledStandard = shuffleArray(standardPool).slice(0, targetStandardCount);
+      const shuffledEasy = shuffleArray(easyPool).slice(0, targetEasyCount);
+      const shuffledMedium = shuffleArray(mediumPool).slice(0, targetMediumCount);
 
-      // Combine and shuffle the overall question order so challenging ones appear naturally
-      const selectedPool = shuffleArray([...shuffledChallenging, ...shuffledStandard]);
+      // Combine and shuffle the overall question order so questions appear in a natural flow
+      const selectedPool = shuffleArray([...shuffledChallenging, ...shuffledEasy, ...shuffledMedium]);
       selectedQuestionIds = selectedPool.map((q) => q.id);
 
       // Generate option shuffle mapping for each question: [0, 1, 2, 3] -> randomized order
@@ -212,8 +200,9 @@ export async function POST(
       const orderPermutation = optionsOrderMap[q.id] || [0, 1, 2, 3];
       const shuffledOptions = orderPermutation.map((origIdx) => rawOptions[origIdx] ?? "");
 
-      // Malayalam translation lookup
-      const mlData = (questionsMl as Record<string, { text: string; options: string[] }>)[q.id];
+      // Malayalam translation lookup: by q.id or orderIndex fallback
+      const mlData = (questionsMl as Record<string, { text: string; options: string[] }>)[q.id]
+        || (questionsMl as Record<string, { text: string; options: string[] }>)[String(q.orderIndex)];
       const shuffledOptionsMl = mlData && Array.isArray(mlData.options)
         ? orderPermutation.map((origIdx) => mlData.options[origIdx] ?? rawOptions[origIdx] ?? "")
         : undefined;

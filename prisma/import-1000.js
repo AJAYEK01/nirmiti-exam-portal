@@ -120,6 +120,28 @@ async function importQuestions() {
   });
 
   console.log(`✅ Successfully imported ${finalCount} questions into exam ID: ${masterExam.id}`);
+
+  // Link newly generated database question IDs in questions-ml.json
+  const insertedQuestions = await prisma.question.findMany({
+    where: { examId: masterExam.id },
+    select: { id: true, orderIndex: true },
+  });
+
+  const mlPath = path.join(__dirname, "..", "src", "lib", "questions-ml.json");
+  let mlData = {};
+  try {
+    mlData = JSON.parse(fs.readFileSync(mlPath, "utf8"));
+  } catch (e) {}
+
+  insertedQuestions.forEach((q) => {
+    const byIndex = mlData[String(q.orderIndex)];
+    if (byIndex) {
+      mlData[q.id] = byIndex;
+    }
+  });
+
+  fs.writeFileSync(mlPath, JSON.stringify(mlData, null, 2), "utf8");
+  console.log(`✅ Synced ${insertedQuestions.length} database IDs with Malayalam translations.`);
 }
 
 importQuestions()

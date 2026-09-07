@@ -107,8 +107,9 @@ export async function GET(
         status = "incorrect";
       }
 
-      // Malayalam translation lookup
-      const mlData = (questionsMl as Record<string, { text: string; options: string[] }>)[q.id];
+      // Malayalam translation lookup: by q.id or orderIndex fallback
+      const mlData = (questionsMl as Record<string, { text: string; options: string[] }>)[q.id]
+        || (questionsMl as Record<string, { text: string; options: string[] }>)[String(q.orderIndex)];
       const displayedOptionsMl = mlData && Array.isArray(mlData.options)
         ? orderPermutation.map((origIdx) => mlData.options[origIdx] ?? rawOptions[origIdx] ?? "")
         : undefined;
