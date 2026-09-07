@@ -83,7 +83,7 @@ export async function POST(
     if (!attempt || selectedQuestionIds.length === 0) {
       const allQuestions = await prisma.question.findMany({
         where: { examId: exam.id },
-        select: { id: true },
+        select: { id: true, text: true, orderIndex: true },
       });
 
       if (allQuestions.length === 0) {
@@ -93,10 +93,44 @@ export async function POST(
         );
       }
 
-      // Sample 25 random questions
-      const shuffledAll = shuffleArray(allQuestions);
-      const targetCount = Math.min(25, shuffledAll.length);
-      selectedQuestionIds = shuffledAll.slice(0, targetCount).map((q) => q.id);
+      // Identify challenging questions vs standard (easy/medium) questions
+      // Challenging: calculations, multi-step circuits, Ohm's law formulas, IC pinouts, advanced electronics
+      const isChallenging = (q: { text: string; orderIndex: number }) => {
+        const txt = q.text.toLowerCase();
+        return (
+          txt.includes("calculate") ||
+          txt.includes("ohm's law") ||
+          txt.includes("ohms law") ||
+          txt.includes("formula") ||
+          txt.includes("h-bridge") ||
+          txt.includes("esp32") ||
+          txt.includes("duty cycle") ||
+          txt.includes("impedance") ||
+          txt.includes("resistors in series") ||
+          txt.includes("resistors in parallel") ||
+          txt.includes("truth table") ||
+          txt.includes("microcontroller") ||
+          txt.includes("atmega") ||
+          (q.orderIndex >= 20 && q.orderIndex <= 25)
+        );
+      };
+
+      const challengingPool = allQuestions.filter(isChallenging);
+      const standardPool = allQuestions.filter((q) => !isChallenging(q));
+
+      // Pick exactly 2 or 3 challenging questions (randomized between 2 and 3)
+      const targetChallengingCount = Math.min(
+        challengingPool.length,
+        Math.random() < 0.5 ? 2 : 3
+      );
+      const targetStandardCount = 25 - targetChallengingCount;
+
+      const shuffledChallenging = shuffleArray(challengingPool).slice(0, targetChallengingCount);
+      const shuffledStandard = shuffleArray(standardPool).slice(0, targetStandardCount);
+
+      // Combine and shuffle the overall question order so challenging ones appear naturally
+      const selectedPool = shuffleArray([...shuffledChallenging, ...shuffledStandard]);
+      selectedQuestionIds = selectedPool.map((q) => q.id);
 
       // Generate option shuffle mapping for each question: [0, 1, 2, 3] -> randomized order
       optionsOrderMap = {};

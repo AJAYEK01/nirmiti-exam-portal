@@ -86,7 +86,8 @@ export default function HomePage() {
   const [name, setName] = useState("");
   const [selectedSchool, setSelectedSchool] = useState("");
   const [customSchool, setCustomSchool] = useState("");
-  const [className, setClassName] = useState("Class 10");
+  const [className, setClassName] = useState("Class 8");
+  const [division, setDivision] = useState("A");
   const [medium, setMedium] = useState<"ENGLISH" | "MALAYALAM">("ENGLISH");
 
   const [error, setError] = useState("");
@@ -153,7 +154,8 @@ export default function HomePage() {
         body: JSON.stringify({
           name: name.trim(),
           schoolName: finalSchool,
-          className,
+          className: `${className} - Div ${division}`,
+          division,
           medium,
         }),
       });
@@ -225,21 +227,13 @@ export default function HomePage() {
                 Try 25-Question Practice Demo Exam (English / മലയാളം)
               </Link>
 
-              {isAdmin ? (
+              {isAdmin && (
                 <Link
                   href="/admin"
                   className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-black text-xs transition shadow-lg shadow-amber-500/20"
                 >
                   <LayoutDashboard className="w-4 h-4" />
                   Administrator Portal (View School Toppers)
-                </Link>
-              ) : (
-                <Link
-                  href="/login"
-                  className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl bg-white/10 hover:bg-white/20 border border-white/20 text-white font-bold text-xs transition"
-                >
-                  <Lock className="w-3.5 h-3.5 text-blue-300" />
-                  Examiner / Admin Login
                 </Link>
               )}
             </div>
@@ -437,10 +431,10 @@ export default function HomePage() {
                   )}
                 </div>
 
-                {/* Class & Medium in 2 columns */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  {/* Class / Standard */}
-                  <div className="space-y-1">
+                {/* Class, Division & Medium in responsive grid */}
+                <div className="grid grid-cols-1 sm:grid-cols-12 gap-4">
+                  {/* Class / Standard (8, 9, 10 only) */}
+                  <div className="sm:col-span-4 space-y-1">
                     <label className="text-xs font-bold text-slate-700 flex items-center gap-1.5">
                       <GraduationCap className="w-3.5 h-3.5 text-blue-600" />
                       {t.classGrade}
@@ -448,19 +442,35 @@ export default function HomePage() {
                     <select
                       value={className}
                       onChange={(e) => setClassName(e.target.value)}
-                      className="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-slate-50 focus:bg-white transition"
+                      className="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-slate-50 focus:bg-white transition font-medium"
                     >
-                      <option value="Class 7">Class 7</option>
                       <option value="Class 8">Class 8</option>
                       <option value="Class 9">Class 9</option>
                       <option value="Class 10">Class 10</option>
-                      <option value="Class 11">Class 11</option>
-                      <option value="Class 12">Class 12</option>
+                    </select>
+                  </div>
+
+                  {/* Division (A, B, C, D, E, F, G, H) */}
+                  <div className="sm:col-span-3 space-y-1">
+                    <label className="text-xs font-bold text-slate-700 flex items-center gap-1.5">
+                      <Building2 className="w-3.5 h-3.5 text-blue-600" />
+                      {t.divisionLabel}
+                    </label>
+                    <select
+                      value={division}
+                      onChange={(e) => setDivision(e.target.value)}
+                      className="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-slate-50 focus:bg-white transition font-medium"
+                    >
+                      {["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"].map((div) => (
+                        <option key={div} value={div}>
+                          Division {div}
+                        </option>
+                      ))}
                     </select>
                   </div>
 
                   {/* Medium of Exam */}
-                  <div className="space-y-1">
+                  <div className="sm:col-span-5 space-y-1">
                     <label className="text-xs font-bold text-slate-700 flex items-center gap-1.5">
                       <BookOpen className="w-3.5 h-3.5 text-blue-600" />
                       {t.mediumLabel}
@@ -685,16 +695,10 @@ export default function HomePage() {
         </div>
       </div>
 
-      {/* Footer with Admin Access Link */}
+      {/* Footer */}
       <footer className="pt-8 border-t border-slate-200 text-center text-xs text-slate-400 space-y-2">
         <p>
           NIRMITI 2026 — DISTRICT LEVEL STUDENTS HARDWARE HACKATHON &nbsp;|&nbsp; Kannur District
-        </p>
-        <p>
-          Examiner / Administrator Access:{" "}
-          <Link href="/login" className="text-blue-600 hover:underline font-bold">
-            admin@exam.com (Sign In)
-          </Link>
         </p>
       </footer>
     </div>

@@ -93,9 +93,9 @@ export const DEMO_QUESTIONS: DemoQuestion[] = [
       explanation: "Ohm's Law states V = I × R.",
     },
     ml: {
-      question: "ഓം നിയമപ്രകാരം വോൾട്ടേജ് (V), കറന്റ് (I), പ്രതിരോധം (R) എന്നിവ തമ്മിലുള്ള ഗണിത സമവാക്യം ഏതാണ്?",
+      question: "ഓം നിയമപ്രകാരം (Ohm's Law) വോൾട്ടേജ് (V), കറന്റ് (I), പ്രതിരോധം (R) എന്നിവ തമ്മിലുള്ള ഗണിത സമവാക്യം ഏതാണ്?",
       options: ["V = I / R", "V = I × R", "V = I + R", "V = R / I"],
-      explanation: "ഓം നിയമപ്രകാരം V = I × R ആണ്.",
+      explanation: "ഓം നിയമപ്രകാരം (Ohm's Law) V = I × R ആണ്.",
     },
     correctAnswer: 1,
   },

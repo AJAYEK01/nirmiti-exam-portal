@@ -17,6 +17,7 @@ import {
   FileText,
   HelpCircle,
   Sparkles,
+  Globe,
 } from "lucide-react";
 import { TRANSLATIONS } from "@/lib/translations";
 import { MicrochipGraphic, HardwareSensorIcon } from "@/components/HardwareGraphics";
@@ -594,10 +595,11 @@ export default function TakeExamPage({ params }: { params: { id: string } }) {
             <button
               type="button"
               onClick={() => setMedium((prev) => (prev === "ENGLISH" ? "MALAYALAM" : "ENGLISH"))}
-              className="px-2.5 py-1.5 rounded-xl border border-slate-200 text-xs font-bold bg-slate-50 hover:bg-slate-100 transition flex items-center gap-1 text-slate-700"
+              className="px-2.5 py-1.5 rounded-xl border border-slate-200 text-xs font-bold bg-slate-50 hover:bg-slate-100 transition flex items-center gap-1.5 text-slate-700"
               title="Switch Language / ഭാഷ മാറ്റുക"
             >
-              🌐 {medium === "ENGLISH" ? "മലയാളം" : "English"}
+              <Globe className="w-3.5 h-3.5 text-blue-600" />
+              {medium === "ENGLISH" ? "മലയാളം" : "English"}
             </button>
 
             {/* Countdown Timer */}
