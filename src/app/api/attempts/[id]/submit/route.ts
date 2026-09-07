@@ -117,19 +117,15 @@ export async function POST(
       });
     }
 
-    // Upsert answer records in DB
-    for (const rec of gradedRecords) {
-      await prisma.answerRecord.upsert({
-        where: {
-          attemptId_questionId: {
-            attemptId: rec.attemptId,
-            questionId: rec.questionId,
-          },
-        },
-        create: rec,
-        update: rec,
-      });
-    }
+    // High-Concurrency Optimization: Replace 25 separate network roundtrips with single batch write
+    await prisma.$transaction([
+      prisma.answerRecord.deleteMany({
+        where: { attemptId: attempt.id },
+      }),
+      prisma.answerRecord.createMany({
+        data: gradedRecords,
+      }),
+    ]);
 
     const now = new Date();
     const timeTakenSeconds = Math.max(
