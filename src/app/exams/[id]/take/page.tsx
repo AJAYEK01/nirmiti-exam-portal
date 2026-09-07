@@ -68,6 +68,7 @@ export default function TakeExamPage({ params }: { params: { id: string } }) {
   const [warningMessage, setWarningMessage] = useState<string>("");
   const [isFullscreen, setIsFullscreen] = useState<boolean>(false);
   const [showSubmitModal, setShowSubmitModal] = useState<boolean>(false);
+  const [isMultiTabBlocked, setIsMultiTabBlocked] = useState<boolean>(false);
 
   const cheatWarningsRef = useRef(0);
   const attemptIdRef = useRef("");
@@ -130,6 +131,51 @@ export default function TakeExamPage({ params }: { params: { id: string } }) {
 
   useEffect(() => {
     startExamSession();
+  }, [examId]);
+
+  // Multi-Tab Guard: Prevent taking or opening exam in multiple tabs concurrently
+  useEffect(() => {
+    const tabId = `${Date.now()}_${Math.random().toString(36).substring(2, 8)}`;
+    const storageKey = `nirmiti_active_tab_${examId}`;
+
+    // Claim active tab
+    localStorage.setItem(storageKey, tabId);
+
+    let channel: BroadcastChannel | null = null;
+    try {
+      channel = new BroadcastChannel(`nirmiti_tab_channel_${examId}`);
+      // Announce this tab as newly active
+      channel.postMessage({ type: "NEW_TAB_OPENED", tabId });
+
+      channel.onmessage = (event) => {
+        if (event.data?.type === "NEW_TAB_OPENED" && event.data.tabId !== tabId) {
+          // Another tab was opened!
+          setIsMultiTabBlocked(true);
+        }
+      };
+    } catch (e) {
+      // Fallback for browsers without BroadcastChannel
+    }
+
+    const handleStorageChange = (e: StorageEvent) => {
+      if (e.key === storageKey && e.newValue && e.newValue !== tabId) {
+        setIsMultiTabBlocked(true);
+      }
+    };
+
+    window.addEventListener("storage", handleStorageChange);
+
+    return () => {
+      window.removeEventListener("storage", handleStorageChange);
+      if (channel) {
+        try {
+          channel.close();
+        } catch {}
+      }
+      if (localStorage.getItem(storageKey) === tabId) {
+        localStorage.removeItem(storageKey);
+      }
+    };
   }, [examId]);
 
   // Fullscreen helper
@@ -411,6 +457,36 @@ export default function TakeExamPage({ params }: { params: { id: string } }) {
               ? "പരീക്ഷാ സെഷൻ സജ്ജമാക്കുന്നു..."
               : "Securing test session and loading questions..."}
           </p>
+        </div>
+      </div>
+    );
+  }
+
+  // MULTI-TAB LOCK SCREEN
+  if (isMultiTabBlocked) {
+    return (
+      <div className="min-h-screen bg-slate-900 flex items-center justify-center p-4">
+        <div className="max-w-md w-full bg-white rounded-3xl p-8 text-center space-y-5 border-2 border-rose-500 shadow-2xl">
+          <div className="w-16 h-16 rounded-3xl bg-rose-100 text-rose-600 flex items-center justify-center mx-auto">
+            <ShieldAlert className="w-9 h-9" />
+          </div>
+          <div className="space-y-2">
+            <h2 className="text-xl font-black text-slate-900">
+              {medium === "MALAYALAM"
+                ? "ഒന്നിലധികം ടാബുകൾ അനുവദനീയമല്ല!"
+                : "Multiple Tabs Detected!"}
+            </h2>
+            <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              {medium === "MALAYALAM"
+                ? "നിങ്ങൾ പരീക്ഷ ഒന്നിലധികം ടാബുകളിലോ വിൻഡോകളിലോ തുറക്കാൻ ശ്രമിച്ചു. ഇത് പരീക്ഷാ ചട്ടങ്ങളുടെ ലംഘനമാണ്. മറ്റ് ടാബുകൾ അടച്ച് ഒരു ടാബിൽ മാത്രം പരീക്ഷ തുടരുക."
+                : "The examination is already active in another browser tab or window. Running tests across multiple tabs is strictly prohibited."}
+            </p>
+          </div>
+          <div className="p-3.5 rounded-2xl bg-amber-50 border border-amber-200 text-amber-900 text-xs font-semibold">
+            {medium === "MALAYALAM"
+              ? "ദയവായി ഈ ടാബ് അടച്ച് നിങ്ങളുടെ പ്രധാന പരീക്ഷാ ടാബിലേക്ക് മടങ്ങുക."
+              : "Please close this tab and return to your primary exam tab."}
+          </div>
         </div>
       </div>
     );

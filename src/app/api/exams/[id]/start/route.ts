@@ -54,6 +54,26 @@ export async function POST(
       return NextResponse.json({ error: "Exam not found" }, { status: 404 });
     }
 
+    // Check if the student has already completed and submitted an attempt for this exam
+    const completedAttempt = await prisma.attempt.findFirst({
+      where: {
+        examId: exam.id,
+        userId: session.id,
+        submittedAt: { not: null },
+      },
+    });
+
+    if (completedAttempt) {
+      return NextResponse.json(
+        {
+          error: "You have already completed and submitted this examination. Multiple attempts are strictly prohibited.",
+          alreadySubmitted: true,
+          attemptId: completedAttempt.id,
+        },
+        { status: 403 }
+      );
+    }
+
     // Check for existing active attempt
     let attempt = await prisma.attempt.findFirst({
       where: {

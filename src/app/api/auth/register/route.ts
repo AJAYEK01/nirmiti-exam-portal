@@ -26,7 +26,8 @@ export async function POST(req: NextRequest) {
     }
 
     const hashedPassword = await hashPassword(password);
-    const assignedRole = role === "ADMIN" ? "ADMIN" : "STUDENT";
+    // Public registration creates STUDENT accounts only; ADMIN accounts cannot be self-registered
+    const assignedRole = "STUDENT";
 
     const user = await prisma.user.create({
       data: {

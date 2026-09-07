@@ -37,23 +37,97 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Class / Standard is required." }, { status: 400 });
     }
 
+    const trimmedName = name.trim();
+    const trimmedSchool = schoolName.trim();
+    const trimmedClass = className.trim();
+    const isMalayalam = medium === "MALAYALAM";
+
+    // Strict Malpractice Check: A student cannot enter the exam twice.
+    // Query existing users with the same name and school (case-insensitive)
+    const existingCandidates = await prisma.user.findMany({
+      where: {
+        role: "STUDENT",
+        name: { equals: trimmedName, mode: "insensitive" },
+        schoolName: { equals: trimmedSchool, mode: "insensitive" },
+      },
+      include: {
+        attempts: {
+          orderBy: { startedAt: "desc" },
+        },
+      },
+    });
+
+    for (const cand of existingCandidates) {
+      for (const att of cand.attempts) {
+        // If already submitted, reject with strict notice
+        if (att.submittedAt) {
+          return NextResponse.json(
+            {
+              error: isMalayalam
+                ? `നിങ്ങൾ (${trimmedName}, ${trimmedSchool}) ഇതിനകം പരീക്ഷ എഴുതി സമർപ്പിച്ചതാണ്. ഒരു വിദ്യാർത്ഥിക്ക് ഒരു തവണ മാത്രമേ പരീക്ഷ എഴുതാൻ സാധിക്കൂ.`
+                : `You (${trimmedName}, ${trimmedSchool}) have already submitted your examination. Multiple attempts are strictly prohibited.`,
+              alreadySubmitted: true,
+              attemptId: att.id,
+            },
+            { status: 400 }
+          );
+        }
+
+        // If active attempt in progress (within 8 minutes + 2 min grace)
+        const elapsed = (Date.now() - new Date(att.startedAt).getTime()) / 1000;
+        if (elapsed < 600) {
+          // Resume their ongoing attempt seamlessly without creating duplicate entries
+          const token = signToken({
+            id: cand.id,
+            name: cand.name,
+            email: cand.email,
+            role: "STUDENT",
+          });
+
+          const res = NextResponse.json({
+            success: true,
+            resumed: true,
+            examId: att.examId,
+            user: {
+              id: cand.id,
+              name: cand.name,
+              schoolName: cand.schoolName,
+              className: cand.className,
+              medium: cand.medium,
+              parentMobile: cand.parentMobile,
+            },
+          });
+
+          res.cookies.set("exam_token", token, {
+            httpOnly: true,
+            secure: process.env.NODE_ENV === "production",
+            sameSite: "lax",
+            maxAge: 7 * 24 * 60 * 60,
+            path: "/",
+          });
+
+          return res;
+        }
+      }
+    }
+
     const cleanMobile = parentMobile ? parentMobile.trim() : "";
-    const candidateSlug = name.toLowerCase().replace(/[^a-z0-9]/g, "").slice(0, 10);
+    const candidateSlug = trimmedName.toLowerCase().replace(/[^a-z0-9]/g, "").slice(0, 10);
     const uniqueTag = `${Date.now()}_${Math.random().toString(36).substring(2, 6)}`;
     const cleanEmail = cleanMobile
-      ? `student_${cleanMobile}@exam.portal`
+      ? `student_${cleanMobile}_${uniqueTag}@exam.portal`
       : `candidate_${candidateSlug}_${uniqueTag}@exam.portal`;
 
     // Create user for this candidate attempt
     const user = await prisma.user.create({
       data: {
-        name: name.trim(),
+        name: trimmedName,
         email: cleanEmail,
         password: "candidate-token-access",
         role: "STUDENT",
-        schoolName: schoolName.trim(),
-        className: className.trim(),
-        medium: medium === "MALAYALAM" ? "MALAYALAM" : "ENGLISH",
+        schoolName: trimmedSchool,
+        className: trimmedClass,
+        medium: isMalayalam ? "MALAYALAM" : "ENGLISH",
         parentMobile: cleanMobile || null,
       },
     });

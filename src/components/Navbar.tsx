@@ -165,24 +165,6 @@ export default function Navbar() {
             </div>
           ) : !loading ? (
             <div className="flex items-center gap-2">
-              <div className="hidden sm:flex items-center gap-1.5 bg-slate-100 p-1 rounded-lg border border-slate-200">
-                <span className="text-xs text-slate-500 px-1 font-medium flex items-center gap-1">
-                  <Sparkles className="w-3 h-3 text-amber-500" /> Demo:
-                </span>
-                <button
-                  onClick={() => handleQuickLogin("STUDENT")}
-                  className="text-xs bg-white text-slate-700 hover:text-blue-600 px-2 py-1 rounded shadow-xs font-semibold hover:bg-slate-50 transition"
-                >
-                  Student
-                </button>
-                <button
-                  onClick={() => handleQuickLogin("ADMIN")}
-                  className="text-xs bg-blue-600 text-white hover:bg-blue-700 px-2 py-1 rounded shadow-xs font-semibold transition"
-                >
-                  Examiner
-                </button>
-              </div>
-
               <Link
                 href="/login"
                 className="text-sm font-semibold text-slate-700 hover:text-blue-600 px-3 py-2 rounded-lg hover:bg-slate-100 transition"

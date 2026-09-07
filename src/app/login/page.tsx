@@ -88,33 +88,6 @@ export default function LoginPage() {
           </p>
         </div>
 
-        {/* Quick 1-Click Demo Buttons */}
-        <div className="bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200/80 rounded-2xl p-4 space-y-3">
-          <div className="flex items-center gap-1.5 text-xs font-bold text-blue-900">
-            <Sparkles className="w-4 h-4 text-amber-500" />
-            Quick Demo Access (One Click)
-          </div>
-          <div className="grid grid-cols-2 gap-2.5">
-            <button
-              type="button"
-              onClick={() => handleQuickLogin("STUDENT")}
-              disabled={loading}
-              className="flex items-center justify-center gap-1.5 bg-white hover:bg-slate-50 text-slate-800 text-xs font-semibold py-2.5 px-3 rounded-xl border border-slate-200 shadow-xs transition"
-            >
-              <User className="w-3.5 h-3.5 text-emerald-600" />
-              Candidate Mode
-            </button>
-            <button
-              type="button"
-              onClick={() => handleQuickLogin("ADMIN")}
-              disabled={loading}
-              className="flex items-center justify-center gap-1.5 bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold py-2.5 px-3 rounded-xl shadow-xs transition"
-            >
-              <ShieldCheck className="w-3.5 h-3.5 text-amber-300" />
-              Examiner Mode
-            </button>
-          </div>
-        </div>
 
         {/* Login Form */}
         <div className="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm space-y-6">

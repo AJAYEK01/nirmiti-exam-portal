@@ -45,6 +45,7 @@ export default function DemoExamPage() {
   const [showWarningModal, setShowWarningModal] = useState(false);
   const [showSubmitModal, setShowSubmitModal] = useState(false);
   const [isFullscreen, setIsFullscreen] = useState(false);
+  const [isMultiTabBlocked, setIsMultiTabBlocked] = useState(false);
 
   // Timer countdown
   useEffect(() => {
@@ -110,6 +111,46 @@ export default function DemoExamPage() {
       document.removeEventListener("keydown", blockKey);
     };
   }, [examStarted, submitted]);
+
+  // Multi-Tab Guard for demo exam
+  useEffect(() => {
+    const tabId = `${Date.now()}_${Math.random().toString(36).substring(2, 8)}`;
+    const storageKey = `nirmiti_demo_active_tab`;
+
+    localStorage.setItem(storageKey, tabId);
+
+    let channel: BroadcastChannel | null = null;
+    try {
+      channel = new BroadcastChannel(`nirmiti_demo_tab_channel`);
+      channel.postMessage({ type: "NEW_TAB_OPENED", tabId });
+
+      channel.onmessage = (event) => {
+        if (event.data?.type === "NEW_TAB_OPENED" && event.data.tabId !== tabId) {
+          setIsMultiTabBlocked(true);
+        }
+      };
+    } catch (e) {}
+
+    const handleStorage = (e: StorageEvent) => {
+      if (e.key === storageKey && e.newValue && e.newValue !== tabId) {
+        setIsMultiTabBlocked(true);
+      }
+    };
+
+    window.addEventListener("storage", handleStorage);
+
+    return () => {
+      window.removeEventListener("storage", handleStorage);
+      if (channel) {
+        try {
+          channel.close();
+        } catch {}
+      }
+      if (localStorage.getItem(storageKey) === tabId) {
+        localStorage.removeItem(storageKey);
+      }
+    };
+  }, []);
 
   const toggleFullscreen = () => {
     if (!document.fullscreenElement) {
@@ -190,6 +231,36 @@ export default function DemoExamPage() {
       incorrectCount++;
     }
   });
+
+  // MULTI-TAB LOCK SCREEN
+  if (isMultiTabBlocked) {
+    return (
+      <div className="min-h-screen bg-slate-900 flex items-center justify-center p-4">
+        <div className="max-w-md w-full bg-white rounded-3xl p-8 text-center space-y-5 border-2 border-rose-500 shadow-2xl">
+          <div className="w-16 h-16 rounded-3xl bg-rose-100 text-rose-600 flex items-center justify-center mx-auto">
+            <ShieldAlert className="w-9 h-9" />
+          </div>
+          <div className="space-y-2">
+            <h2 className="text-xl font-black text-slate-900">
+              {lang === "ml"
+                ? "ഒന്നിലധികം ടാബുകൾ അനുവദനീയമല്ല!"
+                : "Multiple Tabs Detected!"}
+            </h2>
+            <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              {lang === "ml"
+                ? "ഡെമോ പരീക്ഷ ഒന്നിലധികം ടാബുകളിൽ പ്രവർത്തിക്കാൻ അനുവാദമില്ല. ദയവായി മറ്റ് ടാബുകൾ അടച്ച് ഒരു ടാബിൽ മാത്രം തുടരുക."
+                : "The examination is already active in another browser tab. Multiple concurrent tabs are strictly blocked."}
+            </p>
+          </div>
+          <div className="p-3.5 rounded-2xl bg-amber-50 border border-amber-200 text-amber-900 text-xs font-semibold">
+            {lang === "ml"
+              ? "ദയവായി ഈ ടാബ് അടച്ച് നിങ്ങളുടെ പ്രധാന പരീക്ഷാ ടാബിലേക്ക് മടങ്ങുക."
+              : "Please close this tab and return to your primary exam tab."}
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   // PRE-TEST DEMO SCREEN
   if (!examStarted) {
