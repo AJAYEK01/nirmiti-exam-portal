@@ -42,13 +42,33 @@ export async function POST(req: NextRequest) {
     const trimmedClass = className.trim();
     const isMalayalam = medium === "MALAYALAM";
 
+    // Helper to normalize strings: remove all whitespace, dots, commas, hyphens, brackets
+    const normalize = (str: string) =>
+      str.toLowerCase().replace(/[\s\.\-_,\(\)\[\]']/g, "");
+
+    const normInputName = normalize(trimmedName);
+    const normInputSchool = normalize(trimmedSchool);
+
+    // Also check if browser sent exam_completed cookie
+    const completedCookie = req.cookies.get("exam_completed")?.value;
+    if (completedCookie) {
+      return NextResponse.json(
+        {
+          error: isMalayalam
+            ? "ഈ ഉപകരണത്തിൽ നിന്ന് ഇതിനകം പരീക്ഷ സമർപ്പിച്ചതാണ്. ഒരു വിദ്യാർത്ഥിക്ക് ഒരു തവണ മാത്രമേ പരീക്ഷ എഴുതാൻ സാധിക്കൂ."
+            : "An examination has already been completed and submitted from this device. Multiple attempts are strictly prohibited.",
+          alreadySubmitted: true,
+          attemptId: completedCookie,
+        },
+        { status: 400 }
+      );
+    }
+
     // Strict Malpractice Check: A student cannot enter the exam twice.
-    // Query existing users with the same name and school (case-insensitive)
+    // Query existing student candidates to check normalized names & schools
     const existingCandidates = await prisma.user.findMany({
       where: {
         role: "STUDENT",
-        name: { equals: trimmedName, mode: "insensitive" },
-        schoolName: { equals: trimmedSchool, mode: "insensitive" },
       },
       include: {
         attempts: {
@@ -58,25 +78,61 @@ export async function POST(req: NextRequest) {
     });
 
     for (const cand of existingCandidates) {
-      for (const att of cand.attempts) {
-        // If already submitted, reject with strict notice
-        if (att.submittedAt) {
-          return NextResponse.json(
-            {
-              error: isMalayalam
-                ? `നിങ്ങൾ (${trimmedName}, ${trimmedSchool}) ഇതിനകം പരീക്ഷ എഴുതി സമർപ്പിച്ചതാണ്. ഒരു വിദ്യാർത്ഥിക്ക് ഒരു തവണ മാത്രമേ പരീക്ഷ എഴുതാൻ സാധിക്കൂ.`
-                : `You (${trimmedName}, ${trimmedSchool}) have already submitted your examination. Multiple attempts are strictly prohibited.`,
-              alreadySubmitted: true,
-              attemptId: att.id,
-            },
-            { status: 400 }
-          );
-        }
+      const candNormName = normalize(cand.name);
+      const candNormSchool = normalize(cand.schoolName || "");
 
-        // If active attempt in progress (within 8 minutes + 2 min grace)
-        const elapsed = (Date.now() - new Date(att.startedAt).getTime()) / 1000;
-        if (elapsed < 600) {
-          // Resume their ongoing attempt seamlessly without creating duplicate entries
+      // Match if school matches (or is identical) and name is matching/fuzzy match
+      const schoolMatches =
+        candNormSchool === normInputSchool ||
+        candNormSchool.includes(normInputSchool) ||
+        normInputSchool.includes(candNormSchool);
+
+      const nameMatches =
+        candNormName === normInputName ||
+        (normInputName.length >= 3 && candNormName.includes(normInputName)) ||
+        (candNormName.length >= 3 && normInputName.includes(candNormName));
+
+      if (schoolMatches && nameMatches) {
+        for (const att of cand.attempts) {
+          // If already submitted, reject with strict notice
+          if (att.submittedAt) {
+            return NextResponse.json(
+              {
+                error: isMalayalam
+                  ? `നിങ്ങൾ (${cand.name}, ${cand.schoolName}) ഇതിനകം പരീക്ഷ എഴുതി സമർപ്പിച്ചതാണ്. ഒരു വിദ്യാർത്ഥിക്ക് ഒരു തവണ മാത്രമേ പരീക്ഷ എഴുതാൻ സാധിക്കൂ.`
+                  : `Candidate (${cand.name}, ${cand.schoolName}) has already submitted this examination. Multiple attempts are strictly prohibited.`,
+                alreadySubmitted: true,
+                attemptId: att.id,
+              },
+              { status: 400 }
+            );
+          }
+
+          // If attempt was started, check time elapsed
+          const elapsed = (Date.now() - new Date(att.startedAt).getTime()) / 1000;
+          // If 8 minutes (480 seconds) have passed, this attempt has expired! Auto-close it now.
+          if (elapsed >= 480) {
+            await prisma.attempt.update({
+              where: { id: att.id },
+              data: {
+                submittedAt: new Date(new Date(att.startedAt).getTime() + 480000),
+                timeTakenSeconds: 480,
+              },
+            }).catch(() => {});
+
+            return NextResponse.json(
+              {
+                error: isMalayalam
+                  ? `നിങ്ങളുടെ (${cand.name}) മുൻ പരീക്ഷാ സമയം (8 മിനിറ്റ്) അവസാനിച്ചു. പുനഃപരീക്ഷ അനുവദനീയമല്ല.`
+                  : `Your (${cand.name}) previous examination time limit (8 minutes) has already expired. Multiple attempts are strictly prohibited.`,
+                alreadySubmitted: true,
+                attemptId: att.id,
+              },
+              { status: 400 }
+            );
+          }
+
+          // Active attempt still within 8 minutes: Resume their ongoing attempt seamlessly
           const token = signToken({
             id: cand.id,
             name: cand.name,

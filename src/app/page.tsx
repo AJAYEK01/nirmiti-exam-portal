@@ -22,6 +22,8 @@ import {
   Mail,
   FileText,
   CheckCircle,
+  CheckCircle2,
+  FileCheck,
 } from "lucide-react";
 import { POPULAR_SCHOOLS } from "@/lib/schools-data";
 import {
@@ -94,13 +96,27 @@ export default function HomePage() {
   const [loading, setLoading] = useState(false);
   const [user, setUser] = useState<any>(null);
   const [windowInfo, setWindowInfo] = useState(getExamWindowInfo());
+  const [hasAlreadySubmitted, setHasAlreadySubmitted] = useState(false);
 
   const t = medium === "MALAYALAM" ? TRANSLATIONS.ml : TRANSLATIONS.en;
 
   useEffect(() => {
+    // Check if this browser already submitted an exam
+    try {
+      if (localStorage.getItem("nirmiti_submitted_exam") === "true") {
+        setHasAlreadySubmitted(true);
+      }
+    } catch {}
+
     fetch("/api/auth/me")
       .then((r) => r.json())
-      .then((d) => setUser(d.user))
+      .then((d) => {
+        setUser(d.user);
+        if (d.user && d.user.role === "STUDENT") {
+          // Check if candidate already has an attempt
+          fetch("/api/auth/register-candidate/status").catch(() => {});
+        }
+      })
       .catch(() => {});
 
     const fetchPortalStatus = () => {
@@ -141,6 +157,15 @@ export default function HomePage() {
         medium === "MALAYALAM"
           ? "സ്കൂളിന്റെ പേര് തിരഞ്ഞെടുക്കുകയോ രേഖപ്പെടുത്തുകയോ ചെയ്യുക."
           : "Please select or enter your school name."
+      );
+      return;
+    }
+
+    if (!division.trim()) {
+      setError(
+        medium === "MALAYALAM"
+          ? "ദയവായി നിങ്ങളുടെ ഡിവിഷൻ രേഖപ്പെടുത്തുക (ഉദാ: A, B, C)."
+          : "Please enter your class division (e.g. A, B, C)."
       );
       return;
     }
@@ -372,13 +397,41 @@ export default function HomePage() {
                 </p>
               </div>
 
-              {error && (
-                <div className="p-3.5 rounded-2xl bg-rose-50 border border-rose-200 text-rose-700 text-xs font-semibold">
-                  {error}
+              {/* Already Submitted Notice */}
+              {hasAlreadySubmitted && !isAdmin ? (
+                <div className="p-6 rounded-2xl bg-emerald-50 border-2 border-emerald-300 text-center space-y-3">
+                  <div className="w-12 h-12 rounded-2xl bg-emerald-100 text-emerald-700 flex items-center justify-center mx-auto">
+                    <CheckCircle2 className="w-6 h-6" />
+                  </div>
+                  <h3 className="text-base font-black text-emerald-950">
+                    {medium === "MALAYALAM"
+                      ? "നിങ്ങൾ പരീക്ഷ വിജയകരമായി പൂർത്തിയാക്കി!"
+                      : "Examination Already Completed!"}
+                  </h3>
+                  <p className="text-xs sm:text-sm text-emerald-800 max-w-md mx-auto">
+                    {medium === "MALAYALAM"
+                      ? "ഈ ഉപകരണത്തിൽ നിന്ന് പരീക്ഷ രേഖപ്പെടുത്തി സുരക്ഷിതമായി സമർപ്പിച്ചിരിക്കുന്നു. സ്കൂൾ തിരിച്ചുള്ള ഫലങ്ങൾ സംഘാടകർ ഔദ്യോഗികമായി പ്രഖ്യാപിക്കുന്നതാണ്."
+                      : "Your responses have been successfully submitted and locked. School-wise winners will be officially announced by the organizers."}
+                  </p>
+                  <div className="pt-2">
+                    <Link
+                      href="/submitted"
+                      className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-emerald-700 hover:bg-emerald-800 text-white text-xs font-bold transition"
+                    >
+                      <FileCheck className="w-4 h-4" />
+                      {medium === "MALAYALAM" ? "രസീത് കാണുക" : "View Submission Receipt"}
+                    </Link>
+                  </div>
                 </div>
-              )}
+              ) : (
+                <>
+                  {error && (
+                    <div className="p-3.5 rounded-2xl bg-rose-50 border border-rose-200 text-rose-700 text-xs font-semibold">
+                      {error}
+                    </div>
+                  )}
 
-              <form onSubmit={handleStartExam} className="space-y-4">
+                  <form onSubmit={handleStartExam} className="space-y-4">
                 {/* Full Name */}
                 <div className="space-y-1">
                   <label className="text-xs font-bold text-slate-700 flex items-center gap-1.5">
@@ -450,23 +503,21 @@ export default function HomePage() {
                     </select>
                   </div>
 
-                  {/* Division (A, B, C, D, E, F, G, H) */}
+                  {/* Division (Manual Entry) */}
                   <div className="sm:col-span-3 space-y-1">
                     <label className="text-xs font-bold text-slate-700 flex items-center gap-1.5">
                       <Building2 className="w-3.5 h-3.5 text-blue-600" />
                       {t.divisionLabel}
                     </label>
-                    <select
+                    <input
+                      type="text"
+                      required
+                      maxLength={5}
                       value={division}
-                      onChange={(e) => setDivision(e.target.value)}
-                      className="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-slate-50 focus:bg-white transition font-medium"
-                    >
-                      {["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"].map((div) => (
-                        <option key={div} value={div}>
-                          Division {div}
-                        </option>
-                      ))}
-                    </select>
+                      onChange={(e) => setDivision(e.target.value.toUpperCase())}
+                      placeholder={t.divisionPlaceholder || "e.g. A"}
+                      className="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-slate-50 focus:bg-white transition font-bold uppercase tracking-wider text-center"
+                    />
                   </div>
 
                   {/* Medium of Exam */}
@@ -513,7 +564,9 @@ export default function HomePage() {
                     <ArrowRight className="w-4 h-4" />
                   </button>
                 </div>
-              </form>
+                  </form>
+                </>
+              )}
             </div>
           </div>
         </div>

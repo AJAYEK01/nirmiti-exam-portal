@@ -20,6 +20,11 @@ export default function ExamSubmittedPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    // Record submission flag in localStorage to guard this browser device
+    try {
+      localStorage.setItem("nirmiti_submitted_exam", "true");
+    } catch {}
+
     fetch("/api/auth/me")
       .then((r) => r.json())
       .then((d) => {

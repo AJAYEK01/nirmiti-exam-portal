@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/db";
 import { getSession } from "@/lib/auth";
+import questionsMl from "@/lib/questions-ml.json";
 
 export async function GET(
   req: NextRequest,
@@ -106,11 +107,19 @@ export async function GET(
         status = "incorrect";
       }
 
+      // Malayalam translation lookup
+      const mlData = (questionsMl as Record<string, { text: string; options: string[] }>)[q.id];
+      const displayedOptionsMl = mlData && Array.isArray(mlData.options)
+        ? orderPermutation.map((origIdx) => mlData.options[origIdx] ?? rawOptions[origIdx] ?? "")
+        : undefined;
+
       return {
         id: q.id,
         orderIndex: idx + 1,
         text: q.text,
+        textMl: mlData?.text || undefined,
         options: displayedOptions,
+        optionsMl: displayedOptionsMl,
         correctAnswer: correctShuffledIndex >= 0 ? correctShuffledIndex : q.correctAnswer,
         selectedOption: chosenShuffledIndex,
         explanation: q.explanation || "Official answer key verified.",

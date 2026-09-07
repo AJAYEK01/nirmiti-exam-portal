@@ -26,7 +26,9 @@ interface Question {
   id: string;
   orderIndex: number;
   text: string;
+  textMl?: string;
   options: string[];
+  optionsMl?: string[];
   marks: number;
   negativeMarks: number;
 }
@@ -760,7 +762,7 @@ export default function TakeExamPage({ params }: { params: { id: string } }) {
 
               {/* Question Text */}
               <div className="text-base sm:text-lg font-medium text-slate-800 leading-relaxed">
-                {currentQ.text}
+                {medium === "MALAYALAM" && currentQ.textMl ? currentQ.textMl : currentQ.text}
               </div>
 
               {/* Options list */}
@@ -768,6 +770,10 @@ export default function TakeExamPage({ params }: { params: { id: string } }) {
                 {currentQ.options.map((opt, optIdx) => {
                   const isSelected = currentAnswer?.selectedOption === optIdx;
                   const label = String.fromCharCode(65 + optIdx); // A, B, C, D
+                  const displayOpt =
+                    medium === "MALAYALAM" && currentQ.optionsMl && currentQ.optionsMl[optIdx]
+                      ? currentQ.optionsMl[optIdx]
+                      : opt;
 
                   return (
                     <button
@@ -794,7 +800,7 @@ export default function TakeExamPage({ params }: { params: { id: string } }) {
                           isSelected ? "text-blue-950 font-medium" : "text-slate-700"
                         }`}
                       >
-                        {opt}
+                        {displayOpt}
                       </span>
                     </button>
                   );

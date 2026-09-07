@@ -50,7 +50,9 @@ interface QuestionRecord {
   id: string;
   orderIndex: number;
   text: string;
+  textMl?: string;
   options: string[];
+  optionsMl?: string[];
   correctAnswer: number;
   selectedOption: number | null;
   isCorrect: boolean;
@@ -356,9 +358,16 @@ export default function AdminMarksheetPage() {
                       <span className="text-[10px] font-black text-slate-400 bg-white border border-slate-200 rounded px-1.5 py-0.5 flex-shrink-0">
                         Q{q.orderIndex}
                       </span>
-                      <p className="text-xs sm:text-sm text-slate-800 font-medium leading-relaxed">
-                        {q.text}
-                      </p>
+                      <div className="space-y-1">
+                        <p className="text-xs sm:text-sm text-slate-800 font-medium leading-relaxed">
+                          {candidate.medium === "MALAYALAM" && q.textMl ? q.textMl : q.text}
+                        </p>
+                        {candidate.medium === "MALAYALAM" && q.textMl && (
+                          <p className="text-[11px] text-slate-400 italic">
+                            EN: {q.text}
+                          </p>
+                        )}
+                      </div>
                     </div>
                     <div className="flex-shrink-0">
                       {q.status === "correct" ? (
@@ -376,6 +385,10 @@ export default function AdminMarksheetPage() {
                     {q.options.map((opt, idx) => {
                       const isCorrect = idx === q.correctAnswer;
                       const isChosen = idx === q.selectedOption;
+                      const displayOpt =
+                        candidate.medium === "MALAYALAM" && q.optionsMl && q.optionsMl[idx]
+                          ? q.optionsMl[idx]
+                          : opt;
                       return (
                         <div
                           key={idx}
@@ -388,7 +401,7 @@ export default function AdminMarksheetPage() {
                           }`}
                         >
                           <span className="font-black w-4">{String.fromCharCode(65 + idx)}.</span>
-                          <span className="flex-1">{opt}</span>
+                          <span className="flex-1">{displayOpt}</span>
                           {isCorrect && <span className="ml-auto text-emerald-600 font-black">✓</span>}
                           {isChosen && !isCorrect && (
                             <span className="ml-auto text-rose-600 font-black">✗</span>

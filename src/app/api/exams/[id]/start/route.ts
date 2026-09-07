@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/db";
 import { getSession } from "@/lib/auth";
 import { getEffectiveExamWindow } from "@/lib/portal-setting";
+import questionsMl from "@/lib/questions-ml.json";
 
 // Fisher-Yates shuffle array helper
 function shuffleArray<T>(array: T[]): T[] {
@@ -211,11 +212,19 @@ export async function POST(
       const orderPermutation = optionsOrderMap[q.id] || [0, 1, 2, 3];
       const shuffledOptions = orderPermutation.map((origIdx) => rawOptions[origIdx] ?? "");
 
+      // Malayalam translation lookup
+      const mlData = (questionsMl as Record<string, { text: string; options: string[] }>)[q.id];
+      const shuffledOptionsMl = mlData && Array.isArray(mlData.options)
+        ? orderPermutation.map((origIdx) => mlData.options[origIdx] ?? rawOptions[origIdx] ?? "")
+        : undefined;
+
       return {
         id: q.id,
         orderIndex: idx + 1,
         text: q.text,
+        textMl: mlData?.text || undefined,
         options: shuffledOptions,
+        optionsMl: shuffledOptionsMl,
         marks: 1.0,
         negativeMarks: 0.0,
       };
