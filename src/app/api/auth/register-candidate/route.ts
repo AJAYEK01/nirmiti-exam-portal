@@ -1,14 +1,14 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/db";
 import { signToken, getSession } from "@/lib/auth";
-import { getExamWindowInfo } from "@/lib/exam-window";
+import { getEffectiveExamWindow } from "@/lib/portal-setting";
 
 export async function POST(req: NextRequest) {
   try {
     // Enforce examination window on the server (Sept 9, 2026, 10:00 AM - 10:00 PM IST)
     const session = await getSession();
     if (session?.role !== "ADMIN") {
-      const windowInfo = getExamWindowInfo();
+      const windowInfo = await getEffectiveExamWindow();
       if (!windowInfo.isOpen) {
         return NextResponse.json(
           {

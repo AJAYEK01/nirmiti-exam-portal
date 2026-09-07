@@ -92,10 +92,19 @@ export default function HomePage() {
       .then((d) => setUser(d.user))
       .catch(() => {});
 
-    // Check window status periodically
-    const interval = setInterval(() => {
-      setWindowInfo(getExamWindowInfo());
-    }, 15000);
+    const fetchPortalStatus = () => {
+      fetch("/api/admin/portal-status")
+        .then((r) => r.json())
+        .then((d) => {
+          if (d.windowInfo) setWindowInfo(d.windowInfo);
+        })
+        .catch(() => {
+          setWindowInfo(getExamWindowInfo());
+        });
+    };
+
+    fetchPortalStatus();
+    const interval = setInterval(fetchPortalStatus, 15000);
     return () => clearInterval(interval);
   }, []);
 

@@ -18,6 +18,11 @@ import {
   ChevronDown,
   ChevronUp,
   Sparkles,
+  Power,
+  Calendar,
+  Lock,
+  Unlock,
+  SlidersHorizontal,
 } from "lucide-react";
 import { MicrochipGraphic, CircuitBoardBg, HardwareSensorIcon, HardwareRoboticsIcon } from "@/components/HardwareGraphics";
 
@@ -52,6 +57,37 @@ export default function AdminDashboardPage() {
   const [loading, setLoading] = useState(true);
   const [searchQuery, setSearchQuery] = useState("");
   const [expandedSchool, setExpandedSchool] = useState<string | null>(null);
+  const [portalWindow, setPortalWindow] = useState<any>(null);
+  const [updatingPortal, setUpdatingPortal] = useState(false);
+
+  const fetchPortalStatus = async () => {
+    try {
+      const res = await fetch("/api/admin/portal-status");
+      const d = await res.json();
+      if (d.windowInfo) setPortalWindow(d.windowInfo);
+    } catch (e) {
+      console.error("Failed to fetch portal status", e);
+    }
+  };
+
+  const handleUpdatePortalStatus = async (newStatus: "SCHEDULED" | "FORCE_OPEN" | "FORCE_CLOSED") => {
+    setUpdatingPortal(true);
+    try {
+      const res = await fetch("/api/admin/portal-status", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ status: newStatus }),
+      });
+      const d = await res.json();
+      if (d.windowInfo) {
+        setPortalWindow(d.windowInfo);
+      }
+    } catch (e) {
+      alert("Failed to update portal status.");
+    } finally {
+      setUpdatingPortal(false);
+    }
+  };
 
   const loadAdminData = async () => {
     setLoading(true);
@@ -70,6 +106,7 @@ export default function AdminDashboardPage() {
 
   useEffect(() => {
     loadAdminData();
+    fetchPortalStatus();
   }, []);
 
   const formatSeconds = (sec: number) => {
@@ -207,6 +244,96 @@ export default function AdminDashboardPage() {
               Export Top 2 per School (CSV)
             </button>
           </div>
+        </div>
+      </div>
+
+      {/* EXAM PORTAL MASTER OVERRIDE CONTROL CARD */}
+      <div className="bg-white rounded-3xl border-2 border-slate-200 p-6 shadow-sm space-y-4">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-slate-100">
+          <div className="flex items-center gap-3">
+            <div className="w-11 h-11 rounded-2xl bg-indigo-100 text-indigo-700 flex items-center justify-center font-bold">
+              <SlidersHorizontal className="w-6 h-6" />
+            </div>
+            <div>
+              <div className="flex items-center gap-2">
+                <h2 className="text-base sm:text-lg font-black text-slate-900">
+                  Exam Portal Master Control
+                </h2>
+                <span
+                  className={`px-2.5 py-0.5 rounded-full text-xs font-bold border ${
+                    portalWindow?.isOpen
+                      ? "bg-emerald-50 text-emerald-700 border-emerald-300"
+                      : "bg-rose-50 text-rose-700 border-rose-300"
+                  }`}
+                >
+                  {portalWindow?.isOpen ? "● PORTAL OPEN" : "○ PORTAL CLOSED"}
+                </span>
+              </div>
+              <p className="text-xs text-slate-500">
+                Current Mode:{" "}
+                <b className="text-slate-800">
+                  {portalWindow?.override === "FORCE_OPEN"
+                    ? "🟢 Manually Forced OPEN (Candidates can take exam anytime)"
+                    : portalWindow?.override === "FORCE_CLOSED"
+                    ? "🔴 Manually Forced CLOSED (Candidate access blocked)"
+                    : "⏰ Auto-Scheduled (September 9, 2026, 10:00 AM – 10:00 PM IST)"}
+                </b>
+              </p>
+            </div>
+          </div>
+
+          <div className="flex flex-wrap items-center gap-2">
+            <button
+              type="button"
+              disabled={updatingPortal}
+              onClick={() => handleUpdatePortalStatus("SCHEDULED")}
+              className={`px-3.5 py-2 rounded-xl text-xs font-bold border transition flex items-center gap-1.5 ${
+                portalWindow?.override === "SCHEDULED" || !portalWindow?.override
+                  ? "bg-blue-600 text-white border-blue-600 shadow-xs"
+                  : "bg-slate-50 hover:bg-slate-100 text-slate-700 border-slate-200"
+              }`}
+            >
+              <Calendar className="w-3.5 h-3.5" />
+              ⏰ Auto Schedule (Sept 9)
+            </button>
+
+            <button
+              type="button"
+              disabled={updatingPortal}
+              onClick={() => handleUpdatePortalStatus("FORCE_OPEN")}
+              className={`px-3.5 py-2 rounded-xl text-xs font-bold border transition flex items-center gap-1.5 ${
+                portalWindow?.override === "FORCE_OPEN"
+                  ? "bg-emerald-600 text-white border-emerald-600 shadow-xs ring-2 ring-emerald-400/40"
+                  : "bg-slate-50 hover:bg-emerald-50 text-emerald-700 border-emerald-200"
+              }`}
+            >
+              <Unlock className="w-3.5 h-3.5" />
+              🟢 Open Now (Force Open)
+            </button>
+
+            <button
+              type="button"
+              disabled={updatingPortal}
+              onClick={() => handleUpdatePortalStatus("FORCE_CLOSED")}
+              className={`px-3.5 py-2 rounded-xl text-xs font-bold border transition flex items-center gap-1.5 ${
+                portalWindow?.override === "FORCE_CLOSED"
+                  ? "bg-rose-600 text-white border-rose-600 shadow-xs ring-2 ring-rose-400/40"
+                  : "bg-slate-50 hover:bg-rose-50 text-rose-700 border-rose-200"
+              }`}
+            >
+              <Lock className="w-3.5 h-3.5" />
+              🔴 Close Now (Force Close)
+            </button>
+          </div>
+        </div>
+
+        <div className="text-[11px] text-slate-500 flex flex-wrap items-center justify-between gap-2">
+          <span>
+            Window schedule: <b>{portalWindow?.startDateStr}</b> &rarr; <b>{portalWindow?.endDateStr}</b>
+          </span>
+          <span className="text-slate-400">
+            Changes apply in real-time to candidate registrations and active sessions across the server.
+          </span>
         </div>
       </div>
 

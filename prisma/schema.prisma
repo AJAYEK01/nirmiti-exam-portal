@@ -82,3 +82,9 @@ model AnswerRecord {
 
   @@unique([attemptId, questionId])
 }
+
+model SystemSetting {
+  key       String   @id
+  value     String
+  updatedAt DateTime @updatedAt
+}

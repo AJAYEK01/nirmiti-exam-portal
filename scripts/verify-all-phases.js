@@ -64,8 +64,9 @@ const startRouteCode = fs.readFileSync(
   "utf8"
 );
 assert(
-  startRouteCode.includes("getExamWindowInfo()") && startRouteCode.includes('session.role !== "ADMIN"'),
-  "Exam start API route enforces getExamWindowInfo() on the server with Admin bypass"
+  (startRouteCode.includes("getEffectiveExamWindow()") || startRouteCode.includes("getExamWindowInfo()")) &&
+    startRouteCode.includes('session.role !== "ADMIN"'),
+  "Exam start API route enforces effective exam window on the server with Admin bypass"
 );
 
 const registerRouteCode = fs.readFileSync(
@@ -73,8 +74,22 @@ const registerRouteCode = fs.readFileSync(
   "utf8"
 );
 assert(
-  registerRouteCode.includes("getExamWindowInfo()") && registerRouteCode.includes('session?.role !== "ADMIN"'),
-  "Candidate registration API route enforces getExamWindowInfo() on the server with Admin bypass"
+  (registerRouteCode.includes("getEffectiveExamWindow()") || registerRouteCode.includes("getExamWindowInfo()")) &&
+    registerRouteCode.includes('session?.role !== "ADMIN"'),
+  "Candidate registration API route enforces effective exam window on the server with Admin bypass"
+);
+
+// 6. Test Admin Manual Overrides (FORCE_OPEN, FORCE_CLOSED)
+const forceOpenInfo = getExamWindowInfo(beforeTime, "FORCE_OPEN");
+assert(
+  forceOpenInfo.status === "OPEN" && forceOpenInfo.isOpen === true,
+  "Manual Admin Override: FORCE_OPEN forces status=OPEN even before 10 AM"
+);
+
+const forceClosedInfo = getExamWindowInfo(midTime, "FORCE_CLOSED");
+assert(
+  forceClosedInfo.status === "CLOSED" && forceClosedInfo.isOpen === false,
+  "Manual Admin Override: FORCE_CLOSED forces status=CLOSED even during scheduled window"
 );
 
 // -----------------------------------------------------------------

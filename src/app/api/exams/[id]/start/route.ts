@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/db";
 import { getSession } from "@/lib/auth";
-import { getExamWindowInfo } from "@/lib/exam-window";
+import { getEffectiveExamWindow } from "@/lib/portal-setting";
 
 // Fisher-Yates shuffle array helper
 function shuffleArray<T>(array: T[]): T[] {
@@ -30,7 +30,7 @@ export async function POST(
     // Server-side enforcement of exam schedule (Sept 9, 2026, 10:00 AM - 10:00 PM IST)
     // Authorized Admins can bypass for testing
     if (session.role !== "ADMIN") {
-      const windowInfo = getExamWindowInfo();
+      const windowInfo = await getEffectiveExamWindow();
       if (!windowInfo.isOpen) {
         return NextResponse.json(
           {

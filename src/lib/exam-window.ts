@@ -10,6 +10,7 @@ export const EXAM_WINDOW = {
 };
 
 export type ExamWindowStatus = "UPCOMING" | "OPEN" | "CLOSED";
+export type PortalOverride = "SCHEDULED" | "FORCE_OPEN" | "FORCE_CLOSED";
 
 export interface ExamWindowInfo {
   status: ExamWindowStatus;
@@ -18,9 +19,37 @@ export interface ExamWindowInfo {
   endDateStr: string;
   msUntilStart: number;
   msUntilEnd: number;
+  override?: PortalOverride;
 }
 
-export function getExamWindowInfo(currentDate: Date = new Date()): ExamWindowInfo {
+export function getExamWindowInfo(
+  currentDate: Date = new Date(),
+  override: PortalOverride = "SCHEDULED"
+): ExamWindowInfo {
+  if (override === "FORCE_OPEN") {
+    return {
+      status: "OPEN",
+      isOpen: true,
+      startDateStr: "Opened Manually by Administrator",
+      endDateStr: "Managed Manually by Administrator",
+      msUntilStart: 0,
+      msUntilEnd: 86400000,
+      override: "FORCE_OPEN",
+    };
+  }
+
+  if (override === "FORCE_CLOSED") {
+    return {
+      status: "CLOSED",
+      isOpen: false,
+      startDateStr: EXAM_WINDOW.START_DATE_STR,
+      endDateStr: "Closed Manually by Administrator",
+      msUntilStart: 0,
+      msUntilEnd: 0,
+      override: "FORCE_CLOSED",
+    };
+  }
+
   const now = currentDate.getTime();
 
   if (now < EXAM_WINDOW.START_TIMESTAMP) {
@@ -31,6 +60,7 @@ export function getExamWindowInfo(currentDate: Date = new Date()): ExamWindowInf
       endDateStr: EXAM_WINDOW.END_DATE_STR,
       msUntilStart: Math.max(0, EXAM_WINDOW.START_TIMESTAMP - now),
       msUntilEnd: Math.max(0, EXAM_WINDOW.END_TIMESTAMP - now),
+      override: "SCHEDULED",
     };
   }
 
@@ -42,6 +72,7 @@ export function getExamWindowInfo(currentDate: Date = new Date()): ExamWindowInf
       endDateStr: EXAM_WINDOW.END_DATE_STR,
       msUntilStart: 0,
       msUntilEnd: 0,
+      override: "SCHEDULED",
     };
   }
 
@@ -52,5 +83,6 @@ export function getExamWindowInfo(currentDate: Date = new Date()): ExamWindowInf
     endDateStr: EXAM_WINDOW.END_DATE_STR,
     msUntilStart: 0,
     msUntilEnd: Math.max(0, EXAM_WINDOW.END_TIMESTAMP - now),
+    override: "SCHEDULED",
   };
 }
