@@ -12,6 +12,10 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        sans: ["'Baloo Chettan 2'", "'Inter'", "-apple-system", "BlinkMacSystemFont", "sans-serif"],
+        malayalam: ["'Baloo Chettan 2'", "sans-serif"],
+      },
     },
   },
   plugins: [],

@@ -791,8 +791,8 @@ export default function TakeExamPage({ params }: { params: { id: string } }) {
                 )}
               </div>
 
-              {/* Options list */}
-              <div className="space-y-3 pt-2 flex-1">
+              {/* Options list: responsive 2-column on larger screens or spacious vertical grid */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5 pt-2">
                 {currentQ.options.map((opt, optIdx) => {
                   const isSelected = currentAnswer?.selectedOption === optIdx;
                   const label = String.fromCharCode(65 + optIdx); // A, B, C, D
@@ -806,31 +806,31 @@ export default function TakeExamPage({ params }: { params: { id: string } }) {
                       key={optIdx}
                       type="button"
                       onClick={() => handleSelectOption(optIdx)}
-                      className={`w-full text-left p-4 rounded-2xl border-2 transition-all flex items-start gap-3.5 group ${
+                      className={`w-full text-left p-4 sm:p-5 rounded-2xl border-2 transition-all flex items-start gap-3.5 group cursor-pointer ${
                         isSelected
-                          ? "border-blue-600 bg-blue-50/70 shadow-xs"
-                          : "border-slate-200 hover:border-slate-300 hover:bg-slate-50/80 bg-white"
+                          ? "border-blue-600 bg-blue-50/80 shadow-md ring-2 ring-blue-500/20"
+                          : "border-slate-200 hover:border-blue-300 hover:bg-slate-50/90 bg-white shadow-xs"
                       }`}
                     >
                       <span
-                        className={`w-7 h-7 rounded-xl flex items-center justify-center text-xs font-bold transition flex-shrink-0 ${
+                        className={`w-8 h-8 rounded-xl flex items-center justify-center text-sm font-black transition flex-shrink-0 ${
                           isSelected
-                            ? "bg-blue-600 text-white"
-                            : "bg-slate-100 text-slate-600 group-hover:bg-slate-200"
+                            ? "bg-blue-600 text-white shadow-xs"
+                            : "bg-slate-100 text-slate-700 group-hover:bg-blue-100 group-hover:text-blue-700"
                         }`}
                       >
                         {label}
                       </span>
                       <div className="flex-1">
                         <div
-                          className={`text-sm sm:text-base font-normal pt-0.5 leading-snug ${
-                            isSelected ? "text-blue-950 font-medium" : "text-slate-700"
+                          className={`text-sm sm:text-base leading-snug ${
+                            isSelected ? "text-blue-950 font-bold" : "text-slate-800 font-medium"
                           }`}
                         >
                           {displayOpt}
                         </div>
                         {medium === "MALAYALAM" && currentQ.optionsMl && currentQ.optionsMl[optIdx] && currentQ.optionsMl[optIdx] !== opt && (
-                          <div className="text-[11px] text-slate-400 font-normal italic pt-0.5">
+                          <div className="text-xs text-slate-400 font-normal italic pt-1 border-t border-slate-100 mt-1">
                             EN: {opt}
                           </div>
                         )}
@@ -839,51 +839,69 @@ export default function TakeExamPage({ params }: { params: { id: string } }) {
                   );
                 })}
               </div>
+
+              {/* Informative exam progress pill to wisely utilize remaining space */}
+              <div className="mt-auto pt-4 border-t border-slate-100 flex flex-wrap items-center justify-between gap-3 text-xs text-slate-500">
+                <div className="flex items-center gap-2">
+                  <span className="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+                  <span>
+                    {medium === "MALAYALAM"
+                      ? "തിരഞ്ഞെടുത്ത ഓപ്ഷൻ സ്വയം രേഖപ്പെടുത്തുന്നു"
+                      : "Answers save automatically when selected"}
+                  </span>
+                </div>
+                <div className="text-slate-400 font-medium">
+                  {medium === "MALAYALAM"
+                    ? `ചോദ്യം ${currentIndex + 1} / ${questions.length}`
+                    : `Question ${currentIndex + 1} of ${questions.length}`}
+                </div>
+              </div>
             </div>
           ) : (
             <div className="p-8 text-center text-slate-500">No question selected</div>
           )}
 
-          {/* Bottom Action Toolbar */}
-          <div className="bg-slate-50 border-t border-slate-200 p-4 sm:p-5 flex flex-wrap items-center justify-between gap-3">
-            <div className="flex items-center gap-2">
+          {/* Bottom Action Toolbar: Enlarged High-Visibility Buttons */}
+          <div className="bg-slate-50/90 border-t border-slate-200 p-4 sm:p-6 flex flex-wrap items-center justify-between gap-3">
+            <div className="flex items-center gap-2.5">
               <button
                 type="button"
                 onClick={handleClearResponse}
                 disabled={
                   currentAnswer?.selectedOption === null || currentAnswer?.selectedOption === undefined
                 }
-                className="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-semibold text-slate-600 hover:text-slate-900 hover:bg-slate-200/70 border border-slate-200 transition disabled:opacity-40 disabled:cursor-not-allowed"
+                className="inline-flex items-center gap-2 px-4 py-2.5 sm:py-3 rounded-xl text-xs sm:text-sm font-bold text-slate-600 hover:text-slate-900 hover:bg-slate-200/80 border border-slate-300 transition disabled:opacity-30 disabled:cursor-not-allowed"
               >
-                <RotateCcw className="w-3.5 h-3.5" />
+                <RotateCcw className="w-4 h-4" />
                 {t.clearSelection}
               </button>
 
               <button
                 type="button"
                 onClick={handleToggleMarkReview}
-                className={`inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-semibold border transition ${
+                className={`inline-flex items-center gap-2 px-4 py-2.5 sm:py-3 rounded-xl text-xs sm:text-sm font-bold border transition ${
                   currentAnswer?.isMarkedReview
-                    ? "bg-purple-50 text-purple-700 border-purple-300"
-                    : "bg-white text-slate-700 border-slate-200 hover:bg-slate-100"
+                    ? "bg-purple-100 text-purple-900 border-purple-400 shadow-xs"
+                    : "bg-white text-slate-700 border-slate-300 hover:bg-slate-100"
                 }`}
               >
-                <Bookmark className="w-3.5 h-3.5" />
+                <Bookmark className="w-4 h-4" />
                 {currentAnswer?.isMarkedReview ? t.removeReview : t.markForReview}
               </button>
             </div>
 
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-3">
               <button
                 type="button"
                 disabled={currentIndex === 0}
                 onClick={() => goToQuestion(currentIndex - 1)}
-                className="inline-flex items-center gap-1 px-4 py-2 rounded-xl text-xs font-semibold text-slate-700 bg-white border border-slate-200 hover:bg-slate-100 transition disabled:opacity-40 disabled:cursor-not-allowed"
+                className="inline-flex items-center gap-1.5 px-5 py-2.5 sm:py-3 rounded-xl text-xs sm:text-sm font-bold text-slate-700 bg-white border border-slate-300 hover:bg-slate-100 transition disabled:opacity-30 disabled:cursor-not-allowed shadow-xs"
               >
-                <ChevronLeft className="w-4 h-4" />
+                <ChevronLeft className="w-5 h-5" />
                 {t.previous}
               </button>
 
+              {/* Large High-Visibility Save & Next Button */}
               <button
                 type="button"
                 onClick={() => {
@@ -893,17 +911,17 @@ export default function TakeExamPage({ params }: { params: { id: string } }) {
                     setShowSubmitModal(true);
                   }
                 }}
-                className="inline-flex items-center gap-1.5 px-5 py-2 rounded-xl text-xs font-bold text-white bg-blue-600 hover:bg-blue-700 shadow-xs transition"
+                className="inline-flex items-center gap-2 px-7 sm:px-9 py-3 sm:py-3.5 rounded-2xl text-sm sm:text-base font-extrabold text-white bg-blue-600 hover:bg-blue-700 shadow-lg shadow-blue-600/30 hover:shadow-xl hover:shadow-blue-600/40 active:scale-[0.98] transition cursor-pointer"
               >
                 {currentIndex < questions.length - 1 ? (
                   <>
-                    {t.saveAndNext}
-                    <ChevronRight className="w-4 h-4" />
+                    <span>{t.saveAndNext}</span>
+                    <ChevronRight className="w-5 h-5" />
                   </>
                 ) : (
                   <>
-                    {t.reviewAndSubmit}
-                    <Send className="w-3.5 h-3.5" />
+                    <span>{t.reviewAndSubmit}</span>
+                    <Send className="w-4 h-4" />
                   </>
                 )}
               </button>
