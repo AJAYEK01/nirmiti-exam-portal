@@ -159,14 +159,9 @@ export async function POST(
       message: "Responses successfully submitted and locked for evaluation.",
     });
 
-    // Mark browser cookie to prevent re-entering exam
-    response.cookies.set("exam_completed", updatedAttempt.id, {
-      httpOnly: false,
-      secure: process.env.NODE_ENV === "production",
-      sameSite: "lax",
-      maxAge: 30 * 24 * 60 * 60, // 30 days
-      path: "/",
-    });
+    // Clear candidate session token and any completion locks so another student can use the device
+    response.cookies.delete("exam_token");
+    response.cookies.delete("exam_completed");
 
     return response;
   } catch (error) {

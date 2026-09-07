@@ -20,9 +20,11 @@ export default function ExamSubmittedPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Record submission flag in localStorage to guard this browser device
+    // Clear session tokens and local flags so the next student on this shared laptop can take the exam
     try {
-      localStorage.setItem("nirmiti_submitted_exam", "true");
+      localStorage.removeItem("nirmiti_submitted_exam");
+      document.cookie = "exam_token=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+      document.cookie = "exam_completed=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT";
     } catch {}
 
     fetch("/api/auth/me")
@@ -120,14 +122,29 @@ export default function ExamSubmittedPage() {
           </div>
         </div>
 
-        {/* Footer actions */}
-        <div className="pt-2 text-center">
+        {/* Footer actions - school computer reuse support */}
+        <div className="pt-2 flex flex-col sm:flex-row items-center justify-center gap-3">
           <Link
             href="/"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs shadow-md transition"
+            onClick={() => {
+              try {
+                localStorage.removeItem("nirmiti_submitted_exam");
+                document.cookie = "exam_token=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+                document.cookie = "exam_completed=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+              } catch {}
+            }}
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-2xl bg-blue-600 hover:bg-blue-700 text-white font-extrabold text-sm shadow-lg shadow-blue-600/30 transition cursor-pointer"
+          >
+            <Sparkles className="w-4 h-4 text-amber-300" />
+            അടുത്ത കുട്ടിയുടെ പരീക്ഷ ആരംഭിക്കുക / Next Student Exam
+          </Link>
+
+          <Link
+            href="/"
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-3.5 rounded-2xl bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs transition"
           >
             <Home className="w-4 h-4" />
-            Return to Portal Home
+            ഹോം പേജ് / Return to Home
           </Link>
         </div>
       </div>

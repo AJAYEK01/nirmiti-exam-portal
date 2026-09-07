@@ -98,16 +98,14 @@ export default function HomePage() {
   const [loading, setLoading] = useState(false);
   const [user, setUser] = useState<any>(null);
   const [windowInfo, setWindowInfo] = useState(getExamWindowInfo());
-  const [hasAlreadySubmitted, setHasAlreadySubmitted] = useState(false);
 
   const t = medium === "MALAYALAM" ? TRANSLATIONS.ml : TRANSLATIONS.en;
 
   useEffect(() => {
-    // Check if this browser already submitted an exam
+    // Ensure school shared laptops have clean storage and cookies ready for any student
     try {
-      if (localStorage.getItem("nirmiti_submitted_exam") === "true") {
-        setHasAlreadySubmitted(true);
-      }
+      localStorage.removeItem("nirmiti_submitted_exam");
+      document.cookie = "exam_completed=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT";
     } catch {}
 
     fetch("/api/auth/me")
@@ -417,41 +415,13 @@ export default function HomePage() {
                 </p>
               </div>
 
-              {/* Already Submitted Notice */}
-              {hasAlreadySubmitted && !isAdmin ? (
-                <div className="p-6 rounded-2xl bg-emerald-50 border-2 border-emerald-300 text-center space-y-3">
-                  <div className="w-12 h-12 rounded-2xl bg-emerald-100 text-emerald-700 flex items-center justify-center mx-auto">
-                    <CheckCircle2 className="w-6 h-6" />
-                  </div>
-                  <h3 className="text-base font-black text-emerald-950">
-                    {medium === "MALAYALAM"
-                      ? "നിങ്ങൾ പരീക്ഷ വിജയകരമായി പൂർത്തിയാക്കി!"
-                      : "Examination Already Completed!"}
-                  </h3>
-                  <p className="text-xs sm:text-sm text-emerald-800 max-w-md mx-auto">
-                    {medium === "MALAYALAM"
-                      ? "ഈ ഉപകരണത്തിൽ നിന്ന് പരീക്ഷ രേഖപ്പെടുത്തി സുരക്ഷിതമായി സമർപ്പിച്ചിരിക്കുന്നു. സ്കൂൾ തിരിച്ചുള്ള ഫലങ്ങൾ സംഘാടകർ ഔദ്യോഗികമായി പ്രഖ്യാപിക്കുന്നതാണ്."
-                      : "Your responses have been successfully submitted and locked. School-wise winners will be officially announced by the organizers."}
-                  </p>
-                  <div className="pt-2">
-                    <Link
-                      href="/submitted"
-                      className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-emerald-700 hover:bg-emerald-800 text-white text-xs font-bold transition"
-                    >
-                      <FileCheck className="w-4 h-4" />
-                      {medium === "MALAYALAM" ? "രസീത് കാണുക" : "View Submission Receipt"}
-                    </Link>
-                  </div>
+              {error && (
+                <div className="p-3.5 rounded-2xl bg-rose-50 border border-rose-200 text-rose-700 text-xs font-semibold">
+                  {error}
                 </div>
-              ) : (
-                <>
-                  {error && (
-                    <div className="p-3.5 rounded-2xl bg-rose-50 border border-rose-200 text-rose-700 text-xs font-semibold">
-                      {error}
-                    </div>
-                  )}
+              )}
 
-                  <form onSubmit={handleStartExam} className="space-y-4">
+              <form onSubmit={handleStartExam} className="space-y-4">
                 {/* Full Name */}
                 <div className="space-y-1">
                   <label className="text-xs font-bold text-slate-700 flex items-center gap-1.5">
@@ -602,8 +572,6 @@ export default function HomePage() {
                   </button>
                 </div>
                   </form>
-                </>
-              )}
             </div>
           </div>
         </div>

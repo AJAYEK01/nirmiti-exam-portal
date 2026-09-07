@@ -53,24 +53,11 @@ export async function POST(req: NextRequest) {
 
     const normInputName = normalize(trimmedName);
     const normInputSchool = normalize(trimmedSchool);
-
-    // Also check if browser sent exam_completed cookie
-    const completedCookie = req.cookies.get("exam_completed")?.value;
-    if (completedCookie) {
-      return NextResponse.json(
-        {
-          error: isMalayalam
-            ? "ഈ ഉപകരണത്തിൽ നിന്ന് ഇതിനകം പരീക്ഷ സമർപ്പിച്ചതാണ്. ഒരു വിദ്യാർത്ഥിക്ക് ഒരു തവണ മാത്രമേ പരീക്ഷ എഴുതാൻ സാധിക്കൂ."
-            : "An examination has already been completed and submitted from this device. Multiple attempts are strictly prohibited.",
-          alreadySubmitted: true,
-          attemptId: completedCookie,
-        },
-        { status: 400 }
-      );
-    }
+    const normInputRoll = normalize(trimmedRoll);
+    const normInputClass = normalize(trimmedClass);
 
     // Strict Malpractice Check: A student cannot enter the exam twice.
-    // Query existing student candidates to check normalized names & schools
+    // Query existing student candidates to verify identity by School + Class + Roll Number + Exact Name
     const existingCandidates = await prisma.user.findMany({
       where: {
         role: "STUDENT",
@@ -85,27 +72,42 @@ export async function POST(req: NextRequest) {
     for (const cand of existingCandidates) {
       const candNormName = normalize(cand.name);
       const candNormSchool = normalize(cand.schoolName || "");
+      const candNormRoll = normalize(cand.rollNumber || "");
+      const candNormClass = normalize(cand.className || "");
 
-      // Match if school matches (or is identical) and name is matching/fuzzy match
+      // Match if school matches
       const schoolMatches =
         candNormSchool === normInputSchool ||
         candNormSchool.includes(normInputSchool) ||
         normInputSchool.includes(candNormSchool);
 
-      const nameMatches =
-        candNormName === normInputName ||
-        (normInputName.length >= 3 && candNormName.includes(normInputName)) ||
-        (candNormName.length >= 3 && normInputName.includes(candNormName));
+      if (!schoolMatches) continue;
 
-      if (schoolMatches && nameMatches) {
+      // Exact name match (prevents "yadhu" from blocking distinct students "yadhu a" or "yadhu a r")
+      const exactNameMatches = candNormName === normInputName;
+      // Exact roll number match within school class
+      const rollMatches = candNormRoll !== "" && normInputRoll !== "" && candNormRoll === normInputRoll;
+      // Class / Division match
+      const classMatches = candNormClass !== "" && normInputClass !== "" && candNormClass === normInputClass;
+
+      // An attempt is identified as a duplicate submission if:
+      // 1. Same School + Same Class/Division + Same Roll Number (definitively same student)
+      // 2. Same School + Exact Same Full Name + Same Class/Division
+      // 3. Same School + Exact Same Full Name + Same Roll Number
+      const isDuplicateStudent =
+        (classMatches && rollMatches) ||
+        (exactNameMatches && classMatches) ||
+        (exactNameMatches && rollMatches);
+
+      if (isDuplicateStudent) {
         for (const att of cand.attempts) {
           // If already submitted, reject with strict notice
           if (att.submittedAt) {
             return NextResponse.json(
               {
                 error: isMalayalam
-                  ? `നിങ്ങൾ (${cand.name}, ${cand.schoolName}) ഇതിനകം പരീക്ഷ എഴുതി സമർപ്പിച്ചതാണ്. ഒരു വിദ്യാർത്ഥിക്ക് ഒരു തവണ മാത്രമേ പരീക്ഷ എഴുതാൻ സാധിക്കൂ.`
-                  : `Candidate (${cand.name}, ${cand.schoolName}) has already submitted this examination. Multiple attempts are strictly prohibited.`,
+                  ? `വിദ്യാർത്ഥി (${cand.name}, റോൾ നമ്പർ: ${cand.rollNumber || "N/A"}) ഇതിനകം പരീക്ഷ എഴുതി സമർപ്പിച്ചതാണ്. ഒരു വിദ്യാർത്ഥിക്ക് ഒരു തവണ മാത്രമേ പരീക്ഷ എഴുതാൻ സാധിക്കൂ.`
+                  : `Candidate (${cand.name}, Roll No: ${cand.rollNumber || "N/A"}) has already submitted this examination. Multiple attempts are strictly prohibited.`,
                 alreadySubmitted: true,
                 attemptId: att.id,
               },
