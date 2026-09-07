@@ -571,6 +571,9 @@ export default function TakeExamPage({ params }: { params: { id: string } }) {
               <li>
                 <strong>{t.rule4Title}:</strong> {t.rule4Desc}
               </li>
+              <li className="text-blue-700 font-medium">
+                <strong>{t.rule5Title}:</strong> {t.rule5Desc}
+              </li>
             </ul>
 
             {/* Color Code Legend */}
@@ -749,6 +752,17 @@ export default function TakeExamPage({ params }: { params: { id: string } }) {
                 </div>
 
                 <div className="flex items-center gap-2 text-xs font-bold">
+                  {/* Inline per-question language toggle */}
+                  <button
+                    type="button"
+                    onClick={() => setMedium((prev) => (prev === "ENGLISH" ? "MALAYALAM" : "ENGLISH"))}
+                    className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg border border-blue-200 bg-blue-50/80 hover:bg-blue-100 text-blue-800 transition font-bold text-xs"
+                    title="Switch Question Language / ചോദ്യം മാധ്യമം മാറ്റുക"
+                  >
+                    <Globe className="w-3.5 h-3.5 text-blue-600" />
+                    {medium === "MALAYALAM" ? "English-ൽ കാണുക" : "മലയാളത്തിൽ കാണുക"}
+                  </button>
+
                   <span className="px-2.5 py-1 rounded-lg bg-emerald-50 text-emerald-700 border border-emerald-200">
                     +{currentQ.marks} {t.marks}
                   </span>
@@ -761,8 +775,20 @@ export default function TakeExamPage({ params }: { params: { id: string } }) {
               </div>
 
               {/* Question Text */}
-              <div className="text-base sm:text-lg font-medium text-slate-800 leading-relaxed">
-                {medium === "MALAYALAM" && currentQ.textMl ? currentQ.textMl : currentQ.text}
+              <div className="space-y-2">
+                <div className="text-base sm:text-lg font-medium text-slate-800 leading-relaxed">
+                  {medium === "MALAYALAM" && currentQ.textMl ? currentQ.textMl : currentQ.text}
+                </div>
+
+                {/* Helpful English Reference in Malayalam mode */}
+                {medium === "MALAYALAM" && currentQ.textMl && (
+                  <div className="text-xs sm:text-sm text-slate-500 font-normal bg-slate-50 border border-slate-200 rounded-xl px-3 py-2 flex items-start gap-2">
+                    <span className="font-bold text-slate-400 uppercase text-[10px] tracking-wider mt-0.5 flex-shrink-0">
+                      EN Reference:
+                    </span>
+                    <span className="italic">{currentQ.text}</span>
+                  </div>
+                )}
               </div>
 
               {/* Options list */}
@@ -795,13 +821,20 @@ export default function TakeExamPage({ params }: { params: { id: string } }) {
                       >
                         {label}
                       </span>
-                      <span
-                        className={`text-sm sm:text-base font-normal pt-0.5 leading-snug ${
-                          isSelected ? "text-blue-950 font-medium" : "text-slate-700"
-                        }`}
-                      >
-                        {displayOpt}
-                      </span>
+                      <div className="flex-1">
+                        <div
+                          className={`text-sm sm:text-base font-normal pt-0.5 leading-snug ${
+                            isSelected ? "text-blue-950 font-medium" : "text-slate-700"
+                          }`}
+                        >
+                          {displayOpt}
+                        </div>
+                        {medium === "MALAYALAM" && currentQ.optionsMl && currentQ.optionsMl[optIdx] && currentQ.optionsMl[optIdx] !== opt && (
+                          <div className="text-[11px] text-slate-400 font-normal italic pt-0.5">
+                            EN: {opt}
+                          </div>
+                        )}
+                      </div>
                     </button>
                   );
                 })}

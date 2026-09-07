@@ -38,6 +38,8 @@ export const TRANSLATIONS = {
     rule3Desc: "Selected based on highest score achieved in the shortest completion time.",
     rule4Title: "Strict Confidentiality",
     rule4Desc: "To preserve competition integrity, answers and scores are confidential and not disclosed to students.",
+    rule5Title: "Instant Bilingual Switching (English & മലയാളം)",
+    rule5Desc: "You can toggle any question between English and Malayalam at any time using the language button without losing your selected answer.",
 
     // Test Screen Controls
     question: "Question",
@@ -108,6 +110,8 @@ export const TRANSLATIONS = {
     rule3Desc: "ഏറ്റവും കുറഞ്ഞ സമയത്തിനുള്ളിൽ ഏറ്റവും കൂടുതൽ മാർക്ക് നേടുന്ന രണ്ട് പേരെ തിരഞ്ഞെടുക്കും.",
     rule4Title: "പൂർണ്ണ രഹസ്യാത്മകത",
     rule4Desc: "മത്സരത്തിന്റെ കൃത്യത ഉറപ്പാക്കാൻ ഉത്തരങ്ങളും മാർക്കും വിദ്യാർത്ഥികൾക്ക് കാണാൻ സാധിക്കില്ല.",
+    rule5Title: "ഇംഗ്ലീഷിലേക്കും മലയാളത്തിലേക്കും എളുപ്പത്തിൽ മാറ്റാം (Bilingual Switching)",
+    rule5Desc: "മലയാളം ചോദ്യത്തിൽ സംശയമുണ്ടെങ്കിൽ മുകളിലെ 'English / മലയാളം' ബട്ടൺ ഉപയോഗിച്ച് ആ ചോദ്യം ഇംഗ്ലീഷിലോ മലയാളത്തിലോ ഉടൻ കാണാം. ഉത്തരങ്ങൾ നഷ്ടപ്പെടില്ല.",
 
     // Test Screen Controls
     question: "ചോദ്യം",

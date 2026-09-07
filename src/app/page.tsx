@@ -21,9 +21,10 @@ import {
   Phone,
   Mail,
   FileText,
+  FileCheck,
+  Globe,
   CheckCircle,
   CheckCircle2,
-  FileCheck,
 } from "lucide-react";
 import { POPULAR_SCHOOLS } from "@/lib/schools-data";
 import {
@@ -371,6 +372,14 @@ export default function HomePage() {
                   <div>
                     <strong className="text-slate-900 block font-bold">{t.rule4Title}</strong>
                     <span>{t.rule4Desc}</span>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3 p-3 rounded-2xl bg-blue-50/70 border border-blue-200">
+                  <Globe className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
+                  <div>
+                    <strong className="text-slate-900 block font-bold">{t.rule5Title}</strong>
+                    <span>{t.rule5Desc}</span>
                   </div>
                 </div>
 
