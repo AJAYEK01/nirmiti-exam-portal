@@ -26,9 +26,7 @@ export async function POST(
         success: true,
         alreadySubmitted: true,
         attemptId: attempt.id,
-        score: attempt.score,
-        timeTakenSeconds: attempt.timeTakenSeconds,
-        isPassed: attempt.isPassed,
+        message: "Exam has already been submitted.",
       });
     }
 
@@ -162,14 +160,7 @@ export async function POST(
     return NextResponse.json({
       success: true,
       attemptId: updatedAttempt.id,
-      score: updatedAttempt.score,
-      totalMarks: 25,
-      isPassed: updatedAttempt.isPassed,
-      timeTakenSeconds,
-      correctCount,
-      incorrectCount,
-      unattemptedCount,
-      percentage: Math.round((score / 25) * 100),
+      message: "Responses successfully submitted and locked for evaluation.",
     });
   } catch (error) {
     console.error("Submit exam error:", error);

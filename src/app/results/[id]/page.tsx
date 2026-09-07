@@ -76,6 +76,36 @@ export default function ResultPage({ params }: { params: { id: string } }) {
     );
   }
 
+  if (data?.confidential || data?.error) {
+    return (
+      <div className="max-w-lg mx-auto py-16 px-4 text-center space-y-5">
+        <div className="w-16 h-16 rounded-3xl bg-amber-100 text-amber-700 flex items-center justify-center mx-auto shadow-md">
+          <ShieldAlert className="w-9 h-9" />
+        </div>
+        <h2 className="text-xl font-black text-slate-900">Official Evaluation Confidential</h2>
+        <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+          In accordance with examination policy, individual marks, scores, and answer keys are kept <b>strictly confidential</b>. Individual scorecards are restricted to authorized examiners.
+        </p>
+        <div className="pt-2 flex flex-wrap items-center justify-center gap-3">
+          <Link
+            href={`/submitted?attemptId=${attemptId}`}
+            className="inline-flex items-center gap-2 px-5 py-2.5 bg-blue-600 hover:bg-blue-700 text-white rounded-xl text-xs font-bold shadow-sm"
+          >
+            <FileCheck className="w-4 h-4" />
+            View Submission Receipt
+          </Link>
+          <Link
+            href="/"
+            className="inline-flex items-center gap-2 px-5 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-xl text-xs font-bold"
+          >
+            <Home className="w-4 h-4" />
+            Return Home
+          </Link>
+        </div>
+      </div>
+    );
+  }
+
   if (!data || !data.attempt) {
     return (
       <div className="max-w-lg mx-auto py-16 text-center space-y-4">

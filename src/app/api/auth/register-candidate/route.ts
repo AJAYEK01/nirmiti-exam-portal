@@ -1,9 +1,28 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/db";
-import { signToken } from "@/lib/auth";
+import { signToken, getSession } from "@/lib/auth";
+import { getExamWindowInfo } from "@/lib/exam-window";
 
 export async function POST(req: NextRequest) {
   try {
+    // Enforce examination window on the server (Sept 9, 2026, 10:00 AM - 10:00 PM IST)
+    const session = await getSession();
+    if (session?.role !== "ADMIN") {
+      const windowInfo = getExamWindowInfo();
+      if (!windowInfo.isOpen) {
+        return NextResponse.json(
+          {
+            error:
+              windowInfo.status === "UPCOMING"
+                ? `Registration will open on ${windowInfo.startDateStr}. Please return on September 9 at 10:00 AM IST.`
+                : `The examination portal closed on ${windowInfo.endDateStr}. Registrations are closed.`,
+            windowStatus: windowInfo.status,
+          },
+          { status: 403 }
+        );
+      }
+    }
+
     const { name, schoolName, className, medium, parentMobile } = await req.json();
 
     if (!name?.trim()) {

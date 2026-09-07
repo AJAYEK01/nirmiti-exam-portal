@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/db";
 import { getSession } from "@/lib/auth";
+import { getExamWindowInfo } from "@/lib/exam-window";
 
 // Fisher-Yates shuffle array helper
 function shuffleArray<T>(array: T[]): T[] {
@@ -24,6 +25,25 @@ export async function POST(
         { error: "Candidate session not found. Please register first." },
         { status: 401 }
       );
+    }
+
+    // Server-side enforcement of exam schedule (Sept 9, 2026, 10:00 AM - 10:00 PM IST)
+    // Authorized Admins can bypass for testing
+    if (session.role !== "ADMIN") {
+      const windowInfo = getExamWindowInfo();
+      if (!windowInfo.isOpen) {
+        return NextResponse.json(
+          {
+            error:
+              windowInfo.status === "UPCOMING"
+                ? `The examination portal is scheduled to open on ${windowInfo.startDateStr}. Please return at 10:00 AM IST.`
+                : `The examination portal closed on ${windowInfo.endDateStr}. Submissions are no longer accepted.`,
+            windowStatus: windowInfo.status,
+            isOpen: false,
+          },
+          { status: 403 }
+        );
+      }
     }
 
     const exam = await prisma.exam.findUnique({
@@ -147,9 +167,19 @@ export async function POST(
       };
     });
 
+    const dbUser = await prisma.user.findUnique({
+      where: { id: session.id },
+      select: { name: true, medium: true, schoolName: true },
+    });
+
     return NextResponse.json({
       attemptId: attempt.id,
       remainingSeconds,
+      candidate: {
+        name: dbUser?.name || session.name,
+        medium: dbUser?.medium || "ENGLISH",
+        schoolName: dbUser?.schoolName,
+      },
       exam: {
         id: exam.id,
         title: exam.title,

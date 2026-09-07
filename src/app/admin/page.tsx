@@ -19,6 +19,7 @@ import {
   ChevronUp,
   Sparkles,
 } from "lucide-react";
+import { MicrochipGraphic, CircuitBoardBg, HardwareSensorIcon, HardwareRoboticsIcon } from "@/components/HardwareGraphics";
 
 interface SchoolCandidate {
   attemptId: string;
@@ -175,29 +176,37 @@ export default function AdminDashboardPage() {
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-8">
-      {/* Header Bar */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-        <div>
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-50 text-blue-700 border border-blue-200 text-xs font-bold mb-2">
-            <LayoutDashboard className="w-3.5 h-3.5" />
-            Administrator Control Center
-          </div>
-          <h1 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
-            School Toppers & Submissions Portal
-          </h1>
-          <p className="text-xs sm:text-sm text-slate-500">
-            Automated ranking engine: selects the top 2 candidates per school with the <b>highest score in least completion time</b>.
-          </p>
-        </div>
+      {/* Header Bar with Hardware Hackathon SVG Banner */}
+      <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-slate-900 via-blue-950 to-indigo-950 text-white p-6 sm:p-8 shadow-xl border border-blue-800/40">
+        <CircuitBoardBg className="absolute inset-0 w-full h-full opacity-35" />
 
-        <div className="flex items-center gap-2">
-          <button
-            onClick={handleExportFinalistsCSV}
-            className="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white text-xs sm:text-sm font-bold py-2.5 px-4 rounded-xl shadow-md shadow-emerald-600/20 transition"
-          >
-            <Download className="w-4 h-4" />
-            Export Top 2 per School (CSV)
-          </button>
+        <div className="relative z-10 flex flex-col sm:flex-row sm:items-center justify-between gap-6">
+          <div className="space-y-2 max-w-2xl">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/20 text-blue-300 border border-blue-400/30 text-xs font-bold backdrop-blur-sm">
+              <HardwareSensorIcon className="w-3.5 h-3.5 text-blue-400" />
+              <span>Hardware Hackathon Evaluation Core</span>
+            </div>
+            <h1 className="text-2xl sm:text-3xl font-black tracking-tight">
+              School Toppers &amp; Submissions Portal
+            </h1>
+            <p className="text-xs sm:text-sm text-slate-300">
+              Automated ranking engine: selects the top 2 candidates per school with the{" "}
+              <b>highest score in least completion time</b>. All individual marksheets are printable with audited timestamps.
+            </p>
+          </div>
+
+          <div className="flex items-center gap-3">
+            <div className="hidden lg:block">
+              <MicrochipGraphic className="w-16 h-16 opacity-75" />
+            </div>
+            <button
+              onClick={handleExportFinalistsCSV}
+              className="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white text-xs sm:text-sm font-bold py-2.5 px-4 rounded-xl shadow-md shadow-emerald-600/20 transition whitespace-nowrap"
+            >
+              <Download className="w-4 h-4" />
+              Export Top 2 per School (CSV)
+            </button>
+          </div>
         </div>
       </div>
 

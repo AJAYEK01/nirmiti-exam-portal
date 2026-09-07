@@ -19,6 +19,7 @@ import {
   User,
   FileText,
 } from "lucide-react";
+import { MicrochipGraphic, CircuitBoardBg, HardwareSensorIcon } from "@/components/HardwareGraphics";
 
 interface Candidate {
   name: string;
@@ -166,16 +167,23 @@ export default function AdminMarksheetPage() {
 
       {/* Marksheet document */}
       <div className="max-w-4xl mx-auto px-4 py-8 print:p-0 print:max-w-none">
-        <div className="bg-white border-2 border-slate-800 rounded-xl print:rounded-none overflow-hidden shadow-2xl print:shadow-none">
-          {/* Header */}
-          <div className="bg-blue-900 text-white p-6 sm:p-8">
-            <div className="text-center space-y-2">
+        <div className="bg-white border-2 border-slate-800 rounded-xl print:rounded-none overflow-hidden shadow-2xl print:shadow-none relative">
+          {/* Official Security Watermark */}
+          <div className="absolute inset-0 flex items-center justify-center pointer-events-none opacity-[0.035] select-none rotate-[-30deg] z-0">
+            <span className="text-5xl sm:text-7xl font-black uppercase text-slate-900 tracking-widest text-center leading-tight">
+              STATE TALENT ASSESSMENT 2026<br />OFFICIAL VERIFIED EVALUATION
+            </span>
+          </div>
+
+          {/* Header with Hardware Graphics */}
+          <div className="relative bg-gradient-to-r from-blue-950 via-slate-900 to-indigo-950 text-white p-6 sm:p-8 overflow-hidden z-10">
+            <CircuitBoardBg className="absolute inset-0 w-full h-full opacity-25" />
+
+            <div className="relative z-10 text-center space-y-2">
               <div className="flex items-center justify-center gap-3 mb-2">
+                <MicrochipGraphic className="w-10 h-10 opacity-90" />
                 <div className="w-10 h-10 rounded-full bg-white/10 border border-white/30 flex items-center justify-center">
                   <Award className="w-5 h-5 text-amber-300" />
-                </div>
-                <div className="w-10 h-10 rounded-full bg-white/10 border border-white/30 flex items-center justify-center">
-                  <FileText className="w-5 h-5 text-blue-200" />
                 </div>
               </div>
               <h1 className="text-xl sm:text-2xl font-black tracking-tight uppercase">
@@ -444,8 +452,16 @@ export default function AdminMarksheetPage() {
 
       <style>{`
         @media print {
+          @page {
+            size: A4 portrait;
+            margin: 10mm;
+          }
           .no-print { display: none !important; }
-          body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+          body {
+            -webkit-print-color-adjust: exact !important;
+            print-color-adjust: exact !important;
+            background: #ffffff !important;
+          }
           * { box-shadow: none !important; }
         }
       `}</style>
