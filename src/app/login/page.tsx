@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { GraduationCap, ShieldCheck, User, LogIn, Sparkles, ArrowRight } from "lucide-react";
+import { ShieldCheck, LogIn, ArrowLeft, Lock } from "lucide-react";
 
 export default function LoginPage() {
   const router = useRouter();
@@ -26,7 +26,7 @@ export default function LoginPage() {
 
       const data = await res.json();
       if (!res.ok) {
-        setError(data.error || "Login failed");
+        setError(data.error || "Login failed. Please check your credentials.");
         setLoading(false);
         return;
       }
@@ -49,40 +49,39 @@ export default function LoginPage() {
         {/* Header */}
         <div className="text-center space-y-2">
           <div className="h-12 w-12 rounded-2xl bg-blue-600 text-white mx-auto flex items-center justify-center shadow-lg shadow-blue-500/20">
-            <GraduationCap className="w-6 h-6" />
+            <Lock className="w-6 h-6 text-amber-300" />
           </div>
           <h2 className="text-2xl font-black text-slate-900 tracking-tight">
-            Sign In to NIRMITI Portal
+            Examiner Sign In
           </h2>
-          <p className="text-xs text-slate-500">
-            Access proctored online objective exams or manage question banks.
+          <p className="text-xs text-slate-500 max-w-sm mx-auto">
+            Restricted administrative access for authorized examiners and administrators only.
           </p>
         </div>
 
-
         {/* Login Form */}
-        <div className="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm space-y-6">
+        <div className="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm space-y-6">
           {error && (
-            <div className="p-3 rounded-xl bg-rose-50 border border-rose-200 text-rose-700 text-xs font-medium">
+            <div className="p-3.5 rounded-xl bg-rose-50 border border-rose-200 text-rose-700 text-xs font-semibold">
               {error}
             </div>
           )}
 
           <form onSubmit={handleLogin} className="space-y-4">
             <div className="space-y-1">
-              <label className="text-xs font-bold text-slate-700">Email Address</label>
+              <label className="text-xs font-bold text-slate-700">Examiner Email Address</label>
               <input
                 type="email"
                 required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="you@example.com"
+                placeholder="examiner@exam.com"
                 className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm bg-slate-50 focus:bg-white transition"
               />
             </div>
 
             <div className="space-y-1">
-              <label className="text-xs font-bold text-slate-700">Password</label>
+              <label className="text-xs font-bold text-slate-700">Examiner Password</label>
               <input
                 type="password"
                 required
@@ -96,23 +95,20 @@ export default function LoginPage() {
             <button
               type="submit"
               disabled={loading}
-              className="w-full mt-2 inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm py-2.5 px-4 rounded-xl shadow-sm transition disabled:opacity-50"
+              className="w-full mt-2 inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm py-3 px-4 rounded-xl shadow-md shadow-blue-600/20 transition disabled:opacity-50"
             >
               <LogIn className="w-4 h-4" />
-              {loading ? "Authenticating..." : "Sign In to Exam Portal"}
+              {loading ? "Verifying Credentials..." : "Sign In to Admin Portal"}
             </button>
           </form>
 
           <div className="text-center pt-2 border-t border-slate-100">
-            <p className="text-xs text-slate-500">
-              Don't have an account yet?{" "}
-              <Link
-                href="/register"
-                className="font-bold text-blue-600 hover:underline inline-flex items-center gap-0.5"
-              >
-                Register as Student <ArrowRight className="w-3 h-3" />
-              </Link>
-            </p>
+            <Link
+              href="/"
+              className="text-xs font-bold text-slate-500 hover:text-blue-600 inline-flex items-center gap-1 transition"
+            >
+              <ArrowLeft className="w-3.5 h-3.5" /> Back to Student Exam Portal
+            </Link>
           </div>
         </div>
       </div>
