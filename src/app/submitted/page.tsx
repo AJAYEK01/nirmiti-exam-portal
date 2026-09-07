@@ -1,129 +1,60 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import Link from "next/link";
 import {
   CheckCircle2,
-  ShieldCheck,
-  Building2,
-  Phone,
-  Clock,
-  Home,
-  FileCheck,
-  Lock,
   Sparkles,
+  ArrowRight,
+  ShieldCheck,
 } from "lucide-react";
-import { MicrochipGraphic, CircuitBoardBg } from "@/components/HardwareGraphics";
+import { CircuitBoardBg } from "@/components/HardwareGraphics";
 
 export default function ExamSubmittedPage() {
-  const [candidateData, setCandidateData] = useState<any>(null);
-  const [loading, setLoading] = useState(true);
-
   useEffect(() => {
-    // Clear session tokens and local flags so the next student on this shared laptop can take the exam
+    // Clean up all local session data and cookies so any next student on this shared laptop can take the exam smoothly
     try {
       localStorage.removeItem("nirmiti_submitted_exam");
       document.cookie = "exam_token=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT";
       document.cookie = "exam_completed=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT";
     } catch {}
-
-    fetch("/api/auth/me")
-      .then((r) => r.json())
-      .then((d) => {
-        if (d.user) setCandidateData(d.user);
-      })
-      .catch(() => {})
-      .finally(() => setLoading(false));
   }, []);
-
-  const submissionDate = new Date();
 
   return (
     <div className="min-h-[85vh] flex items-center justify-center px-4 py-12 relative overflow-hidden">
-      {/* Background Hardware Hackathon circuit traces */}
+      {/* Background Hardware circuit traces */}
       <CircuitBoardBg />
 
-      <div className="max-w-2xl w-full bg-white/95 backdrop-blur-md rounded-3xl border border-slate-200 shadow-xl p-6 sm:p-10 space-y-8 relative z-10">
-        {/* Success Icon & Header */}
-        <div className="text-center space-y-3">
-          <div className="w-16 h-16 rounded-3xl bg-emerald-100 text-emerald-600 flex items-center justify-center mx-auto shadow-md shadow-emerald-500/10">
-            <CheckCircle2 className="w-9 h-9" />
-          </div>
+      <div className="max-w-xl w-full bg-white/95 backdrop-blur-md rounded-3xl border border-slate-200 shadow-xl p-8 sm:p-12 text-center space-y-6 relative z-10">
+        {/* Success Icon */}
+        <div className="w-20 h-20 rounded-3xl bg-emerald-100 text-emerald-600 flex items-center justify-center mx-auto shadow-md shadow-emerald-500/15">
+          <CheckCircle2 className="w-12 h-12" />
+        </div>
 
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-50 text-blue-800 border border-blue-200 text-xs font-bold">
-            <ShieldCheck className="w-3.5 h-3.5 text-blue-600" />
-            NIRMITI 2026 — Verified &amp; Securely Stored
-          </div>
+        {/* Verified Badge */}
+        <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-200 text-xs font-bold font-manjari">
+          <ShieldCheck className="w-4 h-4 text-emerald-600" />
+          NIRMITI 2026 — ഉത്തരങ്ങൾ സുരക്ഷിതമായി സമർപ്പിച്ചു
+        </div>
 
-          <h1 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
-            Examination Successfully Submitted!
+        {/* Title & Bilingual Message */}
+        <div className="space-y-3">
+          <h1 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight font-baloo">
+            പരീക്ഷ വിജയകരമായി സമർപ്പിച്ചു!
           </h1>
-          <p className="text-xs sm:text-sm text-slate-600">
-            Your 25 responses have been safely locked in the cloud evaluation repository.
+          <p className="text-sm sm:text-base font-bold text-slate-700 font-sans">
+            Examination Successfully Submitted
+          </p>
+          <p className="text-xs sm:text-sm text-slate-600 font-manjari leading-relaxed max-w-md mx-auto">
+            നിങ്ങളുടെ 25 ഉത്തരങ്ങളും ക്ലൗഡ് സെർവറിൽ വിജയകരമായി രേഖപ്പെടുത്തിയിരിക്കുന്നു. ഓരോ സ്കൂളിൽ നിന്നും തിരഞ്ഞെടുക്കപ്പെടുന്ന 2 വിജയികളെ (Top 2 Finalists) സംഘാടകർ ഔദ്യോഗികമായി അറിയിക്കുന്നതാണ്. പങ്കെടുത്തതിന് നന്ദി!
+          </p>
+          <p className="text-xs text-slate-500 font-sans leading-relaxed max-w-md mx-auto">
+            Your 25 responses have been safely received and locked. The selected Top 2 finalists from each school will be officially announced by the organizers. Thank you for participating!
           </p>
         </div>
 
-        {/* Confidentiality Alert Box */}
-        <div className="p-5 rounded-2xl bg-amber-50/80 border border-amber-200/90 text-amber-950 space-y-2">
-          <div className="flex items-center gap-2 font-bold text-xs sm:text-sm text-amber-900">
-            <Lock className="w-4 h-4 text-amber-600 flex-shrink-0" />
-            <span>Strict Evaluation &amp; Confidentiality Policy</span>
-          </div>
-          <p className="text-xs text-amber-900/90 leading-relaxed">
-            In accordance with state examination rules, individual marks, scores, and answer keys are kept <b>strictly confidential</b> to guarantee complete competition fairness. <b>Scores and answers will not be displayed to candidates.</b>
-          </p>
-          <p className="text-[11px] text-amber-800 font-semibold pt-1 border-t border-amber-200/60">
-            📢 The selected <b>Top 2 Finalists from each school</b> (evaluated by highest score in least time) will be officially announced by the organizers.
-          </p>
-        </div>
-
-        {/* Official Submission Receipt */}
-        <div className="bg-slate-50 rounded-2xl border border-slate-200 p-5 space-y-4 text-xs sm:text-sm">
-          <div className="flex items-center justify-between pb-3 border-b border-slate-200/70">
-            <span className="font-bold text-slate-700 flex items-center gap-1.5">
-              <FileCheck className="w-4 h-4 text-blue-600" />
-              Official Examination Receipt
-            </span>
-            <span className="text-[11px] font-mono text-slate-400">
-              {submissionDate.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", second: "2-digit" })}
-            </span>
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <div>
-              <span className="text-slate-400 text-xs block font-medium">Candidate Name</span>
-              <strong className="text-slate-900 font-bold">{candidateData?.name || "Candidate"}</strong>
-            </div>
-
-            <div>
-              <span className="text-slate-400 text-xs block font-medium">School Name</span>
-              <strong className="text-slate-900 font-bold">{candidateData?.schoolName || "Registered School"}</strong>
-            </div>
-
-            <div>
-              <span className="text-slate-400 text-xs block font-medium">Class &amp; Medium</span>
-              <strong className="text-slate-900 font-bold">
-                {candidateData?.className || "Class 10"} ({candidateData?.medium || "ENGLISH"})
-              </strong>
-            </div>
-
-            <div>
-              <span className="text-slate-400 text-xs block font-medium">Candidate ID</span>
-              <strong className="text-slate-900 font-bold font-mono">
-                {candidateData?.id ? candidateData.id.slice(0, 12).toUpperCase() : "VERIFIED"}
-              </strong>
-            </div>
-
-            <div className="sm:col-span-2 pt-2 border-t border-slate-200/50 flex items-center justify-between text-xs text-slate-500">
-              <span>Duration: <b>8 Minutes Max</b></span>
-              <span>Questions: <b>25 Questions</b></span>
-              <span>Status: <b className="text-emerald-600">Submitted & Locked</b></span>
-            </div>
-          </div>
-        </div>
-
-        {/* Footer actions - school computer reuse support */}
-        <div className="pt-2 flex flex-col sm:flex-row items-center justify-center gap-3">
+        {/* Single Clear Action Button */}
+        <div className="pt-4">
           <Link
             href="/"
             onClick={() => {
@@ -133,18 +64,11 @@ export default function ExamSubmittedPage() {
                 document.cookie = "exam_completed=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT";
               } catch {}
             }}
-            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-2xl bg-blue-600 hover:bg-blue-700 text-white font-extrabold text-sm shadow-lg shadow-blue-600/30 transition cursor-pointer"
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-2xl bg-blue-600 hover:bg-blue-700 text-white font-extrabold text-sm sm:text-base shadow-lg shadow-blue-600/30 hover:shadow-xl hover:shadow-blue-600/40 active:scale-[0.98] transition cursor-pointer font-manjari"
           >
             <Sparkles className="w-4 h-4 text-amber-300" />
-            അടുത്ത കുട്ടിയുടെ പരീക്ഷ ആരംഭിക്കുക / Next Student Exam
-          </Link>
-
-          <Link
-            href="/"
-            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-3.5 rounded-2xl bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs transition"
-          >
-            <Home className="w-4 h-4" />
-            ഹോം പേജ് / Return to Home
+            <span>അടുത്ത കുട്ടിയുടെ പരീക്ഷ / Home Page</span>
+            <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
       </div>
