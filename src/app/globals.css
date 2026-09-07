@@ -10,9 +10,13 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: 'Baloo Chettan 2', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: 'Manjari', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   font-feature-settings: "cv02", "cv03", "cv04", "cv11";
   -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6, .font-title, .font-baloo {
+  font-family: 'Baloo Chettan 2', sans-serif;
 }
 
 /* Custom scrollbars */

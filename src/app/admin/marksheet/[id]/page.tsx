@@ -359,12 +359,12 @@ export default function AdminMarksheetPage() {
                         Q{q.orderIndex}
                       </span>
                       <div className="space-y-1">
-                        <p className="text-xs sm:text-sm text-slate-800 font-medium leading-relaxed">
-                          {candidate.medium === "MALAYALAM" && q.textMl ? q.textMl : q.text}
+                        <p className="text-xs sm:text-sm text-slate-800 font-bold leading-relaxed font-manjari">
+                          {q.textMl || q.text}
                         </p>
-                        {candidate.medium === "MALAYALAM" && q.textMl && (
-                          <p className="text-[11px] text-slate-400 italic">
-                            EN: {q.text}
+                        {q.textMl && q.textMl !== q.text && (
+                          <p className="text-[11px] text-slate-500 font-normal leading-normal font-sans">
+                            {q.text}
                           </p>
                         )}
                       </div>
@@ -385,14 +385,11 @@ export default function AdminMarksheetPage() {
                     {q.options.map((opt, idx) => {
                       const isCorrect = idx === q.correctAnswer;
                       const isChosen = idx === q.selectedOption;
-                      const displayOpt =
-                        candidate.medium === "MALAYALAM" && q.optionsMl && q.optionsMl[idx]
-                          ? q.optionsMl[idx]
-                          : opt;
+                      const mlOpt = q.optionsMl && q.optionsMl[idx] ? q.optionsMl[idx] : opt;
                       return (
                         <div
                           key={idx}
-                          className={`flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-xs border ${
+                          className={`flex items-start gap-1.5 px-2.5 py-1.5 rounded-lg text-xs border ${
                             isCorrect
                               ? "bg-emerald-100 border-emerald-300 text-emerald-900 font-bold"
                               : isChosen && !isCorrect
@@ -400,11 +397,16 @@ export default function AdminMarksheetPage() {
                               : "bg-white border-slate-200 text-slate-600"
                           }`}
                         >
-                          <span className="font-black w-4">{String.fromCharCode(65 + idx)}.</span>
-                          <span className="flex-1">{displayOpt}</span>
-                          {isCorrect && <span className="ml-auto text-emerald-600 font-black">✓</span>}
+                          <span className="font-black w-4 pt-0.5">{String.fromCharCode(65 + idx)}.</span>
+                          <div className="flex-1 space-y-0.5">
+                            <div className="font-manjari">{mlOpt}</div>
+                            {mlOpt !== opt && (
+                              <div className="text-[10px] text-slate-500 font-normal font-sans">{opt}</div>
+                            )}
+                          </div>
+                          {isCorrect && <span className="ml-auto text-emerald-600 font-black pt-0.5">✓</span>}
                           {isChosen && !isCorrect && (
-                            <span className="ml-auto text-rose-600 font-black">✗</span>
+                            <span className="ml-auto text-rose-600 font-black pt-0.5">✗</span>
                           )}
                         </div>
                       );

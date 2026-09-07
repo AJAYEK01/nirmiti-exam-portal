@@ -774,20 +774,30 @@ export default function TakeExamPage({ params }: { params: { id: string } }) {
                 </div>
               </div>
 
-              {/* Question Text */}
+              {/* Question Text in Both Malayalam and English */}
               <div className="space-y-2">
-                <div className="text-base sm:text-lg font-medium text-slate-800 leading-relaxed">
-                  {medium === "MALAYALAM" && currentQ.textMl ? currentQ.textMl : currentQ.text}
-                </div>
-
-                {/* Helpful English Reference in Malayalam mode */}
-                {medium === "MALAYALAM" && currentQ.textMl && (
-                  <div className="text-xs sm:text-sm text-slate-500 font-normal bg-slate-50 border border-slate-200 rounded-xl px-3 py-2 flex items-start gap-2">
-                    <span className="font-bold text-slate-400 uppercase text-[10px] tracking-wider mt-0.5 flex-shrink-0">
-                      EN Reference:
-                    </span>
-                    <span className="italic">{currentQ.text}</span>
-                  </div>
+                {medium === "MALAYALAM" ? (
+                  <>
+                    <div className="text-base sm:text-xl font-bold text-slate-900 leading-relaxed font-manjari">
+                      {currentQ.textMl || currentQ.text}
+                    </div>
+                    {currentQ.textMl && currentQ.textMl !== currentQ.text && (
+                      <div className="text-sm sm:text-base text-slate-600 font-normal leading-relaxed font-sans">
+                        {currentQ.text}
+                      </div>
+                    )}
+                  </>
+                ) : (
+                  <>
+                    <div className="text-base sm:text-xl font-bold text-slate-900 leading-relaxed font-sans">
+                      {currentQ.text}
+                    </div>
+                    {currentQ.textMl && currentQ.textMl !== currentQ.text && (
+                      <div className="text-sm sm:text-base text-slate-600 font-normal leading-relaxed font-manjari">
+                        {currentQ.textMl}
+                      </div>
+                    )}
+                  </>
                 )}
               </div>
 
@@ -796,8 +806,8 @@ export default function TakeExamPage({ params }: { params: { id: string } }) {
                 {currentQ.options.map((opt, optIdx) => {
                   const isSelected = currentAnswer?.selectedOption === optIdx;
                   const label = String.fromCharCode(65 + optIdx); // A, B, C, D
-                  const displayOpt =
-                    medium === "MALAYALAM" && currentQ.optionsMl && currentQ.optionsMl[optIdx]
+                  const mlOpt =
+                    currentQ.optionsMl && currentQ.optionsMl[optIdx]
                       ? currentQ.optionsMl[optIdx]
                       : opt;
 
@@ -822,17 +832,36 @@ export default function TakeExamPage({ params }: { params: { id: string } }) {
                         {label}
                       </span>
                       <div className="flex-1">
-                        <div
-                          className={`text-sm sm:text-base leading-snug ${
-                            isSelected ? "text-blue-950 font-bold" : "text-slate-800 font-medium"
-                          }`}
-                        >
-                          {displayOpt}
-                        </div>
-                        {medium === "MALAYALAM" && currentQ.optionsMl && currentQ.optionsMl[optIdx] && currentQ.optionsMl[optIdx] !== opt && (
-                          <div className="text-xs text-slate-400 font-normal italic pt-1 border-t border-slate-100 mt-1">
-                            EN: {opt}
-                          </div>
+                        {medium === "MALAYALAM" ? (
+                          <>
+                            <div
+                              className={`text-sm sm:text-base leading-snug font-manjari ${
+                                isSelected ? "text-blue-950 font-bold" : "text-slate-800 font-semibold"
+                              }`}
+                            >
+                              {mlOpt}
+                            </div>
+                            {mlOpt !== opt && (
+                              <div className="text-xs sm:text-sm text-slate-500 font-normal pt-1 font-sans">
+                                {opt}
+                              </div>
+                            )}
+                          </>
+                        ) : (
+                          <>
+                            <div
+                              className={`text-sm sm:text-base leading-snug font-sans ${
+                                isSelected ? "text-blue-950 font-bold" : "text-slate-800 font-semibold"
+                              }`}
+                            >
+                              {opt}
+                            </div>
+                            {mlOpt !== opt && (
+                              <div className="text-xs sm:text-sm text-slate-500 font-normal pt-1 font-manjari">
+                                {mlOpt}
+                              </div>
+                            )}
+                          </>
                         )}
                       </div>
                     </button>

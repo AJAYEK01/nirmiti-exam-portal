@@ -439,9 +439,14 @@ export default function DemoExamPage() {
                     >
                       <div className="flex items-start justify-between gap-3">
                         <span className="text-xs font-bold text-slate-500">Q{idx + 1}.</span>
-                        <p className="text-xs sm:text-sm font-medium text-slate-800 flex-1">
-                          {data.question}
-                        </p>
+                        <div className="flex-1 space-y-0.5">
+                          <p className="text-xs sm:text-sm font-bold text-slate-800 font-manjari">
+                            {q.ml.question}
+                          </p>
+                          <p className="text-xs text-slate-500 font-normal font-sans">
+                            {q.en.question}
+                          </p>
+                        </div>
                         <span className="text-xs font-black">
                           {isCorrect ? (
                             <span className="text-emerald-600">Correct</span>
@@ -452,10 +457,13 @@ export default function DemoExamPage() {
                       </div>
                       <div className="mt-2 pl-5 text-xs text-slate-600 space-y-1">
                         <div>
-                          Correct Answer: <b>{String.fromCharCode(65 + q.correctAnswer)}. {data.options[q.correctAnswer]}</b>
+                          Correct Answer: <b className="font-manjari">{String.fromCharCode(65 + q.correctAnswer)}. {q.ml.options[q.correctAnswer]}</b> ({q.en.options[q.correctAnswer]})
                         </div>
-                        <div className="text-slate-500 italic">
-                          Explanation: {data.explanation}
+                        <div className="text-slate-600 font-manjari">
+                          വിശദീകരണം: {q.ml.explanation}
+                        </div>
+                        <div className="text-slate-400 italic">
+                          Explanation: {q.en.explanation}
                         </div>
                       </div>
                     </div>
@@ -580,16 +588,22 @@ export default function DemoExamPage() {
               </span>
             </div>
 
-            {/* Question Text */}
-            <div className="text-base sm:text-lg font-medium text-slate-800 leading-relaxed">
-              {qData.question}
+            {/* Question Text in Both Languages */}
+            <div className="space-y-2">
+              <div className="text-base sm:text-xl font-bold text-slate-900 leading-relaxed font-manjari">
+                {currentQ.ml.question}
+              </div>
+              <div className="text-sm sm:text-base text-slate-600 font-normal leading-relaxed font-sans">
+                {currentQ.en.question}
+              </div>
             </div>
 
             {/* Options list: responsive 2-column or spacious grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5 pt-2">
-              {qData.options.map((opt, optIdx) => {
+              {currentQ.en.options.map((opt, optIdx) => {
                 const isSelected = currentSelected === optIdx;
                 const label = String.fromCharCode(65 + optIdx);
+                const mlOpt = currentQ.ml.options[optIdx];
 
                 return (
                   <button
@@ -609,13 +623,20 @@ export default function DemoExamPage() {
                     >
                       {label}
                     </span>
-                    <span
-                      className={`text-sm sm:text-base leading-snug pt-0.5 ${
-                        isSelected ? "text-blue-950 font-bold" : "text-slate-800 font-medium"
-                      }`}
-                    >
-                      {opt}
-                    </span>
+                    <div className="flex-1">
+                      <div
+                        className={`text-sm sm:text-base leading-snug font-manjari ${
+                          isSelected ? "text-blue-950 font-bold" : "text-slate-800 font-semibold"
+                        }`}
+                      >
+                        {mlOpt}
+                      </div>
+                      {mlOpt !== opt && (
+                        <div className="text-xs sm:text-sm text-slate-500 font-normal pt-1 font-sans">
+                          {opt}
+                        </div>
+                      )}
+                    </div>
                   </button>
                 );
               })}
