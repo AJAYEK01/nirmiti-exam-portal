@@ -35,6 +35,7 @@ interface SchoolCandidate {
   name: string;
   schoolName: string;
   className: string;
+  rollNumber?: string;
   medium: string;
   parentMobile: string;
   score: number;
@@ -254,6 +255,7 @@ export default function AdminDashboardPage() {
       "Student Name",
       "School Name",
       "Class",
+      "Roll Number",
       "Medium",
       "Parent Mobile",
       "Score",
@@ -266,6 +268,7 @@ export default function AdminDashboardPage() {
       `"${c.name.replace(/"/g, '""')}"`,
       `"${c.schoolName.replace(/"/g, '""')}"`,
       c.className,
+      `"${(c.rollNumber || "N/A").replace(/"/g, '""')}"`,
       c.medium,
       c.parentMobile,
       c.score,
@@ -663,7 +666,7 @@ export default function AdminDashboardPage() {
 
                             <div className="pt-1 text-xs text-slate-600 space-y-1">
                               <p>
-                                Class: <b>{candidate.className}</b> • Medium: <b>{candidate.medium}</b>
+                                Class: <b>{candidate.className}</b> • Roll No: <b>{candidate.rollNumber || "N/A"}</b> • Medium: <b>{candidate.medium}</b>
                               </p>
                               <p className="flex items-center gap-1">
                                 <Phone className="w-3.5 h-3.5 text-emerald-600" />
@@ -695,6 +698,7 @@ export default function AdminDashboardPage() {
                               <th className="p-2.5">Rank</th>
                               <th className="p-2.5">Candidate</th>
                               <th className="p-2.5">Class</th>
+                              <th className="p-2.5">Roll No</th>
                               <th className="p-2.5">Medium</th>
                               <th className="p-2.5">Parent Mobile</th>
                               <th className="p-2.5 text-center">Score</th>
@@ -711,6 +715,7 @@ export default function AdminDashboardPage() {
                                 <td className="p-2.5 font-bold">#{c.rankInSchool}</td>
                                 <td className="p-2.5 font-semibold text-slate-900">{c.name}</td>
                                 <td className="p-2.5">{c.className}</td>
+                                <td className="p-2.5 font-mono">{c.rollNumber || "N/A"}</td>
                                 <td className="p-2.5">{c.medium}</td>
                                 <td className="p-2.5 font-mono">{c.parentMobile}</td>
                                 <td className="p-2.5 text-center font-bold text-slate-900">
@@ -774,7 +779,9 @@ export default function AdminDashboardPage() {
                 <tr>
                   <th className="p-4">Candidate</th>
                   <th className="p-4">School</th>
-                  <th className="p-4">Class & Medium</th>
+                  <th className="p-4">Class</th>
+                  <th className="p-4">Roll No</th>
+                  <th className="p-4">Medium</th>
                   <th className="p-4">Parent Mobile</th>
                   <th className="p-4 text-center">Score</th>
                   <th className="p-4 text-center">Time Taken</th>
@@ -789,15 +796,16 @@ export default function AdminDashboardPage() {
                   .filter((sub) =>
                     !searchQuery ||
                     sub.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                    sub.schoolName.toLowerCase().includes(searchQuery.toLowerCase())
+                    sub.schoolName.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                    (sub.rollNumber && sub.rollNumber.toLowerCase().includes(searchQuery.toLowerCase()))
                   )
                   .map((sub) => (
                     <tr key={sub.attemptId} className="hover:bg-slate-50/80 transition">
                       <td className="p-4 font-bold text-slate-900">{sub.name}</td>
                       <td className="p-4 text-slate-700">{sub.schoolName}</td>
-                      <td className="p-4 text-slate-600">
-                        {sub.className} ({sub.medium})
-                      </td>
+                      <td className="p-4 text-slate-600">{sub.className}</td>
+                      <td className="p-4 font-mono font-semibold text-slate-800">{sub.rollNumber || "N/A"}</td>
+                      <td className="p-4 text-slate-600">{sub.medium}</td>
                       <td className="p-4 font-mono text-slate-800">{sub.parentMobile}</td>
                       <td className="p-4 text-center font-black text-slate-900">
                         {sub.score} / {sub.totalMarks}

@@ -91,6 +91,7 @@ export default function HomePage() {
   const [customSchool, setCustomSchool] = useState("");
   const [className, setClassName] = useState("Class 8");
   const [division, setDivision] = useState("A");
+  const [rollNumber, setRollNumber] = useState("");
   const [medium, setMedium] = useState<"ENGLISH" | "MALAYALAM">("ENGLISH");
 
   const [error, setError] = useState("");
@@ -171,6 +172,15 @@ export default function HomePage() {
       return;
     }
 
+    if (!rollNumber.trim()) {
+      setError(
+        medium === "MALAYALAM"
+          ? "ദയവായി നിങ്ങളുടെ റോൾ നമ്പർ രേഖപ്പെടുത്തുക (ഉദാ: 15, 23)."
+          : "Please enter your roll number (e.g. 15, 23)."
+      );
+      return;
+    }
+
     setLoading(true);
 
     try {
@@ -180,8 +190,9 @@ export default function HomePage() {
         body: JSON.stringify({
           name: name.trim(),
           schoolName: finalSchool,
-          className: `${className} - Div ${division}`,
-          division,
+          className: `${className} - Div ${division.trim().toUpperCase()}`,
+          division: division.trim().toUpperCase(),
+          rollNumber: rollNumber.trim(),
           medium,
         }),
       });
@@ -493,7 +504,7 @@ export default function HomePage() {
                   )}
                 </div>
 
-                {/* Class, Division & Medium in responsive grid */}
+                {/* Academic Details: Class, Division, Roll Number in 3-column grid */}
                 <div className="grid grid-cols-1 sm:grid-cols-12 gap-4">
                   {/* Class / Standard (8, 9, 10 only) */}
                   <div className="sm:col-span-4 space-y-1">
@@ -513,7 +524,7 @@ export default function HomePage() {
                   </div>
 
                   {/* Division (Manual Entry) */}
-                  <div className="sm:col-span-3 space-y-1">
+                  <div className="sm:col-span-4 space-y-1">
                     <label className="text-xs font-bold text-slate-700 flex items-center gap-1.5">
                       <Building2 className="w-3.5 h-3.5 text-blue-600" />
                       {t.divisionLabel}
@@ -529,36 +540,53 @@ export default function HomePage() {
                     />
                   </div>
 
-                  {/* Medium of Exam */}
-                  <div className="sm:col-span-5 space-y-1">
+                  {/* Roll Number (Manual Entry) */}
+                  <div className="sm:col-span-4 space-y-1">
                     <label className="text-xs font-bold text-slate-700 flex items-center gap-1.5">
-                      <BookOpen className="w-3.5 h-3.5 text-blue-600" />
-                      {t.mediumLabel}
+                      <FileText className="w-3.5 h-3.5 text-blue-600" />
+                      {t.rollNumberLabel}
                     </label>
-                    <div className="grid grid-cols-2 gap-2 pt-0.5">
-                      <button
-                        type="button"
-                        onClick={() => setMedium("ENGLISH")}
-                        className={`py-2 px-3 rounded-xl border text-xs font-bold transition ${
-                          medium === "ENGLISH"
-                            ? "bg-blue-600 text-white border-blue-600 shadow-xs"
-                            : "bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100"
-                        }`}
-                      >
-                        {t.englishMedium}
-                      </button>
-                      <button
-                        type="button"
-                        onClick={() => setMedium("MALAYALAM")}
-                        className={`py-2 px-3 rounded-xl border text-xs font-bold transition ${
-                          medium === "MALAYALAM"
-                            ? "bg-blue-600 text-white border-blue-600 shadow-xs"
-                            : "bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100"
-                        }`}
-                      >
-                        {t.malayalamMedium}
-                      </button>
-                    </div>
+                    <input
+                      type="text"
+                      required
+                      maxLength={10}
+                      value={rollNumber}
+                      onChange={(e) => setRollNumber(e.target.value)}
+                      placeholder={t.rollNumberPlaceholder || "e.g. 15"}
+                      className="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-slate-50 focus:bg-white transition font-bold tracking-wider text-center"
+                    />
+                  </div>
+                </div>
+
+                {/* Medium of Exam */}
+                <div className="space-y-1">
+                  <label className="text-xs font-bold text-slate-700 flex items-center gap-1.5">
+                    <BookOpen className="w-3.5 h-3.5 text-blue-600" />
+                    {t.mediumLabel}
+                  </label>
+                  <div className="grid grid-cols-2 gap-3 pt-0.5">
+                    <button
+                      type="button"
+                      onClick={() => setMedium("ENGLISH")}
+                      className={`py-2.5 px-4 rounded-xl border text-xs font-bold transition ${
+                        medium === "ENGLISH"
+                          ? "bg-blue-600 text-white border-blue-600 shadow-xs"
+                          : "bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100"
+                      }`}
+                    >
+                      {t.englishMedium}
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => setMedium("MALAYALAM")}
+                      className={`py-2.5 px-4 rounded-xl border text-xs font-bold transition font-manjari ${
+                        medium === "MALAYALAM"
+                          ? "bg-blue-600 text-white border-blue-600 shadow-xs"
+                          : "bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100"
+                      }`}
+                    >
+                      {t.malayalamMedium}
+                    </button>
                   </div>
                 </div>
 

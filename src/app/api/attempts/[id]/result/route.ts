@@ -29,6 +29,7 @@ export async function GET(
             email: true,
             schoolName: true,
             className: true,
+            rollNumber: true,
             medium: true,
             parentMobile: true,
           },

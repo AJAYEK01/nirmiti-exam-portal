@@ -25,6 +25,7 @@ interface Candidate {
   name: string;
   schoolName: string;
   className: string;
+  rollNumber?: string;
   medium: string;
   parentMobile: string;
 }
@@ -228,6 +229,13 @@ export default function AdminMarksheetPage() {
                 <div>
                   <span className="text-[10px] text-slate-400 font-bold uppercase block">Class / Standard</span>
                   <span className="text-sm font-bold text-slate-900">{candidate.className}</span>
+                </div>
+              </div>
+              <div className="flex items-start gap-2.5">
+                <FileText className="w-4 h-4 text-blue-600 mt-0.5 flex-shrink-0" />
+                <div>
+                  <span className="text-[10px] text-slate-400 font-bold uppercase block">Roll Number</span>
+                  <span className="text-sm font-black text-slate-900 font-mono">{candidate.rollNumber || "N/A"}</span>
                 </div>
               </div>
               <div className="flex items-start gap-2.5">

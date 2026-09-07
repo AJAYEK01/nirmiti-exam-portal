@@ -15,6 +15,7 @@ model User {
   role         String    @default("STUDENT") // "STUDENT" | "ADMIN"
   schoolName   String?
   className    String?
+  rollNumber   String?
   medium       String?   @default("ENGLISH") // "ENGLISH" | "MALAYALAM"
   parentMobile String?
   attempts     Attempt[]

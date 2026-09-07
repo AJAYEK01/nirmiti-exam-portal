@@ -23,7 +23,7 @@ export async function POST(req: NextRequest) {
       }
     }
 
-    const { name, schoolName, className, medium, parentMobile } = await req.json();
+    const { name, schoolName, className, rollNumber, medium, parentMobile } = await req.json();
 
     if (!name?.trim()) {
       return NextResponse.json({ error: "Candidate full name is required." }, { status: 400 });
@@ -37,9 +37,14 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Class / Standard is required." }, { status: 400 });
     }
 
+    if (!rollNumber?.trim()) {
+      return NextResponse.json({ error: "Roll Number is required." }, { status: 400 });
+    }
+
     const trimmedName = name.trim();
     const trimmedSchool = schoolName.trim();
     const trimmedClass = className.trim();
+    const trimmedRoll = rollNumber.trim();
     const isMalayalam = medium === "MALAYALAM";
 
     // Helper to normalize strings: remove all whitespace, dots, commas, hyphens, brackets
@@ -149,6 +154,7 @@ export async function POST(req: NextRequest) {
               name: cand.name,
               schoolName: cand.schoolName,
               className: cand.className,
+              rollNumber: cand.rollNumber,
               medium: cand.medium,
               parentMobile: cand.parentMobile,
             },
@@ -183,6 +189,7 @@ export async function POST(req: NextRequest) {
         role: "STUDENT",
         schoolName: trimmedSchool,
         className: trimmedClass,
+        rollNumber: trimmedRoll,
         medium: isMalayalam ? "MALAYALAM" : "ENGLISH",
         parentMobile: cleanMobile || null,
       },
@@ -215,6 +222,7 @@ export async function POST(req: NextRequest) {
         name: user.name,
         schoolName: user.schoolName,
         className: user.className,
+        rollNumber: user.rollNumber,
         medium: user.medium,
         parentMobile: user.parentMobile,
       },
