@@ -114,28 +114,24 @@ export async function POST(
         );
       }
 
-      // Balanced 4-subject distribution (Grades 8-10 Syllabus):
-      // - Mathematics & Quantitative Aptitude: Q1 - Q240 (6 questions)
-      // - Logic & Analytical Reasoning: Q241 - Q360 (3 questions)
-      // - General Science (Physics/Chem/Bio): Q361 - Q680 (8 questions)
-      // - Computer Science & Digital Literacy: Q681 - Q1000 (8 questions)
-      const mathPool = allQuestions.filter((q) => q.orderIndex >= 1 && q.orderIndex <= 240);
-      const logicPool = allQuestions.filter((q) => q.orderIndex >= 241 && q.orderIndex <= 360);
-      const sciencePool = allQuestions.filter((q) => q.orderIndex >= 361 && q.orderIndex <= 680);
-      const csPool = allQuestions.filter((q) => q.orderIndex >= 681 && q.orderIndex <= 1000);
+      // Balanced 2,000 Questions Repository Distribution:
+      // - 60% Easy: Q1 - Q1200 (15 questions per exam)
+      // - 35% Medium: Q1201 - Q1900 (9 questions per exam)
+      // - 5% Challenging: Q1901 - Q2000 (1 question per exam)
+      const easyPool = allQuestions.filter((q) => q.orderIndex >= 1 && q.orderIndex <= 1200);
+      const mediumPool = allQuestions.filter((q) => q.orderIndex >= 1201 && q.orderIndex <= 1900);
+      const challengingPool = allQuestions.filter((q) => q.orderIndex >= 1901 && q.orderIndex <= 2000);
 
-      // Select exact quotas per student: 6 + 3 + 8 + 8 = 25 questions
-      const selectedMath = shuffleArray(mathPool).slice(0, 6);
-      const selectedLogic = shuffleArray(logicPool).slice(0, 3);
-      const selectedScience = shuffleArray(sciencePool).slice(0, 8);
-      const selectedCS = shuffleArray(csPool).slice(0, 8);
+      // Select exact quotas per student: 15 Easy + 9 Medium + 1 Challenging = 25 questions
+      const selectedEasy = shuffleArray(easyPool).slice(0, 15);
+      const selectedMedium = shuffleArray(mediumPool).slice(0, 9);
+      const selectedChallenging = shuffleArray(challengingPool).slice(0, 1);
 
-      // Combine and shuffle the overall question order so students experience a balanced, mixed assessment
+      // Combine and shuffle the overall question order so questions appear in a natural mixed sequence
       const selectedPool = shuffleArray([
-        ...selectedScience,
-        ...selectedCS,
-        ...selectedMath,
-        ...selectedLogic,
+        ...selectedEasy,
+        ...selectedMedium,
+        ...selectedChallenging,
       ]);
       selectedQuestionIds = selectedPool.map((q) => q.id);
 
