@@ -67,9 +67,18 @@ export async function POST(req: NextRequest) {
       return { standard, div, norm };
     };
 
+    // Helper to clean roll number (normalizes "05" and "5" to "5", preserves alphanumeric)
+    const cleanRoll = (r: string) => {
+      const digits = r.replace(/\D/g, "");
+      if (digits && !isNaN(parseInt(digits, 10))) {
+        return String(parseInt(digits, 10));
+      }
+      return normalize(r);
+    };
+
     const normInputName = normalize(trimmedName);
     const normInputSchool = normalize(trimmedSchool);
-    const normInputRoll = normalize(trimmedRoll);
+    const normInputRoll = cleanRoll(trimmedRoll);
     const inputClassInfo = parseClassAndDiv(trimmedClass, division);
 
     // Strict High School Eligibility Check (Classes 8, 9, 10 only)
@@ -83,7 +92,7 @@ export async function POST(req: NextRequest) {
         { status: 400 }
       );
     }
-    // Query existing student candidates to verify identity by School + Class (8, 9, 10) + Division + Roll Number + Exact Name
+    // Query existing student candidates to verify identity by School + Class (8, 9, 10) + Division + Roll Number
     const existingCandidates = await prisma.user.findMany({
       where: {
         role: "STUDENT",
@@ -98,10 +107,10 @@ export async function POST(req: NextRequest) {
     for (const cand of existingCandidates) {
       const candNormName = normalize(cand.name);
       const candNormSchool = normalize(cand.schoolName || "");
-      const candNormRoll = normalize(cand.rollNumber || "");
+      const candNormRoll = cleanRoll(cand.rollNumber || "");
       const candClassInfo = parseClassAndDiv(cand.className || "");
 
-      // Match if school matches
+      // 1. School check: must match school
       const schoolMatches =
         candNormSchool === normInputSchool ||
         candNormSchool.includes(normInputSchool) ||
@@ -109,30 +118,41 @@ export async function POST(req: NextRequest) {
 
       if (!schoolMatches) continue;
 
-      // CLASS (8, 9, or 10) CHECK:
-      // If candidates are in different classes (e.g. Class 8 vs Class 10), they are DIFFERENT students!
+      // 2. Class / Standard (8, 9, or 10) check:
+      // If candidates are in different classes (e.g. Class 8 vs Class 9 or Class 10), they are DIFFERENT students!
       // In the same school, Class 8 Roll 5 and Class 10 Roll 5, or Class 8 Yadhu and Class 10 Yadhu,
-      // are completely different students. Do NOT block!
+      // are completely different students. Never block!
       if (inputClassInfo.standard && candClassInfo.standard && inputClassInfo.standard !== candClassInfo.standard) {
         continue;
       }
 
-      // Exact name match
-      const exactNameMatches = candNormName === normInputName;
-      // Exact roll number match
-      const rollMatches = candNormRoll !== "" && normInputRoll !== "" && candNormRoll === normInputRoll;
-      // Division check: if both specify different divisions (e.g. Div A vs Div B), they are in different classrooms
-      const differentDivision =
-        inputClassInfo.div !== "" && candClassInfo.div !== "" && inputClassInfo.div !== candClassInfo.div;
+      // 3. Division check:
+      // If both specify different divisions (e.g. Div A vs Div B), they are in different classrooms.
+      // Div A Roll 5 and Div B Roll 5 are different students. Never block!
+      if (inputClassInfo.div && candClassInfo.div && inputClassInfo.div !== candClassInfo.div) {
+        continue;
+      }
 
-      // A candidate is considered a duplicate student ONLY within the same school and same grade (8, 9, or 10) if:
-      // 1. Same Standard + Same Division + Same Roll Number (definitively same student in that classroom)
-      // 2. Same Standard + Same Division + Exact Same Full Name
-      // 3. Same Standard + Exact Same Full Name + Same Roll Number
-      const isDuplicateStudent =
-        (!differentDivision && rollMatches) ||
-        (!differentDivision && exactNameMatches) ||
-        (exactNameMatches && rollMatches);
+      // 4. Roll Number check:
+      // Within the same school, same class standard, and same division:
+      // Each student has a unique roll number.
+      // If candidate A has Roll 1 and candidate B has Roll 2:
+      // Even if both share the exact same first name (e.g. "Yadhu"), they are TWO DIFFERENT STUDENTS!
+      // Never block students with different roll numbers!
+      if (candNormRoll && normInputRoll && candNormRoll !== normInputRoll) {
+        continue;
+      }
+
+      // 5. Name check:
+      // "Yadhu", "Yadhu A", and "Yadhu A R" are distinct individuals.
+      const exactNameMatches = candNormName === normInputName;
+      const rollMatches = candNormRoll !== "" && normInputRoll !== "" && candNormRoll === normInputRoll;
+
+      // Only treat as duplicate candidate attempt if:
+      // - The SAME roll number is submitted in the same classroom (rollMatches), OR
+      // - Both exact full name AND roll number match, OR
+      // - Exact full name matches in the same classroom when roll numbers are empty
+      const isDuplicateStudent = rollMatches || (exactNameMatches && (!candNormRoll || !normInputRoll));
 
       if (isDuplicateStudent) {
         for (const att of cand.attempts) {
