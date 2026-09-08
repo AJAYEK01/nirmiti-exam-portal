@@ -341,7 +341,30 @@ export default function AdminDashboardPage() {
   }
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-8">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10 space-y-6">
+      {/* Mobile-Friendly Examiner Session & Fast Sign Out Bar */}
+      <div className="flex flex-col sm:flex-row items-center justify-between gap-3 bg-slate-900 text-white p-4 rounded-2xl border-2 border-slate-800 shadow-lg">
+        <div className="flex items-center gap-3 w-full sm:w-auto justify-between sm:justify-start">
+          <div className="flex items-center gap-2">
+            <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse" />
+            <span className="text-xs sm:text-sm font-bold text-slate-200">
+              Examiner Session Active
+            </span>
+          </div>
+          <span className="text-[10px] sm:text-xs text-amber-400 bg-amber-950/80 px-2.5 py-0.5 rounded-full border border-amber-500/40 font-bold uppercase tracking-wider">
+            Admin Mode
+          </span>
+        </div>
+
+        <button
+          onClick={handleAdminLogout}
+          className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-rose-600 hover:bg-rose-700 active:bg-rose-800 text-white font-bold text-xs sm:text-sm py-2.5 px-5 rounded-xl shadow-md shadow-rose-600/30 transition cursor-pointer"
+        >
+          <LogOut className="w-4 h-4" />
+          Sign Out &amp; Lock Portal
+        </button>
+      </div>
+
       {/* Header Bar with Hardware Hackathon SVG Banner */}
       <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-slate-900 via-blue-950 to-indigo-950 text-white p-6 sm:p-8 shadow-xl border border-blue-800/40">
         <CircuitBoardBg className="absolute inset-0 w-full h-full opacity-35" />

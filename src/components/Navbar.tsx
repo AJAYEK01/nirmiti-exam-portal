@@ -59,7 +59,7 @@ export default function Navbar() {
                 EXAM PORTAL
               </span>
             </span>
-            <p className="text-[11px] text-slate-500 font-medium leading-none">
+            <p className="hidden sm:block text-[11px] text-slate-500 font-medium leading-none">
               Online Objective Examination System
             </p>
           </div>
@@ -86,34 +86,33 @@ export default function Navbar() {
         </nav>
 
         {/* Right Action / Profile */}
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2 sm:gap-3">
           {!loading && user ? (
-            <div className="flex items-center gap-3">
-              <div className="flex items-center gap-2 text-right">
-                <div>
-                  <p className="text-sm font-semibold text-slate-800 leading-tight">
-                    {user.name}
-                  </p>
-                  <p className="text-xs text-slate-500 flex items-center justify-end gap-1">
-                    {user.role === "ADMIN" ? (
-                      <span className="inline-flex items-center text-amber-700 bg-amber-50 px-1.5 py-0.5 rounded text-[10px] font-bold border border-amber-200">
-                        <ShieldCheck className="w-3 h-3 mr-0.5" /> ADMIN
-                      </span>
-                    ) : (
-                      <span className="inline-flex items-center text-emerald-700 bg-emerald-50 px-1.5 py-0.5 rounded text-[10px] font-bold border border-emerald-200">
-                        STUDENT
-                      </span>
-                    )}
-                  </p>
+            <div className="flex items-center gap-2 sm:gap-3">
+              <div className="text-right">
+                <p className="hidden sm:block text-xs sm:text-sm font-semibold text-slate-800 leading-tight">
+                  {user.name}
+                </p>
+                <div className="flex items-center justify-end gap-1">
+                  {user.role === "ADMIN" ? (
+                    <span className="inline-flex items-center text-amber-700 bg-amber-50 px-1.5 py-0.5 rounded text-[10px] font-bold border border-amber-200">
+                      <ShieldCheck className="w-3 h-3 mr-0.5" /> ADMIN
+                    </span>
+                  ) : (
+                    <span className="inline-flex items-center text-emerald-700 bg-emerald-50 px-1.5 py-0.5 rounded text-[10px] font-bold border border-emerald-200">
+                      STUDENT
+                    </span>
+                  )}
                 </div>
               </div>
 
               <button
                 onClick={handleLogout}
-                className="p-2 text-slate-400 hover:text-red-600 hover:bg-red-50 rounded-lg transition"
-                title="Logout"
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-rose-600 hover:bg-rose-700 active:bg-rose-800 text-white font-bold text-xs shadow-sm transition cursor-pointer"
+                title="Sign out of Examiner account"
               >
-                <LogOut className="w-5 h-5" />
+                <LogOut className="w-3.5 h-3.5" />
+                <span>Sign Out</span>
               </button>
             </div>
           ) : !loading ? (

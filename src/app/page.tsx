@@ -95,7 +95,6 @@ export default function HomePage() {
 
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
-  const [user, setUser] = useState<any>(null);
   const [windowInfo, setWindowInfo] = useState(getExamWindowInfo());
 
   const t = medium === "MALAYALAM" ? TRANSLATIONS.ml : TRANSLATIONS.en;
@@ -106,17 +105,6 @@ export default function HomePage() {
       localStorage.removeItem("nirmiti_submitted_exam");
       document.cookie = "exam_completed=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT";
     } catch {}
-
-    fetch("/api/auth/me")
-      .then((r) => r.json())
-      .then((d) => {
-        setUser(d.user);
-        if (d.user && d.user.role === "STUDENT") {
-          // Check if candidate already has an attempt
-          fetch("/api/auth/register-candidate/status").catch(() => {});
-        }
-      })
-      .catch(() => {});
 
     const fetchPortalStatus = () => {
       fetch("/api/admin/portal-status")
@@ -134,8 +122,7 @@ export default function HomePage() {
     return () => clearInterval(interval);
   }, []);
 
-  const isAdmin = user?.role === "ADMIN";
-  const canTakeExam = windowInfo.isOpen || isAdmin;
+  const canTakeExam = windowInfo.isOpen;
 
   const handleStartExam = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -273,7 +260,7 @@ export default function HomePage() {
       </div>
 
       {/* EXAM WINDOW: UPCOMING NOTICE */}
-      {windowInfo.status === "UPCOMING" && !isAdmin && (
+      {windowInfo.status === "UPCOMING" && (
         <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-slate-900 to-indigo-950 text-white p-8 sm:p-12 text-center space-y-6 border border-indigo-800/40 shadow-2xl">
           <CircuitBoardBg className="absolute inset-0 w-full h-full opacity-30" />
           <div className="relative z-10 space-y-5">
@@ -302,7 +289,7 @@ export default function HomePage() {
       )}
 
       {/* EXAM WINDOW: CLOSED NOTICE */}
-      {windowInfo.status === "CLOSED" && !isAdmin && (
+      {windowInfo.status === "CLOSED" && (
         <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-slate-800 to-slate-900 text-white p-8 sm:p-12 text-center space-y-5 border border-slate-700 shadow-2xl">
           <CircuitBoardBg className="absolute inset-0 w-full h-full opacity-20" />
           <div className="relative z-10 space-y-4">
