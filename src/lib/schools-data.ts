@@ -153,6 +153,13 @@ export const KANNUR_DISTRICT_SCHOOLS: string[] = [
   "913015 - Kadavathur VHSS",
   "913016 - GVHSS Edayannur, Edyannur.P.O Kannur 670595",
   "913017 - Govt.THS-VHSS Neruvambram, Payangadi P.O Kannur 670303",
+  "13018 - St. Teresa's A.I.H.S.S, Kannur",
+  "13028 - GHS Kuttiyeri",
+  "13041 - Naduvil Higher Secondary School",
+  "13057 - St. Mary's High School, Cherupuzha",
+  "13065 - AKG Memorial English High School, Kannur",
+  "13075 - GHS Pacheni",
+  "13165 - CHM Higher Secondary School, Elayavoor",
 ];
 
 // Alias for backward compatibility
