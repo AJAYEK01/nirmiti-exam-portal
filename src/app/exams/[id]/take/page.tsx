@@ -658,16 +658,16 @@ export default function TakeExamPage({ params }: { params: { id: string } }) {
   const isTimeCritical = remainingSeconds < 300; // less than 5 mins
 
   return (
-    <div className="min-h-screen bg-slate-100 flex flex-col exam-noselect select-none">
+    <div className="min-h-screen lg:h-screen lg:max-h-screen bg-slate-100 flex flex-col exam-noselect select-none overflow-y-auto lg:overflow-hidden">
       {/* Top Proctored Header */}
-      <header className="bg-white border-b border-slate-200 sticky top-0 z-30 shadow-xs">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-4">
-          <div className="flex items-center gap-3">
+      <header className="bg-white border-b border-slate-200 sticky top-0 z-30 shadow-xs flex-shrink-0">
+        <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 h-14 sm:h-16 flex items-center justify-between gap-3 sm:gap-4">
+          <div className="flex items-center gap-2.5 sm:gap-3">
             <span className="hidden sm:inline-flex items-center gap-1.5 text-xs font-extrabold uppercase px-2.5 py-1 rounded bg-slate-800 text-white">
               <HardwareSensorIcon className="w-3.5 h-3.5 text-blue-400" />
               {medium === "MALAYALAM" ? "പരീക്ഷ നടക്കുന്നു" : "EXAM IN PROGRESS"}
             </span>
-            <h2 className="text-sm sm:text-base font-bold text-slate-900 truncate max-w-[180px] sm:max-w-md">
+            <h2 className="text-xs sm:text-base font-bold text-slate-900 truncate max-w-[160px] sm:max-w-md">
               {examData?.title}
             </h2>
           </div>
@@ -686,13 +686,13 @@ export default function TakeExamPage({ params }: { params: { id: string } }) {
 
             {/* Countdown Timer */}
             <div
-              className={`flex items-center gap-2 px-3.5 py-1.5 rounded-xl font-mono text-sm sm:text-base font-black transition ${
+              className={`flex items-center gap-1.5 sm:gap-2 px-3 py-1 sm:px-3.5 sm:py-1.5 rounded-xl font-mono text-xs sm:text-base font-black transition ${
                 isTimeCritical
                   ? "bg-rose-100 text-rose-700 animate-pulse border border-rose-300"
                   : "bg-blue-50 text-blue-800 border border-blue-200"
               }`}
             >
-              <Clock className={`w-4 h-4 ${isTimeCritical ? "text-rose-600" : "text-blue-600"}`} />
+              <Clock className={`w-3.5 h-3.5 sm:w-4 sm:h-4 ${isTimeCritical ? "text-rose-600" : "text-blue-600"}`} />
               <span>{formatTime(remainingSeconds)}</span>
             </div>
 
@@ -716,7 +716,7 @@ export default function TakeExamPage({ params }: { params: { id: string } }) {
             {/* Fullscreen Button */}
             <button
               onClick={toggleFullscreen}
-              className="p-2 text-slate-500 hover:text-slate-800 rounded-lg hover:bg-slate-100 transition"
+              className="p-1.5 sm:p-2 text-slate-500 hover:text-slate-800 rounded-lg hover:bg-slate-100 transition"
               title="Toggle Fullscreen"
             >
               {isFullscreen ? <Minimize2 className="w-4 h-4" /> : <Maximize2 className="w-4 h-4" />}
@@ -725,7 +725,7 @@ export default function TakeExamPage({ params }: { params: { id: string } }) {
             {/* Direct Submit Header button */}
             <button
               onClick={() => setShowSubmitModal(true)}
-              className="inline-flex items-center gap-1.5 bg-emerald-600 hover:bg-emerald-700 text-white text-xs sm:text-sm font-bold py-2 px-3.5 rounded-xl shadow-xs transition"
+              className="inline-flex items-center gap-1.5 bg-emerald-600 hover:bg-emerald-700 text-white text-xs sm:text-sm font-bold py-1.5 px-3 sm:py-2 sm:px-3.5 rounded-xl shadow-xs transition"
             >
               <Send className="w-3.5 h-3.5" />
               {t.submitTest}
@@ -735,20 +735,24 @@ export default function TakeExamPage({ params }: { params: { id: string } }) {
       </header>
 
       {/* Main Testing Workspace */}
-      <div className="flex-1 max-w-7xl w-full mx-auto p-4 sm:p-6 grid grid-cols-1 lg:grid-cols-12 gap-6">
+      <div className="flex-1 max-w-7xl w-full mx-auto p-2.5 sm:p-4 lg:p-4 grid grid-cols-1 lg:grid-cols-12 gap-3 lg:gap-4 min-h-0 lg:overflow-hidden">
         {/* Left Column: Question Display (8 cols) */}
-        <div className="lg:col-span-8 flex flex-col justify-between bg-white rounded-3xl border border-slate-200 shadow-sm overflow-hidden min-h-[560px]">
+        <div className="lg:col-span-8 flex flex-col justify-between bg-white rounded-2xl sm:rounded-3xl border border-slate-200 shadow-sm overflow-hidden h-full min-h-0">
           {currentQ ? (
-            <div className="p-6 sm:p-8 space-y-6 flex-1 flex flex-col">
+            <div className="p-3.5 sm:p-5 space-y-3 sm:space-y-4 flex-1 flex flex-col min-h-0 overflow-y-auto">
               {/* Question Header meta */}
-              <div className="flex items-center justify-between pb-4 border-b border-slate-100">
+              <div className="flex items-center justify-between pb-2.5 border-b border-slate-100 flex-shrink-0">
                 <div className="flex items-center gap-2">
                   <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">
                     {t.question}
                   </span>
-                  <span className="text-xl font-black text-slate-900">{currentIndex + 1}</span>
+                  <span className="text-lg sm:text-xl font-black text-slate-900">{currentIndex + 1}</span>
                   <span className="text-xs text-slate-400 font-medium">
                     {t.of} {questions.length}
+                  </span>
+                  <span className="hidden sm:inline-flex items-center gap-1.5 ml-1.5 text-[11px] font-semibold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded-full border border-emerald-200">
+                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+                    {medium === "MALAYALAM" ? "സ്വയം സേവ് ആകുന്നു" : "Auto-saved"}
                   </span>
                 </div>
 
@@ -757,18 +761,18 @@ export default function TakeExamPage({ params }: { params: { id: string } }) {
                   <button
                     type="button"
                     onClick={() => setMedium((prev) => (prev === "ENGLISH" ? "MALAYALAM" : "ENGLISH"))}
-                    className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg border border-blue-200 bg-blue-50/80 hover:bg-blue-100 text-blue-800 transition font-bold text-xs"
+                    className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg border border-blue-200 bg-blue-50/80 hover:bg-blue-100 text-blue-800 transition font-bold text-xs"
                     title="Switch Question Language / ചോദ്യം മാധ്യമം മാറ്റുക"
                   >
                     <Globe className="w-3.5 h-3.5 text-blue-600" />
                     {medium === "MALAYALAM" ? "English-ൽ കാണുക" : "മലയാളത്തിൽ കാണുക"}
                   </button>
 
-                  <span className="px-2.5 py-1 rounded-lg bg-emerald-50 text-emerald-700 border border-emerald-200">
+                  <span className="px-2 py-0.5 sm:px-2.5 sm:py-1 rounded-lg bg-emerald-50 text-emerald-700 border border-emerald-200 text-xs">
                     +{currentQ.marks} {t.marks}
                   </span>
                   {currentQ.negativeMarks > 0 && (
-                    <span className="px-2.5 py-1 rounded-lg bg-rose-50 text-rose-700 border border-rose-200">
+                    <span className="px-2 py-0.5 sm:px-2.5 sm:py-1 rounded-lg bg-rose-50 text-rose-700 border border-rose-200 text-xs">
                       -{currentQ.negativeMarks} Neg.
                     </span>
                   )}
@@ -776,25 +780,25 @@ export default function TakeExamPage({ params }: { params: { id: string } }) {
               </div>
 
               {/* Question Text in Both Malayalam and English */}
-              <div className="space-y-2">
+              <div className="space-y-1 flex-shrink-0">
                 {medium === "MALAYALAM" ? (
                   <>
-                    <div className="text-base sm:text-xl font-bold text-slate-900 leading-relaxed font-manjari">
+                    <div className="text-base sm:text-lg font-bold text-slate-900 leading-snug font-manjari">
                       {cleanQuestionText(currentQ.textMl) || cleanQuestionText(currentQ.text)}
                     </div>
                     {currentQ.textMl && currentQ.textMl !== currentQ.text && (
-                      <div className="text-sm sm:text-base text-slate-600 font-normal leading-relaxed font-sans">
+                      <div className="text-xs sm:text-sm text-slate-600 font-normal leading-snug font-sans pt-0.5">
                         {cleanQuestionText(currentQ.text)}
                       </div>
                     )}
                   </>
                 ) : (
                   <>
-                    <div className="text-base sm:text-xl font-bold text-slate-900 leading-relaxed font-sans">
+                    <div className="text-base sm:text-lg font-bold text-slate-900 leading-snug font-sans">
                       {cleanQuestionText(currentQ.text)}
                     </div>
                     {currentQ.textMl && currentQ.textMl !== currentQ.text && (
-                      <div className="text-sm sm:text-base text-slate-600 font-normal leading-relaxed font-manjari">
+                      <div className="text-xs sm:text-sm text-slate-600 font-normal leading-snug font-manjari pt-0.5">
                         {cleanQuestionText(currentQ.textMl)}
                       </div>
                     )}
@@ -802,8 +806,8 @@ export default function TakeExamPage({ params }: { params: { id: string } }) {
                 )}
               </div>
 
-              {/* Options list: responsive 2-column on larger screens or spacious vertical grid */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5 pt-2">
+              {/* Options list: responsive 2-column or grid without blank space */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-2 sm:gap-2.5 pt-0.5">
                 {currentQ.options.map((opt, optIdx) => {
                   const isSelected = currentAnswer?.selectedOption === optIdx;
                   const label = String.fromCharCode(65 + optIdx); // A, B, C, D
@@ -817,14 +821,14 @@ export default function TakeExamPage({ params }: { params: { id: string } }) {
                       key={optIdx}
                       type="button"
                       onClick={() => handleSelectOption(optIdx)}
-                      className={`w-full text-left p-4 sm:p-5 rounded-2xl border-2 transition-all flex items-start gap-3.5 group cursor-pointer ${
+                      className={`w-full text-left p-2.5 sm:p-3 rounded-xl border-2 transition-all flex items-start gap-2.5 group cursor-pointer ${
                         isSelected
-                          ? "border-blue-600 bg-blue-50/80 shadow-md ring-2 ring-blue-500/20"
-                          : "border-slate-200 hover:border-blue-300 hover:bg-slate-50/90 bg-white shadow-xs"
+                          ? "border-blue-600 bg-blue-50/80 shadow-xs ring-2 ring-blue-500/20"
+                          : "border-slate-200 hover:border-blue-300 hover:bg-slate-50/90 bg-white"
                       }`}
                     >
                       <span
-                        className={`w-8 h-8 rounded-xl flex items-center justify-center text-sm font-black transition flex-shrink-0 ${
+                        className={`w-7 h-7 sm:w-8 sm:h-8 rounded-lg flex items-center justify-center text-xs sm:text-sm font-black transition flex-shrink-0 ${
                           isSelected
                             ? "bg-blue-600 text-white shadow-xs"
                             : "bg-slate-100 text-slate-700 group-hover:bg-blue-100 group-hover:text-blue-700"
@@ -832,18 +836,18 @@ export default function TakeExamPage({ params }: { params: { id: string } }) {
                       >
                         {label}
                       </span>
-                      <div className="flex-1">
+                      <div className="flex-1 min-w-0">
                         {medium === "MALAYALAM" ? (
                           <>
                             <div
-                              className={`text-sm sm:text-base leading-snug font-manjari ${
+                              className={`text-xs sm:text-sm leading-snug font-manjari ${
                                 isSelected ? "text-blue-950 font-bold" : "text-slate-800 font-semibold"
                               }`}
                             >
                               {mlOpt}
                             </div>
                             {mlOpt !== opt && (
-                              <div className="text-xs sm:text-sm text-slate-500 font-normal pt-1 font-sans">
+                              <div className="text-[11px] sm:text-xs text-slate-500 font-normal pt-0.5 font-sans">
                                 {opt}
                               </div>
                             )}
@@ -851,14 +855,14 @@ export default function TakeExamPage({ params }: { params: { id: string } }) {
                         ) : (
                           <>
                             <div
-                              className={`text-sm sm:text-base leading-snug font-sans ${
+                              className={`text-xs sm:text-sm leading-snug font-sans ${
                                 isSelected ? "text-blue-950 font-bold" : "text-slate-800 font-semibold"
                               }`}
                             >
                               {opt}
                             </div>
                             {mlOpt !== opt && (
-                              <div className="text-xs sm:text-sm text-slate-500 font-normal pt-1 font-manjari">
+                              <div className="text-[11px] sm:text-xs text-slate-500 font-normal pt-0.5 font-manjari">
                                 {mlOpt}
                               </div>
                             )}
@@ -869,69 +873,52 @@ export default function TakeExamPage({ params }: { params: { id: string } }) {
                   );
                 })}
               </div>
-
-              {/* Informative exam progress pill to wisely utilize remaining space */}
-              <div className="mt-auto pt-4 border-t border-slate-100 flex flex-wrap items-center justify-between gap-3 text-xs text-slate-500">
-                <div className="flex items-center gap-2">
-                  <span className="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-                  <span>
-                    {medium === "MALAYALAM"
-                      ? "തിരഞ്ഞെടുത്ത ഓപ്ഷൻ സ്വയം രേഖപ്പെടുത്തുന്നു"
-                      : "Answers save automatically when selected"}
-                  </span>
-                </div>
-                <div className="text-slate-400 font-medium">
-                  {medium === "MALAYALAM"
-                    ? `ചോദ്യം ${currentIndex + 1} / ${questions.length}`
-                    : `Question ${currentIndex + 1} of ${questions.length}`}
-                </div>
-              </div>
             </div>
           ) : (
             <div className="p-8 text-center text-slate-500">No question selected</div>
           )}
 
-          {/* Bottom Action Toolbar: Enlarged High-Visibility Buttons */}
-          <div className="bg-slate-50/90 border-t border-slate-200 p-4 sm:p-6 flex flex-wrap items-center justify-between gap-3">
-            <div className="flex items-center gap-2.5">
+          {/* Bottom Action Toolbar: In-View High-Visibility Buttons */}
+          <div className="bg-slate-50/95 border-t border-slate-200 py-2 sm:py-2.5 px-3 sm:px-5 flex flex-wrap items-center justify-between gap-2 flex-shrink-0">
+            <div className="flex items-center gap-2">
               <button
                 type="button"
                 onClick={handleClearResponse}
                 disabled={
                   currentAnswer?.selectedOption === null || currentAnswer?.selectedOption === undefined
                 }
-                className="inline-flex items-center gap-2 px-4 py-2.5 sm:py-3 rounded-xl text-xs sm:text-sm font-bold text-slate-600 hover:text-slate-900 hover:bg-slate-200/80 border border-slate-300 transition disabled:opacity-30 disabled:cursor-not-allowed"
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 sm:py-2 rounded-xl text-xs sm:text-sm font-bold text-slate-600 hover:text-slate-900 hover:bg-slate-200/80 border border-slate-300 transition disabled:opacity-30 disabled:cursor-not-allowed"
               >
-                <RotateCcw className="w-4 h-4" />
+                <RotateCcw className="w-3.5 h-3.5" />
                 {t.clearSelection}
               </button>
 
               <button
                 type="button"
                 onClick={handleToggleMarkReview}
-                className={`inline-flex items-center gap-2 px-4 py-2.5 sm:py-3 rounded-xl text-xs sm:text-sm font-bold border transition ${
+                className={`inline-flex items-center gap-1.5 px-3 py-1.5 sm:py-2 rounded-xl text-xs sm:text-sm font-bold border transition ${
                   currentAnswer?.isMarkedReview
                     ? "bg-purple-100 text-purple-900 border-purple-400 shadow-xs"
                     : "bg-white text-slate-700 border-slate-300 hover:bg-slate-100"
                 }`}
               >
-                <Bookmark className="w-4 h-4" />
+                <Bookmark className="w-3.5 h-3.5" />
                 {currentAnswer?.isMarkedReview ? t.removeReview : t.markForReview}
               </button>
             </div>
 
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-2">
               <button
                 type="button"
                 disabled={currentIndex === 0}
                 onClick={() => goToQuestion(currentIndex - 1)}
-                className="inline-flex items-center gap-1.5 px-5 py-2.5 sm:py-3 rounded-xl text-xs sm:text-sm font-bold text-slate-700 bg-white border border-slate-300 hover:bg-slate-100 transition disabled:opacity-30 disabled:cursor-not-allowed shadow-xs"
+                className="inline-flex items-center gap-1 px-3.5 sm:px-4 py-1.5 sm:py-2 rounded-xl text-xs sm:text-sm font-bold text-slate-700 bg-white border border-slate-300 hover:bg-slate-100 transition disabled:opacity-30 disabled:cursor-not-allowed shadow-xs"
               >
-                <ChevronLeft className="w-5 h-5" />
+                <ChevronLeft className="w-4 h-4" />
                 {t.previous}
               </button>
 
-              {/* Large High-Visibility Save & Next Button */}
+              {/* High-Visibility Save & Next Button */}
               <button
                 type="button"
                 onClick={() => {
@@ -941,17 +928,17 @@ export default function TakeExamPage({ params }: { params: { id: string } }) {
                     setShowSubmitModal(true);
                   }
                 }}
-                className="inline-flex items-center gap-2 px-7 sm:px-9 py-3 sm:py-3.5 rounded-2xl text-sm sm:text-base font-extrabold text-white bg-blue-600 hover:bg-blue-700 shadow-lg shadow-blue-600/30 hover:shadow-xl hover:shadow-blue-600/40 active:scale-[0.98] transition cursor-pointer"
+                className="inline-flex items-center gap-1.5 px-5 sm:px-7 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-black text-white bg-blue-600 hover:bg-blue-700 shadow-md shadow-blue-600/30 hover:shadow-lg hover:shadow-blue-600/40 active:scale-[0.98] transition cursor-pointer"
               >
                 {currentIndex < questions.length - 1 ? (
                   <>
                     <span>{t.saveAndNext}</span>
-                    <ChevronRight className="w-5 h-5" />
+                    <ChevronRight className="w-4 h-4" />
                   </>
                 ) : (
                   <>
                     <span>{t.reviewAndSubmit}</span>
-                    <Send className="w-4 h-4" />
+                    <Send className="w-3.5 h-3.5" />
                   </>
                 )}
               </button>
@@ -960,11 +947,11 @@ export default function TakeExamPage({ params }: { params: { id: string } }) {
         </div>
 
         {/* Right Column: Question Palette (4 cols) */}
-        <div className="lg:col-span-4 space-y-4">
-          <div className="bg-white rounded-3xl border border-slate-200 p-5 shadow-sm space-y-5">
+        <div className="lg:col-span-4 h-full min-h-0 flex flex-col">
+          <div className="bg-white rounded-2xl sm:rounded-3xl border border-slate-200 p-3.5 sm:p-4 shadow-sm space-y-3 flex flex-col justify-between h-full min-h-0">
             {/* Title */}
-            <div className="flex items-center justify-between">
-              <h3 className="text-sm font-black text-slate-900 uppercase tracking-wide">
+            <div className="flex items-center justify-between flex-shrink-0">
+              <h3 className="text-xs sm:text-sm font-black text-slate-900 uppercase tracking-wide">
                 {medium === "MALAYALAM" ? "ചോദ്യ സൂചിക" : "Question Palette"}
               </h3>
               <span className="text-xs text-slate-500 font-medium">
@@ -973,43 +960,43 @@ export default function TakeExamPage({ params }: { params: { id: string } }) {
             </div>
 
             {/* Quick Status Legend with real-time counters */}
-            <div className="grid grid-cols-2 gap-2 text-xs">
-              <div className="flex items-center justify-between p-2 rounded-xl bg-emerald-50 text-emerald-800 border border-emerald-200">
-                <span className="flex items-center gap-1.5 font-medium">
-                  <span className="w-2.5 h-2.5 rounded-full bg-emerald-600" />
+            <div className="grid grid-cols-2 gap-1.5 text-xs flex-shrink-0">
+              <div className="flex items-center justify-between px-2 py-1 rounded-lg bg-emerald-50 text-emerald-800 border border-emerald-200">
+                <span className="flex items-center gap-1 font-medium text-[11px]">
+                  <span className="w-2 h-2 rounded-full bg-emerald-600" />
                   {t.answered}
                 </span>
-                <span className="font-bold">{statsCounts["answered"] || 0}</span>
+                <span className="font-bold text-xs">{statsCounts["answered"] || 0}</span>
               </div>
 
-              <div className="flex items-center justify-between p-2 rounded-xl bg-orange-50 text-orange-800 border border-orange-200">
-                <span className="flex items-center gap-1.5 font-medium">
-                  <span className="w-2.5 h-2.5 rounded-full bg-orange-500" />
+              <div className="flex items-center justify-between px-2 py-1 rounded-lg bg-orange-50 text-orange-800 border border-orange-200">
+                <span className="flex items-center gap-1 font-medium text-[11px]">
+                  <span className="w-2 h-2 rounded-full bg-orange-500" />
                   {t.notAnswered}
                 </span>
-                <span className="font-bold">{statsCounts["not-answered"] || 0}</span>
+                <span className="font-bold text-xs">{statsCounts["not-answered"] || 0}</span>
               </div>
 
-              <div className="flex items-center justify-between p-2 rounded-xl bg-amber-50 text-amber-800 border border-amber-200">
-                <span className="flex items-center gap-1.5 font-medium">
-                  <span className="w-2.5 h-2.5 rounded-full bg-amber-500" />
+              <div className="flex items-center justify-between px-2 py-1 rounded-lg bg-amber-50 text-amber-800 border border-amber-200">
+                <span className="flex items-center gap-1 font-medium text-[11px]">
+                  <span className="w-2 h-2 rounded-full bg-amber-500" />
                   {t.markedReview}
                 </span>
-                <span className="font-bold">{statsCounts["review"] || 0}</span>
+                <span className="font-bold text-xs">{statsCounts["review"] || 0}</span>
               </div>
 
-              <div className="flex items-center justify-between p-2 rounded-xl bg-purple-50 text-purple-800 border border-purple-200">
-                <span className="flex items-center gap-1.5 font-medium">
-                  <span className="w-2.5 h-2.5 rounded-full bg-purple-600" />
+              <div className="flex items-center justify-between px-2 py-1 rounded-lg bg-purple-50 text-purple-800 border border-purple-200">
+                <span className="flex items-center gap-1 font-medium text-[11px]">
+                  <span className="w-2 h-2 rounded-full bg-purple-600" />
                   {t.answeredReview}
                 </span>
-                <span className="font-bold">{statsCounts["answered-review"] || 0}</span>
+                <span className="font-bold text-xs">{statsCounts["answered-review"] || 0}</span>
               </div>
             </div>
 
             {/* Grid Palette buttons */}
-            <div className="pt-2 border-t border-slate-100">
-              <div className="grid grid-cols-5 gap-2 max-h-72 overflow-y-auto pr-1">
+            <div className="pt-2 border-t border-slate-100 flex-1 min-h-0 overflow-y-auto">
+              <div className="grid grid-cols-5 gap-1.5 pr-1">
                 {questions.map((q, idx) => {
                   const status = getQuestionStatus(idx);
                   const isCurrent = idx === currentIndex;
@@ -1030,8 +1017,8 @@ export default function TakeExamPage({ params }: { params: { id: string } }) {
                       key={q.id}
                       type="button"
                       onClick={() => goToQuestion(idx)}
-                      className={`h-10 rounded-xl text-xs font-bold transition flex items-center justify-center border-2 ${colorClass} ${
-                        isCurrent ? "ring-2 ring-blue-500 ring-offset-2 scale-105" : ""
+                      className={`h-8 sm:h-8.5 rounded-lg text-xs font-bold transition flex items-center justify-center border ${colorClass} ${
+                        isCurrent ? "ring-2 ring-blue-500 ring-offset-1 scale-105" : ""
                       }`}
                     >
                       {idx + 1}
@@ -1042,13 +1029,13 @@ export default function TakeExamPage({ params }: { params: { id: string } }) {
             </div>
 
             {/* Submit Final Button */}
-            <div className="pt-2">
+            <div className="pt-1.5 flex-shrink-0">
               <button
                 type="button"
                 onClick={() => setShowSubmitModal(true)}
-                className="w-full inline-flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm py-3 px-4 rounded-2xl shadow-md shadow-emerald-600/20 transition"
+                className="w-full inline-flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs sm:text-sm py-2.5 px-4 rounded-xl shadow-md shadow-emerald-600/20 transition"
               >
-                <Send className="w-4 h-4" />
+                <Send className="w-3.5 h-3.5" />
                 {t.submitTest}
               </button>
             </div>
