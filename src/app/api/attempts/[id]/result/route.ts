@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/db";
 import { getSession } from "@/lib/auth";
 import questionsMl from "@/lib/questions-ml.json";
+import { cleanQuestionText } from "@/lib/clean-question";
 
 export async function GET(
   req: NextRequest,
@@ -118,8 +119,8 @@ export async function GET(
       return {
         id: q.id,
         orderIndex: idx + 1,
-        text: q.text,
-        textMl: mlData?.text || undefined,
+        text: cleanQuestionText(q.text),
+        textMl: cleanQuestionText(mlData?.text) || undefined,
         options: displayedOptions,
         optionsMl: displayedOptionsMl,
         correctAnswer: correctShuffledIndex >= 0 ? correctShuffledIndex : q.correctAnswer,

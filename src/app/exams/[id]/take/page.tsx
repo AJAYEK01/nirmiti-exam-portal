@@ -21,6 +21,7 @@ import {
 } from "lucide-react";
 import { TRANSLATIONS } from "@/lib/translations";
 import { MicrochipGraphic, HardwareSensorIcon } from "@/components/HardwareGraphics";
+import { cleanQuestionText } from "@/lib/clean-question";
 
 interface Question {
   id: string;
@@ -779,22 +780,22 @@ export default function TakeExamPage({ params }: { params: { id: string } }) {
                 {medium === "MALAYALAM" ? (
                   <>
                     <div className="text-base sm:text-xl font-bold text-slate-900 leading-relaxed font-manjari">
-                      {currentQ.textMl || currentQ.text}
+                      {cleanQuestionText(currentQ.textMl) || cleanQuestionText(currentQ.text)}
                     </div>
                     {currentQ.textMl && currentQ.textMl !== currentQ.text && (
                       <div className="text-sm sm:text-base text-slate-600 font-normal leading-relaxed font-sans">
-                        {currentQ.text}
+                        {cleanQuestionText(currentQ.text)}
                       </div>
                     )}
                   </>
                 ) : (
                   <>
                     <div className="text-base sm:text-xl font-bold text-slate-900 leading-relaxed font-sans">
-                      {currentQ.text}
+                      {cleanQuestionText(currentQ.text)}
                     </div>
                     {currentQ.textMl && currentQ.textMl !== currentQ.text && (
                       <div className="text-sm sm:text-base text-slate-600 font-normal leading-relaxed font-manjari">
-                        {currentQ.textMl}
+                        {cleanQuestionText(currentQ.textMl)}
                       </div>
                     )}
                   </>

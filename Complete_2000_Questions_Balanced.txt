@@ -6368,1890 +6368,1890 @@ C) Anaemia
 D) Scurvy
 Answer: A) Night blindness
 
-Q. Science Concept 51: What is the SI unit of Force?
+Q. What is the SI unit of Force?
 A) Joule
 B) Newton
 C) Pascal
 D) Watt
 Answer: B) Newton
 
-Q. Science Concept 52: What is the SI unit of Work and Energy?
+Q. What is the SI unit of Work and Energy?
 A) Watt
 B) Newton
 C) Joule
 D) Ampere
 Answer: C) Joule
 
-Q. Science Concept 53: What is the SI unit of Power?
+Q. What is the SI unit of Power?
 A) Watt
 B) Joule
 C) Volt
 D) Ohm
 Answer: A) Watt
 
-Q. Science Concept 54: What is the acceleration due to gravity on Earth's surface approximately?
+Q. What is the acceleration due to gravity on Earth's surface approximately?
 A) 8.2 m/s²
 B) 9.8 m/s²
 C) 11.2 m/s²
 D) 15.0 m/s²
 Answer: B) 9.8 m/s²
 
-Q. Science Concept 55: The tendency of an object to resist changes in its state of motion is called:
+Q. The tendency of an object to resist changes in its state of motion is called:
 A) Inertia
 B) Velocity
 C) Acceleration
 D) Friction
 Answer: A) Inertia
 
-Q. Science Concept 56: Which of Newton's laws of motion explains why passengers lean forward when a bus suddenly stops?
+Q. Which of Newton's laws of motion explains why passengers lean forward when a bus suddenly stops?
 A) First Law
 B) Second Law
 C) Third Law
 D) Law of Gravitation
 Answer: A) First Law
 
-Q. Science Concept 57: Action and reaction forces are described by which of Newton's laws?
+Q. Action and reaction forces are described by which of Newton's laws?
 A) First Law
 B) Second Law
 C) Third Law
 D) Law of Inertia
 Answer: C) Third Law
 
-Q. Science Concept 58: The force that opposes the relative motion between two surfaces in contact is:
+Q. The force that opposes the relative motion between two surfaces in contact is:
 A) Gravity
 B) Friction
 C) Tension
 D) Buoyancy
 Answer: B) Friction
 
-Q. Science Concept 59: Sound travels fastest through which medium?
+Q. Sound travels fastest through which medium?
 A) Air
 B) Water
 C) Solid Steel
 D) Vacuum
 Answer: C) Solid Steel
 
-Q. Science Concept 60: What unit is commonly used to measure the frequency of a wave?
+Q. What unit is commonly used to measure the frequency of a wave?
 A) Hertz
 B) Decibel
 C) Meter
 D) Second
 Answer: A) Hertz
 
-Q. Science Concept 61: What unit is used to measure the loudness of sound?
+Q. What unit is used to measure the loudness of sound?
 A) Hertz
 B) Decibel
 C) Joule
 D) Pascal
 Answer: B) Decibel
 
-Q. Science Concept 62: What is the audible frequency range of human hearing?
+Q. What is the audible frequency range of human hearing?
 A) 20 Hz to 20,000 Hz
 B) 5 Hz to 500 Hz
 C) 10,000 Hz to 50,000 Hz
 D) Above 100,000 Hz
 Answer: A) 20 Hz to 20,000 Hz
 
-Q. Science Concept 63: The bouncing back of light from a smooth reflective surface is known as:
+Q. The bouncing back of light from a smooth reflective surface is known as:
 A) Refraction
 B) Reflection
 C) Dispersion
 D) Diffraction
 Answer: B) Reflection
 
-Q. Science Concept 64: The bending of light as it passes from one transparent medium to another is called:
+Q. The bending of light as it passes from one transparent medium to another is called:
 A) Reflection
 B) Refraction
 C) Absorption
 D) Scattering
 Answer: B) Refraction
 
-Q. Science Concept 65: Splitting of white light into its seven constituent colors through a prism is called:
+Q. Splitting of white light into its seven constituent colors through a prism is called:
 A) Dispersion
 B) Reflection
 C) Interference
 D) Total Internal Reflection
 Answer: A) Dispersion
 
-Q. Science Concept 66: Which color of light bends the most when passing through a glass prism?
+Q. Which color of light bends the most when passing through a glass prism?
 A) Red
 B) Green
 C) Violet
 D) Yellow
 Answer: C) Violet
 
-Q. Science Concept 67: Which color of light bends the least when passing through a glass prism?
+Q. Which color of light bends the least when passing through a glass prism?
 A) Red
 B) Blue
 C) Violet
 D) Orange
 Answer: A) Red
 
-Q. Science Concept 68: What type of mirror is commonly used as a rear-view mirror in vehicles?
+Q. What type of mirror is commonly used as a rear-view mirror in vehicles?
 A) Plane mirror
 B) Concave mirror
 C) Convex mirror
 D) Cylindrical mirror
 Answer: C) Convex mirror
 
-Q. Science Concept 69: At what temperature does water boil under standard atmospheric pressure?
+Q. At what temperature does water boil under standard atmospheric pressure?
 A) 50°C
 B) 100°C
 C) 150°C
 D) 212°C
 Answer: B) 100°C
 
-Q. Science Concept 70: The direct conversion of a solid into gas without passing through the liquid state is called:
+Q. The direct conversion of a solid into gas without passing through the liquid state is called:
 A) Evaporation
 B) Sublimation
 C) Condensation
 D) Melting
 Answer: B) Sublimation
 
-Q. Science Concept 71: Which mode of heat transfer does not require any material medium?
+Q. Which mode of heat transfer does not require any material medium?
 A) Conduction
 B) Convection
 C) Radiation
 D) Insulation
 Answer: C) Radiation
 
-Q. Science Concept 72: Which of the following is the best thermal conductor?
+Q. Which of the following is the best thermal conductor?
 A) Wood
 B) Plastic
 C) Silver metal
 D) Glass
 Answer: C) Silver metal
 
-Q. Science Concept 73: What is the SI unit of Electric Current?
+Q. What is the SI unit of Electric Current?
 A) Volt
 B) Ampere
 C) Ohm
 D) Watt
 Answer: B) Ampere
 
-Q. Science Concept 74: What is the SI unit of Electrical Resistance?
+Q. What is the SI unit of Electrical Resistance?
 A) Ohm
 B) Volt
 C) Ampere
 D) Coulomb
 Answer: A) Ohm
 
-Q. Science Concept 75: What is the SI unit of Potential Difference (Voltage)?
+Q. What is the SI unit of Potential Difference (Voltage)?
 A) Watt
 B) Volt
 C) Joule
 D) Ampere
 Answer: B) Volt
 
-Q. Science Concept 76: Which instrument is used to measure electric current in an electrical circuit?
+Q. Which instrument is used to measure electric current in an electrical circuit?
 A) Voltmeter
 B) Ammeter
 C) Galvanometer
 D) Barometer
 Answer: B) Ammeter
 
-Q. Science Concept 77: Like magnetic poles:
+Q. Like magnetic poles:
 A) Attract each other
 B) Repel each other
 C) Neutralize each other
 D) Create electric charge
 Answer: B) Repel each other
 
-Q. Science Concept 78: What is the chemical symbol for Water?
+Q. What is the chemical symbol for Water?
 A) CO2
 B) H2O
 C) NaCl
 D) O2
 Answer: B) H2O
 
-Q. Science Concept 79: What is the chemical formula for common table salt?
+Q. What is the chemical formula for common table salt?
 A) NaCl
 B) KCl
 C) CaCO3
 D) HCl
 Answer: A) NaCl
 
-Q. Science Concept 80: What is the pH value of pure, neutral water at 25°C?
+Q. What is the pH value of pure, neutral water at 25°C?
 A) 0
 B) 7
 C) 14
 D) 10
 Answer: B) 7
 
-Q. Science Concept 81: Acids turn blue litmus paper into which color?
+Q. Acids turn blue litmus paper into which color?
 A) Green
 B) Yellow
 C) Red
 D) Colorless
 Answer: C) Red
 
-Q. Science Concept 82: Bases turn red litmus paper into which color?
+Q. Bases turn red litmus paper into which color?
 A) Blue
 B) Green
 C) Yellow
 D) Black
 Answer: A) Blue
 
-Q. Science Concept 83: What gas do green plants absorb during photosynthesis?
+Q. What gas do green plants absorb during photosynthesis?
 A) Oxygen
 B) Carbon Dioxide
 C) Nitrogen
 D) Hydrogen
 Answer: B) Carbon Dioxide
 
-Q. Science Concept 84: What gas is released as a byproduct during photosynthesis?
+Q. What gas is released as a byproduct during photosynthesis?
 A) Oxygen
 B) Carbon Dioxide
 C) Methane
 D) Argon
 Answer: A) Oxygen
 
-Q. Science Concept 85: Which gas is the most abundant in Earth's atmosphere?
+Q. Which gas is the most abundant in Earth's atmosphere?
 A) Oxygen
 B) Nitrogen
 C) Carbon dioxide
 D) Hydrogen
 Answer: B) Nitrogen
 
-Q. Science Concept 86: What is the center (core) of an atom called?
+Q. What is the center (core) of an atom called?
 A) Nucleus
 B) Electron
 C) Orbit
 D) Proton
 Answer: A) Nucleus
 
-Q. Science Concept 87: Which subatomic particle carries a negative electric charge?
+Q. Which subatomic particle carries a negative electric charge?
 A) Proton
 B) Neutron
 C) Electron
 D) Positron
 Answer: C) Electron
 
-Q. Science Concept 88: Which subatomic particle carries a positive electric charge?
+Q. Which subatomic particle carries a positive electric charge?
 A) Electron
 B) Neutron
 C) Proton
 D) Photon
 Answer: C) Proton
 
-Q. Science Concept 89: Which subatomic particle carries no electrical charge (neutral)?
+Q. Which subatomic particle carries no electrical charge (neutral)?
 A) Electron
 B) Neutron
 C) Proton
 D) Ion
 Answer: B) Neutron
 
-Q. Science Concept 90: What is the basic structural and functional unit of all living organisms?
+Q. What is the basic structural and functional unit of all living organisms?
 A) Tissue
 B) Cell
 C) Organ
 D) Organism
 Answer: B) Cell
 
-Q. Science Concept 91: Which organelle is known as the powerhouse of the cell?
+Q. Which organelle is known as the powerhouse of the cell?
 A) Nucleus
 B) Ribosome
 C) Mitochondria
 D) Chloroplast
 Answer: C) Mitochondria
 
-Q. Science Concept 92: Which green pigment in plants is responsible for absorbing sunlight for photosynthesis?
+Q. Which green pigment in plants is responsible for absorbing sunlight for photosynthesis?
 A) Hemoglobin
 B) Chlorophyll
 C) Carotene
 D) Melanin
 Answer: B) Chlorophyll
 
-Q. Science Concept 93: Which human organ purifies and filters waste from blood to form urine?
+Q. Which human organ purifies and filters waste from blood to form urine?
 A) Heart
 B) Liver
 C) Kidney
 D) Lungs
 Answer: C) Kidney
 
-Q. Science Concept 94: Which human organ pumps blood throughout the entire body?
+Q. Which human organ pumps blood throughout the entire body?
 A) Lungs
 B) Heart
 C) Stomach
 D) Brain
 Answer: B) Heart
 
-Q. Science Concept 95: What is the normal human body temperature in Celsius approximately?
+Q. What is the normal human body temperature in Celsius approximately?
 A) 32°C
 B) 37°C
 C) 42°C
 D) 98°C
 Answer: B) 37°C
 
-Q. Science Concept 96: Which blood group is known as the Universal Donor?
+Q. Which blood group is known as the Universal Donor?
 A) A+
 B) B+
 C) AB+
 D) O-
 Answer: D) O-
 
-Q. Science Concept 97: Which blood group is known as the Universal Recipient?
+Q. Which blood group is known as the Universal Recipient?
 A) O+
 B) AB+
 C) A-
 D) B-
 Answer: B) AB+
 
-Q. Science Concept 98: Which vitamin is produced in the human skin when exposed to sunlight?
+Q. Which vitamin is produced in the human skin when exposed to sunlight?
 A) Vitamin A
 B) Vitamin B
 C) Vitamin C
 D) Vitamin D
 Answer: D) Vitamin D
 
-Q. Science Concept 99: Deficiency of Vitamin C leads to which condition?
+Q. Deficiency of Vitamin C leads to which condition?
 A) Rickets
 B) Beriberi
 C) Scurvy
 D) Night blindness
 Answer: C) Scurvy
 
-Q. Science Concept 100: Deficiency of Vitamin A commonly causes:
+Q. Deficiency of Vitamin A commonly causes:
 A) Night blindness
 B) Goitre
 C) Anaemia
 D) Scurvy
 Answer: A) Night blindness
 
-Q. Science Concept 101: What is the SI unit of Force?
+Q. What is the SI unit of Force?
 A) Joule
 B) Newton
 C) Pascal
 D) Watt
 Answer: B) Newton
 
-Q. Science Concept 102: What is the SI unit of Work and Energy?
+Q. What is the SI unit of Work and Energy?
 A) Watt
 B) Newton
 C) Joule
 D) Ampere
 Answer: C) Joule
 
-Q. Science Concept 103: What is the SI unit of Power?
+Q. What is the SI unit of Power?
 A) Watt
 B) Joule
 C) Volt
 D) Ohm
 Answer: A) Watt
 
-Q. Science Concept 104: What is the acceleration due to gravity on Earth's surface approximately?
+Q. What is the acceleration due to gravity on Earth's surface approximately?
 A) 8.2 m/s²
 B) 9.8 m/s²
 C) 11.2 m/s²
 D) 15.0 m/s²
 Answer: B) 9.8 m/s²
 
-Q. Science Concept 105: The tendency of an object to resist changes in its state of motion is called:
+Q. The tendency of an object to resist changes in its state of motion is called:
 A) Inertia
 B) Velocity
 C) Acceleration
 D) Friction
 Answer: A) Inertia
 
-Q. Science Concept 106: Which of Newton's laws of motion explains why passengers lean forward when a bus suddenly stops?
+Q. Which of Newton's laws of motion explains why passengers lean forward when a bus suddenly stops?
 A) First Law
 B) Second Law
 C) Third Law
 D) Law of Gravitation
 Answer: A) First Law
 
-Q. Science Concept 107: Action and reaction forces are described by which of Newton's laws?
+Q. Action and reaction forces are described by which of Newton's laws?
 A) First Law
 B) Second Law
 C) Third Law
 D) Law of Inertia
 Answer: C) Third Law
 
-Q. Science Concept 108: The force that opposes the relative motion between two surfaces in contact is:
+Q. The force that opposes the relative motion between two surfaces in contact is:
 A) Gravity
 B) Friction
 C) Tension
 D) Buoyancy
 Answer: B) Friction
 
-Q. Science Concept 109: Sound travels fastest through which medium?
+Q. Sound travels fastest through which medium?
 A) Air
 B) Water
 C) Solid Steel
 D) Vacuum
 Answer: C) Solid Steel
 
-Q. Science Concept 110: What unit is commonly used to measure the frequency of a wave?
+Q. What unit is commonly used to measure the frequency of a wave?
 A) Hertz
 B) Decibel
 C) Meter
 D) Second
 Answer: A) Hertz
 
-Q. Science Concept 111: What unit is used to measure the loudness of sound?
+Q. What unit is used to measure the loudness of sound?
 A) Hertz
 B) Decibel
 C) Joule
 D) Pascal
 Answer: B) Decibel
 
-Q. Science Concept 112: What is the audible frequency range of human hearing?
+Q. What is the audible frequency range of human hearing?
 A) 20 Hz to 20,000 Hz
 B) 5 Hz to 500 Hz
 C) 10,000 Hz to 50,000 Hz
 D) Above 100,000 Hz
 Answer: A) 20 Hz to 20,000 Hz
 
-Q. Science Concept 113: The bouncing back of light from a smooth reflective surface is known as:
+Q. The bouncing back of light from a smooth reflective surface is known as:
 A) Refraction
 B) Reflection
 C) Dispersion
 D) Diffraction
 Answer: B) Reflection
 
-Q. Science Concept 114: The bending of light as it passes from one transparent medium to another is called:
+Q. The bending of light as it passes from one transparent medium to another is called:
 A) Reflection
 B) Refraction
 C) Absorption
 D) Scattering
 Answer: B) Refraction
 
-Q. Science Concept 115: Splitting of white light into its seven constituent colors through a prism is called:
+Q. Splitting of white light into its seven constituent colors through a prism is called:
 A) Dispersion
 B) Reflection
 C) Interference
 D) Total Internal Reflection
 Answer: A) Dispersion
 
-Q. Science Concept 116: Which color of light bends the most when passing through a glass prism?
+Q. Which color of light bends the most when passing through a glass prism?
 A) Red
 B) Green
 C) Violet
 D) Yellow
 Answer: C) Violet
 
-Q. Science Concept 117: Which color of light bends the least when passing through a glass prism?
+Q. Which color of light bends the least when passing through a glass prism?
 A) Red
 B) Blue
 C) Violet
 D) Orange
 Answer: A) Red
 
-Q. Science Concept 118: What type of mirror is commonly used as a rear-view mirror in vehicles?
+Q. What type of mirror is commonly used as a rear-view mirror in vehicles?
 A) Plane mirror
 B) Concave mirror
 C) Convex mirror
 D) Cylindrical mirror
 Answer: C) Convex mirror
 
-Q. Science Concept 119: At what temperature does water boil under standard atmospheric pressure?
+Q. At what temperature does water boil under standard atmospheric pressure?
 A) 50°C
 B) 100°C
 C) 150°C
 D) 212°C
 Answer: B) 100°C
 
-Q. Science Concept 120: The direct conversion of a solid into gas without passing through the liquid state is called:
+Q. The direct conversion of a solid into gas without passing through the liquid state is called:
 A) Evaporation
 B) Sublimation
 C) Condensation
 D) Melting
 Answer: B) Sublimation
 
-Q. Science Concept 121: Which mode of heat transfer does not require any material medium?
+Q. Which mode of heat transfer does not require any material medium?
 A) Conduction
 B) Convection
 C) Radiation
 D) Insulation
 Answer: C) Radiation
 
-Q. Science Concept 122: Which of the following is the best thermal conductor?
+Q. Which of the following is the best thermal conductor?
 A) Wood
 B) Plastic
 C) Silver metal
 D) Glass
 Answer: C) Silver metal
 
-Q. Science Concept 123: What is the SI unit of Electric Current?
+Q. What is the SI unit of Electric Current?
 A) Volt
 B) Ampere
 C) Ohm
 D) Watt
 Answer: B) Ampere
 
-Q. Science Concept 124: What is the SI unit of Electrical Resistance?
+Q. What is the SI unit of Electrical Resistance?
 A) Ohm
 B) Volt
 C) Ampere
 D) Coulomb
 Answer: A) Ohm
 
-Q. Science Concept 125: What is the SI unit of Potential Difference (Voltage)?
+Q. What is the SI unit of Potential Difference (Voltage)?
 A) Watt
 B) Volt
 C) Joule
 D) Ampere
 Answer: B) Volt
 
-Q. Science Concept 126: Which instrument is used to measure electric current in an electrical circuit?
+Q. Which instrument is used to measure electric current in an electrical circuit?
 A) Voltmeter
 B) Ammeter
 C) Galvanometer
 D) Barometer
 Answer: B) Ammeter
 
-Q. Science Concept 127: Like magnetic poles:
+Q. Like magnetic poles:
 A) Attract each other
 B) Repel each other
 C) Neutralize each other
 D) Create electric charge
 Answer: B) Repel each other
 
-Q. Science Concept 128: What is the chemical symbol for Water?
+Q. What is the chemical symbol for Water?
 A) CO2
 B) H2O
 C) NaCl
 D) O2
 Answer: B) H2O
 
-Q. Science Concept 129: What is the chemical formula for common table salt?
+Q. What is the chemical formula for common table salt?
 A) NaCl
 B) KCl
 C) CaCO3
 D) HCl
 Answer: A) NaCl
 
-Q. Science Concept 130: What is the pH value of pure, neutral water at 25°C?
+Q. What is the pH value of pure, neutral water at 25°C?
 A) 0
 B) 7
 C) 14
 D) 10
 Answer: B) 7
 
-Q. Science Concept 131: Acids turn blue litmus paper into which color?
+Q. Acids turn blue litmus paper into which color?
 A) Green
 B) Yellow
 C) Red
 D) Colorless
 Answer: C) Red
 
-Q. Science Concept 132: Bases turn red litmus paper into which color?
+Q. Bases turn red litmus paper into which color?
 A) Blue
 B) Green
 C) Yellow
 D) Black
 Answer: A) Blue
 
-Q. Science Concept 133: What gas do green plants absorb during photosynthesis?
+Q. What gas do green plants absorb during photosynthesis?
 A) Oxygen
 B) Carbon Dioxide
 C) Nitrogen
 D) Hydrogen
 Answer: B) Carbon Dioxide
 
-Q. Science Concept 134: What gas is released as a byproduct during photosynthesis?
+Q. What gas is released as a byproduct during photosynthesis?
 A) Oxygen
 B) Carbon Dioxide
 C) Methane
 D) Argon
 Answer: A) Oxygen
 
-Q. Science Concept 135: Which gas is the most abundant in Earth's atmosphere?
+Q. Which gas is the most abundant in Earth's atmosphere?
 A) Oxygen
 B) Nitrogen
 C) Carbon dioxide
 D) Hydrogen
 Answer: B) Nitrogen
 
-Q. Science Concept 136: What is the center (core) of an atom called?
+Q. What is the center (core) of an atom called?
 A) Nucleus
 B) Electron
 C) Orbit
 D) Proton
 Answer: A) Nucleus
 
-Q. Science Concept 137: Which subatomic particle carries a negative electric charge?
+Q. Which subatomic particle carries a negative electric charge?
 A) Proton
 B) Neutron
 C) Electron
 D) Positron
 Answer: C) Electron
 
-Q. Science Concept 138: Which subatomic particle carries a positive electric charge?
+Q. Which subatomic particle carries a positive electric charge?
 A) Electron
 B) Neutron
 C) Proton
 D) Photon
 Answer: C) Proton
 
-Q. Science Concept 139: Which subatomic particle carries no electrical charge (neutral)?
+Q. Which subatomic particle carries no electrical charge (neutral)?
 A) Electron
 B) Neutron
 C) Proton
 D) Ion
 Answer: B) Neutron
 
-Q. Science Concept 140: What is the basic structural and functional unit of all living organisms?
+Q. What is the basic structural and functional unit of all living organisms?
 A) Tissue
 B) Cell
 C) Organ
 D) Organism
 Answer: B) Cell
 
-Q. Science Concept 141: Which organelle is known as the powerhouse of the cell?
+Q. Which organelle is known as the powerhouse of the cell?
 A) Nucleus
 B) Ribosome
 C) Mitochondria
 D) Chloroplast
 Answer: C) Mitochondria
 
-Q. Science Concept 142: Which green pigment in plants is responsible for absorbing sunlight for photosynthesis?
+Q. Which green pigment in plants is responsible for absorbing sunlight for photosynthesis?
 A) Hemoglobin
 B) Chlorophyll
 C) Carotene
 D) Melanin
 Answer: B) Chlorophyll
 
-Q. Science Concept 143: Which human organ purifies and filters waste from blood to form urine?
+Q. Which human organ purifies and filters waste from blood to form urine?
 A) Heart
 B) Liver
 C) Kidney
 D) Lungs
 Answer: C) Kidney
 
-Q. Science Concept 144: Which human organ pumps blood throughout the entire body?
+Q. Which human organ pumps blood throughout the entire body?
 A) Lungs
 B) Heart
 C) Stomach
 D) Brain
 Answer: B) Heart
 
-Q. Science Concept 145: What is the normal human body temperature in Celsius approximately?
+Q. What is the normal human body temperature in Celsius approximately?
 A) 32°C
 B) 37°C
 C) 42°C
 D) 98°C
 Answer: B) 37°C
 
-Q. Science Concept 146: Which blood group is known as the Universal Donor?
+Q. Which blood group is known as the Universal Donor?
 A) A+
 B) B+
 C) AB+
 D) O-
 Answer: D) O-
 
-Q. Science Concept 147: Which blood group is known as the Universal Recipient?
+Q. Which blood group is known as the Universal Recipient?
 A) O+
 B) AB+
 C) A-
 D) B-
 Answer: B) AB+
 
-Q. Science Concept 148: Which vitamin is produced in the human skin when exposed to sunlight?
+Q. Which vitamin is produced in the human skin when exposed to sunlight?
 A) Vitamin A
 B) Vitamin B
 C) Vitamin C
 D) Vitamin D
 Answer: D) Vitamin D
 
-Q. Science Concept 149: Deficiency of Vitamin C leads to which condition?
+Q. Deficiency of Vitamin C leads to which condition?
 A) Rickets
 B) Beriberi
 C) Scurvy
 D) Night blindness
 Answer: C) Scurvy
 
-Q. Science Concept 150: Deficiency of Vitamin A commonly causes:
+Q. Deficiency of Vitamin A commonly causes:
 A) Night blindness
 B) Goitre
 C) Anaemia
 D) Scurvy
 Answer: A) Night blindness
 
-Q. Science Concept 151: What is the SI unit of Force?
+Q. What is the SI unit of Force?
 A) Joule
 B) Newton
 C) Pascal
 D) Watt
 Answer: B) Newton
 
-Q. Science Concept 152: What is the SI unit of Work and Energy?
+Q. What is the SI unit of Work and Energy?
 A) Watt
 B) Newton
 C) Joule
 D) Ampere
 Answer: C) Joule
 
-Q. Science Concept 153: What is the SI unit of Power?
+Q. What is the SI unit of Power?
 A) Watt
 B) Joule
 C) Volt
 D) Ohm
 Answer: A) Watt
 
-Q. Science Concept 154: What is the acceleration due to gravity on Earth's surface approximately?
+Q. What is the acceleration due to gravity on Earth's surface approximately?
 A) 8.2 m/s²
 B) 9.8 m/s²
 C) 11.2 m/s²
 D) 15.0 m/s²
 Answer: B) 9.8 m/s²
 
-Q. Science Concept 155: The tendency of an object to resist changes in its state of motion is called:
+Q. The tendency of an object to resist changes in its state of motion is called:
 A) Inertia
 B) Velocity
 C) Acceleration
 D) Friction
 Answer: A) Inertia
 
-Q. Science Concept 156: Which of Newton's laws of motion explains why passengers lean forward when a bus suddenly stops?
+Q. Which of Newton's laws of motion explains why passengers lean forward when a bus suddenly stops?
 A) First Law
 B) Second Law
 C) Third Law
 D) Law of Gravitation
 Answer: A) First Law
 
-Q. Science Concept 157: Action and reaction forces are described by which of Newton's laws?
+Q. Action and reaction forces are described by which of Newton's laws?
 A) First Law
 B) Second Law
 C) Third Law
 D) Law of Inertia
 Answer: C) Third Law
 
-Q. Science Concept 158: The force that opposes the relative motion between two surfaces in contact is:
+Q. The force that opposes the relative motion between two surfaces in contact is:
 A) Gravity
 B) Friction
 C) Tension
 D) Buoyancy
 Answer: B) Friction
 
-Q. Science Concept 159: Sound travels fastest through which medium?
+Q. Sound travels fastest through which medium?
 A) Air
 B) Water
 C) Solid Steel
 D) Vacuum
 Answer: C) Solid Steel
 
-Q. Science Concept 160: What unit is commonly used to measure the frequency of a wave?
+Q. What unit is commonly used to measure the frequency of a wave?
 A) Hertz
 B) Decibel
 C) Meter
 D) Second
 Answer: A) Hertz
 
-Q. Science Concept 161: What unit is used to measure the loudness of sound?
+Q. What unit is used to measure the loudness of sound?
 A) Hertz
 B) Decibel
 C) Joule
 D) Pascal
 Answer: B) Decibel
 
-Q. Science Concept 162: What is the audible frequency range of human hearing?
+Q. What is the audible frequency range of human hearing?
 A) 20 Hz to 20,000 Hz
 B) 5 Hz to 500 Hz
 C) 10,000 Hz to 50,000 Hz
 D) Above 100,000 Hz
 Answer: A) 20 Hz to 20,000 Hz
 
-Q. Science Concept 163: The bouncing back of light from a smooth reflective surface is known as:
+Q. The bouncing back of light from a smooth reflective surface is known as:
 A) Refraction
 B) Reflection
 C) Dispersion
 D) Diffraction
 Answer: B) Reflection
 
-Q. Science Concept 164: The bending of light as it passes from one transparent medium to another is called:
+Q. The bending of light as it passes from one transparent medium to another is called:
 A) Reflection
 B) Refraction
 C) Absorption
 D) Scattering
 Answer: B) Refraction
 
-Q. Science Concept 165: Splitting of white light into its seven constituent colors through a prism is called:
+Q. Splitting of white light into its seven constituent colors through a prism is called:
 A) Dispersion
 B) Reflection
 C) Interference
 D) Total Internal Reflection
 Answer: A) Dispersion
 
-Q. Science Concept 166: Which color of light bends the most when passing through a glass prism?
+Q. Which color of light bends the most when passing through a glass prism?
 A) Red
 B) Green
 C) Violet
 D) Yellow
 Answer: C) Violet
 
-Q. Science Concept 167: Which color of light bends the least when passing through a glass prism?
+Q. Which color of light bends the least when passing through a glass prism?
 A) Red
 B) Blue
 C) Violet
 D) Orange
 Answer: A) Red
 
-Q. Science Concept 168: What type of mirror is commonly used as a rear-view mirror in vehicles?
+Q. What type of mirror is commonly used as a rear-view mirror in vehicles?
 A) Plane mirror
 B) Concave mirror
 C) Convex mirror
 D) Cylindrical mirror
 Answer: C) Convex mirror
 
-Q. Science Concept 169: At what temperature does water boil under standard atmospheric pressure?
+Q. At what temperature does water boil under standard atmospheric pressure?
 A) 50°C
 B) 100°C
 C) 150°C
 D) 212°C
 Answer: B) 100°C
 
-Q. Science Concept 170: The direct conversion of a solid into gas without passing through the liquid state is called:
+Q. The direct conversion of a solid into gas without passing through the liquid state is called:
 A) Evaporation
 B) Sublimation
 C) Condensation
 D) Melting
 Answer: B) Sublimation
 
-Q. Science Concept 171: Which mode of heat transfer does not require any material medium?
+Q. Which mode of heat transfer does not require any material medium?
 A) Conduction
 B) Convection
 C) Radiation
 D) Insulation
 Answer: C) Radiation
 
-Q. Science Concept 172: Which of the following is the best thermal conductor?
+Q. Which of the following is the best thermal conductor?
 A) Wood
 B) Plastic
 C) Silver metal
 D) Glass
 Answer: C) Silver metal
 
-Q. Science Concept 173: What is the SI unit of Electric Current?
+Q. What is the SI unit of Electric Current?
 A) Volt
 B) Ampere
 C) Ohm
 D) Watt
 Answer: B) Ampere
 
-Q. Science Concept 174: What is the SI unit of Electrical Resistance?
+Q. What is the SI unit of Electrical Resistance?
 A) Ohm
 B) Volt
 C) Ampere
 D) Coulomb
 Answer: A) Ohm
 
-Q. Science Concept 175: What is the SI unit of Potential Difference (Voltage)?
+Q. What is the SI unit of Potential Difference (Voltage)?
 A) Watt
 B) Volt
 C) Joule
 D) Ampere
 Answer: B) Volt
 
-Q. Science Concept 176: Which instrument is used to measure electric current in an electrical circuit?
+Q. Which instrument is used to measure electric current in an electrical circuit?
 A) Voltmeter
 B) Ammeter
 C) Galvanometer
 D) Barometer
 Answer: B) Ammeter
 
-Q. Science Concept 177: Like magnetic poles:
+Q. Like magnetic poles:
 A) Attract each other
 B) Repel each other
 C) Neutralize each other
 D) Create electric charge
 Answer: B) Repel each other
 
-Q. Science Concept 178: What is the chemical symbol for Water?
+Q. What is the chemical symbol for Water?
 A) CO2
 B) H2O
 C) NaCl
 D) O2
 Answer: B) H2O
 
-Q. Science Concept 179: What is the chemical formula for common table salt?
+Q. What is the chemical formula for common table salt?
 A) NaCl
 B) KCl
 C) CaCO3
 D) HCl
 Answer: A) NaCl
 
-Q. Science Concept 180: What is the pH value of pure, neutral water at 25°C?
+Q. What is the pH value of pure, neutral water at 25°C?
 A) 0
 B) 7
 C) 14
 D) 10
 Answer: B) 7
 
-Q. Science Concept 181: Acids turn blue litmus paper into which color?
+Q. Acids turn blue litmus paper into which color?
 A) Green
 B) Yellow
 C) Red
 D) Colorless
 Answer: C) Red
 
-Q. Science Concept 182: Bases turn red litmus paper into which color?
+Q. Bases turn red litmus paper into which color?
 A) Blue
 B) Green
 C) Yellow
 D) Black
 Answer: A) Blue
 
-Q. Science Concept 183: What gas do green plants absorb during photosynthesis?
+Q. What gas do green plants absorb during photosynthesis?
 A) Oxygen
 B) Carbon Dioxide
 C) Nitrogen
 D) Hydrogen
 Answer: B) Carbon Dioxide
 
-Q. Science Concept 184: What gas is released as a byproduct during photosynthesis?
+Q. What gas is released as a byproduct during photosynthesis?
 A) Oxygen
 B) Carbon Dioxide
 C) Methane
 D) Argon
 Answer: A) Oxygen
 
-Q. Science Concept 185: Which gas is the most abundant in Earth's atmosphere?
+Q. Which gas is the most abundant in Earth's atmosphere?
 A) Oxygen
 B) Nitrogen
 C) Carbon dioxide
 D) Hydrogen
 Answer: B) Nitrogen
 
-Q. Science Concept 186: What is the center (core) of an atom called?
+Q. What is the center (core) of an atom called?
 A) Nucleus
 B) Electron
 C) Orbit
 D) Proton
 Answer: A) Nucleus
 
-Q. Science Concept 187: Which subatomic particle carries a negative electric charge?
+Q. Which subatomic particle carries a negative electric charge?
 A) Proton
 B) Neutron
 C) Electron
 D) Positron
 Answer: C) Electron
 
-Q. Science Concept 188: Which subatomic particle carries a positive electric charge?
+Q. Which subatomic particle carries a positive electric charge?
 A) Electron
 B) Neutron
 C) Proton
 D) Photon
 Answer: C) Proton
 
-Q. Science Concept 189: Which subatomic particle carries no electrical charge (neutral)?
+Q. Which subatomic particle carries no electrical charge (neutral)?
 A) Electron
 B) Neutron
 C) Proton
 D) Ion
 Answer: B) Neutron
 
-Q. Science Concept 190: What is the basic structural and functional unit of all living organisms?
+Q. What is the basic structural and functional unit of all living organisms?
 A) Tissue
 B) Cell
 C) Organ
 D) Organism
 Answer: B) Cell
 
-Q. Science Concept 191: Which organelle is known as the powerhouse of the cell?
+Q. Which organelle is known as the powerhouse of the cell?
 A) Nucleus
 B) Ribosome
 C) Mitochondria
 D) Chloroplast
 Answer: C) Mitochondria
 
-Q. Science Concept 192: Which green pigment in plants is responsible for absorbing sunlight for photosynthesis?
+Q. Which green pigment in plants is responsible for absorbing sunlight for photosynthesis?
 A) Hemoglobin
 B) Chlorophyll
 C) Carotene
 D) Melanin
 Answer: B) Chlorophyll
 
-Q. Science Concept 193: Which human organ purifies and filters waste from blood to form urine?
+Q. Which human organ purifies and filters waste from blood to form urine?
 A) Heart
 B) Liver
 C) Kidney
 D) Lungs
 Answer: C) Kidney
 
-Q. Science Concept 194: Which human organ pumps blood throughout the entire body?
+Q. Which human organ pumps blood throughout the entire body?
 A) Lungs
 B) Heart
 C) Stomach
 D) Brain
 Answer: B) Heart
 
-Q. Science Concept 195: What is the normal human body temperature in Celsius approximately?
+Q. What is the normal human body temperature in Celsius approximately?
 A) 32°C
 B) 37°C
 C) 42°C
 D) 98°C
 Answer: B) 37°C
 
-Q. Science Concept 196: Which blood group is known as the Universal Donor?
+Q. Which blood group is known as the Universal Donor?
 A) A+
 B) B+
 C) AB+
 D) O-
 Answer: D) O-
 
-Q. Science Concept 197: Which blood group is known as the Universal Recipient?
+Q. Which blood group is known as the Universal Recipient?
 A) O+
 B) AB+
 C) A-
 D) B-
 Answer: B) AB+
 
-Q. Science Concept 198: Which vitamin is produced in the human skin when exposed to sunlight?
+Q. Which vitamin is produced in the human skin when exposed to sunlight?
 A) Vitamin A
 B) Vitamin B
 C) Vitamin C
 D) Vitamin D
 Answer: D) Vitamin D
 
-Q. Science Concept 199: Deficiency of Vitamin C leads to which condition?
+Q. Deficiency of Vitamin C leads to which condition?
 A) Rickets
 B) Beriberi
 C) Scurvy
 D) Night blindness
 Answer: C) Scurvy
 
-Q. Science Concept 200: Deficiency of Vitamin A commonly causes:
+Q. Deficiency of Vitamin A commonly causes:
 A) Night blindness
 B) Goitre
 C) Anaemia
 D) Scurvy
 Answer: A) Night blindness
 
-Q. Science Concept 201: What is the SI unit of Force?
+Q. What is the SI unit of Force?
 A) Joule
 B) Newton
 C) Pascal
 D) Watt
 Answer: B) Newton
 
-Q. Science Concept 202: What is the SI unit of Work and Energy?
+Q. What is the SI unit of Work and Energy?
 A) Watt
 B) Newton
 C) Joule
 D) Ampere
 Answer: C) Joule
 
-Q. Science Concept 203: What is the SI unit of Power?
+Q. What is the SI unit of Power?
 A) Watt
 B) Joule
 C) Volt
 D) Ohm
 Answer: A) Watt
 
-Q. Science Concept 204: What is the acceleration due to gravity on Earth's surface approximately?
+Q. What is the acceleration due to gravity on Earth's surface approximately?
 A) 8.2 m/s²
 B) 9.8 m/s²
 C) 11.2 m/s²
 D) 15.0 m/s²
 Answer: B) 9.8 m/s²
 
-Q. Science Concept 205: The tendency of an object to resist changes in its state of motion is called:
+Q. The tendency of an object to resist changes in its state of motion is called:
 A) Inertia
 B) Velocity
 C) Acceleration
 D) Friction
 Answer: A) Inertia
 
-Q. Science Concept 206: Which of Newton's laws of motion explains why passengers lean forward when a bus suddenly stops?
+Q. Which of Newton's laws of motion explains why passengers lean forward when a bus suddenly stops?
 A) First Law
 B) Second Law
 C) Third Law
 D) Law of Gravitation
 Answer: A) First Law
 
-Q. Science Concept 207: Action and reaction forces are described by which of Newton's laws?
+Q. Action and reaction forces are described by which of Newton's laws?
 A) First Law
 B) Second Law
 C) Third Law
 D) Law of Inertia
 Answer: C) Third Law
 
-Q. Science Concept 208: The force that opposes the relative motion between two surfaces in contact is:
+Q. The force that opposes the relative motion between two surfaces in contact is:
 A) Gravity
 B) Friction
 C) Tension
 D) Buoyancy
 Answer: B) Friction
 
-Q. Science Concept 209: Sound travels fastest through which medium?
+Q. Sound travels fastest through which medium?
 A) Air
 B) Water
 C) Solid Steel
 D) Vacuum
 Answer: C) Solid Steel
 
-Q. Science Concept 210: What unit is commonly used to measure the frequency of a wave?
+Q. What unit is commonly used to measure the frequency of a wave?
 A) Hertz
 B) Decibel
 C) Meter
 D) Second
 Answer: A) Hertz
 
-Q. Science Concept 211: What unit is used to measure the loudness of sound?
+Q. What unit is used to measure the loudness of sound?
 A) Hertz
 B) Decibel
 C) Joule
 D) Pascal
 Answer: B) Decibel
 
-Q. Science Concept 212: What is the audible frequency range of human hearing?
+Q. What is the audible frequency range of human hearing?
 A) 20 Hz to 20,000 Hz
 B) 5 Hz to 500 Hz
 C) 10,000 Hz to 50,000 Hz
 D) Above 100,000 Hz
 Answer: A) 20 Hz to 20,000 Hz
 
-Q. Science Concept 213: The bouncing back of light from a smooth reflective surface is known as:
+Q. The bouncing back of light from a smooth reflective surface is known as:
 A) Refraction
 B) Reflection
 C) Dispersion
 D) Diffraction
 Answer: B) Reflection
 
-Q. Science Concept 214: The bending of light as it passes from one transparent medium to another is called:
+Q. The bending of light as it passes from one transparent medium to another is called:
 A) Reflection
 B) Refraction
 C) Absorption
 D) Scattering
 Answer: B) Refraction
 
-Q. Science Concept 215: Splitting of white light into its seven constituent colors through a prism is called:
+Q. Splitting of white light into its seven constituent colors through a prism is called:
 A) Dispersion
 B) Reflection
 C) Interference
 D) Total Internal Reflection
 Answer: A) Dispersion
 
-Q. Science Concept 216: Which color of light bends the most when passing through a glass prism?
+Q. Which color of light bends the most when passing through a glass prism?
 A) Red
 B) Green
 C) Violet
 D) Yellow
 Answer: C) Violet
 
-Q. Science Concept 217: Which color of light bends the least when passing through a glass prism?
+Q. Which color of light bends the least when passing through a glass prism?
 A) Red
 B) Blue
 C) Violet
 D) Orange
 Answer: A) Red
 
-Q. Science Concept 218: What type of mirror is commonly used as a rear-view mirror in vehicles?
+Q. What type of mirror is commonly used as a rear-view mirror in vehicles?
 A) Plane mirror
 B) Concave mirror
 C) Convex mirror
 D) Cylindrical mirror
 Answer: C) Convex mirror
 
-Q. Science Concept 219: At what temperature does water boil under standard atmospheric pressure?
+Q. At what temperature does water boil under standard atmospheric pressure?
 A) 50°C
 B) 100°C
 C) 150°C
 D) 212°C
 Answer: B) 100°C
 
-Q. Science Concept 220: The direct conversion of a solid into gas without passing through the liquid state is called:
+Q. The direct conversion of a solid into gas without passing through the liquid state is called:
 A) Evaporation
 B) Sublimation
 C) Condensation
 D) Melting
 Answer: B) Sublimation
 
-Q. Science Concept 221: Which mode of heat transfer does not require any material medium?
+Q. Which mode of heat transfer does not require any material medium?
 A) Conduction
 B) Convection
 C) Radiation
 D) Insulation
 Answer: C) Radiation
 
-Q. Science Concept 222: Which of the following is the best thermal conductor?
+Q. Which of the following is the best thermal conductor?
 A) Wood
 B) Plastic
 C) Silver metal
 D) Glass
 Answer: C) Silver metal
 
-Q. Science Concept 223: What is the SI unit of Electric Current?
+Q. What is the SI unit of Electric Current?
 A) Volt
 B) Ampere
 C) Ohm
 D) Watt
 Answer: B) Ampere
 
-Q. Science Concept 224: What is the SI unit of Electrical Resistance?
+Q. What is the SI unit of Electrical Resistance?
 A) Ohm
 B) Volt
 C) Ampere
 D) Coulomb
 Answer: A) Ohm
 
-Q. Science Concept 225: What is the SI unit of Potential Difference (Voltage)?
+Q. What is the SI unit of Potential Difference (Voltage)?
 A) Watt
 B) Volt
 C) Joule
 D) Ampere
 Answer: B) Volt
 
-Q. Science Concept 226: Which instrument is used to measure electric current in an electrical circuit?
+Q. Which instrument is used to measure electric current in an electrical circuit?
 A) Voltmeter
 B) Ammeter
 C) Galvanometer
 D) Barometer
 Answer: B) Ammeter
 
-Q. Science Concept 227: Like magnetic poles:
+Q. Like magnetic poles:
 A) Attract each other
 B) Repel each other
 C) Neutralize each other
 D) Create electric charge
 Answer: B) Repel each other
 
-Q. Science Concept 228: What is the chemical symbol for Water?
+Q. What is the chemical symbol for Water?
 A) CO2
 B) H2O
 C) NaCl
 D) O2
 Answer: B) H2O
 
-Q. Science Concept 229: What is the chemical formula for common table salt?
+Q. What is the chemical formula for common table salt?
 A) NaCl
 B) KCl
 C) CaCO3
 D) HCl
 Answer: A) NaCl
 
-Q. Science Concept 230: What is the pH value of pure, neutral water at 25°C?
+Q. What is the pH value of pure, neutral water at 25°C?
 A) 0
 B) 7
 C) 14
 D) 10
 Answer: B) 7
 
-Q. Science Concept 231: Acids turn blue litmus paper into which color?
+Q. Acids turn blue litmus paper into which color?
 A) Green
 B) Yellow
 C) Red
 D) Colorless
 Answer: C) Red
 
-Q. Science Concept 232: Bases turn red litmus paper into which color?
+Q. Bases turn red litmus paper into which color?
 A) Blue
 B) Green
 C) Yellow
 D) Black
 Answer: A) Blue
 
-Q. Science Concept 233: What gas do green plants absorb during photosynthesis?
+Q. What gas do green plants absorb during photosynthesis?
 A) Oxygen
 B) Carbon Dioxide
 C) Nitrogen
 D) Hydrogen
 Answer: B) Carbon Dioxide
 
-Q. Science Concept 234: What gas is released as a byproduct during photosynthesis?
+Q. What gas is released as a byproduct during photosynthesis?
 A) Oxygen
 B) Carbon Dioxide
 C) Methane
 D) Argon
 Answer: A) Oxygen
 
-Q. Science Concept 235: Which gas is the most abundant in Earth's atmosphere?
+Q. Which gas is the most abundant in Earth's atmosphere?
 A) Oxygen
 B) Nitrogen
 C) Carbon dioxide
 D) Hydrogen
 Answer: B) Nitrogen
 
-Q. Science Concept 236: What is the center (core) of an atom called?
+Q. What is the center (core) of an atom called?
 A) Nucleus
 B) Electron
 C) Orbit
 D) Proton
 Answer: A) Nucleus
 
-Q. Science Concept 237: Which subatomic particle carries a negative electric charge?
+Q. Which subatomic particle carries a negative electric charge?
 A) Proton
 B) Neutron
 C) Electron
 D) Positron
 Answer: C) Electron
 
-Q. Science Concept 238: Which subatomic particle carries a positive electric charge?
+Q. Which subatomic particle carries a positive electric charge?
 A) Electron
 B) Neutron
 C) Proton
 D) Photon
 Answer: C) Proton
 
-Q. Science Concept 239: Which subatomic particle carries no electrical charge (neutral)?
+Q. Which subatomic particle carries no electrical charge (neutral)?
 A) Electron
 B) Neutron
 C) Proton
 D) Ion
 Answer: B) Neutron
 
-Q. Science Concept 240: What is the basic structural and functional unit of all living organisms?
+Q. What is the basic structural and functional unit of all living organisms?
 A) Tissue
 B) Cell
 C) Organ
 D) Organism
 Answer: B) Cell
 
-Q. Science Concept 241: Which organelle is known as the powerhouse of the cell?
+Q. Which organelle is known as the powerhouse of the cell?
 A) Nucleus
 B) Ribosome
 C) Mitochondria
 D) Chloroplast
 Answer: C) Mitochondria
 
-Q. Science Concept 242: Which green pigment in plants is responsible for absorbing sunlight for photosynthesis?
+Q. Which green pigment in plants is responsible for absorbing sunlight for photosynthesis?
 A) Hemoglobin
 B) Chlorophyll
 C) Carotene
 D) Melanin
 Answer: B) Chlorophyll
 
-Q. Science Concept 243: Which human organ purifies and filters waste from blood to form urine?
+Q. Which human organ purifies and filters waste from blood to form urine?
 A) Heart
 B) Liver
 C) Kidney
 D) Lungs
 Answer: C) Kidney
 
-Q. Science Concept 244: Which human organ pumps blood throughout the entire body?
+Q. Which human organ pumps blood throughout the entire body?
 A) Lungs
 B) Heart
 C) Stomach
 D) Brain
 Answer: B) Heart
 
-Q. Science Concept 245: What is the normal human body temperature in Celsius approximately?
+Q. What is the normal human body temperature in Celsius approximately?
 A) 32°C
 B) 37°C
 C) 42°C
 D) 98°C
 Answer: B) 37°C
 
-Q. Science Concept 246: Which blood group is known as the Universal Donor?
+Q. Which blood group is known as the Universal Donor?
 A) A+
 B) B+
 C) AB+
 D) O-
 Answer: D) O-
 
-Q. Science Concept 247: Which blood group is known as the Universal Recipient?
+Q. Which blood group is known as the Universal Recipient?
 A) O+
 B) AB+
 C) A-
 D) B-
 Answer: B) AB+
 
-Q. Science Concept 248: Which vitamin is produced in the human skin when exposed to sunlight?
+Q. Which vitamin is produced in the human skin when exposed to sunlight?
 A) Vitamin A
 B) Vitamin B
 C) Vitamin C
 D) Vitamin D
 Answer: D) Vitamin D
 
-Q. Science Concept 249: Deficiency of Vitamin C leads to which condition?
+Q. Deficiency of Vitamin C leads to which condition?
 A) Rickets
 B) Beriberi
 C) Scurvy
 D) Night blindness
 Answer: C) Scurvy
 
-Q. Science Concept 250: Deficiency of Vitamin A commonly causes:
+Q. Deficiency of Vitamin A commonly causes:
 A) Night blindness
 B) Goitre
 C) Anaemia
 D) Scurvy
 Answer: A) Night blindness
 
-Q. Science Concept 251: What is the SI unit of Force?
+Q. What is the SI unit of Force?
 A) Joule
 B) Newton
 C) Pascal
 D) Watt
 Answer: B) Newton
 
-Q. Science Concept 252: What is the SI unit of Work and Energy?
+Q. What is the SI unit of Work and Energy?
 A) Watt
 B) Newton
 C) Joule
 D) Ampere
 Answer: C) Joule
 
-Q. Science Concept 253: What is the SI unit of Power?
+Q. What is the SI unit of Power?
 A) Watt
 B) Joule
 C) Volt
 D) Ohm
 Answer: A) Watt
 
-Q. Science Concept 254: What is the acceleration due to gravity on Earth's surface approximately?
+Q. What is the acceleration due to gravity on Earth's surface approximately?
 A) 8.2 m/s²
 B) 9.8 m/s²
 C) 11.2 m/s²
 D) 15.0 m/s²
 Answer: B) 9.8 m/s²
 
-Q. Science Concept 255: The tendency of an object to resist changes in its state of motion is called:
+Q. The tendency of an object to resist changes in its state of motion is called:
 A) Inertia
 B) Velocity
 C) Acceleration
 D) Friction
 Answer: A) Inertia
 
-Q. Science Concept 256: Which of Newton's laws of motion explains why passengers lean forward when a bus suddenly stops?
+Q. Which of Newton's laws of motion explains why passengers lean forward when a bus suddenly stops?
 A) First Law
 B) Second Law
 C) Third Law
 D) Law of Gravitation
 Answer: A) First Law
 
-Q. Science Concept 257: Action and reaction forces are described by which of Newton's laws?
+Q. Action and reaction forces are described by which of Newton's laws?
 A) First Law
 B) Second Law
 C) Third Law
 D) Law of Inertia
 Answer: C) Third Law
 
-Q. Science Concept 258: The force that opposes the relative motion between two surfaces in contact is:
+Q. The force that opposes the relative motion between two surfaces in contact is:
 A) Gravity
 B) Friction
 C) Tension
 D) Buoyancy
 Answer: B) Friction
 
-Q. Science Concept 259: Sound travels fastest through which medium?
+Q. Sound travels fastest through which medium?
 A) Air
 B) Water
 C) Solid Steel
 D) Vacuum
 Answer: C) Solid Steel
 
-Q. Science Concept 260: What unit is commonly used to measure the frequency of a wave?
+Q. What unit is commonly used to measure the frequency of a wave?
 A) Hertz
 B) Decibel
 C) Meter
 D) Second
 Answer: A) Hertz
 
-Q. Science Concept 261: What unit is used to measure the loudness of sound?
+Q. What unit is used to measure the loudness of sound?
 A) Hertz
 B) Decibel
 C) Joule
 D) Pascal
 Answer: B) Decibel
 
-Q. Science Concept 262: What is the audible frequency range of human hearing?
+Q. What is the audible frequency range of human hearing?
 A) 20 Hz to 20,000 Hz
 B) 5 Hz to 500 Hz
 C) 10,000 Hz to 50,000 Hz
 D) Above 100,000 Hz
 Answer: A) 20 Hz to 20,000 Hz
 
-Q. Science Concept 263: The bouncing back of light from a smooth reflective surface is known as:
+Q. The bouncing back of light from a smooth reflective surface is known as:
 A) Refraction
 B) Reflection
 C) Dispersion
 D) Diffraction
 Answer: B) Reflection
 
-Q. Science Concept 264: The bending of light as it passes from one transparent medium to another is called:
+Q. The bending of light as it passes from one transparent medium to another is called:
 A) Reflection
 B) Refraction
 C) Absorption
 D) Scattering
 Answer: B) Refraction
 
-Q. Science Concept 265: Splitting of white light into its seven constituent colors through a prism is called:
+Q. Splitting of white light into its seven constituent colors through a prism is called:
 A) Dispersion
 B) Reflection
 C) Interference
 D) Total Internal Reflection
 Answer: A) Dispersion
 
-Q. Science Concept 266: Which color of light bends the most when passing through a glass prism?
+Q. Which color of light bends the most when passing through a glass prism?
 A) Red
 B) Green
 C) Violet
 D) Yellow
 Answer: C) Violet
 
-Q. Science Concept 267: Which color of light bends the least when passing through a glass prism?
+Q. Which color of light bends the least when passing through a glass prism?
 A) Red
 B) Blue
 C) Violet
 D) Orange
 Answer: A) Red
 
-Q. Science Concept 268: What type of mirror is commonly used as a rear-view mirror in vehicles?
+Q. What type of mirror is commonly used as a rear-view mirror in vehicles?
 A) Plane mirror
 B) Concave mirror
 C) Convex mirror
 D) Cylindrical mirror
 Answer: C) Convex mirror
 
-Q. Science Concept 269: At what temperature does water boil under standard atmospheric pressure?
+Q. At what temperature does water boil under standard atmospheric pressure?
 A) 50°C
 B) 100°C
 C) 150°C
 D) 212°C
 Answer: B) 100°C
 
-Q. Science Concept 270: The direct conversion of a solid into gas without passing through the liquid state is called:
+Q. The direct conversion of a solid into gas without passing through the liquid state is called:
 A) Evaporation
 B) Sublimation
 C) Condensation
 D) Melting
 Answer: B) Sublimation
 
-Q. Science Concept 271: Which mode of heat transfer does not require any material medium?
+Q. Which mode of heat transfer does not require any material medium?
 A) Conduction
 B) Convection
 C) Radiation
 D) Insulation
 Answer: C) Radiation
 
-Q. Science Concept 272: Which of the following is the best thermal conductor?
+Q. Which of the following is the best thermal conductor?
 A) Wood
 B) Plastic
 C) Silver metal
 D) Glass
 Answer: C) Silver metal
 
-Q. Science Concept 273: What is the SI unit of Electric Current?
+Q. What is the SI unit of Electric Current?
 A) Volt
 B) Ampere
 C) Ohm
 D) Watt
 Answer: B) Ampere
 
-Q. Science Concept 274: What is the SI unit of Electrical Resistance?
+Q. What is the SI unit of Electrical Resistance?
 A) Ohm
 B) Volt
 C) Ampere
 D) Coulomb
 Answer: A) Ohm
 
-Q. Science Concept 275: What is the SI unit of Potential Difference (Voltage)?
+Q. What is the SI unit of Potential Difference (Voltage)?
 A) Watt
 B) Volt
 C) Joule
 D) Ampere
 Answer: B) Volt
 
-Q. Science Concept 276: Which instrument is used to measure electric current in an electrical circuit?
+Q. Which instrument is used to measure electric current in an electrical circuit?
 A) Voltmeter
 B) Ammeter
 C) Galvanometer
 D) Barometer
 Answer: B) Ammeter
 
-Q. Science Concept 277: Like magnetic poles:
+Q. Like magnetic poles:
 A) Attract each other
 B) Repel each other
 C) Neutralize each other
 D) Create electric charge
 Answer: B) Repel each other
 
-Q. Science Concept 278: What is the chemical symbol for Water?
+Q. What is the chemical symbol for Water?
 A) CO2
 B) H2O
 C) NaCl
 D) O2
 Answer: B) H2O
 
-Q. Science Concept 279: What is the chemical formula for common table salt?
+Q. What is the chemical formula for common table salt?
 A) NaCl
 B) KCl
 C) CaCO3
 D) HCl
 Answer: A) NaCl
 
-Q. Science Concept 280: What is the pH value of pure, neutral water at 25°C?
+Q. What is the pH value of pure, neutral water at 25°C?
 A) 0
 B) 7
 C) 14
 D) 10
 Answer: B) 7
 
-Q. Science Concept 281: Acids turn blue litmus paper into which color?
+Q. Acids turn blue litmus paper into which color?
 A) Green
 B) Yellow
 C) Red
 D) Colorless
 Answer: C) Red
 
-Q. Science Concept 282: Bases turn red litmus paper into which color?
+Q. Bases turn red litmus paper into which color?
 A) Blue
 B) Green
 C) Yellow
 D) Black
 Answer: A) Blue
 
-Q. Science Concept 283: What gas do green plants absorb during photosynthesis?
+Q. What gas do green plants absorb during photosynthesis?
 A) Oxygen
 B) Carbon Dioxide
 C) Nitrogen
 D) Hydrogen
 Answer: B) Carbon Dioxide
 
-Q. Science Concept 284: What gas is released as a byproduct during photosynthesis?
+Q. What gas is released as a byproduct during photosynthesis?
 A) Oxygen
 B) Carbon Dioxide
 C) Methane
 D) Argon
 Answer: A) Oxygen
 
-Q. Science Concept 285: Which gas is the most abundant in Earth's atmosphere?
+Q. Which gas is the most abundant in Earth's atmosphere?
 A) Oxygen
 B) Nitrogen
 C) Carbon dioxide
 D) Hydrogen
 Answer: B) Nitrogen
 
-Q. Science Concept 286: What is the center (core) of an atom called?
+Q. What is the center (core) of an atom called?
 A) Nucleus
 B) Electron
 C) Orbit
 D) Proton
 Answer: A) Nucleus
 
-Q. Science Concept 287: Which subatomic particle carries a negative electric charge?
+Q. Which subatomic particle carries a negative electric charge?
 A) Proton
 B) Neutron
 C) Electron
 D) Positron
 Answer: C) Electron
 
-Q. Science Concept 288: Which subatomic particle carries a positive electric charge?
+Q. Which subatomic particle carries a positive electric charge?
 A) Electron
 B) Neutron
 C) Proton
 D) Photon
 Answer: C) Proton
 
-Q. Science Concept 289: Which subatomic particle carries no electrical charge (neutral)?
+Q. Which subatomic particle carries no electrical charge (neutral)?
 A) Electron
 B) Neutron
 C) Proton
 D) Ion
 Answer: B) Neutron
 
-Q. Science Concept 290: What is the basic structural and functional unit of all living organisms?
+Q. What is the basic structural and functional unit of all living organisms?
 A) Tissue
 B) Cell
 C) Organ
 D) Organism
 Answer: B) Cell
 
-Q. Science Concept 291: Which organelle is known as the powerhouse of the cell?
+Q. Which organelle is known as the powerhouse of the cell?
 A) Nucleus
 B) Ribosome
 C) Mitochondria
 D) Chloroplast
 Answer: C) Mitochondria
 
-Q. Science Concept 292: Which green pigment in plants is responsible for absorbing sunlight for photosynthesis?
+Q. Which green pigment in plants is responsible for absorbing sunlight for photosynthesis?
 A) Hemoglobin
 B) Chlorophyll
 C) Carotene
 D) Melanin
 Answer: B) Chlorophyll
 
-Q. Science Concept 293: Which human organ purifies and filters waste from blood to form urine?
+Q. Which human organ purifies and filters waste from blood to form urine?
 A) Heart
 B) Liver
 C) Kidney
 D) Lungs
 Answer: C) Kidney
 
-Q. Science Concept 294: Which human organ pumps blood throughout the entire body?
+Q. Which human organ pumps blood throughout the entire body?
 A) Lungs
 B) Heart
 C) Stomach
 D) Brain
 Answer: B) Heart
 
-Q. Science Concept 295: What is the normal human body temperature in Celsius approximately?
+Q. What is the normal human body temperature in Celsius approximately?
 A) 32°C
 B) 37°C
 C) 42°C
 D) 98°C
 Answer: B) 37°C
 
-Q. Science Concept 296: Which blood group is known as the Universal Donor?
+Q. Which blood group is known as the Universal Donor?
 A) A+
 B) B+
 C) AB+
 D) O-
 Answer: D) O-
 
-Q. Science Concept 297: Which blood group is known as the Universal Recipient?
+Q. Which blood group is known as the Universal Recipient?
 A) O+
 B) AB+
 C) A-
 D) B-
 Answer: B) AB+
 
-Q. Science Concept 298: Which vitamin is produced in the human skin when exposed to sunlight?
+Q. Which vitamin is produced in the human skin when exposed to sunlight?
 A) Vitamin A
 B) Vitamin B
 C) Vitamin C
 D) Vitamin D
 Answer: D) Vitamin D
 
-Q. Science Concept 299: Deficiency of Vitamin C leads to which condition?
+Q. Deficiency of Vitamin C leads to which condition?
 A) Rickets
 B) Beriberi
 C) Scurvy
 D) Night blindness
 Answer: C) Scurvy
 
-Q. Science Concept 300: Deficiency of Vitamin A commonly causes:
+Q. Deficiency of Vitamin A commonly causes:
 A) Night blindness
 B) Goitre
 C) Anaemia
 D) Scurvy
 Answer: A) Night blindness
 
-Q. Science Concept 301: What is the SI unit of Force?
+Q. What is the SI unit of Force?
 A) Joule
 B) Newton
 C) Pascal
 D) Watt
 Answer: B) Newton
 
-Q. Science Concept 302: What is the SI unit of Work and Energy?
+Q. What is the SI unit of Work and Energy?
 A) Watt
 B) Newton
 C) Joule
 D) Ampere
 Answer: C) Joule
 
-Q. Science Concept 303: What is the SI unit of Power?
+Q. What is the SI unit of Power?
 A) Watt
 B) Joule
 C) Volt
 D) Ohm
 Answer: A) Watt
 
-Q. Science Concept 304: What is the acceleration due to gravity on Earth's surface approximately?
+Q. What is the acceleration due to gravity on Earth's surface approximately?
 A) 8.2 m/s²
 B) 9.8 m/s²
 C) 11.2 m/s²
 D) 15.0 m/s²
 Answer: B) 9.8 m/s²
 
-Q. Science Concept 305: The tendency of an object to resist changes in its state of motion is called:
+Q. The tendency of an object to resist changes in its state of motion is called:
 A) Inertia
 B) Velocity
 C) Acceleration
 D) Friction
 Answer: A) Inertia
 
-Q. Science Concept 306: Which of Newton's laws of motion explains why passengers lean forward when a bus suddenly stops?
+Q. Which of Newton's laws of motion explains why passengers lean forward when a bus suddenly stops?
 A) First Law
 B) Second Law
 C) Third Law
 D) Law of Gravitation
 Answer: A) First Law
 
-Q. Science Concept 307: Action and reaction forces are described by which of Newton's laws?
+Q. Action and reaction forces are described by which of Newton's laws?
 A) First Law
 B) Second Law
 C) Third Law
 D) Law of Inertia
 Answer: C) Third Law
 
-Q. Science Concept 308: The force that opposes the relative motion between two surfaces in contact is:
+Q. The force that opposes the relative motion between two surfaces in contact is:
 A) Gravity
 B) Friction
 C) Tension
 D) Buoyancy
 Answer: B) Friction
 
-Q. Science Concept 309: Sound travels fastest through which medium?
+Q. Sound travels fastest through which medium?
 A) Air
 B) Water
 C) Solid Steel
 D) Vacuum
 Answer: C) Solid Steel
 
-Q. Science Concept 310: What unit is commonly used to measure the frequency of a wave?
+Q. What unit is commonly used to measure the frequency of a wave?
 A) Hertz
 B) Decibel
 C) Meter
 D) Second
 Answer: A) Hertz
 
-Q. Science Concept 311: What unit is used to measure the loudness of sound?
+Q. What unit is used to measure the loudness of sound?
 A) Hertz
 B) Decibel
 C) Joule
 D) Pascal
 Answer: B) Decibel
 
-Q. Science Concept 312: What is the audible frequency range of human hearing?
+Q. What is the audible frequency range of human hearing?
 A) 20 Hz to 20,000 Hz
 B) 5 Hz to 500 Hz
 C) 10,000 Hz to 50,000 Hz
 D) Above 100,000 Hz
 Answer: A) 20 Hz to 20,000 Hz
 
-Q. Science Concept 313: The bouncing back of light from a smooth reflective surface is known as:
+Q. The bouncing back of light from a smooth reflective surface is known as:
 A) Refraction
 B) Reflection
 C) Dispersion
 D) Diffraction
 Answer: B) Reflection
 
-Q. Science Concept 314: The bending of light as it passes from one transparent medium to another is called:
+Q. The bending of light as it passes from one transparent medium to another is called:
 A) Reflection
 B) Refraction
 C) Absorption
 D) Scattering
 Answer: B) Refraction
 
-Q. Science Concept 315: Splitting of white light into its seven constituent colors through a prism is called:
+Q. Splitting of white light into its seven constituent colors through a prism is called:
 A) Dispersion
 B) Reflection
 C) Interference
 D) Total Internal Reflection
 Answer: A) Dispersion
 
-Q. Science Concept 316: Which color of light bends the most when passing through a glass prism?
+Q. Which color of light bends the most when passing through a glass prism?
 A) Red
 B) Green
 C) Violet
 D) Yellow
 Answer: C) Violet
 
-Q. Science Concept 317: Which color of light bends the least when passing through a glass prism?
+Q. Which color of light bends the least when passing through a glass prism?
 A) Red
 B) Blue
 C) Violet
 D) Orange
 Answer: A) Red
 
-Q. Science Concept 318: What type of mirror is commonly used as a rear-view mirror in vehicles?
+Q. What type of mirror is commonly used as a rear-view mirror in vehicles?
 A) Plane mirror
 B) Concave mirror
 C) Convex mirror
 D) Cylindrical mirror
 Answer: C) Convex mirror
 
-Q. Science Concept 319: At what temperature does water boil under standard atmospheric pressure?
+Q. At what temperature does water boil under standard atmospheric pressure?
 A) 50°C
 B) 100°C
 C) 150°C
 D) 212°C
 Answer: B) 100°C
 
-Q. Science Concept 320: The direct conversion of a solid into gas without passing through the liquid state is called:
+Q. The direct conversion of a solid into gas without passing through the liquid state is called:
 A) Evaporation
 B) Sublimation
 C) Condensation
@@ -11324,1974 +11324,1974 @@ C) Bar graph
 D) Scatter plot
 Answer: B) Flowchart
 
-Q. Digital Concept 39: What does 'CPU' stand for in computer systems?
+Q. What does 'CPU' stand for in computer systems?
 A) Central Processing Unit
 B) Central Power Unit
 C) Computer Program Unit
 D) Core Personal Unit
 Answer: A) Central Processing Unit
 
-Q. Digital Concept 40: What does 'RAM' stand for in computing?
+Q. What does 'RAM' stand for in computing?
 A) Read Access Memory
 B) Random Access Memory
 C) Rapid Action Memory
 D) Run Application Module
 Answer: B) Random Access Memory
 
-Q. Digital Concept 41: What does 'ROM' stand for?
+Q. What does 'ROM' stand for?
 A) Read Only Memory
 B) Random Output Memory
 C) Rapid Online Memory
 D) Reset Operational Mode
 Answer: A) Read Only Memory
 
-Q. Digital Concept 42: Which type of computer memory is volatile (loses its contents when power is turned off)?
+Q. Which type of computer memory is volatile (loses its contents when power is turned off)?
 A) Hard Disk
 B) ROM
 C) RAM
 D) Flash Drive
 Answer: C) RAM
 
-Q. Digital Concept 43: Which of the following is considered the 'brain' of the computer?
+Q. Which of the following is considered the 'brain' of the computer?
 A) Monitor
 B) CPU
 C) Hard Drive
 D) Keyboard
 Answer: B) CPU
 
-Q. Digital Concept 44: Which of the following is strictly an OUTPUT device?
+Q. Which of the following is strictly an OUTPUT device?
 A) Mouse
 B) Scanner
 C) Microphone
 D) Computer Monitor
 Answer: D) Computer Monitor
 
-Q. Digital Concept 45: Which of the following is an INPUT device used to capture handwritten signatures or drawings?
+Q. Which of the following is an INPUT device used to capture handwritten signatures or drawings?
 A) Plotter
 B) Graphic Tablet / Stylus
 C) Speaker
 D) Projector
 Answer: B) Graphic Tablet / Stylus
 
-Q. Digital Concept 46: Which component connects all essential internal parts of a computer together?
+Q. Which component connects all essential internal parts of a computer together?
 A) Sound Card
 B) Motherboard
 C) Power Supply Unit
 D) Cooling Fan
 Answer: B) Motherboard
 
-Q. Digital Concept 47: How many bits make up 1 Byte of data?
+Q. How many bits make up 1 Byte of data?
 A) 4 bits
 B) 8 bits
 C) 16 bits
 D) 32 bits
 Answer: B) 8 bits
 
-Q. Digital Concept 48: How many Kilobytes (KB) are equal to 1 Megabyte (MB) in binary standard?
+Q. How many Kilobytes (KB) are equal to 1 Megabyte (MB) in binary standard?
 A) 100 KB
 B) 512 KB
 C) 1000 KB
 D) 1024 KB
 Answer: D) 1024 KB
 
-Q. Digital Concept 49: How many Gigabytes (GB) are in 1 Terabyte (TB)?
+Q. How many Gigabytes (GB) are in 1 Terabyte (TB)?
 A) 100 GB
 B) 500 GB
 C) 1024 GB
 D) 2048 GB
 Answer: C) 1024 GB
 
-Q. Digital Concept 50: What is the binary representation of the decimal number 5?
+Q. What is the binary representation of the decimal number 5?
 A) 100
 B) 101
 C) 110
 D) 111
 Answer: B) 101
 
-Q. Digital Concept 51: What is the binary representation of the decimal number 2?
+Q. What is the binary representation of the decimal number 2?
 A) 01
 B) 10
 C) 11
 D) 100
 Answer: B) 10
 
-Q. Digital Concept 52: What is the decimal equivalent of the binary number '1000'?
+Q. What is the decimal equivalent of the binary number '1000'?
 A) 4
 B) 6
 C) 8
 D) 16
 Answer: C) 8
 
-Q. Digital Concept 53: Which logic gate gives an output of 1 (True) only when ALL of its inputs are 1?
+Q. Which logic gate gives an output of 1 (True) only when ALL of its inputs are 1?
 A) OR gate
 B) AND gate
 C) NOT gate
 D) XOR gate
 Answer: B) AND gate
 
-Q. Digital Concept 54: Which logic gate inverts its input (outputs 0 when input is 1, and 1 when input is 0)?
+Q. Which logic gate inverts its input (outputs 0 when input is 1, and 1 when input is 0)?
 A) AND gate
 B) OR gate
 C) NOT gate
 D) NAND gate
 Answer: C) NOT gate
 
-Q. Digital Concept 55: In Boolean algebra, what is the result of (1 AND 0)?
+Q. In Boolean algebra, what is the result of (1 AND 0)?
 A) 0
 B) 1
 C) 2
 D) Undefined
 Answer: A) 0
 
-Q. Digital Concept 56: In Boolean algebra, what is the result of (0 OR 1)?
+Q. In Boolean algebra, what is the result of (0 OR 1)?
 A) 0
 B) 1
 C) Undefined
 D) -1
 Answer: B) 1
 
-Q. Digital Concept 57: Which shortcut key is universally used to PASTE copied content?
+Q. Which shortcut key is universally used to PASTE copied content?
 A) Ctrl + P
 B) Ctrl + V
 C) Ctrl + X
 D) Ctrl + B
 Answer: B) Ctrl + V
 
-Q. Digital Concept 58: Which shortcut key is used to UNDO the last action?
+Q. Which shortcut key is used to UNDO the last action?
 A) Ctrl + U
 B) Ctrl + Y
 C) Ctrl + Z
 D) Ctrl + R
 Answer: C) Ctrl + Z
 
-Q. Digital Concept 59: Which keyboard shortcut is used to SELECT ALL items or text in a document?
+Q. Which keyboard shortcut is used to SELECT ALL items or text in a document?
 A) Ctrl + S
 B) Ctrl + A
 C) Ctrl + D
 D) Ctrl + Shift + A
 Answer: B) Ctrl + A
 
-Q. Digital Concept 60: Which shortcut key is used to SAVE the current file in most programs?
+Q. Which shortcut key is used to SAVE the current file in most programs?
 A) Ctrl + S
 B) Ctrl + W
 C) Ctrl + Shift + S
 D) Alt + S
 Answer: A) Ctrl + S
 
-Q. Digital Concept 61: Which shortcut key combination cuts selected text or files?
+Q. Which shortcut key combination cuts selected text or files?
 A) Ctrl + C
 B) Ctrl + X
 C) Ctrl + K
 D) Ctrl + Del
 Answer: B) Ctrl + X
 
-Q. Digital Concept 62: Which key combination refreshes the active webpage in most web browsers?
+Q. Which key combination refreshes the active webpage in most web browsers?
 A) F1
 B) F2
 C) F5
 D) F12
 Answer: C) F5
 
-Q. Digital Concept 63: What does 'HTTP' stand for in web addresses?
+Q. What does 'HTTP' stand for in web addresses?
 A) HyperText Transfer Protocol
 B) High Transfer Tech Protocol
 C) Hyper Transfer Text Program
 D) Hyperlink Text Test Protocol
 Answer: A) HyperText Transfer Protocol
 
-Q. Digital Concept 64: In HTTPS, what does the letter 'S' stand for?
+Q. In HTTPS, what does the letter 'S' stand for?
 A) Server
 B) Secure
 C) Speed
 D) Standard
 Answer: B) Secure
 
-Q. Digital Concept 65: What does 'URL' stand for?
+Q. What does 'URL' stand for?
 A) Uniform Resource Locator
 B) Universal Reference Link
 C) Unified Routing Line
 D) Universal Resource Language
 Answer: A) Uniform Resource Locator
 
-Q. Digital Concept 66: Which of the following is a popular open-source operating system?
+Q. Which of the following is a popular open-source operating system?
 A) Windows
 B) macOS
 C) Linux
 D) iOS
 Answer: C) Linux
 
-Q. Digital Concept 67: What does 'IP' stand for in 'IP address'?
+Q. What does 'IP' stand for in 'IP address'?
 A) Internet Protocol
 B) Internal Program
 C) Interlink Packet
 D) Internal Process
 Answer: A) Internet Protocol
 
-Q. Digital Concept 68: Which software is used to view and navigate websites on the World Wide Web?
+Q. Which software is used to view and navigate websites on the World Wide Web?
 A) Web Browser
 B) Text Editor
 C) Operating System
 D) Compiler
 Answer: A) Web Browser
 
-Q. Digital Concept 69: Which of the following is an example of a web browser?
+Q. Which of the following is an example of a web browser?
 A) Google Chrome
 B) Python
 C) Microsoft Word
 D) Photoshop
 Answer: A) Google Chrome
 
-Q. Digital Concept 70: What does 'HTML' stand for in web development?
+Q. What does 'HTML' stand for in web development?
 A) HyperText Markup Language
 B) HighText Machine Language
 C) Hyperlink Text Making Line
 D) Home Tool Markup Language
 Answer: A) HyperText Markup Language
 
-Q. Digital Concept 71: A fraudulent attempt to obtain sensitive information like passwords by disguising as a trustworthy entity is called:
+Q. A fraudulent attempt to obtain sensitive information like passwords by disguising as a trustworthy entity is called:
 A) Phishing
 B) Buffering
 C) Compiling
 D) Rendering
 Answer: A) Phishing
 
-Q. Digital Concept 72: What type of harmful software is designed to disrupt, damage, or gain unauthorized access to a computer?
+Q. What type of harmful software is designed to disrupt, damage, or gain unauthorized access to a computer?
 A) Firmware
 B) Malware / Virus
 C) Freeware
 D) Shareware
 Answer: B) Malware / Virus
 
-Q. Digital Concept 73: What is the primary function of a Firewall in a computer network?
+Q. What is the primary function of a Firewall in a computer network?
 A) Cool down the hardware
 B) Monitor and block unauthorized incoming/outgoing network traffic
 C) Speed up internet download speeds
 D) Clean physical dust from ports
 Answer: B) Monitor and block unauthorized incoming/outgoing network traffic
 
-Q. Digital Concept 74: What does '2FA' stand for in account security?
+Q. What does '2FA' stand for in account security?
 A) Two-Factor Authentication
 B) Two-File Authorization
 C) Twice Fast Access
 D) Total Format Algorithm
 Answer: A) Two-Factor Authentication
 
-Q. Digital Concept 75: What is an algorithm in computer science?
+Q. What is an algorithm in computer science?
 A) A physical chip on the motherboard
 B) A step-by-step procedure or set of rules to solve a problem
 C) An optical mouse sensor
 D) A computer monitor screen
 Answer: B) A step-by-step procedure or set of rules to solve a problem
 
-Q. Digital Concept 76: A graphical representation of the step-by-step flow of an algorithm is known as a:
+Q. A graphical representation of the step-by-step flow of an algorithm is known as a:
 A) Pie chart
 B) Flowchart
 C) Bar graph
 D) Scatter plot
 Answer: B) Flowchart
 
-Q. Digital Concept 77: What does 'CPU' stand for in computer systems?
+Q. What does 'CPU' stand for in computer systems?
 A) Central Processing Unit
 B) Central Power Unit
 C) Computer Program Unit
 D) Core Personal Unit
 Answer: A) Central Processing Unit
 
-Q. Digital Concept 78: What does 'RAM' stand for in computing?
+Q. What does 'RAM' stand for in computing?
 A) Read Access Memory
 B) Random Access Memory
 C) Rapid Action Memory
 D) Run Application Module
 Answer: B) Random Access Memory
 
-Q. Digital Concept 79: What does 'ROM' stand for?
+Q. What does 'ROM' stand for?
 A) Read Only Memory
 B) Random Output Memory
 C) Rapid Online Memory
 D) Reset Operational Mode
 Answer: A) Read Only Memory
 
-Q. Digital Concept 80: Which type of computer memory is volatile (loses its contents when power is turned off)?
+Q. Which type of computer memory is volatile (loses its contents when power is turned off)?
 A) Hard Disk
 B) ROM
 C) RAM
 D) Flash Drive
 Answer: C) RAM
 
-Q. Digital Concept 81: Which of the following is considered the 'brain' of the computer?
+Q. Which of the following is considered the 'brain' of the computer?
 A) Monitor
 B) CPU
 C) Hard Drive
 D) Keyboard
 Answer: B) CPU
 
-Q. Digital Concept 82: Which of the following is strictly an OUTPUT device?
+Q. Which of the following is strictly an OUTPUT device?
 A) Mouse
 B) Scanner
 C) Microphone
 D) Computer Monitor
 Answer: D) Computer Monitor
 
-Q. Digital Concept 83: Which of the following is an INPUT device used to capture handwritten signatures or drawings?
+Q. Which of the following is an INPUT device used to capture handwritten signatures or drawings?
 A) Plotter
 B) Graphic Tablet / Stylus
 C) Speaker
 D) Projector
 Answer: B) Graphic Tablet / Stylus
 
-Q. Digital Concept 84: Which component connects all essential internal parts of a computer together?
+Q. Which component connects all essential internal parts of a computer together?
 A) Sound Card
 B) Motherboard
 C) Power Supply Unit
 D) Cooling Fan
 Answer: B) Motherboard
 
-Q. Digital Concept 85: How many bits make up 1 Byte of data?
+Q. How many bits make up 1 Byte of data?
 A) 4 bits
 B) 8 bits
 C) 16 bits
 D) 32 bits
 Answer: B) 8 bits
 
-Q. Digital Concept 86: How many Kilobytes (KB) are equal to 1 Megabyte (MB) in binary standard?
+Q. How many Kilobytes (KB) are equal to 1 Megabyte (MB) in binary standard?
 A) 100 KB
 B) 512 KB
 C) 1000 KB
 D) 1024 KB
 Answer: D) 1024 KB
 
-Q. Digital Concept 87: How many Gigabytes (GB) are in 1 Terabyte (TB)?
+Q. How many Gigabytes (GB) are in 1 Terabyte (TB)?
 A) 100 GB
 B) 500 GB
 C) 1024 GB
 D) 2048 GB
 Answer: C) 1024 GB
 
-Q. Digital Concept 88: What is the binary representation of the decimal number 5?
+Q. What is the binary representation of the decimal number 5?
 A) 100
 B) 101
 C) 110
 D) 111
 Answer: B) 101
 
-Q. Digital Concept 89: What is the binary representation of the decimal number 2?
+Q. What is the binary representation of the decimal number 2?
 A) 01
 B) 10
 C) 11
 D) 100
 Answer: B) 10
 
-Q. Digital Concept 90: What is the decimal equivalent of the binary number '1000'?
+Q. What is the decimal equivalent of the binary number '1000'?
 A) 4
 B) 6
 C) 8
 D) 16
 Answer: C) 8
 
-Q. Digital Concept 91: Which logic gate gives an output of 1 (True) only when ALL of its inputs are 1?
+Q. Which logic gate gives an output of 1 (True) only when ALL of its inputs are 1?
 A) OR gate
 B) AND gate
 C) NOT gate
 D) XOR gate
 Answer: B) AND gate
 
-Q. Digital Concept 92: Which logic gate inverts its input (outputs 0 when input is 1, and 1 when input is 0)?
+Q. Which logic gate inverts its input (outputs 0 when input is 1, and 1 when input is 0)?
 A) AND gate
 B) OR gate
 C) NOT gate
 D) NAND gate
 Answer: C) NOT gate
 
-Q. Digital Concept 93: In Boolean algebra, what is the result of (1 AND 0)?
+Q. In Boolean algebra, what is the result of (1 AND 0)?
 A) 0
 B) 1
 C) 2
 D) Undefined
 Answer: A) 0
 
-Q. Digital Concept 94: In Boolean algebra, what is the result of (0 OR 1)?
+Q. In Boolean algebra, what is the result of (0 OR 1)?
 A) 0
 B) 1
 C) Undefined
 D) -1
 Answer: B) 1
 
-Q. Digital Concept 95: Which shortcut key is universally used to PASTE copied content?
+Q. Which shortcut key is universally used to PASTE copied content?
 A) Ctrl + P
 B) Ctrl + V
 C) Ctrl + X
 D) Ctrl + B
 Answer: B) Ctrl + V
 
-Q. Digital Concept 96: Which shortcut key is used to UNDO the last action?
+Q. Which shortcut key is used to UNDO the last action?
 A) Ctrl + U
 B) Ctrl + Y
 C) Ctrl + Z
 D) Ctrl + R
 Answer: C) Ctrl + Z
 
-Q. Digital Concept 97: Which keyboard shortcut is used to SELECT ALL items or text in a document?
+Q. Which keyboard shortcut is used to SELECT ALL items or text in a document?
 A) Ctrl + S
 B) Ctrl + A
 C) Ctrl + D
 D) Ctrl + Shift + A
 Answer: B) Ctrl + A
 
-Q. Digital Concept 98: Which shortcut key is used to SAVE the current file in most programs?
+Q. Which shortcut key is used to SAVE the current file in most programs?
 A) Ctrl + S
 B) Ctrl + W
 C) Ctrl + Shift + S
 D) Alt + S
 Answer: A) Ctrl + S
 
-Q. Digital Concept 99: Which shortcut key combination cuts selected text or files?
+Q. Which shortcut key combination cuts selected text or files?
 A) Ctrl + C
 B) Ctrl + X
 C) Ctrl + K
 D) Ctrl + Del
 Answer: B) Ctrl + X
 
-Q. Digital Concept 100: Which key combination refreshes the active webpage in most web browsers?
+Q. Which key combination refreshes the active webpage in most web browsers?
 A) F1
 B) F2
 C) F5
 D) F12
 Answer: C) F5
 
-Q. Digital Concept 101: What does 'HTTP' stand for in web addresses?
+Q. What does 'HTTP' stand for in web addresses?
 A) HyperText Transfer Protocol
 B) High Transfer Tech Protocol
 C) Hyper Transfer Text Program
 D) Hyperlink Text Test Protocol
 Answer: A) HyperText Transfer Protocol
 
-Q. Digital Concept 102: In HTTPS, what does the letter 'S' stand for?
+Q. In HTTPS, what does the letter 'S' stand for?
 A) Server
 B) Secure
 C) Speed
 D) Standard
 Answer: B) Secure
 
-Q. Digital Concept 103: What does 'URL' stand for?
+Q. What does 'URL' stand for?
 A) Uniform Resource Locator
 B) Universal Reference Link
 C) Unified Routing Line
 D) Universal Resource Language
 Answer: A) Uniform Resource Locator
 
-Q. Digital Concept 104: Which of the following is a popular open-source operating system?
+Q. Which of the following is a popular open-source operating system?
 A) Windows
 B) macOS
 C) Linux
 D) iOS
 Answer: C) Linux
 
-Q. Digital Concept 105: What does 'IP' stand for in 'IP address'?
+Q. What does 'IP' stand for in 'IP address'?
 A) Internet Protocol
 B) Internal Program
 C) Interlink Packet
 D) Internal Process
 Answer: A) Internet Protocol
 
-Q. Digital Concept 106: Which software is used to view and navigate websites on the World Wide Web?
+Q. Which software is used to view and navigate websites on the World Wide Web?
 A) Web Browser
 B) Text Editor
 C) Operating System
 D) Compiler
 Answer: A) Web Browser
 
-Q. Digital Concept 107: Which of the following is an example of a web browser?
+Q. Which of the following is an example of a web browser?
 A) Google Chrome
 B) Python
 C) Microsoft Word
 D) Photoshop
 Answer: A) Google Chrome
 
-Q. Digital Concept 108: What does 'HTML' stand for in web development?
+Q. What does 'HTML' stand for in web development?
 A) HyperText Markup Language
 B) HighText Machine Language
 C) Hyperlink Text Making Line
 D) Home Tool Markup Language
 Answer: A) HyperText Markup Language
 
-Q. Digital Concept 109: A fraudulent attempt to obtain sensitive information like passwords by disguising as a trustworthy entity is called:
+Q. A fraudulent attempt to obtain sensitive information like passwords by disguising as a trustworthy entity is called:
 A) Phishing
 B) Buffering
 C) Compiling
 D) Rendering
 Answer: A) Phishing
 
-Q. Digital Concept 110: What type of harmful software is designed to disrupt, damage, or gain unauthorized access to a computer?
+Q. What type of harmful software is designed to disrupt, damage, or gain unauthorized access to a computer?
 A) Firmware
 B) Malware / Virus
 C) Freeware
 D) Shareware
 Answer: B) Malware / Virus
 
-Q. Digital Concept 111: What is the primary function of a Firewall in a computer network?
+Q. What is the primary function of a Firewall in a computer network?
 A) Cool down the hardware
 B) Monitor and block unauthorized incoming/outgoing network traffic
 C) Speed up internet download speeds
 D) Clean physical dust from ports
 Answer: B) Monitor and block unauthorized incoming/outgoing network traffic
 
-Q. Digital Concept 112: What does '2FA' stand for in account security?
+Q. What does '2FA' stand for in account security?
 A) Two-Factor Authentication
 B) Two-File Authorization
 C) Twice Fast Access
 D) Total Format Algorithm
 Answer: A) Two-Factor Authentication
 
-Q. Digital Concept 113: What is an algorithm in computer science?
+Q. What is an algorithm in computer science?
 A) A physical chip on the motherboard
 B) A step-by-step procedure or set of rules to solve a problem
 C) An optical mouse sensor
 D) A computer monitor screen
 Answer: B) A step-by-step procedure or set of rules to solve a problem
 
-Q. Digital Concept 114: A graphical representation of the step-by-step flow of an algorithm is known as a:
+Q. A graphical representation of the step-by-step flow of an algorithm is known as a:
 A) Pie chart
 B) Flowchart
 C) Bar graph
 D) Scatter plot
 Answer: B) Flowchart
 
-Q. Digital Concept 115: What does 'CPU' stand for in computer systems?
+Q. What does 'CPU' stand for in computer systems?
 A) Central Processing Unit
 B) Central Power Unit
 C) Computer Program Unit
 D) Core Personal Unit
 Answer: A) Central Processing Unit
 
-Q. Digital Concept 116: What does 'RAM' stand for in computing?
+Q. What does 'RAM' stand for in computing?
 A) Read Access Memory
 B) Random Access Memory
 C) Rapid Action Memory
 D) Run Application Module
 Answer: B) Random Access Memory
 
-Q. Digital Concept 117: What does 'ROM' stand for?
+Q. What does 'ROM' stand for?
 A) Read Only Memory
 B) Random Output Memory
 C) Rapid Online Memory
 D) Reset Operational Mode
 Answer: A) Read Only Memory
 
-Q. Digital Concept 118: Which type of computer memory is volatile (loses its contents when power is turned off)?
+Q. Which type of computer memory is volatile (loses its contents when power is turned off)?
 A) Hard Disk
 B) ROM
 C) RAM
 D) Flash Drive
 Answer: C) RAM
 
-Q. Digital Concept 119: Which of the following is considered the 'brain' of the computer?
+Q. Which of the following is considered the 'brain' of the computer?
 A) Monitor
 B) CPU
 C) Hard Drive
 D) Keyboard
 Answer: B) CPU
 
-Q. Digital Concept 120: Which of the following is strictly an OUTPUT device?
+Q. Which of the following is strictly an OUTPUT device?
 A) Mouse
 B) Scanner
 C) Microphone
 D) Computer Monitor
 Answer: D) Computer Monitor
 
-Q. Digital Concept 121: Which of the following is an INPUT device used to capture handwritten signatures or drawings?
+Q. Which of the following is an INPUT device used to capture handwritten signatures or drawings?
 A) Plotter
 B) Graphic Tablet / Stylus
 C) Speaker
 D) Projector
 Answer: B) Graphic Tablet / Stylus
 
-Q. Digital Concept 122: Which component connects all essential internal parts of a computer together?
+Q. Which component connects all essential internal parts of a computer together?
 A) Sound Card
 B) Motherboard
 C) Power Supply Unit
 D) Cooling Fan
 Answer: B) Motherboard
 
-Q. Digital Concept 123: How many bits make up 1 Byte of data?
+Q. How many bits make up 1 Byte of data?
 A) 4 bits
 B) 8 bits
 C) 16 bits
 D) 32 bits
 Answer: B) 8 bits
 
-Q. Digital Concept 124: How many Kilobytes (KB) are equal to 1 Megabyte (MB) in binary standard?
+Q. How many Kilobytes (KB) are equal to 1 Megabyte (MB) in binary standard?
 A) 100 KB
 B) 512 KB
 C) 1000 KB
 D) 1024 KB
 Answer: D) 1024 KB
 
-Q. Digital Concept 125: How many Gigabytes (GB) are in 1 Terabyte (TB)?
+Q. How many Gigabytes (GB) are in 1 Terabyte (TB)?
 A) 100 GB
 B) 500 GB
 C) 1024 GB
 D) 2048 GB
 Answer: C) 1024 GB
 
-Q. Digital Concept 126: What is the binary representation of the decimal number 5?
+Q. What is the binary representation of the decimal number 5?
 A) 100
 B) 101
 C) 110
 D) 111
 Answer: B) 101
 
-Q. Digital Concept 127: What is the binary representation of the decimal number 2?
+Q. What is the binary representation of the decimal number 2?
 A) 01
 B) 10
 C) 11
 D) 100
 Answer: B) 10
 
-Q. Digital Concept 128: What is the decimal equivalent of the binary number '1000'?
+Q. What is the decimal equivalent of the binary number '1000'?
 A) 4
 B) 6
 C) 8
 D) 16
 Answer: C) 8
 
-Q. Digital Concept 129: Which logic gate gives an output of 1 (True) only when ALL of its inputs are 1?
+Q. Which logic gate gives an output of 1 (True) only when ALL of its inputs are 1?
 A) OR gate
 B) AND gate
 C) NOT gate
 D) XOR gate
 Answer: B) AND gate
 
-Q. Digital Concept 130: Which logic gate inverts its input (outputs 0 when input is 1, and 1 when input is 0)?
+Q. Which logic gate inverts its input (outputs 0 when input is 1, and 1 when input is 0)?
 A) AND gate
 B) OR gate
 C) NOT gate
 D) NAND gate
 Answer: C) NOT gate
 
-Q. Digital Concept 131: In Boolean algebra, what is the result of (1 AND 0)?
+Q. In Boolean algebra, what is the result of (1 AND 0)?
 A) 0
 B) 1
 C) 2
 D) Undefined
 Answer: A) 0
 
-Q. Digital Concept 132: In Boolean algebra, what is the result of (0 OR 1)?
+Q. In Boolean algebra, what is the result of (0 OR 1)?
 A) 0
 B) 1
 C) Undefined
 D) -1
 Answer: B) 1
 
-Q. Digital Concept 133: Which shortcut key is universally used to PASTE copied content?
+Q. Which shortcut key is universally used to PASTE copied content?
 A) Ctrl + P
 B) Ctrl + V
 C) Ctrl + X
 D) Ctrl + B
 Answer: B) Ctrl + V
 
-Q. Digital Concept 134: Which shortcut key is used to UNDO the last action?
+Q. Which shortcut key is used to UNDO the last action?
 A) Ctrl + U
 B) Ctrl + Y
 C) Ctrl + Z
 D) Ctrl + R
 Answer: C) Ctrl + Z
 
-Q. Digital Concept 135: Which keyboard shortcut is used to SELECT ALL items or text in a document?
+Q. Which keyboard shortcut is used to SELECT ALL items or text in a document?
 A) Ctrl + S
 B) Ctrl + A
 C) Ctrl + D
 D) Ctrl + Shift + A
 Answer: B) Ctrl + A
 
-Q. Digital Concept 136: Which shortcut key is used to SAVE the current file in most programs?
+Q. Which shortcut key is used to SAVE the current file in most programs?
 A) Ctrl + S
 B) Ctrl + W
 C) Ctrl + Shift + S
 D) Alt + S
 Answer: A) Ctrl + S
 
-Q. Digital Concept 137: Which shortcut key combination cuts selected text or files?
+Q. Which shortcut key combination cuts selected text or files?
 A) Ctrl + C
 B) Ctrl + X
 C) Ctrl + K
 D) Ctrl + Del
 Answer: B) Ctrl + X
 
-Q. Digital Concept 138: Which key combination refreshes the active webpage in most web browsers?
+Q. Which key combination refreshes the active webpage in most web browsers?
 A) F1
 B) F2
 C) F5
 D) F12
 Answer: C) F5
 
-Q. Digital Concept 139: What does 'HTTP' stand for in web addresses?
+Q. What does 'HTTP' stand for in web addresses?
 A) HyperText Transfer Protocol
 B) High Transfer Tech Protocol
 C) Hyper Transfer Text Program
 D) Hyperlink Text Test Protocol
 Answer: A) HyperText Transfer Protocol
 
-Q. Digital Concept 140: In HTTPS, what does the letter 'S' stand for?
+Q. In HTTPS, what does the letter 'S' stand for?
 A) Server
 B) Secure
 C) Speed
 D) Standard
 Answer: B) Secure
 
-Q. Digital Concept 141: What does 'URL' stand for?
+Q. What does 'URL' stand for?
 A) Uniform Resource Locator
 B) Universal Reference Link
 C) Unified Routing Line
 D) Universal Resource Language
 Answer: A) Uniform Resource Locator
 
-Q. Digital Concept 142: Which of the following is a popular open-source operating system?
+Q. Which of the following is a popular open-source operating system?
 A) Windows
 B) macOS
 C) Linux
 D) iOS
 Answer: C) Linux
 
-Q. Digital Concept 143: What does 'IP' stand for in 'IP address'?
+Q. What does 'IP' stand for in 'IP address'?
 A) Internet Protocol
 B) Internal Program
 C) Interlink Packet
 D) Internal Process
 Answer: A) Internet Protocol
 
-Q. Digital Concept 144: Which software is used to view and navigate websites on the World Wide Web?
+Q. Which software is used to view and navigate websites on the World Wide Web?
 A) Web Browser
 B) Text Editor
 C) Operating System
 D) Compiler
 Answer: A) Web Browser
 
-Q. Digital Concept 145: Which of the following is an example of a web browser?
+Q. Which of the following is an example of a web browser?
 A) Google Chrome
 B) Python
 C) Microsoft Word
 D) Photoshop
 Answer: A) Google Chrome
 
-Q. Digital Concept 146: What does 'HTML' stand for in web development?
+Q. What does 'HTML' stand for in web development?
 A) HyperText Markup Language
 B) HighText Machine Language
 C) Hyperlink Text Making Line
 D) Home Tool Markup Language
 Answer: A) HyperText Markup Language
 
-Q. Digital Concept 147: A fraudulent attempt to obtain sensitive information like passwords by disguising as a trustworthy entity is called:
+Q. A fraudulent attempt to obtain sensitive information like passwords by disguising as a trustworthy entity is called:
 A) Phishing
 B) Buffering
 C) Compiling
 D) Rendering
 Answer: A) Phishing
 
-Q. Digital Concept 148: What type of harmful software is designed to disrupt, damage, or gain unauthorized access to a computer?
+Q. What type of harmful software is designed to disrupt, damage, or gain unauthorized access to a computer?
 A) Firmware
 B) Malware / Virus
 C) Freeware
 D) Shareware
 Answer: B) Malware / Virus
 
-Q. Digital Concept 149: What is the primary function of a Firewall in a computer network?
+Q. What is the primary function of a Firewall in a computer network?
 A) Cool down the hardware
 B) Monitor and block unauthorized incoming/outgoing network traffic
 C) Speed up internet download speeds
 D) Clean physical dust from ports
 Answer: B) Monitor and block unauthorized incoming/outgoing network traffic
 
-Q. Digital Concept 150: What does '2FA' stand for in account security?
+Q. What does '2FA' stand for in account security?
 A) Two-Factor Authentication
 B) Two-File Authorization
 C) Twice Fast Access
 D) Total Format Algorithm
 Answer: A) Two-Factor Authentication
 
-Q. Digital Concept 151: What is an algorithm in computer science?
+Q. What is an algorithm in computer science?
 A) A physical chip on the motherboard
 B) A step-by-step procedure or set of rules to solve a problem
 C) An optical mouse sensor
 D) A computer monitor screen
 Answer: B) A step-by-step procedure or set of rules to solve a problem
 
-Q. Digital Concept 152: A graphical representation of the step-by-step flow of an algorithm is known as a:
+Q. A graphical representation of the step-by-step flow of an algorithm is known as a:
 A) Pie chart
 B) Flowchart
 C) Bar graph
 D) Scatter plot
 Answer: B) Flowchart
 
-Q. Digital Concept 153: What does 'CPU' stand for in computer systems?
+Q. What does 'CPU' stand for in computer systems?
 A) Central Processing Unit
 B) Central Power Unit
 C) Computer Program Unit
 D) Core Personal Unit
 Answer: A) Central Processing Unit
 
-Q. Digital Concept 154: What does 'RAM' stand for in computing?
+Q. What does 'RAM' stand for in computing?
 A) Read Access Memory
 B) Random Access Memory
 C) Rapid Action Memory
 D) Run Application Module
 Answer: B) Random Access Memory
 
-Q. Digital Concept 155: What does 'ROM' stand for?
+Q. What does 'ROM' stand for?
 A) Read Only Memory
 B) Random Output Memory
 C) Rapid Online Memory
 D) Reset Operational Mode
 Answer: A) Read Only Memory
 
-Q. Digital Concept 156: Which type of computer memory is volatile (loses its contents when power is turned off)?
+Q. Which type of computer memory is volatile (loses its contents when power is turned off)?
 A) Hard Disk
 B) ROM
 C) RAM
 D) Flash Drive
 Answer: C) RAM
 
-Q. Digital Concept 157: Which of the following is considered the 'brain' of the computer?
+Q. Which of the following is considered the 'brain' of the computer?
 A) Monitor
 B) CPU
 C) Hard Drive
 D) Keyboard
 Answer: B) CPU
 
-Q. Digital Concept 158: Which of the following is strictly an OUTPUT device?
+Q. Which of the following is strictly an OUTPUT device?
 A) Mouse
 B) Scanner
 C) Microphone
 D) Computer Monitor
 Answer: D) Computer Monitor
 
-Q. Digital Concept 159: Which of the following is an INPUT device used to capture handwritten signatures or drawings?
+Q. Which of the following is an INPUT device used to capture handwritten signatures or drawings?
 A) Plotter
 B) Graphic Tablet / Stylus
 C) Speaker
 D) Projector
 Answer: B) Graphic Tablet / Stylus
 
-Q. Digital Concept 160: Which component connects all essential internal parts of a computer together?
+Q. Which component connects all essential internal parts of a computer together?
 A) Sound Card
 B) Motherboard
 C) Power Supply Unit
 D) Cooling Fan
 Answer: B) Motherboard
 
-Q. Digital Concept 161: How many bits make up 1 Byte of data?
+Q. How many bits make up 1 Byte of data?
 A) 4 bits
 B) 8 bits
 C) 16 bits
 D) 32 bits
 Answer: B) 8 bits
 
-Q. Digital Concept 162: How many Kilobytes (KB) are equal to 1 Megabyte (MB) in binary standard?
+Q. How many Kilobytes (KB) are equal to 1 Megabyte (MB) in binary standard?
 A) 100 KB
 B) 512 KB
 C) 1000 KB
 D) 1024 KB
 Answer: D) 1024 KB
 
-Q. Digital Concept 163: How many Gigabytes (GB) are in 1 Terabyte (TB)?
+Q. How many Gigabytes (GB) are in 1 Terabyte (TB)?
 A) 100 GB
 B) 500 GB
 C) 1024 GB
 D) 2048 GB
 Answer: C) 1024 GB
 
-Q. Digital Concept 164: What is the binary representation of the decimal number 5?
+Q. What is the binary representation of the decimal number 5?
 A) 100
 B) 101
 C) 110
 D) 111
 Answer: B) 101
 
-Q. Digital Concept 165: What is the binary representation of the decimal number 2?
+Q. What is the binary representation of the decimal number 2?
 A) 01
 B) 10
 C) 11
 D) 100
 Answer: B) 10
 
-Q. Digital Concept 166: What is the decimal equivalent of the binary number '1000'?
+Q. What is the decimal equivalent of the binary number '1000'?
 A) 4
 B) 6
 C) 8
 D) 16
 Answer: C) 8
 
-Q. Digital Concept 167: Which logic gate gives an output of 1 (True) only when ALL of its inputs are 1?
+Q. Which logic gate gives an output of 1 (True) only when ALL of its inputs are 1?
 A) OR gate
 B) AND gate
 C) NOT gate
 D) XOR gate
 Answer: B) AND gate
 
-Q. Digital Concept 168: Which logic gate inverts its input (outputs 0 when input is 1, and 1 when input is 0)?
+Q. Which logic gate inverts its input (outputs 0 when input is 1, and 1 when input is 0)?
 A) AND gate
 B) OR gate
 C) NOT gate
 D) NAND gate
 Answer: C) NOT gate
 
-Q. Digital Concept 169: In Boolean algebra, what is the result of (1 AND 0)?
+Q. In Boolean algebra, what is the result of (1 AND 0)?
 A) 0
 B) 1
 C) 2
 D) Undefined
 Answer: A) 0
 
-Q. Digital Concept 170: In Boolean algebra, what is the result of (0 OR 1)?
+Q. In Boolean algebra, what is the result of (0 OR 1)?
 A) 0
 B) 1
 C) Undefined
 D) -1
 Answer: B) 1
 
-Q. Digital Concept 171: Which shortcut key is universally used to PASTE copied content?
+Q. Which shortcut key is universally used to PASTE copied content?
 A) Ctrl + P
 B) Ctrl + V
 C) Ctrl + X
 D) Ctrl + B
 Answer: B) Ctrl + V
 
-Q. Digital Concept 172: Which shortcut key is used to UNDO the last action?
+Q. Which shortcut key is used to UNDO the last action?
 A) Ctrl + U
 B) Ctrl + Y
 C) Ctrl + Z
 D) Ctrl + R
 Answer: C) Ctrl + Z
 
-Q. Digital Concept 173: Which keyboard shortcut is used to SELECT ALL items or text in a document?
+Q. Which keyboard shortcut is used to SELECT ALL items or text in a document?
 A) Ctrl + S
 B) Ctrl + A
 C) Ctrl + D
 D) Ctrl + Shift + A
 Answer: B) Ctrl + A
 
-Q. Digital Concept 174: Which shortcut key is used to SAVE the current file in most programs?
+Q. Which shortcut key is used to SAVE the current file in most programs?
 A) Ctrl + S
 B) Ctrl + W
 C) Ctrl + Shift + S
 D) Alt + S
 Answer: A) Ctrl + S
 
-Q. Digital Concept 175: Which shortcut key combination cuts selected text or files?
+Q. Which shortcut key combination cuts selected text or files?
 A) Ctrl + C
 B) Ctrl + X
 C) Ctrl + K
 D) Ctrl + Del
 Answer: B) Ctrl + X
 
-Q. Digital Concept 176: Which key combination refreshes the active webpage in most web browsers?
+Q. Which key combination refreshes the active webpage in most web browsers?
 A) F1
 B) F2
 C) F5
 D) F12
 Answer: C) F5
 
-Q. Digital Concept 177: What does 'HTTP' stand for in web addresses?
+Q. What does 'HTTP' stand for in web addresses?
 A) HyperText Transfer Protocol
 B) High Transfer Tech Protocol
 C) Hyper Transfer Text Program
 D) Hyperlink Text Test Protocol
 Answer: A) HyperText Transfer Protocol
 
-Q. Digital Concept 178: In HTTPS, what does the letter 'S' stand for?
+Q. In HTTPS, what does the letter 'S' stand for?
 A) Server
 B) Secure
 C) Speed
 D) Standard
 Answer: B) Secure
 
-Q. Digital Concept 179: What does 'URL' stand for?
+Q. What does 'URL' stand for?
 A) Uniform Resource Locator
 B) Universal Reference Link
 C) Unified Routing Line
 D) Universal Resource Language
 Answer: A) Uniform Resource Locator
 
-Q. Digital Concept 180: Which of the following is a popular open-source operating system?
+Q. Which of the following is a popular open-source operating system?
 A) Windows
 B) macOS
 C) Linux
 D) iOS
 Answer: C) Linux
 
-Q. Digital Concept 181: What does 'IP' stand for in 'IP address'?
+Q. What does 'IP' stand for in 'IP address'?
 A) Internet Protocol
 B) Internal Program
 C) Interlink Packet
 D) Internal Process
 Answer: A) Internet Protocol
 
-Q. Digital Concept 182: Which software is used to view and navigate websites on the World Wide Web?
+Q. Which software is used to view and navigate websites on the World Wide Web?
 A) Web Browser
 B) Text Editor
 C) Operating System
 D) Compiler
 Answer: A) Web Browser
 
-Q. Digital Concept 183: Which of the following is an example of a web browser?
+Q. Which of the following is an example of a web browser?
 A) Google Chrome
 B) Python
 C) Microsoft Word
 D) Photoshop
 Answer: A) Google Chrome
 
-Q. Digital Concept 184: What does 'HTML' stand for in web development?
+Q. What does 'HTML' stand for in web development?
 A) HyperText Markup Language
 B) HighText Machine Language
 C) Hyperlink Text Making Line
 D) Home Tool Markup Language
 Answer: A) HyperText Markup Language
 
-Q. Digital Concept 185: A fraudulent attempt to obtain sensitive information like passwords by disguising as a trustworthy entity is called:
+Q. A fraudulent attempt to obtain sensitive information like passwords by disguising as a trustworthy entity is called:
 A) Phishing
 B) Buffering
 C) Compiling
 D) Rendering
 Answer: A) Phishing
 
-Q. Digital Concept 186: What type of harmful software is designed to disrupt, damage, or gain unauthorized access to a computer?
+Q. What type of harmful software is designed to disrupt, damage, or gain unauthorized access to a computer?
 A) Firmware
 B) Malware / Virus
 C) Freeware
 D) Shareware
 Answer: B) Malware / Virus
 
-Q. Digital Concept 187: What is the primary function of a Firewall in a computer network?
+Q. What is the primary function of a Firewall in a computer network?
 A) Cool down the hardware
 B) Monitor and block unauthorized incoming/outgoing network traffic
 C) Speed up internet download speeds
 D) Clean physical dust from ports
 Answer: B) Monitor and block unauthorized incoming/outgoing network traffic
 
-Q. Digital Concept 188: What does '2FA' stand for in account security?
+Q. What does '2FA' stand for in account security?
 A) Two-Factor Authentication
 B) Two-File Authorization
 C) Twice Fast Access
 D) Total Format Algorithm
 Answer: A) Two-Factor Authentication
 
-Q. Digital Concept 189: What is an algorithm in computer science?
+Q. What is an algorithm in computer science?
 A) A physical chip on the motherboard
 B) A step-by-step procedure or set of rules to solve a problem
 C) An optical mouse sensor
 D) A computer monitor screen
 Answer: B) A step-by-step procedure or set of rules to solve a problem
 
-Q. Digital Concept 190: A graphical representation of the step-by-step flow of an algorithm is known as a:
+Q. A graphical representation of the step-by-step flow of an algorithm is known as a:
 A) Pie chart
 B) Flowchart
 C) Bar graph
 D) Scatter plot
 Answer: B) Flowchart
 
-Q. Digital Concept 191: What does 'CPU' stand for in computer systems?
+Q. What does 'CPU' stand for in computer systems?
 A) Central Processing Unit
 B) Central Power Unit
 C) Computer Program Unit
 D) Core Personal Unit
 Answer: A) Central Processing Unit
 
-Q. Digital Concept 192: What does 'RAM' stand for in computing?
+Q. What does 'RAM' stand for in computing?
 A) Read Access Memory
 B) Random Access Memory
 C) Rapid Action Memory
 D) Run Application Module
 Answer: B) Random Access Memory
 
-Q. Digital Concept 193: What does 'ROM' stand for?
+Q. What does 'ROM' stand for?
 A) Read Only Memory
 B) Random Output Memory
 C) Rapid Online Memory
 D) Reset Operational Mode
 Answer: A) Read Only Memory
 
-Q. Digital Concept 194: Which type of computer memory is volatile (loses its contents when power is turned off)?
+Q. Which type of computer memory is volatile (loses its contents when power is turned off)?
 A) Hard Disk
 B) ROM
 C) RAM
 D) Flash Drive
 Answer: C) RAM
 
-Q. Digital Concept 195: Which of the following is considered the 'brain' of the computer?
+Q. Which of the following is considered the 'brain' of the computer?
 A) Monitor
 B) CPU
 C) Hard Drive
 D) Keyboard
 Answer: B) CPU
 
-Q. Digital Concept 196: Which of the following is strictly an OUTPUT device?
+Q. Which of the following is strictly an OUTPUT device?
 A) Mouse
 B) Scanner
 C) Microphone
 D) Computer Monitor
 Answer: D) Computer Monitor
 
-Q. Digital Concept 197: Which of the following is an INPUT device used to capture handwritten signatures or drawings?
+Q. Which of the following is an INPUT device used to capture handwritten signatures or drawings?
 A) Plotter
 B) Graphic Tablet / Stylus
 C) Speaker
 D) Projector
 Answer: B) Graphic Tablet / Stylus
 
-Q. Digital Concept 198: Which component connects all essential internal parts of a computer together?
+Q. Which component connects all essential internal parts of a computer together?
 A) Sound Card
 B) Motherboard
 C) Power Supply Unit
 D) Cooling Fan
 Answer: B) Motherboard
 
-Q. Digital Concept 199: How many bits make up 1 Byte of data?
+Q. How many bits make up 1 Byte of data?
 A) 4 bits
 B) 8 bits
 C) 16 bits
 D) 32 bits
 Answer: B) 8 bits
 
-Q. Digital Concept 200: How many Kilobytes (KB) are equal to 1 Megabyte (MB) in binary standard?
+Q. How many Kilobytes (KB) are equal to 1 Megabyte (MB) in binary standard?
 A) 100 KB
 B) 512 KB
 C) 1000 KB
 D) 1024 KB
 Answer: D) 1024 KB
 
-Q. Digital Concept 201: How many Gigabytes (GB) are in 1 Terabyte (TB)?
+Q. How many Gigabytes (GB) are in 1 Terabyte (TB)?
 A) 100 GB
 B) 500 GB
 C) 1024 GB
 D) 2048 GB
 Answer: C) 1024 GB
 
-Q. Digital Concept 202: What is the binary representation of the decimal number 5?
+Q. What is the binary representation of the decimal number 5?
 A) 100
 B) 101
 C) 110
 D) 111
 Answer: B) 101
 
-Q. Digital Concept 203: What is the binary representation of the decimal number 2?
+Q. What is the binary representation of the decimal number 2?
 A) 01
 B) 10
 C) 11
 D) 100
 Answer: B) 10
 
-Q. Digital Concept 204: What is the decimal equivalent of the binary number '1000'?
+Q. What is the decimal equivalent of the binary number '1000'?
 A) 4
 B) 6
 C) 8
 D) 16
 Answer: C) 8
 
-Q. Digital Concept 205: Which logic gate gives an output of 1 (True) only when ALL of its inputs are 1?
+Q. Which logic gate gives an output of 1 (True) only when ALL of its inputs are 1?
 A) OR gate
 B) AND gate
 C) NOT gate
 D) XOR gate
 Answer: B) AND gate
 
-Q. Digital Concept 206: Which logic gate inverts its input (outputs 0 when input is 1, and 1 when input is 0)?
+Q. Which logic gate inverts its input (outputs 0 when input is 1, and 1 when input is 0)?
 A) AND gate
 B) OR gate
 C) NOT gate
 D) NAND gate
 Answer: C) NOT gate
 
-Q. Digital Concept 207: In Boolean algebra, what is the result of (1 AND 0)?
+Q. In Boolean algebra, what is the result of (1 AND 0)?
 A) 0
 B) 1
 C) 2
 D) Undefined
 Answer: A) 0
 
-Q. Digital Concept 208: In Boolean algebra, what is the result of (0 OR 1)?
+Q. In Boolean algebra, what is the result of (0 OR 1)?
 A) 0
 B) 1
 C) Undefined
 D) -1
 Answer: B) 1
 
-Q. Digital Concept 209: Which shortcut key is universally used to PASTE copied content?
+Q. Which shortcut key is universally used to PASTE copied content?
 A) Ctrl + P
 B) Ctrl + V
 C) Ctrl + X
 D) Ctrl + B
 Answer: B) Ctrl + V
 
-Q. Digital Concept 210: Which shortcut key is used to UNDO the last action?
+Q. Which shortcut key is used to UNDO the last action?
 A) Ctrl + U
 B) Ctrl + Y
 C) Ctrl + Z
 D) Ctrl + R
 Answer: C) Ctrl + Z
 
-Q. Digital Concept 211: Which keyboard shortcut is used to SELECT ALL items or text in a document?
+Q. Which keyboard shortcut is used to SELECT ALL items or text in a document?
 A) Ctrl + S
 B) Ctrl + A
 C) Ctrl + D
 D) Ctrl + Shift + A
 Answer: B) Ctrl + A
 
-Q. Digital Concept 212: Which shortcut key is used to SAVE the current file in most programs?
+Q. Which shortcut key is used to SAVE the current file in most programs?
 A) Ctrl + S
 B) Ctrl + W
 C) Ctrl + Shift + S
 D) Alt + S
 Answer: A) Ctrl + S
 
-Q. Digital Concept 213: Which shortcut key combination cuts selected text or files?
+Q. Which shortcut key combination cuts selected text or files?
 A) Ctrl + C
 B) Ctrl + X
 C) Ctrl + K
 D) Ctrl + Del
 Answer: B) Ctrl + X
 
-Q. Digital Concept 214: Which key combination refreshes the active webpage in most web browsers?
+Q. Which key combination refreshes the active webpage in most web browsers?
 A) F1
 B) F2
 C) F5
 D) F12
 Answer: C) F5
 
-Q. Digital Concept 215: What does 'HTTP' stand for in web addresses?
+Q. What does 'HTTP' stand for in web addresses?
 A) HyperText Transfer Protocol
 B) High Transfer Tech Protocol
 C) Hyper Transfer Text Program
 D) Hyperlink Text Test Protocol
 Answer: A) HyperText Transfer Protocol
 
-Q. Digital Concept 216: In HTTPS, what does the letter 'S' stand for?
+Q. In HTTPS, what does the letter 'S' stand for?
 A) Server
 B) Secure
 C) Speed
 D) Standard
 Answer: B) Secure
 
-Q. Digital Concept 217: What does 'URL' stand for?
+Q. What does 'URL' stand for?
 A) Uniform Resource Locator
 B) Universal Reference Link
 C) Unified Routing Line
 D) Universal Resource Language
 Answer: A) Uniform Resource Locator
 
-Q. Digital Concept 218: Which of the following is a popular open-source operating system?
+Q. Which of the following is a popular open-source operating system?
 A) Windows
 B) macOS
 C) Linux
 D) iOS
 Answer: C) Linux
 
-Q. Digital Concept 219: What does 'IP' stand for in 'IP address'?
+Q. What does 'IP' stand for in 'IP address'?
 A) Internet Protocol
 B) Internal Program
 C) Interlink Packet
 D) Internal Process
 Answer: A) Internet Protocol
 
-Q. Digital Concept 220: Which software is used to view and navigate websites on the World Wide Web?
+Q. Which software is used to view and navigate websites on the World Wide Web?
 A) Web Browser
 B) Text Editor
 C) Operating System
 D) Compiler
 Answer: A) Web Browser
 
-Q. Digital Concept 221: Which of the following is an example of a web browser?
+Q. Which of the following is an example of a web browser?
 A) Google Chrome
 B) Python
 C) Microsoft Word
 D) Photoshop
 Answer: A) Google Chrome
 
-Q. Digital Concept 222: What does 'HTML' stand for in web development?
+Q. What does 'HTML' stand for in web development?
 A) HyperText Markup Language
 B) HighText Machine Language
 C) Hyperlink Text Making Line
 D) Home Tool Markup Language
 Answer: A) HyperText Markup Language
 
-Q. Digital Concept 223: A fraudulent attempt to obtain sensitive information like passwords by disguising as a trustworthy entity is called:
+Q. A fraudulent attempt to obtain sensitive information like passwords by disguising as a trustworthy entity is called:
 A) Phishing
 B) Buffering
 C) Compiling
 D) Rendering
 Answer: A) Phishing
 
-Q. Digital Concept 224: What type of harmful software is designed to disrupt, damage, or gain unauthorized access to a computer?
+Q. What type of harmful software is designed to disrupt, damage, or gain unauthorized access to a computer?
 A) Firmware
 B) Malware / Virus
 C) Freeware
 D) Shareware
 Answer: B) Malware / Virus
 
-Q. Digital Concept 225: What is the primary function of a Firewall in a computer network?
+Q. What is the primary function of a Firewall in a computer network?
 A) Cool down the hardware
 B) Monitor and block unauthorized incoming/outgoing network traffic
 C) Speed up internet download speeds
 D) Clean physical dust from ports
 Answer: B) Monitor and block unauthorized incoming/outgoing network traffic
 
-Q. Digital Concept 226: What does '2FA' stand for in account security?
+Q. What does '2FA' stand for in account security?
 A) Two-Factor Authentication
 B) Two-File Authorization
 C) Twice Fast Access
 D) Total Format Algorithm
 Answer: A) Two-Factor Authentication
 
-Q. Digital Concept 227: What is an algorithm in computer science?
+Q. What is an algorithm in computer science?
 A) A physical chip on the motherboard
 B) A step-by-step procedure or set of rules to solve a problem
 C) An optical mouse sensor
 D) A computer monitor screen
 Answer: B) A step-by-step procedure or set of rules to solve a problem
 
-Q. Digital Concept 228: A graphical representation of the step-by-step flow of an algorithm is known as a:
+Q. A graphical representation of the step-by-step flow of an algorithm is known as a:
 A) Pie chart
 B) Flowchart
 C) Bar graph
 D) Scatter plot
 Answer: B) Flowchart
 
-Q. Digital Concept 229: What does 'CPU' stand for in computer systems?
+Q. What does 'CPU' stand for in computer systems?
 A) Central Processing Unit
 B) Central Power Unit
 C) Computer Program Unit
 D) Core Personal Unit
 Answer: A) Central Processing Unit
 
-Q. Digital Concept 230: What does 'RAM' stand for in computing?
+Q. What does 'RAM' stand for in computing?
 A) Read Access Memory
 B) Random Access Memory
 C) Rapid Action Memory
 D) Run Application Module
 Answer: B) Random Access Memory
 
-Q. Digital Concept 231: What does 'ROM' stand for?
+Q. What does 'ROM' stand for?
 A) Read Only Memory
 B) Random Output Memory
 C) Rapid Online Memory
 D) Reset Operational Mode
 Answer: A) Read Only Memory
 
-Q. Digital Concept 232: Which type of computer memory is volatile (loses its contents when power is turned off)?
+Q. Which type of computer memory is volatile (loses its contents when power is turned off)?
 A) Hard Disk
 B) ROM
 C) RAM
 D) Flash Drive
 Answer: C) RAM
 
-Q. Digital Concept 233: Which of the following is considered the 'brain' of the computer?
+Q. Which of the following is considered the 'brain' of the computer?
 A) Monitor
 B) CPU
 C) Hard Drive
 D) Keyboard
 Answer: B) CPU
 
-Q. Digital Concept 234: Which of the following is strictly an OUTPUT device?
+Q. Which of the following is strictly an OUTPUT device?
 A) Mouse
 B) Scanner
 C) Microphone
 D) Computer Monitor
 Answer: D) Computer Monitor
 
-Q. Digital Concept 235: Which of the following is an INPUT device used to capture handwritten signatures or drawings?
+Q. Which of the following is an INPUT device used to capture handwritten signatures or drawings?
 A) Plotter
 B) Graphic Tablet / Stylus
 C) Speaker
 D) Projector
 Answer: B) Graphic Tablet / Stylus
 
-Q. Digital Concept 236: Which component connects all essential internal parts of a computer together?
+Q. Which component connects all essential internal parts of a computer together?
 A) Sound Card
 B) Motherboard
 C) Power Supply Unit
 D) Cooling Fan
 Answer: B) Motherboard
 
-Q. Digital Concept 237: How many bits make up 1 Byte of data?
+Q. How many bits make up 1 Byte of data?
 A) 4 bits
 B) 8 bits
 C) 16 bits
 D) 32 bits
 Answer: B) 8 bits
 
-Q. Digital Concept 238: How many Kilobytes (KB) are equal to 1 Megabyte (MB) in binary standard?
+Q. How many Kilobytes (KB) are equal to 1 Megabyte (MB) in binary standard?
 A) 100 KB
 B) 512 KB
 C) 1000 KB
 D) 1024 KB
 Answer: D) 1024 KB
 
-Q. Digital Concept 239: How many Gigabytes (GB) are in 1 Terabyte (TB)?
+Q. How many Gigabytes (GB) are in 1 Terabyte (TB)?
 A) 100 GB
 B) 500 GB
 C) 1024 GB
 D) 2048 GB
 Answer: C) 1024 GB
 
-Q. Digital Concept 240: What is the binary representation of the decimal number 5?
+Q. What is the binary representation of the decimal number 5?
 A) 100
 B) 101
 C) 110
 D) 111
 Answer: B) 101
 
-Q. Digital Concept 241: What is the binary representation of the decimal number 2?
+Q. What is the binary representation of the decimal number 2?
 A) 01
 B) 10
 C) 11
 D) 100
 Answer: B) 10
 
-Q. Digital Concept 242: What is the decimal equivalent of the binary number '1000'?
+Q. What is the decimal equivalent of the binary number '1000'?
 A) 4
 B) 6
 C) 8
 D) 16
 Answer: C) 8
 
-Q. Digital Concept 243: Which logic gate gives an output of 1 (True) only when ALL of its inputs are 1?
+Q. Which logic gate gives an output of 1 (True) only when ALL of its inputs are 1?
 A) OR gate
 B) AND gate
 C) NOT gate
 D) XOR gate
 Answer: B) AND gate
 
-Q. Digital Concept 244: Which logic gate inverts its input (outputs 0 when input is 1, and 1 when input is 0)?
+Q. Which logic gate inverts its input (outputs 0 when input is 1, and 1 when input is 0)?
 A) AND gate
 B) OR gate
 C) NOT gate
 D) NAND gate
 Answer: C) NOT gate
 
-Q. Digital Concept 245: In Boolean algebra, what is the result of (1 AND 0)?
+Q. In Boolean algebra, what is the result of (1 AND 0)?
 A) 0
 B) 1
 C) 2
 D) Undefined
 Answer: A) 0
 
-Q. Digital Concept 246: In Boolean algebra, what is the result of (0 OR 1)?
+Q. In Boolean algebra, what is the result of (0 OR 1)?
 A) 0
 B) 1
 C) Undefined
 D) -1
 Answer: B) 1
 
-Q. Digital Concept 247: Which shortcut key is universally used to PASTE copied content?
+Q. Which shortcut key is universally used to PASTE copied content?
 A) Ctrl + P
 B) Ctrl + V
 C) Ctrl + X
 D) Ctrl + B
 Answer: B) Ctrl + V
 
-Q. Digital Concept 248: Which shortcut key is used to UNDO the last action?
+Q. Which shortcut key is used to UNDO the last action?
 A) Ctrl + U
 B) Ctrl + Y
 C) Ctrl + Z
 D) Ctrl + R
 Answer: C) Ctrl + Z
 
-Q. Digital Concept 249: Which keyboard shortcut is used to SELECT ALL items or text in a document?
+Q. Which keyboard shortcut is used to SELECT ALL items or text in a document?
 A) Ctrl + S
 B) Ctrl + A
 C) Ctrl + D
 D) Ctrl + Shift + A
 Answer: B) Ctrl + A
 
-Q. Digital Concept 250: Which shortcut key is used to SAVE the current file in most programs?
+Q. Which shortcut key is used to SAVE the current file in most programs?
 A) Ctrl + S
 B) Ctrl + W
 C) Ctrl + Shift + S
 D) Alt + S
 Answer: A) Ctrl + S
 
-Q. Digital Concept 251: Which shortcut key combination cuts selected text or files?
+Q. Which shortcut key combination cuts selected text or files?
 A) Ctrl + C
 B) Ctrl + X
 C) Ctrl + K
 D) Ctrl + Del
 Answer: B) Ctrl + X
 
-Q. Digital Concept 252: Which key combination refreshes the active webpage in most web browsers?
+Q. Which key combination refreshes the active webpage in most web browsers?
 A) F1
 B) F2
 C) F5
 D) F12
 Answer: C) F5
 
-Q. Digital Concept 253: What does 'HTTP' stand for in web addresses?
+Q. What does 'HTTP' stand for in web addresses?
 A) HyperText Transfer Protocol
 B) High Transfer Tech Protocol
 C) Hyper Transfer Text Program
 D) Hyperlink Text Test Protocol
 Answer: A) HyperText Transfer Protocol
 
-Q. Digital Concept 254: In HTTPS, what does the letter 'S' stand for?
+Q. In HTTPS, what does the letter 'S' stand for?
 A) Server
 B) Secure
 C) Speed
 D) Standard
 Answer: B) Secure
 
-Q. Digital Concept 255: What does 'URL' stand for?
+Q. What does 'URL' stand for?
 A) Uniform Resource Locator
 B) Universal Reference Link
 C) Unified Routing Line
 D) Universal Resource Language
 Answer: A) Uniform Resource Locator
 
-Q. Digital Concept 256: Which of the following is a popular open-source operating system?
+Q. Which of the following is a popular open-source operating system?
 A) Windows
 B) macOS
 C) Linux
 D) iOS
 Answer: C) Linux
 
-Q. Digital Concept 257: What does 'IP' stand for in 'IP address'?
+Q. What does 'IP' stand for in 'IP address'?
 A) Internet Protocol
 B) Internal Program
 C) Interlink Packet
 D) Internal Process
 Answer: A) Internet Protocol
 
-Q. Digital Concept 258: Which software is used to view and navigate websites on the World Wide Web?
+Q. Which software is used to view and navigate websites on the World Wide Web?
 A) Web Browser
 B) Text Editor
 C) Operating System
 D) Compiler
 Answer: A) Web Browser
 
-Q. Digital Concept 259: Which of the following is an example of a web browser?
+Q. Which of the following is an example of a web browser?
 A) Google Chrome
 B) Python
 C) Microsoft Word
 D) Photoshop
 Answer: A) Google Chrome
 
-Q. Digital Concept 260: What does 'HTML' stand for in web development?
+Q. What does 'HTML' stand for in web development?
 A) HyperText Markup Language
 B) HighText Machine Language
 C) Hyperlink Text Making Line
 D) Home Tool Markup Language
 Answer: A) HyperText Markup Language
 
-Q. Digital Concept 261: A fraudulent attempt to obtain sensitive information like passwords by disguising as a trustworthy entity is called:
+Q. A fraudulent attempt to obtain sensitive information like passwords by disguising as a trustworthy entity is called:
 A) Phishing
 B) Buffering
 C) Compiling
 D) Rendering
 Answer: A) Phishing
 
-Q. Digital Concept 262: What type of harmful software is designed to disrupt, damage, or gain unauthorized access to a computer?
+Q. What type of harmful software is designed to disrupt, damage, or gain unauthorized access to a computer?
 A) Firmware
 B) Malware / Virus
 C) Freeware
 D) Shareware
 Answer: B) Malware / Virus
 
-Q. Digital Concept 263: What is the primary function of a Firewall in a computer network?
+Q. What is the primary function of a Firewall in a computer network?
 A) Cool down the hardware
 B) Monitor and block unauthorized incoming/outgoing network traffic
 C) Speed up internet download speeds
 D) Clean physical dust from ports
 Answer: B) Monitor and block unauthorized incoming/outgoing network traffic
 
-Q. Digital Concept 264: What does '2FA' stand for in account security?
+Q. What does '2FA' stand for in account security?
 A) Two-Factor Authentication
 B) Two-File Authorization
 C) Twice Fast Access
 D) Total Format Algorithm
 Answer: A) Two-Factor Authentication
 
-Q. Digital Concept 265: What is an algorithm in computer science?
+Q. What is an algorithm in computer science?
 A) A physical chip on the motherboard
 B) A step-by-step procedure or set of rules to solve a problem
 C) An optical mouse sensor
 D) A computer monitor screen
 Answer: B) A step-by-step procedure or set of rules to solve a problem
 
-Q. Digital Concept 266: A graphical representation of the step-by-step flow of an algorithm is known as a:
+Q. A graphical representation of the step-by-step flow of an algorithm is known as a:
 A) Pie chart
 B) Flowchart
 C) Bar graph
 D) Scatter plot
 Answer: B) Flowchart
 
-Q. Digital Concept 267: What does 'CPU' stand for in computer systems?
+Q. What does 'CPU' stand for in computer systems?
 A) Central Processing Unit
 B) Central Power Unit
 C) Computer Program Unit
 D) Core Personal Unit
 Answer: A) Central Processing Unit
 
-Q. Digital Concept 268: What does 'RAM' stand for in computing?
+Q. What does 'RAM' stand for in computing?
 A) Read Access Memory
 B) Random Access Memory
 C) Rapid Action Memory
 D) Run Application Module
 Answer: B) Random Access Memory
 
-Q. Digital Concept 269: What does 'ROM' stand for?
+Q. What does 'ROM' stand for?
 A) Read Only Memory
 B) Random Output Memory
 C) Rapid Online Memory
 D) Reset Operational Mode
 Answer: A) Read Only Memory
 
-Q. Digital Concept 270: Which type of computer memory is volatile (loses its contents when power is turned off)?
+Q. Which type of computer memory is volatile (loses its contents when power is turned off)?
 A) Hard Disk
 B) ROM
 C) RAM
 D) Flash Drive
 Answer: C) RAM
 
-Q. Digital Concept 271: Which of the following is considered the 'brain' of the computer?
+Q. Which of the following is considered the 'brain' of the computer?
 A) Monitor
 B) CPU
 C) Hard Drive
 D) Keyboard
 Answer: B) CPU
 
-Q. Digital Concept 272: Which of the following is strictly an OUTPUT device?
+Q. Which of the following is strictly an OUTPUT device?
 A) Mouse
 B) Scanner
 C) Microphone
 D) Computer Monitor
 Answer: D) Computer Monitor
 
-Q. Digital Concept 273: Which of the following is an INPUT device used to capture handwritten signatures or drawings?
+Q. Which of the following is an INPUT device used to capture handwritten signatures or drawings?
 A) Plotter
 B) Graphic Tablet / Stylus
 C) Speaker
 D) Projector
 Answer: B) Graphic Tablet / Stylus
 
-Q. Digital Concept 274: Which component connects all essential internal parts of a computer together?
+Q. Which component connects all essential internal parts of a computer together?
 A) Sound Card
 B) Motherboard
 C) Power Supply Unit
 D) Cooling Fan
 Answer: B) Motherboard
 
-Q. Digital Concept 275: How many bits make up 1 Byte of data?
+Q. How many bits make up 1 Byte of data?
 A) 4 bits
 B) 8 bits
 C) 16 bits
 D) 32 bits
 Answer: B) 8 bits
 
-Q. Digital Concept 276: How many Kilobytes (KB) are equal to 1 Megabyte (MB) in binary standard?
+Q. How many Kilobytes (KB) are equal to 1 Megabyte (MB) in binary standard?
 A) 100 KB
 B) 512 KB
 C) 1000 KB
 D) 1024 KB
 Answer: D) 1024 KB
 
-Q. Digital Concept 277: How many Gigabytes (GB) are in 1 Terabyte (TB)?
+Q. How many Gigabytes (GB) are in 1 Terabyte (TB)?
 A) 100 GB
 B) 500 GB
 C) 1024 GB
 D) 2048 GB
 Answer: C) 1024 GB
 
-Q. Digital Concept 278: What is the binary representation of the decimal number 5?
+Q. What is the binary representation of the decimal number 5?
 A) 100
 B) 101
 C) 110
 D) 111
 Answer: B) 101
 
-Q. Digital Concept 279: What is the binary representation of the decimal number 2?
+Q. What is the binary representation of the decimal number 2?
 A) 01
 B) 10
 C) 11
 D) 100
 Answer: B) 10
 
-Q. Digital Concept 280: What is the decimal equivalent of the binary number '1000'?
+Q. What is the decimal equivalent of the binary number '1000'?
 A) 4
 B) 6
 C) 8
 D) 16
 Answer: C) 8
 
-Q. Digital Concept 281: Which logic gate gives an output of 1 (True) only when ALL of its inputs are 1?
+Q. Which logic gate gives an output of 1 (True) only when ALL of its inputs are 1?
 A) OR gate
 B) AND gate
 C) NOT gate
 D) XOR gate
 Answer: B) AND gate
 
-Q. Digital Concept 282: Which logic gate inverts its input (outputs 0 when input is 1, and 1 when input is 0)?
+Q. Which logic gate inverts its input (outputs 0 when input is 1, and 1 when input is 0)?
 A) AND gate
 B) OR gate
 C) NOT gate
 D) NAND gate
 Answer: C) NOT gate
 
-Q. Digital Concept 283: In Boolean algebra, what is the result of (1 AND 0)?
+Q. In Boolean algebra, what is the result of (1 AND 0)?
 A) 0
 B) 1
 C) 2
 D) Undefined
 Answer: A) 0
 
-Q. Digital Concept 284: In Boolean algebra, what is the result of (0 OR 1)?
+Q. In Boolean algebra, what is the result of (0 OR 1)?
 A) 0
 B) 1
 C) Undefined
 D) -1
 Answer: B) 1
 
-Q. Digital Concept 285: Which shortcut key is universally used to PASTE copied content?
+Q. Which shortcut key is universally used to PASTE copied content?
 A) Ctrl + P
 B) Ctrl + V
 C) Ctrl + X
 D) Ctrl + B
 Answer: B) Ctrl + V
 
-Q. Digital Concept 286: Which shortcut key is used to UNDO the last action?
+Q. Which shortcut key is used to UNDO the last action?
 A) Ctrl + U
 B) Ctrl + Y
 C) Ctrl + Z
 D) Ctrl + R
 Answer: C) Ctrl + Z
 
-Q. Digital Concept 287: Which keyboard shortcut is used to SELECT ALL items or text in a document?
+Q. Which keyboard shortcut is used to SELECT ALL items or text in a document?
 A) Ctrl + S
 B) Ctrl + A
 C) Ctrl + D
 D) Ctrl + Shift + A
 Answer: B) Ctrl + A
 
-Q. Digital Concept 288: Which shortcut key is used to SAVE the current file in most programs?
+Q. Which shortcut key is used to SAVE the current file in most programs?
 A) Ctrl + S
 B) Ctrl + W
 C) Ctrl + Shift + S
 D) Alt + S
 Answer: A) Ctrl + S
 
-Q. Digital Concept 289: Which shortcut key combination cuts selected text or files?
+Q. Which shortcut key combination cuts selected text or files?
 A) Ctrl + C
 B) Ctrl + X
 C) Ctrl + K
 D) Ctrl + Del
 Answer: B) Ctrl + X
 
-Q. Digital Concept 290: Which key combination refreshes the active webpage in most web browsers?
+Q. Which key combination refreshes the active webpage in most web browsers?
 A) F1
 B) F2
 C) F5
 D) F12
 Answer: C) F5
 
-Q. Digital Concept 291: What does 'HTTP' stand for in web addresses?
+Q. What does 'HTTP' stand for in web addresses?
 A) HyperText Transfer Protocol
 B) High Transfer Tech Protocol
 C) Hyper Transfer Text Program
 D) Hyperlink Text Test Protocol
 Answer: A) HyperText Transfer Protocol
 
-Q. Digital Concept 292: In HTTPS, what does the letter 'S' stand for?
+Q. In HTTPS, what does the letter 'S' stand for?
 A) Server
 B) Secure
 C) Speed
 D) Standard
 Answer: B) Secure
 
-Q. Digital Concept 293: What does 'URL' stand for?
+Q. What does 'URL' stand for?
 A) Uniform Resource Locator
 B) Universal Reference Link
 C) Unified Routing Line
 D) Universal Resource Language
 Answer: A) Uniform Resource Locator
 
-Q. Digital Concept 294: Which of the following is a popular open-source operating system?
+Q. Which of the following is a popular open-source operating system?
 A) Windows
 B) macOS
 C) Linux
 D) iOS
 Answer: C) Linux
 
-Q. Digital Concept 295: What does 'IP' stand for in 'IP address'?
+Q. What does 'IP' stand for in 'IP address'?
 A) Internet Protocol
 B) Internal Program
 C) Interlink Packet
 D) Internal Process
 Answer: A) Internet Protocol
 
-Q. Digital Concept 296: Which software is used to view and navigate websites on the World Wide Web?
+Q. Which software is used to view and navigate websites on the World Wide Web?
 A) Web Browser
 B) Text Editor
 C) Operating System
 D) Compiler
 Answer: A) Web Browser
 
-Q. Digital Concept 297: Which of the following is an example of a web browser?
+Q. Which of the following is an example of a web browser?
 A) Google Chrome
 B) Python
 C) Microsoft Word
 D) Photoshop
 Answer: A) Google Chrome
 
-Q. Digital Concept 298: What does 'HTML' stand for in web development?
+Q. What does 'HTML' stand for in web development?
 A) HyperText Markup Language
 B) HighText Machine Language
 C) Hyperlink Text Making Line
 D) Home Tool Markup Language
 Answer: A) HyperText Markup Language
 
-Q. Digital Concept 299: A fraudulent attempt to obtain sensitive information like passwords by disguising as a trustworthy entity is called:
+Q. A fraudulent attempt to obtain sensitive information like passwords by disguising as a trustworthy entity is called:
 A) Phishing
 B) Buffering
 C) Compiling
 D) Rendering
 Answer: A) Phishing
 
-Q. Digital Concept 300: What type of harmful software is designed to disrupt, damage, or gain unauthorized access to a computer?
+Q. What type of harmful software is designed to disrupt, damage, or gain unauthorized access to a computer?
 A) Firmware
 B) Malware / Virus
 C) Freeware
 D) Shareware
 Answer: B) Malware / Virus
 
-Q. Digital Concept 301: What is the primary function of a Firewall in a computer network?
+Q. What is the primary function of a Firewall in a computer network?
 A) Cool down the hardware
 B) Monitor and block unauthorized incoming/outgoing network traffic
 C) Speed up internet download speeds
 D) Clean physical dust from ports
 Answer: B) Monitor and block unauthorized incoming/outgoing network traffic
 
-Q. Digital Concept 302: What does '2FA' stand for in account security?
+Q. What does '2FA' stand for in account security?
 A) Two-Factor Authentication
 B) Two-File Authorization
 C) Twice Fast Access
 D) Total Format Algorithm
 Answer: A) Two-Factor Authentication
 
-Q. Digital Concept 303: What is an algorithm in computer science?
+Q. What is an algorithm in computer science?
 A) A physical chip on the motherboard
 B) A step-by-step procedure or set of rules to solve a problem
 C) An optical mouse sensor
 D) A computer monitor screen
 Answer: B) A step-by-step procedure or set of rules to solve a problem
 
-Q. Digital Concept 304: A graphical representation of the step-by-step flow of an algorithm is known as a:
+Q. A graphical representation of the step-by-step flow of an algorithm is known as a:
 A) Pie chart
 B) Flowchart
 C) Bar graph
 D) Scatter plot
 Answer: B) Flowchart
 
-Q. Digital Concept 305: What does 'CPU' stand for in computer systems?
+Q. What does 'CPU' stand for in computer systems?
 A) Central Processing Unit
 B) Central Power Unit
 C) Computer Program Unit
 D) Core Personal Unit
 Answer: A) Central Processing Unit
 
-Q. Digital Concept 306: What does 'RAM' stand for in computing?
+Q. What does 'RAM' stand for in computing?
 A) Read Access Memory
 B) Random Access Memory
 C) Rapid Action Memory
 D) Run Application Module
 Answer: B) Random Access Memory
 
-Q. Digital Concept 307: What does 'ROM' stand for?
+Q. What does 'ROM' stand for?
 A) Read Only Memory
 B) Random Output Memory
 C) Rapid Online Memory
 D) Reset Operational Mode
 Answer: A) Read Only Memory
 
-Q. Digital Concept 308: Which type of computer memory is volatile (loses its contents when power is turned off)?
+Q. Which type of computer memory is volatile (loses its contents when power is turned off)?
 A) Hard Disk
 B) ROM
 C) RAM
 D) Flash Drive
 Answer: C) RAM
 
-Q. Digital Concept 309: Which of the following is considered the 'brain' of the computer?
+Q. Which of the following is considered the 'brain' of the computer?
 A) Monitor
 B) CPU
 C) Hard Drive
 D) Keyboard
 Answer: B) CPU
 
-Q. Digital Concept 310: Which of the following is strictly an OUTPUT device?
+Q. Which of the following is strictly an OUTPUT device?
 A) Mouse
 B) Scanner
 C) Microphone
 D) Computer Monitor
 Answer: D) Computer Monitor
 
-Q. Digital Concept 311: Which of the following is an INPUT device used to capture handwritten signatures or drawings?
+Q. Which of the following is an INPUT device used to capture handwritten signatures or drawings?
 A) Plotter
 B) Graphic Tablet / Stylus
 C) Speaker
 D) Projector
 Answer: B) Graphic Tablet / Stylus
 
-Q. Digital Concept 312: Which component connects all essential internal parts of a computer together?
+Q. Which component connects all essential internal parts of a computer together?
 A) Sound Card
 B) Motherboard
 C) Power Supply Unit
 D) Cooling Fan
 Answer: B) Motherboard
 
-Q. Digital Concept 313: How many bits make up 1 Byte of data?
+Q. How many bits make up 1 Byte of data?
 A) 4 bits
 B) 8 bits
 C) 16 bits
 D) 32 bits
 Answer: B) 8 bits
 
-Q. Digital Concept 314: How many Kilobytes (KB) are equal to 1 Megabyte (MB) in binary standard?
+Q. How many Kilobytes (KB) are equal to 1 Megabyte (MB) in binary standard?
 A) 100 KB
 B) 512 KB
 C) 1000 KB
 D) 1024 KB
 Answer: D) 1024 KB
 
-Q. Digital Concept 315: How many Gigabytes (GB) are in 1 Terabyte (TB)?
+Q. How many Gigabytes (GB) are in 1 Terabyte (TB)?
 A) 100 GB
 B) 500 GB
 C) 1024 GB
 D) 2048 GB
 Answer: C) 1024 GB
 
-Q. Digital Concept 316: What is the binary representation of the decimal number 5?
+Q. What is the binary representation of the decimal number 5?
 A) 100
 B) 101
 C) 110
 D) 111
 Answer: B) 101
 
-Q. Digital Concept 317: What is the binary representation of the decimal number 2?
+Q. What is the binary representation of the decimal number 2?
 A) 01
 B) 10
 C) 11
 D) 100
 Answer: B) 10
 
-Q. Digital Concept 318: What is the decimal equivalent of the binary number '1000'?
+Q. What is the decimal equivalent of the binary number '1000'?
 A) 4
 B) 6
 C) 8
 D) 16
 Answer: C) 8
 
-Q. Digital Concept 319: Which logic gate gives an output of 1 (True) only when ALL of its inputs are 1?
+Q. Which logic gate gives an output of 1 (True) only when ALL of its inputs are 1?
 A) OR gate
 B) AND gate
 C) NOT gate
 D) XOR gate
 Answer: B) AND gate
 
-Q. Digital Concept 320: Which logic gate inverts its input (outputs 0 when input is 1, and 1 when input is 0)?
+Q. Which logic gate inverts its input (outputs 0 when input is 1, and 1 when input is 0)?
 A) AND gate
 B) OR gate
 C) NOT gate

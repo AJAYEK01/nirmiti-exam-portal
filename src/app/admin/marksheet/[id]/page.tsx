@@ -20,6 +20,7 @@ import {
   FileText,
 } from "lucide-react";
 import { MicrochipGraphic, CircuitBoardBg, HardwareSensorIcon } from "@/components/HardwareGraphics";
+import { cleanQuestionText } from "@/lib/clean-question";
 
 interface Candidate {
   name: string;
@@ -376,11 +377,11 @@ export default function AdminMarksheetPage() {
                       </span>
                       <div className="space-y-1">
                         <p className="text-xs sm:text-sm text-slate-800 font-bold leading-relaxed font-manjari">
-                          {q.textMl || q.text}
+                          {cleanQuestionText(q.textMl) || cleanQuestionText(q.text)}
                         </p>
                         {q.textMl && q.textMl !== q.text && (
                           <p className="text-[11px] text-slate-500 font-normal leading-normal font-sans">
-                            {q.text}
+                            {cleanQuestionText(q.text)}
                           </p>
                         )}
                       </div>

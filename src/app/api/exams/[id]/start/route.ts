@@ -3,6 +3,7 @@ import { prisma } from "@/lib/db";
 import { getSession } from "@/lib/auth";
 import { getEffectiveExamWindow } from "@/lib/portal-setting";
 import questionsMl from "@/lib/questions-ml.json";
+import { cleanQuestionText } from "@/lib/clean-question";
 
 // Fisher-Yates shuffle array helper
 function shuffleArray<T>(array: T[]): T[] {
@@ -204,8 +205,8 @@ export async function POST(
       return {
         id: q.id,
         orderIndex: idx + 1,
-        text: q.text,
-        textMl: mlData?.text || undefined,
+        text: cleanQuestionText(q.text),
+        textMl: cleanQuestionText(mlData?.text) || undefined,
         options: shuffledOptions,
         optionsMl: shuffledOptionsMl,
         marks: 1.0,
