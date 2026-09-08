@@ -68,7 +68,17 @@ export default function AdminDashboardPage() {
   const [portalWindow, setPortalWindow] = useState<any>(null);
   const [updatingPortal, setUpdatingPortal] = useState(false);
   const [selectedSchoolFilter, setSelectedSchoolFilter] = useState<string>("ALL");
-  const [deletingAttemptId, setDeletingAttemptId] = useState<string | null>(null);
+  // Double-verification deletion state
+  const [deleteCandidate, setDeleteCandidate] = useState<{
+    attemptId: string;
+    studentName: string;
+    schoolName?: string;
+    className?: string;
+    rollNumber?: string;
+  } | null>(null);
+  const [deletePassword, setDeletePassword] = useState("");
+  const [deleteError, setDeleteError] = useState("");
+  const [deletingInProgress, setDeletingInProgress] = useState(false);
 
   // Examiner Change Password state
   const [showPasswordModal, setShowPasswordModal] = useState(false);
@@ -176,28 +186,54 @@ export default function AdminDashboardPage() {
     }
   };
 
-  const handleDeleteStudentEntry = async (attemptId: string, studentName: string) => {
-    const confirmed = window.confirm(
-      `Are you sure you want to permanently delete the examination entry for "${studentName}"?\n\nThis will remove their test score, timestamps, and answer records completely.`
-    );
-    if (!confirmed) return;
+  const openDeleteModal = (
+    attemptId: string,
+    studentName: string,
+    schoolName?: string,
+    className?: string,
+    rollNumber?: string
+  ) => {
+    setDeleteCandidate({
+      attemptId,
+      studentName,
+      schoolName,
+      className,
+      rollNumber,
+    });
+    setDeletePassword("");
+    setDeleteError("");
+  };
 
-    setDeletingAttemptId(attemptId);
+  const handleConfirmDelete = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!deleteCandidate) return;
+
+    if (!deletePassword.trim()) {
+      setDeleteError("Please enter your examiner password to confirm deletion.");
+      return;
+    }
+
+    setDeletingInProgress(true);
+    setDeleteError("");
     try {
-      const res = await fetch(`/api/admin/entries/${attemptId}`, {
+      const res = await fetch(`/api/admin/entries/${deleteCandidate.attemptId}`, {
         method: "DELETE",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ password: deletePassword }),
       });
       const data = await res.json();
       if (!res.ok) {
-        alert(data.error || "Failed to delete student entry.");
+        setDeleteError(data.error || "Failed to delete student entry.");
       } else {
+        setDeleteCandidate(null);
+        setDeletePassword("");
         await loadAdminData();
       }
     } catch (err) {
       console.error(err);
-      alert("Error deleting student entry.");
+      setDeleteError("An unexpected error occurred while deleting.");
     } finally {
-      setDeletingAttemptId(null);
+      setDeletingInProgress(false);
     }
   };
 
@@ -697,11 +733,16 @@ export default function AdminDashboardPage() {
                               </Link>
                               <button
                                 type="button"
-                                disabled={deletingAttemptId === candidate.attemptId}
                                 onClick={() =>
-                                  handleDeleteStudentEntry(candidate.attemptId, candidate.name)
+                                  openDeleteModal(
+                                    candidate.attemptId,
+                                    candidate.name,
+                                    candidate.schoolName,
+                                    candidate.className,
+                                    candidate.rollNumber
+                                  )
                                 }
-                                className="text-[11px] font-bold text-rose-600 hover:text-rose-800 hover:bg-rose-50 px-2 py-1 rounded-md border border-rose-200 transition disabled:opacity-50 flex items-center gap-1"
+                                className="text-[11px] font-bold text-rose-600 hover:text-rose-800 hover:bg-rose-50 px-2 py-1 rounded-md border border-rose-200 transition flex items-center gap-1"
                                 title="Delete Candidate Entry"
                               >
                                 <Trash2 className="w-3 h-3" />
@@ -805,9 +846,16 @@ export default function AdminDashboardPage() {
                                     </Link>
                                     <button
                                       type="button"
-                                      disabled={deletingAttemptId === c.attemptId}
-                                      onClick={() => handleDeleteStudentEntry(c.attemptId, c.name)}
-                                      className="text-rose-600 hover:text-rose-800 p-1 rounded hover:bg-rose-50 transition disabled:opacity-50"
+                                      onClick={() =>
+                                        openDeleteModal(
+                                          c.attemptId,
+                                          c.name,
+                                          c.schoolName,
+                                          c.className,
+                                          c.rollNumber
+                                        )
+                                      }
+                                      className="text-rose-600 hover:text-rose-800 p-1 rounded hover:bg-rose-50 transition"
                                       title="Delete Student Entry"
                                     >
                                       <Trash2 className="w-3.5 h-3.5" />
@@ -897,9 +945,16 @@ export default function AdminDashboardPage() {
                           </Link>
                           <button
                             type="button"
-                            disabled={deletingAttemptId === sub.attemptId}
-                            onClick={() => handleDeleteStudentEntry(sub.attemptId, sub.name)}
-                            className="text-rose-600 hover:text-rose-800 p-1.5 rounded-lg hover:bg-rose-50 border border-rose-200 transition disabled:opacity-50"
+                            onClick={() =>
+                              openDeleteModal(
+                                sub.attemptId,
+                                sub.name,
+                                sub.schoolName,
+                                sub.className,
+                                sub.rollNumber
+                              )
+                            }
+                            className="text-rose-600 hover:text-rose-800 p-1.5 rounded-lg hover:bg-rose-50 border border-rose-200 transition"
                             title="Delete Student Entry"
                           >
                             <Trash2 className="w-3.5 h-3.5" />
@@ -1006,6 +1061,105 @@ export default function AdminDashboardPage() {
                   className="flex-1 py-2.5 px-4 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold shadow-md transition disabled:opacity-50"
                 >
                   {changingPassword ? "Updating..." : "Update Password"}
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      )}
+
+      {/* DOUBLE-VERIFICATION DELETE CONFIRMATION MODAL */}
+      {deleteCandidate && (
+        <div className="fixed inset-0 z-50 bg-slate-900/80 backdrop-blur-sm flex items-center justify-center p-4">
+          <div className="bg-white rounded-3xl max-w-md w-full p-6 sm:p-8 space-y-5 border border-rose-200 shadow-2xl animate-in fade-in zoom-in">
+            <div className="flex items-center justify-between pb-3 border-b border-slate-100">
+              <div className="flex items-center gap-2.5">
+                <div className="w-10 h-10 rounded-2xl bg-rose-100 text-rose-600 flex items-center justify-center font-bold">
+                  <ShieldAlert className="w-5 h-5" />
+                </div>
+                <div>
+                  <h3 className="text-base font-black text-slate-900">Confirm Student Deletion</h3>
+                  <p className="text-xs text-slate-500">Double verification security check</p>
+                </div>
+              </div>
+              <button
+                type="button"
+                onClick={() => {
+                  setDeleteCandidate(null);
+                  setDeletePassword("");
+                  setDeleteError("");
+                }}
+                className="text-slate-400 hover:text-slate-600 text-lg font-bold p-1"
+              >
+                ✕
+              </button>
+            </div>
+
+            {/* Candidate Details */}
+            <div className="bg-slate-50 p-4 rounded-2xl border border-slate-200 space-y-1">
+              <span className="text-[10px] font-bold uppercase text-slate-400 tracking-wider block">Candidate Entry</span>
+              <p className="text-sm font-black text-slate-900">{deleteCandidate.studentName}</p>
+              {deleteCandidate.schoolName && (
+                <p className="text-xs text-slate-600 font-medium">School: {deleteCandidate.schoolName}</p>
+              )}
+              <p className="text-xs text-slate-600 font-medium">
+                Class: {deleteCandidate.className || "N/A"} • Roll No: {deleteCandidate.rollNumber || "N/A"}
+              </p>
+            </div>
+
+            {/* Warning Box */}
+            <div className="p-3.5 rounded-xl bg-amber-50 border border-amber-200 text-amber-900 text-xs leading-relaxed space-y-1">
+              <div className="font-bold flex items-center gap-1.5 text-amber-800">
+                <Lock className="w-3.5 h-3.5" />
+                Double Check Warning
+              </div>
+              <p>
+                This will permanently delete the student's test score, answer records, audited timestamps, and ranking. <b>This action cannot be undone.</b>
+              </p>
+            </div>
+
+            {deleteError && (
+              <div className="p-3 rounded-xl bg-rose-50 border border-rose-200 text-rose-700 text-xs font-semibold">
+                {deleteError}
+              </div>
+            )}
+
+            <form onSubmit={handleConfirmDelete} className="space-y-4">
+              <div className="space-y-1">
+                <label className="text-xs font-bold text-slate-700 flex items-center gap-1">
+                  <Lock className="w-3 h-3 text-rose-600" />
+                  Enter Examiner Password to Confirm:
+                </label>
+                <input
+                  type="password"
+                  required
+                  autoFocus
+                  value={deletePassword}
+                  onChange={(e) => setDeletePassword(e.target.value)}
+                  placeholder="Enter your administrator password"
+                  className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-rose-500 bg-white"
+                />
+              </div>
+
+              <div className="flex items-center gap-3 pt-1">
+                <button
+                  type="button"
+                  onClick={() => {
+                    setDeleteCandidate(null);
+                    setDeletePassword("");
+                    setDeleteError("");
+                  }}
+                  className="flex-1 py-2.5 px-4 rounded-xl border border-slate-200 hover:bg-slate-100 text-slate-700 text-xs font-bold transition"
+                >
+                  Cancel
+                </button>
+                <button
+                  type="submit"
+                  disabled={deletingInProgress || !deletePassword}
+                  className="flex-1 py-2.5 px-4 rounded-xl bg-rose-600 hover:bg-rose-700 active:bg-rose-800 text-white text-xs font-bold shadow-md shadow-rose-600/20 transition disabled:opacity-50 flex items-center justify-center gap-1.5"
+                >
+                  <Trash2 className="w-3.5 h-3.5" />
+                  {deletingInProgress ? "Verifying..." : "Verify & Permanently Delete"}
                 </button>
               </div>
             </form>

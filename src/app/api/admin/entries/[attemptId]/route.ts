@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/db";
-import { getSession } from "@/lib/auth";
+import { getSession, verifyPassword } from "@/lib/auth";
 
 export async function DELETE(
   req: NextRequest,
@@ -15,6 +15,33 @@ export async function DELETE(
     const { attemptId } = params;
     if (!attemptId) {
       return NextResponse.json({ error: "Attempt ID is required." }, { status: 400 });
+    }
+
+    const body = await req.json().catch(() => ({}));
+    const { password } = body;
+
+    if (!password) {
+      return NextResponse.json(
+        { error: "Examiner password is required to verify deletion." },
+        { status: 400 }
+      );
+    }
+
+    // Verify examiner password
+    const adminUser = await prisma.user.findUnique({
+      where: { id: session.id },
+    });
+
+    if (!adminUser) {
+      return NextResponse.json({ error: "Examiner account not found." }, { status: 404 });
+    }
+
+    const isMatch = await verifyPassword(password, adminUser.password);
+    if (!isMatch) {
+      return NextResponse.json(
+        { error: "Incorrect examiner password. Deletion cancelled for safety." },
+        { status: 403 }
+      );
     }
 
     const attempt = await prisma.attempt.findUnique({
