@@ -347,7 +347,58 @@ export default function AdminDashboardPage() {
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
     link.setAttribute("href", url);
-    link.setAttribute("download", `All_Candidate_Submissions_${new Date().toISOString().slice(0, 10)}.csv`);
+  };
+
+  // CSV Export: School-Wise Summary with Total Attended & Top 2 Students
+  const handleExportSchoolWiseSummaryCSV = () => {
+    if (schools.length === 0) {
+      alert("No school data available to export.");
+      return;
+    }
+
+    const headers = [
+      "Sl No",
+      "School Name",
+      "Total Students Attended",
+      "Top 1 Student Name",
+      "Top 1 Class",
+      "Top 1 Score",
+      "Top 1 Time Taken",
+      "Top 1 Parent Mobile",
+      "Top 2 Student Name",
+      "Top 2 Class",
+      "Top 2 Score",
+      "Top 2 Time Taken",
+      "Top 2 Parent Mobile",
+    ];
+
+    const rows = schools.map((group, idx) => {
+      const top1 = group.topTwo[0];
+      const top2 = group.topTwo[1];
+
+      return [
+        idx + 1,
+        `"${group.schoolName.replace(/"/g, '""')}"`,
+        group.totalCandidates,
+        top1 ? `"${top1.name.replace(/"/g, '""')}"` : "N/A",
+        top1 ? `"${top1.className}"` : "N/A",
+        top1 ? top1.score : "N/A",
+        top1 ? formatSeconds(top1.timeTakenSeconds) : "N/A",
+        top1 ? top1.parentMobile : "N/A",
+        top2 ? `"${top2.name.replace(/"/g, '""')}"` : "N/A",
+        top2 ? `"${top2.className}"` : "N/A",
+        top2 ? top2.score : "N/A",
+        top2 ? formatSeconds(top2.timeTakenSeconds) : "N/A",
+        top2 ? top2.parentMobile : "N/A",
+      ];
+    });
+
+    const csvContent = [headers.join(","), ...rows.map((r) => r.join(","))].join("\n");
+    const blob = new Blob([csvContent], { type: "text/csv;charset=utf-8;" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.setAttribute("href", url);
+    link.setAttribute("download", `School_Wise_Attendance_and_Top2_${new Date().toISOString().slice(0, 10)}.csv`);
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -427,6 +478,14 @@ export default function AdminDashboardPage() {
             >
               <Lock className="w-4 h-4 text-amber-400" />
               Examiner Password
+            </button>
+            <button
+              onClick={handleExportSchoolWiseSummaryCSV}
+              className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white text-xs sm:text-sm font-bold py-2.5 px-4 rounded-xl shadow-md shadow-blue-600/20 transition whitespace-nowrap"
+              title="Download School-Wise summary with total attended students and Top 2 students list"
+            >
+              <Download className="w-4 h-4" />
+              Download School-Wise Report (CSV)
             </button>
             <button
               onClick={handleExportFinalistsCSV}
@@ -883,13 +942,23 @@ export default function AdminDashboardPage() {
             <span className="text-xs font-bold text-slate-600">
               Complete Submissions Audit Log
             </span>
-            <button
-              onClick={handleExportAllSubmissionsCSV}
-              className="inline-flex items-center gap-1.5 text-xs font-bold text-slate-700 hover:text-blue-600 bg-white px-3 py-1.5 rounded-lg border border-slate-200"
-            >
-              <Download className="w-3.5 h-3.5" />
-              Download All CSV
-            </button>
+            <div className="flex items-center gap-2">
+              <button
+                onClick={handleExportSchoolWiseSummaryCSV}
+                className="inline-flex items-center gap-1.5 text-xs font-bold text-blue-700 hover:text-blue-900 bg-blue-50 hover:bg-blue-100 px-3 py-1.5 rounded-lg border border-blue-200 transition"
+                title="Download School-Wise summary with total attended students and Top 2 students list"
+              >
+                <Download className="w-3.5 h-3.5" />
+                School-Wise Summary (CSV)
+              </button>
+              <button
+                onClick={handleExportAllSubmissionsCSV}
+                className="inline-flex items-center gap-1.5 text-xs font-bold text-slate-700 hover:text-blue-600 bg-white px-3 py-1.5 rounded-lg border border-slate-200 transition"
+              >
+                <Download className="w-3.5 h-3.5" />
+                Download All Submissions (CSV)
+              </button>
+            </div>
           </div>
 
           <div className="overflow-x-auto">
