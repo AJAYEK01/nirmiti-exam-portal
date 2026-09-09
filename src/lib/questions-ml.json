@@ -1881,21 +1881,21 @@
     ]
   },
   "210": {
-    "text": "What type of root system is found in grass, wheat, and maize plants?",
+    "text": "പുല്ല്, ഗോതമ്പ്, ചോളം (Maize) തുടങ്ങിയ സസ്യങ്ങളിൽ കാണപ്പെടുന്ന വേരുപടലം ഏതാണ്?",
     "options": [
-      "Fibrous root system",
-      "Taproot system",
-      "Aerial root system",
-      "Prop root system"
+      "നാര് വേരുപടലം (Fibrous root system)",
+      "തായ് വേരുപടലം (Taproot system)",
+      "വായു വേരുകൾ (Aerial root system)",
+      "താങ്ങ് വേരുകൾ (Prop root system)"
     ]
   },
   "211": {
-    "text": "What type of root system features a single thick central root, such as in carrot, radish, and mango?",
+    "text": "കാരറ്റ്, മുള്ളങ്കി, മാവ് തുടങ്ങിയ സസ്യങ്ങളിൽ കാണപ്പെടുന്ന, പ്രധാനപ്പെട്ട ഒരൊറ്റ കട്ടിയുള്ള വേരടങ്ങുന്ന വേരുപടലം ഏതാണ്?",
     "options": [
-      "Taproot system",
-      "Fibrous root system",
-      "Adventitious root system",
-      "Stilt root system"
+      "തായ് വേരുപടലം (Taproot system)",
+      "നാര് വേരുപടലം (Fibrous root system)",
+      "പൊയ്ക്കാൽ വേരുകൾ (Adventitious root system)",
+      "താങ്ങ് വേരുകൾ (Stilt root system)"
     ]
   },
   "212": {
@@ -2304,12 +2304,12 @@
     ]
   },
   "257": {
-    "text": "What is the change of state directly from solid to gas without becoming liquid called (e.g., camphor, naphthalene)?",
+    "text": "ഒരു ഖരവസ്തു ദ്രാവകമാകാതെ നേരിട്ട് വാതകാവസ്ഥയിലേക്ക് മാറുന്ന പ്രവർത്തനത്തിന് എന്താണ് പറയുന്നത്? (ഉദാ: കർപ്പൂരം, പാറ്റാഗുളിക)",
     "options": [
       "ഉത്പതനം (Sublimation)",
       "ബാഷ്പീകരണം (Evaporation)",
       "സാന്ദ്രീകരണം (Condensation)",
-      "Melting"
+      "ദ്രവീകരണം (Melting)"
     ]
   },
   "258": {
@@ -2367,12 +2367,12 @@
     ]
   },
   "264": {
-    "text": "What percentage of clean atmospheric air is composed of life-supporting oxygen gas?",
+    "text": "ശുദ്ധമായ അന്തരീക്ഷ വായുവിൽ ജീവൻ നിലനിർത്തുന്ന ഓക്സിജൻ വാതകത്തിന്റെ അളവ് ഏകദേശം എത്ര ശതമാനമാണ്?",
     "options": [
-      "Approximately 21%",
-      "Approximately 78%",
-      "Approximately 50%",
-      "Approximately 5%"
+      "ഏകദേശം 21%",
+      "ഏകദേശം 78%",
+      "ഏകദേശം 50%",
+      "ഏകദേശം 5%"
     ]
   },
   "265": {
@@ -2511,12 +2511,12 @@
     ]
   },
   "280": {
-    "text": "Why is the Moon visible in the night sky even though it is non-luminous?",
+    "text": "സ്വയം പ്രകാശിക്കാത്ത ഒരു വസ്തുവായിരുന്നിട്ടും രാത്രിയിൽ ചന്ദ്രൻ ആകാശത്ത് തിളങ്ങി കാണപ്പെടുന്നത് എന്തുകൊണ്ടാണ്?",
     "options": [
-      "It reflects sunlight falling on its surface",
-      "It generates light by burning coal",
-      "It absorbs stars' light and glows",
-      "It contains radium minerals"
+      "ഉപരിതലത്തിൽ പതിക്കുന്ന സൂര്യപ്രകാശത്തെ പ്രതിഫലിപ്പിക്കുന്നതിനാൽ",
+      "കൽക്കരി കത്തുന്നതിലൂടെ പ്രകാശം ഉത്പാദിപ്പിക്കുന്നതിനാൽ",
+      "നക്ഷത്രങ്ങളുടെ പ്രകാശം ആഗിരണം ചെയ്ത് തിളങ്ങുന്നതിനാൽ",
+      "റേഡിയം ധാതുക്കൾ അടങ്ങിയിരിക്കുന്നതിനാൽ"
     ]
   },
   "281": {
@@ -2781,48 +2781,48 @@
     ]
   },
   "310": {
-    "text": "Which measuring instrument is best suited to measure the exact length of a school notebook?",
+    "text": "ഒരു സ്കൂൾ നോട്ട്ബുക്കിന്റെ കൃത്യമായ നീളം അളക്കാൻ ഏറ്റവും അനുയോജ്യമായ ഉപകരണം ഏതാണ്?",
     "options": [
-      "30-cm plastic ruler",
-      "Odometer",
-      "Measuring tape for roads",
-      "Weighing balance"
+      "30 cm പ്ലാസ്റ്റിക് സ്കെയിൽ",
+      "ഓഡോമീറ്റർ (Odometer)",
+      "റോഡ് അളക്കുന്ന ടേപ്പ്",
+      "ത്രാസ് (Weighing balance)"
     ]
   },
   "311": {
-    "text": "What instrument is used to accurately measure the mass of vegetables or grocery items in a shop?",
+    "text": "കടകളിൽ പച്ചക്കറികളുടെയോ പലചരക്ക് സാധനങ്ങളുടെയോ ഭാരം (മാസ്സ്) കൃത്യമായി അളക്കാൻ ഉപയോഗിക്കുന്ന ഉപകരണം ഏതാണ്?",
     "options": [
-      "Beam balance / Electronic balance",
-      "Measuring cylinder",
-      "Meter scale",
-      "സ്റ്റോപ്പ്‌വാച്ച്"
+      "ത്രാസ് / ഇലക്ട്രോണിക് ബാലൻസ്",
+      "മെഷറിംഗ് സിലിണ്ടർ",
+      "മീറ്റർ സ്കെയിൽ",
+      "സ്റ്റോപ്പ് വാച്ച്"
     ]
   },
   "312": {
-    "text": "What instrument is used in sports races to measure time intervals to fractions of a second?",
+    "text": "കായിക മത്സരങ്ങളിൽ ഒരു സെക്കൻഡിന്റെ ചെറിയ അംശം പോലും കൃത്യമായി അളക്കാൻ ഉപയോഗിക്കുന്ന ഉപകരണം ഏതാണ്?",
     "options": [
-      "സ്റ്റോപ്പ്‌വാച്ച്",
-      "Sun dial",
-      "Hourglass",
-      "Wall pendulum clock"
+      "സ്റ്റോപ്പ് വാച്ച് (Stopwatch)",
+      "സൂര്യഘടികാരം (Sun dial)",
+      "മണൽ ഘടികാരം (Hourglass)",
+      "പെൻഡുലം ക്ലോക്ക്"
     ]
   },
   "313": {
-    "text": "What is the measure of the extent of a two-dimensional surface called (measured in square meters)?",
+    "text": "ഒരു ദ്വിമാന (two-dimensional) ഉപരിതലത്തിന്റെ വിസ്തൃതിയെ സൂചിപ്പിക്കുന്ന അളവ് ഏതാണ്? (ചതുരശ്ര മീറ്ററിൽ അളക്കുന്നത്)",
     "options": [
       "വിസ്തീർണ്ണം (Area)",
       "വ്യാപ്തം (Volume)",
-      "Perimeter",
+      "ചുറ്റളവ് (Perimeter)",
       "സാന്ദ്രത (Density)"
     ]
   },
   "314": {
-    "text": "What is the amount of three-dimensional space occupied by an object called?",
+    "text": "ഒരു വസ്തു ത്രിമാന തലത്തിൽ (3D) ഉൾക്കൊള്ളുന്ന സ്ഥലത്തിന്റെ അളവിന് എന്താണ് പറയുന്നത്?",
     "options": [
       "വ്യാപ്തം (Volume)",
       "വിസ്തീർണ്ണം (Area)",
-      "Mass",
-      "Length"
+      "പിണ്ഡം (Mass)",
+      "നീളം (Length)"
     ]
   },
   "315": {
@@ -3015,39 +3015,39 @@
     ]
   },
   "336": {
-    "text": "Which key must be held down while pressing a letter key to type a single capital letter?",
+    "text": "ഒരു ഇംഗ്ലീഷ് അക്ഷരം ക്യാപിറ്റൽ (Capital) ലെറ്ററായി ടൈപ്പ് ചെയ്യാൻ ആ അക്ഷരത്തിനൊപ്പം അമർത്തിപ്പിടിക്കേണ്ട കീ ഏതാണ്?",
     "options": [
-      "Shift key",
-      "Ctrl key",
-      "Alt key",
-      "Tab key"
+      "Shift കീ",
+      "Ctrl കീ",
+      "Alt കീ",
+      "Tab കീ"
     ]
   },
   "337": {
-    "text": "Which keyboard key cancels a current command or closes an active popup dialog box?",
+    "text": "നിലവിലുള്ള ഒരു കമാൻഡ് റദ്ദാക്കാനോ തുറന്നുവന്ന ഡയലോഗ് ബോക്സ് ഒഴിവാക്കാനോ ഉപയോഗിക്കുന്ന കീ ഏതാണ്?",
     "options": [
-      "Escape (Esc) key",
-      "എന്റർ കീ (Enter key)",
-      "Insert key",
-      "Print Screen key"
+      "Escape (Esc) കീ",
+      "Enter കീ",
+      "Insert കീ",
+      "Print Screen കീ"
     ]
   },
   "338": {
-    "text": "How many arrow navigation keys (Up, Down, Left, Right) are located on a standard keyboard?",
+    "text": "ഒരു സാധാരണ കമ്പ്യൂട്ടർ കീബോർഡിൽ എത്ര ആരോ നാവിഗേഷൻ കീകൾ (Up, Down, Left, Right) ഉണ്ട്?",
     "options": [
-      "4 arrow keys",
-      "2 arrow keys",
-      "6 arrow keys",
-      "8 arrow keys"
+      "4 ആരോ കീകൾ",
+      "2 ആരോ കീകൾ",
+      "6 ആരോ കീകൾ",
+      "8 ആരോ കീകൾ"
     ]
   },
   "339": {
-    "text": "What row of numbered keys from F1 to F12 sits at the very top of a computer keyboard?",
+    "text": "കീബോർഡിന്റെ ഏറ്റവും മുകൾ നിരയിൽ F1 മുതൽ F12 വരെയുള്ള കീകൾ ഏത് പേരിലാണ് അറിയപ്പെടുന്നത്?",
     "options": [
-      "Function keys",
-      "Numeric keys",
-      "Alphabet keys",
-      "Navigation keys"
+      "ഫംഗ്ഷൻ കീകൾ (Function keys)",
+      "ന്യൂമെറിക് കീകൾ (Numeric keys)",
+      "ആൽഫബെറ്റ് കീകൾ (Alphabet keys)",
+      "നാവിഗേഷൻ കീകൾ (Navigation keys)"
     ]
   },
   "340": {
@@ -3078,21 +3078,21 @@
     ]
   },
   "343": {
-    "text": "What is the background picture or pattern displayed on the computer desktop called?",
+    "text": "കമ്പ്യൂട്ടർ ഡെസ്ക്ടോപ്പിന്റെ പശ്ചാത്തലത്തിൽ കാണുന്ന ചിത്രത്തിനോ ഡിസൈനിനോ എന്താണ് പറയുന്നത്?",
     "options": [
       "വാൾപേപ്പർ (Wallpaper)",
-      "Screensaver",
-      "Watermark",
-      "Icon"
+      "സ്ക്രീൻസേവർ (Screensaver)",
+      "വാട്ടർമാർക്ക് (Watermark)",
+      "ഐക്കൺ (Icon)"
     ]
   },
   "344": {
-    "text": "What is the horizontal bar usually positioned at the top or bottom of the desktop showing open windows called?",
+    "text": "ഡെസ്ക്ടോപ്പിന്റെ മുകളിലോ താഴെയോ തുറന്നുവെച്ചിരിക്കുന്ന വിൻഡോകൾ കാണിക്കുന്ന ബാറിന് എന്താണ് പറയുന്നത്?",
     "options": [
-      "Taskbar (Panel)",
-      "Status bar",
-      "Scrollbar",
-      "Title bar"
+      "ടാസ്ക്ബാർ / പാനൽ (Taskbar / Panel)",
+      "സ്റ്റാറ്റസ് ബാർ (Status bar)",
+      "സ്ക്രോൾ ബാർ (Scrollbar)",
+      "ടൈറ്റിൽ ബാർ (Title bar)"
     ]
   },
   "345": {
@@ -3114,75 +3114,75 @@
     ]
   },
   "347": {
-    "text": "What action permanently deletes all files stored inside the Trash to free up hard drive space?",
+    "text": "ട്രാഷിൽ (Trash) കിടക്കുന്ന ഫയലുകൾ പൂർണ്ണമായി ഒഴിവാക്കി ഹാർഡ് ഡിസ്കിൽ സ്ഥലം ലഭ്യമാക്കുന്ന നടപടി ഏതാണ്?",
     "options": [
-      "Empty Trash",
-      "Minimize Trash",
-      "Rename Trash",
-      "Hide Trash"
+      "എംപ്റ്റി ട്രാഷ് (Empty Trash)",
+      "മിനിമൈസ് ട്രാഷ് (Minimize Trash)",
+      "റീനെയിം ട്രാഷ് (Rename Trash)",
+      "ഹൈഡ് ട്രാഷ് (Hide Trash)"
     ]
   },
   "348": {
-    "text": "What digital container is created by users to organize and group related files on a computer?",
+    "text": "കമ്പ്യൂട്ടറിൽ ബന്ധപ്പെട്ട ഫയലുകൾ ഒന്നിച്ച് സൂക്ഷിക്കാൻ ഉപയോക്താക്കൾ നിർമ്മിക്കുന്ന ഡിജിറ്റൽ കണ്ടെയ്നർ ഏതാണ്?",
     "options": [
-      "Folder (Directory)",
-      "Icon",
-      "Shortcut",
-      "Extension"
+      "ഫോൾഡർ / ഡയറക്ടറി (Folder / Directory)",
+      "ഐക്കൺ (Icon)",
+      "ഷോർട്ട്കട്ട് (Shortcut)",
+      "എക്സ്റ്റൻഷൻ (Extension)"
     ]
   },
   "349": {
-    "text": "Which mouse shortcut allows creating a new empty folder on the desktop?",
+    "text": "ഡെസ്ക്ടോപ്പിൽ പുതിയൊരു കാലി ഫോൾഡർ ഉണ്ടാക്കാൻ മൗസ് ഉപയോഗിച്ച് ചെയ്യേണ്ടത് എന്താണ്?",
     "options": [
-      "Right-click on empty desktop and select 'New Folder'",
-      "Double click any icon",
-      "Left click the clock",
-      "Scroll the mouse wheel"
+      "ഡെസ്ക്ടോപ്പിൽ റൈറ്റ് ക്ലിക്ക് ചെയ്ത് 'New Folder' തിരഞ്ഞെടുക്കുക",
+      "ഏതെങ്കിലും ഐക്കണിൽ ഡബിൾ ക്ലിക്ക് ചെയ്യുക",
+      "ക്ലോക്കിൽ ലെഫ്റ്റ് ക്ലിക്ക് ചെയ്യുക",
+      "മൗസ് വീൽ സ്ക്രോൾ ചെയ്യുക"
     ]
   },
   "350": {
-    "text": "What button in the top corner of a window shrinks it down onto the taskbar without closing it?",
+    "text": "ഒരു വിൻഡോ അടച്ചുപൂട്ടാതെ ടാസ്ക്ബാറിലേക്ക് ചുരുക്കി വെക്കാൻ മുകൾ കോണിലുള്ള ഏത് ബട്ടണാണ് അമർത്തേണ്ടത്?",
     "options": [
-      "Minimize button (-)",
-      "Maximize button (+)",
-      "Close button (X)",
-      "Restore button"
+      "മിനിമൈസ് ബട്ടൺ (Minimize -)",
+      "മാക്സിമൈസ് ബട്ടൺ (Maximize +)",
+      "ക്ലോസ് ബട്ടൺ (Close X)",
+      "റീസ്റ്റോർ ബട്ടൺ (Restore)"
     ]
   },
   "351": {
-    "text": "What button expands a window to fill the entire computer screen?",
+    "text": "ഒരു വിൻഡോ സ്ക്രീൻ മുഴുവനായും വലുതാക്കാൻ ഉപയോഗിക്കുന്ന ബട്ടൺ ഏതാണ്?",
     "options": [
-      "Maximize button",
-      "Minimize button",
-      "Close button",
-      "Refresh button"
+      "മാക്സിമൈസ് ബട്ടൺ (Maximize)",
+      "മിനിമൈസ് ബട്ടൺ (Minimize)",
+      "ക്ലോസ് ബട്ടൺ (Close)",
+      "റീഫ്രഷ് ബട്ടൺ (Refresh)"
     ]
   },
   "352": {
-    "text": "What button marked with an 'X' terminates and exits the active program window?",
+    "text": "'X' എന്ന് അടയാളപ്പെടുത്തിയ, നിലവിലുള്ള ആപ്ലിക്കേഷൻ വിൻഡോ പൂർണ്ണമായി ക്ലോസ് ചെയ്യുന്ന ബട്ടൺ ഏതാണ്?",
     "options": [
-      "Close button (X)",
-      "Minimize button",
-      "Help button",
-      "Save button"
+      "ക്ലോസ് ബട്ടൺ (Close X)",
+      "മിനിമൈസ് ബട്ടൺ (Minimize)",
+      "ഹെൽപ്പ് ബട്ടൺ (Help)",
+      "സേവ് ബട്ടൺ (Save)"
     ]
   },
   "353": {
-    "text": "What is the top bar of a program window that shows the name of the file and application called?",
+    "text": "ഒരു പ്രോഗ്രാം വിൻഡോയുടെ മുകളിൽ ഫയലിന്റെയും ആപ്ലിക്കേഷന്റെയും പേര് കാണിക്കുന്ന ബാറിന് എന്താണ് പറയുന്നത്?",
     "options": [
-      "Title bar",
-      "Status bar",
-      "Menu bar",
-      "Scroll bar"
+      "ടൈറ്റിൽ ബാർ (Title bar)",
+      "സ്റ്റാറ്റസ് ബാർ (Status bar)",
+      "മെനു ബാർ (Menu bar)",
+      "സ്ക്രോൾ ബാർ (Scroll bar)"
     ]
   },
   "354": {
-    "text": "In KITE GNU/Linux, what file manager application is used to browse files, folders, and USB drives?",
+    "text": "കൈറ്റ് ഗ്നു/ലിനക്സിൽ (KITE GNU/Linux) ഫയലുകളും ഫോൾഡറുകളും പെൻഡ്രൈവുകളും ബ്രൗസ് ചെയ്യാൻ ഉപയോഗിക്കുന്ന ഫയൽ മാനേജർ ഏതാണ്?",
     "options": [
-      "Files (Nautilus / Thunar)",
+      "ഫയൽസ് / നോട്ടിലസ് (Files / Nautilus / Thunar)",
       "ടക്സ് പെയിന്റ് (Tux Paint)",
-      "Firefox",
-      "Calculator"
+      "ഫയർഫോക്സ് (Firefox)",
+      "കാൽക്കുലേറ്റർ (Calculator)"
     ]
   },
   "355": {
@@ -3231,151 +3231,151 @@
     ]
   },
   "360": {
-    "text": "In Tux Paint, which Magic effect easily draws realistic green blades of grass on a lawn?",
+    "text": "ടക്സ് പെയിന്റിൽ (Tux Paint), പച്ചപ്പുല്ലിന്റെ ഭംഗിയുള്ള ചിത്രങ്ങൾ എളുപ്പത്തിൽ വരയ്ക്കാൻ സഹായിക്കുന്ന മാജിക് ഇഫക്റ്റ് ഏതാണ്?",
     "options": [
-      "Grass effect",
-      "Rainbow effect",
-      "Chalk effect",
-      "Bricks effect"
+      "ഗ്രാസ് ഇഫക്റ്റ് (Grass effect)",
+      "റെയിൻബോ ഇഫക്റ്റ് (Rainbow effect)",
+      "ചോക്ക് ഇഫക്റ്റ് (Chalk effect)",
+      "ബ്രിക്സ് ഇഫക്റ്റ് (Bricks effect)"
     ]
   },
   "361": {
-    "text": "In Tux Paint, which Magic effect draws a colorful curved arc of sunlight colors across the sky?",
+    "text": "ടക്സ് പെയിന്റിൽ ആകാശത്തിന് കുറുകെ ഏഴ് വർണ്ണങ്ങളുള്ള മഴവില്ല് വരയ്ക്കാൻ ഉപയോഗിക്കുന്ന മാജിക് ഇഫക്റ്റ് ഏതാണ്?",
     "options": [
-      "Rainbow effect",
-      "Grass effect",
-      "Drip effect",
-      "Smudge effect"
+      "റെയിൻബോ ഇഫക്റ്റ് (Rainbow effect)",
+      "ഗ്രാസ് ഇഫക്റ്റ് (Grass effect)",
+      "ഡ്രിപ്പ് ഇഫക്റ്റ് (Drip effect)",
+      "സ്മഡ്ജ് ഇഫക്റ്റ് (Smudge effect)"
     ]
   },
   "362": {
-    "text": "Which tool in Tux Paint draws straight lines between two mouse clicks?",
+    "text": "ടക്സ് പെയിന്റിൽ രണ്ട് പോയിന്റുകൾക്കിടയിൽ നേര്രേഖകൾ (Straight lines) വരയ്ക്കാൻ ഉപയോഗിക്കുന്ന ടൂൾ ഏതാണ്?",
     "options": [
-      "Lines tool",
-      "Paint tool",
-      "Text tool",
-      "Stamp tool"
+      "ലൈൻസ് ടൂൾ (Lines tool)",
+      "പെയിന്റ് ടൂൾ (Paint tool)",
+      "ടെക്സ്റ്റ് ടൂൾ (Text tool)",
+      "സ്റ്റാമ്പ് ടൂൾ (Stamp tool)"
     ]
   },
   "363": {
-    "text": "Which tool in Tux Paint allows drawing geometric figures like circles, squares, rectangles, and triangles?",
+    "text": "ടക്സ് പെയിന്റിൽ വൃത്തം, ചതുരം, ത്രികോണം തുടങ്ങിയ ജ്യാമിതീയ രൂപങ്ങൾ വരയ്ക്കാൻ സഹായിക്കുന്ന ടൂൾ ഏതാണ്?",
     "options": [
-      "Shapes tool",
-      "Text tool",
-      "Magic tool",
-      "Stamp tool"
+      "ഷേപ്പ്സ് ടൂൾ (Shapes tool)",
+      "ടെക്സ്റ്റ് ടൂൾ (Text tool)",
+      "മാജിക് ടൂൾ (Magic tool)",
+      "സ്റ്റാമ്പ് ടൂൾ (Stamp tool)"
     ]
   },
   "364": {
-    "text": "Which tool in Tux Paint is used to type captions, labels, and titles on drawings using the keyboard?",
+    "text": "ടക്സ് പെയിന്റിൽ കീബോർഡ് ഉപയോഗിച്ച് അക്ഷരങ്ങളും തലക്കെട്ടുകളും ടൈപ്പ് ചെയ്യാൻ ഉപയോഗിക്കുന്ന ടൂൾ ഏതാണ്?",
     "options": [
-      "Text / Label tool",
-      "Paint tool",
-      "Stamp tool",
-      "Eraser tool"
+      "ടെക്സ്റ്റ് / ലേബൽ ടൂൾ (Text / Label tool)",
+      "പെയിന്റ് ടൂൾ (Paint tool)",
+      "സ്റ്റാമ്പ് ടൂൾ (Stamp tool)",
+      "ഇറേസർ ടൂൾ (Eraser tool)"
     ]
   },
   "365": {
-    "text": "Which tool in Tux Paint rubs out unwanted parts of a drawing?",
+    "text": "ടക്സ് പെയിന്റിൽ വരച്ച ചിത്രങ്ങളിൽ അനാവശ്യമായ ഭാഗങ്ങൾ മായ്ച്ചുകളയാൻ ഉപയോഗിക്കുന്ന ടൂൾ ഏതാണ്?",
     "options": [
-      "Eraser tool",
-      "Paint tool",
-      "Stamp tool",
-      "Magic tool"
+      "ഇറേസർ ടൂൾ (Eraser tool)",
+      "പെയിന്റ് ടൂൾ (Paint tool)",
+      "സ്റ്റാമ്പ് ടൂൾ (Stamp tool)",
+      "മാജിക് ടൂൾ (Magic tool)"
     ]
   },
   "366": {
-    "text": "In Tux Paint, which button reverses the last action or brush stroke made by mistake?",
+    "text": "ടക്സ് പെയിന്റിൽ അബദ്ധത്തിൽ സംഭവിച്ച അവസാനത്തെ പ്രവർത്തനം തിരിച്ചെടുക്കാൻ (റദ്ദാക്കാൻ) ഉപയോഗിക്കുന്ന ബട്ടൺ ഏതാണ്?",
     "options": [
-      "Undo button",
-      "Redo button",
-      "Save button",
-      "New button"
+      "അൺഡു ബട്ടൺ (Undo)",
+      "റീഡു ബട്ടൺ (Redo)",
+      "സേവ് ബട്ടൺ (Save)",
+      "ന്യൂ ബട്ടൺ (New)"
     ]
   },
   "367": {
-    "text": "Which button in Tux Paint opens a fresh, blank drawing canvas?",
+    "text": "ടക്സ് പെയിന്റിൽ പുതിയൊരു ചിത്രം വരയ്ക്കാൻ പുതിയ ക്യാൻവാസ് തുറക്കുന്ന ബട്ടൺ ഏതാണ്?",
     "options": [
-      "New button",
-      "Open button",
-      "Save button",
-      "Print button"
+      "ന്യൂ ബട്ടൺ (New)",
+      "ഓപ്പൺ ബട്ടൺ (Open)",
+      "സേവ് ബട്ടൺ (Save)",
+      "പ്രിന്റ് ബട്ടൺ (Print)"
     ]
   },
   "368": {
-    "text": "Which button in Tux Paint saves the current artwork into the drawing sketchbook gallery?",
+    "text": "ടക്സ് പെയിന്റിൽ വരച്ച ചിത്രം ഗാലറിയിലേക്ക് സൂക്ഷിച്ചുവെക്കാൻ (Save) ഉപയോഗിക്കുന്ന ബട്ടൺ ഏതാണ്?",
     "options": [
-      "Save button",
-      "New button",
-      "Quit button",
-      "Undo button"
+      "സേവ് ബട്ടൺ (Save)",
+      "ന്യൂ ബട്ടൺ (New)",
+      "ക്വിറ്റ് ബട്ടൺ (Quit)",
+      "അൺഡു ബട്ടൺ (Undo)"
     ]
   },
   "369": {
-    "text": "Which button in Tux Paint sends the drawing to a connected physical printer?",
+    "text": "ടക്സ് പെയിന്റിൽ വരച്ച ചിത്രം കമ്പ്യൂട്ടറുമായി ബന്ധിപ്പിച്ച പ്രിന്ററിലേക്ക് അയക്കാൻ ഉപയോഗിക്കുന്ന ബട്ടൺ ഏതാണ്?",
     "options": [
-      "Print button",
-      "Save button",
-      "Open button",
-      "New button"
+      "പ്രിന്റ് ബട്ടൺ (Print)",
+      "സേവ് ബട്ടൺ (Save)",
+      "ഓപ്പൺ ബട്ടൺ (Open)",
+      "ന്യൂ ബട്ടൺ (New)"
     ]
   },
   "370": {
-    "text": "Which button in Tux Paint closes the program safely?",
+    "text": "ടക്സ് പെയിന്റ് പ്രോഗ്രാം സുരക്ഷിതമായി ക്ലോസ് ചെയ്യാൻ ഉപയോഗിക്കുന്ന ബട്ടൺ ഏതാണ്?",
     "options": [
-      "Quit button",
-      "Save button",
-      "Undo button",
-      "New button"
+      "ക്വിറ്റ് ബട്ടൺ (Quit)",
+      "സേവ് ബട്ടൺ (Save)",
+      "അൺഡു ബട്ടൺ (Undo)",
+      "ന്യൂ ബട്ടൺ (New)"
     ]
   },
   "371": {
-    "text": "Which application in LibreOffice is specifically used for creating text documents, essays, and letters?",
+    "text": "ലിബ്രെഓഫീസിൽ (LibreOffice) ടെക്സ്റ്റ് ഡോക്യുമെന്റുകൾ, ഉപന്യാസങ്ങൾ, കത്തുകൾ എന്നിവ തയ്യാറാക്കാൻ ഉപയോഗിക്കുന്ന ആപ്ലിക്കേഷൻ ഏതാണ്?",
     "options": [
-      "LibreOffice Writer",
-      "LibreOffice Calc",
-      "LibreOffice Impress",
-      "LibreOffice Base"
+      "ലിബ്രെഓഫീസ് റൈറ്റർ (LibreOffice Writer)",
+      "ലിബ്രെഓഫീസ് കാൽക്ക് (LibreOffice Calc)",
+      "ലിബ്രെഓഫീസ് ഇംപ്രസ് (LibreOffice Impress)",
+      "ലിബ്രെഓഫീസ് ബേസ് (LibreOffice Base)"
     ]
   },
   "372": {
-    "text": "What keyboard shortcut is used in LibreOffice Writer to make selected text Bold (darker and thicker)?",
+    "text": "ലിബ്രെഓഫീസ് റൈറ്ററിൽ തിരഞ്ഞെടുത്ത അക്ഷരങ്ങൾ ബോൾഡ് (Bold - കട്ടിയുള്ളതാക്കാൻ) ഉപയോഗിക്കുന്ന കീബോർഡ് ഷോർട്ട്കട്ട് ഏതാണ്?",
     "options": [
-      "Ctrl + B (Bold)",
-      "Ctrl + I (Italic)",
-      "Ctrl + U (Underline)",
+      "Ctrl + B",
+      "Ctrl + I",
+      "Ctrl + U",
       "Ctrl + D"
     ]
   },
   "373": {
-    "text": "What keyboard shortcut is used to make selected text Italic (slanted)?",
+    "text": "തിരഞ്ഞെടുത്ത അക്ഷരങ്ങൾ ചരിഞ്ഞ രൂപത്തിലാക്കാൻ (Italic) ഉപയോഗിക്കുന്ന കീബോർഡ് ഷോർട്ട്കട്ട് ഏതാണ്?",
     "options": [
-      "Ctrl + I (Italic)",
-      "Ctrl + B (Bold)",
-      "Ctrl + U (Underline)",
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
       "Ctrl + S"
     ]
   },
   "374": {
-    "text": "What keyboard shortcut underlines selected words with a straight horizontal line?",
+    "text": "തിരഞ്ഞെടുത്ത വാക്കുകൾക്ക് അടിവരയിടാൻ (Underline) ഉപയോഗിക്കുന്ന കീബോർഡ് ഷോർട്ട്കട്ട് ഏതാണ്?",
     "options": [
-      "Ctrl + U (Underline)",
-      "Ctrl + B (Bold)",
-      "Ctrl + I (Italic)",
+      "Ctrl + U",
+      "Ctrl + B",
+      "Ctrl + I",
       "Ctrl + L"
     ]
   },
   "375": {
-    "text": "What universal keyboard shortcut saves the current document or file to disk?",
+    "text": "നിലവിലുള്ള ഡോക്യുമെന്റോ ഫയലോ കമ്പ്യൂട്ടറിൽ സേവ് ചെയ്യാൻ (Save) ഉപയോഗിക്കുന്ന സാർവ്വത്രിക കീബോർഡ് ഷോർട്ട്കട്ട് ഏതാണ്?",
     "options": [
       "Ctrl + S",
-      "Ctrl + P (Print)",
-      "Ctrl + O (Open)",
-      "Ctrl + N (New)"
+      "Ctrl + P",
+      "Ctrl + O",
+      "Ctrl + N"
     ]
   },
   "376": {
-    "text": "What keyboard shortcut is used to copy selected text or files into the computer clipboard?",
+    "text": "തിരഞ്ഞെടുത്ത വാക്കോ ഫയലോ ക്ലിപ്ബോർഡിലേക്ക് കോപ്പി (Copy) ചെയ്യാൻ ഉപയോഗിക്കുന്ന കീബോർഡ് ഷോർട്ട്കട്ട് ഏതാണ്?",
     "options": [
       "Ctrl + C",
       "Ctrl + V",
@@ -3384,16 +3384,16 @@
     ]
   },
   "377": {
-    "text": "What keyboard shortcut is used to paste copied or cut content from clipboard into the document?",
+    "text": "കോപ്പി ചെയ്തതോ കട്ട് ചെയ്തതോ ആയ ഭാഗം ഡോക്യുമെന്റിൽ ഒട്ടിക്കാൻ (Paste) ഉപയോഗിക്കുന്ന കീബോർഡ് ഷോർട്ട്കട്ട് ഏതാണ്?",
     "options": [
       "Ctrl + V",
       "Ctrl + C",
-      "Ctrl + P (Print)",
+      "Ctrl + P",
       "Ctrl + S"
     ]
   },
   "378": {
-    "text": "What keyboard shortcut cuts (removes) selected text so it can be moved to another location?",
+    "text": "തിരഞ്ഞെടുത്ത ഭാഗം മറ്റൊരു സ്ഥാനത്തേക്ക് മാറ്റുന്നതിനായി മുറിച്ചുമാറ്റാൻ (Cut) ഉപയോഗിക്കുന്ന കീബോർഡ് ഷോർട്ട്കട്ട് ഏതാണ്?",
     "options": [
       "Ctrl + X",
       "Ctrl + C",
@@ -3402,16 +3402,16 @@
     ]
   },
   "379": {
-    "text": "What keyboard shortcut selects ALL text and objects in an active document at once?",
+    "text": "ഒരു ഡോക്യുമെന്റിലെ എല്ലാ ഉള്ളടക്കങ്ങളും ഒന്നിച്ച് തിരഞ്ഞെടുക്കാൻ (Select All) ഉപയോഗിക്കുന്ന കീബോർഡ് ഷോർട്ട്കട്ട് ഏതാണ്?",
     "options": [
-      "Ctrl + A (Select All)",
+      "Ctrl + A",
       "Ctrl + S",
       "Ctrl + Z",
       "Ctrl + F"
     ]
   },
   "380": {
-    "text": "What keyboard shortcut cancels or undoes the most recent mistake in an office document?",
+    "text": "ഡോക്യുമെന്റിൽ സംഭവിച്ച അവസാനത്തെ മാറ്റം റദ്ദാക്കാൻ (Undo) ഉപയോഗിക്കുന്ന കീബോർഡ് ഷോർട്ട്കട്ട് ഏതാണ്?",
     "options": [
       "Ctrl + Z",
       "Ctrl + Y",
@@ -3420,7 +3420,7 @@
     ]
   },
   "381": {
-    "text": "What keyboard shortcut redoes an action that was previously reversed by Undo?",
+    "text": "അൺഡു ചെയ്ത മാറ്റം വീണ്ടും പുനഃസ്ഥാപിക്കാൻ (Redo) ഉപയോഗിക്കുന്ന കീബോർഡ് ഷോർട്ട്കട്ട് ഏതാണ്?",
     "options": [
       "Ctrl + Y",
       "Ctrl + Z",
@@ -3429,268 +3429,268 @@
     ]
   },
   "382": {
-    "text": "What keyboard shortcut opens the Print dialog box to print a document?",
+    "text": "ഒരു ഡോക്യുമെന്റ് പ്രിന്റ് ചെയ്യാനുള്ള ഡയലോഗ് ബോക്സ് തുറക്കാൻ ഉപയോഗിക്കുന്ന കീബോർഡ് ഷോർട്ട്കട്ട് ഏതാണ്?",
     "options": [
-      "Ctrl + P (Print)",
+      "Ctrl + P",
       "Ctrl + S",
-      "Ctrl + O (Open)",
-      "Ctrl + N (New)"
+      "Ctrl + O",
+      "Ctrl + N"
     ]
   },
   "383": {
-    "text": "What keyboard shortcut creates a brand new blank document in LibreOffice?",
+    "text": "ലിബ്രെഓഫീസിൽ പുതിയൊരു കാലി ഡോക്യുമെന്റ് തുറക്കാൻ ഉപയോഗിക്കുന്ന കീബോർഡ് ഷോർട്ട്കട്ട് ഏതാണ്?",
     "options": [
-      "Ctrl + N (New)",
-      "Ctrl + O (Open)",
+      "Ctrl + N",
+      "Ctrl + O",
       "Ctrl + S",
-      "Ctrl + P (Print)"
+      "Ctrl + P"
     ]
   },
   "384": {
-    "text": "What keyboard shortcut opens an existing saved file from your computer drive?",
+    "text": "കമ്പ്യൂട്ടറിൽ മുമ്പ് സേവ് ചെയ്തുവെച്ച ഫയൽ തുറക്കാൻ (Open) ഉപയോഗിക്കുന്ന കീബോർഡ് ഷോർട്ട്കട്ട് ഏതാണ്?",
     "options": [
-      "Ctrl + O (Open)",
+      "Ctrl + O",
       "Ctrl + S",
-      "Ctrl + N (New)",
-      "Ctrl + P (Print)"
+      "Ctrl + N",
+      "Ctrl + P"
     ]
   },
   "385": {
-    "text": "What blinking vertical line in a text document shows where typed characters will appear next?",
+    "text": "ഒരു ടെക്സ്റ്റ് ഡോക്യുമെന്റിൽ ടൈപ്പ് ചെയ്യുന്ന അക്ഷരങ്ങൾ എവിടെ വരുമെന്ന് കാണിക്കുന്ന മിന്നിമറയുന്ന ലംബരേഖ ഏതാണ്?",
     "options": [
-      "Cursor (Insertion point)",
-      "Pointer",
-      "Scrollbar",
-      "Ruler"
+      "കർസർ / ഇൻസെർഷൻ പോയിന്റ് (Cursor)",
+      "പോയിന്റർ (Pointer)",
+      "സ്ക്രോൾബാർ (Scrollbar)",
+      "റൂളർ (Ruler)"
     ]
   },
   "386": {
-    "text": "What default page orientation is taller than it is wide (standard for letters and exam papers)?",
+    "text": "വീതിയേക്കാൾ ഉയരം കൂടുതലായി വരുന്ന സാധാരണ പേജ് ഓറിയന്റേഷൻ (Page Orientation) ഏതാണ്?",
     "options": [
-      "Portrait",
-      "Landscape",
-      "Square",
-      "Panoramic"
+      "പോർട്രെയിറ്റ് (Portrait)",
+      "ലാൻഡ്‌സ്കേപ്പ് (Landscape)",
+      "സ്ക്വയർ (Square)",
+      "പനോരമിക് (Panoramic)"
     ]
   },
   "387": {
-    "text": "What page orientation is wider than it is tall (common for broad charts, certificates, and slides)?",
+    "text": "ഉയരത്തേക്കാൾ വീതി കൂടുതലായി വരുന്ന, സർട്ടിഫിക്കറ്റുകൾക്കും ചാർട്ടുകൾക്കും അനുയോജ്യമായ പേജ് ഓറിയന്റേഷൻ ഏതാണ്?",
     "options": [
-      "Landscape",
-      "Portrait",
-      "Vertical",
-      "Columnar"
+      "ലാൻഡ്‌സ്കേപ്പ് (Landscape)",
+      "പോർട്രെയിറ്റ് (Portrait)",
+      "വെർട്ടിക്കൽ (Vertical)",
+      "കോളമ്നാർ (Columnar)"
     ]
   },
   "388": {
-    "text": "Which text alignment arranges paragraph text flush with both the left and right page margins evenly?",
+    "text": "ഖണ്ഡികയിലെ വരികൾ പേജിന്റെ ഇടതും വലതും മാർജിനുകൾക്ക് ഒരേപോലെ ക്രമീകരിക്കുന്ന അലൈൻമെന്റ് ഏതാണ്?",
     "options": [
-      "Justified alignment",
-      "Left alignment",
-      "Right alignment",
-      "Center alignment"
+      "ജസ്റ്റിഫൈഡ് അലൈൻമെന്റ് (Justified)",
+      "ലെഫ്റ്റ് അലൈൻമെന്റ് (Left)",
+      "റൈറ്റ് അലൈൻമെന്റ് (Right)",
+      "സെന്റർ അലൈൻമെന്റ് (Center)"
     ]
   },
   "389": {
-    "text": "Which application in the LibreOffice suite is used for calculating mark sheets, accounts, and creating charts?",
+    "text": "മാർക്ക് ഷീറ്റുകൾ, കണക്കുകൂട്ടലുകൾ, ചാർട്ടുകൾ എന്നിവ തയ്യാറാക്കാൻ ഉപയോഗിക്കുന്ന ലിബ്രെഓഫീസ് ആപ്ലിക്കേഷൻ ഏതാണ്?",
     "options": [
-      "LibreOffice Calc",
-      "LibreOffice Writer",
-      "LibreOffice Impress",
-      "LibreOffice Draw"
+      "ലിബ്രെഓഫീസ് കാൽക്ക് (LibreOffice Calc)",
+      "ലിബ്രെഓഫീസ് റൈറ്റർ (LibreOffice Writer)",
+      "ലിബ്രെഓഫീസ് ഇംപ്രസ് (LibreOffice Impress)",
+      "ലിബ്രെഓഫീസ് ഡ്രോ (LibreOffice Draw)"
     ]
   },
   "390": {
-    "text": "In LibreOffice Calc, what is the intersection of a vertical column and a horizontal row called?",
+    "text": "ലിബ്രെഓഫീസ് കാൽക്കിൽ ഒരു ലംബമായ കോളവും (Column) തിരശ്ചീനമായ വരിയും (Row) കൂടിച്ചേരുന്ന കള്ളിക്ക് എന്താണ് പറയുന്നത്?",
     "options": [
-      "Cell",
-      "Grid",
-      "Table",
-      "Block"
+      "സെൽ (Cell)",
+      "ഗ്രിഡ് (Grid)",
+      "ടേബിൾ (Table)",
+      "ബ്ലോക്ക് (Block)"
     ]
   },
   "391": {
-    "text": "How are horizontal rows identified in a LibreOffice Calc spreadsheet?",
+    "text": "ലിബ്രെഓഫീസ് കാൽക്കിൽ തിരശ്ചീനമായ വരികളെ (Rows) അടയാളപ്പെടുത്തുന്നത് എങ്ങനെയാണ്?",
     "options": [
-      "By numbers (1, 2, 3, ...)",
-      "By letters (A, B, C, ...)",
-      "By roman numerals",
-      "By symbols"
+      "സംഖ്യകൾ വഴി (1, 2, 3, ...)",
+      "അക്ഷരങ്ങൾ വഴി (A, B, C, ...)",
+      "റോമൻ സംഖ്യകൾ വഴി",
+      "ചിഹ്നങ്ങൾ വഴി"
     ]
   },
   "392": {
-    "text": "How are vertical columns identified in a LibreOffice Calc spreadsheet?",
+    "text": "ലിബ്രെഓഫീസ് കാൽക്കിൽ ലംബമായ കോളങ്ങളെ (Columns) അടയാളപ്പെടുത്തുന്നത് എങ്ങനെയാണ്?",
     "options": [
-      "By letters (A, B, C, ...)",
-      "By numbers (1, 2, 3, ...)",
-      "By colors",
-      "By names"
+      "അക്ഷരങ്ങൾ വഴി (A, B, C, ...)",
+      "സംഖ്യകൾ വഴി (1, 2, 3, ...)",
+      "നിറങ്ങൾ വഴി",
+      "പേരുകൾ വഴി"
     ]
   },
   "393": {
-    "text": "What is the cell address of the very first top-left cell in a LibreOffice Calc sheet?",
+    "text": "ഒരു ലിബ്രെഓഫീസ് കാൽക്ക് സ്പ്രെഡ്ഷീറ്റിലെ ഏറ്റവും ആദ്യത്തെ (മുകളിൽ ഇടത്തേ അറ്റത്തെ) സെല്ലിന്റെ വിലാസം എന്താണ്?",
     "options": [
       "A1",
-      "1 ആമ്പിയർ (1 A)",
+      "1A",
       "00",
       "TopLeft"
     ]
   },
   "394": {
-    "text": "What mathematical symbol must ALWAYS precede any calculation formula in LibreOffice Calc?",
+    "text": "ലിബ്രെഓഫീസ് കാൽക്കിൽ ഏതൊരു ഫോർമുലയും കണക്കുകൂട്ടലും തുടങ്ങുമ്പോൾ നിർബന്ധമായും നൽകേണ്ട ചിഹ്നം ഏതാണ്?",
     "options": [
-      "Equal sign (=)",
-      "Plus sign (+)",
-      "Hash sign (#)",
-      "At symbol (@)"
+      "സമം ചിഹ്നം (=)",
+      "സങ്കലന ചിഹ്നം (+)",
+      "ഹാഷ് ചിഹ്നം (#)",
+      "അറ്റ് ചിഹ്നം (@)"
     ]
   },
   "395": {
-    "text": "Which application in LibreOffice is used to create visual slide shows for multimedia school seminars?",
+    "text": "സ്കൂൾ സെമിനാറുകൾക്കായി ആകർഷകമായ സ്ലൈഡ് ഷോകൾ തയ്യാറാക്കാൻ ഉപയോഗിക്കുന്ന ലിബ്രെഓഫീസ് ആപ്ലിക്കേഷൻ ഏതാണ്?",
     "options": [
-      "LibreOffice Impress",
-      "LibreOffice Writer",
-      "LibreOffice Calc",
-      "LibreOffice Math"
+      "ലിബ്രെഓഫീസ് ഇംപ്രസ് (LibreOffice Impress)",
+      "ലിബ്രെഓഫീസ് റൈറ്റർ (LibreOffice Writer)",
+      "ലിബ്രെഓഫീസ് കാൽക്ക് (LibreOffice Calc)",
+      "ലിബ്രെഓഫീസ് മാത്ത് (LibreOffice Math)"
     ]
   },
   "396": {
-    "text": "Which function key starts a full-screen slide show presentation in LibreOffice Impress?",
+    "text": "ലിബ്രെഓഫീസ് ഇംപ്രസ്സിൽ ഫുൾ സ്ക്രീൻ സ്ലൈഡ് ഷോ തുടങ്ങാൻ അമർത്തേണ്ട ഫംഗ്ഷൻ കീ ഏതാണ്?",
     "options": [
-      "F5 (Slide Show)",
-      "F1 (Help)",
+      "F5",
+      "F1",
       "F11",
       "F12"
     ]
   },
   "397": {
-    "text": "What is the default orange cat character in Scratch visual programming called?",
+    "text": "സ്ക്രാച്ച് (Scratch) വിഷ്വൽ പ്രോഗ്രാമിംഗിലെ ഡിഫോൾട്ട് ഓറഞ്ച് പൂച്ച കഥാപാത്രത്തിന് എന്താണ് പറയുന്നത്?",
     "options": [
       "സ്പ്രൈറ്റ് (Sprite)",
       "സ്റ്റേജ് (Stage)",
-      "Block",
-      "Script"
+      "ബ്ലോക്ക് (Block)",
+      "സ്ക്രിപ്റ്റ് (Script)"
     ]
   },
   "398": {
-    "text": "What is the rectangular canvas area where Scratch sprites move, speak, and interact called?",
+    "text": "സ്ക്രാച്ചിൽ സ്പ്രൈറ്റുകൾ ചലിക്കുകയും സംസാരിക്കുകയും പ്രവർത്തിക്കുകയും ചെയ്യുന്ന ചതുരത്തിലുള്ള ഭാഗത്തിന് എന്താണ് പറയുന്നത്?",
     "options": [
       "സ്റ്റേജ് (Stage)",
       "ബാക്ക്ഡ്രോപ്പ് (Backdrop)",
-      "Palette",
-      "Costume editor"
+      "പാലറ്റ് (Palette)",
+      "കോസ്റ്റ്യൂം എഡിറ്റർ (Costume editor)"
     ]
   },
   "399": {
-    "text": "Which colored flag icon above the Scratch stage is clicked to run and start student projects?",
+    "text": "സ്ക്രാച്ചിൽ പ്രോഗ്രാമുകൾ പ്രവർത്തിപ്പിക്കാൻ സ്റ്റേജിന് മുകളിൽ ക്ലിക്ക് ചെയ്യേണ്ട പതാകയുടെ അടയാളം ഏതാണ്?",
     "options": [
-      "Green Flag",
-      "Red Stop button",
-      "Yellow Flag",
-      "Blue Star"
+      "പച്ച പതാക (Green Flag)",
+      "ചുവപ്പ് സ്റ്റോപ്പ് ബട്ടൺ (Red Stop button)",
+      "മഞ്ഞ പതാക (Yellow Flag)",
+      "നീല നക്ഷത്രം (Blue Star)"
     ]
   },
   "400": {
-    "text": "Which red circular icon next to the Green Flag stops all running scripts in Scratch immediately?",
+    "text": "സ്ക്രാച്ചിൽ പ്രവർത്തിക്കുന്ന എല്ലാ പ്രോഗ്രാമുകളും തൽക്ഷണം അവസാനിപ്പിക്കാൻ പച്ചക്കൊടിക്ക് അരികിലുള്ള ഏത് ചിഹ്നത്തിലാണ് ക്ലിക്ക് ചെയ്യേണ്ടത്?",
     "options": [
-      "Red Stop sign",
-      "Pause button",
-      "Reset button",
-      "Quit button"
+      "ചുവപ്പ് സ്റ്റോപ്പ് ബട്ടൺ (Red Stop sign)",
+      "പോസ് ബട്ടൺ (Pause button)",
+      "റീസെറ്റ് ബട്ടൺ (Reset button)",
+      "ക്വിറ്റ് ബട്ടൺ (Quit button)"
     ]
   },
   "401": {
-    "text": "In Scratch, what are different graphic drawings or poses for the same sprite called?",
+    "text": "സ്ക്രാച്ചിൽ ഒരു സ്പ്രൈറ്റിന്റെ വ്യത്യസ്ത രൂപങ്ങൾക്കും പോസുകൾക്കും എന്താണ് പറയുന്നത്?",
     "options": [
-      "Costumes",
-      "Backdrops",
-      "Variables",
-      "Sprites"
+      "കോസ്റ്റ്യൂമുകൾ (Costumes)",
+      "ബാക്ക്ഡ്രോപ്പുകൾ (Backdrops)",
+      "വേരിയബിളുകൾ (Variables)",
+      "സ്പ്രൈറ്റുകൾ (Sprites)"
     ]
   },
   "402": {
-    "text": "In Scratch, what is the background image displayed on the Stage called?",
+    "text": "സ്ക്രാച്ച് സ്റ്റേജിന്റെ പശ്ചാത്തല ചിത്രത്തിന് എന്താണ് പറയുന്നത്?",
     "options": [
       "ബാക്ക്ഡ്രോപ്പ് (Backdrop)",
-      "വേഷം / കോസ്റ്റ്യൂം (Costume)",
+      "കോസ്റ്റ്യൂം (Costume)",
       "വാൾപേപ്പർ (Wallpaper)",
-      "Canvas"
+      "ക്യാൻവാസ് (Canvas)"
     ]
   },
   "403": {
-    "text": "What color are Motion command blocks in Scratch (such as 'move 10 steps' and 'turn 15 degrees')?",
+    "text": "സ്ക്രാച്ചിൽ ചലനങ്ങളെ നിയന്ത്രിക്കുന്ന മോഷൻ (Motion) കമാൻഡ് ബ്ലോക്കുകളുടെ നിറം എന്താണ്? (ഉദാ: 'move 10 steps')",
     "options": [
-      "Blue",
-      "Yellow",
-      "Purple",
-      "Green"
+      "നീല (Blue)",
+      "മഞ്ഞ (Yellow)",
+      "പർപ്പിൾ (Purple)",
+      "പച്ച (Green)"
     ]
   },
   "404": {
-    "text": "What color are Looks blocks in Scratch (such as 'say Hello' and 'switch costume')?",
+    "text": "സ്ക്രാച്ചിൽ രൂപഭാവങ്ങളെ നിയന്ത്രിക്കുന്ന ലുക്ക്സ് (Looks) ബ്ലോക്കുകളുടെ നിറം എന്താണ്? (ഉദാ: 'say Hello')",
     "options": [
-      "Purple",
-      "Blue",
-      "Green",
-      "Orange"
+      "പർപ്പിൾ (Purple)",
+      "നീല (Blue)",
+      "പച്ച (Green)",
+      "ഓറഞ്ച് (Orange)"
     ]
   },
   "405": {
-    "text": "What color are Events starter blocks in Scratch (such as 'when green flag clicked')?",
+    "text": "സ്ക്രാച്ചിൽ ഒരു പ്രോഗ്രാം തുടങ്ങാൻ ഉപയോഗിക്കുന്ന ഇവന്റ്സ് (Events) ബ്ലോക്കുകളുടെ നിറം എന്താണ്? (ഉദാ: 'when green flag clicked')",
     "options": [
-      "Yellow",
-      "Blue",
-      "Purple",
-      "Red"
+      "മഞ്ഞ (Yellow)",
+      "നീല (Blue)",
+      "പർപ്പിൾ (Purple)",
+      "ചുവപ്പ് (Red)"
     ]
   },
   "406": {
-    "text": "What color are Sound blocks in Scratch (such as 'play sound Meow until done')?",
+    "text": "സ്ക്രാച്ചിൽ ശബ്ദങ്ങളെ നിയന്ത്രിക്കുന്ന സൗണ്ട് (Sound) ബ്ലോക്കുകളുടെ നിറം എന്താണ്? (ഉദാ: 'play sound Meow')",
     "options": [
-      "Magenta / Pink",
-      "Blue",
-      "Green",
-      "Yellow"
+      "മജന്ത / പിങ്ക് (Magenta / Pink)",
+      "നീല (Blue)",
+      "പച്ച (Green)",
+      "മഞ്ഞ (Yellow)"
     ]
   },
   "407": {
-    "text": "What color are Control loop blocks in Scratch (such as 'repeat 10' and 'forever')?",
+    "text": "സ്ക്രാച്ചിൽ ലൂപ്പുകളും ഉപാധികളും നിയന്ത്രിക്കുന്ന കൺട്രോൾ (Control) ബ്ലോക്കുകളുടെ നിറം എന്താണ്? (ഉദാ: 'repeat 10', 'forever')",
     "options": [
-      "Gold / Amber",
-      "Green",
-      "Blue",
-      "Purple"
+      "ഗോൾഡ് / ആംബർ (Gold / Amber)",
+      "പച്ച (Green)",
+      "നീല (Blue)",
+      "പർപ്പിൾ (Purple)"
     ]
   },
   "408": {
-    "text": "What color are Sensing blocks in Scratch (such as 'touching mouse-pointer?')?",
+    "text": "സ്ക്രാച്ചിൽ സ്പർശനങ്ങളും ദൂരവും തിരിച്ചറിയുന്ന സെൻസിംഗ് (Sensing) ബ്ലോക്കുകളുടെ നിറം എന്താണ്? (ഉദാ: 'touching mouse-pointer?')",
     "options": [
-      "Light Blue",
-      "Green",
-      "Yellow",
-      "Orange"
+      "ഇളം നീല (Light Blue)",
+      "പച്ച (Green)",
+      "മഞ്ഞ (Yellow)",
+      "ഓറഞ്ച് (Orange)"
     ]
   },
   "409": {
-    "text": "What color are Operators math and logic blocks in Scratch (such as '+', '-', 'pick random')?",
+    "text": "സ്ക്രാച്ചിൽ ഗണിതക്രിയകളും ലോജിക്കും നിർവ്വഹിക്കുന്ന ഓപ്പറേറ്റേഴ്സ് (Operators) ബ്ലോക്കുകളുടെ നിറം എന്താണ്? (ഉദാ: '+', '-', 'pick random')",
     "options": [
-      "Green",
-      "Blue",
-      "Purple",
-      "Red"
+      "പച്ച (Green)",
+      "നീല (Blue)",
+      "പർപ്പിൾ (Purple)",
+      "ചുവപ്പ് (Red)"
     ]
   },
   "410": {
-    "text": "What color are Variables blocks in Scratch used to store scores and game counters?",
+    "text": "സ്ക്രാച്ചിൽ സ്കോറുകളും കൗണ്ടറുകളും സൂക്ഷിക്കാൻ ഉപയോഗിക്കുന്ന വേരിയബിൾസ് (Variables) ബ്ലോക്കുകളുടെ നിറം എന്താണ്?",
     "options": [
-      "Orange",
-      "Blue",
-      "Green",
-      "Yellow"
+      "ഓറഞ്ച് (Orange)",
+      "നീല (Blue)",
+      "പച്ച (Green)",
+      "മഞ്ഞ (Yellow)"
     ]
   },
   "411": {
-    "text": "In Scratch, which command block moves a sprite 10 steps along its current facing angle?",
+    "text": "സ്ക്രാച്ചിൽ ഒരു സ്പ്രൈറ്റിനെ അത് തിരിഞ്ഞുനിൽക്കുന്ന ദിശയിലേക്ക് 10 ചുവടുകൾ മുന്നോട്ട് കൊണ്ടുപോകുന്ന ബ്ലോക്ക് ഏതാണ്?",
     "options": [
       "move 10 steps",
       "turn 10 degrees",
@@ -3699,7 +3699,7 @@
     ]
   },
   "412": {
-    "text": "In Scratch, what are the (x, y) coordinates of the exact center point of the Stage?",
+    "text": "സ്ക്രാച്ചിൽ സ്റ്റേജിന്റെ കൃത്യം മധ്യഭാഗത്തെ (x, y) കോർഡിനേറ്റ് എത്രയാണ്?",
     "options": [
       "(0, 0)",
       "(100, 100)",
@@ -3708,61 +3708,61 @@
     ]
   },
   "413": {
-    "text": "What does 'WWW' stand for in Internet website addresses?",
+    "text": "ഇന്റർനെറ്റ് വെബ് വിലാസങ്ങളിൽ കാണുന്ന 'WWW' എന്നതിന്റെ പൂർണ്ണരൂപം എന്താണ്?",
     "options": [
-      "World Wide Web",
-      "World Wide Wireless",
-      "Wide World Web",
-      "Web World Wide"
+      "വേൾഡ് വൈഡ് വെബ് (World Wide Web)",
+      "വേൾഡ് വൈഡ് വയർലെസ്സ് (World Wide Wireless)",
+      "വൈഡ് വേൾഡ് വെബ് (Wide World Web)",
+      "വെബ് വേൾഡ് വൈഡ് (Web World Wide)"
     ]
   },
   "414": {
-    "text": "Which software application is used to visit, browse, and view web pages on the Internet?",
+    "text": "ഇന്റർനെറ്റിലെ വെബ് പേജുകൾ സന്ദർശിക്കാനും ബ്രൗസ് ചെയ്യാനും ഉപയോഗിക്കുന്ന സോഫ്റ്റ്‌വെയർ ഏതാണ്?",
     "options": [
-      "Web browser (e.g., Firefox)",
-      "Media player",
-      "Calculator",
-      "Word processor"
+      "വെബ് ബ്രൗസർ (Web browser - ഉദാ: Firefox)",
+      "മീഡിയ പ്ലെയർ (Media player)",
+      "കാൽക്കുലേറ്റർ (Calculator)",
+      "വേർഡ് പ്രൊസസ്സർ (Word processor)"
     ]
   },
   "415": {
-    "text": "Which of the following is a popular open-source web browser pre-installed in KITE GNU/Linux?",
+    "text": "കൈറ്റ് ഗ്നു/ലിനക്സിൽ മുൻകൂട്ടി ഇൻസ്റ്റാൾ ചെയ്തിട്ടുള്ള സ്വതന്ത്ര ഓപ്പൺ സോഴ്സ് വെബ് ബ്രൗസർ ഏതാണ്?",
     "options": [
-      "Mozilla Firefox",
-      "MS Word",
-      "Photoshop",
-      "VLC Player"
+      "മോസില്ല ഫയർഫോക്സ് (Mozilla Firefox)",
+      "എംഎസ് വേർഡ് (MS Word)",
+      "ഫോട്ടോഷോപ്പ് (Photoshop)",
+      "വിഎൽസി പ്ലെയർ (VLC Player)"
     ]
   },
   "416": {
-    "text": "What web service helps users search and discover information across billions of online pages?",
+    "text": "ഇന്റർനെറ്റിലെ കോടിക്കണക്കിന് വിവരങ്ങളിൽ നിന്ന് നമുക്ക് ആവശ്യമുള്ളവ തെരയാൻ സഹായിക്കുന്ന വെബ് സർവീസ് ഏതാണ്?",
     "options": [
-      "Search Engine (e.g., Google)",
-      "Operating System",
-      "Compiler",
-      "Firewall"
+      "സെർച്ച് എഞ്ചിൻ (Search Engine - ഉദാ: Google)",
+      "ഓപ്പറേറ്റിംഗ് സിസ്റ്റം (Operating System)",
+      "കംപൈലർ (Compiler)",
+      "ഫയർവാൾ (Firewall)"
     ]
   },
   "417": {
-    "text": "What does 'URL' stand for in web browsing terminology?",
+    "text": "വെബ് ബ്രൗസിംഗിൽ ഉപയോഗിക്കുന്ന 'URL' എന്നതിന്റെ പൂർണ്ണരൂപം എന്താണ്?",
     "options": [
-      "Uniform Resource Locator",
-      "Universal Radio Link",
-      "United Resource List",
-      "Uniform Record Line"
+      "യൂണിഫോം റിസോഴ്സ് ലൊക്കേറ്റർ (Uniform Resource Locator)",
+      "യൂണിവേഴ്സൽ റേഡിയോ ലിങ്ക് (Universal Radio Link)",
+      "യുണൈറ്റഡ് റിസോഴ്സ് ലിസ്റ്റ് (United Resource List)",
+      "യൂണിഫോം റെക്കോർഡ് ലൈൻ (Uniform Record Line)"
     ]
   },
   "418": {
-    "text": "What does 'Email' stand for?",
+    "text": "'Email' എന്നതിന്റെ പൂർണ്ണരൂപം എന്താണ്?",
     "options": [
-      "Electronic Mail",
-      "Electrical Mail",
-      "Emergency Mail",
-      "Express Mail"
+      "ഇലക്ട്രോണിക് മെയിൽ (Electronic Mail)",
+      "ഇലക്ട്രിക്കൽ മെയിൽ (Electrical Mail)",
+      "എമർജൻസി മെയിൽ (Emergency Mail)",
+      "എക്സ്പ്രസ്സ് മെയിൽ (Express Mail)"
     ]
   },
   "419": {
-    "text": "In an email address like student@kerala.gov.in, what symbol separates the username from the domain name?",
+    "text": "student@kerala.gov.in എന്ന ഇമെയിൽ വിലാസത്തിൽ ഉപയോക്തൃനാമത്തെയും ഡൊമെയ്ൻ നാമത്തെയും വേർതിരിക്കുന്ന ചിഹ്നം ഏതാണ്?",
     "options": [
       "@ (At symbol)",
       "# (Hash symbol)",
@@ -3771,75 +3771,75 @@
     ]
   },
   "420": {
-    "text": "What part of an email message contains a brief one-line summary of what the message is about?",
+    "text": "ഒരു ഇമെയിൽ സന്ദേശം എന്തിനെക്കുറിച്ചാണെന്ന് ചുരുക്കി വ്യക്തമാക്കുന്ന വരി ഏതാണ്?",
     "options": [
-      "Subject line",
+      "സബ്ജക്റ്റ് ലൈൻ (Subject line)",
       "അറ്റാച്ച്മെന്റ് (Attachment)",
-      "Signature",
-      "Header"
+      "സിഗ്നേച്ചർ (Signature)",
+      "ഹെഡർ (Header)"
     ]
   },
   "421": {
-    "text": "What feature in an email client allows sending photos, PDFs, or homework files alongside the message?",
+    "text": "ഇമെയിലിനൊപ്പം ഫോട്ടോകൾ, പിഡിഎഫുകൾ, പ്രോജക്റ്റ് ഫയലുകൾ എന്നിവ അയക്കാൻ ഉപയോഗിക്കുന്ന ഫീച്ചർ ഏതാണ്?",
     "options": [
-      "Attachment (Paperclip icon)",
-      "Subject",
-      "Spam",
-      "Draft"
+      "അറ്റാച്ച്മെന്റ് - പേപ്പർക്ലിപ്പ് ചിഹ്നം (Attachment)",
+      "സബ്ജക്റ്റ് (Subject)",
+      "സ്പാം (Spam)",
+      "ഡ്രാഫ്റ്റ് (Draft)"
     ]
   },
   "422": {
-    "text": "What wireless technology connects laptops and mobile phones to the local school broadband internet router without cables?",
+    "text": "കേബിളുകൾ ഇല്ലാതെ ലാപ്‌ടോപ്പുകളിലും ഫോണുകളിലും സ്കൂൾ ബ്രോഡ്‌ബാൻഡ് ഇന്റർനെറ്റ് ലഭ്യമാക്കുന്ന വയർലെസ് സാങ്കേതികവിദ്യ ഏതാണ്?",
     "options": [
       "വൈ-ഫൈ (Wi-Fi)",
-      "USB cable",
-      "Bluetooth only",
-      "Ethernet port"
+      "യുഎസ്ബി കേബിൾ (USB cable)",
+      "ബ്ലൂടൂത്ത് മാത്രം (Bluetooth only)",
+      "ഇതർനെറ്റ് പോർട്ട് (Ethernet port)"
     ]
   },
   "423": {
-    "text": "What short-range wireless technology connects wireless computer mice, headphones, and keyboards over a few meters?",
+    "text": "ഏതാനും മീറ്ററുകൾ പരിധിയിൽ വയർലെസ് മൗസ്, ഹെഡ്‌ഫോൺ എന്നിവ കമ്പ്യൂട്ടറുമായി ബന്ധിപ്പിക്കുന്ന വയർലെസ് സാങ്കേതികവിദ്യ ഏതാണ്?",
     "options": [
       "ബ്ലൂടൂത്ത് (Bluetooth)",
-      "Satellite",
-      "Fiber optic",
-      "Microwave"
+      "സാറ്റലൈറ്റ് (Satellite)",
+      "ഫൈബർ ഒപ്റ്റിക് (Fiber optic)",
+      "മൈക്രോവേവ് (Microwave)"
     ]
   },
   "424": {
-    "text": "Why should students never share their private account passwords or PINs with unknown people?",
+    "text": "വിദ്യാർത്ഥികൾ തങ്ങളുടെ പാസ്‌വേഡുകളോ പിൻ നമ്പറുകളോ മറ്റുള്ളവരുമായി പങ്കുവെക്കാൻ പാടില്ലാത്തത് എന്തുകൊണ്ടാണ്?",
     "options": [
-      "To protect personal information and prevent unauthorized account misuse",
-      "To save internet bandwidth",
-      "Because passwords expire when shared",
-      "To speed up computer booting"
+      "വ്യക്തിവിവരങ്ങൾ സംരക്ഷിക്കുന്നതിനും അക്കൗണ്ട് ദുരുപയോഗം തടയുന്നതിനും",
+      "ഇന്റർനെറ്റ് ഡാറ്റ ലാഭിക്കുന്നതിന്",
+      "പങ്കുവെച്ചാൽ പാസ്‌വേഡ് കാലഹരണപ്പെടുമെന്നതിനാൽ",
+      "കമ്പ്യൂട്ടർ വേഗത്തിൽ ബൂട്ട് ചെയ്യാൻ"
     ]
   },
   "425": {
-    "text": "Which of the following creates a strong and secure computer password?",
+    "text": "ശക്തവും സുരക്ഷിതവുമായ ഒരു കമ്പ്യൂട്ടർ പാസ്‌വേഡ് നിർമ്മിക്കുന്നത് എങ്ങനെയാണ്?",
     "options": [
-      "A combination of uppercase letters, lowercase letters, numbers, and symbols",
-      "Only your nickname",
-      "Your birth date (e.g., 2012)",
-      "The word 'password' or '123456'"
+      "വലിയക്ഷരങ്ങൾ, ചെറിയക്ഷരങ്ങൾ, അക്കങ്ങൾ, പ്രത്യേക ചിഹ്നങ്ങൾ എന്നിവ സംയോജിപ്പിച്ച്",
+      "വിളിപ്പേര് മാത്രം നൽകി",
+      "ജനനവർഷം മാത്രം നൽകി (ഉദാ: 2012)",
+      "'password' അല്ലെങ്കിൽ '123456' എന്ന് നൽകി"
     ]
   },
   "426": {
-    "text": "What is a malicious computer program designed to corrupt files, steal data, or damage the system called?",
+    "text": "കമ്പ്യൂട്ടറിലെ ഫയലുകൾ നശിപ്പിക്കാനും ഡാറ്റ ചോർത്താനും തയ്യാറാക്കിയ ദോഷകരമായ പ്രോഗ്രാമുകൾക്ക് എന്താണ് പറയുന്നത്?",
     "options": [
-      "Computer Virus / Malware",
-      "Firewall",
-      "Operating System",
-      "Web Browser"
+      "കമ്പ്യൂട്ടർ വൈറസ് / മാൽവെയർ (Computer Virus / Malware)",
+      "ഫയർവാൾ (Firewall)",
+      "ഓപ്പറേറ്റിംഗ് സിസ്റ്റം (Operating System)",
+      "വെബ് ബ്രൗസർ (Web Browser)"
     ]
   },
   "427": {
-    "text": "What software protects computers from viruses and cleans infected storage media?",
+    "text": "കമ്പ്യൂട്ടറിനെ വൈറസുകളിൽ നിന്ന് സംരക്ഷിക്കുന്നതിനും ബാധിച്ചവയെ ശുദ്ധീകരിക്കുന്നതിനും ഉപയോഗിക്കുന്ന സോഫ്റ്റ്‌വെയർ ഏതാണ്?",
     "options": [
-      "Antivirus software",
+      "ആന്റിവൈറസ് സോഫ്റ്റ്‌വെയർ (Antivirus software)",
       "ടക്സ് പെയിന്റ് (Tux Paint)",
-      "LibreOffice",
-      "Media Player"
+      "ലിബ്രെഓഫീസ് (LibreOffice)",
+      "മീഡിയ പ്ലെയർ (Media Player)"
     ]
   },
   "428": {
@@ -3906,12 +3906,12 @@
     ]
   },
   "435": {
-    "text": "Which National Park in Kerala is famous for conserving the endangered Lion-tailed Macaque?",
+    "text": "സിംഹവാലൻ കുരങ്ങുകളെ (Lion-tailed Macaque) സംരക്ഷിക്കുന്നതിൽ പ്രശസ്തമായ കേരളത്തിലെ ദേശീയോദ്യാനം ഏതാണ്?",
     "options": [
-      "Silent Valley National Park",
-      "Eravikulam National Park",
-      "Periyar National Park",
-      "Mathikettan Shola"
+      "സൈലന്റ് വാലി ദേശീയോദ്യാനം (Silent Valley)",
+      "ഇരവികുളം ദേശീയോദ്യാനം (Eravikulam)",
+      "പെരിയാർ ദേശീയോദ്യാനം (Periyar)",
+      "മതികെട്ടാൻ ചോല (Mathikettan Shola)"
     ]
   },
   "436": {
@@ -3924,12 +3924,12 @@
     ]
   },
   "437": {
-    "text": "Which of the following is a non-biodegradable waste material that harms the environment if not recycled?",
+    "text": "പ്രകൃതിയിൽ സ്വയം അലിഞ്ഞുചേരാത്തതും പരിസ്ഥിതിക്ക് ദോഷകരവുമായ മാലിന്യം ഏതാണ്?",
     "options": [
-      "Plastic carry bag",
-      "Banana peel",
-      "Dry leaves",
-      "Paper scrap"
+      "പ്ലാസ്റ്റിക് കാരിബാഗ് (Plastic carry bag)",
+      "വാഴത്തോൽ (Banana peel)",
+      "ഉണക്കയിലകൾ (Dry leaves)",
+      "കടലാസ് കഷണങ്ങൾ (Paper scrap)"
     ]
   },
   "438": {
@@ -3942,187 +3942,187 @@
     ]
   },
   "439": {
-    "text": "Which electrical appliance converts electrical energy primarily into light energy?",
+    "text": "വൈദ്യുതോർജ്ജത്തെ പ്രധാനമായും പ്രകാശോർജ്ജമാക്കി മാറ്റുന്ന ഉപകരണം ഏതാണ്?",
     "options": [
-      "LED Bulb",
-      "Electric Iron",
-      "Ceiling Fan",
-      "Immersion Heater"
+      "എൽ.ഇ.ഡി ബൾബ് (LED Bulb)",
+      "ഇസ്തിരിപ്പെട്ടി (Electric Iron)",
+      "സീലിംഗ് ഫാൻ (Ceiling Fan)",
+      "ഇമ്മേഴ്ഷൻ ഹീറ്റർ (Immersion Heater)"
     ]
   },
   "440": {
-    "text": "Which device converts electrical energy primarily into mechanical rotational energy?",
+    "text": "വൈദ്യുതോർജ്ജത്തെ പ്രധാനമായും യാന്ത്രികോർജ്ജമാക്കി (Mechanical energy) മാറ്റുന്ന ഉപകരണം ഏതാണ്?",
     "options": [
-      "Electric Motor (Fan)",
-      "Electric Bulb",
-      "Electric Heater",
-      "Loudspeaker"
+      "ഇലക്ട്രിക് മോട്ടോർ / ഫാൻ (Electric Motor)",
+      "ഇലക്ട്രിക് ബൾബ് (Electric Bulb)",
+      "ഇലക്ട്രിക് ഹീറ്റർ (Electric Heater)",
+      "ലൗഡ്സ്പീക്കർ (Loudspeaker)"
     ]
   },
   "441": {
-    "text": "Which device converts electrical energy primarily into sound waves?",
+    "text": "വൈദ്യുതോർജ്ജത്തെ പ്രധാനമായും ശബ്ദോർജ്ജമാക്കി മാറ്റുന്ന ഉപകരണം ഏതാണ്?",
     "options": [
-      "Loudspeaker / Buzzer",
-      "Electric Iron",
-      "Electric Kettle",
-      "Solar Cell"
+      "ലൗഡ്സ്പീക്കർ / ബസ്സർ (Loudspeaker / Buzzer)",
+      "ഇസ്തിരിപ്പെട്ടി (Electric Iron)",
+      "ഇലക്ട്രിക് കെറ്റിൽ (Electric Kettle)",
+      "സോളാർ സെൽ (Solar Cell)"
     ]
   },
   "442": {
-    "text": "Which instrument is connected in an electric circuit to measure the electric current flowing through it?",
+    "text": "ഒരു വൈദ്യുത സർക്യൂട്ടിലൂടെ ഒഴുകുന്ന വൈദ്യുത പ്രവാഹത്തിന്റെ തീവ്രത (Current) അളക്കാൻ സർക്യൂട്ടിൽ ബന്ധിപ്പിക്കുന്ന ഉപകരണം ഏതാണ്?",
     "options": [
       "അമ്മീറ്റർ (Ammeter)",
       "വോൾട്ട്മീറ്റർ (Voltmeter)",
-      "Thermometer",
+      "തെർമോമീറ്റർ (Thermometer)",
       "ബാരോമീറ്റർ (Barometer)"
     ]
   },
   "443": {
-    "text": "Which instrument is connected across two points in a circuit to measure electrical potential difference (voltage)?",
+    "text": "ഒരു സർക്യൂട്ടിലെ രണ്ട് ബിന്ദുക്കൾക്കിടയിലുള്ള പൊട്ടൻഷ്യൽ വ്യത്യാസം (Voltage) അളക്കാൻ ഉപയോഗിക്കുന്ന ഉപകരണം ഏതാണ്?",
     "options": [
       "വോൾട്ട്മീറ്റർ (Voltmeter)",
       "അമ്മീറ്റർ (Ammeter)",
-      "Speedometer",
-      "Galvanometer"
+      "സ്പീഡോമീറ്റർ (Speedometer)",
+      "ഗാൽവനൊമീറ്റർ (Galvanometer)"
     ]
   },
   "444": {
-    "text": "Why do wet clothes hung outdoors dry much faster on a hot, windy day?",
+    "text": "നല്ല ചൂടും കാറ്റുമുള്ള ദിവസങ്ങളിൽ പുറത്തിട്ട നനഞ്ഞ തുണികൾ വേഗത്തിൽ ഉണങ്ങുന്നത് എന്തുകൊണ്ടാണ്?",
     "options": [
-      "Higher temperature and wind speed increase the rate of evaporation",
-      "Wind condenses the water droplets",
-      "Sunlight melts the clothes fibers",
-      "Air pressure pushes water into the ground"
+      "കൂടിയ ഊഷ്മാവും കാറ്റും ബാഷ്പീകരണത്തിന്റെ (Evaporation) നിരക്ക് വർദ്ധിപ്പിക്കുന്നതിനാൽ",
+      "കാറ്റ് ജലകണങ്ങളെ സാന്ദ്രീകരിക്കുന്നതിനാൽ",
+      "സൂര്യപ്രകാശം തുണിയുടെ നാരുകളെ ഉരുക്കുന്നതിനാൽ",
+      "വായുമർദ്ദം വെള്ളത്തെ ഭൂമിയിലേക്ക് തള്ളുന്നതിനാൽ"
     ]
   },
   "445": {
-    "text": "Why do tiny water droplets appear on the outer surface of a glass tumbler containing ice-cold water?",
+    "text": "ഐസ് വെള്ളം നിറച്ച ഗ്ലാസിന്റെ പുറംഭാഗത്ത് ചെറിയ ജലകണങ്ങൾ രൂപപ്പെടുന്നത് എന്തുകൊണ്ടാണ്?",
     "options": [
-      "Water vapor in surrounding warm air condenses upon touching the cold glass",
-      "Water leaks through the glass pores",
-      "The cold glass creates hydrogen gas",
-      "Ice sublimates outwards"
+      "തണുത്ത ഗ്ലാസിൽ തട്ടുമ്പോൾ അന്തരീക്ഷ വായുവിലെ നീരാവി സാന്ദ്രീകരിക്കുന്നതിനാൽ (Condensation)",
+      "ഗ്ലാസിന്റെ സുഷിരങ്ങളിലൂടെ വെള്ളം പുറത്തേക്ക് കിനിയുന്നതിനാൽ",
+      "തണുത്ത ഗ്ലാസ് ഹൈഡ്രജൻ വാതകം ഉത്പാദിപ്പിക്കുന്നതിനാൽ",
+      "ഐസ് ഉത്പതനം നടത്തുന്നതിനാൽ"
     ]
   },
   "446": {
-    "text": "Why are handles of cooking utensils like frying pans made of Bakelite plastic or wood?",
+    "text": "ഫ്രൈയിംഗ് പാൻ തുടങ്ങിയ പാചക പാത്രങ്ങളുടെ കൈപ്പിടികൾ ബേക്കലൈറ്റ് പ്ലാസ്റ്റിക് അല്ലെങ്കിൽ മരം കൊണ്ട് നിർമ്മിക്കുന്നത് എന്തുകൊണ്ടാണ്?",
     "options": [
-      "They are poor conductors (insulators) of heat, preventing burns",
-      "They make the pan heavier and balanced",
-      "They absorb cooking oil",
-      "They conduct heat faster to hands"
+      "അവ താപത്തിന്റെ അചാലകങ്ങൾ (Insulators) ആയതിനാൽ ചൂടേറ്റ് കൈ പൊള്ളാതിരിക്കാൻ",
+      "പാത്രത്തിന് ഭാരവും സന്തുലിതാവസ്ഥയും നൽകാൻ",
+      "പാചക എണ്ണ ആഗിരണം ചെയ്യാൻ",
+      "കൈകളിലേക്ക് താപം വേഗത്തിൽ എത്തിക്കാൻ"
     ]
   },
   "447": {
-    "text": "Why are electric transmission wires made of metals like copper and aluminum?",
+    "text": "വൈദ്യുത പ്രസരണ ലൈനുകളിലെ കമ്പികൾ ചെമ്പ് (Copper), അലുമിനിയം തുടങ്ങിയ ലോഹങ്ങൾ കൊണ്ട് നിർമ്മിക്കുന്നത് എന്തുകൊണ്ടാണ്?",
     "options": [
-      "They are excellent conductors of electricity",
-      "They are good electrical insulators",
-      "They prevent heat from escaping",
-      "They are magnetic materials"
+      "അവ മികച്ച വൈദ്യുത ചാലകങ്ങൾ (Good conductors) ആയതിനാൽ",
+      "അവ മികച്ച വൈദ്യുത ഇൻസുലേറ്ററുകൾ ആയതിനാൽ",
+      "താപം പുറത്തുപോകുന്നത് തടയുന്നതിനാൽ",
+      "അവ കാന്തിക വസ്തുക്കൾ ആയതിനാൽ"
     ]
   },
   "448": {
-    "text": "Why is a convex mirror preferred as a rear-view driver mirror in cars and buses?",
+    "text": "വാഹനങ്ങളിൽ ഡ്രൈവർമാർക്ക് പിന്നിലെ കാഴ്ച കാണുന്നതിന് കോൺവെക്സ് മിറർ (Convex mirror) ഉപയോഗിക്കുന്നത് എന്തുകൊണ്ടാണ്?",
     "options": [
-      "It gives an erect, diminished image with a wider field of view",
-      "It inverts images of overtaking vehicles",
-      "It magnifies small objects greatly",
-      "It produces colorful images"
+      "നിവർന്നതും ചെറുതുമായ പ്രതിബിംബവും വിശാലമായ കാഴ്ചാപരിധിയും (Wide field of view) നൽകുന്നതിനാൽ",
+      "പിന്നിൽ വരുന്ന വാഹനങ്ങളുടെ തലകീഴായ പ്രതിബിംബം നൽകുന്നതിനാൽ",
+      "ചെറിയ വസ്തുക്കളെ വളരെ വലുതാക്കി കാണിക്കുന്നതിനാൽ",
+      "വർണ്ണാഭമായ പ്രതിബിംബങ്ങൾ നൽകുന്നതിനാൽ"
     ]
   },
   "449": {
-    "text": "What optical phenomenon causes the split of white sunlight into a spectrum of seven colors (VIBGYOR)?",
+    "text": "സൂര്യന്റെ ധവളപ്രകാശം പ്രിസത്തിലൂടെ കടന്നുപോകുമ്പോൾ ഏഴ് വർണ്ണങ്ങളായി (VIBGYOR) വേർതിരിയുന്ന പ്രതിഭാസത്തിന് എന്താണ് പറയുന്നത്?",
     "options": [
-      "Dispersion of light",
-      "Total internal reflection",
-      "Diffraction",
-      "Polarization"
+      "പ്രകാശ പ്രകീർണ്ണനം (Dispersion of light)",
+      "പൂർണ്ണാന്തര പ്രതിഫലനം (Total internal reflection)",
+      "വിഭംഗനം (Diffraction)",
+      "ധ്രുവീകരണം (Polarization)"
     ]
   },
   "450": {
-    "text": "How many distinct colors are traditionally recognized in a natural sky rainbow (VIBGYOR)?",
+    "text": "ആകാശത്ത് കാണുന്ന സ്വാഭാവിക മഴവില്ലിൽ (Rainbow) എത്ര വർണ്ണങ്ങളാണ് പരമ്പരാഗതമായി തിരിച്ചറിയപ്പെടുന്നത്?",
     "options": [
-      "7 colors",
-      "5 colors",
-      "3 colors",
-      "10 colors"
+      "7 നിറങ്ങൾ",
+      "5 നിറങ്ങൾ",
+      "3 നിറങ്ങൾ",
+      "10 നിറങ്ങൾ"
     ]
   },
   "451": {
-    "text": "Which color in the visible light spectrum undergoes the maximum deviation (bends the most) through a glass prism?",
+    "text": "ഒരു ഗ്ലാസ് പ്രിസത്തിലൂടെ കടന്നുപോകുമ്പോൾ ഏറ്റവും കൂടുതൽ വ്യതിയാനം സംഭവിക്കുന്ന (ഏറ്റവും കൂടുതൽ വളയുന്ന) വർണ്ണം ഏതാണ്?",
     "options": [
-      "Violet",
-      "Red",
-      "Green",
-      "Yellow"
+      "വയലറ്റ് (Violet)",
+      "ചുവപ്പ് (Red)",
+      "പച്ച (Green)",
+      "മഞ്ഞ (Yellow)"
     ]
   },
   "452": {
-    "text": "Which color in visible light has the longest wavelength and is least scattered, making it ideal for danger signal lights?",
+    "text": "ഏറ്റവും കൂടിയ തരംഗദൈർഘ്യവും (Wavelength) കുറഞ്ഞ വിസരണവുമുള്ളതിനാൽ അപകട സൂചനാ ലൈറ്റുകൾക്ക് ഉപയോഗിക്കുന്ന വർണ്ണം ഏതാണ്?",
     "options": [
-      "Red",
-      "Violet",
-      "Blue",
-      "Yellow"
+      "ചുവപ്പ് (Red)",
+      "വയലറ്റ് (Violet)",
+      "നീല (Blue)",
+      "മഞ്ഞ (Yellow)"
     ]
   },
   "453": {
-    "text": "What are the three primary additive colors of light used in computer color monitors?",
+    "text": "കമ്പ്യൂട്ടർ മോണിറ്ററുകളിലും ഡിസ്‌പ്ലേകളിലും വർണ്ണങ്ങൾ ഉണ്ടാക്കാൻ ഉപയോഗിക്കുന്ന പ്രകാശത്തിന്റെ മൂന്ന് പ്രാഥമിക വർണ്ണങ്ങൾ ഏവ?",
     "options": [
-      "Red, Green, Blue (RGB)",
-      "Red, Yellow, Blue",
-      "Cyan, Magenta, Yellow",
-      "Black, White, Gray"
+      "ചുവപ്പ്, പച്ച, നീല (RGB)",
+      "ചുവപ്പ്, മഞ്ഞ, നീല",
+      "സയൻ, മജന്ത, മഞ്ഞ",
+      "കറുപ്പ്, വെള്ള, ചാരനിറം"
     ]
   },
   "454": {
-    "text": "Why does the clear daytime sky appear blue to an observer on Earth?",
+    "text": "പകൽ സമയത്ത് തെളിഞ്ഞ ആകാശം നീലനിറത്തിൽ കാണപ്പെടാൻ കാരണമെന്താണ്?",
     "options": [
-      "Shorter blue wavelengths of sunlight are scattered more by atmospheric molecules",
-      "Oceans reflect blue color up into the clouds",
-      "The ozone layer is naturally blue",
-      "Space dust absorbs red light"
+      "കുറഞ്ഞ തരംഗദൈർഘ്യമുള്ള നീലപ്രകാശം അന്തരീക്ഷ തന്മാത്രകളാൽ കൂടുതൽ വിസരണത്തിന് (Scattering) വിധേയമാകുന്നതിനാൽ",
+      "സമുദ്രങ്ങൾ ആകാശത്തേക്ക് നീലനിറം പ്രതിഫലിപ്പിക്കുന്നതിനാൽ",
+      "ഓസോൺ പാളിക്ക് സ്വാഭാവികമായി നീലനിറമുള്ളതിനാൽ",
+      "ബഹിരാകാശത്തെ പൊടിപടലങ്ങൾ ചുവന്ന പ്രകാശം ആഗിരണം ചെയ്യുന്നതിനാൽ"
     ]
   },
   "455": {
-    "text": "What optical device uses two plane mirrors angled at 45 degrees to view objects above water from inside a submarine?",
+    "text": "ജലാന്തർഭാഗത്തുള്ള അന്തർവാഹിനികളിൽ നിന്ന് (Submarine) ജലോപരിതലത്തിലെ കാഴ്ചകൾ കാണാൻ 45 ഡിഗ്രിയിൽ രണ്ട് സമതല ദർപ്പണങ്ങൾ വെച്ചുണ്ടാക്കുന്ന ഉപകരണം ഏതാണ്?",
     "options": [
       "പെരിസ്കോപ്പ് (Periscope)",
-      "Kaleidoscope",
+      "കലിഡോസ്കോപ്പ് (Kaleidoscope)",
       "മൈക്രോസ്കോപ്പ് (Microscope)",
       "ടെലിസ്കോപ്പ് (Telescope)"
     ]
   },
   "456": {
-    "text": "What tube-like toy uses multiple inclined mirrors and colored glass beads to create beautiful symmetrical patterns?",
+    "text": "ചരിഞ്ഞ ദർപ്പണങ്ങളും വർണ്ണ മുത്തുകളും ഉപയോഗിച്ച് മനോഹരമായ ജ്യാമിതീയ ഡിസൈനുകൾ കാണിച്ചുതരുന്ന കളിപ്പാട്ടം ഏതാണ്?",
     "options": [
-      "Kaleidoscope",
+      "കലിഡോസ്കോപ്പ് (Kaleidoscope)",
       "പെരിസ്കോപ്പ് (Periscope)",
-      "Pinhole camera",
-      "Magnifying glass"
+      "പിൻഹോൾ ക്യാമറ (Pinhole camera)",
+      "ഭൂതക്കണ്ണാടി (Magnifying glass)"
     ]
   },
   "457": {
-    "text": "What medical instrument do doctors use to listen to sounds produced by the human heart and lungs?",
+    "text": "മനുഷ്യന്റെ ഹൃദയമിടിപ്പും ശ്വാസകോശ ശബ്ദങ്ങളും കേൾക്കാൻ ഡോക്ടർമാർ ഉപയോഗിക്കുന്ന ഉപകരണം ഏതാണ്?",
     "options": [
       "സ്റ്റെതസ്കോപ്പ് (Stethoscope)",
-      "Sphygmomanometer",
-      "Endoscope",
-      "Otoscope"
+      "സ്ഫിഗ്മോമാനോമീറ്റർ (Sphygmomanometer)",
+      "എൻഡോസ്കോപ്പ് (Endoscope)",
+      "ഓട്ടോസ്കോപ്പ് (Otoscope)"
     ]
   },
   "458": {
-    "text": "What optical instrument uses lenses to magnify tiny microscopic cells and bacteria invisible to the naked eye?",
+    "text": "നഗ്നനേത്രങ്ങൾ കൊണ്ട് കാണാൻ കഴിയാത്ത സൂക്ഷ്മജീവികളെയും കോശങ്ങളെയും വലുതാക്കി കാണിക്കാൻ ലെൻസുകൾ ഉപയോഗിക്കുന്ന ഉപകരണം ഏതാണ്?",
     "options": [
       "മൈക്രോസ്കോപ്പ് (Microscope)",
       "ടെലിസ്കോപ്പ് (Telescope)",
-      "Binoculars",
+      "ബൈനോക്കുലർ (Binoculars)",
       "പെരിസ്കോപ്പ് (Periscope)"
     ]
   },
   "459": {
-    "text": "What astronomical instrument is used to observe distant planets, the Moon craters, and distant stars?",
+    "text": "വിദൂര ഗ്രഹങ്ങൾ, ചന്ദ്രനിലെ ഗർത്തങ്ങൾ, നക്ഷത്രങ്ങൾ എന്നിവ നിരീക്ഷിക്കാൻ ഉപയോഗിക്കുന്ന ഉപകരണം ഏതാണ്?",
     "options": [
       "ടെലിസ്കോപ്പ് (Telescope)",
       "മൈക്രോസ്കോപ്പ് (Microscope)",
@@ -4131,39 +4131,39 @@
     ]
   },
   "460": {
-    "text": "What does PC stand for in computing?",
+    "text": "കമ്പ്യൂട്ടിംഗിൽ 'PC' എന്നതിന്റെ പൂർണ്ണരൂപം എന്താണ്?",
     "options": [
-      "Personal Computer",
-      "Public Computer",
-      "Programmed Calculator",
-      "Pocket Chip"
+      "പേഴ്സണൽ കമ്പ്യൂട്ടർ (Personal Computer)",
+      "പബ്ലിക് കമ്പ്യൂട്ടർ (Public Computer)",
+      "പ്രോഗ്രാംഡ് കാൽക്കുലേറ്റർ (Programmed Calculator)",
+      "പോക്കറ്റ് ചിപ്പ് (Pocket Chip)"
     ]
   },
   "461": {
-    "text": "What does OS stand for in computer systems?",
+    "text": "കമ്പ്യൂട്ടർ സിസ്റ്റങ്ങളിൽ 'OS' എന്നതിന്റെ പൂർണ്ണരൂപം എന്താണ്?",
     "options": [
-      "Operating System",
-      "Online Software",
-      "Optical Storage",
-      "Output System"
+      "ഓപ്പറേറ്റിംഗ് സിസ്റ്റം (Operating System)",
+      "ഓൺലൈൻ സോഫ്റ്റ്‌വെയർ (Online Software)",
+      "ഒപ്റ്റിക്കൽ സ്റ്റോറേജ് (Optical Storage)",
+      "ഔട്ട്പുട്ട് സിസ്റ്റം (Output System)"
     ]
   },
   "462": {
-    "text": "What does GUI stand for in user interfaces?",
+    "text": "യൂസർ ഇന്റർഫേസിൽ 'GUI' എന്നതിന്റെ പൂർണ്ണരൂപം എന്താണ്?",
     "options": [
-      "Graphical User Interface",
-      "General User Internet",
-      "Global Unit Identifier",
-      "Graphic Universal Input"
+      "ഗ്രാഫിക്കൽ യൂസർ ഇന്റർഫേസ് (Graphical User Interface)",
+      "ജനറൽ യൂസർ ഇന്റർനെറ്റ് (General User Internet)",
+      "ഗ്ലോബൽ യൂണിറ്റ് ഐഡന്റിഫയർ (Global Unit Identifier)",
+      "ഗ്രാഫിക് യൂണിവേഴ്സൽ ഇൻപുട്ട് (Graphic Universal Input)"
     ]
   },
   "463": {
-    "text": "What does ICT stand for in the school curriculum?",
+    "text": "സ്കൂൾ പാഠ്യപദ്ധതിയിലെ 'ICT' എന്നതിന്റെ പൂർണ്ണരൂപം എന്താണ്?",
     "options": [
-      "Information and Communication Technology",
-      "Indian Computer Terminal",
-      "Internet Communication Tool",
-      "Integrated Circuit Transmission"
+      "ഇൻഫർമേഷൻ ആൻഡ് കമ്മ്യൂണിക്കേഷൻ ടെക്നോളജി (Information and Communication Technology)",
+      "ഇന്ത്യൻ കമ്പ്യൂട്ടർ ടെർമിനൽ (Indian Computer Terminal)",
+      "ഇന്റർനെറ്റ് കമ്മ്യൂണിക്കേഷൻ ടൂൾ (Internet Communication Tool)",
+      "ഇന്റഗ്രേറ്റഡ് സർക്യൂട്ട് ട്രാൻസ്മിഷൻ (Integrated Circuit Transmission)"
     ]
   },
   "464": {
@@ -4176,115 +4176,115 @@
     ]
   },
   "465": {
-    "text": "What does CD stand for in optical storage discs?",
+    "text": "ഒപ്റ്റിക്കൽ സ്റ്റോറേജ് ഡിസ്കുകളിൽ 'CD' എന്നതിന്റെ പൂർണ്ണരൂപം എന്താണ്?",
     "options": [
-      "Compact Disc",
-      "Computer Data",
-      "Core Drive",
-      "Central Disk"
+      "കോംപാക്റ്റ് ഡിസ്ക് (Compact Disc)",
+      "കമ്പ്യൂട്ടർ ഡാറ്റ (Computer Data)",
+      "കോർ ഡ്രൈവ് (Core Drive)",
+      "സെൻട്രൽ ഡിസ്ക് (Central Disk)"
     ]
   },
   "466": {
-    "text": "What does DVD stand for in optical video discs?",
+    "text": "വീഡിയോ ഡിസ്കുകളിൽ 'DVD' എന്നതിന്റെ പൂർണ്ണരൂപം എന്താണ്?",
     "options": [
-      "Digital Versatile Disc",
-      "Dynamic Video Drive",
-      "Direct Virtual Data",
-      "Digital Voice Device"
+      "ഡിജിറ്റൽ വേർസറ്റൈൽ ഡിസ്ക് (Digital Versatile Disc)",
+      "ഡൈനാമിക് വീഡിയോ ഡ്രൈവ് (Dynamic Video Drive)",
+      "ഡയറക്റ്റ് വെർച്വൽ ഡാറ്റ (Direct Virtual Data)",
+      "ഡിജിറ്റൽ വോയ്സ് ഡിവൈസ് (Digital Voice Device)"
     ]
   },
   "467": {
-    "text": "What does USB stand for in computer port connectors?",
+    "text": "കമ്പ്യൂട്ടർ പോർട്ടുകളിൽ കാണുന്ന 'USB' എന്നതിന്റെ പൂർണ്ണരൂപം എന്താണ്?",
     "options": [
-      "Universal Serial Bus",
-      "Unified System Base",
-      "Universal Storage Bank",
-      "Unit Serial Board"
+      "യൂണിവേഴ്സൽ സീരിയൽ ബസ് (Universal Serial Bus)",
+      "യൂണിഫൈഡ് സിസ്റ്റം ബേസ് (Unified System Base)",
+      "യൂണിവേഴ്സൽ സ്റ്റോറേജ് ബാങ്ക് (Universal Storage Bank)",
+      "യൂണിറ്റ് സീരിയൽ ബോർഡ് (Unit Serial Board)"
     ]
   },
   "468": {
-    "text": "What does LED stand for in display and lighting technology?",
+    "text": "ഡിസ്പ്ലേകളിലും ലൈറ്റിംഗിലും ഉപയോഗിക്കുന്ന 'LED' എന്നതിന്റെ പൂർണ്ണരൂപം എന്താണ്?",
     "options": [
-      "Light Emitting Diode",
-      "Liquid Electronic Display",
-      "Laser Energy Device",
-      "Linear Emission Detector"
+      "ലൈറ്റ് എമിറ്റിംഗ് ഡയോഡ് (Light Emitting Diode)",
+      "ലിക്വിഡ് ഇലക്ട്രോണിക് ഡിസ്പ്ലേ (Liquid Electronic Display)",
+      "ലേസർ എനർജി ഡിവൈസ് (Laser Energy Device)",
+      "ലീനിയർ എമിഷൻ ഡിറ്റക്ടർ (Linear Emission Detector)"
     ]
   },
   "469": {
-    "text": "What does LCD stand for in flat-panel monitors?",
+    "text": "ഫ്ളാറ്റ് പാനൽ മോണിറ്ററുകളിലെ 'LCD' എന്നതിന്റെ പൂർണ്ണരൂപം എന്താണ്?",
     "options": [
-      "Liquid Crystal Display",
-      "Light Cathode Diode",
-      "Linear Crystal Device",
-      "Low Current Drive"
+      "ലിക്വിഡ് ക്രിസ്റ്റൽ ഡിസ്പ്ലേ (Liquid Crystal Display)",
+      "ലൈറ്റ് കാഥോഡ് ഡയോഡ് (Light Cathode Diode)",
+      "ലീനിയർ ക്രിസ്റ്റൽ ഡിവൈസ് (Linear Crystal Device)",
+      "ലോ കറന്റ് ഡ്രൈവ് (Low Current Drive)"
     ]
   },
   "470": {
-    "text": "Which key on the keyboard jumps the text cursor immediately to the beginning of the current line?",
+    "text": "ടൈപ്പ് ചെയ്യുമ്പോൾ ടെക്സ്റ്റ് കർസറിനെ നിലവിലുള്ള വരിയുടെ തുടക്കത്തിലേക്ക് മാറ്റാൻ അമർത്തേണ്ട കീ ഏതാണ്?",
     "options": [
-      "Home key",
-      "End key",
-      "Page Up key",
-      "Insert key"
+      "Home കീ",
+      "End കീ",
+      "Page Up കീ",
+      "Insert കീ"
     ]
   },
   "471": {
-    "text": "Which key moves the text cursor immediately to the end of the current line?",
+    "text": "ടെക്സ്റ്റ് കർസറിനെ നിലവിലുള്ള വരിയുടെ ഏറ്റവും അവസാനത്തിലേക്ക് മാറ്റാൻ അമർത്തേണ്ട കീ ഏതാണ്?",
     "options": [
-      "End key",
-      "Home key",
-      "Page Down key",
-      "Tab key"
+      "End കീ",
+      "Home കീ",
+      "Page Down കീ",
+      "Tab കീ"
     ]
   },
   "472": {
-    "text": "Which key combination captures a screenshot of the entire computer screen to the clipboard or Pictures folder?",
+    "text": "കമ്പ്യൂട്ടർ സ്ക്രീനിന്റെ പൂർണ്ണ ചിത്രം (Screenshot) പകർത്താൻ ഉപയോഗിക്കുന്ന കീ ഏതാണ്?",
     "options": [
       "Print Screen (PrtSc)",
-      "Ctrl + P (Print)",
+      "Ctrl + P",
       "Alt + F4",
       "Ctrl + S"
     ]
   },
   "473": {
-    "text": "Which keyboard shortcut closes the currently active application window immediately?",
+    "text": "തുറന്നുവെച്ചിരിക്കുന്ന ആപ്ലിക്കേഷൻ വിൻഡോ തൽക്ഷണം ക്ലോസ് ചെയ്യാൻ ഉപയോഗിക്കുന്ന കീബോർഡ് ഷോർട്ട്കട്ട് ഏതാണ്?",
     "options": [
       "Alt + F4",
       "Ctrl + S",
       "Ctrl + Z",
-      "F1 (Help)"
+      "F1"
     ]
   },
   "474": {
-    "text": "Which function key is universally used to open the Help menu in most applications?",
+    "text": "മിക്ക ആപ്ലിക്കേഷനുകളിലും സഹായ വിവരങ്ങൾ (Help menu) ലഭ്യമാക്കാൻ പൊതുവായി ഉപയോഗിക്കുന്ന ഫംഗ്ഷൻ കീ ഏതാണ്?",
     "options": [
-      "F1 (Help)",
+      "F1",
       "F2",
-      "F5 (Slide Show)",
+      "F5",
       "F12"
     ]
   },
   "475": {
-    "text": "Which key on the keyboard reloads or refreshes the active web page in a browser?",
+    "text": "വെബ് ബ്രൗസറിൽ നിലവിലുള്ള വെബ് പേജ് റീലോഡ് ചെയ്യാനും പുതുക്കാനും (Refresh) ഉപയോഗിക്കുന്ന കീ ഏതാണ്?",
     "options": [
-      "F5 (or Ctrl + R)",
-      "F1 (Help)",
+      "F5 (അല്ലെങ്കിൽ Ctrl + R)",
+      "F1",
       "F3",
       "Esc"
     ]
   },
   "476": {
-    "text": "What keyboard shortcut is used to search and Find words inside a document or web page?",
+    "text": "ഒരു ഡോക്യുമെന്റിലോ വെബ് പേജിലോ ഉള്ള നിർദ്ദിഷ്ട വാക്കുകൾ തിരഞ്ഞുപിടിക്കാൻ (Find) ഉപയോഗിക്കുന്ന കീബോർഡ് ഷോർട്ട്കട്ട് ഏതാണ്?",
     "options": [
       "Ctrl + F",
       "Ctrl + S",
-      "Ctrl + P (Print)",
-      "Ctrl + N (New)"
+      "Ctrl + P",
+      "Ctrl + N"
     ]
   },
   "477": {
-    "text": "What keyboard shortcut opens the Find and Replace dialog in LibreOffice Writer?",
+    "text": "ലിബ്രെഓഫീസ് റൈറ്ററിൽ 'ഫൈൻഡ് ആൻഡ് റീപ്ലേസ്' (Find and Replace) ഡയലോഗ് ബോക്സ് തുറക്കാൻ ഉപയോഗിക്കുന്ന കീബോർഡ് ഷോർട്ട്കട്ട് ഏതാണ്?",
     "options": [
       "Ctrl + H",
       "Ctrl + F",
@@ -4293,7 +4293,7 @@
     ]
   },
   "478": {
-    "text": "In LibreOffice Calc, which formula correctly adds the values of cells from A1 to A5?",
+    "text": "ലിബ്രെഓഫീസ് കാൽക്കിൽ A1 മുതൽ A5 വരെയുള്ള സെല്ലുകളിലെ സംഖ്യകൾ കൃത്യമായി കൂട്ടാൻ (Add) ഉപയോഗിക്കുന്ന ഫോർമുല ഏതാണ്?",
     "options": [
       "=SUM(A1:A5)",
       "=ADD(A1:A5)",
@@ -4302,7 +4302,7 @@
     ]
   },
   "479": {
-    "text": "In LibreOffice Calc, which formula calculates the mathematical average of cells B1 through B10?",
+    "text": "ലിബ്രെഓഫീസ് കാൽക്കിൽ B1 മുതൽ B10 വരെയുള്ള സെല്ലുകളിലെ സംഖ്യകളുടെ ശരാശരി (Average) കാണാനുള്ള ഫോർമുല ഏതാണ്?",
     "options": [
       "=AVERAGE(B1:B10)",
       "=MEAN(B1:B10)",
@@ -4311,7 +4311,7 @@
     ]
   },
   "480": {
-    "text": "In LibreOffice Calc, which formula finds the largest numeric value in the cell range C1 to C20?",
+    "text": "ലിബ്രെഓഫീസ് കാൽക്കിൽ C1 മുതൽ C20 വരെയുള്ള സെല്ലുകളിൽ ഏറ്റവും വലിയ സംഖ്യ കണ്ടെത്താനുള്ള ഫോർമുല ഏതാണ്?",
     "options": [
       "=MAX(C1:C20)",
       "=HIGHEST(C1:C20)",
@@ -4320,7 +4320,7 @@
     ]
   },
   "481": {
-    "text": "In LibreOffice Calc, which formula finds the smallest numeric value in the cell range D1 to D15?",
+    "text": "ലിബ്രെഓഫീസ് കാൽക്കിൽ D1 മുതൽ D15 വരെയുള്ള സെല്ലുകളിൽ ഏറ്റവും ചെറിയ സംഖ്യ കണ്ടെത്താനുള്ള ഫോർമുല ഏതാണ്?",
     "options": [
       "=MIN(D1:D15)",
       "=LOWEST(D1:D15)",
@@ -4329,43 +4329,43 @@
     ]
   },
   "482": {
-    "text": "In LibreOffice Calc, what symbol is used as the arithmetic operator for multiplication in formulas?",
+    "text": "ലിബ്രെഓഫീസ് കാൽക്ക് ഫോർമുലകളിൽ ഗുണനക്രിയയ്ക്ക് (Multiplication) ഉപയോഗിക്കുന്ന ചിഹ്നം ഏതാണ്?",
     "options": [
-      "* (Asterisk)",
-      "x (Letter x)",
-      "# (Hash)",
-      "^ (Caret)"
+      "* (ആസ്റ്ററിസ്ക് / Asterisk)",
+      "x (അക്ഷരം x)",
+      "# (ഹാഷ്)",
+      "^ (കാരറ്റ്)"
     ]
   },
   "483": {
-    "text": "In LibreOffice Calc, what symbol is used as the operator for division in formulas?",
+    "text": "ലിബ്രെഓഫീസ് കാൽക്ക് ഫോർമുലകളിൽ ഹരണക്രിയയ്ക്ക് (Division) ഉപയോഗിക്കുന്ന ചിഹ്നം ഏതാണ്?",
     "options": [
-      "/ (Forward slash)",
-      "\\ (Backslash)",
-      "÷ (Division symbol)",
-      "% (Percent)"
+      "/ (ഫോർവേഡ് സ്ലാഷ്)",
+      "\\ (ബാക്ക്സ്ലാഷ്)",
+      "÷ (ഹരണ ചിഹ്നം)",
+      "% (ശതമാനം)"
     ]
   },
   "484": {
-    "text": "In LibreOffice Impress, what is each individual page of a presentation containing text and pictures called?",
+    "text": "ലിബ്രെഓഫീസ് ഇംപ്രസ്സിൽ ടെക്സ്റ്റും ചിത്രങ്ങളും അടങ്ങിയ പ്രസന്റേഷന്റെ ഓരോ പേജിനും എന്താണ് പറയുന്നത്?",
     "options": [
-      "Slide",
-      "Sheet",
-      "Document",
-      "Canvas"
+      "സ്ലൈഡ് (Slide)",
+      "ഷീറ്റ് (Sheet)",
+      "ഡോക്യുമെന്റ് (Document)",
+      "ക്യാൻവാസ് (Canvas)"
     ]
   },
   "485": {
-    "text": "In LibreOffice Impress, what visual effect occurs when transitioning smoothly from one slide to the next?",
+    "text": "ലിബ്രെഓഫീസ് ഇംപ്രസ്സിൽ ഒരു സ്ലൈഡിൽ നിന്ന് അടുത്ത സ്ലൈഡിലേക്ക് സുഗമമായി മാറുന്ന വിഷ്വൽ ഇഫക്റ്റിന് എന്താണ് പറയുന്നത്?",
     "options": [
-      "Slide Transition",
-      "Formula",
-      "Hyperlink",
-      "Sorting"
+      "സ്ലൈഡ് ട്രാൻസിഷൻ (Slide Transition)",
+      "ഫോർമുല (Formula)",
+      "ഹൈപ്പർലിങ്ക് (Hyperlink)",
+      "സോർട്ടിംഗ് (Sorting)"
     ]
   },
   "486": {
-    "text": "In Scratch, which event block triggers code when the user presses the spacebar on the keyboard?",
+    "text": "സ്ക്രാച്ചിൽ കീബോർഡിലെ സ്പേസ്ബാർ അമർത്തുമ്പോൾ പ്രോഗ്രാം പ്രവർത്തിപ്പിക്കാൻ ഉപയോഗിക്കുന്ന ഇവന്റ് ബ്ലോക്ക് ഏതാണ്?",
     "options": [
       "when [space] key pressed",
       "when green flag clicked",
@@ -4374,7 +4374,7 @@
     ]
   },
   "487": {
-    "text": "In Scratch, which block makes a sprite display a speech bubble containing text for a specific number of seconds?",
+    "text": "സ്ക്രാച്ചിൽ ഒരു നിശ്ചിത സെക്കൻഡ് നേരത്തേക്ക് സ്പ്രൈറ്റിന് സംഭാഷണ ബബിൾ കാണിക്കാൻ ഉപയോഗിക്കുന്ന ബ്ലോക്ക് ഏതാണ്?",
     "options": [
       "say [Hello!] for [2] seconds",
       "think [Hmm] for [2] seconds",
@@ -4383,7 +4383,7 @@
     ]
   },
   "488": {
-    "text": "In Scratch, which Control block halts script execution for a specified duration before continuing to the next block?",
+    "text": "സ്ക്രാച്ചിൽ അടുത്ത ഘട്ടത്തിലേക്ക് കടക്കുന്നതിന് മുമ്പ് നിശ്ചിത സമയം കാത്തുനിൽക്കാൻ നിർദ്ദേശിക്കുന്ന ബ്ലോക്ക് ഏതാണ്?",
     "options": [
       "wait [1] seconds",
       "stop all",
@@ -4392,7 +4392,7 @@
     ]
   },
   "489": {
-    "text": "In Scratch, which block in Looks switches the sprite to its next animation frame in the list?",
+    "text": "സ്ക്രാച്ചിൽ സ്പ്രൈറ്റിന്റെ അടുത്ത രൂപത്തിലേക്ക് മാറ്റാൻ ലുക്ക്സിലുള്ള ബ്ലോക്ക് ഏതാണ്?",
     "options": [
       "next costume",
       "switch backdrop",
@@ -4401,7 +4401,7 @@
     ]
   },
   "490": {
-    "text": "In Scratch, which block makes a hidden sprite become visible on the Stage?",
+    "text": "സ്ക്രാച്ചിൽ മറഞ്ഞിരിക്കുന്ന ഒരു സ്പ്രൈറ്റിനെ സ്റ്റേജിൽ കാണുന്ന രൂപത്തിലാക്കാൻ ഉപയോഗിക്കുന്ന ബ്ലോക്ക് ഏതാണ്?",
     "options": [
       "show",
       "hide",
@@ -4410,7 +4410,7 @@
     ]
   },
   "491": {
-    "text": "In Scratch, which block makes a visible sprite disappear from the Stage canvas without deleting it?",
+    "text": "സ്ക്രാച്ചിൽ ഡിലീറ്റ് ചെയ്യാതെ തന്നെ ഒരു സ്പ്രൈറ്റിനെ താല്ക്കാലികമായി സ്റ്റേജിൽ നിന്ന് അദൃശ്യമാക്കാൻ ഉപയോഗിക്കുന്ന ബ്ലോക്ക് ഏതാണ്?",
     "options": [
       "hide",
       "show",
@@ -4419,7 +4419,7 @@
     ]
   },
   "492": {
-    "text": "In Scratch, what block resets all pen drawings drawn on the Stage?",
+    "text": "സ്ക്രാച്ചിൽ പെൻ ഉപയോഗിച്ച് സ്റ്റേജിൽ വരച്ച എല്ലാ വരകളും മായ്ച്ചുകളയാൻ ഉപയോഗിക്കുന്ന ബ്ലോക്ക് ഏതാണ്?",
     "options": [
       "erase all",
       "pen up",
@@ -4428,7 +4428,7 @@
     ]
   },
   "493": {
-    "text": "In Scratch, which block lowers the pen onto the stage so the sprite leaves a drawing trail as it moves?",
+    "text": "സ്ക്രാച്ചിൽ സ്പ്രൈറ്റ് ചലിക്കുമ്പോൾ പിന്നിൽ വര വീഴുന്നതിനായി പേന സ്റ്റേജിൽ മുട്ടിക്കാൻ ഉപയോഗിക്കുന്ന ബ്ലോക്ക് ഏതാണ്?",
     "options": [
       "pen down",
       "pen up",
@@ -4437,7 +4437,7 @@
     ]
   },
   "494": {
-    "text": "In Scratch, which block lifts the pen off the stage so moving the sprite leaves no line trail?",
+    "text": "സ്ക്രാച്ചിൽ വര വീഴാതെ സ്പ്രൈറ്റിനെ മാത്രം മുന്നോട്ട് മാറ്റാൻ പേന ഉയർത്തിപ്പിടിക്കാൻ ഉപയോഗിക്കുന്ന ബ്ലോക്ക് ഏതാണ്?",
     "options": [
       "pen up",
       "pen down",
@@ -4446,16 +4446,16 @@
     ]
   },
   "495": {
-    "text": "What free, multilingual online encyclopedia is widely accessed for school project research?",
+    "text": "സ്കൂൾ പ്രോജക്റ്റുകൾക്കും ഗവേഷണങ്ങൾക്കും ധാരാളമായി ഉപയോഗിക്കുന്ന സ്വതന്ത്ര ബഹുഭാഷാ ഓൺലൈൻ സർവ്വവിജ്ഞാനകോശം ഏതാണ്?",
     "options": [
-      "Wikipedia",
-      "Google Chrome",
-      "VLC",
-      "LibreOffice"
+      "വിക്കിപീഡിയ (Wikipedia)",
+      "ഗൂഗിൾ ക്രോം (Google Chrome)",
+      "വിഎൽസി (VLC)",
+      "ലിബ്രെഓഫീസ് (LibreOffice)"
     ]
   },
   "496": {
-    "text": "What prefix protocol at the beginning of a web address indicates that data between browser and website is securely encrypted?",
+    "text": "ബ്രൗസറും വെബ്‌സൈറ്റും തമ്മിലുള്ള വിവരവിനിമയം എൻക്രിപ്റ്റ് ചെയ്തതും സുരക്ഷിതവുമാണെന്ന് വ്യക്തമാക്കുന്ന വെബ് വിലാസ പ്രോട്ടോക്കോൾ ഏതാണ്?",
     "options": [
       "https://",
       "http://",
@@ -4464,39 +4464,39 @@
     ]
   },
   "497": {
-    "text": "What symbol shown next to the website address in a browser indicates an authentic and encrypted SSL connection?",
+    "text": "വെബ് ബ്രൗസറിൽ വെബ് വിലാസത്തിന് സമീപം സുരക്ഷിതമായ SSL എൻക്രിപ്ഷൻ കണക്ഷനെ കാണിക്കുന്ന ചിഹ്നം ഏതാണ്?",
     "options": [
-      "Padlock (Lock) icon",
-      "Question mark",
-      "Red warning triangle",
-      "Star icon"
+      "പൂട്ടിയ പൂട്ടിന്റെ ചിഹ്നം (Padlock icon)",
+      "ചോദ്യചിഹ്നം",
+      "ചുവപ്പ് മുന്നറിയിപ്പ് ത്രികോണം",
+      "നക്ഷത്ര ചിഹ്നം"
     ]
   },
   "498": {
-    "text": "What feature in web browsers allows users to save and quickly revisit their favorite educational websites?",
+    "text": "നമുക്ക് ഇഷ്ടപ്പെട്ടതും പതിവായി ആവശ്യമുള്ളതുമായ വെബ് പേജുകൾ സൂക്ഷിച്ചുവെക്കാനും വേഗത്തിൽ സന്ദർശിക്കാനും ബ്രൗസറുകളിലുള്ള സംവിധാനം ഏതാണ്?",
     "options": [
-      "Bookmarks (Favorites)",
-      "History",
-      "Downloads",
-      "Extensions"
+      "ബുക്ക്മാർക്കുകൾ (Bookmarks / Favorites)",
+      "ഹിസ്റ്ററി (History)",
+      "ഡൗൺലോഡ്സ് (Downloads)",
+      "എക്സ്റ്റൻഷനുകൾ (Extensions)"
     ]
   },
   "499": {
-    "text": "Why is it important to regularly save work (Ctrl+S) while writing an assignment on a desktop computer?",
+    "text": "കമ്പ്യൂട്ടറിൽ പ്രവർത്തിക്കുമ്പോൾ കൃത്യമായ ഇടവേളകളിൽ സേവ് (Ctrl+S) ചെയ്യേണ്ടത് പ്രധാനമായിരിക്കുന്നത് എന്തുകൊണ്ടാണ്?",
     "options": [
-      "To avoid losing typed text in case of sudden power cuts or system shutdown",
-      "To make the text look bolder",
-      "To speed up internet connection",
-      "To delete temporary files"
+      "വൈദ്യുതി തടസ്സമോ സിസ്റ്റം ഓഫാകലോ ഉണ്ടായാൽ ചെയ്ത വിവരങ്ങൾ നഷ്ടപ്പെടാതിരിക്കാൻ",
+      "അക്ഷരങ്ങൾക്ക് കൂടുതൽ കട്ടി നൽകാൻ",
+      "ഇന്റർനെറ്റ് വേഗത വർദ്ധിപ്പിക്കാൻ",
+      "താല്ക്കാലിക ഫയലുകൾ ഒഴിവാക്കാൻ"
     ]
   },
   "500": {
-    "text": "What does clicking the Log Out or Sign Out button after checking email on a school computer ensure?",
+    "text": "സ്കൂളിലെ പൊതു കമ്പ്യൂട്ടറിൽ ഇമെയിൽ ഉപയോഗിച്ച ശേഷം 'Log Out' അല്ലെങ്കിൽ 'Sign Out' ചെയ്യുന്നത് എന്തിനാണ് ഉറപ്പുവരുത്തുന്നത്?",
     "options": [
-      "Prevents unauthorized people from accessing your personal account",
-      "Deletes all received emails",
-      "Turns off the internet connection",
-      "Uninstalls the web browser"
+      "അനുവാദമില്ലാത്ത വ്യക്തികൾ നിങ്ങളുടെ വ്യക്തിഗത അക്കൗണ്ട് ദുരുപയോഗം ചെയ്യുന്നത് തടയാൻ",
+      "ലഭിച്ച എല്ലാ ഇമെയിലുകളും ഡിലീറ്റ് ചെയ്യാൻ",
+      "ഇന്റർനെറ്റ് കണക്ഷൻ വിച്ഛേദിക്കാൻ",
+      "ബ്രൗസർ അൺഇൻസ്റ്റാൾ ചെയ്യാൻ"
     ]
   },
   "501": {
@@ -17397,12 +17397,12 @@
     ]
   },
   "1934": {
-    "text": "Which of the following consumes more electrical energy: a 250 W TV set operated for 1 hour or a 1200 W toaster operated for 10 minutes (1/6 hour)?",
+    "text": "താഴെ പറയുന്നവയിൽ ഏതാണ് കൂടുതൽ വൈദ്യുതോർജ്ജം ഉപയോഗിക്കുന്നത്: 1 മണിക്കൂർ പ്രവർത്തിപ്പിച്ച 250 W ടിവി സെറ്റോ, അതോ 10 മിനിറ്റ് (1/6 മണിക്കൂർ) പ്രവർത്തിപ്പിച്ച 1200 W ടോസ്റ്ററോ?",
     "options": [
-      "The 250 W TV set consumes more energy",
-      "The 1200 W toaster consumes more energy",
-      "Both consume exactly the same energy",
-      "Cannot be determined without voltage"
+      "250 W ടിവി സെറ്റ് കൂടുതൽ ഊർജ്ജം ഉപയോഗിക്കുന്നു (250 Wh > 200 Wh)",
+      "1200 W ടോസ്റ്റർ കൂടുതൽ ഊർജ്ജം ഉപയോഗിക്കുന്നു",
+      "രണ്ടും തുല്യ അളവിലാണ് ഊർജ്ജം ഉപയോഗിക്കുന്നത്",
+      "വോൾട്ടേജ് അറിയാതെ കണക്കാക്കാൻ കഴിയില്ല"
     ]
   },
   "1935": {
@@ -17604,7 +17604,7 @@
     ]
   },
   "1957": {
-    "text": "What is the output of the following Python statement?\\n\\nprint(17 // 5)",
+    "text": "താഴെ കൊടുത്തിരിക്കുന്ന പൈത്തൺ കോഡിന്റെ ഔട്ട്പുട്ട് എന്തായിരിക്കും?\n\nprint(17 // 5)",
     "options": [
       "3",
       "3.4",
@@ -17613,7 +17613,7 @@
     ]
   },
   "1958": {
-    "text": "What will the following Python code display on the screen?\\n\\na = 5\\nb = 10\\nif a > 3 and b < 15:\\n    print('MATCH')\\nelse:\\n    print('NO')",
+    "text": "താഴെ നൽകിയിരിക്കുന്ന പൈത്തൺ കോഡ് സ്ക്രീനിൽ എന്താണ് പ്രദർശിപ്പിക്കുന്നത്?\n\na = 5\nb = 10\nif a > 3 and b < 15:\n    print('MATCH')\nelse:\n    print('NO')",
     "options": [
       "MATCH",
       "NO",
@@ -17640,7 +17640,7 @@
     ]
   },
   "1961": {
-    "text": "What will be the final output of this Python code?\\n\\nx = 2\\nwhile x < 8:\\n    x += 3\\nprint(x)",
+    "text": "താഴെ നൽകിയിരിക്കുന്ന പൈത്തൺ കോഡിന്റെ അന്തിമ ഔട്ട്പുട്ട് എന്തായിരിക്കും?\n\nx = 2\nwhile x < 8:\n    x += 3\nprint(x)",
     "options": [
       "8",
       "7",
@@ -17649,7 +17649,7 @@
     ]
   },
   "1962": {
-    "text": "What is the output of the following Python expression?\\n\\nprint(2 ** 3)",
+    "text": "താഴെ കൊടുത്തിരിക്കുന്ന പൈത്തൺ എക്സ്പ്രഷന്റെ ഫലം എന്തായിരിക്കും?\n\nprint(2 ** 3)",
     "options": [
       "8",
       "6",
@@ -17658,7 +17658,7 @@
     ]
   },
   "1963": {
-    "text": "What is the output of this Python program?\\n\\ntotal = 0\\nfor n in [2, 5, 3]:\\n    total += n\\nprint(total)",
+    "text": "താഴെ നൽകിയിരിക്കുന്ന പൈത്തൺ പ്രോഗ്രാമിന്റെ ഔട്ട്പുട്ട് എന്താണ്?\n\ntotal = 0\nfor n in [2, 5, 3]:\n    total += n\nprint(total)",
     "options": [
       "10",
       "30",
@@ -17667,7 +17667,7 @@
     ]
   },
   "1964": {
-    "text": "What will be the result of executing this Python code?\\n\\ntext = 'ROBOT'\\nprint(text[0] + text[-1])",
+    "text": "താഴെ നൽകിയിരിക്കുന്ന പൈത്തൺ കോഡ് പ്രവർത്തിപ്പിക്കുമ്പോൾ ലഭിക്കുന്ന ഫലം എന്തായിരിക്കും?\n\ntext = 'ROBOT'\nprint(text[0] + text[-1])",
     "options": [
       "RT",
       "ROBOT",
@@ -17676,7 +17676,7 @@
     ]
   },
   "1965": {
-    "text": "What is the output of the following code in Python?\\n\\nx = 15\\nif x % 2 == 0:\\n    print('EVEN')\\nelse:\\n    print('ODD')",
+    "text": "താഴെ നൽകിയിരിക്കുന്ന പൈത്തൺ കോഡിന്റെ ഔട്ട്പുട്ട് എന്താണ്?\n\nx = 15\nif x % 2 == 0:\n    print('EVEN')\nelse:\n    print('ODD')",
     "options": [
       "ODD",
       "EVEN",
@@ -17685,7 +17685,7 @@
     ]
   },
   "1966": {
-    "text": "What will be printed by the following Python program?\\n\\nitems = ['LED', 'Buzzer', 'LDR']\\nitems.append('Sensor')\\nprint(len(items))",
+    "text": "താഴെ നൽകിയിരിക്കുന്ന പൈത്തൺ പ്രോഗ്രാം പ്രവർത്തിപ്പിക്കുമ്പോൾ സ്ക്രീനിൽ എന്താണ് പ്രിന്റ് ചെയ്യുന്നത്?\n\nitems = ['LED', 'Buzzer', 'LDR']\nitems.append('Sensor')\nprint(len(items))",
     "options": [
       "4",
       "3",
@@ -29529,21 +29529,21 @@
     ]
   },
   "6e60aebe-ea69-475e-81ed-6e71d34c64aa": {
-    "text": "What type of root system is found in grass, wheat, and maize plants?",
+    "text": "പുല്ല്, ഗോതമ്പ്, ചോളം (Maize) തുടങ്ങിയ സസ്യങ്ങളിൽ കാണപ്പെടുന്ന വേരുപടലം ഏതാണ്?",
     "options": [
-      "Fibrous root system",
-      "Taproot system",
-      "Aerial root system",
-      "Prop root system"
+      "നാര് വേരുപടലം (Fibrous root system)",
+      "തായ് വേരുപടലം (Taproot system)",
+      "വായു വേരുകൾ (Aerial root system)",
+      "താങ്ങ് വേരുകൾ (Prop root system)"
     ]
   },
   "f7bf6f1e-b9b3-4539-8c6c-60601745c2df": {
-    "text": "What type of root system features a single thick central root, such as in carrot, radish, and mango?",
+    "text": "കാരറ്റ്, മുള്ളങ്കി, മാവ് തുടങ്ങിയ സസ്യങ്ങളിൽ കാണപ്പെടുന്ന, പ്രധാനപ്പെട്ട ഒരൊറ്റ കട്ടിയുള്ള വേരടങ്ങുന്ന വേരുപടലം ഏതാണ്?",
     "options": [
-      "Taproot system",
-      "Fibrous root system",
-      "Adventitious root system",
-      "Stilt root system"
+      "തായ് വേരുപടലം (Taproot system)",
+      "നാര് വേരുപടലം (Fibrous root system)",
+      "പൊയ്ക്കാൽ വേരുകൾ (Adventitious root system)",
+      "താങ്ങ് വേരുകൾ (Stilt root system)"
     ]
   },
   "5267339b-3b2d-4a78-84d2-3ae8c178c1c3": {
@@ -29952,12 +29952,12 @@
     ]
   },
   "edf7cb33-cf2b-4256-a411-091c7bb37ae6": {
-    "text": "What is the change of state directly from solid to gas without becoming liquid called (e.g., camphor, naphthalene)?",
+    "text": "ഒരു ഖരവസ്തു ദ്രാവകമാകാതെ നേരിട്ട് വാതകാവസ്ഥയിലേക്ക് മാറുന്ന പ്രവർത്തനത്തിന് എന്താണ് പറയുന്നത്? (ഉദാ: കർപ്പൂരം, പാറ്റാഗുളിക)",
     "options": [
       "ഉത്പതനം (Sublimation)",
       "ബാഷ്പീകരണം (Evaporation)",
       "സാന്ദ്രീകരണം (Condensation)",
-      "Melting"
+      "ദ്രവീകരണം (Melting)"
     ]
   },
   "6f56c213-7a3f-4713-9e18-a2a456694cd7": {
@@ -30015,12 +30015,12 @@
     ]
   },
   "b3b6f515-50ca-44cb-9044-97c2915733d8": {
-    "text": "What percentage of clean atmospheric air is composed of life-supporting oxygen gas?",
+    "text": "ശുദ്ധമായ അന്തരീക്ഷ വായുവിൽ ജീവൻ നിലനിർത്തുന്ന ഓക്സിജൻ വാതകത്തിന്റെ അളവ് ഏകദേശം എത്ര ശതമാനമാണ്?",
     "options": [
-      "Approximately 21%",
-      "Approximately 78%",
-      "Approximately 50%",
-      "Approximately 5%"
+      "ഏകദേശം 21%",
+      "ഏകദേശം 78%",
+      "ഏകദേശം 50%",
+      "ഏകദേശം 5%"
     ]
   },
   "6c0a3019-97a3-4047-a48a-15a30ddccc30": {
@@ -30159,12 +30159,12 @@
     ]
   },
   "f9f0cead-a1ee-45fe-aa24-a7228878a068": {
-    "text": "Why is the Moon visible in the night sky even though it is non-luminous?",
+    "text": "സ്വയം പ്രകാശിക്കാത്ത ഒരു വസ്തുവായിരുന്നിട്ടും രാത്രിയിൽ ചന്ദ്രൻ ആകാശത്ത് തിളങ്ങി കാണപ്പെടുന്നത് എന്തുകൊണ്ടാണ്?",
     "options": [
-      "It reflects sunlight falling on its surface",
-      "It generates light by burning coal",
-      "It absorbs stars' light and glows",
-      "It contains radium minerals"
+      "ഉപരിതലത്തിൽ പതിക്കുന്ന സൂര്യപ്രകാശത്തെ പ്രതിഫലിപ്പിക്കുന്നതിനാൽ",
+      "കൽക്കരി കത്തുന്നതിലൂടെ പ്രകാശം ഉത്പാദിപ്പിക്കുന്നതിനാൽ",
+      "നക്ഷത്രങ്ങളുടെ പ്രകാശം ആഗിരണം ചെയ്ത് തിളങ്ങുന്നതിനാൽ",
+      "റേഡിയം ധാതുക്കൾ അടങ്ങിയിരിക്കുന്നതിനാൽ"
     ]
   },
   "2b24c540-bef4-42d6-aefb-e95a133d1ae1": {
@@ -30429,48 +30429,48 @@
     ]
   },
   "7470158d-7ba7-4d42-8da6-dd0c6bdf9e43": {
-    "text": "Which measuring instrument is best suited to measure the exact length of a school notebook?",
+    "text": "ഒരു സ്കൂൾ നോട്ട്ബുക്കിന്റെ കൃത്യമായ നീളം അളക്കാൻ ഏറ്റവും അനുയോജ്യമായ ഉപകരണം ഏതാണ്?",
     "options": [
-      "30-cm plastic ruler",
-      "Odometer",
-      "Measuring tape for roads",
-      "Weighing balance"
+      "30 cm പ്ലാസ്റ്റിക് സ്കെയിൽ",
+      "ഓഡോമീറ്റർ (Odometer)",
+      "റോഡ് അളക്കുന്ന ടേപ്പ്",
+      "ത്രാസ് (Weighing balance)"
     ]
   },
   "5ad0becc-3f32-4d4d-93c4-86125111e262": {
-    "text": "What instrument is used to accurately measure the mass of vegetables or grocery items in a shop?",
+    "text": "കടകളിൽ പച്ചക്കറികളുടെയോ പലചരക്ക് സാധനങ്ങളുടെയോ ഭാരം (മാസ്സ്) കൃത്യമായി അളക്കാൻ ഉപയോഗിക്കുന്ന ഉപകരണം ഏതാണ്?",
     "options": [
-      "Beam balance / Electronic balance",
-      "Measuring cylinder",
-      "Meter scale",
-      "സ്റ്റോപ്പ്‌വാച്ച്"
+      "ത്രാസ് / ഇലക്ട്രോണിക് ബാലൻസ്",
+      "മെഷറിംഗ് സിലിണ്ടർ",
+      "മീറ്റർ സ്കെയിൽ",
+      "സ്റ്റോപ്പ് വാച്ച്"
     ]
   },
   "f2a97d3c-31b2-4f34-8c7d-f1008e03801d": {
-    "text": "What instrument is used in sports races to measure time intervals to fractions of a second?",
+    "text": "കായിക മത്സരങ്ങളിൽ ഒരു സെക്കൻഡിന്റെ ചെറിയ അംശം പോലും കൃത്യമായി അളക്കാൻ ഉപയോഗിക്കുന്ന ഉപകരണം ഏതാണ്?",
     "options": [
-      "സ്റ്റോപ്പ്‌വാച്ച്",
-      "Sun dial",
-      "Hourglass",
-      "Wall pendulum clock"
+      "സ്റ്റോപ്പ് വാച്ച് (Stopwatch)",
+      "സൂര്യഘടികാരം (Sun dial)",
+      "മണൽ ഘടികാരം (Hourglass)",
+      "പെൻഡുലം ക്ലോക്ക്"
     ]
   },
   "5c02729f-252e-4bf9-adf5-cdc9520a8d73": {
-    "text": "What is the measure of the extent of a two-dimensional surface called (measured in square meters)?",
+    "text": "ഒരു ദ്വിമാന (two-dimensional) ഉപരിതലത്തിന്റെ വിസ്തൃതിയെ സൂചിപ്പിക്കുന്ന അളവ് ഏതാണ്? (ചതുരശ്ര മീറ്ററിൽ അളക്കുന്നത്)",
     "options": [
       "വിസ്തീർണ്ണം (Area)",
       "വ്യാപ്തം (Volume)",
-      "Perimeter",
+      "ചുറ്റളവ് (Perimeter)",
       "സാന്ദ്രത (Density)"
     ]
   },
   "4856ae3e-956d-42bd-8a6f-e2049ad6d506": {
-    "text": "What is the amount of three-dimensional space occupied by an object called?",
+    "text": "ഒരു വസ്തു ത്രിമാന തലത്തിൽ (3D) ഉൾക്കൊള്ളുന്ന സ്ഥലത്തിന്റെ അളവിന് എന്താണ് പറയുന്നത്?",
     "options": [
       "വ്യാപ്തം (Volume)",
       "വിസ്തീർണ്ണം (Area)",
-      "Mass",
-      "Length"
+      "പിണ്ഡം (Mass)",
+      "നീളം (Length)"
     ]
   },
   "6ead7727-18ee-4cd9-82e7-509f2b10745a": {
@@ -30663,39 +30663,39 @@
     ]
   },
   "e75cbcbe-42ec-485f-bf84-7411d0b3f3f4": {
-    "text": "Which key must be held down while pressing a letter key to type a single capital letter?",
+    "text": "ഒരു ഇംഗ്ലീഷ് അക്ഷരം ക്യാപിറ്റൽ (Capital) ലെറ്ററായി ടൈപ്പ് ചെയ്യാൻ ആ അക്ഷരത്തിനൊപ്പം അമർത്തിപ്പിടിക്കേണ്ട കീ ഏതാണ്?",
     "options": [
-      "Shift key",
-      "Ctrl key",
-      "Alt key",
-      "Tab key"
+      "Shift കീ",
+      "Ctrl കീ",
+      "Alt കീ",
+      "Tab കീ"
     ]
   },
   "dff85de4-cf37-4051-82cc-e16206fb479b": {
-    "text": "Which keyboard key cancels a current command or closes an active popup dialog box?",
+    "text": "നിലവിലുള്ള ഒരു കമാൻഡ് റദ്ദാക്കാനോ തുറന്നുവന്ന ഡയലോഗ് ബോക്സ് ഒഴിവാക്കാനോ ഉപയോഗിക്കുന്ന കീ ഏതാണ്?",
     "options": [
-      "Escape (Esc) key",
-      "എന്റർ കീ (Enter key)",
-      "Insert key",
-      "Print Screen key"
+      "Escape (Esc) കീ",
+      "Enter കീ",
+      "Insert കീ",
+      "Print Screen കീ"
     ]
   },
   "ca6eb559-8981-45f3-8847-bba7e443947f": {
-    "text": "How many arrow navigation keys (Up, Down, Left, Right) are located on a standard keyboard?",
+    "text": "ഒരു സാധാരണ കമ്പ്യൂട്ടർ കീബോർഡിൽ എത്ര ആരോ നാവിഗേഷൻ കീകൾ (Up, Down, Left, Right) ഉണ്ട്?",
     "options": [
-      "4 arrow keys",
-      "2 arrow keys",
-      "6 arrow keys",
-      "8 arrow keys"
+      "4 ആരോ കീകൾ",
+      "2 ആരോ കീകൾ",
+      "6 ആരോ കീകൾ",
+      "8 ആരോ കീകൾ"
     ]
   },
   "fb42a981-8407-426b-99ee-40f7a54aef64": {
-    "text": "What row of numbered keys from F1 to F12 sits at the very top of a computer keyboard?",
+    "text": "കീബോർഡിന്റെ ഏറ്റവും മുകൾ നിരയിൽ F1 മുതൽ F12 വരെയുള്ള കീകൾ ഏത് പേരിലാണ് അറിയപ്പെടുന്നത്?",
     "options": [
-      "Function keys",
-      "Numeric keys",
-      "Alphabet keys",
-      "Navigation keys"
+      "ഫംഗ്ഷൻ കീകൾ (Function keys)",
+      "ന്യൂമെറിക് കീകൾ (Numeric keys)",
+      "ആൽഫബെറ്റ് കീകൾ (Alphabet keys)",
+      "നാവിഗേഷൻ കീകൾ (Navigation keys)"
     ]
   },
   "af45a6bc-3f3b-4aa5-8d54-8510b33c3920": {
@@ -30726,21 +30726,21 @@
     ]
   },
   "498b7b13-c9de-4be8-b9c6-11c60a47339f": {
-    "text": "What is the background picture or pattern displayed on the computer desktop called?",
+    "text": "കമ്പ്യൂട്ടർ ഡെസ്ക്ടോപ്പിന്റെ പശ്ചാത്തലത്തിൽ കാണുന്ന ചിത്രത്തിനോ ഡിസൈനിനോ എന്താണ് പറയുന്നത്?",
     "options": [
       "വാൾപേപ്പർ (Wallpaper)",
-      "Screensaver",
-      "Watermark",
-      "Icon"
+      "സ്ക്രീൻസേവർ (Screensaver)",
+      "വാട്ടർമാർക്ക് (Watermark)",
+      "ഐക്കൺ (Icon)"
     ]
   },
   "ab030923-5dd4-4319-a3a0-d3183e7794ed": {
-    "text": "What is the horizontal bar usually positioned at the top or bottom of the desktop showing open windows called?",
+    "text": "ഡെസ്ക്ടോപ്പിന്റെ മുകളിലോ താഴെയോ തുറന്നുവെച്ചിരിക്കുന്ന വിൻഡോകൾ കാണിക്കുന്ന ബാറിന് എന്താണ് പറയുന്നത്?",
     "options": [
-      "Taskbar (Panel)",
-      "Status bar",
-      "Scrollbar",
-      "Title bar"
+      "ടാസ്ക്ബാർ / പാനൽ (Taskbar / Panel)",
+      "സ്റ്റാറ്റസ് ബാർ (Status bar)",
+      "സ്ക്രോൾ ബാർ (Scrollbar)",
+      "ടൈറ്റിൽ ബാർ (Title bar)"
     ]
   },
   "11a6e75b-b94f-4906-892d-40fa6fcb38c9": {
@@ -30762,75 +30762,75 @@
     ]
   },
   "f405f0e7-d9de-4499-815f-2c5984bd56a3": {
-    "text": "What action permanently deletes all files stored inside the Trash to free up hard drive space?",
+    "text": "ട്രാഷിൽ (Trash) കിടക്കുന്ന ഫയലുകൾ പൂർണ്ണമായി ഒഴിവാക്കി ഹാർഡ് ഡിസ്കിൽ സ്ഥലം ലഭ്യമാക്കുന്ന നടപടി ഏതാണ്?",
     "options": [
-      "Empty Trash",
-      "Minimize Trash",
-      "Rename Trash",
-      "Hide Trash"
+      "എംപ്റ്റി ട്രാഷ് (Empty Trash)",
+      "മിനിമൈസ് ട്രാഷ് (Minimize Trash)",
+      "റീനെയിം ട്രാഷ് (Rename Trash)",
+      "ഹൈഡ് ട്രാഷ് (Hide Trash)"
     ]
   },
   "218bf9f0-c72a-4ba2-abdd-d38020934fd8": {
-    "text": "What digital container is created by users to organize and group related files on a computer?",
+    "text": "കമ്പ്യൂട്ടറിൽ ബന്ധപ്പെട്ട ഫയലുകൾ ഒന്നിച്ച് സൂക്ഷിക്കാൻ ഉപയോക്താക്കൾ നിർമ്മിക്കുന്ന ഡിജിറ്റൽ കണ്ടെയ്നർ ഏതാണ്?",
     "options": [
-      "Folder (Directory)",
-      "Icon",
-      "Shortcut",
-      "Extension"
+      "ഫോൾഡർ / ഡയറക്ടറി (Folder / Directory)",
+      "ഐക്കൺ (Icon)",
+      "ഷോർട്ട്കട്ട് (Shortcut)",
+      "എക്സ്റ്റൻഷൻ (Extension)"
     ]
   },
   "d4133daa-cc5e-4e78-a063-3d6b994e3972": {
-    "text": "Which mouse shortcut allows creating a new empty folder on the desktop?",
+    "text": "ഡെസ്ക്ടോപ്പിൽ പുതിയൊരു കാലി ഫോൾഡർ ഉണ്ടാക്കാൻ മൗസ് ഉപയോഗിച്ച് ചെയ്യേണ്ടത് എന്താണ്?",
     "options": [
-      "Right-click on empty desktop and select 'New Folder'",
-      "Double click any icon",
-      "Left click the clock",
-      "Scroll the mouse wheel"
+      "ഡെസ്ക്ടോപ്പിൽ റൈറ്റ് ക്ലിക്ക് ചെയ്ത് 'New Folder' തിരഞ്ഞെടുക്കുക",
+      "ഏതെങ്കിലും ഐക്കണിൽ ഡബിൾ ക്ലിക്ക് ചെയ്യുക",
+      "ക്ലോക്കിൽ ലെഫ്റ്റ് ക്ലിക്ക് ചെയ്യുക",
+      "മൗസ് വീൽ സ്ക്രോൾ ചെയ്യുക"
     ]
   },
   "4381f578-3f3c-4b51-b74b-d797f573a541": {
-    "text": "What button in the top corner of a window shrinks it down onto the taskbar without closing it?",
+    "text": "ഒരു വിൻഡോ അടച്ചുപൂട്ടാതെ ടാസ്ക്ബാറിലേക്ക് ചുരുക്കി വെക്കാൻ മുകൾ കോണിലുള്ള ഏത് ബട്ടണാണ് അമർത്തേണ്ടത്?",
     "options": [
-      "Minimize button (-)",
-      "Maximize button (+)",
-      "Close button (X)",
-      "Restore button"
+      "മിനിമൈസ് ബട്ടൺ (Minimize -)",
+      "മാക്സിമൈസ് ബട്ടൺ (Maximize +)",
+      "ക്ലോസ് ബട്ടൺ (Close X)",
+      "റീസ്റ്റോർ ബട്ടൺ (Restore)"
     ]
   },
   "a4ed2aa8-bff5-487e-98b2-55f10bd9fe60": {
-    "text": "What button expands a window to fill the entire computer screen?",
+    "text": "ഒരു വിൻഡോ സ്ക്രീൻ മുഴുവനായും വലുതാക്കാൻ ഉപയോഗിക്കുന്ന ബട്ടൺ ഏതാണ്?",
     "options": [
-      "Maximize button",
-      "Minimize button",
-      "Close button",
-      "Refresh button"
+      "മാക്സിമൈസ് ബട്ടൺ (Maximize)",
+      "മിനിമൈസ് ബട്ടൺ (Minimize)",
+      "ക്ലോസ് ബട്ടൺ (Close)",
+      "റീഫ്രഷ് ബട്ടൺ (Refresh)"
     ]
   },
   "ce58bbea-758e-47f2-b55f-9027c4e855a2": {
-    "text": "What button marked with an 'X' terminates and exits the active program window?",
+    "text": "'X' എന്ന് അടയാളപ്പെടുത്തിയ, നിലവിലുള്ള ആപ്ലിക്കേഷൻ വിൻഡോ പൂർണ്ണമായി ക്ലോസ് ചെയ്യുന്ന ബട്ടൺ ഏതാണ്?",
     "options": [
-      "Close button (X)",
-      "Minimize button",
-      "Help button",
-      "Save button"
+      "ക്ലോസ് ബട്ടൺ (Close X)",
+      "മിനിമൈസ് ബട്ടൺ (Minimize)",
+      "ഹെൽപ്പ് ബട്ടൺ (Help)",
+      "സേവ് ബട്ടൺ (Save)"
     ]
   },
   "0be80f0a-5109-4784-82f8-64a65a2ab5e1": {
-    "text": "What is the top bar of a program window that shows the name of the file and application called?",
+    "text": "ഒരു പ്രോഗ്രാം വിൻഡോയുടെ മുകളിൽ ഫയലിന്റെയും ആപ്ലിക്കേഷന്റെയും പേര് കാണിക്കുന്ന ബാറിന് എന്താണ് പറയുന്നത്?",
     "options": [
-      "Title bar",
-      "Status bar",
-      "Menu bar",
-      "Scroll bar"
+      "ടൈറ്റിൽ ബാർ (Title bar)",
+      "സ്റ്റാറ്റസ് ബാർ (Status bar)",
+      "മെനു ബാർ (Menu bar)",
+      "സ്ക്രോൾ ബാർ (Scroll bar)"
     ]
   },
   "5f7fe475-8abf-417d-a57a-eb5870e55f58": {
-    "text": "In KITE GNU/Linux, what file manager application is used to browse files, folders, and USB drives?",
+    "text": "കൈറ്റ് ഗ്നു/ലിനക്സിൽ (KITE GNU/Linux) ഫയലുകളും ഫോൾഡറുകളും പെൻഡ്രൈവുകളും ബ്രൗസ് ചെയ്യാൻ ഉപയോഗിക്കുന്ന ഫയൽ മാനേജർ ഏതാണ്?",
     "options": [
-      "Files (Nautilus / Thunar)",
+      "ഫയൽസ് / നോട്ടിലസ് (Files / Nautilus / Thunar)",
       "ടക്സ് പെയിന്റ് (Tux Paint)",
-      "Firefox",
-      "Calculator"
+      "ഫയർഫോക്സ് (Firefox)",
+      "കാൽക്കുലേറ്റർ (Calculator)"
     ]
   },
   "c91e1c8d-2586-4919-9514-a902ad384601": {
@@ -30879,151 +30879,151 @@
     ]
   },
   "957223b1-7ae3-42f1-bea7-812194e15353": {
-    "text": "In Tux Paint, which Magic effect easily draws realistic green blades of grass on a lawn?",
+    "text": "ടക്സ് പെയിന്റിൽ (Tux Paint), പച്ചപ്പുല്ലിന്റെ ഭംഗിയുള്ള ചിത്രങ്ങൾ എളുപ്പത്തിൽ വരയ്ക്കാൻ സഹായിക്കുന്ന മാജിക് ഇഫക്റ്റ് ഏതാണ്?",
     "options": [
-      "Grass effect",
-      "Rainbow effect",
-      "Chalk effect",
-      "Bricks effect"
+      "ഗ്രാസ് ഇഫക്റ്റ് (Grass effect)",
+      "റെയിൻബോ ഇഫക്റ്റ് (Rainbow effect)",
+      "ചോക്ക് ഇഫക്റ്റ് (Chalk effect)",
+      "ബ്രിക്സ് ഇഫക്റ്റ് (Bricks effect)"
     ]
   },
   "d85dd53f-53f3-4dfa-a43a-7fb5d58bcbf5": {
-    "text": "In Tux Paint, which Magic effect draws a colorful curved arc of sunlight colors across the sky?",
+    "text": "ടക്സ് പെയിന്റിൽ ആകാശത്തിന് കുറുകെ ഏഴ് വർണ്ണങ്ങളുള്ള മഴവില്ല് വരയ്ക്കാൻ ഉപയോഗിക്കുന്ന മാജിക് ഇഫക്റ്റ് ഏതാണ്?",
     "options": [
-      "Rainbow effect",
-      "Grass effect",
-      "Drip effect",
-      "Smudge effect"
+      "റെയിൻബോ ഇഫക്റ്റ് (Rainbow effect)",
+      "ഗ്രാസ് ഇഫക്റ്റ് (Grass effect)",
+      "ഡ്രിപ്പ് ഇഫക്റ്റ് (Drip effect)",
+      "സ്മഡ്ജ് ഇഫക്റ്റ് (Smudge effect)"
     ]
   },
   "a379a607-1240-44b8-8b5a-ab66daf7012d": {
-    "text": "Which tool in Tux Paint draws straight lines between two mouse clicks?",
+    "text": "ടക്സ് പെയിന്റിൽ രണ്ട് പോയിന്റുകൾക്കിടയിൽ നേര്രേഖകൾ (Straight lines) വരയ്ക്കാൻ ഉപയോഗിക്കുന്ന ടൂൾ ഏതാണ്?",
     "options": [
-      "Lines tool",
-      "Paint tool",
-      "Text tool",
-      "Stamp tool"
+      "ലൈൻസ് ടൂൾ (Lines tool)",
+      "പെയിന്റ് ടൂൾ (Paint tool)",
+      "ടെക്സ്റ്റ് ടൂൾ (Text tool)",
+      "സ്റ്റാമ്പ് ടൂൾ (Stamp tool)"
     ]
   },
   "ca28bf36-1508-4dab-abf0-b895b306dd4c": {
-    "text": "Which tool in Tux Paint allows drawing geometric figures like circles, squares, rectangles, and triangles?",
+    "text": "ടക്സ് പെയിന്റിൽ വൃത്തം, ചതുരം, ത്രികോണം തുടങ്ങിയ ജ്യാമിതീയ രൂപങ്ങൾ വരയ്ക്കാൻ സഹായിക്കുന്ന ടൂൾ ഏതാണ്?",
     "options": [
-      "Shapes tool",
-      "Text tool",
-      "Magic tool",
-      "Stamp tool"
+      "ഷേപ്പ്സ് ടൂൾ (Shapes tool)",
+      "ടെക്സ്റ്റ് ടൂൾ (Text tool)",
+      "മാജിക് ടൂൾ (Magic tool)",
+      "സ്റ്റാമ്പ് ടൂൾ (Stamp tool)"
     ]
   },
   "9b82c870-e2d7-4477-ac45-ab1503a8d287": {
-    "text": "Which tool in Tux Paint is used to type captions, labels, and titles on drawings using the keyboard?",
+    "text": "ടക്സ് പെയിന്റിൽ കീബോർഡ് ഉപയോഗിച്ച് അക്ഷരങ്ങളും തലക്കെട്ടുകളും ടൈപ്പ് ചെയ്യാൻ ഉപയോഗിക്കുന്ന ടൂൾ ഏതാണ്?",
     "options": [
-      "Text / Label tool",
-      "Paint tool",
-      "Stamp tool",
-      "Eraser tool"
+      "ടെക്സ്റ്റ് / ലേബൽ ടൂൾ (Text / Label tool)",
+      "പെയിന്റ് ടൂൾ (Paint tool)",
+      "സ്റ്റാമ്പ് ടൂൾ (Stamp tool)",
+      "ഇറേസർ ടൂൾ (Eraser tool)"
     ]
   },
   "af116f7d-8981-4bca-8e26-519222f6a77f": {
-    "text": "Which tool in Tux Paint rubs out unwanted parts of a drawing?",
+    "text": "ടക്സ് പെയിന്റിൽ വരച്ച ചിത്രങ്ങളിൽ അനാവശ്യമായ ഭാഗങ്ങൾ മായ്ച്ചുകളയാൻ ഉപയോഗിക്കുന്ന ടൂൾ ഏതാണ്?",
     "options": [
-      "Eraser tool",
-      "Paint tool",
-      "Stamp tool",
-      "Magic tool"
+      "ഇറേസർ ടൂൾ (Eraser tool)",
+      "പെയിന്റ് ടൂൾ (Paint tool)",
+      "സ്റ്റാമ്പ് ടൂൾ (Stamp tool)",
+      "മാജിക് ടൂൾ (Magic tool)"
     ]
   },
   "720f6308-f3d9-4ec9-a711-5b4b3df2f90b": {
-    "text": "In Tux Paint, which button reverses the last action or brush stroke made by mistake?",
+    "text": "ടക്സ് പെയിന്റിൽ അബദ്ധത്തിൽ സംഭവിച്ച അവസാനത്തെ പ്രവർത്തനം തിരിച്ചെടുക്കാൻ (റദ്ദാക്കാൻ) ഉപയോഗിക്കുന്ന ബട്ടൺ ഏതാണ്?",
     "options": [
-      "Undo button",
-      "Redo button",
-      "Save button",
-      "New button"
+      "അൺഡു ബട്ടൺ (Undo)",
+      "റീഡു ബട്ടൺ (Redo)",
+      "സേവ് ബട്ടൺ (Save)",
+      "ന്യൂ ബട്ടൺ (New)"
     ]
   },
   "67be21f4-0bc3-4c66-88e0-7b18968efd90": {
-    "text": "Which button in Tux Paint opens a fresh, blank drawing canvas?",
+    "text": "ടക്സ് പെയിന്റിൽ പുതിയൊരു ചിത്രം വരയ്ക്കാൻ പുതിയ ക്യാൻവാസ് തുറക്കുന്ന ബട്ടൺ ഏതാണ്?",
     "options": [
-      "New button",
-      "Open button",
-      "Save button",
-      "Print button"
+      "ന്യൂ ബട്ടൺ (New)",
+      "ഓപ്പൺ ബട്ടൺ (Open)",
+      "സേവ് ബട്ടൺ (Save)",
+      "പ്രിന്റ് ബട്ടൺ (Print)"
     ]
   },
   "a6168a7b-869d-40e1-b906-51bf0e36ec1b": {
-    "text": "Which button in Tux Paint saves the current artwork into the drawing sketchbook gallery?",
+    "text": "ടക്സ് പെയിന്റിൽ വരച്ച ചിത്രം ഗാലറിയിലേക്ക് സൂക്ഷിച്ചുവെക്കാൻ (Save) ഉപയോഗിക്കുന്ന ബട്ടൺ ഏതാണ്?",
     "options": [
-      "Save button",
-      "New button",
-      "Quit button",
-      "Undo button"
+      "സേവ് ബട്ടൺ (Save)",
+      "ന്യൂ ബട്ടൺ (New)",
+      "ക്വിറ്റ് ബട്ടൺ (Quit)",
+      "അൺഡു ബട്ടൺ (Undo)"
     ]
   },
   "04a5b350-5a47-44a1-8e7a-83c4de8d6383": {
-    "text": "Which button in Tux Paint sends the drawing to a connected physical printer?",
+    "text": "ടക്സ് പെയിന്റിൽ വരച്ച ചിത്രം കമ്പ്യൂട്ടറുമായി ബന്ധിപ്പിച്ച പ്രിന്ററിലേക്ക് അയക്കാൻ ഉപയോഗിക്കുന്ന ബട്ടൺ ഏതാണ്?",
     "options": [
-      "Print button",
-      "Save button",
-      "Open button",
-      "New button"
+      "പ്രിന്റ് ബട്ടൺ (Print)",
+      "സേവ് ബട്ടൺ (Save)",
+      "ഓപ്പൺ ബട്ടൺ (Open)",
+      "ന്യൂ ബട്ടൺ (New)"
     ]
   },
   "6f05ec4c-7670-4cde-91c1-cd5cff9782cc": {
-    "text": "Which button in Tux Paint closes the program safely?",
+    "text": "ടക്സ് പെയിന്റ് പ്രോഗ്രാം സുരക്ഷിതമായി ക്ലോസ് ചെയ്യാൻ ഉപയോഗിക്കുന്ന ബട്ടൺ ഏതാണ്?",
     "options": [
-      "Quit button",
-      "Save button",
-      "Undo button",
-      "New button"
+      "ക്വിറ്റ് ബട്ടൺ (Quit)",
+      "സേവ് ബട്ടൺ (Save)",
+      "അൺഡു ബട്ടൺ (Undo)",
+      "ന്യൂ ബട്ടൺ (New)"
     ]
   },
   "e6ad2d02-af16-4da2-a7c0-92e572770da4": {
-    "text": "Which application in LibreOffice is specifically used for creating text documents, essays, and letters?",
+    "text": "ലിബ്രെഓഫീസിൽ (LibreOffice) ടെക്സ്റ്റ് ഡോക്യുമെന്റുകൾ, ഉപന്യാസങ്ങൾ, കത്തുകൾ എന്നിവ തയ്യാറാക്കാൻ ഉപയോഗിക്കുന്ന ആപ്ലിക്കേഷൻ ഏതാണ്?",
     "options": [
-      "LibreOffice Writer",
-      "LibreOffice Calc",
-      "LibreOffice Impress",
-      "LibreOffice Base"
+      "ലിബ്രെഓഫീസ് റൈറ്റർ (LibreOffice Writer)",
+      "ലിബ്രെഓഫീസ് കാൽക്ക് (LibreOffice Calc)",
+      "ലിബ്രെഓഫീസ് ഇംപ്രസ് (LibreOffice Impress)",
+      "ലിബ്രെഓഫീസ് ബേസ് (LibreOffice Base)"
     ]
   },
   "48c5705a-f30b-4499-b62d-440f0f32c05a": {
-    "text": "What keyboard shortcut is used in LibreOffice Writer to make selected text Bold (darker and thicker)?",
+    "text": "ലിബ്രെഓഫീസ് റൈറ്ററിൽ തിരഞ്ഞെടുത്ത അക്ഷരങ്ങൾ ബോൾഡ് (Bold - കട്ടിയുള്ളതാക്കാൻ) ഉപയോഗിക്കുന്ന കീബോർഡ് ഷോർട്ട്കട്ട് ഏതാണ്?",
     "options": [
-      "Ctrl + B (Bold)",
-      "Ctrl + I (Italic)",
-      "Ctrl + U (Underline)",
+      "Ctrl + B",
+      "Ctrl + I",
+      "Ctrl + U",
       "Ctrl + D"
     ]
   },
   "fe7b10fa-48be-461d-8632-60f0602717b1": {
-    "text": "What keyboard shortcut is used to make selected text Italic (slanted)?",
+    "text": "തിരഞ്ഞെടുത്ത അക്ഷരങ്ങൾ ചരിഞ്ഞ രൂപത്തിലാക്കാൻ (Italic) ഉപയോഗിക്കുന്ന കീബോർഡ് ഷോർട്ട്കട്ട് ഏതാണ്?",
     "options": [
-      "Ctrl + I (Italic)",
-      "Ctrl + B (Bold)",
-      "Ctrl + U (Underline)",
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
       "Ctrl + S"
     ]
   },
   "72325f65-b0af-442d-85a0-93fef6aa544f": {
-    "text": "What keyboard shortcut underlines selected words with a straight horizontal line?",
+    "text": "തിരഞ്ഞെടുത്ത വാക്കുകൾക്ക് അടിവരയിടാൻ (Underline) ഉപയോഗിക്കുന്ന കീബോർഡ് ഷോർട്ട്കട്ട് ഏതാണ്?",
     "options": [
-      "Ctrl + U (Underline)",
-      "Ctrl + B (Bold)",
-      "Ctrl + I (Italic)",
+      "Ctrl + U",
+      "Ctrl + B",
+      "Ctrl + I",
       "Ctrl + L"
     ]
   },
   "142ba2e4-30c7-4e58-82a5-4aef1794f42f": {
-    "text": "What universal keyboard shortcut saves the current document or file to disk?",
+    "text": "നിലവിലുള്ള ഡോക്യുമെന്റോ ഫയലോ കമ്പ്യൂട്ടറിൽ സേവ് ചെയ്യാൻ (Save) ഉപയോഗിക്കുന്ന സാർവ്വത്രിക കീബോർഡ് ഷോർട്ട്കട്ട് ഏതാണ്?",
     "options": [
       "Ctrl + S",
-      "Ctrl + P (Print)",
-      "Ctrl + O (Open)",
-      "Ctrl + N (New)"
+      "Ctrl + P",
+      "Ctrl + O",
+      "Ctrl + N"
     ]
   },
   "45ac534d-589f-4a8d-8f56-3fc08d6ccf46": {
-    "text": "What keyboard shortcut is used to copy selected text or files into the computer clipboard?",
+    "text": "തിരഞ്ഞെടുത്ത വാക്കോ ഫയലോ ക്ലിപ്ബോർഡിലേക്ക് കോപ്പി (Copy) ചെയ്യാൻ ഉപയോഗിക്കുന്ന കീബോർഡ് ഷോർട്ട്കട്ട് ഏതാണ്?",
     "options": [
       "Ctrl + C",
       "Ctrl + V",
@@ -31032,16 +31032,16 @@
     ]
   },
   "fedaa2bd-3bd5-4aec-a2cb-25f1827e187f": {
-    "text": "What keyboard shortcut is used to paste copied or cut content from clipboard into the document?",
+    "text": "കോപ്പി ചെയ്തതോ കട്ട് ചെയ്തതോ ആയ ഭാഗം ഡോക്യുമെന്റിൽ ഒട്ടിക്കാൻ (Paste) ഉപയോഗിക്കുന്ന കീബോർഡ് ഷോർട്ട്കട്ട് ഏതാണ്?",
     "options": [
       "Ctrl + V",
       "Ctrl + C",
-      "Ctrl + P (Print)",
+      "Ctrl + P",
       "Ctrl + S"
     ]
   },
   "f66f2f32-504f-43df-88d7-52553cf63580": {
-    "text": "What keyboard shortcut cuts (removes) selected text so it can be moved to another location?",
+    "text": "തിരഞ്ഞെടുത്ത ഭാഗം മറ്റൊരു സ്ഥാനത്തേക്ക് മാറ്റുന്നതിനായി മുറിച്ചുമാറ്റാൻ (Cut) ഉപയോഗിക്കുന്ന കീബോർഡ് ഷോർട്ട്കട്ട് ഏതാണ്?",
     "options": [
       "Ctrl + X",
       "Ctrl + C",
@@ -31050,16 +31050,16 @@
     ]
   },
   "d4552e52-608f-44ef-bd0d-9f9673faa4bd": {
-    "text": "What keyboard shortcut selects ALL text and objects in an active document at once?",
+    "text": "ഒരു ഡോക്യുമെന്റിലെ എല്ലാ ഉള്ളടക്കങ്ങളും ഒന്നിച്ച് തിരഞ്ഞെടുക്കാൻ (Select All) ഉപയോഗിക്കുന്ന കീബോർഡ് ഷോർട്ട്കട്ട് ഏതാണ്?",
     "options": [
-      "Ctrl + A (Select All)",
+      "Ctrl + A",
       "Ctrl + S",
       "Ctrl + Z",
       "Ctrl + F"
     ]
   },
   "e4d52471-2661-4644-a9e6-b28704fea8e6": {
-    "text": "What keyboard shortcut cancels or undoes the most recent mistake in an office document?",
+    "text": "ഡോക്യുമെന്റിൽ സംഭവിച്ച അവസാനത്തെ മാറ്റം റദ്ദാക്കാൻ (Undo) ഉപയോഗിക്കുന്ന കീബോർഡ് ഷോർട്ട്കട്ട് ഏതാണ്?",
     "options": [
       "Ctrl + Z",
       "Ctrl + Y",
@@ -31068,7 +31068,7 @@
     ]
   },
   "8d6d6b25-0aad-4409-bbe9-345336d7b5cb": {
-    "text": "What keyboard shortcut redoes an action that was previously reversed by Undo?",
+    "text": "അൺഡു ചെയ്ത മാറ്റം വീണ്ടും പുനഃസ്ഥാപിക്കാൻ (Redo) ഉപയോഗിക്കുന്ന കീബോർഡ് ഷോർട്ട്കട്ട് ഏതാണ്?",
     "options": [
       "Ctrl + Y",
       "Ctrl + Z",
@@ -31077,268 +31077,268 @@
     ]
   },
   "f571c56f-3fca-4033-b6a8-a97a045552ac": {
-    "text": "What keyboard shortcut opens the Print dialog box to print a document?",
+    "text": "ഒരു ഡോക്യുമെന്റ് പ്രിന്റ് ചെയ്യാനുള്ള ഡയലോഗ് ബോക്സ് തുറക്കാൻ ഉപയോഗിക്കുന്ന കീബോർഡ് ഷോർട്ട്കട്ട് ഏതാണ്?",
     "options": [
-      "Ctrl + P (Print)",
+      "Ctrl + P",
       "Ctrl + S",
-      "Ctrl + O (Open)",
-      "Ctrl + N (New)"
+      "Ctrl + O",
+      "Ctrl + N"
     ]
   },
   "2c51d4a3-0cc6-41b8-84f4-a97d3957cee3": {
-    "text": "What keyboard shortcut creates a brand new blank document in LibreOffice?",
+    "text": "ലിബ്രെഓഫീസിൽ പുതിയൊരു കാലി ഡോക്യുമെന്റ് തുറക്കാൻ ഉപയോഗിക്കുന്ന കീബോർഡ് ഷോർട്ട്കട്ട് ഏതാണ്?",
     "options": [
-      "Ctrl + N (New)",
-      "Ctrl + O (Open)",
+      "Ctrl + N",
+      "Ctrl + O",
       "Ctrl + S",
-      "Ctrl + P (Print)"
+      "Ctrl + P"
     ]
   },
   "5d9ee0ab-6c77-4cfa-94dd-6d1b307d6675": {
-    "text": "What keyboard shortcut opens an existing saved file from your computer drive?",
+    "text": "കമ്പ്യൂട്ടറിൽ മുമ്പ് സേവ് ചെയ്തുവെച്ച ഫയൽ തുറക്കാൻ (Open) ഉപയോഗിക്കുന്ന കീബോർഡ് ഷോർട്ട്കട്ട് ഏതാണ്?",
     "options": [
-      "Ctrl + O (Open)",
+      "Ctrl + O",
       "Ctrl + S",
-      "Ctrl + N (New)",
-      "Ctrl + P (Print)"
+      "Ctrl + N",
+      "Ctrl + P"
     ]
   },
   "3b13eeb4-73c8-4f2d-a501-43c92cbe25f9": {
-    "text": "What blinking vertical line in a text document shows where typed characters will appear next?",
+    "text": "ഒരു ടെക്സ്റ്റ് ഡോക്യുമെന്റിൽ ടൈപ്പ് ചെയ്യുന്ന അക്ഷരങ്ങൾ എവിടെ വരുമെന്ന് കാണിക്കുന്ന മിന്നിമറയുന്ന ലംബരേഖ ഏതാണ്?",
     "options": [
-      "Cursor (Insertion point)",
-      "Pointer",
-      "Scrollbar",
-      "Ruler"
+      "കർസർ / ഇൻസെർഷൻ പോയിന്റ് (Cursor)",
+      "പോയിന്റർ (Pointer)",
+      "സ്ക്രോൾബാർ (Scrollbar)",
+      "റൂളർ (Ruler)"
     ]
   },
   "3741f70f-859b-40d0-b040-da84b3dae02d": {
-    "text": "What default page orientation is taller than it is wide (standard for letters and exam papers)?",
+    "text": "വീതിയേക്കാൾ ഉയരം കൂടുതലായി വരുന്ന സാധാരണ പേജ് ഓറിയന്റേഷൻ (Page Orientation) ഏതാണ്?",
     "options": [
-      "Portrait",
-      "Landscape",
-      "Square",
-      "Panoramic"
+      "പോർട്രെയിറ്റ് (Portrait)",
+      "ലാൻഡ്‌സ്കേപ്പ് (Landscape)",
+      "സ്ക്വയർ (Square)",
+      "പനോരമിക് (Panoramic)"
     ]
   },
   "0ff622ba-3253-4453-a64f-955e72cff4be": {
-    "text": "What page orientation is wider than it is tall (common for broad charts, certificates, and slides)?",
+    "text": "ഉയരത്തേക്കാൾ വീതി കൂടുതലായി വരുന്ന, സർട്ടിഫിക്കറ്റുകൾക്കും ചാർട്ടുകൾക്കും അനുയോജ്യമായ പേജ് ഓറിയന്റേഷൻ ഏതാണ്?",
     "options": [
-      "Landscape",
-      "Portrait",
-      "Vertical",
-      "Columnar"
+      "ലാൻഡ്‌സ്കേപ്പ് (Landscape)",
+      "പോർട്രെയിറ്റ് (Portrait)",
+      "വെർട്ടിക്കൽ (Vertical)",
+      "കോളമ്നാർ (Columnar)"
     ]
   },
   "552cdff2-9e9d-4778-ae89-3d348ddcd2ba": {
-    "text": "Which text alignment arranges paragraph text flush with both the left and right page margins evenly?",
+    "text": "ഖണ്ഡികയിലെ വരികൾ പേജിന്റെ ഇടതും വലതും മാർജിനുകൾക്ക് ഒരേപോലെ ക്രമീകരിക്കുന്ന അലൈൻമെന്റ് ഏതാണ്?",
     "options": [
-      "Justified alignment",
-      "Left alignment",
-      "Right alignment",
-      "Center alignment"
+      "ജസ്റ്റിഫൈഡ് അലൈൻമെന്റ് (Justified)",
+      "ലെഫ്റ്റ് അലൈൻമെന്റ് (Left)",
+      "റൈറ്റ് അലൈൻമെന്റ് (Right)",
+      "സെന്റർ അലൈൻമെന്റ് (Center)"
     ]
   },
   "c9755b4d-60bc-4956-bc67-5e25a86bf479": {
-    "text": "Which application in the LibreOffice suite is used for calculating mark sheets, accounts, and creating charts?",
+    "text": "മാർക്ക് ഷീറ്റുകൾ, കണക്കുകൂട്ടലുകൾ, ചാർട്ടുകൾ എന്നിവ തയ്യാറാക്കാൻ ഉപയോഗിക്കുന്ന ലിബ്രെഓഫീസ് ആപ്ലിക്കേഷൻ ഏതാണ്?",
     "options": [
-      "LibreOffice Calc",
-      "LibreOffice Writer",
-      "LibreOffice Impress",
-      "LibreOffice Draw"
+      "ലിബ്രെഓഫീസ് കാൽക്ക് (LibreOffice Calc)",
+      "ലിബ്രെഓഫീസ് റൈറ്റർ (LibreOffice Writer)",
+      "ലിബ്രെഓഫീസ് ഇംപ്രസ് (LibreOffice Impress)",
+      "ലിബ്രെഓഫീസ് ഡ്രോ (LibreOffice Draw)"
     ]
   },
   "0da31bb2-ef9e-4f79-8423-de4728cdd245": {
-    "text": "In LibreOffice Calc, what is the intersection of a vertical column and a horizontal row called?",
+    "text": "ലിബ്രെഓഫീസ് കാൽക്കിൽ ഒരു ലംബമായ കോളവും (Column) തിരശ്ചീനമായ വരിയും (Row) കൂടിച്ചേരുന്ന കള്ളിക്ക് എന്താണ് പറയുന്നത്?",
     "options": [
-      "Cell",
-      "Grid",
-      "Table",
-      "Block"
+      "സെൽ (Cell)",
+      "ഗ്രിഡ് (Grid)",
+      "ടേബിൾ (Table)",
+      "ബ്ലോക്ക് (Block)"
     ]
   },
   "0cf3f30f-91e8-44b7-b595-da61944f2f88": {
-    "text": "How are horizontal rows identified in a LibreOffice Calc spreadsheet?",
+    "text": "ലിബ്രെഓഫീസ് കാൽക്കിൽ തിരശ്ചീനമായ വരികളെ (Rows) അടയാളപ്പെടുത്തുന്നത് എങ്ങനെയാണ്?",
     "options": [
-      "By numbers (1, 2, 3, ...)",
-      "By letters (A, B, C, ...)",
-      "By roman numerals",
-      "By symbols"
+      "സംഖ്യകൾ വഴി (1, 2, 3, ...)",
+      "അക്ഷരങ്ങൾ വഴി (A, B, C, ...)",
+      "റോമൻ സംഖ്യകൾ വഴി",
+      "ചിഹ്നങ്ങൾ വഴി"
     ]
   },
   "55c559cf-48ed-47aa-9e25-774c0034b1da": {
-    "text": "How are vertical columns identified in a LibreOffice Calc spreadsheet?",
+    "text": "ലിബ്രെഓഫീസ് കാൽക്കിൽ ലംബമായ കോളങ്ങളെ (Columns) അടയാളപ്പെടുത്തുന്നത് എങ്ങനെയാണ്?",
     "options": [
-      "By letters (A, B, C, ...)",
-      "By numbers (1, 2, 3, ...)",
-      "By colors",
-      "By names"
+      "അക്ഷരങ്ങൾ വഴി (A, B, C, ...)",
+      "സംഖ്യകൾ വഴി (1, 2, 3, ...)",
+      "നിറങ്ങൾ വഴി",
+      "പേരുകൾ വഴി"
     ]
   },
   "bb7bc0a6-3347-466c-8512-84ac30e49a75": {
-    "text": "What is the cell address of the very first top-left cell in a LibreOffice Calc sheet?",
+    "text": "ഒരു ലിബ്രെഓഫീസ് കാൽക്ക് സ്പ്രെഡ്ഷീറ്റിലെ ഏറ്റവും ആദ്യത്തെ (മുകളിൽ ഇടത്തേ അറ്റത്തെ) സെല്ലിന്റെ വിലാസം എന്താണ്?",
     "options": [
       "A1",
-      "1 ആമ്പിയർ (1 A)",
+      "1A",
       "00",
       "TopLeft"
     ]
   },
   "e9aa0b0b-a4ca-4f35-bc67-638f1e297d27": {
-    "text": "What mathematical symbol must ALWAYS precede any calculation formula in LibreOffice Calc?",
+    "text": "ലിബ്രെഓഫീസ് കാൽക്കിൽ ഏതൊരു ഫോർമുലയും കണക്കുകൂട്ടലും തുടങ്ങുമ്പോൾ നിർബന്ധമായും നൽകേണ്ട ചിഹ്നം ഏതാണ്?",
     "options": [
-      "Equal sign (=)",
-      "Plus sign (+)",
-      "Hash sign (#)",
-      "At symbol (@)"
+      "സമം ചിഹ്നം (=)",
+      "സങ്കലന ചിഹ്നം (+)",
+      "ഹാഷ് ചിഹ്നം (#)",
+      "അറ്റ് ചിഹ്നം (@)"
     ]
   },
   "10e5421c-7289-4f6c-ba49-e4a956d114f4": {
-    "text": "Which application in LibreOffice is used to create visual slide shows for multimedia school seminars?",
+    "text": "സ്കൂൾ സെമിനാറുകൾക്കായി ആകർഷകമായ സ്ലൈഡ് ഷോകൾ തയ്യാറാക്കാൻ ഉപയോഗിക്കുന്ന ലിബ്രെഓഫീസ് ആപ്ലിക്കേഷൻ ഏതാണ്?",
     "options": [
-      "LibreOffice Impress",
-      "LibreOffice Writer",
-      "LibreOffice Calc",
-      "LibreOffice Math"
+      "ലിബ്രെഓഫീസ് ഇംപ്രസ് (LibreOffice Impress)",
+      "ലിബ്രെഓഫീസ് റൈറ്റർ (LibreOffice Writer)",
+      "ലിബ്രെഓഫീസ് കാൽക്ക് (LibreOffice Calc)",
+      "ലിബ്രെഓഫീസ് മാത്ത് (LibreOffice Math)"
     ]
   },
   "2e39b1d7-fc3c-42f3-a13a-7d73b6495530": {
-    "text": "Which function key starts a full-screen slide show presentation in LibreOffice Impress?",
+    "text": "ലിബ്രെഓഫീസ് ഇംപ്രസ്സിൽ ഫുൾ സ്ക്രീൻ സ്ലൈഡ് ഷോ തുടങ്ങാൻ അമർത്തേണ്ട ഫംഗ്ഷൻ കീ ഏതാണ്?",
     "options": [
-      "F5 (Slide Show)",
-      "F1 (Help)",
+      "F5",
+      "F1",
       "F11",
       "F12"
     ]
   },
   "d1f0d2b5-3e7c-4f62-9e44-0ab3f36d7a64": {
-    "text": "What is the default orange cat character in Scratch visual programming called?",
+    "text": "സ്ക്രാച്ച് (Scratch) വിഷ്വൽ പ്രോഗ്രാമിംഗിലെ ഡിഫോൾട്ട് ഓറഞ്ച് പൂച്ച കഥാപാത്രത്തിന് എന്താണ് പറയുന്നത്?",
     "options": [
       "സ്പ്രൈറ്റ് (Sprite)",
       "സ്റ്റേജ് (Stage)",
-      "Block",
-      "Script"
+      "ബ്ലോക്ക് (Block)",
+      "സ്ക്രിപ്റ്റ് (Script)"
     ]
   },
   "53ad1bc1-e8b0-4631-a3f2-d757a9b6046c": {
-    "text": "What is the rectangular canvas area where Scratch sprites move, speak, and interact called?",
+    "text": "സ്ക്രാച്ചിൽ സ്പ്രൈറ്റുകൾ ചലിക്കുകയും സംസാരിക്കുകയും പ്രവർത്തിക്കുകയും ചെയ്യുന്ന ചതുരത്തിലുള്ള ഭാഗത്തിന് എന്താണ് പറയുന്നത്?",
     "options": [
       "സ്റ്റേജ് (Stage)",
       "ബാക്ക്ഡ്രോപ്പ് (Backdrop)",
-      "Palette",
-      "Costume editor"
+      "പാലറ്റ് (Palette)",
+      "കോസ്റ്റ്യൂം എഡിറ്റർ (Costume editor)"
     ]
   },
   "8a79eabe-46fe-4750-b3a9-3e1523d397b0": {
-    "text": "Which colored flag icon above the Scratch stage is clicked to run and start student projects?",
+    "text": "സ്ക്രാച്ചിൽ പ്രോഗ്രാമുകൾ പ്രവർത്തിപ്പിക്കാൻ സ്റ്റേജിന് മുകളിൽ ക്ലിക്ക് ചെയ്യേണ്ട പതാകയുടെ അടയാളം ഏതാണ്?",
     "options": [
-      "Green Flag",
-      "Red Stop button",
-      "Yellow Flag",
-      "Blue Star"
+      "പച്ച പതാക (Green Flag)",
+      "ചുവപ്പ് സ്റ്റോപ്പ് ബട്ടൺ (Red Stop button)",
+      "മഞ്ഞ പതാക (Yellow Flag)",
+      "നീല നക്ഷത്രം (Blue Star)"
     ]
   },
   "0af2a9a2-8ec7-4970-8b3c-ec0af61c878d": {
-    "text": "Which red circular icon next to the Green Flag stops all running scripts in Scratch immediately?",
+    "text": "സ്ക്രാച്ചിൽ പ്രവർത്തിക്കുന്ന എല്ലാ പ്രോഗ്രാമുകളും തൽക്ഷണം അവസാനിപ്പിക്കാൻ പച്ചക്കൊടിക്ക് അരികിലുള്ള ഏത് ചിഹ്നത്തിലാണ് ക്ലിക്ക് ചെയ്യേണ്ടത്?",
     "options": [
-      "Red Stop sign",
-      "Pause button",
-      "Reset button",
-      "Quit button"
+      "ചുവപ്പ് സ്റ്റോപ്പ് ബട്ടൺ (Red Stop sign)",
+      "പോസ് ബട്ടൺ (Pause button)",
+      "റീസെറ്റ് ബട്ടൺ (Reset button)",
+      "ക്വിറ്റ് ബട്ടൺ (Quit button)"
     ]
   },
   "46e90939-4a08-4066-a709-85d3db9c0ded": {
-    "text": "In Scratch, what are different graphic drawings or poses for the same sprite called?",
+    "text": "സ്ക്രാച്ചിൽ ഒരു സ്പ്രൈറ്റിന്റെ വ്യത്യസ്ത രൂപങ്ങൾക്കും പോസുകൾക്കും എന്താണ് പറയുന്നത്?",
     "options": [
-      "Costumes",
-      "Backdrops",
-      "Variables",
-      "Sprites"
+      "കോസ്റ്റ്യൂമുകൾ (Costumes)",
+      "ബാക്ക്ഡ്രോപ്പുകൾ (Backdrops)",
+      "വേരിയബിളുകൾ (Variables)",
+      "സ്പ്രൈറ്റുകൾ (Sprites)"
     ]
   },
   "4a357d58-acc0-40c0-98d6-cc34bac90e38": {
-    "text": "In Scratch, what is the background image displayed on the Stage called?",
+    "text": "സ്ക്രാച്ച് സ്റ്റേജിന്റെ പശ്ചാത്തല ചിത്രത്തിന് എന്താണ് പറയുന്നത്?",
     "options": [
       "ബാക്ക്ഡ്രോപ്പ് (Backdrop)",
-      "വേഷം / കോസ്റ്റ്യൂം (Costume)",
+      "കോസ്റ്റ്യൂം (Costume)",
       "വാൾപേപ്പർ (Wallpaper)",
-      "Canvas"
+      "ക്യാൻവാസ് (Canvas)"
     ]
   },
   "f1251607-42ad-4ff7-8826-b3b8165d1024": {
-    "text": "What color are Motion command blocks in Scratch (such as 'move 10 steps' and 'turn 15 degrees')?",
+    "text": "സ്ക്രാച്ചിൽ ചലനങ്ങളെ നിയന്ത്രിക്കുന്ന മോഷൻ (Motion) കമാൻഡ് ബ്ലോക്കുകളുടെ നിറം എന്താണ്? (ഉദാ: 'move 10 steps')",
     "options": [
-      "Blue",
-      "Yellow",
-      "Purple",
-      "Green"
+      "നീല (Blue)",
+      "മഞ്ഞ (Yellow)",
+      "പർപ്പിൾ (Purple)",
+      "പച്ച (Green)"
     ]
   },
   "4671cfea-5a39-4497-8779-39715e9c4d0d": {
-    "text": "What color are Looks blocks in Scratch (such as 'say Hello' and 'switch costume')?",
+    "text": "സ്ക്രാച്ചിൽ രൂപഭാവങ്ങളെ നിയന്ത്രിക്കുന്ന ലുക്ക്സ് (Looks) ബ്ലോക്കുകളുടെ നിറം എന്താണ്? (ഉദാ: 'say Hello')",
     "options": [
-      "Purple",
-      "Blue",
-      "Green",
-      "Orange"
+      "പർപ്പിൾ (Purple)",
+      "നീല (Blue)",
+      "പച്ച (Green)",
+      "ഓറഞ്ച് (Orange)"
     ]
   },
   "9b48db18-ec62-4d1d-860f-9833fe331cee": {
-    "text": "What color are Events starter blocks in Scratch (such as 'when green flag clicked')?",
+    "text": "സ്ക്രാച്ചിൽ ഒരു പ്രോഗ്രാം തുടങ്ങാൻ ഉപയോഗിക്കുന്ന ഇവന്റ്സ് (Events) ബ്ലോക്കുകളുടെ നിറം എന്താണ്? (ഉദാ: 'when green flag clicked')",
     "options": [
-      "Yellow",
-      "Blue",
-      "Purple",
-      "Red"
+      "മഞ്ഞ (Yellow)",
+      "നീല (Blue)",
+      "പർപ്പിൾ (Purple)",
+      "ചുവപ്പ് (Red)"
     ]
   },
   "5fff1e83-31dd-4628-849a-39d46791b32c": {
-    "text": "What color are Sound blocks in Scratch (such as 'play sound Meow until done')?",
+    "text": "സ്ക്രാച്ചിൽ ശബ്ദങ്ങളെ നിയന്ത്രിക്കുന്ന സൗണ്ട് (Sound) ബ്ലോക്കുകളുടെ നിറം എന്താണ്? (ഉദാ: 'play sound Meow')",
     "options": [
-      "Magenta / Pink",
-      "Blue",
-      "Green",
-      "Yellow"
+      "മജന്ത / പിങ്ക് (Magenta / Pink)",
+      "നീല (Blue)",
+      "പച്ച (Green)",
+      "മഞ്ഞ (Yellow)"
     ]
   },
   "947e953f-0e69-41ba-94fe-5bbd97ecd1c7": {
-    "text": "What color are Control loop blocks in Scratch (such as 'repeat 10' and 'forever')?",
+    "text": "സ്ക്രാച്ചിൽ ലൂപ്പുകളും ഉപാധികളും നിയന്ത്രിക്കുന്ന കൺട്രോൾ (Control) ബ്ലോക്കുകളുടെ നിറം എന്താണ്? (ഉദാ: 'repeat 10', 'forever')",
     "options": [
-      "Gold / Amber",
-      "Green",
-      "Blue",
-      "Purple"
+      "ഗോൾഡ് / ആംബർ (Gold / Amber)",
+      "പച്ച (Green)",
+      "നീല (Blue)",
+      "പർപ്പിൾ (Purple)"
     ]
   },
   "03481cf3-1a3c-4462-afd9-b5682c8bac73": {
-    "text": "What color are Sensing blocks in Scratch (such as 'touching mouse-pointer?')?",
+    "text": "സ്ക്രാച്ചിൽ സ്പർശനങ്ങളും ദൂരവും തിരിച്ചറിയുന്ന സെൻസിംഗ് (Sensing) ബ്ലോക്കുകളുടെ നിറം എന്താണ്? (ഉദാ: 'touching mouse-pointer?')",
     "options": [
-      "Light Blue",
-      "Green",
-      "Yellow",
-      "Orange"
+      "ഇളം നീല (Light Blue)",
+      "പച്ച (Green)",
+      "മഞ്ഞ (Yellow)",
+      "ഓറഞ്ച് (Orange)"
     ]
   },
   "8f2d4138-c1e7-4e2a-bd7d-526e43457181": {
-    "text": "What color are Operators math and logic blocks in Scratch (such as '+', '-', 'pick random')?",
+    "text": "സ്ക്രാച്ചിൽ ഗണിതക്രിയകളും ലോജിക്കും നിർവ്വഹിക്കുന്ന ഓപ്പറേറ്റേഴ്സ് (Operators) ബ്ലോക്കുകളുടെ നിറം എന്താണ്? (ഉദാ: '+', '-', 'pick random')",
     "options": [
-      "Green",
-      "Blue",
-      "Purple",
-      "Red"
+      "പച്ച (Green)",
+      "നീല (Blue)",
+      "പർപ്പിൾ (Purple)",
+      "ചുവപ്പ് (Red)"
     ]
   },
   "0ed80fb7-387c-4919-83fd-35ac0c3dc682": {
-    "text": "What color are Variables blocks in Scratch used to store scores and game counters?",
+    "text": "സ്ക്രാച്ചിൽ സ്കോറുകളും കൗണ്ടറുകളും സൂക്ഷിക്കാൻ ഉപയോഗിക്കുന്ന വേരിയബിൾസ് (Variables) ബ്ലോക്കുകളുടെ നിറം എന്താണ്?",
     "options": [
-      "Orange",
-      "Blue",
-      "Green",
-      "Yellow"
+      "ഓറഞ്ച് (Orange)",
+      "നീല (Blue)",
+      "പച്ച (Green)",
+      "മഞ്ഞ (Yellow)"
     ]
   },
   "603f735d-c33c-42ee-ac48-3c50ed3fe230": {
-    "text": "In Scratch, which command block moves a sprite 10 steps along its current facing angle?",
+    "text": "സ്ക്രാച്ചിൽ ഒരു സ്പ്രൈറ്റിനെ അത് തിരിഞ്ഞുനിൽക്കുന്ന ദിശയിലേക്ക് 10 ചുവടുകൾ മുന്നോട്ട് കൊണ്ടുപോകുന്ന ബ്ലോക്ക് ഏതാണ്?",
     "options": [
       "move 10 steps",
       "turn 10 degrees",
@@ -31347,7 +31347,7 @@
     ]
   },
   "c014203d-941b-43b9-80ee-125e51b83c76": {
-    "text": "In Scratch, what are the (x, y) coordinates of the exact center point of the Stage?",
+    "text": "സ്ക്രാച്ചിൽ സ്റ്റേജിന്റെ കൃത്യം മധ്യഭാഗത്തെ (x, y) കോർഡിനേറ്റ് എത്രയാണ്?",
     "options": [
       "(0, 0)",
       "(100, 100)",
@@ -31356,61 +31356,61 @@
     ]
   },
   "e4434042-a219-41ed-822e-6a29dd4ba439": {
-    "text": "What does 'WWW' stand for in Internet website addresses?",
+    "text": "ഇന്റർനെറ്റ് വെബ് വിലാസങ്ങളിൽ കാണുന്ന 'WWW' എന്നതിന്റെ പൂർണ്ണരൂപം എന്താണ്?",
     "options": [
-      "World Wide Web",
-      "World Wide Wireless",
-      "Wide World Web",
-      "Web World Wide"
+      "വേൾഡ് വൈഡ് വെബ് (World Wide Web)",
+      "വേൾഡ് വൈഡ് വയർലെസ്സ് (World Wide Wireless)",
+      "വൈഡ് വേൾഡ് വെബ് (Wide World Web)",
+      "വെബ് വേൾഡ് വൈഡ് (Web World Wide)"
     ]
   },
   "f5f4e2d9-df1c-4539-b6b6-a39a6037fd01": {
-    "text": "Which software application is used to visit, browse, and view web pages on the Internet?",
+    "text": "ഇന്റർനെറ്റിലെ വെബ് പേജുകൾ സന്ദർശിക്കാനും ബ്രൗസ് ചെയ്യാനും ഉപയോഗിക്കുന്ന സോഫ്റ്റ്‌വെയർ ഏതാണ്?",
     "options": [
-      "Web browser (e.g., Firefox)",
-      "Media player",
-      "Calculator",
-      "Word processor"
+      "വെബ് ബ്രൗസർ (Web browser - ഉദാ: Firefox)",
+      "മീഡിയ പ്ലെയർ (Media player)",
+      "കാൽക്കുലേറ്റർ (Calculator)",
+      "വേർഡ് പ്രൊസസ്സർ (Word processor)"
     ]
   },
   "1dff7fcd-acf5-493e-8e15-28cdfad9a04b": {
-    "text": "Which of the following is a popular open-source web browser pre-installed in KITE GNU/Linux?",
+    "text": "കൈറ്റ് ഗ്നു/ലിനക്സിൽ മുൻകൂട്ടി ഇൻസ്റ്റാൾ ചെയ്തിട്ടുള്ള സ്വതന്ത്ര ഓപ്പൺ സോഴ്സ് വെബ് ബ്രൗസർ ഏതാണ്?",
     "options": [
-      "Mozilla Firefox",
-      "MS Word",
-      "Photoshop",
-      "VLC Player"
+      "മോസില്ല ഫയർഫോക്സ് (Mozilla Firefox)",
+      "എംഎസ് വേർഡ് (MS Word)",
+      "ഫോട്ടോഷോപ്പ് (Photoshop)",
+      "വിഎൽസി പ്ലെയർ (VLC Player)"
     ]
   },
   "5154a8f0-551b-4bb4-9d97-a28d5685c13e": {
-    "text": "What web service helps users search and discover information across billions of online pages?",
+    "text": "ഇന്റർനെറ്റിലെ കോടിക്കണക്കിന് വിവരങ്ങളിൽ നിന്ന് നമുക്ക് ആവശ്യമുള്ളവ തെരയാൻ സഹായിക്കുന്ന വെബ് സർവീസ് ഏതാണ്?",
     "options": [
-      "Search Engine (e.g., Google)",
-      "Operating System",
-      "Compiler",
-      "Firewall"
+      "സെർച്ച് എഞ്ചിൻ (Search Engine - ഉദാ: Google)",
+      "ഓപ്പറേറ്റിംഗ് സിസ്റ്റം (Operating System)",
+      "കംപൈലർ (Compiler)",
+      "ഫയർവാൾ (Firewall)"
     ]
   },
   "e821062a-17ce-450c-90ff-16b4b368133e": {
-    "text": "What does 'URL' stand for in web browsing terminology?",
+    "text": "വെബ് ബ്രൗസിംഗിൽ ഉപയോഗിക്കുന്ന 'URL' എന്നതിന്റെ പൂർണ്ണരൂപം എന്താണ്?",
     "options": [
-      "Uniform Resource Locator",
-      "Universal Radio Link",
-      "United Resource List",
-      "Uniform Record Line"
+      "യൂണിഫോം റിസോഴ്സ് ലൊക്കേറ്റർ (Uniform Resource Locator)",
+      "യൂണിവേഴ്സൽ റേഡിയോ ലിങ്ക് (Universal Radio Link)",
+      "യുണൈറ്റഡ് റിസോഴ്സ് ലിസ്റ്റ് (United Resource List)",
+      "യൂണിഫോം റെക്കോർഡ് ലൈൻ (Uniform Record Line)"
     ]
   },
   "3a549650-9f47-4e5d-bee1-24c46bbd593f": {
-    "text": "What does 'Email' stand for?",
+    "text": "'Email' എന്നതിന്റെ പൂർണ്ണരൂപം എന്താണ്?",
     "options": [
-      "Electronic Mail",
-      "Electrical Mail",
-      "Emergency Mail",
-      "Express Mail"
+      "ഇലക്ട്രോണിക് മെയിൽ (Electronic Mail)",
+      "ഇലക്ട്രിക്കൽ മെയിൽ (Electrical Mail)",
+      "എമർജൻസി മെയിൽ (Emergency Mail)",
+      "എക്സ്പ്രസ്സ് മെയിൽ (Express Mail)"
     ]
   },
   "01e0421c-7094-4c70-a455-34d1acc895ff": {
-    "text": "In an email address like student@kerala.gov.in, what symbol separates the username from the domain name?",
+    "text": "student@kerala.gov.in എന്ന ഇമെയിൽ വിലാസത്തിൽ ഉപയോക്തൃനാമത്തെയും ഡൊമെയ്ൻ നാമത്തെയും വേർതിരിക്കുന്ന ചിഹ്നം ഏതാണ്?",
     "options": [
       "@ (At symbol)",
       "# (Hash symbol)",
@@ -31419,75 +31419,75 @@
     ]
   },
   "41465ec5-d2fd-4dd1-ac15-7c357492847a": {
-    "text": "What part of an email message contains a brief one-line summary of what the message is about?",
+    "text": "ഒരു ഇമെയിൽ സന്ദേശം എന്തിനെക്കുറിച്ചാണെന്ന് ചുരുക്കി വ്യക്തമാക്കുന്ന വരി ഏതാണ്?",
     "options": [
-      "Subject line",
+      "സബ്ജക്റ്റ് ലൈൻ (Subject line)",
       "അറ്റാച്ച്മെന്റ് (Attachment)",
-      "Signature",
-      "Header"
+      "സിഗ്നേച്ചർ (Signature)",
+      "ഹെഡർ (Header)"
     ]
   },
   "bc87c2d8-9a34-4d5f-a34a-4cf6217a92fd": {
-    "text": "What feature in an email client allows sending photos, PDFs, or homework files alongside the message?",
+    "text": "ഇമെയിലിനൊപ്പം ഫോട്ടോകൾ, പിഡിഎഫുകൾ, പ്രോജക്റ്റ് ഫയലുകൾ എന്നിവ അയക്കാൻ ഉപയോഗിക്കുന്ന ഫീച്ചർ ഏതാണ്?",
     "options": [
-      "Attachment (Paperclip icon)",
-      "Subject",
-      "Spam",
-      "Draft"
+      "അറ്റാച്ച്മെന്റ് - പേപ്പർക്ലിപ്പ് ചിഹ്നം (Attachment)",
+      "സബ്ജക്റ്റ് (Subject)",
+      "സ്പാം (Spam)",
+      "ഡ്രാഫ്റ്റ് (Draft)"
     ]
   },
   "81498512-ab90-4cc5-92a9-3fdcb6e078e7": {
-    "text": "What wireless technology connects laptops and mobile phones to the local school broadband internet router without cables?",
+    "text": "കേബിളുകൾ ഇല്ലാതെ ലാപ്‌ടോപ്പുകളിലും ഫോണുകളിലും സ്കൂൾ ബ്രോഡ്‌ബാൻഡ് ഇന്റർനെറ്റ് ലഭ്യമാക്കുന്ന വയർലെസ് സാങ്കേതികവിദ്യ ഏതാണ്?",
     "options": [
       "വൈ-ഫൈ (Wi-Fi)",
-      "USB cable",
-      "Bluetooth only",
-      "Ethernet port"
+      "യുഎസ്ബി കേബിൾ (USB cable)",
+      "ബ്ലൂടൂത്ത് മാത്രം (Bluetooth only)",
+      "ഇതർനെറ്റ് പോർട്ട് (Ethernet port)"
     ]
   },
   "33f3b63a-0e00-4df7-9445-833d154ab8a1": {
-    "text": "What short-range wireless technology connects wireless computer mice, headphones, and keyboards over a few meters?",
+    "text": "ഏതാനും മീറ്ററുകൾ പരിധിയിൽ വയർലെസ് മൗസ്, ഹെഡ്‌ഫോൺ എന്നിവ കമ്പ്യൂട്ടറുമായി ബന്ധിപ്പിക്കുന്ന വയർലെസ് സാങ്കേതികവിദ്യ ഏതാണ്?",
     "options": [
       "ബ്ലൂടൂത്ത് (Bluetooth)",
-      "Satellite",
-      "Fiber optic",
-      "Microwave"
+      "സാറ്റലൈറ്റ് (Satellite)",
+      "ഫൈബർ ഒപ്റ്റിക് (Fiber optic)",
+      "മൈക്രോവേവ് (Microwave)"
     ]
   },
   "24012ac3-b189-48ac-96af-c8bcdee9201b": {
-    "text": "Why should students never share their private account passwords or PINs with unknown people?",
+    "text": "വിദ്യാർത്ഥികൾ തങ്ങളുടെ പാസ്‌വേഡുകളോ പിൻ നമ്പറുകളോ മറ്റുള്ളവരുമായി പങ്കുവെക്കാൻ പാടില്ലാത്തത് എന്തുകൊണ്ടാണ്?",
     "options": [
-      "To protect personal information and prevent unauthorized account misuse",
-      "To save internet bandwidth",
-      "Because passwords expire when shared",
-      "To speed up computer booting"
+      "വ്യക്തിവിവരങ്ങൾ സംരക്ഷിക്കുന്നതിനും അക്കൗണ്ട് ദുരുപയോഗം തടയുന്നതിനും",
+      "ഇന്റർനെറ്റ് ഡാറ്റ ലാഭിക്കുന്നതിന്",
+      "പങ്കുവെച്ചാൽ പാസ്‌വേഡ് കാലഹരണപ്പെടുമെന്നതിനാൽ",
+      "കമ്പ്യൂട്ടർ വേഗത്തിൽ ബൂട്ട് ചെയ്യാൻ"
     ]
   },
   "4dd64817-52a2-43ff-bf86-d43b814debac": {
-    "text": "Which of the following creates a strong and secure computer password?",
+    "text": "ശക്തവും സുരക്ഷിതവുമായ ഒരു കമ്പ്യൂട്ടർ പാസ്‌വേഡ് നിർമ്മിക്കുന്നത് എങ്ങനെയാണ്?",
     "options": [
-      "A combination of uppercase letters, lowercase letters, numbers, and symbols",
-      "Only your nickname",
-      "Your birth date (e.g., 2012)",
-      "The word 'password' or '123456'"
+      "വലിയക്ഷരങ്ങൾ, ചെറിയക്ഷരങ്ങൾ, അക്കങ്ങൾ, പ്രത്യേക ചിഹ്നങ്ങൾ എന്നിവ സംയോജിപ്പിച്ച്",
+      "വിളിപ്പേര് മാത്രം നൽകി",
+      "ജനനവർഷം മാത്രം നൽകി (ഉദാ: 2012)",
+      "'password' അല്ലെങ്കിൽ '123456' എന്ന് നൽകി"
     ]
   },
   "6bfc34e5-e83e-483f-bfc5-478a4040fd6e": {
-    "text": "What is a malicious computer program designed to corrupt files, steal data, or damage the system called?",
+    "text": "കമ്പ്യൂട്ടറിലെ ഫയലുകൾ നശിപ്പിക്കാനും ഡാറ്റ ചോർത്താനും തയ്യാറാക്കിയ ദോഷകരമായ പ്രോഗ്രാമുകൾക്ക് എന്താണ് പറയുന്നത്?",
     "options": [
-      "Computer Virus / Malware",
-      "Firewall",
-      "Operating System",
-      "Web Browser"
+      "കമ്പ്യൂട്ടർ വൈറസ് / മാൽവെയർ (Computer Virus / Malware)",
+      "ഫയർവാൾ (Firewall)",
+      "ഓപ്പറേറ്റിംഗ് സിസ്റ്റം (Operating System)",
+      "വെബ് ബ്രൗസർ (Web Browser)"
     ]
   },
   "7eceb8a9-6a9c-4535-8f46-ce636ff2ae75": {
-    "text": "What software protects computers from viruses and cleans infected storage media?",
+    "text": "കമ്പ്യൂട്ടറിനെ വൈറസുകളിൽ നിന്ന് സംരക്ഷിക്കുന്നതിനും ബാധിച്ചവയെ ശുദ്ധീകരിക്കുന്നതിനും ഉപയോഗിക്കുന്ന സോഫ്റ്റ്‌വെയർ ഏതാണ്?",
     "options": [
-      "Antivirus software",
+      "ആന്റിവൈറസ് സോഫ്റ്റ്‌വെയർ (Antivirus software)",
       "ടക്സ് പെയിന്റ് (Tux Paint)",
-      "LibreOffice",
-      "Media Player"
+      "ലിബ്രെഓഫീസ് (LibreOffice)",
+      "മീഡിയ പ്ലെയർ (Media Player)"
     ]
   },
   "a6574e31-a1ad-44b6-b5ba-534c98923156": {
@@ -31554,12 +31554,12 @@
     ]
   },
   "94d1312e-da1a-49f8-a373-6f2da05462ff": {
-    "text": "Which National Park in Kerala is famous for conserving the endangered Lion-tailed Macaque?",
+    "text": "സിംഹവാലൻ കുരങ്ങുകളെ (Lion-tailed Macaque) സംരക്ഷിക്കുന്നതിൽ പ്രശസ്തമായ കേരളത്തിലെ ദേശീയോദ്യാനം ഏതാണ്?",
     "options": [
-      "Silent Valley National Park",
-      "Eravikulam National Park",
-      "Periyar National Park",
-      "Mathikettan Shola"
+      "സൈലന്റ് വാലി ദേശീയോദ്യാനം (Silent Valley)",
+      "ഇരവികുളം ദേശീയോദ്യാനം (Eravikulam)",
+      "പെരിയാർ ദേശീയോദ്യാനം (Periyar)",
+      "മതികെട്ടാൻ ചോല (Mathikettan Shola)"
     ]
   },
   "07cc48af-f69f-414c-85b4-cfb05ab1473f": {
@@ -31572,12 +31572,12 @@
     ]
   },
   "2cf8f3a8-554a-4900-9d1f-59177d67016a": {
-    "text": "Which of the following is a non-biodegradable waste material that harms the environment if not recycled?",
+    "text": "പ്രകൃതിയിൽ സ്വയം അലിഞ്ഞുചേരാത്തതും പരിസ്ഥിതിക്ക് ദോഷകരവുമായ മാലിന്യം ഏതാണ്?",
     "options": [
-      "Plastic carry bag",
-      "Banana peel",
-      "Dry leaves",
-      "Paper scrap"
+      "പ്ലാസ്റ്റിക് കാരിബാഗ് (Plastic carry bag)",
+      "വാഴത്തോൽ (Banana peel)",
+      "ഉണക്കയിലകൾ (Dry leaves)",
+      "കടലാസ് കഷണങ്ങൾ (Paper scrap)"
     ]
   },
   "dffa2dfc-1d75-4f73-9eca-5b3971b6703d": {
@@ -31590,187 +31590,187 @@
     ]
   },
   "c86b79f3-b557-4eb3-b857-99ccc35a1d5d": {
-    "text": "Which electrical appliance converts electrical energy primarily into light energy?",
+    "text": "വൈദ്യുതോർജ്ജത്തെ പ്രധാനമായും പ്രകാശോർജ്ജമാക്കി മാറ്റുന്ന ഉപകരണം ഏതാണ്?",
     "options": [
-      "LED Bulb",
-      "Electric Iron",
-      "Ceiling Fan",
-      "Immersion Heater"
+      "എൽ.ഇ.ഡി ബൾബ് (LED Bulb)",
+      "ഇസ്തിരിപ്പെട്ടി (Electric Iron)",
+      "സീലിംഗ് ഫാൻ (Ceiling Fan)",
+      "ഇമ്മേഴ്ഷൻ ഹീറ്റർ (Immersion Heater)"
     ]
   },
   "7cba703a-12d0-4e74-9b49-d6fa4d46fc50": {
-    "text": "Which device converts electrical energy primarily into mechanical rotational energy?",
+    "text": "വൈദ്യുതോർജ്ജത്തെ പ്രധാനമായും യാന്ത്രികോർജ്ജമാക്കി (Mechanical energy) മാറ്റുന്ന ഉപകരണം ഏതാണ്?",
     "options": [
-      "Electric Motor (Fan)",
-      "Electric Bulb",
-      "Electric Heater",
-      "Loudspeaker"
+      "ഇലക്ട്രിക് മോട്ടോർ / ഫാൻ (Electric Motor)",
+      "ഇലക്ട്രിക് ബൾബ് (Electric Bulb)",
+      "ഇലക്ട്രിക് ഹീറ്റർ (Electric Heater)",
+      "ലൗഡ്സ്പീക്കർ (Loudspeaker)"
     ]
   },
   "03d198e7-3fe7-4c34-abcd-5f84c2e66442": {
-    "text": "Which device converts electrical energy primarily into sound waves?",
+    "text": "വൈദ്യുതോർജ്ജത്തെ പ്രധാനമായും ശബ്ദോർജ്ജമാക്കി മാറ്റുന്ന ഉപകരണം ഏതാണ്?",
     "options": [
-      "Loudspeaker / Buzzer",
-      "Electric Iron",
-      "Electric Kettle",
-      "Solar Cell"
+      "ലൗഡ്സ്പീക്കർ / ബസ്സർ (Loudspeaker / Buzzer)",
+      "ഇസ്തിരിപ്പെട്ടി (Electric Iron)",
+      "ഇലക്ട്രിക് കെറ്റിൽ (Electric Kettle)",
+      "സോളാർ സെൽ (Solar Cell)"
     ]
   },
   "506fa7df-975f-4623-ae88-3dbc6064a598": {
-    "text": "Which instrument is connected in an electric circuit to measure the electric current flowing through it?",
+    "text": "ഒരു വൈദ്യുത സർക്യൂട്ടിലൂടെ ഒഴുകുന്ന വൈദ്യുത പ്രവാഹത്തിന്റെ തീവ്രത (Current) അളക്കാൻ സർക്യൂട്ടിൽ ബന്ധിപ്പിക്കുന്ന ഉപകരണം ഏതാണ്?",
     "options": [
       "അമ്മീറ്റർ (Ammeter)",
       "വോൾട്ട്മീറ്റർ (Voltmeter)",
-      "Thermometer",
+      "തെർമോമീറ്റർ (Thermometer)",
       "ബാരോമീറ്റർ (Barometer)"
     ]
   },
   "830fd173-768a-4cb9-9541-5c865a0fb456": {
-    "text": "Which instrument is connected across two points in a circuit to measure electrical potential difference (voltage)?",
+    "text": "ഒരു സർക്യൂട്ടിലെ രണ്ട് ബിന്ദുക്കൾക്കിടയിലുള്ള പൊട്ടൻഷ്യൽ വ്യത്യാസം (Voltage) അളക്കാൻ ഉപയോഗിക്കുന്ന ഉപകരണം ഏതാണ്?",
     "options": [
       "വോൾട്ട്മീറ്റർ (Voltmeter)",
       "അമ്മീറ്റർ (Ammeter)",
-      "Speedometer",
-      "Galvanometer"
+      "സ്പീഡോമീറ്റർ (Speedometer)",
+      "ഗാൽവനൊമീറ്റർ (Galvanometer)"
     ]
   },
   "070abb3b-10ad-4ff6-88c0-4ab5b91e9b2f": {
-    "text": "Why do wet clothes hung outdoors dry much faster on a hot, windy day?",
+    "text": "നല്ല ചൂടും കാറ്റുമുള്ള ദിവസങ്ങളിൽ പുറത്തിട്ട നനഞ്ഞ തുണികൾ വേഗത്തിൽ ഉണങ്ങുന്നത് എന്തുകൊണ്ടാണ്?",
     "options": [
-      "Higher temperature and wind speed increase the rate of evaporation",
-      "Wind condenses the water droplets",
-      "Sunlight melts the clothes fibers",
-      "Air pressure pushes water into the ground"
+      "കൂടിയ ഊഷ്മാവും കാറ്റും ബാഷ്പീകരണത്തിന്റെ (Evaporation) നിരക്ക് വർദ്ധിപ്പിക്കുന്നതിനാൽ",
+      "കാറ്റ് ജലകണങ്ങളെ സാന്ദ്രീകരിക്കുന്നതിനാൽ",
+      "സൂര്യപ്രകാശം തുണിയുടെ നാരുകളെ ഉരുക്കുന്നതിനാൽ",
+      "വായുമർദ്ദം വെള്ളത്തെ ഭൂമിയിലേക്ക് തള്ളുന്നതിനാൽ"
     ]
   },
   "ca07df90-e0f2-4cf2-bbb9-bdb484c1aba3": {
-    "text": "Why do tiny water droplets appear on the outer surface of a glass tumbler containing ice-cold water?",
+    "text": "ഐസ് വെള്ളം നിറച്ച ഗ്ലാസിന്റെ പുറംഭാഗത്ത് ചെറിയ ജലകണങ്ങൾ രൂപപ്പെടുന്നത് എന്തുകൊണ്ടാണ്?",
     "options": [
-      "Water vapor in surrounding warm air condenses upon touching the cold glass",
-      "Water leaks through the glass pores",
-      "The cold glass creates hydrogen gas",
-      "Ice sublimates outwards"
+      "തണുത്ത ഗ്ലാസിൽ തട്ടുമ്പോൾ അന്തരീക്ഷ വായുവിലെ നീരാവി സാന്ദ്രീകരിക്കുന്നതിനാൽ (Condensation)",
+      "ഗ്ലാസിന്റെ സുഷിരങ്ങളിലൂടെ വെള്ളം പുറത്തേക്ക് കിനിയുന്നതിനാൽ",
+      "തണുത്ത ഗ്ലാസ് ഹൈഡ്രജൻ വാതകം ഉത്പാദിപ്പിക്കുന്നതിനാൽ",
+      "ഐസ് ഉത്പതനം നടത്തുന്നതിനാൽ"
     ]
   },
   "a4c976ab-bfee-478d-89e3-062f80708592": {
-    "text": "Why are handles of cooking utensils like frying pans made of Bakelite plastic or wood?",
+    "text": "ഫ്രൈയിംഗ് പാൻ തുടങ്ങിയ പാചക പാത്രങ്ങളുടെ കൈപ്പിടികൾ ബേക്കലൈറ്റ് പ്ലാസ്റ്റിക് അല്ലെങ്കിൽ മരം കൊണ്ട് നിർമ്മിക്കുന്നത് എന്തുകൊണ്ടാണ്?",
     "options": [
-      "They are poor conductors (insulators) of heat, preventing burns",
-      "They make the pan heavier and balanced",
-      "They absorb cooking oil",
-      "They conduct heat faster to hands"
+      "അവ താപത്തിന്റെ അചാലകങ്ങൾ (Insulators) ആയതിനാൽ ചൂടേറ്റ് കൈ പൊള്ളാതിരിക്കാൻ",
+      "പാത്രത്തിന് ഭാരവും സന്തുലിതാവസ്ഥയും നൽകാൻ",
+      "പാചക എണ്ണ ആഗിരണം ചെയ്യാൻ",
+      "കൈകളിലേക്ക് താപം വേഗത്തിൽ എത്തിക്കാൻ"
     ]
   },
   "6b2a10cb-a8c1-4fdc-8665-6fd70e84d5d9": {
-    "text": "Why are electric transmission wires made of metals like copper and aluminum?",
+    "text": "വൈദ്യുത പ്രസരണ ലൈനുകളിലെ കമ്പികൾ ചെമ്പ് (Copper), അലുമിനിയം തുടങ്ങിയ ലോഹങ്ങൾ കൊണ്ട് നിർമ്മിക്കുന്നത് എന്തുകൊണ്ടാണ്?",
     "options": [
-      "They are excellent conductors of electricity",
-      "They are good electrical insulators",
-      "They prevent heat from escaping",
-      "They are magnetic materials"
+      "അവ മികച്ച വൈദ്യുത ചാലകങ്ങൾ (Good conductors) ആയതിനാൽ",
+      "അവ മികച്ച വൈദ്യുത ഇൻസുലേറ്ററുകൾ ആയതിനാൽ",
+      "താപം പുറത്തുപോകുന്നത് തടയുന്നതിനാൽ",
+      "അവ കാന്തിക വസ്തുക്കൾ ആയതിനാൽ"
     ]
   },
   "2f7eaec0-0926-4bd9-90dd-cb2aadf17bd3": {
-    "text": "Why is a convex mirror preferred as a rear-view driver mirror in cars and buses?",
+    "text": "വാഹനങ്ങളിൽ ഡ്രൈവർമാർക്ക് പിന്നിലെ കാഴ്ച കാണുന്നതിന് കോൺവെക്സ് മിറർ (Convex mirror) ഉപയോഗിക്കുന്നത് എന്തുകൊണ്ടാണ്?",
     "options": [
-      "It gives an erect, diminished image with a wider field of view",
-      "It inverts images of overtaking vehicles",
-      "It magnifies small objects greatly",
-      "It produces colorful images"
+      "നിവർന്നതും ചെറുതുമായ പ്രതിബിംബവും വിശാലമായ കാഴ്ചാപരിധിയും (Wide field of view) നൽകുന്നതിനാൽ",
+      "പിന്നിൽ വരുന്ന വാഹനങ്ങളുടെ തലകീഴായ പ്രതിബിംബം നൽകുന്നതിനാൽ",
+      "ചെറിയ വസ്തുക്കളെ വളരെ വലുതാക്കി കാണിക്കുന്നതിനാൽ",
+      "വർണ്ണാഭമായ പ്രതിബിംബങ്ങൾ നൽകുന്നതിനാൽ"
     ]
   },
   "3670ea76-dcf4-48d7-9693-c95afd3b2cff": {
-    "text": "What optical phenomenon causes the split of white sunlight into a spectrum of seven colors (VIBGYOR)?",
+    "text": "സൂര്യന്റെ ധവളപ്രകാശം പ്രിസത്തിലൂടെ കടന്നുപോകുമ്പോൾ ഏഴ് വർണ്ണങ്ങളായി (VIBGYOR) വേർതിരിയുന്ന പ്രതിഭാസത്തിന് എന്താണ് പറയുന്നത്?",
     "options": [
-      "Dispersion of light",
-      "Total internal reflection",
-      "Diffraction",
-      "Polarization"
+      "പ്രകാശ പ്രകീർണ്ണനം (Dispersion of light)",
+      "പൂർണ്ണാന്തര പ്രതിഫലനം (Total internal reflection)",
+      "വിഭംഗനം (Diffraction)",
+      "ധ്രുവീകരണം (Polarization)"
     ]
   },
   "e5ae5eb5-9191-43c2-9735-0c3f6027e671": {
-    "text": "How many distinct colors are traditionally recognized in a natural sky rainbow (VIBGYOR)?",
+    "text": "ആകാശത്ത് കാണുന്ന സ്വാഭാവിക മഴവില്ലിൽ (Rainbow) എത്ര വർണ്ണങ്ങളാണ് പരമ്പരാഗതമായി തിരിച്ചറിയപ്പെടുന്നത്?",
     "options": [
-      "7 colors",
-      "5 colors",
-      "3 colors",
-      "10 colors"
+      "7 നിറങ്ങൾ",
+      "5 നിറങ്ങൾ",
+      "3 നിറങ്ങൾ",
+      "10 നിറങ്ങൾ"
     ]
   },
   "0a6c85ad-03b7-406c-8ac8-f2f99379b697": {
-    "text": "Which color in the visible light spectrum undergoes the maximum deviation (bends the most) through a glass prism?",
+    "text": "ഒരു ഗ്ലാസ് പ്രിസത്തിലൂടെ കടന്നുപോകുമ്പോൾ ഏറ്റവും കൂടുതൽ വ്യതിയാനം സംഭവിക്കുന്ന (ഏറ്റവും കൂടുതൽ വളയുന്ന) വർണ്ണം ഏതാണ്?",
     "options": [
-      "Violet",
-      "Red",
-      "Green",
-      "Yellow"
+      "വയലറ്റ് (Violet)",
+      "ചുവപ്പ് (Red)",
+      "പച്ച (Green)",
+      "മഞ്ഞ (Yellow)"
     ]
   },
   "9b438e78-a825-48fa-a96e-762eb8acbf5f": {
-    "text": "Which color in visible light has the longest wavelength and is least scattered, making it ideal for danger signal lights?",
+    "text": "ഏറ്റവും കൂടിയ തരംഗദൈർഘ്യവും (Wavelength) കുറഞ്ഞ വിസരണവുമുള്ളതിനാൽ അപകട സൂചനാ ലൈറ്റുകൾക്ക് ഉപയോഗിക്കുന്ന വർണ്ണം ഏതാണ്?",
     "options": [
-      "Red",
-      "Violet",
-      "Blue",
-      "Yellow"
+      "ചുവപ്പ് (Red)",
+      "വയലറ്റ് (Violet)",
+      "നീല (Blue)",
+      "മഞ്ഞ (Yellow)"
     ]
   },
   "3ade4dfb-25ed-483c-9d61-da28df68cecd": {
-    "text": "What are the three primary additive colors of light used in computer color monitors?",
+    "text": "കമ്പ്യൂട്ടർ മോണിറ്ററുകളിലും ഡിസ്‌പ്ലേകളിലും വർണ്ണങ്ങൾ ഉണ്ടാക്കാൻ ഉപയോഗിക്കുന്ന പ്രകാശത്തിന്റെ മൂന്ന് പ്രാഥമിക വർണ്ണങ്ങൾ ഏവ?",
     "options": [
-      "Red, Green, Blue (RGB)",
-      "Red, Yellow, Blue",
-      "Cyan, Magenta, Yellow",
-      "Black, White, Gray"
+      "ചുവപ്പ്, പച്ച, നീല (RGB)",
+      "ചുവപ്പ്, മഞ്ഞ, നീല",
+      "സയൻ, മജന്ത, മഞ്ഞ",
+      "കറുപ്പ്, വെള്ള, ചാരനിറം"
     ]
   },
   "0cfec473-867c-4270-9cfb-dadaa4b3ec4c": {
-    "text": "Why does the clear daytime sky appear blue to an observer on Earth?",
+    "text": "പകൽ സമയത്ത് തെളിഞ്ഞ ആകാശം നീലനിറത്തിൽ കാണപ്പെടാൻ കാരണമെന്താണ്?",
     "options": [
-      "Shorter blue wavelengths of sunlight are scattered more by atmospheric molecules",
-      "Oceans reflect blue color up into the clouds",
-      "The ozone layer is naturally blue",
-      "Space dust absorbs red light"
+      "കുറഞ്ഞ തരംഗദൈർഘ്യമുള്ള നീലപ്രകാശം അന്തരീക്ഷ തന്മാത്രകളാൽ കൂടുതൽ വിസരണത്തിന് (Scattering) വിധേയമാകുന്നതിനാൽ",
+      "സമുദ്രങ്ങൾ ആകാശത്തേക്ക് നീലനിറം പ്രതിഫലിപ്പിക്കുന്നതിനാൽ",
+      "ഓസോൺ പാളിക്ക് സ്വാഭാവികമായി നീലനിറമുള്ളതിനാൽ",
+      "ബഹിരാകാശത്തെ പൊടിപടലങ്ങൾ ചുവന്ന പ്രകാശം ആഗിരണം ചെയ്യുന്നതിനാൽ"
     ]
   },
   "30108684-db9c-44f4-b57c-6fdfe1822b38": {
-    "text": "What optical device uses two plane mirrors angled at 45 degrees to view objects above water from inside a submarine?",
+    "text": "ജലാന്തർഭാഗത്തുള്ള അന്തർവാഹിനികളിൽ നിന്ന് (Submarine) ജലോപരിതലത്തിലെ കാഴ്ചകൾ കാണാൻ 45 ഡിഗ്രിയിൽ രണ്ട് സമതല ദർപ്പണങ്ങൾ വെച്ചുണ്ടാക്കുന്ന ഉപകരണം ഏതാണ്?",
     "options": [
       "പെരിസ്കോപ്പ് (Periscope)",
-      "Kaleidoscope",
+      "കലിഡോസ്കോപ്പ് (Kaleidoscope)",
       "മൈക്രോസ്കോപ്പ് (Microscope)",
       "ടെലിസ്കോപ്പ് (Telescope)"
     ]
   },
   "42244f19-00a3-4755-b0c8-7b77084ec22d": {
-    "text": "What tube-like toy uses multiple inclined mirrors and colored glass beads to create beautiful symmetrical patterns?",
+    "text": "ചരിഞ്ഞ ദർപ്പണങ്ങളും വർണ്ണ മുത്തുകളും ഉപയോഗിച്ച് മനോഹരമായ ജ്യാമിതീയ ഡിസൈനുകൾ കാണിച്ചുതരുന്ന കളിപ്പാട്ടം ഏതാണ്?",
     "options": [
-      "Kaleidoscope",
+      "കലിഡോസ്കോപ്പ് (Kaleidoscope)",
       "പെരിസ്കോപ്പ് (Periscope)",
-      "Pinhole camera",
-      "Magnifying glass"
+      "പിൻഹോൾ ക്യാമറ (Pinhole camera)",
+      "ഭൂതക്കണ്ണാടി (Magnifying glass)"
     ]
   },
   "a21c2b52-e6da-4978-816e-b96398e3f973": {
-    "text": "What medical instrument do doctors use to listen to sounds produced by the human heart and lungs?",
+    "text": "മനുഷ്യന്റെ ഹൃദയമിടിപ്പും ശ്വാസകോശ ശബ്ദങ്ങളും കേൾക്കാൻ ഡോക്ടർമാർ ഉപയോഗിക്കുന്ന ഉപകരണം ഏതാണ്?",
     "options": [
       "സ്റ്റെതസ്കോപ്പ് (Stethoscope)",
-      "Sphygmomanometer",
-      "Endoscope",
-      "Otoscope"
+      "സ്ഫിഗ്മോമാനോമീറ്റർ (Sphygmomanometer)",
+      "എൻഡോസ്കോപ്പ് (Endoscope)",
+      "ഓട്ടോസ്കോപ്പ് (Otoscope)"
     ]
   },
   "f802615c-df64-4639-8638-5c728c9947bf": {
-    "text": "What optical instrument uses lenses to magnify tiny microscopic cells and bacteria invisible to the naked eye?",
+    "text": "നഗ്നനേത്രങ്ങൾ കൊണ്ട് കാണാൻ കഴിയാത്ത സൂക്ഷ്മജീവികളെയും കോശങ്ങളെയും വലുതാക്കി കാണിക്കാൻ ലെൻസുകൾ ഉപയോഗിക്കുന്ന ഉപകരണം ഏതാണ്?",
     "options": [
       "മൈക്രോസ്കോപ്പ് (Microscope)",
       "ടെലിസ്കോപ്പ് (Telescope)",
-      "Binoculars",
+      "ബൈനോക്കുലർ (Binoculars)",
       "പെരിസ്കോപ്പ് (Periscope)"
     ]
   },
   "ee8fc79d-9a7d-40b5-8d76-c01d88d38393": {
-    "text": "What astronomical instrument is used to observe distant planets, the Moon craters, and distant stars?",
+    "text": "വിദൂര ഗ്രഹങ്ങൾ, ചന്ദ്രനിലെ ഗർത്തങ്ങൾ, നക്ഷത്രങ്ങൾ എന്നിവ നിരീക്ഷിക്കാൻ ഉപയോഗിക്കുന്ന ഉപകരണം ഏതാണ്?",
     "options": [
       "ടെലിസ്കോപ്പ് (Telescope)",
       "മൈക്രോസ്കോപ്പ് (Microscope)",
@@ -31779,39 +31779,39 @@
     ]
   },
   "21bc8c77-4f91-45a2-8eae-65e916fbc755": {
-    "text": "What does PC stand for in computing?",
+    "text": "കമ്പ്യൂട്ടിംഗിൽ 'PC' എന്നതിന്റെ പൂർണ്ണരൂപം എന്താണ്?",
     "options": [
-      "Personal Computer",
-      "Public Computer",
-      "Programmed Calculator",
-      "Pocket Chip"
+      "പേഴ്സണൽ കമ്പ്യൂട്ടർ (Personal Computer)",
+      "പബ്ലിക് കമ്പ്യൂട്ടർ (Public Computer)",
+      "പ്രോഗ്രാംഡ് കാൽക്കുലേറ്റർ (Programmed Calculator)",
+      "പോക്കറ്റ് ചിപ്പ് (Pocket Chip)"
     ]
   },
   "7d6a9d85-ddfc-4914-81d7-369e646f38a3": {
-    "text": "What does OS stand for in computer systems?",
+    "text": "കമ്പ്യൂട്ടർ സിസ്റ്റങ്ങളിൽ 'OS' എന്നതിന്റെ പൂർണ്ണരൂപം എന്താണ്?",
     "options": [
-      "Operating System",
-      "Online Software",
-      "Optical Storage",
-      "Output System"
+      "ഓപ്പറേറ്റിംഗ് സിസ്റ്റം (Operating System)",
+      "ഓൺലൈൻ സോഫ്റ്റ്‌വെയർ (Online Software)",
+      "ഒപ്റ്റിക്കൽ സ്റ്റോറേജ് (Optical Storage)",
+      "ഔട്ട്പുട്ട് സിസ്റ്റം (Output System)"
     ]
   },
   "3394bfbf-31fb-4fc9-8af1-b782804a3e37": {
-    "text": "What does GUI stand for in user interfaces?",
+    "text": "യൂസർ ഇന്റർഫേസിൽ 'GUI' എന്നതിന്റെ പൂർണ്ണരൂപം എന്താണ്?",
     "options": [
-      "Graphical User Interface",
-      "General User Internet",
-      "Global Unit Identifier",
-      "Graphic Universal Input"
+      "ഗ്രാഫിക്കൽ യൂസർ ഇന്റർഫേസ് (Graphical User Interface)",
+      "ജനറൽ യൂസർ ഇന്റർനെറ്റ് (General User Internet)",
+      "ഗ്ലോബൽ യൂണിറ്റ് ഐഡന്റിഫയർ (Global Unit Identifier)",
+      "ഗ്രാഫിക് യൂണിവേഴ്സൽ ഇൻപുട്ട് (Graphic Universal Input)"
     ]
   },
   "6c653ae4-95f5-4245-882c-21315173cd0d": {
-    "text": "What does ICT stand for in the school curriculum?",
+    "text": "സ്കൂൾ പാഠ്യപദ്ധതിയിലെ 'ICT' എന്നതിന്റെ പൂർണ്ണരൂപം എന്താണ്?",
     "options": [
-      "Information and Communication Technology",
-      "Indian Computer Terminal",
-      "Internet Communication Tool",
-      "Integrated Circuit Transmission"
+      "ഇൻഫർമേഷൻ ആൻഡ് കമ്മ്യൂണിക്കേഷൻ ടെക്നോളജി (Information and Communication Technology)",
+      "ഇന്ത്യൻ കമ്പ്യൂട്ടർ ടെർമിനൽ (Indian Computer Terminal)",
+      "ഇന്റർനെറ്റ് കമ്മ്യൂണിക്കേഷൻ ടൂൾ (Internet Communication Tool)",
+      "ഇന്റഗ്രേറ്റഡ് സർക്യൂട്ട് ട്രാൻസ്മിഷൻ (Integrated Circuit Transmission)"
     ]
   },
   "a6f81666-7783-4d12-abef-44e74a93a519": {
@@ -31824,115 +31824,115 @@
     ]
   },
   "f7a2fee0-c088-4799-a696-4be75ed7b3ff": {
-    "text": "What does CD stand for in optical storage discs?",
+    "text": "ഒപ്റ്റിക്കൽ സ്റ്റോറേജ് ഡിസ്കുകളിൽ 'CD' എന്നതിന്റെ പൂർണ്ണരൂപം എന്താണ്?",
     "options": [
-      "Compact Disc",
-      "Computer Data",
-      "Core Drive",
-      "Central Disk"
+      "കോംപാക്റ്റ് ഡിസ്ക് (Compact Disc)",
+      "കമ്പ്യൂട്ടർ ഡാറ്റ (Computer Data)",
+      "കോർ ഡ്രൈവ് (Core Drive)",
+      "സെൻട്രൽ ഡിസ്ക് (Central Disk)"
     ]
   },
   "c5b3bb38-a956-4062-9c6c-645e60202dfd": {
-    "text": "What does DVD stand for in optical video discs?",
+    "text": "വീഡിയോ ഡിസ്കുകളിൽ 'DVD' എന്നതിന്റെ പൂർണ്ണരൂപം എന്താണ്?",
     "options": [
-      "Digital Versatile Disc",
-      "Dynamic Video Drive",
-      "Direct Virtual Data",
-      "Digital Voice Device"
+      "ഡിജിറ്റൽ വേർസറ്റൈൽ ഡിസ്ക് (Digital Versatile Disc)",
+      "ഡൈനാമിക് വീഡിയോ ഡ്രൈവ് (Dynamic Video Drive)",
+      "ഡയറക്റ്റ് വെർച്വൽ ഡാറ്റ (Direct Virtual Data)",
+      "ഡിജിറ്റൽ വോയ്സ് ഡിവൈസ് (Digital Voice Device)"
     ]
   },
   "ab4dd318-f33c-4bb7-b716-6c985570f93f": {
-    "text": "What does USB stand for in computer port connectors?",
+    "text": "കമ്പ്യൂട്ടർ പോർട്ടുകളിൽ കാണുന്ന 'USB' എന്നതിന്റെ പൂർണ്ണരൂപം എന്താണ്?",
     "options": [
-      "Universal Serial Bus",
-      "Unified System Base",
-      "Universal Storage Bank",
-      "Unit Serial Board"
+      "യൂണിവേഴ്സൽ സീരിയൽ ബസ് (Universal Serial Bus)",
+      "യൂണിഫൈഡ് സിസ്റ്റം ബേസ് (Unified System Base)",
+      "യൂണിവേഴ്സൽ സ്റ്റോറേജ് ബാങ്ക് (Universal Storage Bank)",
+      "യൂണിറ്റ് സീരിയൽ ബോർഡ് (Unit Serial Board)"
     ]
   },
   "d17a7e57-3338-4948-8da8-0b4f121c36ea": {
-    "text": "What does LED stand for in display and lighting technology?",
+    "text": "ഡിസ്പ്ലേകളിലും ലൈറ്റിംഗിലും ഉപയോഗിക്കുന്ന 'LED' എന്നതിന്റെ പൂർണ്ണരൂപം എന്താണ്?",
     "options": [
-      "Light Emitting Diode",
-      "Liquid Electronic Display",
-      "Laser Energy Device",
-      "Linear Emission Detector"
+      "ലൈറ്റ് എമിറ്റിംഗ് ഡയോഡ് (Light Emitting Diode)",
+      "ലിക്വിഡ് ഇലക്ട്രോണിക് ഡിസ്പ്ലേ (Liquid Electronic Display)",
+      "ലേസർ എനർജി ഡിവൈസ് (Laser Energy Device)",
+      "ലീനിയർ എമിഷൻ ഡിറ്റക്ടർ (Linear Emission Detector)"
     ]
   },
   "3c1e86a9-60f6-4ebb-beb1-3f08ba89bd00": {
-    "text": "What does LCD stand for in flat-panel monitors?",
+    "text": "ഫ്ളാറ്റ് പാനൽ മോണിറ്ററുകളിലെ 'LCD' എന്നതിന്റെ പൂർണ്ണരൂപം എന്താണ്?",
     "options": [
-      "Liquid Crystal Display",
-      "Light Cathode Diode",
-      "Linear Crystal Device",
-      "Low Current Drive"
+      "ലിക്വിഡ് ക്രിസ്റ്റൽ ഡിസ്പ്ലേ (Liquid Crystal Display)",
+      "ലൈറ്റ് കാഥോഡ് ഡയോഡ് (Light Cathode Diode)",
+      "ലീനിയർ ക്രിസ്റ്റൽ ഡിവൈസ് (Linear Crystal Device)",
+      "ലോ കറന്റ് ഡ്രൈവ് (Low Current Drive)"
     ]
   },
   "04900860-347c-4ab0-8fe9-b4eacc81b477": {
-    "text": "Which key on the keyboard jumps the text cursor immediately to the beginning of the current line?",
+    "text": "ടൈപ്പ് ചെയ്യുമ്പോൾ ടെക്സ്റ്റ് കർസറിനെ നിലവിലുള്ള വരിയുടെ തുടക്കത്തിലേക്ക് മാറ്റാൻ അമർത്തേണ്ട കീ ഏതാണ്?",
     "options": [
-      "Home key",
-      "End key",
-      "Page Up key",
-      "Insert key"
+      "Home കീ",
+      "End കീ",
+      "Page Up കീ",
+      "Insert കീ"
     ]
   },
   "c56d14bf-8254-4be3-af3a-8b7ced18e01b": {
-    "text": "Which key moves the text cursor immediately to the end of the current line?",
+    "text": "ടെക്സ്റ്റ് കർസറിനെ നിലവിലുള്ള വരിയുടെ ഏറ്റവും അവസാനത്തിലേക്ക് മാറ്റാൻ അമർത്തേണ്ട കീ ഏതാണ്?",
     "options": [
-      "End key",
-      "Home key",
-      "Page Down key",
-      "Tab key"
+      "End കീ",
+      "Home കീ",
+      "Page Down കീ",
+      "Tab കീ"
     ]
   },
   "15f09283-d791-4e40-bf67-773514cbc84f": {
-    "text": "Which key combination captures a screenshot of the entire computer screen to the clipboard or Pictures folder?",
+    "text": "കമ്പ്യൂട്ടർ സ്ക്രീനിന്റെ പൂർണ്ണ ചിത്രം (Screenshot) പകർത്താൻ ഉപയോഗിക്കുന്ന കീ ഏതാണ്?",
     "options": [
       "Print Screen (PrtSc)",
-      "Ctrl + P (Print)",
+      "Ctrl + P",
       "Alt + F4",
       "Ctrl + S"
     ]
   },
   "a273b9b7-f34f-492d-96f7-16b16a7ebbb5": {
-    "text": "Which keyboard shortcut closes the currently active application window immediately?",
+    "text": "തുറന്നുവെച്ചിരിക്കുന്ന ആപ്ലിക്കേഷൻ വിൻഡോ തൽക്ഷണം ക്ലോസ് ചെയ്യാൻ ഉപയോഗിക്കുന്ന കീബോർഡ് ഷോർട്ട്കട്ട് ഏതാണ്?",
     "options": [
       "Alt + F4",
       "Ctrl + S",
       "Ctrl + Z",
-      "F1 (Help)"
+      "F1"
     ]
   },
   "4b39c49f-ba06-452c-86c6-8212569958e5": {
-    "text": "Which function key is universally used to open the Help menu in most applications?",
+    "text": "മിക്ക ആപ്ലിക്കേഷനുകളിലും സഹായ വിവരങ്ങൾ (Help menu) ലഭ്യമാക്കാൻ പൊതുവായി ഉപയോഗിക്കുന്ന ഫംഗ്ഷൻ കീ ഏതാണ്?",
     "options": [
-      "F1 (Help)",
+      "F1",
       "F2",
-      "F5 (Slide Show)",
+      "F5",
       "F12"
     ]
   },
   "95d29bcb-1727-4b66-82fa-7257f0753f6e": {
-    "text": "Which key on the keyboard reloads or refreshes the active web page in a browser?",
+    "text": "വെബ് ബ്രൗസറിൽ നിലവിലുള്ള വെബ് പേജ് റീലോഡ് ചെയ്യാനും പുതുക്കാനും (Refresh) ഉപയോഗിക്കുന്ന കീ ഏതാണ്?",
     "options": [
-      "F5 (or Ctrl + R)",
-      "F1 (Help)",
+      "F5 (അല്ലെങ്കിൽ Ctrl + R)",
+      "F1",
       "F3",
       "Esc"
     ]
   },
   "94169f3b-2d34-4da7-ad50-eb7e13fb8b4e": {
-    "text": "What keyboard shortcut is used to search and Find words inside a document or web page?",
+    "text": "ഒരു ഡോക്യുമെന്റിലോ വെബ് പേജിലോ ഉള്ള നിർദ്ദിഷ്ട വാക്കുകൾ തിരഞ്ഞുപിടിക്കാൻ (Find) ഉപയോഗിക്കുന്ന കീബോർഡ് ഷോർട്ട്കട്ട് ഏതാണ്?",
     "options": [
       "Ctrl + F",
       "Ctrl + S",
-      "Ctrl + P (Print)",
-      "Ctrl + N (New)"
+      "Ctrl + P",
+      "Ctrl + N"
     ]
   },
   "e9f032ad-5e63-4612-9cf5-e1cf02b6f483": {
-    "text": "What keyboard shortcut opens the Find and Replace dialog in LibreOffice Writer?",
+    "text": "ലിബ്രെഓഫീസ് റൈറ്ററിൽ 'ഫൈൻഡ് ആൻഡ് റീപ്ലേസ്' (Find and Replace) ഡയലോഗ് ബോക്സ് തുറക്കാൻ ഉപയോഗിക്കുന്ന കീബോർഡ് ഷോർട്ട്കട്ട് ഏതാണ്?",
     "options": [
       "Ctrl + H",
       "Ctrl + F",
@@ -31941,7 +31941,7 @@
     ]
   },
   "635ca08d-44bc-44f8-a278-09027753397d": {
-    "text": "In LibreOffice Calc, which formula correctly adds the values of cells from A1 to A5?",
+    "text": "ലിബ്രെഓഫീസ് കാൽക്കിൽ A1 മുതൽ A5 വരെയുള്ള സെല്ലുകളിലെ സംഖ്യകൾ കൃത്യമായി കൂട്ടാൻ (Add) ഉപയോഗിക്കുന്ന ഫോർമുല ഏതാണ്?",
     "options": [
       "=SUM(A1:A5)",
       "=ADD(A1:A5)",
@@ -31950,7 +31950,7 @@
     ]
   },
   "092d92b4-1ef0-4eba-86b7-68d29a4df20f": {
-    "text": "In LibreOffice Calc, which formula calculates the mathematical average of cells B1 through B10?",
+    "text": "ലിബ്രെഓഫീസ് കാൽക്കിൽ B1 മുതൽ B10 വരെയുള്ള സെല്ലുകളിലെ സംഖ്യകളുടെ ശരാശരി (Average) കാണാനുള്ള ഫോർമുല ഏതാണ്?",
     "options": [
       "=AVERAGE(B1:B10)",
       "=MEAN(B1:B10)",
@@ -31959,7 +31959,7 @@
     ]
   },
   "4606c115-8107-44fc-b4f1-9d38ba18fbb1": {
-    "text": "In LibreOffice Calc, which formula finds the largest numeric value in the cell range C1 to C20?",
+    "text": "ലിബ്രെഓഫീസ് കാൽക്കിൽ C1 മുതൽ C20 വരെയുള്ള സെല്ലുകളിൽ ഏറ്റവും വലിയ സംഖ്യ കണ്ടെത്താനുള്ള ഫോർമുല ഏതാണ്?",
     "options": [
       "=MAX(C1:C20)",
       "=HIGHEST(C1:C20)",
@@ -31968,7 +31968,7 @@
     ]
   },
   "4f0e1e39-8479-4bdd-be56-9b3a0c150ce9": {
-    "text": "In LibreOffice Calc, which formula finds the smallest numeric value in the cell range D1 to D15?",
+    "text": "ലിബ്രെഓഫീസ് കാൽക്കിൽ D1 മുതൽ D15 വരെയുള്ള സെല്ലുകളിൽ ഏറ്റവും ചെറിയ സംഖ്യ കണ്ടെത്താനുള്ള ഫോർമുല ഏതാണ്?",
     "options": [
       "=MIN(D1:D15)",
       "=LOWEST(D1:D15)",
@@ -31977,43 +31977,43 @@
     ]
   },
   "f42e5c0e-a8aa-4f67-8901-44218e3e2228": {
-    "text": "In LibreOffice Calc, what symbol is used as the arithmetic operator for multiplication in formulas?",
+    "text": "ലിബ്രെഓഫീസ് കാൽക്ക് ഫോർമുലകളിൽ ഗുണനക്രിയയ്ക്ക് (Multiplication) ഉപയോഗിക്കുന്ന ചിഹ്നം ഏതാണ്?",
     "options": [
-      "* (Asterisk)",
-      "x (Letter x)",
-      "# (Hash)",
-      "^ (Caret)"
+      "* (ആസ്റ്ററിസ്ക് / Asterisk)",
+      "x (അക്ഷരം x)",
+      "# (ഹാഷ്)",
+      "^ (കാരറ്റ്)"
     ]
   },
   "6cf6fb39-f9b4-4cea-9773-397d5845b85f": {
-    "text": "In LibreOffice Calc, what symbol is used as the operator for division in formulas?",
+    "text": "ലിബ്രെഓഫീസ് കാൽക്ക് ഫോർമുലകളിൽ ഹരണക്രിയയ്ക്ക് (Division) ഉപയോഗിക്കുന്ന ചിഹ്നം ഏതാണ്?",
     "options": [
-      "/ (Forward slash)",
-      "\\ (Backslash)",
-      "÷ (Division symbol)",
-      "% (Percent)"
+      "/ (ഫോർവേഡ് സ്ലാഷ്)",
+      "\\ (ബാക്ക്സ്ലാഷ്)",
+      "÷ (ഹരണ ചിഹ്നം)",
+      "% (ശതമാനം)"
     ]
   },
   "9b83ed7e-91c3-42cb-872b-ed3d6205980b": {
-    "text": "In LibreOffice Impress, what is each individual page of a presentation containing text and pictures called?",
+    "text": "ലിബ്രെഓഫീസ് ഇംപ്രസ്സിൽ ടെക്സ്റ്റും ചിത്രങ്ങളും അടങ്ങിയ പ്രസന്റേഷന്റെ ഓരോ പേജിനും എന്താണ് പറയുന്നത്?",
     "options": [
-      "Slide",
-      "Sheet",
-      "Document",
-      "Canvas"
+      "സ്ലൈഡ് (Slide)",
+      "ഷീറ്റ് (Sheet)",
+      "ഡോക്യുമെന്റ് (Document)",
+      "ക്യാൻവാസ് (Canvas)"
     ]
   },
   "6c9b3733-fc84-439a-bd9f-13bb9a795e63": {
-    "text": "In LibreOffice Impress, what visual effect occurs when transitioning smoothly from one slide to the next?",
+    "text": "ലിബ്രെഓഫീസ് ഇംപ്രസ്സിൽ ഒരു സ്ലൈഡിൽ നിന്ന് അടുത്ത സ്ലൈഡിലേക്ക് സുഗമമായി മാറുന്ന വിഷ്വൽ ഇഫക്റ്റിന് എന്താണ് പറയുന്നത്?",
     "options": [
-      "Slide Transition",
-      "Formula",
-      "Hyperlink",
-      "Sorting"
+      "സ്ലൈഡ് ട്രാൻസിഷൻ (Slide Transition)",
+      "ഫോർമുല (Formula)",
+      "ഹൈപ്പർലിങ്ക് (Hyperlink)",
+      "സോർട്ടിംഗ് (Sorting)"
     ]
   },
   "eaff3260-1b79-427d-82a4-57da928cdd15": {
-    "text": "In Scratch, which event block triggers code when the user presses the spacebar on the keyboard?",
+    "text": "സ്ക്രാച്ചിൽ കീബോർഡിലെ സ്പേസ്ബാർ അമർത്തുമ്പോൾ പ്രോഗ്രാം പ്രവർത്തിപ്പിക്കാൻ ഉപയോഗിക്കുന്ന ഇവന്റ് ബ്ലോക്ക് ഏതാണ്?",
     "options": [
       "when [space] key pressed",
       "when green flag clicked",
@@ -32022,7 +32022,7 @@
     ]
   },
   "68e4866d-ed01-4801-a30e-520bd5a6d47f": {
-    "text": "In Scratch, which block makes a sprite display a speech bubble containing text for a specific number of seconds?",
+    "text": "സ്ക്രാച്ചിൽ ഒരു നിശ്ചിത സെക്കൻഡ് നേരത്തേക്ക് സ്പ്രൈറ്റിന് സംഭാഷണ ബബിൾ കാണിക്കാൻ ഉപയോഗിക്കുന്ന ബ്ലോക്ക് ഏതാണ്?",
     "options": [
       "say [Hello!] for [2] seconds",
       "think [Hmm] for [2] seconds",
@@ -32031,7 +32031,7 @@
     ]
   },
   "caf1afb3-a7ab-4be3-8055-99f5f7eb6f2e": {
-    "text": "In Scratch, which Control block halts script execution for a specified duration before continuing to the next block?",
+    "text": "സ്ക്രാച്ചിൽ അടുത്ത ഘട്ടത്തിലേക്ക് കടക്കുന്നതിന് മുമ്പ് നിശ്ചിത സമയം കാത്തുനിൽക്കാൻ നിർദ്ദേശിക്കുന്ന ബ്ലോക്ക് ഏതാണ്?",
     "options": [
       "wait [1] seconds",
       "stop all",
@@ -32040,7 +32040,7 @@
     ]
   },
   "c48e0f93-3fcb-4af9-b1b6-45a3879bf512": {
-    "text": "In Scratch, which block in Looks switches the sprite to its next animation frame in the list?",
+    "text": "സ്ക്രാച്ചിൽ സ്പ്രൈറ്റിന്റെ അടുത്ത രൂപത്തിലേക്ക് മാറ്റാൻ ലുക്ക്സിലുള്ള ബ്ലോക്ക് ഏതാണ്?",
     "options": [
       "next costume",
       "switch backdrop",
@@ -32049,7 +32049,7 @@
     ]
   },
   "f2e34416-1ea4-483e-930c-4da24115bcc6": {
-    "text": "In Scratch, which block makes a hidden sprite become visible on the Stage?",
+    "text": "സ്ക്രാച്ചിൽ മറഞ്ഞിരിക്കുന്ന ഒരു സ്പ്രൈറ്റിനെ സ്റ്റേജിൽ കാണുന്ന രൂപത്തിലാക്കാൻ ഉപയോഗിക്കുന്ന ബ്ലോക്ക് ഏതാണ്?",
     "options": [
       "show",
       "hide",
@@ -32058,7 +32058,7 @@
     ]
   },
   "5fe2661a-fef8-4dd1-b41a-4a1c58563509": {
-    "text": "In Scratch, which block makes a visible sprite disappear from the Stage canvas without deleting it?",
+    "text": "സ്ക്രാച്ചിൽ ഡിലീറ്റ് ചെയ്യാതെ തന്നെ ഒരു സ്പ്രൈറ്റിനെ താല്ക്കാലികമായി സ്റ്റേജിൽ നിന്ന് അദൃശ്യമാക്കാൻ ഉപയോഗിക്കുന്ന ബ്ലോക്ക് ഏതാണ്?",
     "options": [
       "hide",
       "show",
@@ -32067,7 +32067,7 @@
     ]
   },
   "867e618d-3d0a-440e-b878-70ede72779f0": {
-    "text": "In Scratch, what block resets all pen drawings drawn on the Stage?",
+    "text": "സ്ക്രാച്ചിൽ പെൻ ഉപയോഗിച്ച് സ്റ്റേജിൽ വരച്ച എല്ലാ വരകളും മായ്ച്ചുകളയാൻ ഉപയോഗിക്കുന്ന ബ്ലോക്ക് ഏതാണ്?",
     "options": [
       "erase all",
       "pen up",
@@ -32076,7 +32076,7 @@
     ]
   },
   "aeb4e9e4-1286-4cf9-a113-fee091d84923": {
-    "text": "In Scratch, which block lowers the pen onto the stage so the sprite leaves a drawing trail as it moves?",
+    "text": "സ്ക്രാച്ചിൽ സ്പ്രൈറ്റ് ചലിക്കുമ്പോൾ പിന്നിൽ വര വീഴുന്നതിനായി പേന സ്റ്റേജിൽ മുട്ടിക്കാൻ ഉപയോഗിക്കുന്ന ബ്ലോക്ക് ഏതാണ്?",
     "options": [
       "pen down",
       "pen up",
@@ -32085,7 +32085,7 @@
     ]
   },
   "4730edf6-118a-47f1-a28f-77bbca7c3d53": {
-    "text": "In Scratch, which block lifts the pen off the stage so moving the sprite leaves no line trail?",
+    "text": "സ്ക്രാച്ചിൽ വര വീഴാതെ സ്പ്രൈറ്റിനെ മാത്രം മുന്നോട്ട് മാറ്റാൻ പേന ഉയർത്തിപ്പിടിക്കാൻ ഉപയോഗിക്കുന്ന ബ്ലോക്ക് ഏതാണ്?",
     "options": [
       "pen up",
       "pen down",
@@ -32094,16 +32094,16 @@
     ]
   },
   "de153ece-912d-4843-81f9-3dea862f3c45": {
-    "text": "What free, multilingual online encyclopedia is widely accessed for school project research?",
+    "text": "സ്കൂൾ പ്രോജക്റ്റുകൾക്കും ഗവേഷണങ്ങൾക്കും ധാരാളമായി ഉപയോഗിക്കുന്ന സ്വതന്ത്ര ബഹുഭാഷാ ഓൺലൈൻ സർവ്വവിജ്ഞാനകോശം ഏതാണ്?",
     "options": [
-      "Wikipedia",
-      "Google Chrome",
-      "VLC",
-      "LibreOffice"
+      "വിക്കിപീഡിയ (Wikipedia)",
+      "ഗൂഗിൾ ക്രോം (Google Chrome)",
+      "വിഎൽസി (VLC)",
+      "ലിബ്രെഓഫീസ് (LibreOffice)"
     ]
   },
   "17c3287f-f767-4fc9-935b-6031899dcc41": {
-    "text": "What prefix protocol at the beginning of a web address indicates that data between browser and website is securely encrypted?",
+    "text": "ബ്രൗസറും വെബ്‌സൈറ്റും തമ്മിലുള്ള വിവരവിനിമയം എൻക്രിപ്റ്റ് ചെയ്തതും സുരക്ഷിതവുമാണെന്ന് വ്യക്തമാക്കുന്ന വെബ് വിലാസ പ്രോട്ടോക്കോൾ ഏതാണ്?",
     "options": [
       "https://",
       "http://",
@@ -32112,39 +32112,39 @@
     ]
   },
   "6e338a0a-1d14-4f11-b759-15026af3db94": {
-    "text": "What symbol shown next to the website address in a browser indicates an authentic and encrypted SSL connection?",
+    "text": "വെബ് ബ്രൗസറിൽ വെബ് വിലാസത്തിന് സമീപം സുരക്ഷിതമായ SSL എൻക്രിപ്ഷൻ കണക്ഷനെ കാണിക്കുന്ന ചിഹ്നം ഏതാണ്?",
     "options": [
-      "Padlock (Lock) icon",
-      "Question mark",
-      "Red warning triangle",
-      "Star icon"
+      "പൂട്ടിയ പൂട്ടിന്റെ ചിഹ്നം (Padlock icon)",
+      "ചോദ്യചിഹ്നം",
+      "ചുവപ്പ് മുന്നറിയിപ്പ് ത്രികോണം",
+      "നക്ഷത്ര ചിഹ്നം"
     ]
   },
   "3fecacfc-6917-4ed4-aef4-afa5ef737cb0": {
-    "text": "What feature in web browsers allows users to save and quickly revisit their favorite educational websites?",
+    "text": "നമുക്ക് ഇഷ്ടപ്പെട്ടതും പതിവായി ആവശ്യമുള്ളതുമായ വെബ് പേജുകൾ സൂക്ഷിച്ചുവെക്കാനും വേഗത്തിൽ സന്ദർശിക്കാനും ബ്രൗസറുകളിലുള്ള സംവിധാനം ഏതാണ്?",
     "options": [
-      "Bookmarks (Favorites)",
-      "History",
-      "Downloads",
-      "Extensions"
+      "ബുക്ക്മാർക്കുകൾ (Bookmarks / Favorites)",
+      "ഹിസ്റ്ററി (History)",
+      "ഡൗൺലോഡ്സ് (Downloads)",
+      "എക്സ്റ്റൻഷനുകൾ (Extensions)"
     ]
   },
   "5330ab2d-b7b6-4d69-930f-89029ec7b914": {
-    "text": "Why is it important to regularly save work (Ctrl+S) while writing an assignment on a desktop computer?",
+    "text": "കമ്പ്യൂട്ടറിൽ പ്രവർത്തിക്കുമ്പോൾ കൃത്യമായ ഇടവേളകളിൽ സേവ് (Ctrl+S) ചെയ്യേണ്ടത് പ്രധാനമായിരിക്കുന്നത് എന്തുകൊണ്ടാണ്?",
     "options": [
-      "To avoid losing typed text in case of sudden power cuts or system shutdown",
-      "To make the text look bolder",
-      "To speed up internet connection",
-      "To delete temporary files"
+      "വൈദ്യുതി തടസ്സമോ സിസ്റ്റം ഓഫാകലോ ഉണ്ടായാൽ ചെയ്ത വിവരങ്ങൾ നഷ്ടപ്പെടാതിരിക്കാൻ",
+      "അക്ഷരങ്ങൾക്ക് കൂടുതൽ കട്ടി നൽകാൻ",
+      "ഇന്റർനെറ്റ് വേഗത വർദ്ധിപ്പിക്കാൻ",
+      "താല്ക്കാലിക ഫയലുകൾ ഒഴിവാക്കാൻ"
     ]
   },
   "e096641d-b5e2-4363-b003-84efce2b7396": {
-    "text": "What does clicking the Log Out or Sign Out button after checking email on a school computer ensure?",
+    "text": "സ്കൂളിലെ പൊതു കമ്പ്യൂട്ടറിൽ ഇമെയിൽ ഉപയോഗിച്ച ശേഷം 'Log Out' അല്ലെങ്കിൽ 'Sign Out' ചെയ്യുന്നത് എന്തിനാണ് ഉറപ്പുവരുത്തുന്നത്?",
     "options": [
-      "Prevents unauthorized people from accessing your personal account",
-      "Deletes all received emails",
-      "Turns off the internet connection",
-      "Uninstalls the web browser"
+      "അനുവാദമില്ലാത്ത വ്യക്തികൾ നിങ്ങളുടെ വ്യക്തിഗത അക്കൗണ്ട് ദുരുപയോഗം ചെയ്യുന്നത് തടയാൻ",
+      "ലഭിച്ച എല്ലാ ഇമെയിലുകളും ഡിലീറ്റ് ചെയ്യാൻ",
+      "ഇന്റർനെറ്റ് കണക്ഷൻ വിച്ഛേദിക്കാൻ",
+      "ബ്രൗസർ അൺഇൻസ്റ്റാൾ ചെയ്യാൻ"
     ]
   },
   "4c5c4488-d33c-4cb2-998d-10f15ef4af20": {
@@ -35397,12 +35397,12 @@
     ]
   },
   "ffa6f79e-8cb3-44a0-aad6-c25a36bf0ff9": {
-    "text": "Which of the following consumes more electrical energy: a 250 W TV set operated for 1 hour or a 1200 W toaster operated for 10 minutes (1/6 hour)?",
+    "text": "താഴെ പറയുന്നവയിൽ ഏതാണ് കൂടുതൽ വൈദ്യുതോർജ്ജം ഉപയോഗിക്കുന്നത്: 1 മണിക്കൂർ പ്രവർത്തിപ്പിച്ച 250 W ടിവി സെറ്റോ, അതോ 10 മിനിറ്റ് (1/6 മണിക്കൂർ) പ്രവർത്തിപ്പിച്ച 1200 W ടോസ്റ്ററോ?",
     "options": [
-      "The 250 W TV set consumes more energy",
-      "The 1200 W toaster consumes more energy",
-      "Both consume exactly the same energy",
-      "Cannot be determined without voltage"
+      "250 W ടിവി സെറ്റ് കൂടുതൽ ഊർജ്ജം ഉപയോഗിക്കുന്നു (250 Wh > 200 Wh)",
+      "1200 W ടോസ്റ്റർ കൂടുതൽ ഊർജ്ജം ഉപയോഗിക്കുന്നു",
+      "രണ്ടും തുല്യ അളവിലാണ് ഊർജ്ജം ഉപയോഗിക്കുന്നത്",
+      "വോൾട്ടേജ് അറിയാതെ കണക്കാക്കാൻ കഴിയില്ല"
     ]
   },
   "a99556cd-cc9b-42cd-bc0e-37da59f6a07e": {
@@ -35604,7 +35604,7 @@
     ]
   },
   "7e64f3a6-55e4-4019-b430-59f230592fff": {
-    "text": "What is the output of the following Python statement?\\n\\nprint(17 // 5)",
+    "text": "താഴെ കൊടുത്തിരിക്കുന്ന പൈത്തൺ കോഡിന്റെ ഔട്ട്പുട്ട് എന്തായിരിക്കും?\n\nprint(17 // 5)",
     "options": [
       "3",
       "3.4",
@@ -35613,7 +35613,7 @@
     ]
   },
   "c10168f3-af5a-484b-9d42-3c74ae953430": {
-    "text": "What will the following Python code display on the screen?\\n\\na = 5\\nb = 10\\nif a > 3 and b < 15:\\n    print('MATCH')\\nelse:\\n    print('NO')",
+    "text": "താഴെ നൽകിയിരിക്കുന്ന പൈത്തൺ കോഡ് സ്ക്രീനിൽ എന്താണ് പ്രദർശിപ്പിക്കുന്നത്?\n\na = 5\nb = 10\nif a > 3 and b < 15:\n    print('MATCH')\nelse:\n    print('NO')",
     "options": [
       "MATCH",
       "NO",
@@ -35640,7 +35640,7 @@
     ]
   },
   "61b8f348-6728-4aaa-abf9-acd07cb8257e": {
-    "text": "What will be the final output of this Python code?\\n\\nx = 2\\nwhile x < 8:\\n    x += 3\\nprint(x)",
+    "text": "താഴെ നൽകിയിരിക്കുന്ന പൈത്തൺ കോഡിന്റെ അന്തിമ ഔട്ട്പുട്ട് എന്തായിരിക്കും?\n\nx = 2\nwhile x < 8:\n    x += 3\nprint(x)",
     "options": [
       "8",
       "7",
@@ -35649,7 +35649,7 @@
     ]
   },
   "bedf6414-1926-4006-b2ed-ed0554e0642d": {
-    "text": "What is the output of the following Python expression?\\n\\nprint(2 ** 3)",
+    "text": "താഴെ കൊടുത്തിരിക്കുന്ന പൈത്തൺ എക്സ്പ്രഷന്റെ ഫലം എന്തായിരിക്കും?\n\nprint(2 ** 3)",
     "options": [
       "8",
       "6",
@@ -35658,7 +35658,7 @@
     ]
   },
   "54f5df52-11d9-4753-b54f-3e8fa6144c64": {
-    "text": "What is the output of this Python program?\\n\\ntotal = 0\\nfor n in [2, 5, 3]:\\n    total += n\\nprint(total)",
+    "text": "താഴെ നൽകിയിരിക്കുന്ന പൈത്തൺ പ്രോഗ്രാമിന്റെ ഔട്ട്പുട്ട് എന്താണ്?\n\ntotal = 0\nfor n in [2, 5, 3]:\n    total += n\nprint(total)",
     "options": [
       "10",
       "30",
@@ -35667,7 +35667,7 @@
     ]
   },
   "f6cbe060-6b69-4632-9d3a-c8731ee0fdd0": {
-    "text": "What will be the result of executing this Python code?\\n\\ntext = 'ROBOT'\\nprint(text[0] + text[-1])",
+    "text": "താഴെ നൽകിയിരിക്കുന്ന പൈത്തൺ കോഡ് പ്രവർത്തിപ്പിക്കുമ്പോൾ ലഭിക്കുന്ന ഫലം എന്തായിരിക്കും?\n\ntext = 'ROBOT'\nprint(text[0] + text[-1])",
     "options": [
       "RT",
       "ROBOT",
@@ -35676,7 +35676,7 @@
     ]
   },
   "cdf93020-3bb3-41ef-87da-d40a38eaf0ac": {
-    "text": "What is the output of the following code in Python?\\n\\nx = 15\\nif x % 2 == 0:\\n    print('EVEN')\\nelse:\\n    print('ODD')",
+    "text": "താഴെ നൽകിയിരിക്കുന്ന പൈത്തൺ കോഡിന്റെ ഔട്ട്പുട്ട് എന്താണ്?\n\nx = 15\nif x % 2 == 0:\n    print('EVEN')\nelse:\n    print('ODD')",
     "options": [
       "ODD",
       "EVEN",
@@ -35685,7 +35685,7 @@
     ]
   },
   "1d1ed0b0-2bae-41d9-be23-96861de6dbea": {
-    "text": "What will be printed by the following Python program?\\n\\nitems = ['LED', 'Buzzer', 'LDR']\\nitems.append('Sensor')\\nprint(len(items))",
+    "text": "താഴെ നൽകിയിരിക്കുന്ന പൈത്തൺ പ്രോഗ്രാം പ്രവർത്തിപ്പിക്കുമ്പോൾ സ്ക്രീനിൽ എന്താണ് പ്രിന്റ് ചെയ്യുന്നത്?\n\nitems = ['LED', 'Buzzer', 'LDR']\nitems.append('Sensor')\nprint(len(items))",
     "options": [
       "4",
       "3",
